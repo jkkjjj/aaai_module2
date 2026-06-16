@@ -1,0 +1,1010 @@
+
+--- STARTING EVALUATION ---
+Game: ztuu, Agent LLM Model: gpt-oss-20b
+Agent Type: our, Runs for statistics: 10
+Base Seed for evaluation session: 0
+Episode logs and summary will be in: output/ztuu/our/gpt-oss-20b/20260616-062030
+
+Starting game run 1/10...
+Using initial prompt and code: 'Explore systematically and examine objects to make progress.'
+
+def extract_state(game_history):
+    return "Game in progress."
+
+[STEP 0] | It is with great hope and expectation I send you on this mission," the || Action: northeast                 || Reward: 0, Score: 0
+[STEP 1] | as you enter the tunnel, you feel a slight rumble beneath your crepe-s || Action: look                      || Reward: 0, Score: 0
+[STEP 2] |  tunnel you are in a narrow tunnel whose entrance has been blocked by  || Action: northeast                 || Reward: 0, Score: 0
+[STEP 3] |  cultural complex this imposing ante-room, the center of what was appa || Action: north                     || Reward: 0, Score: 0
+[STEP 4] |  convention center lobby you are standing at the entrance of the gue c || Action: north                     || Reward: 0, Score: 0
+[STEP 5] | as you start to enter, a large, brutish figure grabs you by the scruff || Action: look                      || Reward: 0, Score: 0
+[STEP 6] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 7] |  convention center lobby you are standing at the entrance of the gue c || Action: examine sign              || Reward: 0, Score: 0
+[STEP 8] | the sign, written sloppily in red ink (well, you hope it's ink), says, || Action: look                      || Reward: 0, Score: 0
+[STEP 9] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 10] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 11] |  convention center lobby you are standing at the entrance of the gue c || Action: examine stand             || Reward: 0, Score: 0
+[STEP 12] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 0
+[STEP 13] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 14] |  convention center lobby you are standing at the entrance of the gue c || Action: give lantern              || Reward: 0, Score: 0
+[STEP 15] | (to yourself) you juggle the brass lantern for a while, but don't achi || Action: examine figure            || Reward: 0, Score: 0
+[STEP 16] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 0
+[STEP 17] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 18] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 19] |  convention center lobby you are standing at the entrance of the gue c || Action: examine bouncer           || Reward: 0, Score: 0
+[STEP 20] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 0
+[STEP 21] |  convention center lobby you are standing at the entrance of the gue c || Action: give lantern to bouncer   || Reward: 0, Score: 0
+[STEP 22] | you can only do that to something animate.                             || Action: look                      || Reward: 0, Score: 0
+[STEP 23] |  convention center lobby you are standing at the entrance of the gue c || Action: give lantern to guard     || Reward: 0, Score: 0
+[STEP 24] | you can only do that to something animate.                             || Action: look                      || Reward: 0, Score: 0
+[STEP 25] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 26] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 27] |  convention center lobby you are standing at the entrance of the gue c || Action: give lantern to man       || Reward: 0, Score: 0
+[STEP 28] | you can only do that to something animate.                             || Action: look                      || Reward: 0, Score: 0
+[STEP 29] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 30] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 31] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 32] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 33] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 34] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 35] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 36] |  convention center lobby you are standing at the entrance of the gue c || Action: examine door              || Reward: 0, Score: 0
+[STEP 37] | the door leads north.  the lantern flickers and goes out.  it is now p || Action: search stand              || Reward: 0, Score: 0
+[STEP 38] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 0
+[STEP 39] |  darkness it's pitch black. you are likely to be eaten by a grue.      || Action: search                    || Reward: 0, Score: 0
+[STEP 40] | what do you want to search?                                            || Action: search floor              || Reward: 0, Score: 0
+[STEP 41] | but it's dark.                                                         || Action: look                      || Reward: 0, Score: 0
+[OurAgent] New best score 0 at node 0.
+Run 1/10 finished. Score: 0
+
+--- EVALUATION SUMMARY (our method) ---
+Agent LLM Model: gpt-oss-20b
+Number of final evaluation runs: 10
+Individual Scores: [0]
+Average Score: 0.00
+Standard Deviation: 0.00
+
+Starting game run 2/10...
+[DACS] enabled=True game=ztuu
+[DACS] num raw candidates = 1 archived=0
+[DACS] num filtered candidates = 1
+[DACS] selected/reordered candidate ids = [0]
+[DACS] candidate score table:
+  id | relevance | diversity | risk | final_score | summary
+  0 | 0.103 | 1.0 | 0.004 | 0.601 | Explore systematically and examine objects to make progress.
+[DACS] fallback=False
+Parent node 0 at depth 0 with UCB score: 0.8325546111576977
+
+Evolving prompt. Current prompt: 'Explore systematically and examine objects to make progress....'
+
+Current state extractor code: '
+def extract_state(game_history):
+    return "Game in progress."
+...'
+
+
+Evolution LLM returned invalid state extractor code, keeping current code
+Evolved guiding prompt and code: '**Guiding Prompt**  
+1. **Move out of the entrance** – from the tunnel entrance go **north or northeast**.  
+2. **If the tunnel is blocked** – keep moving **northeast** until you reach the next area.  
+3. **When the cultural complex appears** – go **north** into the **convention center lobby**.  
+4. In the lobby:  
+   * **Examine the sign** – read any text that may give a hint.  
+   * **Search the souvenir stand** – look for useful items, especially a **match** or a light source.  
+5. **Keep the lantern lit** – if it flickers or goes out, **search the floor for a match** *before* doing anything else.  
+6. **Give the lantern** to the **guard/bouncer** (use “give lantern to guard” or “give lantern to bouncer”).  
+7. **Move north** through the open door.  
+8. **After each action** check your **inventory** and confirm the lantern is still on.  
+9. **Avoid repetitive actions** – do not “look”, “search”, or “examine” the same object over and over without new information.  
+10. **If progress stalls** – list other rooms mentioned in the description (e.g., hall of science, royal theater) and try moving to them.  
+11. **Systematically interact** with all objects, NPCs, and inventory items; keep a mental note of what you own.  
+
+**State Extractor**  
+```python
+def extract_state(game_history):
+    gh = game_history.lower()
+    if "you died" in gh:
+        return "Reached convention center lobby; lantern extinguished; died."
+    if "the lantern flickers and goes out" in gh:
+        if "give lantern" in gh:
+            return "Reached lobby; attempted to give lantern; lantern extinguished."
+        else:
+            return "Reached lobby; lantern extinguished."
+    if "give lantern to guard" in gh or "give lantern to bouncer" in gh:
+        return "Reached lobby; attempted to give lantern."
+    if "you are standing at the entrance of the gue convention center" in gh:
+        return "Reached convention center lobby."
+    if "you are standing at the entrance of a narrow tunnel" in gh:
+        return "Entered tunnel."
+    return "Game in progress."
+```'
+
+def extract_state(game_history):
+    return "Game in progress."
+
+[STEP 0] | It is with great hope and expectation I send you on this mission," the || Action: northeast                 || Reward: 0, Score: 0
+[STEP 1] | as you enter the tunnel, you feel a slight rumble beneath your crepe-s || Action: northeast                 || Reward: 0, Score: 0
+[STEP 2] |  cultural complex this imposing ante-room, the center of what was appa || Action: north                     || Reward: 0, Score: 0
+[STEP 3] |  convention center lobby you are standing at the entrance of the gue c || Action: examine sign              || Reward: 0, Score: 0
+[STEP 4] | the sign, written sloppily in red ink (well, you hope it's ink), says, || Action: search stand              || Reward: 0, Score: 0
+[STEP 5] | you can't see any such thing.                                          || Action: examine stand             || Reward: 0, Score: 0
+[STEP 6] | you can't see any such thing.                                          || Action: search floor              || Reward: 0, Score: 0
+[STEP 7] | (the floor) you find nothing of interest.                              || Action: look                      || Reward: 0, Score: 0
+[STEP 8] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 9] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 10] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 11] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 12] |  convention center lobby you are standing at the entrance of the gue c || Action: light lantern             || Reward: 0, Score: 0
+[STEP 13] | the lantern is already on.                                             || Action: north                     || Reward: 0, Score: 0
+[STEP 14] | as you start to enter, a large, brutish figure grabs you by the scruff || Action: look                      || Reward: 0, Score: 0
+[STEP 15] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 16] |  convention center lobby you are standing at the entrance of the gue c || Action: give lantern to guard     || Reward: 0, Score: 0
+[STEP 17] | you can only do that to something animate.                             || Action: north                     || Reward: 0, Score: 0
+[STEP 18] | as you start to enter, a large, brutish figure grabs you by the scruff || Action: look                      || Reward: 0, Score: 0
+[STEP 19] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 20] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 21] |  convention center lobby you are standing at the entrance of the gue c || Action: give lantern to bouncer   || Reward: 0, Score: 0
+[STEP 22] | you can only do that to something animate.                             || Action: look                      || Reward: 0, Score: 0
+[STEP 23] |  convention center lobby you are standing at the entrance of the gue c || Action: give lantern              || Reward: 0, Score: 0
+[STEP 24] | (to yourself) you juggle the brass lantern for a while, but don't achi || Action: examine door              || Reward: 0, Score: 0
+[STEP 25] | the door leads north.                                                  || Action: drop lantern              || Reward: 0, Score: 0
+[STEP 26] | dropped.                                                               || Action: north                     || Reward: 0, Score: 0
+Run 2/10 finished. Score: 0
+
+--- EVALUATION SUMMARY (our method) ---
+Agent LLM Model: gpt-oss-20b
+Number of final evaluation runs: 10
+Individual Scores: [0, 0]
+Average Score: 0.00
+Standard Deviation: 0.00
+
+Starting game run 3/10...
+[DACS] enabled=True game=ztuu
+[DACS] num raw candidates = 2 archived=0
+[DACS] num filtered candidates = 2
+[DACS] selected/reordered candidate ids = [1, 0]
+[DACS] candidate score table:
+  id | relevance | diversity | risk | final_score | summary
+  1 | 0.385 | 1.0 | 0.106 | 0.811 | **Guiding Prompt**   1. **Move out of the entrance** – from the tunnel entrance 
+  0 | 0.03 | 0.919 | 0.004 | 0.486 | Explore systematically and examine objects to make progress.
+[DACS] fallback=False
+Parent node 1 at depth 1 with UCB score: 0.6660436889261582
+
+Evolving prompt. Current prompt: '**Guiding Prompt**  
+1. **Move out of the entrance** – from the tunnel entrance ...'
+
+Current state extractor code: '
+def extract_state(game_history):
+    return "Game in progress."
+...'
+
+
+Updated state extractor code successfully.
+Evolved guiding prompt and code: '**Improved Guiding Prompt**  
+1. From the tunnel entrance, move **northeast** until the tunnel widens.  
+2. When the cultural complex appears, move **north** into the convention center lobby.  
+3. In the lobby, **light** the lantern (if it is not already lit).  
+4. **Drop** the lantern at the open door on the north side.  
+5. Move **north** through the door.  
+6. If a guard or bouncer blocks you, **give** the lantern to that NPC.  
+7. Do **not** repeat *look*, *search*, or *examine* on the same object; if you get no new information, try a different action (e.g., move to another room).  
+8. If you are stuck, list any unvisited rooms mentioned in the description (e.g., hall of science, royal theater) and attempt to move to them.  
+9. Keep a mental note of what you own and whether the lantern is lit.  
+
+**State Extractor**'
+def extract_state(game_history):
+    gh = game_history.lower()
+    milestones = []
+    if "you are standing at the entrance of a narrow" in gh:
+        milestones.append("Entered tunnel")
+    if "you are standing at the entrance of the cultural complex" in gh:
+        milestones.append("Entered cultural complex")
+    if "you are standing at the entrance of the gue convention center" in gh:
+        milestones.append("Entered lobby")
+    if "the lantern is already on" in gh or "you light lantern" in gh:
+        milestones.append("Lantern lit")
+    if "drop lantern" in gh or "dropped" in gh:
+        milestones.append("Lantern dropped")
+    if "north" in gh and "you are standing at the entrance of the gue convention center" in gh:
+        if "you have died" in gh or "you died" in gh or "grue" in gh:
+            milestones.append("Attempted north; died")
+        else:
+            milestones.append("Attempted north")
+    return ", ".join(milestones) if milestones else "Unknown state."
+[STEP 0] | It is with great hope and expectation I send you on this mission," the || Action: northeast                 || Reward: 0, Score: 0
+[STEP 1] | as you enter the tunnel, you feel a slight rumble beneath your crepe-s || Action: northeast                 || Reward: 0, Score: 0
+[STEP 2] |  cultural complex this imposing ante-room, the center of what was appa || Action: north                     || Reward: 0, Score: 0
+[STEP 3] |  convention center lobby you are standing at the entrance of the gue c || Action: light lantern             || Reward: 0, Score: 0
+[STEP 4] | the lantern is already on.                                             || Action: drop lantern              || Reward: 0, Score: 0
+[STEP 5] | dropped.                                                               || Action: north                     || Reward: 0, Score: 0
+Run 3/10 finished. Score: 0
+
+--- EVALUATION SUMMARY (our method) ---
+Agent LLM Model: gpt-oss-20b
+Number of final evaluation runs: 10
+Individual Scores: [0, 0, 0]
+Average Score: 0.00
+Standard Deviation: 0.00
+
+Starting game run 4/10...
+[DACS] enabled=True game=ztuu
+[DACS] num raw candidates = 3 archived=0
+[DACS] num filtered candidates = 3
+[DACS] selected/reordered candidate ids = [2, 0, 1]
+[DACS] candidate score table:
+  id | relevance | diversity | risk | final_score | summary
+  2 | 0.25 | 1.0 | 0.096 | 0.683 | **Improved Guiding Prompt**   1. From the tunnel entrance, move **northeast** un
+  0 | 0.034 | 0.945 | 0.004 | 0.504 | Explore systematically and examine objects to make progress.
+  1 | 0.234 | 0.519 | 0.1 | 0.423 | **Guiding Prompt**   1. **Move out of the entrance** – from the tunnel entrance 
+[DACS] fallback=False
+Parent node 0 at depth 0 with UCB score: 0.7411519036837556
+
+Evolving prompt. Current prompt: 'Explore systematically and examine objects to make progress....'
+
+Current state extractor code: '
+def extract_state(game_history):
+    return "Game in progress."
+...'
+
+
+Updated state extractor code successfully.
+Evolved guiding prompt and code: 'Explore the world systematically but keep actions focused on progress.  
+**Progress steps that actually moved the story forward**  
+1. From the tunnel, go **north** into the cultural complex.  
+2. From the cultural complex, go **north** into the convention center lobby.  
+3. In the lobby, **examine the sign** (look for any readable text).  
+4. In the lobby, **examine the souvenir stand** to see if it holds an item that can be used.  
+5. In the lobby, **give the lantern to the guard/bouncer**.  
+6. If the guard accepts the lantern, the door should open and you may proceed north.
+
+**Avoid the following patterns**  
+- Repeating **look** on the same object or room without new information.  
+- Trying to give the lantern to non‑animate objects or to the same person repeatedly when it has no effect.  
+- Searching an area for a generic “search” without specifying what to look for (e.g., “search floor” in complete darkness).  
+- Oscillating between the same two actions without progress (e.g., “north → look → north → look” when the door is still closed).  
+
+**When stuck or after completing a step**  
+- List any rooms that have only been lightly touched: the **hall of science**, the **royal theater**, the **convention center lobby’s door**, the **cultural complex’s hallway**, the **tunnel entrance**, and the **underground entrance**.  
+- Brainstorm next attempts: try to **unlock** or **open** any visible doors, **interact** with any remaining NPCs, or **inspect** any objects that haven’t been examined.  
+- Systematically explore each adjacent room, inventory, and visible object for clues; keep a mental note of what was already inspected to avoid loops.  
+
+---'
+def extract_state(game_history):
+    if "entrance of the cultural complex" in game_history.lower():
+        return "Entered cultural complex."
+    if "entrance of the convention center lobby" in game_history.lower():
+        return "Entered convention center lobby."
+    if "lantern was given to guard" in game_history.lower() or "lantern given to guard" in game_history.lower():
+        return "Lantern given to guard."
+    if "door leads north" in game_history.lower():
+        return "Door leads north."
+    return "Unknown state."
+[STEP 0] | It is with great hope and expectation I send you on this mission," the || Action: north                     || Reward: 0, Score: 0
+[STEP 1] | to shirk your responsibilities to the inquisitor would mean certain, p || Action: north                     || Reward: 0, Score: 0
+[STEP 2] | to shirk your responsibilities to the inquisitor would mean certain, p || Action: north                     || Reward: 0, Score: 0
+[STEP 3] | to shirk your responsibilities to the inquisitor would mean certain, p || Action: look                      || Reward: 0, Score: 0
+[STEP 4] |  new excavation you are standing at the entrance of a narrow, waist-hi || Action: northeast                 || Reward: 0, Score: 0
+[STEP 5] | as you enter the tunnel, you feel a slight rumble beneath your crepe-s || Action: northeast                 || Reward: 0, Score: 0
+[STEP 6] |  cultural complex this imposing ante-room, the center of what was appa || Action: examine sign              || Reward: 0, Score: 0
+[STEP 7] | the sign indicates today's performance, which (in honor of the festivi || Action: north                     || Reward: 0, Score: 0
+[STEP 8] |  convention center lobby you are standing at the entrance of the gue c || Action: examine stand             || Reward: 0, Score: 0
+[STEP 9] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 0
+[STEP 10] |  convention center lobby you are standing at the entrance of the gue c || Action: give lantern to guard     || Reward: 0, Score: 0
+[STEP 11] | you can only do that to something animate.                             || Action: look                      || Reward: 0, Score: 0
+[STEP 12] |  convention center lobby you are standing at the entrance of the gue c || Action: look north                || Reward: 0, Score: 0
+[STEP 13] | i only understood you as far as wanting to look.                       || Action: examine door              || Reward: 0, Score: 0
+[STEP 14] | the door leads north.                                                  || Action: look                      || Reward: 0, Score: 0
+[STEP 15] |  convention center lobby you are standing at the entrance of the gue c || Action: north                     || Reward: 0, Score: 0
+[STEP 16] | as you start to enter, a large, brutish figure grabs you by the scruff || Action: look                      || Reward: 0, Score: 0
+[STEP 17] |  convention center lobby you are standing at the entrance of the gue c || Action: examine guard             || Reward: 0, Score: 0
+[STEP 18] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 0
+[STEP 19] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 20] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 21] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 22] |  convention center lobby you are standing at the entrance of the gue c || Action: give lantern to bouncer   || Reward: 0, Score: 0
+[STEP 23] | you can only do that to something animate.                             || Action: look                      || Reward: 0, Score: 0
+[STEP 24] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 25] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 26] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 27] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 28] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 29] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 30] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 31] |  convention center lobby you are standing at the entrance of the gue c || Action: give lantern to stand     || Reward: 0, Score: 0
+[STEP 32] | you can only do that to something animate.                             || Action: drop lantern              || Reward: 0, Score: 0
+[STEP 33] | dropped.                                                               || Action: look                      || Reward: 0, Score: 0
+[STEP 34] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 35] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 36] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 37] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 38] |  darkness it's pitch black. you are likely to be eaten by a grue.      || Action: get lantern               || Reward: 0, Score: 0
+[STEP 39] | taken.                                                                 || Action: look                      || Reward: 0, Score: 0
+Run 4/10 finished. Score: 0
+
+--- EVALUATION SUMMARY (our method) ---
+Agent LLM Model: gpt-oss-20b
+Number of final evaluation runs: 10
+Individual Scores: [0, 0, 0, 0]
+Average Score: 0.00
+Standard Deviation: 0.00
+
+Starting game run 5/10...
+[DACS] enabled=True game=ztuu
+[DACS] num raw candidates = 4 archived=0
+[DACS] num filtered candidates = 4
+[DACS] selected/reordered candidate ids = [2, 0, 3, 1]
+[DACS] candidate score table:
+  id | relevance | diversity | risk | final_score | summary
+  2 | 0.233 | 1.0 | 0.098 | 0.664 | **Improved Guiding Prompt**   1. From the tunnel entrance, move **northeast** un
+  0 | 0.088 | 0.945 | 0.004 | 0.558 | Explore systematically and examine objects to make progress.
+  3 | 0.141 | 0.708 | 0.09 | 0.432 | Explore the world systematically but keep actions focused on progress.   **Progr
+  1 | 0.2 | 0.519 | 0.099 | 0.39 | **Guiding Prompt**   1. **Move out of the entrance** – from the tunnel entrance 
+[DACS] fallback=False
+Parent node 3 at depth 1 with UCB score: 0.9419280180123798
+
+Evolving prompt. Current prompt: 'Explore the world systematically but keep actions focused on progress.  
+**Progr...'
+
+Current state extractor code: 'def extract_state(game_history):
+    if "entrance of the cultural complex" in ga...'
+
+
+Updated state extractor code successfully.
+Evolved guiding prompt and code: '**Guiding Prompt**
+
+You are in a text adventure where progress is linear but hidden clues can mislead you. Follow these strictly validated steps to advance:
+
+1. **From the tunnel entrance** – Move **northeast** until you reach the *cultural complex* description.  
+2. **From the cultural complex** – Move **north** to the *convention center lobby*.  
+3. **In the convention center lobby** – Look for a **guard** (sometimes called a “bouncer”) standing near the open north door.  
+4. **Give the lantern to the guard** – The command is `give lantern to guard`.  
+   - If the guard accepts, the north door will open and you can proceed north.  
+5. **Move north** through the now-open door to continue the adventure.
+
+**Avoid the following harmful patterns**
+
+- Repeatedly `look` or `examine` the same object or room without new information.  
+- Trying to `give` or `drop` the lantern on inanimate objects such as the souvenir stand.  
+- Using generic `search` commands without specifying a target.  
+- Oscillating between two actions (e.g., `north → look → north → look`) when no progress is made.  
+- Giving the lantern to non‑animate targets or the same person when it has no effect.  
+
+**When stuck or after completing a step**
+
+- **List lightly explored rooms**: hall of science, royal theater, cultural complex hallway, tunnel entrance, underground entrance, convention center lobby’s door.  
+- **Brainstorm next attempts**:  
+  - *Open* or *unlock* any visible doors.  
+  - *Interact* with any remaining NPCs or objects you haven’t examined.  
+  - *Inspect* objects that have not been examined (e.g., signs, shelves).  
+- **Systematically explore**:  
+  - Move to each adjacent room.  
+  - Check inventory for usable items.  
+  - Record what has been inspected to avoid loops.  
+
+When you have exhausted all known actions, consider exploring any of the unvisited rooms listed above. Use the inventory and any discovered clues to interact with NPCs or objects that might allow you to proceed.  
+
+---'
+def extract_state(game_history):
+    if "convention center lobby" in game_history:
+        state = "Location: convention center lobby. "
+        if "guard" in game_history or "bouncer" in game_history:
+            state += "Guard present. "
+        if "lantern" in game_history and ("taken" in game_history or "in inventory" in game_history):
+            state += "Lantern in inventory. "
+        if "you have died" in game_history or "grue" in game_history:
+            state += "You have died."
+        return state.strip()
+    else:
+        return "Current location unknown."
+[STEP 0] | It is with great hope and expectation I send you on this mission," the || Action: northeast                 || Reward: 0, Score: 0
+[STEP 1] | as you enter the tunnel, you feel a slight rumble beneath your crepe-s || Action: northeast                 || Reward: 0, Score: 0
+[STEP 2] |  cultural complex this imposing ante-room, the center of what was appa || Action: north                     || Reward: 0, Score: 0
+[STEP 3] |  convention center lobby you are standing at the entrance of the gue c || Action: look guard                || Reward: 0, Score: 0
+[STEP 4] | i only understood you as far as wanting to look.                       || Action: give lantern to guard     || Reward: 0, Score: 0
+[STEP 5] | you can only do that to something animate.                             || Action: examine guard             || Reward: 0, Score: 0
+[STEP 6] | you can't see any such thing.                                          || Action: look north                || Reward: 0, Score: 0
+[STEP 7] | i only understood you as far as wanting to look.                       || Action: look                      || Reward: 0, Score: 0
+[STEP 8] |  convention center lobby you are standing at the entrance of the gue c || Action: give lantern to bouncer   || Reward: 0, Score: 0
+[STEP 9] | you can only do that to something animate.                             || Action: look door                 || Reward: 0, Score: 0
+[STEP 10] | i only understood you as far as wanting to look.                       || Action: look                      || Reward: 0, Score: 0
+[STEP 11] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 12] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 13] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 14] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 15] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 16] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 17] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 18] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 19] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 20] |  convention center lobby you are standing at the entrance of the gue c || Action: north                     || Reward: 0, Score: 0
+[STEP 21] | as you start to enter, a large, brutish figure grabs you by the scruff || Action: look                      || Reward: 0, Score: 0
+[STEP 22] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 23] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 24] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 25] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 26] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 27] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 28] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 29] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 30] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 31] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 32] |  convention center lobby you are standing at the entrance of the gue c || Action: examine sign              || Reward: 0, Score: 0
+[STEP 33] | the sign, written sloppily in red ink (well, you hope it's ink), says, || Action: look                      || Reward: 0, Score: 0
+[STEP 34] |  convention center lobby you are standing at the entrance of the gue c || Action: inventory                 || Reward: 0, Score: 0
+[STEP 35] | you are carrying:   a cheaply-made sword   a brass lantern (providing  || Action: give lantern to guard     || Reward: 0, Score: 0
+[STEP 36] | you can only do that to something animate.                             || Action: look                      || Reward: 0, Score: 0
+[STEP 37] |  convention center lobby you are standing at the entrance of the gue c || Action: examine souvenir          || Reward: 0, Score: 0
+[STEP 38] | you can't see any such thing.                                          || Action: look souvenir             || Reward: 0, Score: 0
+[STEP 39] | i only understood you as far as wanting to look.                       || Action: give lantern to bouncer   || Reward: 0, Score: 0
+[STEP 40] | you can only do that to something animate.                             || Action: look                      || Reward: 0, Score: 0
+[STEP 41] |  convention center lobby you are standing at the entrance of the gue c || Action: light lantern             || Reward: 0, Score: 0
+[STEP 42] | you turn the switch, but the lantern stubbornly (but unsurprisingly) r || Action: look                      || Reward: 0, Score: 0
+[STEP 43] |  darkness it's pitch black. you are likely to be eaten by a grue.      || Action: look                      || Reward: 0, Score: 0
+Run 5/10 finished. Score: 0
+
+--- EVALUATION SUMMARY (our method) ---
+Agent LLM Model: gpt-oss-20b
+Number of final evaluation runs: 10
+Individual Scores: [0, 0, 0, 0, 0]
+Average Score: 0.00
+Standard Deviation: 0.00
+
+Starting game run 6/10...
+[DACS] enabled=True game=ztuu
+[DACS] num raw candidates = 5 archived=0
+[DACS] num filtered candidates = 4
+[DACS] selected/reordered candidate ids = [1, 0, 3, 2]
+[DACS] candidate score table:
+  id | relevance | diversity | risk | final_score | summary
+  1 | 0.271 | 1.0 | 0.122 | 0.686 | **Guiding Prompt**   1. **Move out of the entrance** – from the tunnel entrance 
+  0 | 0.088 | 0.919 | 0.004 | 0.545 | Explore systematically and examine objects to make progress.
+  3 | 0.216 | 0.627 | 0.11 | 0.453 | Explore the world systematically but keep actions focused on progress.   **Progr
+  2 | 0.246 | 0.519 | 0.125 | 0.418 | **Improved Guiding Prompt**   1. From the tunnel entrance, move **northeast** un
+[DACS] fallback=False
+Parent node 2 at depth 2 with UCB score: 0.8119271943548927
+
+Evolving prompt. Current prompt: '**Improved Guiding Prompt**  
+1. From the tunnel entrance, move **northeast** un...'
+
+Current state extractor code: 'def extract_state(game_history):
+    gh = game_history.lower()
+    milestones = ...'
+
+
+Evolution LLM returned invalid state extractor code, keeping current code
+Evolved guiding prompt and code: '**Improved Guiding Prompt**  
+1. From the tunnel entrance, move **northeast** until the tunnel widens.  
+2. When you reach the cultural complex, **light** the lantern if it is not already lit.  
+3. Move **north** into the convention center lobby.  
+4. **Do not drop** the lantern; keep it lit and in your hand.  
+5. **Look north** to check for danger (e.g., a grue).  
+6. If the north door is clear, **move north** through the open door.  
+7. If a grue appears, **give** the lantern to it (or use it to see it) and then proceed.  
+8. Avoid repeating the same *look*, *examine*, or *inventory* action on an object that has already been inspected.  
+9. If you feel stuck, list all unvisited rooms mentioned in the descriptions (e.g., hall of science, royal theater, etc.) and plan to explore them one by one.  
+10. For each new room, systematically:  
+   * **Look** around to identify objects, doors, and NPCs.  
+   * **Inspect** any objects that seem useful.  
+   * **Check** your inventory for items that might be needed.  
+   * **Talk** or *give* items to NPCs when prompted.  
+11. Keep a mental note of what you own and whether the lantern is lit.
+
+**State Extractor**
+```python
+def extract_state(game_history):
+    if "*** you have died ***" in game_history:
+        return "Player died."
+    lantern_lit = "lantern is already on." in game_history.lower() or "lantern is lit" in game_history.lower()
+    lantern_dropped = "dropped." in game_history.lower()
+    lantern_held = "you have" in game_history.lower() and "lantern" in game_history.lower() and not lantern_dropped
+    tunnel_entered = "entrance of a narrow, waist-high tunnel" in game_history
+    lobby_entered = "convention center lobby" in game_history
+    parts = []
+    if tunnel_entered:
+        parts.append("Entered tunnel")
+    if lobby_entered:
+        parts.append("Entered lobby")
+    if lantern_lit:
+        parts.append("Lantern lit")
+    if lantern_held:
+        parts.append("Lantern held")
+    if lantern_dropped:
+        parts.append("Lantern dropped")
+    if "north" in game_history.lower() and "door" in game_history.lower() and "open" in game_history.lower():
+        parts.append("Attempted to move north")
+    return ", ".join(parts) if parts else "Unknown state."
+```'
+def extract_state(game_history):
+    gh = game_history.lower()
+    milestones = []
+    if "you are standing at the entrance of a narrow" in gh:
+        milestones.append("Entered tunnel")
+    if "you are standing at the entrance of the cultural complex" in gh:
+        milestones.append("Entered cultural complex")
+    if "you are standing at the entrance of the gue convention center" in gh:
+        milestones.append("Entered lobby")
+    if "the lantern is already on" in gh or "you light lantern" in gh:
+        milestones.append("Lantern lit")
+    if "drop lantern" in gh or "dropped" in gh:
+        milestones.append("Lantern dropped")
+    if "north" in gh and "you are standing at the entrance of the gue convention center" in gh:
+        if "you have died" in gh or "you died" in gh or "grue" in gh:
+            milestones.append("Attempted north; died")
+        else:
+            milestones.append("Attempted north")
+    return ", ".join(milestones) if milestones else "Unknown state."
+[STEP 0] | It is with great hope and expectation I send you on this mission," the || Action: northeast                 || Reward: 0, Score: 0
+[STEP 1] | as you enter the tunnel, you feel a slight rumble beneath your crepe-s || Action: northeast                 || Reward: 0, Score: 0
+[STEP 2] |  cultural complex this imposing ante-room, the center of what was appa || Action: light lantern             || Reward: 0, Score: 0
+[STEP 3] | the lantern is already on.                                             || Action: look north                || Reward: 0, Score: 0
+[STEP 4] | i only understood you as far as wanting to look.                       || Action: north                     || Reward: 0, Score: 0
+[STEP 5] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 6] |  convention center lobby you are standing at the entrance of the gue c || Action: look north                || Reward: 0, Score: 0
+[STEP 7] | i only understood you as far as wanting to look.                       || Action: look                      || Reward: 0, Score: 0
+[STEP 8] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 9] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 10] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 11] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 12] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 13] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 14] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 15] |  convention center lobby you are standing at the entrance of the gue c || Action: look door                 || Reward: 0, Score: 0
+[STEP 16] | i only understood you as far as wanting to look.                       || Action: look                      || Reward: 0, Score: 0
+[STEP 17] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 18] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 19] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 20] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 21] |  convention center lobby you are standing at the entrance of the gue c || Action: examine door              || Reward: 0, Score: 0
+[STEP 22] | the door leads north.                                                  || Action: look                      || Reward: 0, Score: 0
+[STEP 23] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 24] |  convention center lobby you are standing at the entrance of the gue c || Action: look north                || Reward: 0, Score: 0
+[STEP 25] | i only understood you as far as wanting to look.                       || Action: look                      || Reward: 0, Score: 0
+[STEP 26] |  convention center lobby you are standing at the entrance of the gue c || Action: listen                    || Reward: 0, Score: 0
+[STEP 27] | you hear nothing unexpected.                                           || Action: restart                   || Reward: 0, Score: 0
+[STEP 28] | are you sure you want to restart?                                      || Action: yes                       || Reward: 0, Score: 0
+[STEP 29] | "it is with great hope and expectation i send you on this mission," th || Action: northeast                 || Reward: 0, Score: 0
+[STEP 30] | as you enter the tunnel, you feel a slight rumble beneath your crepe-s || Action: northeast                 || Reward: 0, Score: 0
+[STEP 31] |  cultural complex this imposing ante-room, the center of what was appa || Action: look north                || Reward: 0, Score: 0
+[STEP 32] | i only understood you as far as wanting to look.                       || Action: north                     || Reward: 0, Score: 0
+[STEP 33] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 34] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 35] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 36] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 37] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 38] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 39] |  convention center lobby you are standing at the entrance of the gue c || Action: light lantern             || Reward: 0, Score: 0
+[STEP 40] | the lantern is already on.                                             || Action: look north                || Reward: 0, Score: 0
+[STEP 41] | i only understood you as far as wanting to look.                       || Action: look                      || Reward: 0, Score: 0
+[STEP 42] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 43] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 44] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 45] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 46] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 47] |  convention center lobby you are standing at the entrance of the gue c || Action: examine sign              || Reward: 0, Score: 0
+[STEP 48] | the sign, written sloppily in red ink (well, you hope it's ink), says, || Action: look                      || Reward: 0, Score: 0
+[STEP 49] |  convention center lobby you are standing at the entrance of the gue c || Action: examine door              || Reward: 0, Score: 0
+[STEP 50] | the door leads north.                                                  || Action: look                      || Reward: 0, Score: 0
+[STEP 51] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 52] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 53] |  convention center lobby you are standing at the entrance of the gue c || Action: north                     || Reward: 0, Score: 0
+[STEP 54] | as you start to enter, a large, brutish figure grabs you by the scruff || Action: look                      || Reward: 0, Score: 0
+[STEP 55] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 56] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 57] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 58] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 59] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 60] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 61] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 62] |  convention center lobby you are standing at the entrance of the gue c || Action: light lantern             || Reward: 0, Score: 0
+[STEP 63] | you turn the switch, but the lantern stubbornly (but unsurprisingly) r || Action: look                      || Reward: 0, Score: 0
+[STEP 64] |  darkness it's pitch black. you are likely to be eaten by a grue.      || Action: look                      || Reward: 0, Score: 0
+Run 6/10 finished. Score: 0
+
+--- EVALUATION SUMMARY (our method) ---
+Agent LLM Model: gpt-oss-20b
+Number of final evaluation runs: 10
+Individual Scores: [0, 0, 0, 0, 0, 0]
+Average Score: 0.00
+Standard Deviation: 0.00
+
+Starting game run 7/10...
+[DACS] enabled=True game=ztuu
+[DACS] num raw candidates = 6 archived=0
+[DACS] num filtered candidates = 4
+[DACS] selected/reordered candidate ids = [0, 2, 3, 1]
+[DACS] candidate score table:
+  id | relevance | diversity | risk | final_score | summary
+  0 | 0.158 | 1.0 | 0.039 | 0.631 | Explore systematically and examine objects to make progress.
+  2 | 0.205 | 0.945 | 0.124 | 0.591 | **Improved Guiding Prompt**   1. From the tunnel entrance, move **northeast** un
+  3 | 0.132 | 0.708 | 0.103 | 0.414 | Explore the world systematically but keep actions focused on progress.   **Progr
+  1 | 0.189 | 0.519 | 0.12 | 0.364 | **Guiding Prompt**   1. **Move out of the entrance** – from the tunnel entrance 
+[DACS] fallback=False
+Parent node 0 at depth 0 with UCB score: 0.7728215553472558
+
+Evolving prompt. Current prompt: 'Explore systematically and examine objects to make progress....'
+
+Current state extractor code: '
+def extract_state(game_history):
+    return "Game in progress."
+...'
+
+
+Error during prompt evolution LLM call: 'NoneType' object has no attribute 'strip'
+Evolved guiding prompt and code: 'Explore systematically and examine objects to make progress.'
+
+def extract_state(game_history):
+    return "Game in progress."
+
+[STEP 0] | It is with great hope and expectation I send you on this mission," the || Action: northeast                 || Reward: 0, Score: 0
+[STEP 1] | as you enter the tunnel, you feel a slight rumble beneath your crepe-s || Action: northeast                 || Reward: 0, Score: 0
+[STEP 2] |  cultural complex this imposing ante-room, the center of what was appa || Action: examine sign              || Reward: 0, Score: 0
+[STEP 3] | the sign indicates today's performance, which (in honor of the festivi || Action: north                     || Reward: 0, Score: 0
+[STEP 4] |  convention center lobby you are standing at the entrance of the gue c || Action: north                     || Reward: 0, Score: 0
+[STEP 5] | as you start to enter, a large, brutish figure grabs you by the scruff || Action: drop lantern              || Reward: 0, Score: 0
+[STEP 6] | dropped.                                                               || Action: north                     || Reward: 0, Score: 0
+Run 7/10 finished. Score: 0
+
+--- EVALUATION SUMMARY (our method) ---
+Agent LLM Model: gpt-oss-20b
+Number of final evaluation runs: 10
+Individual Scores: [0, 0, 0, 0, 0, 0, 0]
+Average Score: 0.00
+Standard Deviation: 0.00
+
+Starting game run 8/10...
+[DACS] enabled=True game=ztuu
+[DACS] num raw candidates = 7 archived=0
+[DACS] num filtered candidates = 4
+[DACS] selected/reordered candidate ids = [1, 0, 3, 5]
+[DACS] candidate score table:
+  id | relevance | diversity | risk | final_score | summary
+  1 | 0.222 | 1.0 | 0.093 | 0.657 | **Guiding Prompt**   1. **Move out of the entrance** – from the tunnel entrance 
+  0 | 0.052 | 0.919 | 0.004 | 0.509 | Explore systematically and examine objects to make progress.
+  3 | 0.187 | 0.627 | 0.084 | 0.441 | Explore the world systematically but keep actions focused on progress.   **Progr
+  5 | 0.204 | 0.545 | 0.089 | 0.414 | **Improved Guiding Prompt**   1. From the tunnel entrance, move **northeast** un
+[DACS] fallback=False
+Parent node 1 at depth 1 with UCB score: 0.7891078808995005
+
+Evolving prompt. Current prompt: '**Guiding Prompt**  
+1. **Move out of the entrance** – from the tunnel entrance ...'
+
+Current state extractor code: '
+def extract_state(game_history):
+    return "Game in progress."
+...'
+
+
+Updated state extractor code successfully.
+Evolved guiding prompt and code: '**Guiding Prompt**  
+1. **Leave the tunnel** – from the tunnel entrance go **north**. If the entrance is blocked, keep moving **north** until a new area appears.  
+2. **Enter the cultural complex** – when the description mentions a *cultural complex* (or similar), go **north** into the **convention center lobby**.  
+3. **In the lobby**:  
+   - **Examine the sign** – read any text that may give a hint.  
+   - **Search the souvenir stand** – look for a match or other light source.  
+   - If nothing is found, **search the floor** for a match.  
+4. **Keep the lantern lit** – if it flickers or goes out, search for a match before doing anything else.  
+5. **Find an NPC near the north door** – look around the lobby for a guard or bouncer.  
+6. **Handle the lantern request** – if the NPC says the lantern must be left outside, **drop the lantern at the north door**. If the NPC allows passage after you drop the lantern, **move north** into the interior.  
+7. **Avoid redundant actions** – do not “look”, “search”, or “examine” the same object repeatedly without new information.  
+8. **If stuck** – after three failed attempts to give or drop the lantern, consider moving to another area that has been lightly searched (e.g., hall of science, royal theater) and repeat the same checks there.  
+9. **Keep track** – maintain a mental list of rooms visited and objects interacted with to prevent looping.
+
+---'
+def extract_state(game_history):
+    gh = game_history.lower()
+    milestones = []
+    if "you are standing at the entrance of a narrow tunnel" in gh:
+        milestones.append("Entered tunnel")
+    if "cultural complex" in gh:
+        milestones.append("Reached cultural complex")
+    if "convention center lobby" in gh:
+        milestones.append("Reached lobby")
+    if "lantern is already on" in gh or "lantern is lit" in gh or "the lantern is already on" in gh:
+        milestones.append("Lantern lit")
+    if "give lantern to guard" in gh or "give lantern to bouncer" in gh:
+        milestones.append("Lantern given to guard")
+    if "drop lantern" in gh:
+        milestones.append("Lantern dropped")
+    if "you have died" in gh:
+        milestones.append("Player died")
+    if "door leads north" in gh:
+        milestones.append("Door to north known")
+    return ", ".join(milestones) if milestones else "Unknown state."
+[STEP 0] | It is with great hope and expectation I send you on this mission," the || Action: north                     || Reward: 0, Score: 0
+[STEP 1] | to shirk your responsibilities to the inquisitor would mean certain, p || Action: look                      || Reward: 0, Score: 0
+[STEP 2] |  new excavation you are standing at the entrance of a narrow, waist-hi || Action: north                     || Reward: 0, Score: 0
+[STEP 3] | to shirk your responsibilities to the inquisitor would mean certain, p || Action: look                      || Reward: 0, Score: 0
+[STEP 4] |  new excavation you are standing at the entrance of a narrow, waist-hi || Action: look                      || Reward: 0, Score: 0
+[STEP 5] |  new excavation you are standing at the entrance of a narrow, waist-hi || Action: look                      || Reward: 0, Score: 0
+[STEP 6] |  new excavation you are standing at the entrance of a narrow, waist-hi || Action: look                      || Reward: 0, Score: 0
+[STEP 7] |  new excavation you are standing at the entrance of a narrow, waist-hi || Action: look                      || Reward: 0, Score: 0
+[STEP 8] |  new excavation you are standing at the entrance of a narrow, waist-hi || Action: look                      || Reward: 0, Score: 0
+[STEP 9] |  new excavation you are standing at the entrance of a narrow, waist-hi || Action: northeast                 || Reward: 0, Score: 0
+[STEP 10] | as you enter the tunnel, you feel a slight rumble beneath your crepe-s || Action: look                      || Reward: 0, Score: 0
+[STEP 11] |  tunnel you are in a narrow tunnel whose entrance has been blocked by  || Action: northeast                 || Reward: 0, Score: 0
+[STEP 12] |  cultural complex this imposing ante-room, the center of what was appa || Action: north                     || Reward: 0, Score: 0
+[STEP 13] |  convention center lobby you are standing at the entrance of the gue c || Action: examine sign              || Reward: 0, Score: 0
+[STEP 14] | the sign, written sloppily in red ink (well, you hope it's ink), says, || Action: search stand              || Reward: 0, Score: 0
+[STEP 15] | you can't see any such thing.                                          || Action: search floor              || Reward: 0, Score: 0
+[STEP 16] | (the floor) you find nothing of interest.                              || Action: look                      || Reward: 0, Score: 0
+[STEP 17] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 18] |  convention center lobby you are standing at the entrance of the gue c || Action: examine door              || Reward: 0, Score: 0
+[STEP 19] | the door leads north.                                                  || Action: look                      || Reward: 0, Score: 0
+[STEP 20] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 21] |  convention center lobby you are standing at the entrance of the gue c || Action: search                    || Reward: 0, Score: 0
+[STEP 22] | what do you want to search?                                            || Action: look                      || Reward: 0, Score: 0
+[STEP 23] |  convention center lobby you are standing at the entrance of the gue c || Action: search door               || Reward: 0, Score: 0
+[STEP 24] | you find nothing of interest.                                          || Action: look                      || Reward: 0, Score: 0
+[STEP 25] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 26] |  convention center lobby you are standing at the entrance of the gue c || Action: look north                || Reward: 0, Score: 0
+[STEP 27] | i only understood you as far as wanting to look.                       || Action: look                      || Reward: 0, Score: 0
+[STEP 28] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 29] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 30] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 31] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 32] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 33] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 34] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 35] |  darkness it's pitch black. you are likely to be eaten by a grue.      || Action: look                      || Reward: 0, Score: 0
+[STEP 36] |  darkness it's pitch black. you are likely to be eaten by a grue.      || Action: look                      || Reward: 0, Score: 0
+Run 8/10 finished. Score: 0
+
+--- EVALUATION SUMMARY (our method) ---
+Agent LLM Model: gpt-oss-20b
+Number of final evaluation runs: 10
+Individual Scores: [0, 0, 0, 0, 0, 0, 0, 0]
+Average Score: 0.00
+Standard Deviation: 0.00
+
+Starting game run 9/10...
+[DACS] enabled=True game=ztuu
+[DACS] num raw candidates = 8 archived=0
+[DACS] num filtered candidates = 4
+[DACS] selected/reordered candidate ids = [2, 0, 3, 1]
+[DACS] candidate score table:
+  id | relevance | diversity | risk | final_score | summary
+  2 | 0.309 | 1.0 | 0.096 | 0.742 | **Improved Guiding Prompt**   1. From the tunnel entrance, move **northeast** un
+  0 | 0.051 | 0.945 | 0.004 | 0.521 | Explore systematically and examine objects to make progress.
+  3 | 0.203 | 0.708 | 0.089 | 0.494 | Explore the world systematically but keep actions focused on progress.   **Progr
+  1 | 0.286 | 0.519 | 0.098 | 0.477 | **Guiding Prompt**   1. **Move out of the entrance** – from the tunnel entrance 
+[DACS] fallback=False
+Parent node 3 at depth 1 with UCB score: 0.8157335921350471
+
+Evolving prompt. Current prompt: 'Explore the world systematically but keep actions focused on progress.  
+**Progr...'
+
+Current state extractor code: 'def extract_state(game_history):
+    if "entrance of the cultural complex" in ga...'
+
+
+Updated state extractor code successfully.
+Evolved guiding prompt and code: '**Guiding Prompt**
+
+- **Goal**: Reach the Great Underground Empire by getting through the cultural complex, convention center lobby, and passing the guard to open the north door.
+- **Required Actions (in order)**  
+  1. *north* out of the tunnel into the cultural complex.  
+  2. *examine sign* in the cultural complex for clues.  
+  3. *north* into the convention center lobby.  
+  4. *examine stand* in the lobby; *take* any useful item (e.g., the lantern).  
+  5. Locate the guard/bouncer at the north door.  
+  6. *give lantern to bouncer* (or *give lantern to guard*). If the guard says to leave it outside, *drop lantern* on the stand and try again.  
+  7. When the guard accepts the lantern, the north door opens; *north* through the open door.  
+  8. *light lantern* before entering any dark area.  
+  9. Continue exploring; avoid repeating the same action on the same object without new information.
+
+- **Avoid**  
+  * Repeated “look” or “examine” of the same object without new detail.  
+  * Giving the lantern to non‑animate objects or the same person when it has no effect.  
+  * “search” without specifying what to search for.  
+  * Staying in darkness without a lit lantern (risk of a grue).  
+  * Looping “north → look → north → look” when the door stays closed.
+
+- **If Stuck**  
+  1. Identify rooms only lightly visited: hall of science, royal theater, underground entrance, etc.  
+  2. Brainstorm next attempts: try to open/lock any visible doors, interact with remaining NPCs, inspect unexplored objects, or search for hidden passages.  
+  3. Systematically explore adjacent rooms, inventory, and visible objects, noting what has already been inspected to avoid loops.
+
+---'
+def extract_state(game_history):
+    history = game_history.lower()
+    location = "unknown"
+    rooms = ["tunnel", "cultural complex", "convention center lobby", "hall of science", "royal theater", "underground entrance", "darkness"]
+    for r in rooms:
+        if r in history:
+            location = r
+    lantern_in_hand = "get lantern" in history and "dropped." not in history
+    lantern_on_ground = "drop lantern" in history or "you can see a brass lantern" in history
+    guard_present = "guard" in history or "bouncer" in history
+    door_open = "door opens" in history or "north door is open" in history
+    dead = "you have died" in history
+    summary = f"Location: {location}. "
+    if lantern_in_hand:
+        summary += "Lantern in inventory. "
+    elif lantern_on_ground:
+        summary += "Lantern on the ground. "
+    else:
+        summary += "Lantern not found. "
+    summary += "Guard present. " if guard_present else ""
+    summary += "North door open. " if door_open else "North door closed. "
+    summary += "Dead." if dead else "Alive."
+    return summary
+[STEP 0] | It is with great hope and expectation I send you on this mission," the || Action: north                     || Reward: 0, Score: 0
+[STEP 1] | to shirk your responsibilities to the inquisitor would mean certain, p || Action: examine sign              || Reward: 0, Score: 0
+[STEP 2] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 0
+[STEP 3] |  new excavation you are standing at the entrance of a narrow, waist-hi || Action: north                     || Reward: 0, Score: 0
+[STEP 4] | to shirk your responsibilities to the inquisitor would mean certain, p || Action: look                      || Reward: 0, Score: 0
+[STEP 5] |  new excavation you are standing at the entrance of a narrow, waist-hi || Action: northeast                 || Reward: 0, Score: 0
+[STEP 6] | as you enter the tunnel, you feel a slight rumble beneath your crepe-s || Action: northeast                 || Reward: 0, Score: 0
+[STEP 7] |  cultural complex this imposing ante-room, the center of what was appa || Action: look                      || Reward: 0, Score: 0
+[STEP 8] |  cultural complex this imposing ante-room, the center of what was appa || Action: examine sign              || Reward: 0, Score: 0
+[STEP 9] | the sign indicates today's performance, which (in honor of the festivi || Action: west                      || Reward: 0, Score: 0
+[STEP 10] |  tunnel                                                                || Action: north                     || Reward: 0, Score: 0
+[STEP 11] | you can't go that way.                                                 || Action: northeast                 || Reward: 0, Score: 0
+[STEP 12] |  cultural complex                                                      || Action: north                     || Reward: 0, Score: 0
+[STEP 13] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 14] |  convention center lobby you are standing at the entrance of the gue c || Action: examine stand             || Reward: 0, Score: 0
+[STEP 15] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 0
+[STEP 16] |  convention center lobby you are standing at the entrance of the gue c || Action: examine souvenir          || Reward: 0, Score: 0
+[STEP 17] | you can't see any such thing.                                          || Action: inventory                 || Reward: 0, Score: 0
+[STEP 18] | you are carrying:   a cheaply-made sword   a brass lantern (providing  || Action: give lantern to guard     || Reward: 0, Score: 0
+[STEP 19] | you can only do that to something animate.                             || Action: look                      || Reward: 0, Score: 0
+[STEP 20] |  convention center lobby you are standing at the entrance of the gue c || Action: give lantern to bouncer   || Reward: 0, Score: 0
+[STEP 21] | you can only do that to something animate.                             || Action: examine guard             || Reward: 0, Score: 0
+[STEP 22] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 0
+[STEP 23] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 24] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 25] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 26] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 27] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 28] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 29] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 30] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 31] |  convention center lobby you are standing at the entrance of the gue c || Action: look north                || Reward: 0, Score: 0
+[STEP 32] | i only understood you as far as wanting to look.                       || Action: look                      || Reward: 0, Score: 0
+[STEP 33] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 34] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 35] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 36] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 37] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 38] |  convention center lobby you are standing at the entrance of the gue c || Action: light lantern             || Reward: 0, Score: 0
+[STEP 39] | you turn the switch, but the lantern stubbornly (but unsurprisingly) r || Action: look                      || Reward: 0, Score: 0
+[STEP 40] |  darkness it's pitch black. you are likely to be eaten by a grue.      || Action: look                      || Reward: 0, Score: 0
+Run 9/10 finished. Score: 0
+
+--- EVALUATION SUMMARY (our method) ---
+Agent LLM Model: gpt-oss-20b
+Number of final evaluation runs: 10
+Individual Scores: [0, 0, 0, 0, 0, 0, 0, 0, 0]
+Average Score: 0.00
+Standard Deviation: 0.00
+
+Starting game run 10/10...
+[DACS] enabled=True game=ztuu
+[DACS] num raw candidates = 9 archived=0
+[DACS] num filtered candidates = 4
+[DACS] selected/reordered candidate ids = [2, 0, 3, 8]
+[DACS] candidate score table:
+  id | relevance | diversity | risk | final_score | summary
+  2 | 0.175 | 1.0 | 0.103 | 0.603 | **Improved Guiding Prompt**   1. From the tunnel entrance, move **northeast** un
+  0 | 0.1 | 0.945 | 0.044 | 0.542 | Explore systematically and examine objects to make progress.
+  3 | 0.149 | 0.708 | 0.101 | 0.432 | Explore the world systematically but keep actions focused on progress.   **Progr
+  8 | 0.15 | 0.585 | 0.109 | 0.366 | **Guiding Prompt**  - **Goal**: Reach the Great Underground Empire by getting th
+[DACS] fallback=False
+Parent node 8 at depth 2 with UCB score: 0.9486744367152073
+
+Evolving prompt. Current prompt: '**Guiding Prompt**
+
+- **Goal**: Reach the Great Underground Empire by getting th...'
+
+Current state extractor code: 'def extract_state(game_history):
+    history = game_history.lower()
+    location...'
+
+
+Updated state extractor code successfully.
+Evolved guiding prompt and code: '**Guiding Prompt**
+
+**Goal**  
+Reach the Great Underground Empire by passing the north door in the convention center lobby.
+
+**Required Actions (in strict order)**  
+1. *north* – leave the narrow tunnel and enter the cultural complex.  
+2. *examine sign* – read the sign for clues about the next area.  
+3. *north* – move into the convention center lobby.  
+4. *examine stand* (or *examine souvenir*) – look for the lantern.  
+5. *take lantern* – pick up the lantern from the stand.  
+6. *light lantern* – activate the lantern so you can see in darkness.  
+7. *look* – locate the guard (likely called “bouncer”) at the north door.  
+8. *give lantern to guard* – offer the lantern to the guard.  
+9. *north* – walk through the now open door into the next area.
+
+**Avoid**  
+- Repeating *look* or *examine* on the same object without new information.  
+- Giving the lantern to non‑animate objects or the same person when it has no effect.  
+- Trying to give the lantern before you actually have it.  
+- Turning the lantern on before you have the lantern in inventory.  
+- Stalling in darkness without a lit lantern (risk of a grue).  
+- Looping “north → look → north → look” when the door remains closed.
+
+**If Stuck**  
+1. Identify rooms that have not been entered or only lightly searched:  
+   - Hall of Science  
+   - Royal Theater  
+   - Underground Entrance  
+   - Other adjacent corridors.  
+2. Brainstorm next attempts:  
+   - Open or lock any visible doors.  
+   - Inspect unexplored objects or NPCs.  
+   - Search for hidden passages or switches.  
+3. Systematically explore each adjacent room, check inventory, and examine any visible objects or NPCs for new clues, keeping a record of what has already been inspected to avoid loops.
+
+---'
+def extract_state(game_history):
+    loc = "unknown"
+    if "You are standing at the entrance of the new excavation" in game_history:
+        loc = "tunnel"
+    elif "cultural complex" in game_history:
+        loc = "cultural complex"
+    elif "convention center lobby" in game_history:
+        loc = "convention center lobby"
+    lantern = "none"
+    if "you are carrying" in game_history:
+        if "brass lantern" in game_history:
+            lantern = "brass lantern"
+            if "providing light" in game_history:
+                lantern = lantern + " (lit)"
+            else:
+                lantern = lantern + " (unlit)"
+    guard = "absent"
+    if "guard" in game_history or "bouncer" in game_history:
+        guard = "present"
+    door = "closed"
+    if "north door opens" in game_history or "door opens" in game_history:
+        door = "open"
+    return f"Location: {loc}. Lantern: {lantern}. Guard: {guard}. Door: {door}."
+[STEP 0] | It is with great hope and expectation I send you on this mission," the || Action: north                     || Reward: 0, Score: 0
+[STEP 1] | to shirk your responsibilities to the inquisitor would mean certain, p || Action: examine sign              || Reward: 0, Score: 0
+[STEP 2] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 0
+[STEP 3] |  new excavation you are standing at the entrance of a narrow, waist-hi || Action: north                     || Reward: 0, Score: 0
+[STEP 4] | to shirk your responsibilities to the inquisitor would mean certain, p || Action: examine sign              || Reward: 0, Score: 0
+[STEP 5] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 0
+[STEP 6] |  new excavation you are standing at the entrance of a narrow, waist-hi || Action: look                      || Reward: 0, Score: 0
+[STEP 7] |  new excavation you are standing at the entrance of a narrow, waist-hi || Action: northeast                 || Reward: 0, Score: 0
+[STEP 8] | as you enter the tunnel, you feel a slight rumble beneath your crepe-s || Action: look                      || Reward: 0, Score: 0
+[STEP 9] |  tunnel you are in a narrow tunnel whose entrance has been blocked by  || Action: northeast                 || Reward: 0, Score: 0
+[STEP 10] |  cultural complex this imposing ante-room, the center of what was appa || Action: examine sign              || Reward: 0, Score: 0
+[STEP 11] | the sign indicates today's performance, which (in honor of the festivi || Action: north                     || Reward: 0, Score: 0
+[STEP 12] |  convention center lobby you are standing at the entrance of the gue c || Action: examine stand             || Reward: 0, Score: 0
+[STEP 13] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 0
+[STEP 14] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 15] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 16] |  convention center lobby you are standing at the entrance of the gue c || Action: examine souvenir          || Reward: 0, Score: 0
+[STEP 17] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 0
+[STEP 18] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 19] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 20] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 21] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 22] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 23] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 24] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 25] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 26] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 27] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 28] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 29] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 30] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 31] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 32] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 33] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 34] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 35] |  convention center lobby you are standing at the entrance of the gue c || Action: look                      || Reward: 0, Score: 0
+[STEP 36] |  darkness it's pitch black. you are likely to be eaten by a grue.      || Action: look                      || Reward: 0, Score: 0
+[STEP 37] |  darkness it's pitch black. you are likely to be eaten by a grue.      || Action: look                      || Reward: 0, Score: 0
+Run 10/10 finished. Score: 0
+
+--- EVALUATION SUMMARY (our method) ---
+Agent LLM Model: gpt-oss-20b
+Number of final evaluation runs: 10
+Individual Scores: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Average Score: 0.00
+Standard Deviation: 0.00
+Evaluation completed successfully!

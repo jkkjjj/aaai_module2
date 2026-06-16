@@ -1,0 +1,1903 @@
+
+--- STARTING EVALUATION ---
+Game: ludicorp, Agent LLM Model: gpt-oss-20b
+Agent Type: our, Runs for statistics: 10
+Base Seed for evaluation session: 0
+Episode logs and summary will be in: output/ludicorp/our/gpt-oss-20b/20260616-062030
+
+Starting game run 1/10...
+Using initial prompt and code: 'Explore systematically and examine objects to make progress.'
+
+def extract_state(game_history):
+    return "Game in progress."
+
+[STEP 0] |  It's nearly christmas 2003, and Ludicorp still haven't released GNE.  || Action: north                     || Reward: 1, Score: 2
+[STEP 1] |  main entrance the main entrance to the building is plush and opulent. || Action: examine desk              || Reward: 0, Score: 2
+[STEP 2] | you can't see any such thing.                                          || Action: search desk               || Reward: 0, Score: 2
+[STEP 3] | you can't see any such thing.                                          || Action: examine door              || Reward: 0, Score: 2
+[STEP 4] | the main doors are huge glass affairs, with ornately carved golden han || Action: look                      || Reward: 0, Score: 2
+[STEP 5] |  main entrance the main entrance to the building is plush and opulent. || Action: open desk                 || Reward: 0, Score: 2
+[STEP 6] | you can't see any such thing.                                          || Action: examine cup               || Reward: 0, Score: 2
+[STEP 7] | you can't see any such thing.                                          || Action: search                    || Reward: 0, Score: 2
+[STEP 8] | what do you want to search?                                            || Action: look                      || Reward: 0, Score: 2
+[STEP 9] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 10] |  main entrance the main entrance to the building is plush and opulent. || Action: search door               || Reward: 0, Score: 2
+[STEP 11] | you find nothing of interest.                                          || Action: search floor              || Reward: 0, Score: 2
+[STEP 12] | you find nothing of interest.                                          || Action: look east                 || Reward: 0, Score: 2
+[STEP 13] | i only understood you as far as wanting to look.                       || Action: look                      || Reward: 0, Score: 2
+[STEP 14] |  main entrance the main entrance to the building is plush and opulent. || Action: look at handle            || Reward: 0, Score: 2
+[STEP 15] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 2
+[STEP 16] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 17] |  main entrance the main entrance to the building is plush and opulent. || Action: search cup                || Reward: 0, Score: 2
+[STEP 18] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 2
+[STEP 19] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 20] |  main entrance the main entrance to the building is plush and opulent. || Action: open cup                  || Reward: 0, Score: 2
+[STEP 21] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 2
+[STEP 22] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 23] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 24] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 25] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 26] |  main entrance the main entrance to the building is plush and opulent. || Action: search handle             || Reward: 0, Score: 2
+[STEP 27] | you can't see any such thing.                                          || Action: open drawer               || Reward: 0, Score: 2
+[STEP 28] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 2
+[STEP 29] |  main entrance the main entrance to the building is plush and opulent. || Action: look west                 || Reward: 0, Score: 2
+[STEP 30] | i only understood you as far as wanting to look.                       || Action: look                      || Reward: 0, Score: 2
+[STEP 31] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 32] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 33] |  main entrance the main entrance to the building is plush and opulent. || Action: search desk               || Reward: 0, Score: 2
+[STEP 34] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 2
+[STEP 35] |  main entrance the main entrance to the building is plush and opulent. || Action: look north                || Reward: 0, Score: 2
+[STEP 36] | i only understood you as far as wanting to look.                       || Action: look                      || Reward: 0, Score: 2
+[STEP 37] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 38] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 39] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 40] |  main entrance the main entrance to the building is plush and opulent. || Action: examine desk              || Reward: 0, Score: 2
+[STEP 41] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 2
+[STEP 42] |  main entrance the main entrance to the building is plush and opulent. || Action: examine door              || Reward: 0, Score: 2
+[STEP 43] | the main doors are huge glass affairs, with ornately carved golden han || Action: look                      || Reward: 0, Score: 2
+[STEP 44] |  main entrance the main entrance to the building is plush and opulent. || Action: look east                 || Reward: 0, Score: 2
+[STEP 45] | i only understood you as far as wanting to look.                       || Action: look                      || Reward: 0, Score: 2
+[STEP 46] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 47] |  main entrance the main entrance to the building is plush and opulent. || Action: search glass              || Reward: 0, Score: 2
+[STEP 48] | you find nothing of interest.                                          || Action: look                      || Reward: 0, Score: 2
+[STEP 49] |  main entrance the main entrance to the building is plush and opulent. || Action: open door                 || Reward: 0, Score: 2
+[STEP 50] | it seems to be locked.                                                 || Action: look                      || Reward: 0, Score: 2
+[STEP 51] |  main entrance the main entrance to the building is plush and opulent. || Action: take cup                  || Reward: 0, Score: 2
+[STEP 52] | you can't see any such thing.                                          || Action: search cup                || Reward: 0, Score: 2
+[STEP 53] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 2
+[STEP 54] |  main entrance the main entrance to the building is plush and opulent. || Action: look floor                || Reward: 0, Score: 2
+[STEP 55] | i only understood you as far as wanting to look.                       || Action: look                      || Reward: 0, Score: 2
+[STEP 56] |  main entrance the main entrance to the building is plush and opulent. || Action: search floor              || Reward: 0, Score: 2
+[STEP 57] | you find nothing of interest.                                          || Action: look                      || Reward: 0, Score: 2
+[STEP 58] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 59] |  main entrance the main entrance to the building is plush and opulent. || Action: open desk                 || Reward: 0, Score: 2
+[STEP 60] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 2
+[STEP 61] |  main entrance the main entrance to the building is plush and opulent. || Action: examine wall              || Reward: 0, Score: 2
+[STEP 62] | which do you mean, the north wall, the south wall, the east wall, the  || Action: north                     || Reward: 0, Score: 2
+[STEP 63] | you see nothing special about the north wall.                          || Action: look                      || Reward: 0, Score: 2
+[STEP 64] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 65] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 66] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 67] |  main entrance the main entrance to the building is plush and opulent. || Action: search door               || Reward: 0, Score: 2
+[STEP 68] | you find nothing of interest.                                          || Action: look                      || Reward: 0, Score: 2
+[STEP 69] |  main entrance the main entrance to the building is plush and opulent. || Action: examine handle            || Reward: 0, Score: 2
+[STEP 70] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 2
+[STEP 71] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 72] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 73] |  main entrance the main entrance to the building is plush and opulent. || Action: search desk               || Reward: 0, Score: 2
+[STEP 74] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 2
+[STEP 75] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 76] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 77] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 78] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 79] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 80] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 81] |  main entrance the main entrance to the building is plush and opulent. || Action: examine glass             || Reward: 0, Score: 2
+[STEP 82] | the office is a large glass building, about 3 floors high.             || Action: examine cup               || Reward: 0, Score: 2
+[STEP 83] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 2
+[STEP 84] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 85] |  main entrance the main entrance to the building is plush and opulent. || Action: examine lights            || Reward: 0, Score: 2
+[STEP 86] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 2
+[STEP 87] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 88] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 89] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 90] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 91] |  main entrance the main entrance to the building is plush and opulent. || Action:                           || Reward: 0, Score: 2
+[STEP 92] | i beg your pardon?                                                     || Action: look                      || Reward: 0, Score: 2
+[STEP 93] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 94] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 95] |  main entrance the main entrance to the building is plush and opulent. || Action: get cup                   || Reward: 0, Score: 2
+[STEP 96] | you can't see any such thing.                                          || Action: get cup                   || Reward: 0, Score: 2
+[STEP 97] | you can't see any such thing.                                          || Action: open door                 || Reward: 0, Score: 2
+[STEP 98] | it seems to be locked.                                                 || Action: examine door              || Reward: 0, Score: 2
+[STEP 99] | the main doors are huge glass affairs, with ornately carved golden han || Action: look                      || Reward: 0, Score: 2
+[STEP 100] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 101] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 102] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 103] |  main entrance the main entrance to the building is plush and opulent. || Action: examine desk              || Reward: 0, Score: 2
+[STEP 104] | you can't see any such thing.                                          || Action: examine handle            || Reward: 0, Score: 2
+[STEP 105] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 2
+[STEP 106] |  main entrance the main entrance to the building is plush and opulent. || Action: open desk                 || Reward: 0, Score: 2
+[STEP 107] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 2
+[STEP 108] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 109] |  main entrance the main entrance to the building is plush and opulent. || Action: examine floor             || Reward: 0, Score: 2
+[OurAgent] New best score 2 at node 0.
+Run 1/10 finished. Score: 2
+
+--- EVALUATION SUMMARY (our method) ---
+Agent LLM Model: gpt-oss-20b
+Number of final evaluation runs: 10
+Individual Scores: [2]
+Average Score: 2.00
+Standard Deviation: 0.00
+
+Starting game run 2/10...
+[DACS] enabled=True game=ludicorp
+[DACS] num raw candidates = 1 archived=0
+[DACS] num filtered candidates = 1
+[DACS] selected/reordered candidate ids = [0]
+[DACS] candidate score table:
+  id | relevance | diversity | risk | final_score | summary
+  0 | 0.088 | 1.0 | 0.039 | 0.761 | Explore systematically and examine objects to make progress.
+[DACS] fallback=False
+Parent node 0 at depth 0 with UCB score: 2.832554611157698
+
+Evolving prompt. Current prompt: 'Explore systematically and examine objects to make progress....'
+
+Current state extractor code: '
+def extract_state(game_history):
+    return "Game in progress."
+...'
+
+
+Error during prompt evolution LLM call: 'NoneType' object has no attribute 'strip'
+Evolved guiding prompt and code: 'Explore systematically and examine objects to make progress.'
+
+def extract_state(game_history):
+    return "Game in progress."
+
+[STEP 0] |  It's nearly christmas 2003, and Ludicorp still haven't released GNE.  || Action: enter                     || Reward: 0, Score: 1
+[STEP 1] | you can't go that way.                                                 || Action: north                     || Reward: 1, Score: 2
+[STEP 2] |  main entrance the main entrance to the building is plush and opulent. || Action: examine coffee            || Reward: 0, Score: 2
+[STEP 3] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 2
+[STEP 4] |  main entrance the main entrance to the building is plush and opulent. || Action: examine desk              || Reward: 0, Score: 2
+[STEP 5] | you can't see any such thing.                                          || Action: examine door              || Reward: 0, Score: 2
+[STEP 6] | the main doors are huge glass affairs, with ornately carved golden han || Action: look                      || Reward: 0, Score: 2
+[STEP 7] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 8] |  main entrance the main entrance to the building is plush and opulent. || Action: search desk               || Reward: 0, Score: 2
+[STEP 9] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 2
+[STEP 10] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 11] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 12] |  main entrance the main entrance to the building is plush and opulent. || Action: look cup                  || Reward: 0, Score: 2
+[STEP 13] | i only understood you as far as wanting to look.                       || Action: search cup                || Reward: 0, Score: 2
+[STEP 14] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 2
+[STEP 15] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 16] |  main entrance the main entrance to the building is plush and opulent. || Action: open desk                 || Reward: 0, Score: 2
+[STEP 17] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 2
+[STEP 18] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 19] |  main entrance the main entrance to the building is plush and opulent. || Action: look glass                || Reward: 0, Score: 2
+[STEP 20] | i only understood you as far as wanting to look.                       || Action: look                      || Reward: 0, Score: 2
+[STEP 21] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 22] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 23] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 24] |  main entrance the main entrance to the building is plush and opulent. || Action: open cup                  || Reward: 0, Score: 2
+[STEP 25] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 2
+[STEP 26] |  main entrance the main entrance to the building is plush and opulent. || Action: open drawer               || Reward: 0, Score: 2
+[STEP 27] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 2
+[STEP 28] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 29] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 30] |  main entrance the main entrance to the building is plush and opulent. || Action: look keyhole              || Reward: 0, Score: 2
+[STEP 31] | i only understood you as far as wanting to look.                       || Action: look                      || Reward: 0, Score: 2
+[STEP 32] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 33] |  main entrance the main entrance to the building is plush and opulent. || Action: turn on lights            || Reward: 0, Score: 2
+[STEP 34] | you can't see any such thing.                                          || Action: search door               || Reward: 0, Score: 2
+[STEP 35] | you find nothing of interest.                                          || Action: examine desk              || Reward: 0, Score: 2
+[STEP 36] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 2
+[STEP 37] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 38] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 39] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 40] |  main entrance the main entrance to the building is plush and opulent. || Action: search desk               || Reward: 0, Score: 2
+[STEP 41] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 2
+[STEP 42] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 43] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 44] |  main entrance the main entrance to the building is plush and opulent. || Action: look door                 || Reward: 0, Score: 2
+[STEP 45] | i only understood you as far as wanting to look.                       || Action: look                      || Reward: 0, Score: 2
+[STEP 46] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 47] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 48] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 49] |  main entrance the main entrance to the building is plush and opulent. || Action: examine coffee            || Reward: 0, Score: 2
+[STEP 50] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 2
+[STEP 51] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 52] |  main entrance the main entrance to the building is plush and opulent. || Action: look glass                || Reward: 0, Score: 2
+[STEP 53] | i only understood you as far as wanting to look.                       || Action: look                      || Reward: 0, Score: 2
+[STEP 54] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 55] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 56] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 57] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 58] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 59] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 60] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 61] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 62] |  main entrance the main entrance to the building is plush and opulent. || Action: examine door              || Reward: 0, Score: 2
+[STEP 63] | the main doors are huge glass affairs, with ornately carved golden han || Action: look                      || Reward: 0, Score: 2
+[STEP 64] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 65] |  main entrance the main entrance to the building is plush and opulent. || Action: look handle               || Reward: 0, Score: 2
+[STEP 66] | i only understood you as far as wanting to look.                       || Action: look                      || Reward: 0, Score: 2
+[STEP 67] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 68] |  main entrance the main entrance to the building is plush and opulent. || Action: open door                 || Reward: 0, Score: 2
+[STEP 69] | it seems to be locked.                                                 || Action: look                      || Reward: 0, Score: 2
+[STEP 70] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 71] |  main entrance the main entrance to the building is plush and opulent. || Action: examine desk              || Reward: 0, Score: 2
+[STEP 72] | you can't see any such thing.                                          || Action: search desk               || Reward: 0, Score: 2
+[STEP 73] | you can't see any such thing.                                          || Action: search handle             || Reward: 0, Score: 2
+[STEP 74] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 2
+[STEP 75] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 76] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 77] |  main entrance the main entrance to the building is plush and opulent. || Action: search door               || Reward: 0, Score: 2
+[STEP 78] | you find nothing of interest.                                          || Action: look                      || Reward: 0, Score: 2
+[STEP 79] |  main entrance the main entrance to the building is plush and opulent. || Action: take cup                  || Reward: 0, Score: 2
+[STEP 80] | you can't see any such thing.                                          || Action: examine cup               || Reward: 0, Score: 2
+[STEP 81] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 2
+[STEP 82] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 83] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 84] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 85] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 86] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 87] |  main entrance the main entrance to the building is plush and opulent. || Action: open cup                  || Reward: 0, Score: 2
+[STEP 88] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 2
+[STEP 89] |  main entrance the main entrance to the building is plush and opulent. || Action: look glass                || Reward: 0, Score: 2
+[STEP 90] | i only understood you as far as wanting to look.                       || Action: look                      || Reward: 0, Score: 2
+[STEP 91] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 92] |  main entrance the main entrance to the building is plush and opulent. || Action: examine lights            || Reward: 0, Score: 2
+[STEP 93] | you can't see any such thing.                                          || Action: search lights             || Reward: 0, Score: 2
+[STEP 94] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 2
+[STEP 95] |  main entrance the main entrance to the building is plush and opulent. || Action: look door                 || Reward: 0, Score: 2
+[STEP 96] | i only understood you as far as wanting to look.                       || Action: examine lock              || Reward: 0, Score: 2
+[STEP 97] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 2
+[STEP 98] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 99] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 100] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 101] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 102] |  main entrance the main entrance to the building is plush and opulent. || Action: examine desk              || Reward: 0, Score: 2
+[STEP 103] | you can't see any such thing.                                          || Action: search desk               || Reward: 0, Score: 2
+[STEP 104] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 2
+[STEP 105] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 106] |  main entrance the main entrance to the building is plush and opulent. || Action: south                     || Reward: 0, Score: 2
+[STEP 107] |  front of the office                                                   || Action: look                      || Reward: 0, Score: 2
+[STEP 108] |  front of the office you are standing outside a medium sized, new-look || Action: look                      || Reward: 0, Score: 2
+[STEP 109] |  front of the office you are standing outside a medium sized, new-look || Action: north                     || Reward: 0, Score: 2
+Run 2/10 finished. Score: 2
+
+--- EVALUATION SUMMARY (our method) ---
+Agent LLM Model: gpt-oss-20b
+Number of final evaluation runs: 10
+Individual Scores: [2, 2]
+Average Score: 2.00
+Standard Deviation: 0.00
+
+Starting game run 3/10...
+[DACS] enabled=True game=ludicorp
+[DACS] num raw candidates = 2 archived=0
+[DACS] num filtered candidates = 2
+[DACS] selected/reordered candidate ids = [0, 1]
+[DACS] candidate score table:
+  id | relevance | diversity | risk | final_score | summary
+  0 | 0.092 | 1.0 | 0.039 | 0.765 | Explore systematically and examine objects to make progress.
+  1 | 0.092 | 0.0 | 0.039 | 0.265 | Explore systematically and examine objects to make progress.
+[DACS] fallback=False
+Parent node 1 at depth 1 with UCB score: 2.666043688926158
+
+Evolving prompt. Current prompt: 'Explore systematically and examine objects to make progress....'
+
+Current state extractor code: '
+def extract_state(game_history):
+    return "Game in progress."
+...'
+
+
+Updated state extractor code successfully.
+Evolved guiding prompt and code: '[Guiding Prompt]  
+You are playing an interactive fiction game where your character is currently outside a locked office building. The goal is to enter the building, find the key to open the door, and progress inside.  
+
+**Step‑by‑step instructions that have proven useful in this situation:**
+
+1. **Leave the entrance** – Move south to the carpark.  
+   *Why?* The carpark is a separate room that often contains keys or clues that unlock the main entrance.  
+2. **Search the carpark** – Use the `search` command on the carpark itself and on any visible objects (parking tickets, cars, trash cans).  
+   *Why?* Keys are frequently hidden in such places.  
+3. **Return to the main entrance if a key is found** –  
+   a. `north` to go back to the entrance.  
+   b. `unlock door` or `open door` with the key.  
+4. **If the key is not found** –  
+   a. Explore the carpark more thoroughly (`search` on each car, `look` at the parking sign).  
+   b. If still no key, consider looking for a security guard or a hidden keypad near the entrance.  
+5. **Inside the building** – Once the door is open, `enter` and then systematically examine each desk, cabinet, and object.  
+   *Why?* The next clue is almost always hidden behind or inside an item.  
+
+**Avoid the following unproductive patterns (based on the history):**  
+- Repeated `look` or `examine` on the same object (desk, handle, cup, glass).  
+- `search` or `open` actions that have already returned “you can’t see any such thing.”  
+- Moving back and forth between the same rooms without new interactions.  
+
+**When you reach a dead end** (no new objects found, repeated failure to unlock the door):  
+- List all rooms that have been lightly or not at all explored (e.g., carpark, back entrance, parking lot).  
+- Brainstorm possible next actions that might reveal a key or a clue (e.g., `search car`, `inspect ticket`, `look for keypad`).  
+- Systematically attempt those actions, documenting the result each time.  
+
+By following these focused steps, you will avoid endless loops, concentrate on productive actions, and increase your chances of progressing in the game.  
+
+[State Extractor]'
+def extract_state(game_history):
+    if "you find a key" in game_history or "key" in game_history and "found" in game_history:
+        return "Key found. Main entrance unlocked."
+    if "you can't see any such thing" in game_history and "desk" in game_history:
+        return "No key found. Still at locked main entrance."
+    if "carpark" in game_history and "search" in game_history:
+        return "Carpark searched. No key yet."
+    if "main entrance" in game_history and "locked" in game_history:
+        return "At locked main entrance. No key."
+    return "Unknown state."
+[STEP 0] |  It's nearly christmas 2003, and Ludicorp still haven't released GNE.  || Action: south                     || Reward: 1, Score: 2
+[STEP 1] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: search car                || Reward: 0, Score: 2
+[STEP 2] | you can't see any such thing.                                          || Action: search sign               || Reward: 0, Score: 2
+[STEP 3] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 2
+[STEP 4] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: west                      || Reward: 1, Score: 3
+[STEP 5] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: examine panel             || Reward: 0, Score: 3
+[STEP 6] | it's a simple metal control panel with a single button and a speaker g || Action: press button              || Reward: 0, Score: 3
+[STEP 7] | nothing happens.                                                       || Action: look                      || Reward: 0, Score: 3
+[STEP 8] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: look                      || Reward: 0, Score: 3
+[STEP 9] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: open gate                 || Reward: 0, Score: 3
+[STEP 10] | that's not something you can open.                                     || Action: look                      || Reward: 0, Score: 3
+[STEP 11] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: search gate               || Reward: 0, Score: 3
+[STEP 12] | you find nothing of interest.                                          || Action: look                      || Reward: 0, Score: 3
+[STEP 13] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: look                      || Reward: 0, Score: 3
+[STEP 14] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: look                      || Reward: 0, Score: 3
+[STEP 15] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: look                      || Reward: 0, Score: 3
+[STEP 16] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: look                      || Reward: 0, Score: 3
+[STEP 17] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: look panel                || Reward: 0, Score: 3
+[STEP 18] | i only understood you as far as wanting to look.                       || Action: look                      || Reward: 0, Score: 3
+[STEP 19] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: look                      || Reward: 0, Score: 3
+[STEP 20] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: look gate                 || Reward: 0, Score: 3
+[STEP 21] | i only understood you as far as wanting to look.                       || Action: examine gate              || Reward: 0, Score: 3
+[STEP 22] | a pretty tough looking gate, topped with mean-looking razor-wire.      || Action: look                      || Reward: 0, Score: 3
+[STEP 23] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: look                      || Reward: 0, Score: 3
+[STEP 24] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: east                      || Reward: 0, Score: 3
+[STEP 25] |  the main carpark                                                      || Action: look                      || Reward: 0, Score: 3
+[STEP 26] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: look                      || Reward: 0, Score: 3
+[STEP 27] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: search ticket             || Reward: 0, Score: 3
+[STEP 28] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 3
+[STEP 29] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: look                      || Reward: 0, Score: 3
+[STEP 30] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: search carpark            || Reward: 0, Score: 3
+[STEP 31] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 3
+[STEP 32] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: search car                || Reward: 0, Score: 3
+[STEP 33] | you can't see any such thing.                                          || Action: north                     || Reward: 0, Score: 3
+[STEP 34] |  front of the office                                                   || Action: examine door              || Reward: 0, Score: 3
+[STEP 35] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 3
+[STEP 36] |  front of the office you are standing outside a medium sized, new-look || Action: search door               || Reward: 0, Score: 3
+[STEP 37] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 3
+[STEP 38] |  front of the office you are standing outside a medium sized, new-look || Action: enter                     || Reward: 0, Score: 3
+[STEP 39] | you can't go that way.                                                 || Action: look                      || Reward: 0, Score: 3
+[STEP 40] |  front of the office you are standing outside a medium sized, new-look || Action: north                     || Reward: 1, Score: 4
+[STEP 41] |  main entrance the main entrance to the building is plush and opulent. || Action: unlock door               || Reward: 0, Score: 4
+[STEP 42] | what do you want to unlock the main door with?                         || Action: unlock door               || Reward: 0, Score: 4
+[STEP 43] | what do you want to unlock the main door with?                         || Action: unlock door key           || Reward: 0, Score: 4
+[STEP 44] | i didn't understand that sentence.                                     || Action: look                      || Reward: 0, Score: 4
+[STEP 45] |  main entrance the main entrance to the building is plush and opulent. || Action: examine desk              || Reward: 0, Score: 4
+[STEP 46] | you can't see any such thing.                                          || Action: search desk               || Reward: 0, Score: 4
+[STEP 47] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 4
+[STEP 48] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 4
+[STEP 49] |  main entrance the main entrance to the building is plush and opulent. || Action: examine cup               || Reward: 0, Score: 4
+[STEP 50] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 4
+[STEP 51] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 4
+[STEP 52] |  main entrance the main entrance to the building is plush and opulent. || Action: unlock door with key      || Reward: 0, Score: 4
+[STEP 53] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 4
+[STEP 54] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 4
+[STEP 55] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 4
+[STEP 56] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 4
+[STEP 57] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 4
+[STEP 58] |  main entrance the main entrance to the building is plush and opulent. || Action: inventory                 || Reward: 0, Score: 4
+[STEP 59] | you are carrying nothing.                                              || Action: look                      || Reward: 0, Score: 4
+[STEP 60] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 4
+[STEP 61] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 4
+[STEP 62] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 4
+[STEP 63] |  main entrance the main entrance to the building is plush and opulent. || Action: south                     || Reward: 0, Score: 4
+[STEP 64] |  front of the office                                                   || Action: north                     || Reward: 0, Score: 4
+[STEP 65] |  main entrance                                                         || Action: south                     || Reward: 0, Score: 4
+[STEP 66] |  front of the office                                                   || Action: look                      || Reward: 0, Score: 4
+[STEP 67] |  front of the office you are standing outside a medium sized, new-look || Action: north                     || Reward: 0, Score: 4
+[STEP 68] |  main entrance                                                         || Action: south                     || Reward: 0, Score: 4
+[STEP 69] |  front of the office                                                   || Action: north                     || Reward: 0, Score: 4
+[STEP 70] |  main entrance                                                         || Action: enter                     || Reward: 0, Score: 4
+[STEP 71] | you can't go that way.                                                 || Action: look                      || Reward: 0, Score: 4
+[STEP 72] |  main entrance the main entrance to the building is plush and opulent. || Action: south                     || Reward: 0, Score: 4
+[STEP 73] |  front of the office                                                   || Action: look                      || Reward: 0, Score: 4
+[STEP 74] |  front of the office you are standing outside a medium sized, new-look || Action: look                      || Reward: 0, Score: 4
+[STEP 75] |  front of the office you are standing outside a medium sized, new-look || Action: south                     || Reward: 0, Score: 4
+[STEP 76] |  the main carpark                                                      || Action: look                      || Reward: 0, Score: 4
+[STEP 77] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: look                      || Reward: 0, Score: 4
+[STEP 78] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: north                     || Reward: 0, Score: 4
+[STEP 79] |  front of the office                                                   || Action: south                     || Reward: 0, Score: 4
+[STEP 80] |  the main carpark                                                      || Action: west                      || Reward: 0, Score: 4
+[STEP 81] |  the delivery bay gateway                                              || Action: look                      || Reward: 0, Score: 4
+[STEP 82] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: look                      || Reward: 0, Score: 4
+[STEP 83] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: examine panel             || Reward: 0, Score: 4
+[STEP 84] | it's a simple metal control panel with a single button and a speaker g || Action: look                      || Reward: 0, Score: 4
+[STEP 85] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: look                      || Reward: 0, Score: 4
+[STEP 86] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: look                      || Reward: 0, Score: 4
+[STEP 87] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: press button              || Reward: 0, Score: 4
+[STEP 88] | nothing happens.                                                       || Action: look                      || Reward: 0, Score: 4
+[STEP 89] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: look                      || Reward: 0, Score: 4
+[STEP 90] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: look                      || Reward: 0, Score: 4
+[STEP 91] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: look                      || Reward: 0, Score: 4
+[STEP 92] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: look                      || Reward: 0, Score: 4
+[STEP 93] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: look                      || Reward: 0, Score: 4
+[STEP 94] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: look                      || Reward: 0, Score: 4
+[STEP 95] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: search gate               || Reward: 0, Score: 4
+[STEP 96] | you find nothing of interest.                                          || Action: east                      || Reward: 0, Score: 4
+[STEP 97] |  the main carpark                                                      || Action: inventory                 || Reward: 0, Score: 4
+[STEP 98] | you are carrying nothing.                                              || Action: look                      || Reward: 0, Score: 4
+[STEP 99] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: search car                || Reward: 0, Score: 4
+[STEP 100] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 4
+[STEP 101] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: look                      || Reward: 0, Score: 4
+[STEP 102] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: search carpark            || Reward: 0, Score: 4
+[STEP 103] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 4
+[STEP 104] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: north                     || Reward: 0, Score: 4
+[STEP 105] |  front of the office                                                   || Action: unlock door               || Reward: 0, Score: 4
+[STEP 106] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 4
+[STEP 107] |  front of the office you are standing outside a medium sized, new-look || Action: look                      || Reward: 0, Score: 4
+[STEP 108] |  front of the office you are standing outside a medium sized, new-look || Action: look                      || Reward: 0, Score: 4
+[STEP 109] |  front of the office you are standing outside a medium sized, new-look || Action: look                      || Reward: 0, Score: 4
+[OurAgent] New best score 4 at node 2.
+Run 3/10 finished. Score: 4
+
+--- EVALUATION SUMMARY (our method) ---
+Agent LLM Model: gpt-oss-20b
+Number of final evaluation runs: 10
+Individual Scores: [2, 2, 4]
+Average Score: 2.67
+Standard Deviation: 1.15
+
+Starting game run 4/10...
+[DACS] enabled=True game=ludicorp
+[DACS] num raw candidates = 3 archived=0
+[DACS] num filtered candidates = 3
+[DACS] selected/reordered candidate ids = [2, 0, 1]
+[DACS] candidate score table:
+  id | relevance | diversity | risk | final_score | summary
+  2 | 0.345 | 1.0 | 0.145 | 0.943 | [Guiding Prompt]   You are playing an interactive fiction game where your charac
+  0 | 0.071 | 0.932 | 0.028 | 0.618 | Explore systematically and examine objects to make progress.
+  1 | 0.071 | 0.0 | 0.028 | 0.152 | Explore systematically and examine objects to make progress.
+[DACS] fallback=False
+Parent node 2 at depth 2 with UCB score: 4.670814127339652
+
+Evolving prompt. Current prompt: '[Guiding Prompt]  
+You are playing an interactive fiction game where your charac...'
+
+Current state extractor code: 'def extract_state(game_history):
+    if "you find a key" in game_history or "key...'
+
+
+Error during prompt evolution LLM call: 'NoneType' object has no attribute 'strip'
+Evolved guiding prompt and code: '[Guiding Prompt]  
+You are playing an interactive fiction game where your character is currently outside a locked office building. The goal is to enter the building, find the key to open the door, and progress inside.  
+
+**Step‑by‑step instructions that have proven useful in this situation:**
+
+1. **Leave the entrance** – Move south to the carpark.  
+   *Why?* The carpark is a separate room that often contains keys or clues that unlock the main entrance.  
+2. **Search the carpark** – Use the `search` command on the carpark itself and on any visible objects (parking tickets, cars, trash cans).  
+   *Why?* Keys are frequently hidden in such places.  
+3. **Return to the main entrance if a key is found** –  
+   a. `north` to go back to the entrance.  
+   b. `unlock door` or `open door` with the key.  
+4. **If the key is not found** –  
+   a. Explore the carpark more thoroughly (`search` on each car, `look` at the parking sign).  
+   b. If still no key, consider looking for a security guard or a hidden keypad near the entrance.  
+5. **Inside the building** – Once the door is open, `enter` and then systematically examine each desk, cabinet, and object.  
+   *Why?* The next clue is almost always hidden behind or inside an item.  
+
+**Avoid the following unproductive patterns (based on the history):**  
+- Repeated `look` or `examine` on the same object (desk, handle, cup, glass).  
+- `search` or `open` actions that have already returned “you can’t see any such thing.”  
+- Moving back and forth between the same rooms without new interactions.  
+
+**When you reach a dead end** (no new objects found, repeated failure to unlock the door):  
+- List all rooms that have been lightly or not at all explored (e.g., carpark, back entrance, parking lot).  
+- Brainstorm possible next actions that might reveal a key or a clue (e.g., `search car`, `inspect ticket`, `look for keypad`).  
+- Systematically attempt those actions, documenting the result each time.  
+
+By following these focused steps, you will avoid endless loops, concentrate on productive actions, and increase your chances of progressing in the game.  
+
+[State Extractor]'
+def extract_state(game_history):
+    if "you find a key" in game_history or "key" in game_history and "found" in game_history:
+        return "Key found. Main entrance unlocked."
+    if "you can't see any such thing" in game_history and "desk" in game_history:
+        return "No key found. Still at locked main entrance."
+    if "carpark" in game_history and "search" in game_history:
+        return "Carpark searched. No key yet."
+    if "main entrance" in game_history and "locked" in game_history:
+        return "At locked main entrance. No key."
+    return "Unknown state."
+[STEP 0] |  It's nearly christmas 2003, and Ludicorp still haven't released GNE.  || Action: south                     || Reward: 1, Score: 2
+[STEP 1] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: search                    || Reward: 0, Score: 2
+[STEP 2] | what do you want to search?                                            || Action: search car                || Reward: 0, Score: 2
+[STEP 3] | you can't see any such thing.                                          || Action: west                      || Reward: 1, Score: 3
+[STEP 4] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: search panel              || Reward: 0, Score: 3
+[STEP 5] | you find nothing of interest.                                          || Action: examine panel             || Reward: 0, Score: 3
+[STEP 6] | it's a simple metal control panel with a single button and a speaker g || Action: press button              || Reward: 0, Score: 3
+[STEP 7] | nothing happens.                                                       || Action: look                      || Reward: 0, Score: 3
+[STEP 8] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: examine gate              || Reward: 0, Score: 3
+[STEP 9] | a pretty tough looking gate, topped with mean-looking razor-wire.      || Action: search gate               || Reward: 0, Score: 3
+[STEP 10] | you find nothing of interest.                                          || Action: look                      || Reward: 0, Score: 3
+[STEP 11] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: look                      || Reward: 0, Score: 3
+[STEP 12] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: look                      || Reward: 0, Score: 3
+[STEP 13] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: look                      || Reward: 0, Score: 3
+[STEP 14] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: look                      || Reward: 0, Score: 3
+[STEP 15] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: look                      || Reward: 0, Score: 3
+[STEP 16] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: look                      || Reward: 0, Score: 3
+[STEP 17] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: look                      || Reward: 0, Score: 3
+[STEP 18] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: look                      || Reward: 0, Score: 3
+[STEP 19] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: east                      || Reward: 0, Score: 3
+[STEP 20] |  the main carpark                                                      || Action: north                     || Reward: 0, Score: 3
+[STEP 21] |  front of the office                                                   || Action: enter                     || Reward: 0, Score: 3
+[STEP 22] | you can't go that way.                                                 || Action: look                      || Reward: 0, Score: 3
+[STEP 23] |  front of the office you are standing outside a medium sized, new-look || Action: north                     || Reward: 1, Score: 4
+[STEP 24] |  main entrance the main entrance to the building is plush and opulent. || Action: unlock door               || Reward: 0, Score: 4
+[STEP 25] | what do you want to unlock the main door with?                         || Action: look                      || Reward: 0, Score: 4
+[STEP 26] |  main entrance the main entrance to the building is plush and opulent. || Action: unlock door key           || Reward: 0, Score: 4
+[STEP 27] | i didn't understand that sentence.                                     || Action: look                      || Reward: 0, Score: 4
+[STEP 28] |  main entrance the main entrance to the building is plush and opulent. || Action: unlock door with key      || Reward: 0, Score: 4
+[STEP 29] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 4
+[STEP 30] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 4
+[STEP 31] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 4
+[STEP 32] |  main entrance the main entrance to the building is plush and opulent. || Action: use key                   || Reward: 0, Score: 4
+[STEP 33] | you can't see any such thing.                                          || Action: inventory                 || Reward: 0, Score: 4
+[STEP 34] | you are carrying nothing.                                              || Action: south                     || Reward: 0, Score: 4
+[STEP 35] |  front of the office                                                   || Action: south                     || Reward: 0, Score: 4
+[STEP 36] |  the main carpark                                                      || Action: search cars               || Reward: 0, Score: 4
+[STEP 37] | you can't see any such thing.                                          || Action: search ticket             || Reward: 0, Score: 4
+[STEP 38] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 4
+[STEP 39] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: look                      || Reward: 0, Score: 4
+[STEP 40] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: west                      || Reward: 0, Score: 4
+[STEP 41] |  the delivery bay gateway                                              || Action: examine panel             || Reward: 0, Score: 4
+[STEP 42] | it's a simple metal control panel with a single button and a speaker g || Action: press button              || Reward: 0, Score: 4
+[STEP 43] | nothing happens.                                                       || Action: search gate               || Reward: 0, Score: 4
+[STEP 44] | you find nothing of interest.                                          || Action: look                      || Reward: 0, Score: 4
+[STEP 45] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: look                      || Reward: 0, Score: 4
+[STEP 46] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: east                      || Reward: 0, Score: 4
+[STEP 47] |  the main carpark                                                      || Action: look                      || Reward: 0, Score: 4
+[STEP 48] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: examine sign              || Reward: 0, Score: 4
+[STEP 49] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 4
+[STEP 50] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: look                      || Reward: 0, Score: 4
+[STEP 51] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: search                    || Reward: 0, Score: 4
+[STEP 52] | what do you want to search?                                            || Action: look                      || Reward: 0, Score: 4
+[STEP 53] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: look                      || Reward: 0, Score: 4
+[STEP 54] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: look                      || Reward: 0, Score: 4
+[STEP 55] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: look                      || Reward: 0, Score: 4
+[STEP 56] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: look                      || Reward: 0, Score: 4
+[STEP 57] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: look                      || Reward: 0, Score: 4
+[STEP 58] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: look                      || Reward: 0, Score: 4
+[STEP 59] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action:                           || Reward: 0, Score: 4
+[STEP 60] | i beg your pardon?                                                     || Action: search car                || Reward: 0, Score: 4
+[STEP 61] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 4
+[STEP 62] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: north                     || Reward: 0, Score: 4
+[STEP 63] |  front of the office                                                   || Action: enter                     || Reward: 0, Score: 4
+[STEP 64] | you can't go that way.                                                 || Action: look                      || Reward: 0, Score: 4
+[STEP 65] |  front of the office you are standing outside a medium sized, new-look || Action: open door                 || Reward: 0, Score: 4
+[STEP 66] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 4
+[STEP 67] |  front of the office you are standing outside a medium sized, new-look || Action: north                     || Reward: 0, Score: 4
+[STEP 68] |  main entrance                                                         || Action: look                      || Reward: 0, Score: 4
+[STEP 69] |  main entrance the main entrance to the building is plush and opulent. || Action: unlock door               || Reward: 0, Score: 4
+[STEP 70] | what do you want to unlock the main door with?                         || Action: look                      || Reward: 0, Score: 4
+[STEP 71] |  main entrance the main entrance to the building is plush and opulent. || Action: unlock door key           || Reward: 0, Score: 4
+[STEP 72] | i didn't understand that sentence.                                     || Action: look                      || Reward: 0, Score: 4
+[STEP 73] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 4
+[STEP 74] |  main entrance the main entrance to the building is plush and opulent. || Action: unlock door with key      || Reward: 0, Score: 4
+[STEP 75] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 4
+[STEP 76] |  main entrance the main entrance to the building is plush and opulent. || Action: inventory                 || Reward: 0, Score: 4
+[STEP 77] | you are carrying nothing.                                              || Action: search desk               || Reward: 0, Score: 4
+[STEP 78] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 4
+[STEP 79] |  main entrance the main entrance to the building is plush and opulent. || Action: examine cup               || Reward: 0, Score: 4
+[STEP 80] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 4
+[STEP 81] |  main entrance the main entrance to the building is plush and opulent. || Action: open cup                  || Reward: 0, Score: 4
+[STEP 82] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 4
+[STEP 83] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 4
+[STEP 84] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 4
+[STEP 85] |  main entrance the main entrance to the building is plush and opulent. || Action: open desk                 || Reward: 0, Score: 4
+[STEP 86] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 4
+[STEP 87] |  main entrance the main entrance to the building is plush and opulent. || Action: south                     || Reward: 0, Score: 4
+[STEP 88] |  front of the office                                                   || Action: south                     || Reward: 0, Score: 4
+[STEP 89] |  the main carpark                                                      || Action: west                      || Reward: 0, Score: 4
+[STEP 90] |  the delivery bay gateway                                              || Action: search                    || Reward: 0, Score: 4
+[STEP 91] | what do you want to search?                                            || Action: search gate               || Reward: 0, Score: 4
+[STEP 92] | you find nothing of interest.                                          || Action: look                      || Reward: 0, Score: 4
+[STEP 93] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: examine panel             || Reward: 0, Score: 4
+[STEP 94] | it's a simple metal control panel with a single button and a speaker g || Action: look                      || Reward: 0, Score: 4
+[STEP 95] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: press button              || Reward: 0, Score: 4
+[STEP 96] | nothing happens.                                                       || Action: open gate                 || Reward: 0, Score: 4
+[STEP 97] | that's not something you can open.                                     || Action: look                      || Reward: 0, Score: 4
+[STEP 98] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: search panel              || Reward: 0, Score: 4
+[STEP 99] | you find nothing of interest.                                          || Action: east                      || Reward: 0, Score: 4
+[STEP 100] |  the main carpark                                                      || Action: search car                || Reward: 0, Score: 4
+[STEP 101] | you can't see any such thing.                                          || Action: search carpark            || Reward: 0, Score: 4
+[STEP 102] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 4
+[STEP 103] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: examine sign              || Reward: 0, Score: 4
+[STEP 104] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 4
+[STEP 105] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: look                      || Reward: 0, Score: 4
+[STEP 106] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: north                     || Reward: 0, Score: 4
+[STEP 107] |  front of the office                                                   || Action: north                     || Reward: 0, Score: 4
+[STEP 108] |  main entrance                                                         || Action: enter                     || Reward: 0, Score: 4
+[STEP 109] | you can't go that way.                                                 || Action: look                      || Reward: 0, Score: 4
+Run 4/10 finished. Score: 4
+
+--- EVALUATION SUMMARY (our method) ---
+Agent LLM Model: gpt-oss-20b
+Number of final evaluation runs: 10
+Individual Scores: [2, 2, 4, 4]
+Average Score: 3.00
+Standard Deviation: 1.15
+
+Starting game run 5/10...
+[DACS] enabled=True game=ludicorp
+[DACS] num raw candidates = 4 archived=0
+[DACS] num filtered candidates = 4
+[DACS] selected/reordered candidate ids = [2, 0, 3, 1]
+[DACS] candidate score table:
+  id | relevance | diversity | risk | final_score | summary
+  2 | 0.395 | 1.0 | 0.153 | 0.987 | [Guiding Prompt]   You are playing an interactive fiction game where your charac
+  0 | 0.07 | 0.932 | 0.027 | 0.618 | Explore systematically and examine objects to make progress.
+  3 | 0.395 | 0.0 | 0.153 | 0.487 | [Guiding Prompt]   You are playing an interactive fiction game where your charac
+  1 | 0.07 | 0.0 | 0.027 | 0.151 | Explore systematically and examine objects to make progress.
+[DACS] fallback=False
+Parent node 3 at depth 3 with UCB score: 4.602833931527924
+
+Evolving prompt. Current prompt: '[Guiding Prompt]  
+You are playing an interactive fiction game where your charac...'
+
+Current state extractor code: 'def extract_state(game_history):
+    if "you find a key" in game_history or "key...'
+
+
+Evolution LLM returned invalid state extractor code, keeping current code
+Evolved guiding prompt and code: '**Guiding Prompt**
+
+You are standing before a modern office block. Your objective is to enter the building, find the key that opens the main entrance, and then progress inside.  
+
+**Essential Actions (must‑do list)**  
+1. **Go to the carpark** – From the front of the office, type `south`.  
+2. **Search each parked car** – In the carpark, repeatedly use `search car` until you find a key.  
+3. **Check your inventory** – After each search, type `inventory` to confirm you have the key.  
+4. **Return to the main entrance** – If the key is in your inventory, type `north` to go back to the front of the office.  
+5. **Unlock the door** – Use the key: `unlock door with key`.  
+6. **Enter the building** – Once the door is unlocked, type `enter`.  
+
+**Avoid Unproductive Patterns**  
+- Repeating `look` or `examine` on the same object.  
+- `search` or `open` commands that repeatedly return “you can’t see any such thing.”  
+- Moving back and forth between the same rooms without a new interaction.  
+
+**When You Reach a Dead End**  
+- List all rooms that have been lightly or not at all explored:  
+  - `the main carpark`  
+  - `the delivery bay gateway`  
+  - `main entrance`  
+- Brainstorm possible next actions (only guesses):  
+  - `search car`  
+  - `examine sign`  
+  - `search gate`  
+  - `search desk`  
+- Systematically try each action, documenting the result each time.  
+
+Stick strictly to the must‑do list above. Any deviation that does not move toward finding the key or unlocking the door should be avoided.
+
+---
+
+**State Extractor**
+
+```python
+def extract_state(game_history):
+    history = game_history.lower()
+    milestones = []
+
+    if ("you find a key" in history or "you find a small key" in history or
+        "you find something that looks like a key" in history):
+        milestones.append("Key found")
+
+    if ("you are carrying" in history and "key" in history):
+        milestones.append("Key in inventory")
+
+    if ("unlock door with key" in history or "unlock door key" in history or
+        "unlock door" in history and "you open" in history):
+        milestones.append("Door unlocked")
+
+    if ("you enter" in history or "you step inside" in history):
+        milestones.append("Entered building")
+
+    if not milestones:
+        return "Unknown state."
+
+    return ", ".join(milestones) + "."
+```'
+def extract_state(game_history):
+    if "you find a key" in game_history or "key" in game_history and "found" in game_history:
+        return "Key found. Main entrance unlocked."
+    if "you can't see any such thing" in game_history and "desk" in game_history:
+        return "No key found. Still at locked main entrance."
+    if "carpark" in game_history and "search" in game_history:
+        return "Carpark searched. No key yet."
+    if "main entrance" in game_history and "locked" in game_history:
+        return "At locked main entrance. No key."
+    return "Unknown state."
+[STEP 0] |  It's nearly christmas 2003, and Ludicorp still haven't released GNE.  || Action: south                     || Reward: 1, Score: 2
+[STEP 1] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: search car                || Reward: 0, Score: 2
+[STEP 2] | you can't see any such thing.                                          || Action: search car                || Reward: 0, Score: 2
+[STEP 3] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 2
+[STEP 4] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: search                    || Reward: 0, Score: 2
+[STEP 5] | what do you want to search?                                            || Action: enter                     || Reward: 0, Score: 2
+[STEP 6] | you can't go that way.                                                 || Action: look                      || Reward: 0, Score: 2
+[STEP 7] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: north                     || Reward: 0, Score: 2
+[STEP 8] |  front of the office                                                   || Action: north                     || Reward: 1, Score: 3
+[STEP 9] |  main entrance the main entrance to the building is plush and opulent. || Action: unlock door with key      || Reward: 0, Score: 3
+[STEP 10] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 3
+[STEP 11] |  main entrance the main entrance to the building is plush and opulent. || Action: inventory                 || Reward: 0, Score: 3
+[STEP 12] | you are carrying nothing.                                              || Action: south                     || Reward: 0, Score: 3
+[STEP 13] |  front of the office                                                   || Action: enter                     || Reward: 0, Score: 3
+[STEP 14] | you can't go that way.                                                 || Action: look                      || Reward: 0, Score: 3
+[STEP 15] |  front of the office you are standing outside a medium sized, new-look || Action: enter                     || Reward: 0, Score: 3
+[STEP 16] | you can't go that way.                                                 || Action: south                     || Reward: 0, Score: 3
+[STEP 17] |  the main carpark                                                      || Action: search car                || Reward: 0, Score: 3
+[STEP 18] | you can't see any such thing.                                          || Action: search car                || Reward: 0, Score: 3
+[STEP 19] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 3
+[STEP 20] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: look                      || Reward: 0, Score: 3
+[STEP 21] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: look                      || Reward: 0, Score: 3
+[STEP 22] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: look                      || Reward: 0, Score: 3
+[STEP 23] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: look                      || Reward: 0, Score: 3
+[STEP 24] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: look                      || Reward: 0, Score: 3
+[STEP 25] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: look                      || Reward: 0, Score: 3
+[STEP 26] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: look                      || Reward: 0, Score: 3
+[STEP 27] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: look                      || Reward: 0, Score: 3
+[STEP 28] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: look                      || Reward: 0, Score: 3
+[STEP 29] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: look                      || Reward: 0, Score: 3
+[STEP 30] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: look                      || Reward: 0, Score: 3
+[STEP 31] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: look                      || Reward: 0, Score: 3
+[STEP 32] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: west                      || Reward: 1, Score: 4
+[STEP 33] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: east                      || Reward: 0, Score: 4
+[STEP 34] |  the main carpark                                                      || Action: look                      || Reward: 0, Score: 4
+[STEP 35] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: look                      || Reward: 0, Score: 4
+[STEP 36] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: look                      || Reward: 0, Score: 4
+[STEP 37] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: look                      || Reward: 0, Score: 4
+[STEP 38] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: look                      || Reward: 0, Score: 4
+[STEP 39] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: look                      || Reward: 0, Score: 4
+[STEP 40] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: north                     || Reward: 0, Score: 4
+[STEP 41] |  front of the office                                                   || Action: north                     || Reward: 0, Score: 4
+[STEP 42] |  main entrance                                                         || Action: enter                     || Reward: 0, Score: 4
+[STEP 43] | you can't go that way.                                                 || Action: unlock door with key      || Reward: 0, Score: 4
+[STEP 44] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 4
+[STEP 45] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 4
+[STEP 46] |  main entrance the main entrance to the building is plush and opulent. || Action: inventory                 || Reward: 0, Score: 4
+[STEP 47] | you are carrying nothing.                                              || Action: look                      || Reward: 0, Score: 4
+[STEP 48] |  main entrance the main entrance to the building is plush and opulent. || Action: south                     || Reward: 0, Score: 4
+[STEP 49] |  front of the office                                                   || Action: south                     || Reward: 0, Score: 4
+[STEP 50] |  the main carpark                                                      || Action: search car                || Reward: 0, Score: 4
+[STEP 51] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 4
+[STEP 52] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: look                      || Reward: 0, Score: 4
+[STEP 53] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: look                      || Reward: 0, Score: 4
+[STEP 54] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: look                      || Reward: 0, Score: 4
+[STEP 55] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: look                      || Reward: 0, Score: 4
+[STEP 56] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: north                     || Reward: 0, Score: 4
+[STEP 57] |  front of the office                                                   || Action: look                      || Reward: 0, Score: 4
+[STEP 58] |  front of the office you are standing outside a medium sized, new-look || Action: north                     || Reward: 0, Score: 4
+[STEP 59] |  main entrance                                                         || Action: look                      || Reward: 0, Score: 4
+[STEP 60] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 4
+[STEP 61] |  main entrance the main entrance to the building is plush and opulent. || Action: south                     || Reward: 0, Score: 4
+[STEP 62] |  front of the office                                                   || Action: south                     || Reward: 0, Score: 4
+[STEP 63] |  the main carpark                                                      || Action: west                      || Reward: 0, Score: 4
+[STEP 64] |  the delivery bay gateway                                              || Action: south                     || Reward: 0, Score: 4
+[STEP 65] | you can't go that way.                                                 || Action: look                      || Reward: 0, Score: 4
+[STEP 66] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: east                      || Reward: 0, Score: 4
+[STEP 67] |  the main carpark                                                      || Action: look                      || Reward: 0, Score: 4
+[STEP 68] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: east                      || Reward: 0, Score: 4
+[STEP 69] | you can't go that way.                                                 || Action: look                      || Reward: 0, Score: 4
+[STEP 70] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: look                      || Reward: 0, Score: 4
+[STEP 71] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: search car                || Reward: 0, Score: 4
+[STEP 72] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 4
+[STEP 73] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: look                      || Reward: 0, Score: 4
+[STEP 74] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: search car                || Reward: 0, Score: 4
+[STEP 75] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 4
+[STEP 76] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: look                      || Reward: 0, Score: 4
+[STEP 77] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: look                      || Reward: 0, Score: 4
+[STEP 78] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: north                     || Reward: 0, Score: 4
+[STEP 79] |  front of the office                                                   || Action: enter                     || Reward: 0, Score: 4
+[STEP 80] | you can't go that way.                                                 || Action: look                      || Reward: 0, Score: 4
+[STEP 81] |  front of the office you are standing outside a medium sized, new-look || Action: unlock door with key      || Reward: 0, Score: 4
+[STEP 82] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 4
+[STEP 83] |  front of the office you are standing outside a medium sized, new-look || Action: north                     || Reward: 0, Score: 4
+[STEP 84] |  main entrance                                                         || Action: unlock door key           || Reward: 0, Score: 4
+[STEP 85] | i didn't understand that sentence.                                     || Action: look                      || Reward: 0, Score: 4
+[STEP 86] |  main entrance the main entrance to the building is plush and opulent. || Action: unlock main entrance with key || Reward: 0, Score: 4
+[STEP 87] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 4
+[STEP 88] |  main entrance the main entrance to the building is plush and opulent. || Action: unlock main entrance      || Reward: 0, Score: 4
+[STEP 89] | what do you want to unlock the main door with?                         || Action: inventory                 || Reward: 0, Score: 4
+[STEP 90] | you are carrying nothing.                                              || Action: look                      || Reward: 0, Score: 4
+[STEP 91] |  main entrance the main entrance to the building is plush and opulent. || Action: south                     || Reward: 0, Score: 4
+[STEP 92] |  front of the office                                                   || Action: south                     || Reward: 0, Score: 4
+[STEP 93] |  the main carpark                                                      || Action: look                      || Reward: 0, Score: 4
+[STEP 94] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: look                      || Reward: 0, Score: 4
+[STEP 95] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: west                      || Reward: 0, Score: 4
+[STEP 96] |  the delivery bay gateway                                              || Action: east                      || Reward: 0, Score: 4
+[STEP 97] |  the main carpark                                                      || Action: look                      || Reward: 0, Score: 4
+[STEP 98] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: look                      || Reward: 0, Score: 4
+[STEP 99] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: search car                || Reward: 0, Score: 4
+[STEP 100] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 4
+[STEP 101] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: north                     || Reward: 0, Score: 4
+[STEP 102] |  front of the office                                                   || Action: south                     || Reward: 0, Score: 4
+[STEP 103] |  the main carpark                                                      || Action: look                      || Reward: 0, Score: 4
+[STEP 104] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: look                      || Reward: 0, Score: 4
+[STEP 105] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: look                      || Reward: 0, Score: 4
+[STEP 106] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: look                      || Reward: 0, Score: 4
+[STEP 107] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: look                      || Reward: 0, Score: 4
+[STEP 108] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: look                      || Reward: 0, Score: 4
+[STEP 109] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: look                      || Reward: 0, Score: 4
+Run 5/10 finished. Score: 4
+
+--- EVALUATION SUMMARY (our method) ---
+Agent LLM Model: gpt-oss-20b
+Number of final evaluation runs: 10
+Individual Scores: [2, 2, 4, 4, 4]
+Average Score: 3.20
+Standard Deviation: 1.10
+
+Starting game run 6/10...
+[DACS] enabled=True game=ludicorp
+[DACS] num raw candidates = 5 archived=0
+[DACS] num filtered candidates = 4
+[DACS] selected/reordered candidate ids = [4, 2, 0, 3]
+[DACS] candidate score table:
+  id | relevance | diversity | risk | final_score | summary
+  4 | 0.609 | 1.0 | 0.205 | 1.165 | **Guiding Prompt**  You are standing before a modern office block. Your objectiv
+  2 | 0.465 | 0.613 | 0.146 | 0.869 | [Guiding Prompt]   You are playing an interactive fiction game where your charac
+  0 | 0.028 | 0.932 | 0.006 | 0.591 | Explore systematically and examine objects to make progress.
+  3 | 0.465 | 0.0 | 0.146 | 0.563 | [Guiding Prompt]   You are playing an interactive fiction game where your charac
+[DACS] fallback=False
+Parent node 2 at depth 2 with UCB score: 4.574119224958112
+
+Evolving prompt. Current prompt: '[Guiding Prompt]  
+You are playing an interactive fiction game where your charac...'
+
+Current state extractor code: 'def extract_state(game_history):
+    if "you find a key" in game_history or "key...'
+
+
+Evolution LLM returned invalid state extractor code, keeping current code
+Evolved guiding prompt and code: '[Guiding Prompt]  
+You are playing an interactive fiction game whose only goal is to get inside the office building. The game only cares about a few actions that move you forward or unlock the main entrance. Follow these precise, minimal steps and avoid the patterns that caused loops in the past.
+
+1. **If you are at the front of the office**  
+   *Command:* `north`  
+   *Result:* You arrive at the main entrance.
+
+2. **If you are at the main entrance**  
+   - Check your inventory. If you see a line that says “you are carrying” and it contains the word “key”, you have the key.  
+   - If you do **not** have a key, run the following search commands in this order **until the game reports you found a key or you receive an item in your inventory**:  
+     a. `search desk`  
+     b. `search cup`  
+     c. `search door`  
+     d. `search carpark`  
+   - Stop searching as soon as the game says you found a key or you have an item in your inventory.
+
+3. **When you have a key**  
+   *Command:* `unlock door`  
+   *Result:* The game will confirm the door is open.
+
+4. **After the door is open**  
+   *Command:* `enter`  
+   *Result:* You go inside the building.
+
+**Avoid the following unproductive patterns:**  
+
+- Repeating `look` or `examine` on the same object more than once.  
+- `search` or `open` commands that the game replies “you can’t see any such thing.”  
+- Moving back and forth between the same rooms without a new interaction.  
+- Trying the same action many times on the same room.  
+
+**If you reach a point where no new information is obtained after at least three distinct actions** (e.g., you’ve tried `search`, `look`, `unlock` and still see no progress):  
+
+- List the rooms that have not yet been visited or lightly explored (e.g., carpark, delivery bay).  
+- Pick one of those rooms and perform a focused search on objects that could conceal a key (cars, tickets, panels, etc.).  
+- Document the result each time and stop when you find a new object or an inventory item.
+
+By keeping your actions tightly focused on the four essential steps above and by avoiding repeated useless commands, you will prevent endless loops and move toward completing the game as quickly as possible.
+
+<code>
+def extract_state(game_history):
+    opened = "Main entrance unlocked" in game_history or "main entrance unlocked" in game_history
+    key_in_inv = any("you are carrying" in line.lower() and "key" in line.lower() for line in game_history.splitlines())
+    if opened and key_in_inv:
+        return "Key in inventory; main entrance unlocked."
+    if opened:
+        return "Main entrance unlocked."
+    if key_in_inv:
+        return "Key in inventory."
+    if "carrying nothing" in game_history.lower():
+        return "No items in inventory."
+    if "Key found" in game_history:'
+def extract_state(game_history):
+    if "you find a key" in game_history or "key" in game_history and "found" in game_history:
+        return "Key found. Main entrance unlocked."
+    if "you can't see any such thing" in game_history and "desk" in game_history:
+        return "No key found. Still at locked main entrance."
+    if "carpark" in game_history and "search" in game_history:
+        return "Carpark searched. No key yet."
+    if "main entrance" in game_history and "locked" in game_history:
+        return "At locked main entrance. No key."
+    return "Unknown state."
+[STEP 0] |  It's nearly christmas 2003, and Ludicorp still haven't released GNE.  || Action: north                     || Reward: 1, Score: 2
+[STEP 1] |  main entrance the main entrance to the building is plush and opulent. || Action: search desk               || Reward: 0, Score: 2
+[STEP 2] | you can't see any such thing.                                          || Action: search door               || Reward: 0, Score: 2
+[STEP 3] | you find nothing of interest.                                          || Action: enter                     || Reward: 0, Score: 2
+[STEP 4] | you can't go that way.                                                 || Action: look                      || Reward: 0, Score: 2
+[STEP 5] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 6] |  main entrance the main entrance to the building is plush and opulent. || Action: unlock door               || Reward: 0, Score: 2
+[STEP 7] | what do you want to unlock the main door with?                         || Action: unlock door               || Reward: 0, Score: 2
+[STEP 8] | what do you want to unlock the main door with?                         || Action: unlock door with key      || Reward: 0, Score: 2
+[STEP 9] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 2
+[STEP 10] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 11] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 12] |  main entrance the main entrance to the building is plush and opulent. || Action: search cup                || Reward: 0, Score: 2
+[STEP 13] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 2
+[STEP 14] |  main entrance the main entrance to the building is plush and opulent. || Action: south                     || Reward: 0, Score: 2
+[STEP 15] |  front of the office                                                   || Action: north                     || Reward: 0, Score: 2
+[STEP 16] |  main entrance                                                         || Action: look                      || Reward: 0, Score: 2
+[STEP 17] |  main entrance the main entrance to the building is plush and opulent. || Action: inventory                 || Reward: 0, Score: 2
+[STEP 18] | you are carrying nothing.                                              || Action: look                      || Reward: 0, Score: 2
+[STEP 19] |  main entrance the main entrance to the building is plush and opulent. || Action: south                     || Reward: 0, Score: 2
+[STEP 20] |  front of the office                                                   || Action: north                     || Reward: 0, Score: 2
+[STEP 21] |  main entrance                                                         || Action: look                      || Reward: 0, Score: 2
+[STEP 22] |  main entrance the main entrance to the building is plush and opulent. || Action: enter                     || Reward: 0, Score: 2
+[STEP 23] | you can't go that way.                                                 || Action: look                      || Reward: 0, Score: 2
+[STEP 24] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 25] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 26] |  main entrance the main entrance to the building is plush and opulent. || Action: south                     || Reward: 0, Score: 2
+[STEP 27] |  front of the office                                                   || Action: look                      || Reward: 0, Score: 2
+[STEP 28] |  front of the office you are standing outside a medium sized, new-look || Action: north                     || Reward: 0, Score: 2
+[STEP 29] |  main entrance                                                         || Action: look                      || Reward: 0, Score: 2
+[STEP 30] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 31] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 32] |  main entrance the main entrance to the building is plush and opulent. || Action: search desk               || Reward: 0, Score: 2
+[STEP 33] | you can't see any such thing.                                          || Action: south                     || Reward: 0, Score: 2
+[STEP 34] |  front of the office                                                   || Action: north                     || Reward: 0, Score: 2
+[STEP 35] |  main entrance                                                         || Action: look                      || Reward: 0, Score: 2
+[STEP 36] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 37] |  main entrance the main entrance to the building is plush and opulent. || Action: enter                     || Reward: 0, Score: 2
+[STEP 38] | you can't go that way.                                                 || Action: south                     || Reward: 0, Score: 2
+[STEP 39] |  front of the office                                                   || Action: look                      || Reward: 0, Score: 2
+[STEP 40] |  front of the office you are standing outside a medium sized, new-look || Action: north                     || Reward: 0, Score: 2
+[STEP 41] |  main entrance                                                         || Action: search door               || Reward: 0, Score: 2
+[STEP 42] | you find nothing of interest.                                          || Action: look                      || Reward: 0, Score: 2
+[STEP 43] |  main entrance the main entrance to the building is plush and opulent. || Action: unlock door               || Reward: 0, Score: 2
+[STEP 44] | what do you want to unlock the main door with?                         || Action: unlock door               || Reward: 0, Score: 2
+[STEP 45] | what do you want to unlock the main door with?                         || Action: unlock door key           || Reward: 0, Score: 2
+[STEP 46] | i didn't understand that sentence.                                     || Action: look                      || Reward: 0, Score: 2
+[STEP 47] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 48] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 49] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 50] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 51] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 52] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 53] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 54] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 55] |  main entrance the main entrance to the building is plush and opulent. || Action: search cup                || Reward: 0, Score: 2
+[STEP 56] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 2
+[STEP 57] |  main entrance the main entrance to the building is plush and opulent. || Action: inventory                 || Reward: 0, Score: 2
+[STEP 58] | you are carrying nothing.                                              || Action: look                      || Reward: 0, Score: 2
+[STEP 59] |  main entrance the main entrance to the building is plush and opulent. || Action: south                     || Reward: 0, Score: 2
+[STEP 60] |  front of the office                                                   || Action: north                     || Reward: 0, Score: 2
+[STEP 61] |  main entrance                                                         || Action: look                      || Reward: 0, Score: 2
+[STEP 62] |  main entrance the main entrance to the building is plush and opulent. || Action: south                     || Reward: 0, Score: 2
+[STEP 63] |  front of the office                                                   || Action: north                     || Reward: 0, Score: 2
+[STEP 64] |  main entrance                                                         || Action: search desk               || Reward: 0, Score: 2
+[STEP 65] | you can't see any such thing.                                          || Action: south                     || Reward: 0, Score: 2
+[STEP 66] |  front of the office                                                   || Action: north                     || Reward: 0, Score: 2
+[STEP 67] |  main entrance                                                         || Action: south                     || Reward: 0, Score: 2
+[STEP 68] |  front of the office                                                   || Action: north                     || Reward: 0, Score: 2
+[STEP 69] |  main entrance                                                         || Action: look                      || Reward: 0, Score: 2
+[STEP 70] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 71] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 72] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 73] |  main entrance the main entrance to the building is plush and opulent. || Action: south                     || Reward: 0, Score: 2
+[STEP 74] |  front of the office                                                   || Action: north                     || Reward: 0, Score: 2
+[STEP 75] |  main entrance                                                         || Action: enter                     || Reward: 0, Score: 2
+[STEP 76] | you can't go that way.                                                 || Action: look                      || Reward: 0, Score: 2
+[STEP 77] |  main entrance the main entrance to the building is plush and opulent. || Action: search door               || Reward: 0, Score: 2
+[STEP 78] | you find nothing of interest.                                          || Action: look                      || Reward: 0, Score: 2
+[STEP 79] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 80] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 81] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 82] |  main entrance the main entrance to the building is plush and opulent. || Action: south                     || Reward: 0, Score: 2
+[STEP 83] |  front of the office                                                   || Action: look                      || Reward: 0, Score: 2
+[STEP 84] |  front of the office you are standing outside a medium sized, new-look || Action: north                     || Reward: 0, Score: 2
+[STEP 85] |  main entrance                                                         || Action: enter                     || Reward: 0, Score: 2
+[STEP 86] | you can't go that way.                                                 || Action: look                      || Reward: 0, Score: 2
+[STEP 87] |  main entrance the main entrance to the building is plush and opulent. || Action: inventory                 || Reward: 0, Score: 2
+[STEP 88] | you are carrying nothing.                                              || Action: look                      || Reward: 0, Score: 2
+[STEP 89] |  main entrance the main entrance to the building is plush and opulent. || Action: search cup                || Reward: 0, Score: 2
+[STEP 90] | you can't see any such thing.                                          || Action: south                     || Reward: 0, Score: 2
+[STEP 91] |  front of the office                                                   || Action: look                      || Reward: 0, Score: 2
+[STEP 92] |  front of the office you are standing outside a medium sized, new-look || Action: north                     || Reward: 0, Score: 2
+[STEP 93] |  main entrance                                                         || Action: look                      || Reward: 0, Score: 2
+[STEP 94] |  main entrance the main entrance to the building is plush and opulent. || Action: unlock door               || Reward: 0, Score: 2
+[STEP 95] | what do you want to unlock the main door with?                         || Action: unlock door               || Reward: 0, Score: 2
+[STEP 96] | what do you want to unlock the main door with?                         || Action: unlock door key           || Reward: 0, Score: 2
+[STEP 97] | i didn't understand that sentence.                                     || Action: look                      || Reward: 0, Score: 2
+[STEP 98] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 99] |  main entrance the main entrance to the building is plush and opulent. || Action: search desk               || Reward: 0, Score: 2
+[STEP 100] | you can't see any such thing.                                          || Action: south                     || Reward: 0, Score: 2
+[STEP 101] |  front of the office                                                   || Action: north                     || Reward: 0, Score: 2
+[STEP 102] |  main entrance                                                         || Action: look                      || Reward: 0, Score: 2
+[STEP 103] |  main entrance the main entrance to the building is plush and opulent. || Action: south                     || Reward: 0, Score: 2
+[STEP 104] |  front of the office                                                   || Action: north                     || Reward: 0, Score: 2
+[STEP 105] |  main entrance                                                         || Action: look                      || Reward: 0, Score: 2
+[STEP 106] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 107] |  main entrance the main entrance to the building is plush and opulent. || Action: unlock door with key      || Reward: 0, Score: 2
+[STEP 108] | you can't see any such thing.                                          || Action: search door               || Reward: 0, Score: 2
+[STEP 109] | you find nothing of interest.                                          || Action: look                      || Reward: 0, Score: 2
+Run 6/10 finished. Score: 2
+
+--- EVALUATION SUMMARY (our method) ---
+Agent LLM Model: gpt-oss-20b
+Number of final evaluation runs: 10
+Individual Scores: [2, 2, 4, 4, 4, 2]
+Average Score: 3.00
+Standard Deviation: 1.10
+
+Starting game run 7/10...
+[DACS] enabled=True game=ludicorp
+[DACS] num raw candidates = 6 archived=0
+[DACS] num filtered candidates = 4
+[DACS] selected/reordered candidate ids = [4, 2, 5, 0]
+[DACS] candidate score table:
+  id | relevance | diversity | risk | final_score | summary
+  4 | 0.566 | 1.0 | 0.218 | 1.114 | **Guiding Prompt**  You are standing before a modern office block. Your objectiv
+  2 | 0.411 | 0.613 | 0.158 | 0.807 | [Guiding Prompt]   You are playing an interactive fiction game where your charac
+  5 | 0.393 | 0.603 | 0.159 | 0.684 | [Guiding Prompt]   You are playing an interactive fiction game whose only goal i
+  0 | 0.0 | 0.932 | 0.006 | 0.562 | Explore systematically and examine objects to make progress.
+[DACS] fallback=False
+Parent node 4 at depth 4 with UCB score: 4.54827671512918
+
+Evolving prompt. Current prompt: '**Guiding Prompt**
+
+You are standing before a modern office block. Your objectiv...'
+
+Current state extractor code: 'def extract_state(game_history):
+    if "you find a key" in game_history or "key...'
+
+
+Evolution LLM returned invalid state extractor code, keeping current code
+Evolved guiding prompt and code: '**Guiding Prompt**
+
+You are an agent in a text adventure game. Your goal is to **enter the office building**.  
+The only way to do this is to find the key that opens the main entrance, unlock the door, and then enter.
+
+**Required Actions (must‑do list)**  
+1. **Move to the carpark** – From the front of the office, type `south`.  
+2. **Search each parked car** – In the carpark, type `search car` whenever you are positioned next to a car.  
+3. **Check inventory after finding a key** – Once a key is found, type `inventory` to confirm it is in your bag.  
+4. **Return to the main entrance** – If the key is in your inventory, go back to the front of the office with `north`.  
+5. **Unlock the main entrance** – Use the syntax `unlock main entrance with key`.  
+6. **Enter the building** – After the door is unlocked, type `enter`.
+
+**When the key is not found after searching all cars**  
+- Search other objects that could hide a key: the receptionist’s desk, the control panel at the delivery bay gateway, or the door itself.  
+- Use the command `search [object]` (e.g., `search desk`, `search panel`, `search door`).  
+- If you still cannot find the key, try `inventory` to ensure you haven’t missed it.  
+- Once you have the key, follow steps 4‑6 above.
+
+**Avoid Unproductive Patterns**  
+- Repeating `look` or `examine` on the same object without new information.  
+- `search` or `open` commands that repeatedly return “you can’t see any such thing.”  
+- Moving back and forth between the same rooms without a new interaction.  
+- Trying to `enter` a locked door or `unlock` without having the key in inventory.
+
+**If you hit a dead end or a loop**  
+1. List all rooms/areas you have lightly or not at all explored (e.g., carpark, delivery bay, front of office).  
+2. Brainstorm possible next actions **only as guesses** (e.g., `search desk`, `examine sign`, `search gate`).  
+3. Systematically try each action, documenting the result each time.  
+4. If none of the guesses yield a key, consider that the key may be elsewhere or that a different action is required (e.g., `talk to receptionist`).  
+
+**Remember**  
+- Keep the goal in mind: find the key → unlock the door → enter.  
+- Use the correct syntax for unlocking: `unlock main entrance with key`.  
+- Do not attempt to `enter` until the main entrance is confirmed unlocked.  
+
+---
+
+**State Extractor**
+
+```python
+def extract_state(game_history):
+    # Normalize text for easier matching
+    text = game_history.lower()
+    
+    # Check for key acquisition
+    key_found = False
+    if ("you find a key" in text
+        or "you find a small key" in text
+        or "you find something that looks like a key" in text):
+        key_found = True
+    
+    # Check if key is in inventory
+    key_in_inventory = False
+    if "you are carrying" in text:
+        if "key" in text:
+            key_in_inventory = True
+    
+    # Check if door is unlocked
+    door_unlocked = False
+    if ("unlock" in text and "door" in text and ("you open" in text or "you unlocked" in text)):
+        door_unlocked = True
+    # Some games may say the door is unlocked in the description
+    if "the main entrance" in text and "unlocked" in text:
+        door_unlocked = True
+    
+    # Check if the agent has entered the building
+    entered = False
+    if ("you enter" in text or "you step inside" in text or "you enter the building" in text):
+        entered = True
+    
+    # Build summary
+    parts = []
+    if key_found:
+        parts.append("Key found")
+    else:
+        parts.append("Key not found")
+    if key_in_inventory:
+        parts.append("Key in inventory")
+    else:
+        parts.append("Key not in inventory")
+    if door_unlocked:
+        parts.append("Door unlocked")
+    else:
+        parts.append("Door locked")
+    if entered:
+        parts.append("Entered building")
+    else:
+        parts.append("Outside")
+    
+    return ", ".join(parts) + "."
+```'
+def extract_state(game_history):
+    if "you find a key" in game_history or "key" in game_history and "found" in game_history:
+        return "Key found. Main entrance unlocked."
+    if "you can't see any such thing" in game_history and "desk" in game_history:
+        return "No key found. Still at locked main entrance."
+    if "carpark" in game_history and "search" in game_history:
+        return "Carpark searched. No key yet."
+    if "main entrance" in game_history and "locked" in game_history:
+        return "At locked main entrance. No key."
+    return "Unknown state."
+[STEP 0] |  It's nearly christmas 2003, and Ludicorp still haven't released GNE.  || Action: south                     || Reward: 1, Score: 2
+[STEP 1] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: search car                || Reward: 0, Score: 2
+[STEP 2] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 2
+[STEP 3] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: north                     || Reward: 0, Score: 2
+[STEP 4] |  front of the office                                                   || Action: search door               || Reward: 0, Score: 2
+[STEP 5] | you can't see any such thing.                                          || Action: south                     || Reward: 0, Score: 2
+[STEP 6] |  the main carpark                                                      || Action: look                      || Reward: 0, Score: 2
+[STEP 7] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: west                      || Reward: 1, Score: 3
+[STEP 8] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: search panel              || Reward: 0, Score: 3
+[STEP 9] | you find nothing of interest.                                          || Action: east                      || Reward: 0, Score: 3
+[STEP 10] |  the main carpark                                                      || Action: look                      || Reward: 0, Score: 3
+[STEP 11] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: search car                || Reward: 0, Score: 3
+[STEP 12] | you can't see any such thing.                                          || Action: search car                || Reward: 0, Score: 3
+[STEP 13] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 3
+[STEP 14] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: north                     || Reward: 0, Score: 3
+[STEP 15] |  front of the office                                                   || Action: search desk               || Reward: 0, Score: 3
+[STEP 16] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 3
+[STEP 17] |  front of the office you are standing outside a medium sized, new-look || Action: enter                     || Reward: 0, Score: 3
+[STEP 18] | you can't go that way.                                                 || Action: look                      || Reward: 0, Score: 3
+[STEP 19] |  front of the office you are standing outside a medium sized, new-look || Action: look                      || Reward: 0, Score: 3
+[STEP 20] |  front of the office you are standing outside a medium sized, new-look || Action: unlock main entrance with key || Reward: 0, Score: 3
+[STEP 21] | you can't see any such thing.                                          || Action: inventory                 || Reward: 0, Score: 3
+[STEP 22] | you are carrying nothing.                                              || Action: look                      || Reward: 0, Score: 3
+[STEP 23] |  front of the office you are standing outside a medium sized, new-look || Action: south                     || Reward: 0, Score: 3
+[STEP 24] |  the main carpark                                                      || Action: look                      || Reward: 0, Score: 3
+[STEP 25] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: search car                || Reward: 0, Score: 3
+[STEP 26] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 3
+[STEP 27] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: look                      || Reward: 0, Score: 3
+[STEP 28] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: north                     || Reward: 0, Score: 3
+[STEP 29] |  front of the office                                                   || Action: look                      || Reward: 0, Score: 3
+[STEP 30] |  front of the office you are standing outside a medium sized, new-look || Action: look                      || Reward: 0, Score: 3
+[STEP 31] |  front of the office you are standing outside a medium sized, new-look || Action: look                      || Reward: 0, Score: 3
+[STEP 32] |  front of the office you are standing outside a medium sized, new-look || Action: south                     || Reward: 0, Score: 3
+[STEP 33] |  the main carpark                                                      || Action: look                      || Reward: 0, Score: 3
+[STEP 34] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: look                      || Reward: 0, Score: 3
+[STEP 35] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: west                      || Reward: 0, Score: 3
+[STEP 36] |  the delivery bay gateway                                              || Action: look                      || Reward: 0, Score: 3
+[STEP 37] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: search gate               || Reward: 0, Score: 3
+[STEP 38] | you find nothing of interest.                                          || Action: look                      || Reward: 0, Score: 3
+[STEP 39] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: search panel              || Reward: 0, Score: 3
+[STEP 40] | you find nothing of interest.                                          || Action: east                      || Reward: 0, Score: 3
+[STEP 41] |  the main carpark                                                      || Action: look                      || Reward: 0, Score: 3
+[STEP 42] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: look                      || Reward: 0, Score: 3
+[STEP 43] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: look                      || Reward: 0, Score: 3
+[STEP 44] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: west                      || Reward: 0, Score: 3
+[STEP 45] |  the delivery bay gateway                                              || Action: look                      || Reward: 0, Score: 3
+[STEP 46] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: east                      || Reward: 0, Score: 3
+[STEP 47] |  the main carpark                                                      || Action: north                     || Reward: 0, Score: 3
+[STEP 48] |  front of the office                                                   || Action: look                      || Reward: 0, Score: 3
+[STEP 49] |  front of the office you are standing outside a medium sized, new-look || Action: enter                     || Reward: 0, Score: 3
+[STEP 50] | you can't go that way.                                                 || Action: enter                     || Reward: 0, Score: 3
+[STEP 51] | you can't go that way.                                                 || Action: look                      || Reward: 0, Score: 3
+[STEP 52] |  front of the office you are standing outside a medium sized, new-look || Action: north                     || Reward: 1, Score: 4
+[STEP 53] |  main entrance the main entrance to the building is plush and opulent. || Action: inventory                 || Reward: 0, Score: 4
+[STEP 54] | you are carrying nothing.                                              || Action: look                      || Reward: 0, Score: 4
+[STEP 55] |  main entrance the main entrance to the building is plush and opulent. || Action: search desk               || Reward: 0, Score: 4
+[STEP 56] | you can't see any such thing.                                          || Action: search cup                || Reward: 0, Score: 4
+[STEP 57] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 4
+[STEP 58] |  main entrance the main entrance to the building is plush and opulent. || Action: search door               || Reward: 0, Score: 4
+[STEP 59] | you find nothing of interest.                                          || Action: south                     || Reward: 0, Score: 4
+[STEP 60] |  front of the office                                                   || Action: look                      || Reward: 0, Score: 4
+[STEP 61] |  front of the office you are standing outside a medium sized, new-look || Action: south                     || Reward: 0, Score: 4
+[STEP 62] |  the main carpark                                                      || Action: look                      || Reward: 0, Score: 4
+[STEP 63] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: search car                || Reward: 0, Score: 4
+[STEP 64] | you can't see any such thing.                                          || Action: north                     || Reward: 0, Score: 4
+[STEP 65] |  front of the office                                                   || Action: south                     || Reward: 0, Score: 4
+[STEP 66] |  the main carpark                                                      || Action: north                     || Reward: 0, Score: 4
+[STEP 67] |  front of the office                                                   || Action: look                      || Reward: 0, Score: 4
+[STEP 68] |  front of the office you are standing outside a medium sized, new-look || Action: inventory                 || Reward: 0, Score: 4
+[STEP 69] | you are carrying nothing.                                              || Action: look                      || Reward: 0, Score: 4
+[STEP 70] |  front of the office you are standing outside a medium sized, new-look || Action: south                     || Reward: 0, Score: 4
+[STEP 71] |  the main carpark                                                      || Action: look                      || Reward: 0, Score: 4
+[STEP 72] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: north                     || Reward: 0, Score: 4
+[STEP 73] |  front of the office                                                   || Action: look                      || Reward: 0, Score: 4
+[STEP 74] |  front of the office you are standing outside a medium sized, new-look || Action: look                      || Reward: 0, Score: 4
+[STEP 75] |  front of the office you are standing outside a medium sized, new-look || Action: south                     || Reward: 0, Score: 4
+[STEP 76] |  the main carpark                                                      || Action: west                      || Reward: 0, Score: 4
+[STEP 77] |  the delivery bay gateway                                              || Action: search panel              || Reward: 0, Score: 4
+[STEP 78] | you find nothing of interest.                                          || Action: search door               || Reward: 0, Score: 4
+[STEP 79] | you can't see any such thing.                                          || Action: east                      || Reward: 0, Score: 4
+[STEP 80] |  the main carpark                                                      || Action: look                      || Reward: 0, Score: 4
+[STEP 81] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: look                      || Reward: 0, Score: 4
+[STEP 82] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: search car                || Reward: 0, Score: 4
+[STEP 83] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 4
+[STEP 84] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: look                      || Reward: 0, Score: 4
+[STEP 85] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: look                      || Reward: 0, Score: 4
+[STEP 86] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: look                      || Reward: 0, Score: 4
+[STEP 87] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: look                      || Reward: 0, Score: 4
+[STEP 88] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: look                      || Reward: 0, Score: 4
+[STEP 89] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: north                     || Reward: 0, Score: 4
+[STEP 90] |  front of the office                                                   || Action: enter                     || Reward: 0, Score: 4
+[STEP 91] | you can't go that way.                                                 || Action: look                      || Reward: 0, Score: 4
+[STEP 92] |  front of the office you are standing outside a medium sized, new-look || Action: look                      || Reward: 0, Score: 4
+[STEP 93] |  front of the office you are standing outside a medium sized, new-look || Action: enter door                || Reward: 0, Score: 4
+[STEP 94] | you can't see any such thing.                                          || Action: enter                     || Reward: 0, Score: 4
+[STEP 95] | you can't go that way.                                                 || Action: look                      || Reward: 0, Score: 4
+[STEP 96] |  front of the office you are standing outside a medium sized, new-look || Action: enter main entrance       || Reward: 0, Score: 4
+[STEP 97] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 4
+[STEP 98] |  front of the office you are standing outside a medium sized, new-look || Action: open main entrance        || Reward: 0, Score: 4
+[STEP 99] | you can't see any such thing.                                          || Action: open door                 || Reward: 0, Score: 4
+[STEP 100] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 4
+[STEP 101] |  front of the office you are standing outside a medium sized, new-look || Action: look                      || Reward: 0, Score: 4
+[STEP 102] |  front of the office you are standing outside a medium sized, new-look || Action: look                      || Reward: 0, Score: 4
+[STEP 103] |  front of the office you are standing outside a medium sized, new-look || Action: inventory                 || Reward: 0, Score: 4
+[STEP 104] | you are carrying nothing.                                              || Action: look                      || Reward: 0, Score: 4
+[STEP 105] |  front of the office you are standing outside a medium sized, new-look || Action: look                      || Reward: 0, Score: 4
+[STEP 106] |  front of the office you are standing outside a medium sized, new-look || Action: look                      || Reward: 0, Score: 4
+[STEP 107] |  front of the office you are standing outside a medium sized, new-look || Action: look                      || Reward: 0, Score: 4
+[STEP 108] |  front of the office you are standing outside a medium sized, new-look || Action: look                      || Reward: 0, Score: 4
+[STEP 109] |  front of the office you are standing outside a medium sized, new-look || Action: south                     || Reward: 0, Score: 4
+Run 7/10 finished. Score: 4
+
+--- EVALUATION SUMMARY (our method) ---
+Agent LLM Model: gpt-oss-20b
+Number of final evaluation runs: 10
+Individual Scores: [2, 2, 4, 4, 4, 2, 4]
+Average Score: 3.14
+Standard Deviation: 1.07
+
+Starting game run 8/10...
+[DACS] enabled=True game=ludicorp
+[DACS] num raw candidates = 7 archived=0
+[DACS] num filtered candidates = 4
+[DACS] selected/reordered candidate ids = [4, 2, 6, 5]
+[DACS] candidate score table:
+  id | relevance | diversity | risk | final_score | summary
+  4 | 0.537 | 1.0 | 0.217 | 1.085 | **Guiding Prompt**  You are standing before a modern office block. Your objectiv
+  2 | 0.393 | 0.613 | 0.148 | 0.797 | [Guiding Prompt]   You are playing an interactive fiction game where your charac
+  6 | 0.438 | 0.418 | 0.191 | 0.714 | **Guiding Prompt**  You are an agent in a text adventure game. Your goal is to *
+  5 | 0.403 | 0.603 | 0.15 | 0.7 | [Guiding Prompt]   You are playing an interactive fiction game whose only goal i
+[DACS] fallback=False
+Parent node 2 at depth 2 with UCB score: 4.515443109390052
+
+Evolving prompt. Current prompt: '[Guiding Prompt]  
+You are playing an interactive fiction game where your charac...'
+
+Current state extractor code: 'def extract_state(game_history):
+    if "you find a key" in game_history or "key...'
+
+
+Updated state extractor code successfully.
+Evolved guiding prompt and code: '**[Guiding Prompt]**  
+You are playing an interactive fiction game set outside a locked office building. Your goal is to find the key that opens the main entrance, unlock the door, and then enter the building.  
+
+**Step‑by‑step actions that have proven essential for progress:**
+
+1. **Move to the carpark** – `south`  
+   *The carpark is the only location where the key can be hidden.*
+
+2. **Search the cars** – `search car`  
+   *Key objects are usually hidden inside cars.*
+
+3. **Search the parking tickets** – `search ticket`  
+   *Tickets are a common hiding spot.*
+
+4. **Search the gate** – `search gate`  
+   *The gate may conceal a key or a clue.*
+
+5. **If a key is found, pick it up** – `take key` or `grab key`  
+   *Confirm you have the key by running `inventory`.*
+
+6. **Return to the main entrance** – `north`  
+   *You must be back at the front of the office to use the key.*
+
+7. **Unlock the door with the key** – `unlock door key` or `unlock door with key`  
+   *The game will respond with a success message if the correct key is used.*
+
+8. **Enter the building** – `enter`  
+   *You can only enter once the door is unlocked.*
+
+**Disallowed or unproductive patterns (based on the history):**
+
+- Repeatedly using `look`, `search`, or `examine` on the same object without new information.
+- Pressing the button on the delivery bay gate when no effect occurs.
+- Switching back and forth between the entrance and the carpark without trying a new search.
+- Using `unlock door` without specifying the key; the game will not accept the command.
+- Re‑entering commands that the game explicitly rejects or that yield “you can’t see any such thing.”
+
+**When the game reaches a point where no new objects are found:**
+
+1. List all lightly explored locations:  
+   - `front of the office`  
+   - `main carpark`  
+   - `delivery bay gateway`  
+
+2. Brainstorm possible next actions for each location (these are only guesses):  
+   - In the carpark: `search carpark`, `search ticket`, `search car`, `inventory`.  
+   - In the delivery bay: `search gate`, `examine panel`, `press button`.  
+   - At the entrance: `look door`, `search door`, `unlock door key`.  
+
+3. Systematically try each new action, recording the result.  
+   - If a new object appears, examine it.  
+   - If the key appears, pick it up and proceed to step 6 above.  
+
+**Always confirm the key is in your inventory before attempting to unlock the door.**
+
+---'
+def extract_state(game_history):
+    # Check if the key has been found in the environment
+    key_found = "Key found." in game_history
+    # Check if the player actually has the key in inventory
+    has_key_in_inventory = "you are carrying" in game_history and "key" in game_history
+    # Check if the main entrance is unlocked
+    entrance_unlocked = "Main entrance unlocked." in game_history
+    # Check if the player is inside the building
+    inside = "you can't go that way." not in game_history and "you are standing" in game_history and ("front of the office" in game_history or "main entrance" in game_history) and "enter" not in game_history
+    # Determine the current milestone
+    if not key_found:
+        return "Key not found in any location."
+    if key_found and not has_key_in_inventory:
+        return "Key found but not in inventory."
+    if key_found and has_key_in_inventory and not entrance_unlocked:
+        return "Key in inventory, but main entrance still locked."
+    if key_found and has_key_in_inventory and entrance_unlocked and not inside:
+        return "Main entrance unlocked, ready to enter."
+    if key_found and has_key_in_inventory and entrance_unlocked and inside:
+        return "Inside the building."
+    return "Unknown state."
+[STEP 0] |  It's nearly christmas 2003, and Ludicorp still haven't released GNE.  || Action: south                     || Reward: 1, Score: 2
+[STEP 1] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: search car                || Reward: 0, Score: 2
+[STEP 2] | you can't see any such thing.                                          || Action: search ticket             || Reward: 0, Score: 2
+[STEP 3] | you can't see any such thing.                                          || Action: west                      || Reward: 1, Score: 3
+[STEP 4] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: examine panel             || Reward: 0, Score: 3
+[STEP 5] | it's a simple metal control panel with a single button and a speaker g || Action: press button              || Reward: 0, Score: 3
+[STEP 6] | nothing happens.                                                       || Action: search gate               || Reward: 0, Score: 3
+[STEP 7] | you find nothing of interest.                                          || Action: look                      || Reward: 0, Score: 3
+[STEP 8] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: look                      || Reward: 0, Score: 3
+[STEP 9] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: look                      || Reward: 0, Score: 3
+[STEP 10] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: look                      || Reward: 0, Score: 3
+[STEP 11] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: look                      || Reward: 0, Score: 3
+[STEP 12] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: look                      || Reward: 0, Score: 3
+[STEP 13] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: look gate                 || Reward: 0, Score: 3
+[STEP 14] | i only understood you as far as wanting to look.                       || Action: search carpark            || Reward: 0, Score: 3
+[STEP 15] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 3
+[STEP 16] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: look                      || Reward: 0, Score: 3
+[STEP 17] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: look                      || Reward: 0, Score: 3
+[STEP 18] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: open gate                 || Reward: 0, Score: 3
+[STEP 19] | that's not something you can open.                                     || Action: look                      || Reward: 0, Score: 3
+[STEP 20] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: look                      || Reward: 0, Score: 3
+[STEP 21] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: search panel              || Reward: 0, Score: 3
+[STEP 22] | you find nothing of interest.                                          || Action: look                      || Reward: 0, Score: 3
+[STEP 23] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: look                      || Reward: 0, Score: 3
+[STEP 24] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: look                      || Reward: 0, Score: 3
+[STEP 25] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: look                      || Reward: 0, Score: 3
+[STEP 26] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: look                      || Reward: 0, Score: 3
+[STEP 27] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: look                      || Reward: 0, Score: 3
+[STEP 28] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: look                      || Reward: 0, Score: 3
+[STEP 29] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: look                      || Reward: 0, Score: 3
+[STEP 30] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: examine gate              || Reward: 0, Score: 3
+[STEP 31] | a pretty tough looking gate, topped with mean-looking razor-wire.      || Action: look                      || Reward: 0, Score: 3
+[STEP 32] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: east                      || Reward: 0, Score: 3
+[STEP 33] |  the main carpark                                                      || Action: search car                || Reward: 0, Score: 3
+[STEP 34] | you can't see any such thing.                                          || Action: search ticket             || Reward: 0, Score: 3
+[STEP 35] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 3
+[STEP 36] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: look                      || Reward: 0, Score: 3
+[STEP 37] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: north                     || Reward: 0, Score: 3
+[STEP 38] |  front of the office                                                   || Action: south                     || Reward: 0, Score: 3
+[STEP 39] |  the main carpark                                                      || Action: west                      || Reward: 0, Score: 3
+[STEP 40] |  the delivery bay gateway                                              || Action: look                      || Reward: 0, Score: 3
+[STEP 41] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: search gate               || Reward: 0, Score: 3
+[STEP 42] | you find nothing of interest.                                          || Action: look                      || Reward: 0, Score: 3
+[STEP 43] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: east                      || Reward: 0, Score: 3
+[STEP 44] |  the main carpark                                                      || Action: look                      || Reward: 0, Score: 3
+[STEP 45] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: look                      || Reward: 0, Score: 3
+[STEP 46] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: look                      || Reward: 0, Score: 3
+[STEP 47] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: look                      || Reward: 0, Score: 3
+[STEP 48] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: look                      || Reward: 0, Score: 3
+[STEP 49] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: look                      || Reward: 0, Score: 3
+[STEP 50] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: look                      || Reward: 0, Score: 3
+[STEP 51] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: look                      || Reward: 0, Score: 3
+[STEP 52] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: examine panel             || Reward: 0, Score: 3
+[STEP 53] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 3
+[STEP 54] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: south                     || Reward: 0, Score: 3
+[STEP 55] | you can't go that way.                                                 || Action: look                      || Reward: 0, Score: 3
+[STEP 56] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: look                      || Reward: 0, Score: 3
+[STEP 57] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: look                      || Reward: 0, Score: 3
+[STEP 58] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: look                      || Reward: 0, Score: 3
+[STEP 59] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: look                      || Reward: 0, Score: 3
+[STEP 60] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: look                      || Reward: 0, Score: 3
+[STEP 61] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: search car                || Reward: 0, Score: 3
+[STEP 62] | you can't see any such thing.                                          || Action: search carpark            || Reward: 0, Score: 3
+[STEP 63] | you can't see any such thing.                                          || Action: north                     || Reward: 0, Score: 3
+[STEP 64] |  front of the office                                                   || Action: search door               || Reward: 0, Score: 3
+[STEP 65] | you can't see any such thing.                                          || Action: search ticket             || Reward: 0, Score: 3
+[STEP 66] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 3
+[STEP 67] |  front of the office you are standing outside a medium sized, new-look || Action: look                      || Reward: 0, Score: 3
+[STEP 68] |  front of the office you are standing outside a medium sized, new-look || Action: look                      || Reward: 0, Score: 3
+[STEP 69] |  front of the office you are standing outside a medium sized, new-look || Action: look                      || Reward: 0, Score: 3
+[STEP 70] |  front of the office you are standing outside a medium sized, new-look || Action: look                      || Reward: 0, Score: 3
+[STEP 71] |  front of the office you are standing outside a medium sized, new-look || Action: look                      || Reward: 0, Score: 3
+[STEP 72] |  front of the office you are standing outside a medium sized, new-look || Action: south                     || Reward: 0, Score: 3
+[STEP 73] |  the main carpark                                                      || Action: west                      || Reward: 0, Score: 3
+[STEP 74] |  the delivery bay gateway                                              || Action: search gate               || Reward: 0, Score: 3
+[STEP 75] | you find nothing of interest.                                          || Action: look                      || Reward: 0, Score: 3
+[STEP 76] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: look                      || Reward: 0, Score: 3
+[STEP 77] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: look                      || Reward: 0, Score: 3
+[STEP 78] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: examine panel             || Reward: 0, Score: 3
+[STEP 79] | it's a simple metal control panel with a single button and a speaker g || Action: press button              || Reward: 0, Score: 3
+[STEP 80] | nothing happens.                                                       || Action: look                      || Reward: 0, Score: 3
+[STEP 81] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: look                      || Reward: 0, Score: 3
+[STEP 82] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: look                      || Reward: 0, Score: 3
+[STEP 83] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: look                      || Reward: 0, Score: 3
+[STEP 84] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: east                      || Reward: 0, Score: 3
+[STEP 85] |  the main carpark                                                      || Action: look                      || Reward: 0, Score: 3
+[STEP 86] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: look                      || Reward: 0, Score: 3
+[STEP 87] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: look                      || Reward: 0, Score: 3
+[STEP 88] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: look                      || Reward: 0, Score: 3
+[STEP 89] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: look                      || Reward: 0, Score: 3
+[STEP 90] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: look                      || Reward: 0, Score: 3
+[STEP 91] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: look                      || Reward: 0, Score: 3
+[STEP 92] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: search car                || Reward: 0, Score: 3
+[STEP 93] | you can't see any such thing.                                          || Action: search ticket             || Reward: 0, Score: 3
+[STEP 94] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 3
+[STEP 95] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: look                      || Reward: 0, Score: 3
+[STEP 96] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: west                      || Reward: 0, Score: 3
+[STEP 97] |  the delivery bay gateway                                              || Action: look                      || Reward: 0, Score: 3
+[STEP 98] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: search car                || Reward: 0, Score: 3
+[STEP 99] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 3
+[STEP 100] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: look                      || Reward: 0, Score: 3
+[STEP 101] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: look                      || Reward: 0, Score: 3
+[STEP 102] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: look                      || Reward: 0, Score: 3
+[STEP 103] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: examine                   || Reward: 0, Score: 3
+[STEP 104] | what do you want to examine?                                           || Action: examine gate              || Reward: 0, Score: 3
+[STEP 105] | a pretty tough looking gate, topped with mean-looking razor-wire.      || Action: search gate               || Reward: 0, Score: 3
+[STEP 106] | you find nothing of interest.                                          || Action: look                      || Reward: 0, Score: 3
+[STEP 107] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: look                      || Reward: 0, Score: 3
+[STEP 108] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: look                      || Reward: 0, Score: 3
+[STEP 109] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: north                     || Reward: 0, Score: 3
+Run 8/10 finished. Score: 3
+
+--- EVALUATION SUMMARY (our method) ---
+Agent LLM Model: gpt-oss-20b
+Number of final evaluation runs: 10
+Individual Scores: [2, 2, 4, 4, 4, 2, 4, 3]
+Average Score: 3.12
+Standard Deviation: 0.99
+
+Starting game run 9/10...
+[DACS] enabled=True game=ludicorp
+[DACS] num raw candidates = 8 archived=0
+[DACS] num filtered candidates = 4
+[DACS] selected/reordered candidate ids = [4, 2, 7, 0]
+[DACS] candidate score table:
+  id | relevance | diversity | risk | final_score | summary
+  4 | 0.419 | 1.0 | 0.206 | 0.975 | **Guiding Prompt**  You are standing before a modern office block. Your objectiv
+  2 | 0.314 | 0.613 | 0.148 | 0.717 | [Guiding Prompt]   You are playing an interactive fiction game where your charac
+  7 | 0.388 | 0.58 | 0.193 | 0.693 | **[Guiding Prompt]**   You are playing an interactive fiction game set outside a
+  0 | 0.137 | 0.932 | 0.031 | 0.681 | Explore systematically and examine objects to make progress.
+[DACS] fallback=False
+Parent node 2 at depth 2 with UCB score: 4.461448603712283
+
+Evolving prompt. Current prompt: '[Guiding Prompt]  
+You are playing an interactive fiction game where your charac...'
+
+Current state extractor code: 'def extract_state(game_history):
+    if "you find a key" in game_history or "key...'
+
+
+Updated state extractor code successfully.
+Evolved guiding prompt and code: '[Guiding Prompt]  
+You are playing the interactive fiction “The Ludicorp Mystery”.  
+The objective is to get inside the office building by finding the key that opens the main entrance door.  
+Key locations that have produced successes in past playthroughs are: the reception desk (desk, cup), the carpark (cars, tickets, the carpark area itself), and the delivery bay gateway (panel, gate). Follow these strictly necessary actions; do not attempt any speculative moves that have not been proven useful.
+
+1. **Move to the main entrance** – `north` from the front of the office.  
+2. **Check door status** – `look` at the door. If the description says “locked”, proceed to find the key.  
+3. **Search the reception area** –  
+   - `examine desk`  
+   - `search desk`  
+   - `examine cup`  
+   - `search cup`  
+4. **Verify inventory** – `inventory`.  
+5. **If the key is not in inventory, return to the carpark** – `south` then `north` back.  
+   - In the carpark: `search car`, `search ticket`, `search carpark`.  
+6. **If still no key, check the delivery bay** – `west` from the carpark, then:  
+   - `examine panel`  
+   - `press button`  
+   - `search gate`  
+7. **When the key is in inventory, unlock the door** – `unlock door with key` or `unlock door`.  
+8. **Enter the building** – `enter`.  
+
+**Avoid the following patterns**  
+- Repeating `look` or `examine` on the same object without new information.  
+- `search` actions that return “you can't see any such thing.” more than twice in a row.  
+- Unnecessary back‑and‑forth movement (`north`/`south`) that does not lead to a new interaction.  
+- `unlock door` without having confirmed the key is in inventory.  
+
+**If you reach a dead end**  
+- List all lightly visited rooms:  
+  * Front of the office (north of carpark)  
+  * Carpark (south of front)  
+  * Delivery bay gateway (west of carpark)  
+- For each room, brainstorm one plausible action that could reveal a hidden object (e.g., “search a specific car”, “inspect the back of the gate”, “look for a hidden keyhole”).  
+- Systematically try each action, recording the result before moving on.  
+
+Follow this sequence exactly; any deviation will not advance you toward the goal.'
+def extract_state(game_history):
+    h = game_history.lower()
+    if 'you are carrying' in h and 'key' in h:
+        return 'Key in inventory.'
+    if 'you find' in h and 'key' in h:
+        return 'Key found.'
+    if 'the main entrance' in h and 'unlocked' in h:
+        return 'Door unlocked.'
+    if 'you enter' in h:
+        return 'Entered building.'
+    return 'Unknown state.'
+[STEP 0] |  It's nearly christmas 2003, and Ludicorp still haven't released GNE.  || Action: north                     || Reward: 1, Score: 2
+[STEP 1] |  main entrance the main entrance to the building is plush and opulent. || Action: examine desk              || Reward: 0, Score: 2
+[STEP 2] | you can't see any such thing.                                          || Action: search desk               || Reward: 0, Score: 2
+[STEP 3] | you can't see any such thing.                                          || Action: examine cup               || Reward: 0, Score: 2
+[STEP 4] | you can't see any such thing.                                          || Action: search cup                || Reward: 0, Score: 2
+[STEP 5] | you can't see any such thing.                                          || Action: inventory                 || Reward: 0, Score: 2
+[STEP 6] | you are carrying nothing.                                              || Action: south                     || Reward: 0, Score: 2
+[STEP 7] |  front of the office                                                   || Action: look                      || Reward: 0, Score: 2
+[STEP 8] |  front of the office you are standing outside a medium sized, new-look || Action: north                     || Reward: 0, Score: 2
+[STEP 9] |  main entrance                                                         || Action: unlock door               || Reward: 0, Score: 2
+[STEP 10] | what do you want to unlock the main door with?                         || Action: unlock door               || Reward: 0, Score: 2
+[STEP 11] | what do you want to unlock the main door with?                         || Action: unlock door with key      || Reward: 0, Score: 2
+[STEP 12] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 2
+[STEP 13] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 14] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 15] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 16] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 17] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 18] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 19] |  main entrance the main entrance to the building is plush and opulent. || Action: unlock door with key      || Reward: 0, Score: 2
+[STEP 20] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 2
+[STEP 21] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 22] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 23] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 24] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 25] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 26] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 27] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 28] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 29] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 30] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 31] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 32] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 33] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 34] |  main entrance the main entrance to the building is plush and opulent. || Action: inventory                 || Reward: 0, Score: 2
+[STEP 35] | you are carrying nothing.                                              || Action: inventory                 || Reward: 0, Score: 2
+[STEP 36] | you are carrying nothing.                                              || Action: look                      || Reward: 0, Score: 2
+[STEP 37] |  main entrance the main entrance to the building is plush and opulent. || Action: examine desk              || Reward: 0, Score: 2
+[STEP 38] | you can't see any such thing.                                          || Action: search desk               || Reward: 0, Score: 2
+[STEP 39] | you can't see any such thing.                                          || Action: examine cup               || Reward: 0, Score: 2
+[STEP 40] | you can't see any such thing.                                          || Action: south                     || Reward: 0, Score: 2
+[STEP 41] |  front of the office                                                   || Action: north                     || Reward: 0, Score: 2
+[STEP 42] |  main entrance                                                         || Action: look                      || Reward: 0, Score: 2
+[STEP 43] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 44] |  main entrance the main entrance to the building is plush and opulent. || Action: south                     || Reward: 0, Score: 2
+[STEP 45] |  front of the office                                                   || Action: north                     || Reward: 0, Score: 2
+[STEP 46] |  main entrance                                                         || Action: look                      || Reward: 0, Score: 2
+[STEP 47] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 48] |  main entrance the main entrance to the building is plush and opulent. || Action: unlock door               || Reward: 0, Score: 2
+[STEP 49] | what do you want to unlock the main door with?                         || Action: look                      || Reward: 0, Score: 2
+[STEP 50] |  main entrance the main entrance to the building is plush and opulent. || Action: unlock door with key      || Reward: 0, Score: 2
+[STEP 51] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 2
+[STEP 52] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 53] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 54] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 55] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 56] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 57] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 58] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 59] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 60] |  main entrance the main entrance to the building is plush and opulent. || Action: inventory                 || Reward: 0, Score: 2
+[STEP 61] | you are carrying nothing.                                              || Action: look                      || Reward: 0, Score: 2
+[STEP 62] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 63] |  main entrance the main entrance to the building is plush and opulent. || Action: inventory                 || Reward: 0, Score: 2
+[STEP 64] | you are carrying nothing.                                              || Action: look                      || Reward: 0, Score: 2
+[STEP 65] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 66] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 67] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 68] |  main entrance the main entrance to the building is plush and opulent. || Action: examine desk              || Reward: 0, Score: 2
+[STEP 69] | you can't see any such thing.                                          || Action: search desk               || Reward: 0, Score: 2
+[STEP 70] | you can't see any such thing.                                          || Action: examine cup               || Reward: 0, Score: 2
+[STEP 71] | you can't see any such thing.                                          || Action: south                     || Reward: 0, Score: 2
+[STEP 72] |  front of the office                                                   || Action: north                     || Reward: 0, Score: 2
+[STEP 73] |  main entrance                                                         || Action: look                      || Reward: 0, Score: 2
+[STEP 74] |  main entrance the main entrance to the building is plush and opulent. || Action: south                     || Reward: 0, Score: 2
+[STEP 75] |  front of the office                                                   || Action: north                     || Reward: 0, Score: 2
+[STEP 76] |  main entrance                                                         || Action: search car                || Reward: 0, Score: 2
+[STEP 77] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 2
+[STEP 78] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 79] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 80] |  main entrance the main entrance to the building is plush and opulent. || Action: unlock door with key      || Reward: 0, Score: 2
+[STEP 81] | you can't see any such thing.                                          || Action: unlock door               || Reward: 0, Score: 2
+[STEP 82] | what do you want to unlock the main door with?                         || Action: look                      || Reward: 0, Score: 2
+[STEP 83] |  main entrance the main entrance to the building is plush and opulent. || Action: unlock door with key      || Reward: 0, Score: 2
+[STEP 84] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 2
+[STEP 85] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 86] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 87] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 88] |  main entrance the main entrance to the building is plush and opulent. || Action: search ticket             || Reward: 0, Score: 2
+[STEP 89] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 2
+[STEP 90] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 91] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 92] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 93] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 94] |  main entrance the main entrance to the building is plush and opulent. || Action: inventory                 || Reward: 0, Score: 2
+[STEP 95] | you are carrying nothing.                                              || Action: look                      || Reward: 0, Score: 2
+[STEP 96] |  main entrance the main entrance to the building is plush and opulent. || Action: south                     || Reward: 0, Score: 2
+[STEP 97] |  front of the office                                                   || Action: look                      || Reward: 0, Score: 2
+[STEP 98] |  front of the office you are standing outside a medium sized, new-look || Action: north                     || Reward: 0, Score: 2
+[STEP 99] |  main entrance                                                         || Action: look                      || Reward: 0, Score: 2
+[STEP 100] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 101] |  main entrance the main entrance to the building is plush and opulent. || Action: examine desk              || Reward: 0, Score: 2
+[STEP 102] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 2
+[STEP 103] |  main entrance the main entrance to the building is plush and opulent. || Action: search desk               || Reward: 0, Score: 2
+[STEP 104] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 2
+[STEP 105] |  main entrance the main entrance to the building is plush and opulent. || Action: examine cup               || Reward: 0, Score: 2
+[STEP 106] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 2
+[STEP 107] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 108] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+[STEP 109] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 2
+Run 9/10 finished. Score: 2
+
+--- EVALUATION SUMMARY (our method) ---
+Agent LLM Model: gpt-oss-20b
+Number of final evaluation runs: 10
+Individual Scores: [2, 2, 4, 4, 4, 2, 4, 3, 2]
+Average Score: 3.00
+Standard Deviation: 1.00
+
+Starting game run 10/10...
+[DACS] enabled=True game=ludicorp
+[DACS] num raw candidates = 9 archived=0
+[DACS] num filtered candidates = 4
+[DACS] selected/reordered candidate ids = [4, 2, 8, 7]
+[DACS] candidate score table:
+  id | relevance | diversity | risk | final_score | summary
+  4 | 0.427 | 1.0 | 0.209 | 0.981 | **Guiding Prompt**  You are standing before a modern office block. Your objectiv
+  2 | 0.328 | 0.613 | 0.154 | 0.727 | [Guiding Prompt]   You are playing an interactive fiction game where your charac
+  8 | 0.423 | 0.561 | 0.193 | 0.669 | [Guiding Prompt]   You are playing the interactive fiction “The Ludicorp Mystery
+  7 | 0.353 | 0.58 | 0.182 | 0.665 | **[Guiding Prompt]**   You are playing an interactive fiction game set outside a
+[DACS] fallback=False
+Parent node 4 at depth 4 with UCB score: 4.429321041497377
+
+Evolving prompt. Current prompt: '**Guiding Prompt**
+
+You are standing before a modern office block. Your objectiv...'
+
+Current state extractor code: 'def extract_state(game_history):
+    if "you find a key" in game_history or "key...'
+
+
+Evolution LLM returned invalid state extractor code, keeping current code
+Evolved guiding prompt and code: '**Guiding Prompt**
+
+Goal: Find the key that opens the main entrance, unlock the door, and enter the building.
+
+**Must‑do Steps**  
+1. From the front of the office, go south to the carpark: `south`.  
+2. Search cars until a key appears: `search car`.  
+3. If the key is not found after three car searches, examine the reception desk: `examine desk` or `search desk`.  
+4. If the key is still not found, examine the delivery bay gate: `examine gate` or `search gate`.  
+5. Once the key is in your inventory, confirm it: `inventory`.  
+6. Unlock the main entrance with the key: `unlock main entrance with key`.  
+7. Enter the building: `enter`.
+
+**Avoid**  
+- Repeating `look`, `examine`, or `search` on the same object when it yields no new information.  
+- `search car` after a previous search returned nothing.  
+- `inventory` when the inventory has not changed.  
+- Moving north from the front to the main entrance before the door is unlocked.  
+- Using the command `unlock door with key` when the object is named `main entrance`.  
+- Typing `enter` when you are not at the unlocked main entrance.
+
+**If Stuck**  
+List lightly explored rooms:  
+- Carpark (searched cars, no key yet).  
+- Delivery bay gateway (not fully examined).  
+- Main entrance (locked, no key found).  
+
+Possible guesses for further exploration (only if all above steps fail):  
+- `search desk`  
+- `search gate`  
+- `examine sign`  
+- `search cup`  
+
+Try each guess systematically and log the result each time.  
+
+Stick to the must‑do steps above; any deviation that does not move toward finding the key, unlocking the door, or entering the building should be avoided.  
+
+---  
+<code>
+def extract_state(game_history):
+    h = game_history.lower()
+    key_found = False
+    key_in_inventory = False
+    door_unlocked = False
+    entered = False
+    if ("you find a key" in h or "you find a small key" in h or
+        "you find a key in" in h'
+def extract_state(game_history):
+    if "you find a key" in game_history or "key" in game_history and "found" in game_history:
+        return "Key found. Main entrance unlocked."
+    if "you can't see any such thing" in game_history and "desk" in game_history:
+        return "No key found. Still at locked main entrance."
+    if "carpark" in game_history and "search" in game_history:
+        return "Carpark searched. No key yet."
+    if "main entrance" in game_history and "locked" in game_history:
+        return "At locked main entrance. No key."
+    return "Unknown state."
+[STEP 0] |  It's nearly christmas 2003, and Ludicorp still haven't released GNE.  || Action: south                     || Reward: 1, Score: 2
+[STEP 1] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: search car                || Reward: 0, Score: 2
+[STEP 2] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 2
+[STEP 3] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: look                      || Reward: 0, Score: 2
+[STEP 4] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: west                      || Reward: 1, Score: 3
+[STEP 5] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: examine gate              || Reward: 0, Score: 3
+[STEP 6] | a pretty tough looking gate, topped with mean-looking razor-wire.      || Action: look                      || Reward: 0, Score: 3
+[STEP 7] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: search gate               || Reward: 0, Score: 3
+[STEP 8] | you find nothing of interest.                                          || Action: north                     || Reward: 0, Score: 3
+[STEP 9] | you can't go that way.                                                 || Action: look                      || Reward: 0, Score: 3
+[STEP 10] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: east                      || Reward: 0, Score: 3
+[STEP 11] |  the main carpark                                                      || Action: look                      || Reward: 0, Score: 3
+[STEP 12] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: search car                || Reward: 0, Score: 3
+[STEP 13] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 3
+[STEP 14] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: north                     || Reward: 0, Score: 3
+[STEP 15] |  front of the office                                                   || Action: look                      || Reward: 0, Score: 3
+[STEP 16] |  front of the office you are standing outside a medium sized, new-look || Action: look                      || Reward: 0, Score: 3
+[STEP 17] |  front of the office you are standing outside a medium sized, new-look || Action: enter                     || Reward: 0, Score: 3
+[STEP 18] | you can't go that way.                                                 || Action: look                      || Reward: 0, Score: 3
+[STEP 19] |  front of the office you are standing outside a medium sized, new-look || Action: look                      || Reward: 0, Score: 3
+[STEP 20] |  front of the office you are standing outside a medium sized, new-look || Action: inventory                 || Reward: 0, Score: 3
+[STEP 21] | you are carrying nothing.                                              || Action: look                      || Reward: 0, Score: 3
+[STEP 22] |  front of the office you are standing outside a medium sized, new-look || Action: examine desk              || Reward: 0, Score: 3
+[STEP 23] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 3
+[STEP 24] |  front of the office you are standing outside a medium sized, new-look || Action: look                      || Reward: 0, Score: 3
+[STEP 25] |  front of the office you are standing outside a medium sized, new-look || Action: look                      || Reward: 0, Score: 3
+[STEP 26] |  front of the office you are standing outside a medium sized, new-look || Action: look                      || Reward: 0, Score: 3
+[STEP 27] |  front of the office you are standing outside a medium sized, new-look || Action: look                      || Reward: 0, Score: 3
+[STEP 28] |  front of the office you are standing outside a medium sized, new-look || Action: look                      || Reward: 0, Score: 3
+[STEP 29] |  front of the office you are standing outside a medium sized, new-look || Action: search car                || Reward: 0, Score: 3
+[STEP 30] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 3
+[STEP 31] |  front of the office you are standing outside a medium sized, new-look || Action: look                      || Reward: 0, Score: 3
+[STEP 32] |  front of the office you are standing outside a medium sized, new-look || Action: look                      || Reward: 0, Score: 3
+[STEP 33] |  front of the office you are standing outside a medium sized, new-look || Action: look                      || Reward: 0, Score: 3
+[STEP 34] |  front of the office you are standing outside a medium sized, new-look || Action: south                     || Reward: 0, Score: 3
+[STEP 35] |  the main carpark                                                      || Action: look                      || Reward: 0, Score: 3
+[STEP 36] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: search car                || Reward: 0, Score: 3
+[STEP 37] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 3
+[STEP 38] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: look                      || Reward: 0, Score: 3
+[STEP 39] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: west                      || Reward: 0, Score: 3
+[STEP 40] |  the delivery bay gateway                                              || Action: examine gate              || Reward: 0, Score: 3
+[STEP 41] | a pretty tough looking gate, topped with mean-looking razor-wire.      || Action: search gate               || Reward: 0, Score: 3
+[STEP 42] | you find nothing of interest.                                          || Action: look                      || Reward: 0, Score: 3
+[STEP 43] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: examine panel             || Reward: 0, Score: 3
+[STEP 44] | it's a simple metal control panel with a single button and a speaker g || Action: search panel              || Reward: 0, Score: 3
+[STEP 45] | you find nothing of interest.                                          || Action: look                      || Reward: 0, Score: 3
+[STEP 46] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: look                      || Reward: 0, Score: 3
+[STEP 47] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: look                      || Reward: 0, Score: 3
+[STEP 48] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: look                      || Reward: 0, Score: 3
+[STEP 49] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: look                      || Reward: 0, Score: 3
+[STEP 50] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: look                      || Reward: 0, Score: 3
+[STEP 51] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: look                      || Reward: 0, Score: 3
+[STEP 52] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: east                      || Reward: 0, Score: 3
+[STEP 53] |  the main carpark                                                      || Action: look                      || Reward: 0, Score: 3
+[STEP 54] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: north                     || Reward: 0, Score: 3
+[STEP 55] |  front of the office                                                   || Action: look                      || Reward: 0, Score: 3
+[STEP 56] |  front of the office you are standing outside a medium sized, new-look || Action: enter                     || Reward: 0, Score: 3
+[STEP 57] | you can't go that way.                                                 || Action: look                      || Reward: 0, Score: 3
+[STEP 58] |  front of the office you are standing outside a medium sized, new-look || Action: look                      || Reward: 0, Score: 3
+[STEP 59] |  front of the office you are standing outside a medium sized, new-look || Action: north                     || Reward: 1, Score: 4
+[STEP 60] |  main entrance the main entrance to the building is plush and opulent. || Action: unlock main entrance with key || Reward: 0, Score: 4
+[STEP 61] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 4
+[STEP 62] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 4
+[STEP 63] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 4
+[STEP 64] |  main entrance the main entrance to the building is plush and opulent. || Action: unlock main entrance      || Reward: 0, Score: 4
+[STEP 65] | what do you want to unlock the main door with?                         || Action: look                      || Reward: 0, Score: 4
+[STEP 66] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 4
+[STEP 67] |  main entrance the main entrance to the building is plush and opulent. || Action: unlock main entrance with key || Reward: 0, Score: 4
+[STEP 68] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 4
+[STEP 69] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 4
+[STEP 70] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 4
+[STEP 71] |  main entrance the main entrance to the building is plush and opulent. || Action: look                      || Reward: 0, Score: 4
+[STEP 72] |  main entrance the main entrance to the building is plush and opulent. || Action: inventory                 || Reward: 0, Score: 4
+[STEP 73] | you are carrying nothing.                                              || Action: south                     || Reward: 0, Score: 4
+[STEP 74] |  front of the office                                                   || Action: south                     || Reward: 0, Score: 4
+[STEP 75] |  the main carpark                                                      || Action: search car                || Reward: 0, Score: 4
+[STEP 76] | you can't see any such thing.                                          || Action: search car                || Reward: 0, Score: 4
+[STEP 77] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 4
+[STEP 78] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: look                      || Reward: 0, Score: 4
+[STEP 79] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: west                      || Reward: 0, Score: 4
+[STEP 80] |  the delivery bay gateway                                              || Action: look                      || Reward: 0, Score: 4
+[STEP 81] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: examine gate              || Reward: 0, Score: 4
+[STEP 82] | a pretty tough looking gate, topped with mean-looking razor-wire.      || Action: search gate               || Reward: 0, Score: 4
+[STEP 83] | you find nothing of interest.                                          || Action: look                      || Reward: 0, Score: 4
+[STEP 84] |  the delivery bay gateway a large gate blocks the delivery bay to the  || Action: examine panel             || Reward: 0, Score: 4
+[STEP 85] | it's a simple metal control panel with a single button and a speaker g || Action: search panel              || Reward: 0, Score: 4
+[STEP 86] | you find nothing of interest.                                          || Action: east                      || Reward: 0, Score: 4
+[STEP 87] |  the main carpark                                                      || Action: look                      || Reward: 0, Score: 4
+[STEP 88] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: search car                || Reward: 0, Score: 4
+[STEP 89] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 4
+[STEP 90] |  the main carpark the carpark is large and mostly empty - perhaps the  || Action: north                     || Reward: 0, Score: 4
+[STEP 91] |  front of the office                                                   || Action: south                     || Reward: 0, Score: 4
+[STEP 92] |  the main carpark                                                      || Action: north                     || Reward: 0, Score: 4
+[STEP 93] |  front of the office                                                   || Action: examine desk              || Reward: 0, Score: 4
+[STEP 94] | you can't see any such thing.                                          || Action: search desk               || Reward: 0, Score: 4
+[STEP 95] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 4
+[STEP 96] |  front of the office you are standing outside a medium sized, new-look || Action: search cup                || Reward: 0, Score: 4
+[STEP 97] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 4
+[STEP 98] |  front of the office you are standing outside a medium sized, new-look || Action: look                      || Reward: 0, Score: 4
+[STEP 99] |  front of the office you are standing outside a medium sized, new-look || Action: enter                     || Reward: 0, Score: 4
+[STEP 100] | you can't go that way.                                                 || Action: look                      || Reward: 0, Score: 4
+[STEP 101] |  front of the office you are standing outside a medium sized, new-look || Action: unlock main entrance with key || Reward: 0, Score: 4
+[STEP 102] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 4
+[STEP 103] |  front of the office you are standing outside a medium sized, new-look || Action: look                      || Reward: 0, Score: 4
+[STEP 104] |  front of the office you are standing outside a medium sized, new-look || Action: look                      || Reward: 0, Score: 4
+[STEP 105] |  front of the office you are standing outside a medium sized, new-look || Action: inventory                 || Reward: 0, Score: 4
+[STEP 106] | you are carrying nothing.                                              || Action: look                      || Reward: 0, Score: 4
+[STEP 107] |  front of the office you are standing outside a medium sized, new-look || Action: look                      || Reward: 0, Score: 4
+[STEP 108] |  front of the office you are standing outside a medium sized, new-look || Action: south                     || Reward: 0, Score: 4
+[STEP 109] |  the main carpark                                                      || Action: look                      || Reward: 0, Score: 4
+Run 10/10 finished. Score: 4
+
+--- EVALUATION SUMMARY (our method) ---
+Agent LLM Model: gpt-oss-20b
+Number of final evaluation runs: 10
+Individual Scores: [2, 2, 4, 4, 4, 2, 4, 3, 2, 4]
+Average Score: 3.10
+Standard Deviation: 0.99
+Evaluation completed successfully!

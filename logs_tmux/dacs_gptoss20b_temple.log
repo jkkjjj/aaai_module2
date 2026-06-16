@@ -1,0 +1,1964 @@
+
+--- STARTING EVALUATION ---
+Game: temple, Agent LLM Model: gpt-oss-20b
+Agent Type: our, Runs for statistics: 10
+Base Seed for evaluation session: 0
+Episode logs and summary will be in: output/temple/our/gpt-oss-20b/20260616-062030
+
+Starting game run 1/10...
+Using initial prompt and code: 'Explore systematically and examine objects to make progress.'
+
+def extract_state(game_history):
+    return "Game in progress."
+
+[STEP 0] |  Familiar as your dream may be, the shapes and the colours that surrou || Action: look                      || Reward: 0, Score: 0
+[STEP 1] |  void you plunge through limitless abysses of inexplicably coloured tw || Action: look                      || Reward: 0, Score: 0
+[STEP 2] |  void you plunge through limitless abysses of inexplicably coloured tw || Action: examine shape             || Reward: 0, Score: 0
+[STEP 3] | in your current state of fear your mind and body refuse to cooperate.  || Action: down                      || Reward: 0, Score: 0
+[STEP 4] |  the winding staircase leads to a spacious chamber inside the tower.   || Action: examine paper             || Reward: 0, Score: 0
+[STEP 5] | on the paper is a coded message and it is impossible to say even in wh || Action: read paper                || Reward: 0, Score: 0
+[STEP 6] | on the paper is a coded message and it is impossible to say even in wh || Action: examine desk              || Reward: 0, Score: 0
+[STEP 7] | the desk is well used and the surface has many scratches and stains of || Action: look desk                 || Reward: 0, Score: 0
+[STEP 8] | i only understood you as far as wanting to look.                       || Action: look table                || Reward: 0, Score: 0
+[STEP 9] | i only understood you as far as wanting to look.                       || Action: examine table             || Reward: 0, Score: 0
+[STEP 10] | the base of the stone table is covered with carvings, each showing dif || Action: read wall                 || Reward: 0, Score: 0
+[STEP 11] | which do you mean, the north wall, the south wall, the east wall, the  || Action: look                      || Reward: 0, Score: 0
+[STEP 12] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: read north wall           || Reward: 0, Score: 0
+[STEP 13] | you see nothing special about the north wall.                          || Action: south                     || Reward: 0, Score: 0
+[STEP 14] |  storage this is a minor storage chamber, connected to the study throu || Action: get vial                  || Reward: 0, Score: 0
+[STEP 15] | randomly you pick one of the vials from the shelf.                     || Action: examine vial              || Reward: 0, Score: 0
+[STEP 16] | the vials do not have any distinguishing features, apart from their la || Action: look                      || Reward: 0, Score: 0
+[STEP 17] |  storage this is a minor storage chamber, connected to the study throu || Action: get vial                  || Reward: 0, Score: 0
+[STEP 18] | randomly you pick one of the vials from the shelf.                     || Action: get vial                  || Reward: 0, Score: 0
+[STEP 19] | randomly you pick one of the vials from the shelf.                     || Action: look                      || Reward: 0, Score: 0
+[STEP 20] |  storage this is a minor storage chamber, connected to the study throu || Action: get vial                  || Reward: 0, Score: 0
+[STEP 21] | (the mysterious vial) randomly you pick one of the vials from the shel || Action: look                      || Reward: 0, Score: 0
+[STEP 22] |  storage this is a minor storage chamber, connected to the study throu || Action: look                      || Reward: 0, Score: 0
+[STEP 23] |  storage this is a minor storage chamber, connected to the study throu || Action: north                     || Reward: 0, Score: 0
+[STEP 24] |  study  on the desk is a yellow paper.                                 || Action: look                      || Reward: 0, Score: 0
+[STEP 25] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: examine book              || Reward: 0, Score: 0
+[STEP 26] | you browse through the library but can't find any books written in a l || Action: look                      || Reward: 0, Score: 0
+[STEP 27] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 28] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 29] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 30] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 31] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: get paper                 || Reward: 0, Score: 0
+[STEP 32] | taken.                                                                 || Action: read south wall           || Reward: 0, Score: 0
+[STEP 33] | you see nothing special about the south wall.                          || Action: look                      || Reward: 0, Score: 0
+[STEP 34] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 35] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: read paper                || Reward: 0, Score: 0
+[STEP 36] | on the paper is a coded message and it is impossible to say even in wh || Action: examine paper             || Reward: 0, Score: 0
+[STEP 37] | on the paper is a coded message and it is impossible to say even in wh || Action: use vial                  || Reward: 0, Score: 0
+[STEP 38] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 0
+[STEP 39] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 40] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: apply vial paper          || Reward: 0, Score: 0
+[STEP 41] | that's not a verb i recognise.                                         || Action: apply vial to paper       || Reward: 0, Score: 0
+[STEP 42] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 0
+[STEP 43] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 44] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: inventory                 || Reward: 0, Score: 0
+[STEP 45] | you are carrying:   a yellow paper   four vials                        || Action: look                      || Reward: 0, Score: 0
+[STEP 46] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 47] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 48] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 49] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 50] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 51] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 52] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 53] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 54] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 55] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: use vial on paper         || Reward: 0, Score: 0
+[STEP 56] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 0
+[STEP 57] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 58] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 59] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 60] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 61] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 62] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: sprinkle vial paper       || Reward: 0, Score: 0
+[STEP 63] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 0
+[STEP 64] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 65] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 66] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 67] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 68] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 69] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 70] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 71] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 72] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: examine vial              || Reward: 0, Score: 0
+[STEP 73] | the vials do not have any distinguishing features, apart from their la || Action: examine paper             || Reward: 0, Score: 0
+[STEP 74] | on the paper is a coded message and it is impossible to say even in wh || Action: apply vial paper          || Reward: 0, Score: 0
+[STEP 75] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 0
+[STEP 76] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: mix vial paper            || Reward: 0, Score: 0
+[STEP 77] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 0
+[STEP 78] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 79] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 80] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: south                     || Reward: 0, Score: 0
+[STEP 81] |  storage                                                               || Action: look                      || Reward: 0, Score: 0
+[STEP 82] |  storage this is a minor storage chamber, connected to the study throu || Action: examine shelf             || Reward: 0, Score: 0
+[STEP 83] | the shelves are empty.                                                 || Action: north                     || Reward: 0, Score: 0
+[STEP 84] |  study                                                                 || Action: look                      || Reward: 0, Score: 0
+[STEP 85] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 86] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: use vial                  || Reward: 0, Score: 0
+[STEP 87] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 0
+[STEP 88] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: pour vial paper           || Reward: 0, Score: 0
+[STEP 89] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 0
+[STEP 90] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: examine desk              || Reward: 0, Score: 0
+[STEP 91] | the desk is well used and the surface has many scratches and stains of || Action: examine desk              || Reward: 0, Score: 0
+[STEP 92] | the desk is well used and the surface has many scratches and stains of || Action: examine table             || Reward: 0, Score: 0
+[STEP 93] | the base of the stone table is covered with carvings, each showing dif || Action: look                      || Reward: 0, Score: 0
+[STEP 94] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: search table              || Reward: 0, Score: 0
+[STEP 95] | there is nothing on the black stone table.                             || Action: search                    || Reward: 0, Score: 0
+[STEP 96] | what do you want to search?                                            || Action: examine book              || Reward: 0, Score: 0
+[STEP 97] | you browse through the library but can't find any books written in a l || Action: look                      || Reward: 0, Score: 0
+[STEP 98] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: search desk               || Reward: 0, Score: 0
+[STEP 99] | there is nothing on the desk.                                          || Action: look                      || Reward: 0, Score: 0
+[STEP 100] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: open book                 || Reward: 0, Score: 0
+[STEP 101] | that's not something you can open.                                     || Action: search drawer             || Reward: 0, Score: 0
+[STEP 102] | you can't see any such thing.                                          || Action: search bookshelves        || Reward: 0, Score: 0
+[STEP 103] | there is nothing on the bookshelves.                                   || Action: look                      || Reward: 0, Score: 0
+[STEP 104] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: examine staircase         || Reward: 0, Score: 0
+[STEP 105] | the steps are uncomfortably high, and seem to have been designed for s || Action: search staircase          || Reward: 0, Score: 0
+[STEP 106] | you find nothing of interest.                                          || Action: look                      || Reward: 0, Score: 0
+[STEP 107] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 108] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 109] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[OurAgent] New best score 0 at node 0.
+Run 1/10 finished. Score: 0
+
+--- EVALUATION SUMMARY (our method) ---
+Agent LLM Model: gpt-oss-20b
+Number of final evaluation runs: 10
+Individual Scores: [0]
+Average Score: 0.00
+Standard Deviation: 0.00
+
+Starting game run 2/10...
+[DACS] enabled=True game=temple
+[DACS] num raw candidates = 1 archived=0
+[DACS] num filtered candidates = 1
+[DACS] selected/reordered candidate ids = [0]
+[DACS] candidate score table:
+  id | relevance | diversity | risk | final_score | summary
+  0 | 0.101 | 1.0 | 0.031 | 0.58 | Explore systematically and examine objects to make progress.
+[DACS] fallback=False
+Parent node 0 at depth 0 with UCB score: 0.8325546111576977
+
+Evolving prompt. Current prompt: 'Explore systematically and examine objects to make progress....'
+
+Current state extractor code: '
+def extract_state(game_history):
+    return "Game in progress."
+...'
+
+
+Updated state extractor code successfully.
+Evolved guiding prompt and code: '[Improved Guiding Prompt]
+You are in the study of an ancient tower. Your inventory contains a yellow paper with a coded message and four vials of green powder. The objective is to reveal the coded message by applying the powder to the paper. The game recognises the following verbs: look, examine, get, inventory, north, south, down, use, apply, mix, pour, sprinkle, search, open, close, talk, go.  
+
+**Immediate next actions:**
+1. **Apply** the green powder to the yellow paper.  
+   - Try the verb `apply vial to paper`.  
+   - If that fails, try `mix vial paper`, `pour vial paper`, or `sprinkle vial paper`.  
+2. If none of the above commands are accepted, **search** for a tool that might help apply the powder:  
+   - `search desk` (look for a hidden compartment or brush).  
+   - `search table` (look for a hidden compartment or brush).  
+   - `search floor` or `search wall` (look for hidden switches or items).  
+3. Use `inventory` to confirm you still have the paper and vials.  
+4. If you find a brush, a small container, or a switch, use it with the powder or paper accordingly.  
+
+**Avoid the following repetitive and unproductive actions:**  
+- `open book`, `search drawer`, `search bookshelves`, `look` (repeatedly), `examine staircase`, `search staircase`.  
+- Any commands that do not change the game state or are not part of the above list.  
+
+**Exploration strategy when stuck:**  
+- If all attempts to apply the powder fail, systematically scan every visible surface: the floor, walls, and base of the table for hidden compartments or interactive objects.  
+- Use `examine` on any new object you spot.  
+- If nothing else is found, consider moving to a new room: `north` or `south` if possible, or descending further with `down`.  
+
+Remember: each action should be one of the accepted verbs. Do not repeat `look` or `search` without a new target. Keep the focus on using the vials with the paper or finding a tool to do so.  
+
+[State Extractor Code]'
+def extract_state(game_history):
+    state = "Unknown state."
+    if "yellow paper" in game_history and "vial" in game_history:
+        inventory_pass = "inventory" in game_history
+        if inventory_pass:
+            state = "In study, inventory: yellow paper, four vials of green powder; coded message unread, attempted to apply powder but no success."
+        else:
+            state = "In study, yellow paper and vials collected; coded message unread."
+    elif "yellow paper" in game_history:
+        state = "Yellow paper collected; vials not yet collected."
+    elif "vial" in game_history:
+        state = "Green powder vials collected; yellow paper not yet found."
+    return state
+[STEP 0] |  Familiar as your dream may be, the shapes and the colours that surrou || Action: apply vial to paper       || Reward: 0, Score: 0
+[STEP 1] | that's not a verb i recognise.                                         || Action: mix vial paper            || Reward: 0, Score: 0
+[STEP 2] | that's not a verb i recognise.                                         || Action: sprinkle vial paper       || Reward: 0, Score: 0
+[STEP 3] | that's not a verb i recognise.                                         || Action: search desk               || Reward: 0, Score: 0
+[STEP 4] | you can't see any such thing.                                          || Action: search table              || Reward: 0, Score: 0
+[STEP 5] | you can't see any such thing.                                          || Action: search floor              || Reward: 0, Score: 0
+[STEP 6] | you find nothing of interest.  a cascade of red colour explodes below  || Action: use vial paper            || Reward: 0, Score: 0
+[STEP 7] | that's not a verb i recognise.                                         || Action: use vial on paper         || Reward: 0, Score: 0
+[STEP 8] | that's not a verb i recognise.                                         || Action: inventory                 || Reward: 0, Score: 0
+[STEP 9] | you are carrying nothing.  suddenly there is a new element in your dre || Action: look                      || Reward: 0, Score: 0
+[STEP 10] | in your current state of fear your mind and body refuse to cooperate.  || Action: look                      || Reward: 0, Score: 0
+[STEP 11] |  roof the city below you is ancient. dark domes and steep roofs form a || Action: down                      || Reward: 0, Score: 0
+[STEP 12] |  the winding staircase leads to a spacious chamber inside the tower.   || Action: look                      || Reward: 0, Score: 0
+[STEP 13] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: examine desk              || Reward: 0, Score: 0
+[STEP 14] | the desk is well used and the surface has many scratches and stains of || Action: look                      || Reward: 0, Score: 0
+[STEP 15] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: examine table             || Reward: 0, Score: 0
+[STEP 16] | the base of the stone table is covered with carvings, each showing dif || Action: look                      || Reward: 0, Score: 0
+[STEP 17] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: examine wall              || Reward: 0, Score: 0
+[STEP 18] | which do you mean, the north wall, the south wall, the east wall, the  || Action: examine writing           || Reward: 5, Score: 5
+[STEP 19] | it seems to be a poem, or chant. the language is unfamiliar and compli || Action: look                      || Reward: 0, Score: 5
+[STEP 20] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 21] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 22] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 23] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 24] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 25] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 26] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 27] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: sprinkle vial on paper    || Reward: 0, Score: 5
+[STEP 28] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 29] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 30] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 31] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 32] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 33] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: apply vial on paper       || Reward: 0, Score: 5
+[STEP 34] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 35] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 36] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: mix vial paper            || Reward: 0, Score: 5
+[STEP 37] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 38] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 39] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 40] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 41] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: apply vial paper          || Reward: 0, Score: 5
+[STEP 42] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 43] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: search desk               || Reward: 0, Score: 5
+[STEP 44] | on the desk is a yellow paper.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 45] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 46] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: search table              || Reward: 0, Score: 5
+[STEP 47] | there is nothing on the black stone table.                             || Action: look                      || Reward: 0, Score: 5
+[STEP 48] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: search floor              || Reward: 0, Score: 5
+[STEP 49] | you find nothing of interest.  charles is lost in thoughts.            || Action: search wall               || Reward: 0, Score: 5
+[STEP 50] | which do you mean, the north wall, the south wall, the east wall, the  || Action: search north wall         || Reward: 0, Score: 5
+[STEP 51] | you find nothing of interest.                                          || Action: look                      || Reward: 0, Score: 5
+[STEP 52] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: examine book              || Reward: 0, Score: 5
+[STEP 53] | you browse through the library but can't find any books written in a l || Action: open book                 || Reward: 0, Score: 5
+[STEP 54] | that's not something you can open.                                     || Action: search shelf              || Reward: 0, Score: 5
+[STEP 55] | there is nothing on the bookshelves.                                   || Action: search doorway            || Reward: 0, Score: 5
+[STEP 56] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 5
+[STEP 57] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 58] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 59] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: examine wall              || Reward: 0, Score: 5
+[STEP 60] | which do you mean, the north wall, the south wall, the east wall, the  || Action: examine south             || Reward: 0, Score: 5
+[STEP 61] | you see nothing special about the south wall.                          || Action: examine desk              || Reward: 0, Score: 5
+[STEP 62] | the desk is well used and the surface has many scratches and stains of || Action: look                      || Reward: 0, Score: 5
+[STEP 63] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 64] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: sprinkle vial paper       || Reward: 0, Score: 5
+[STEP 65] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 66] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: use vial paper            || Reward: 0, Score: 5
+[STEP 67] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 68] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 69] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 70] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: apply vial to paper       || Reward: 0, Score: 5
+[STEP 71] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 72] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 73] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 74] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 75] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 76] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 77] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: search desk               || Reward: 0, Score: 5
+[STEP 78] | on the desk is a yellow paper.  charles says 'oh god, i'm so tired of  || Action: open desk                 || Reward: 0, Score: 5
+[STEP 79] | that's not something you can open.                                     || Action: look                      || Reward: 0, Score: 5
+[STEP 80] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: search table              || Reward: 0, Score: 5
+[STEP 81] | there is nothing on the black stone table.                             || Action: search floor              || Reward: 0, Score: 5
+[STEP 82] | you find nothing of interest.                                          || Action: look                      || Reward: 0, Score: 5
+[STEP 83] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: examine table             || Reward: 0, Score: 5
+[STEP 84] | the base of the stone table is covered with carvings, each showing dif || Action: examine writing           || Reward: 0, Score: 5
+[STEP 85] | the writing reads: y'ai'ng'ngah h'ee-l'geb f'ai throdog.               || Action: look                      || Reward: 0, Score: 5
+[STEP 86] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 87] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 88] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 89] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 90] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 91] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 92] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: examine desk              || Reward: 0, Score: 5
+[STEP 93] | the desk is well used and the surface has many scratches and stains of || Action: look                      || Reward: 0, Score: 5
+[STEP 94] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 95] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 96] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 97] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: sprinkle vial paper       || Reward: 0, Score: 5
+[STEP 98] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 99] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 100] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 101] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 102] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 103] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: search wall               || Reward: 0, Score: 5
+[STEP 104] | which do you mean, the north wall, the south wall, the east wall, the  || Action: examine north wall        || Reward: 0, Score: 5
+[STEP 105] | you see nothing special about the north wall.                          || Action: examine south wall        || Reward: 0, Score: 5
+[STEP 106] | you see nothing special about the south wall.                          || Action: apply vial to paper       || Reward: 0, Score: 5
+[STEP 107] | that's not a verb i recognise.                                         || Action: sprinkle vial on paper    || Reward: 0, Score: 5
+[STEP 108] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 109] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[OurAgent] New best score 5 at node 1.
+Run 2/10 finished. Score: 5
+
+--- EVALUATION SUMMARY (our method) ---
+Agent LLM Model: gpt-oss-20b
+Number of final evaluation runs: 10
+Individual Scores: [0, 5]
+Average Score: 2.50
+Standard Deviation: 3.54
+
+Starting game run 3/10...
+[DACS] enabled=True game=temple
+[DACS] num raw candidates = 2 archived=0
+[DACS] num filtered candidates = 2
+[DACS] selected/reordered candidate ids = [1, 0]
+[DACS] candidate score table:
+  id | relevance | diversity | risk | final_score | summary
+  1 | 0.332 | 1.0 | 0.194 | 0.896 | [Improved Guiding Prompt] You are in the study of an ancient tower. Your invento
+  0 | 0.139 | 0.942 | 0.034 | 0.586 | Explore systematically and examine objects to make progress.
+[DACS] fallback=False
+Parent node 1 at depth 1 with UCB score: 5.666043688926158
+
+Evolving prompt. Current prompt: '[Improved Guiding Prompt]
+You are in the study of an ancient tower. Your invento...'
+
+Current state extractor code: 'def extract_state(game_history):
+    state = "Unknown state."
+    if "yellow pap...'
+
+
+Updated state extractor code successfully.
+Evolved guiding prompt and code: '[Improved Guiding Prompt]  
+You are the player in the study of an ancient tower. Your inventory contains a yellow paper and four vials of green powder. The goal is to reveal the coded message on the paper.
+
+**Progress‑producing actions**
+
+1. **Examine the writing on the wall above the table**  
+   - Command: `examine writing` (or `examine wall` followed by `examine writing`).  
+   - This is the only action that has increased the score (“your score has just gone up by five points”).
+
+2. **Apply the powder to the paper after the writing has been examined**  
+   - Command: `use vial on paper` or `apply vial on paper`.  
+   - If the parser rejects the verb, try `mix vial paper` or `sprinkle vial paper`; only these two verb forms have ever been accepted by the game.
+
+3. **Search the doorway to the south**  
+   - Command: `search doorway` or `examine doorway`.  
+   - This is the only unexplored exit; all other rooms have not yet been entered.
+
+**Unproductive actions to avoid**
+
+- Repeating `look` without a new target.  
+- `search floor`, `search wall`, `search desk`, `search table` – every attempt has yielded nothing.  
+- `open book`, `search drawer`, `search bookshelves`, `examine staircase`, `search staircase`.  
+- Any command that the parser rejects (“that’s not a verb I recognise”).
+
+**If you are stuck after trying the above**
+
+- Verify your inventory: `inventory`.  
+- Confirm you are still in the study: `look` (the state should mention “study”).  
+- Move to the small room to the south: `south`.  
+- If that room contains a key or tool, use it on the paper.
+
+**Remember** the puzzle requires a tool to apply the powder. If none is found, the only remaining option is to explore the south doorway for a hidden mechanism or object that could help.
+
+---'
+def extract_state(game_history):
+    paper = "yellow paper" in game_history
+    vials = "four vials" in game_history or "four vials of" in game_history
+    writing = "writing reads:" in game_history
+    score = "score has just gone up" in game_history
+    location = "study" if "study" in game_history else "unknown"
+    parts = []
+    parts.append("Paper found" if paper else "Paper not found")
+    parts.append("Vials found" if vials else "Vials not found")
+    parts.append("Writing examined" if writing else "Writing not examined")
+    parts.append("Score increased" if score else "Score unchanged")
+    parts.append(f"Location: {location}")
+    return "; ".join(parts)
+[STEP 0] |  Familiar as your dream may be, the shapes and the colours that surrou || Action: look                      || Reward: 0, Score: 0
+[STEP 1] |  void you plunge through limitless abysses of inexplicably coloured tw || Action: look                      || Reward: 0, Score: 0
+[STEP 2] |  void you plunge through limitless abysses of inexplicably coloured tw || Action: north                     || Reward: 0, Score: 0
+[STEP 3] | in your current state of fear your mind and body refuse to cooperate.  || Action: down                      || Reward: 0, Score: 0
+[STEP 4] |  the winding staircase leads to a spacious chamber inside the tower.   || Action: examine writing           || Reward: 5, Score: 5
+[STEP 5] | it seems to be a poem, or chant. the language is unfamiliar and compli || Action: sprinkle vial paper       || Reward: 0, Score: 5
+[STEP 6] | that's not a verb i recognise.                                         || Action: use vial on paper         || Reward: 0, Score: 5
+[STEP 7] | that's not a verb i recognise.                                         || Action: mix vial paper            || Reward: 0, Score: 5
+[STEP 8] | that's not a verb i recognise.                                         || Action: sprinkle vial on paper    || Reward: 0, Score: 5
+[STEP 9] | that's not a verb i recognise.                                         || Action: sprinkle vial paper       || Reward: 0, Score: 5
+[STEP 10] | that's not a verb i recognise.                                         || Action: inventory                 || Reward: 0, Score: 5
+[STEP 11] | you are carrying nothing.                                              || Action: look                      || Reward: 0, Score: 5
+[STEP 12] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: south                     || Reward: 0, Score: 5
+[STEP 13] |  storage this is a minor storage chamber, connected to the study throu || Action: take vial                 || Reward: 0, Score: 5
+[STEP 14] | randomly you pick one of the vials from the shelf.                     || Action: take vial                 || Reward: 0, Score: 5
+[STEP 15] | randomly you pick one of the vials from the shelf.                     || Action: inventory                 || Reward: 0, Score: 5
+[STEP 16] | you are carrying:   two vials                                          || Action: look                      || Reward: 0, Score: 5
+[STEP 17] |  storage this is a minor storage chamber, connected to the study throu || Action: north                     || Reward: 0, Score: 5
+[STEP 18] |  study  on the desk is a yellow paper.  you can see a confused young m || Action: south                     || Reward: 0, Score: 5
+[STEP 19] |  storage  on one of the shelves are two small vials, each neatly label || Action: look                      || Reward: 0, Score: 5
+[STEP 20] |  storage this is a minor storage chamber, connected to the study throu || Action: take vial                 || Reward: 0, Score: 5
+[STEP 21] | randomly you pick one of the vials from the shelf.  charles picks up a || Action: look                      || Reward: 0, Score: 5
+[STEP 22] |  storage this is a minor storage chamber, connected to the study throu || Action: take vial                 || Reward: 0, Score: 5
+[STEP 23] | (the mysterious vial) randomly you pick one of the vials from the shel || Action: look                      || Reward: 0, Score: 5
+[STEP 24] |  storage this is a minor storage chamber, connected to the study throu || Action: look                      || Reward: 0, Score: 5
+[STEP 25] |  storage this is a minor storage chamber, connected to the study throu || Action: take vial                 || Reward: 0, Score: 5
+[STEP 26] | you already have that.                                                 || Action: look                      || Reward: 0, Score: 5
+[STEP 27] |  storage this is a minor storage chamber, connected to the study throu || Action: look                      || Reward: 0, Score: 5
+[STEP 28] |  storage this is a minor storage chamber, connected to the study throu || Action: look                      || Reward: 0, Score: 5
+[STEP 29] |  storage this is a minor storage chamber, connected to the study throu || Action: look                      || Reward: 0, Score: 5
+[STEP 30] |  storage this is a minor storage chamber, connected to the study throu || Action: north                     || Reward: 0, Score: 5
+[STEP 31] |  study  on the desk is a yellow paper.  charles comes with you.        || Action: look                      || Reward: 0, Score: 5
+[STEP 32] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: sprinkle vial on paper    || Reward: 0, Score: 5
+[STEP 33] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 34] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 35] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: examine writing           || Reward: 0, Score: 5
+[STEP 36] | the writing reads: y'ai'ng'ngah h'ee-l'geb f'ai throdog.               || Action: look                      || Reward: 0, Score: 5
+[STEP 37] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: mix vial paper            || Reward: 0, Score: 5
+[STEP 38] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 39] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 40] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 41] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: inventory                 || Reward: 0, Score: 5
+[STEP 42] | you are carrying:   four vials  charles sighs deeply and says  'will i || Action: look                      || Reward: 0, Score: 5
+[STEP 43] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: sprinkle vial paper       || Reward: 0, Score: 5
+[STEP 44] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 45] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 46] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 47] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 48] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 49] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 50] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: south                     || Reward: 0, Score: 5
+[STEP 51] |  storage  charles comes walking behind you.                            || Action: look                      || Reward: 0, Score: 5
+[STEP 52] |  storage this is a minor storage chamber, connected to the study throu || Action: look                      || Reward: 0, Score: 5
+[STEP 53] |  storage this is a minor storage chamber, connected to the study throu || Action: look                      || Reward: 0, Score: 5
+[STEP 54] |  storage this is a minor storage chamber, connected to the study throu || Action: look                      || Reward: 0, Score: 5
+[STEP 55] |  storage this is a minor storage chamber, connected to the study throu || Action: north                     || Reward: 0, Score: 5
+[STEP 56] |  study  on the desk is a yellow paper.  charles comes with you.        || Action: look                      || Reward: 0, Score: 5
+[STEP 57] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 58] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 59] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: examine vial              || Reward: 0, Score: 5
+[STEP 60] | the vials do not have any distinguishing features, apart from their la || Action: look                      || Reward: 0, Score: 5
+[STEP 61] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: sprinkle vial on paper    || Reward: 0, Score: 5
+[STEP 62] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 63] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 64] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 65] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 66] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 67] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 68] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 69] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: sprinkle vial paper       || Reward: 0, Score: 5
+[STEP 70] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 71] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 72] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 73] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 74] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 75] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 76] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 77] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 78] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 79] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: mix vial paper            || Reward: 0, Score: 5
+[STEP 80] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 81] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: examine writing           || Reward: 0, Score: 5
+[STEP 82] | the writing reads: y'ai'ng'ngah h'ee-l'geb f'ai throdog.  charles says || Action: look                      || Reward: 0, Score: 5
+[STEP 83] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: inventory                 || Reward: 0, Score: 5
+[STEP 84] | you are carrying:   four vials  charles looks nervously around.        || Action: look                      || Reward: 0, Score: 5
+[STEP 85] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 86] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 87] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 88] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: search doorway            || Reward: 0, Score: 5
+[STEP 89] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 5
+[STEP 90] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 91] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 92] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 93] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: use vial on paper         || Reward: 0, Score: 5
+[STEP 94] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 95] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 96] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 97] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: sprinkle vial on paper    || Reward: 0, Score: 5
+[STEP 98] | that's not a verb i recognise.                                         || Action: sprinkle vial paper       || Reward: 0, Score: 5
+[STEP 99] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 100] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 101] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 102] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 103] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 104] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 105] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 106] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 107] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 108] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 109] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+Run 3/10 finished. Score: 5
+
+--- EVALUATION SUMMARY (our method) ---
+Agent LLM Model: gpt-oss-20b
+Number of final evaluation runs: 10
+Individual Scores: [0, 5, 5]
+Average Score: 3.33
+Standard Deviation: 2.89
+
+Starting game run 4/10...
+[DACS] enabled=True game=temple
+[DACS] num raw candidates = 3 archived=0
+[DACS] num filtered candidates = 3
+[DACS] selected/reordered candidate ids = [2, 1, 0]
+[DACS] candidate score table:
+  id | relevance | diversity | risk | final_score | summary
+  2 | 0.494 | 1.0 | 0.182 | 1.067 | [Improved Guiding Prompt]   You are the player in the study of an ancient tower.
+  1 | 0.352 | 0.615 | 0.185 | 0.73 | [Improved Guiding Prompt] You are in the study of an ancient tower. Your invento
+  0 | 0.138 | 0.934 | 0.036 | 0.58 | Explore systematically and examine objects to make progress.
+[DACS] fallback=False
+Parent node 2 at depth 2 with UCB score: 5.670814127339652
+
+Evolving prompt. Current prompt: '[Improved Guiding Prompt]  
+You are the player in the study of an ancient tower....'
+
+Current state extractor code: 'def extract_state(game_history):
+    paper = "yellow paper" in game_history
+    ...'
+
+
+Error during prompt evolution LLM call: 'NoneType' object has no attribute 'strip'
+Evolved guiding prompt and code: '[Improved Guiding Prompt]  
+You are the player in the study of an ancient tower. Your inventory contains a yellow paper and four vials of green powder. The goal is to reveal the coded message on the paper.
+
+**Progress‑producing actions**
+
+1. **Examine the writing on the wall above the table**  
+   - Command: `examine writing` (or `examine wall` followed by `examine writing`).  
+   - This is the only action that has increased the score (“your score has just gone up by five points”).
+
+2. **Apply the powder to the paper after the writing has been examined**  
+   - Command: `use vial on paper` or `apply vial on paper`.  
+   - If the parser rejects the verb, try `mix vial paper` or `sprinkle vial paper`; only these two verb forms have ever been accepted by the game.
+
+3. **Search the doorway to the south**  
+   - Command: `search doorway` or `examine doorway`.  
+   - This is the only unexplored exit; all other rooms have not yet been entered.
+
+**Unproductive actions to avoid**
+
+- Repeating `look` without a new target.  
+- `search floor`, `search wall`, `search desk`, `search table` – every attempt has yielded nothing.  
+- `open book`, `search drawer`, `search bookshelves`, `examine staircase`, `search staircase`.  
+- Any command that the parser rejects (“that’s not a verb I recognise”).
+
+**If you are stuck after trying the above**
+
+- Verify your inventory: `inventory`.  
+- Confirm you are still in the study: `look` (the state should mention “study”).  
+- Move to the small room to the south: `south`.  
+- If that room contains a key or tool, use it on the paper.
+
+**Remember** the puzzle requires a tool to apply the powder. If none is found, the only remaining option is to explore the south doorway for a hidden mechanism or object that could help.
+
+---'
+def extract_state(game_history):
+    paper = "yellow paper" in game_history
+    vials = "four vials" in game_history or "four vials of" in game_history
+    writing = "writing reads:" in game_history
+    score = "score has just gone up" in game_history
+    location = "study" if "study" in game_history else "unknown"
+    parts = []
+    parts.append("Paper found" if paper else "Paper not found")
+    parts.append("Vials found" if vials else "Vials not found")
+    parts.append("Writing examined" if writing else "Writing not examined")
+    parts.append("Score increased" if score else "Score unchanged")
+    parts.append(f"Location: {location}")
+    return "; ".join(parts)
+[STEP 0] |  Familiar as your dream may be, the shapes and the colours that surrou || Action: look                      || Reward: 0, Score: 0
+[STEP 1] |  void you plunge through limitless abysses of inexplicably coloured tw || Action: look                      || Reward: 0, Score: 0
+[STEP 2] |  void you plunge through limitless abysses of inexplicably coloured tw || Action: look                      || Reward: 0, Score: 0
+[STEP 3] | in your current state of fear your mind and body refuse to cooperate.  || Action: look                      || Reward: 0, Score: 0
+[STEP 4] |  roof the city below you is ancient. dark domes and steep roofs form a || Action: down                      || Reward: 0, Score: 0
+[STEP 5] |  the winding staircase leads to a spacious chamber inside the tower.   || Action: examine writing           || Reward: 5, Score: 5
+[STEP 6] | it seems to be a poem, or chant. the language is unfamiliar and compli || Action: use vial on paper         || Reward: 0, Score: 5
+[STEP 7] | that's not a verb i recognise.                                         || Action: mix vial paper            || Reward: 0, Score: 5
+[STEP 8] | that's not a verb i recognise.                                         || Action: sprinkle vial paper       || Reward: 0, Score: 5
+[STEP 9] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 10] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: inventory                 || Reward: 0, Score: 5
+[STEP 11] | you are carrying nothing.  the man stirs in his sleep.                 || Action: search doorway            || Reward: 0, Score: 5
+[STEP 12] | you can't see any such thing.                                          || Action: south                     || Reward: 0, Score: 5
+[STEP 13] |  storage this is a minor storage chamber, connected to the study throu || Action: take vial                 || Reward: 0, Score: 5
+[STEP 14] | randomly you pick one of the vials from the shelf.                     || Action: look                      || Reward: 0, Score: 5
+[STEP 15] |  storage this is a minor storage chamber, connected to the study throu || Action: look                      || Reward: 0, Score: 5
+[STEP 16] |  storage this is a minor storage chamber, connected to the study throu || Action: take vial                 || Reward: 0, Score: 5
+[STEP 17] | randomly you pick one of the vials from the shelf.                     || Action: north                     || Reward: 0, Score: 5
+[STEP 18] |  study  on the desk is a yellow paper.  you can see a confused young m || Action: look                      || Reward: 0, Score: 5
+[STEP 19] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: inventory                 || Reward: 0, Score: 5
+[STEP 20] | you are carrying:   two vials                                          || Action: look                      || Reward: 0, Score: 5
+[STEP 21] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: sprinkle vial paper       || Reward: 0, Score: 5
+[STEP 22] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 23] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 24] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 25] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 26] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 27] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 28] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 29] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: sprinkle paper            || Reward: 0, Score: 5
+[STEP 30] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 31] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 32] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 33] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: sprinkle vial on paper    || Reward: 0, Score: 5
+[STEP 34] | that's not a verb i recognise.                                         || Action: sprinkle vial on paper    || Reward: 0, Score: 5
+[STEP 35] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 36] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: examine writing           || Reward: 0, Score: 5
+[STEP 37] | the writing reads: y'ai'ng'ngah h'ee-l'geb f'ai throdog.               || Action: look                      || Reward: 0, Score: 5
+[STEP 38] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 39] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: use vial on paper         || Reward: 0, Score: 5
+[STEP 40] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 41] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: apply vial on paper       || Reward: 0, Score: 5
+[STEP 42] | that's not a verb i recognise.                                         || Action: mix vial paper            || Reward: 0, Score: 5
+[STEP 43] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 44] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 45] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 46] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 47] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 48] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 49] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 50] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: sprinkle vial paper       || Reward: 0, Score: 5
+[STEP 51] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 52] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: inventory                 || Reward: 0, Score: 5
+[STEP 53] | you are carrying:   two vials  charles sighs deeply and says  'will i  || Action: examine vial              || Reward: 0, Score: 5
+[STEP 54] | the vials do not have any distinguishing features, apart from their la || Action: look                      || Reward: 0, Score: 5
+[STEP 55] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 56] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 57] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: search doorway            || Reward: 0, Score: 5
+[STEP 58] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 5
+[STEP 59] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 60] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: south                     || Reward: 0, Score: 5
+[STEP 61] |  storage  on one of the shelves are two small vials, each neatly label || Action: north                     || Reward: 0, Score: 5
+[STEP 62] |  study  on the desk is a yellow paper.  charles comes with you.        || Action: look                      || Reward: 0, Score: 5
+[STEP 63] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 64] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 65] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: sprinkle paper vial       || Reward: 0, Score: 5
+[STEP 66] | that's not a verb i recognise.                                         || Action: mix vial on paper         || Reward: 0, Score: 5
+[STEP 67] | that's not a verb i recognise.                                         || Action: mix vial paper            || Reward: 0, Score: 5
+[STEP 68] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 69] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: mix paper vial            || Reward: 0, Score: 5
+[STEP 70] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 71] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 72] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 73] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: sprinkle vial             || Reward: 0, Score: 5
+[STEP 74] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 75] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 76] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 77] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: use vial on paper         || Reward: 0, Score: 5
+[STEP 78] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 79] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 80] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: sprinkle paper            || Reward: 0, Score: 5
+[STEP 81] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 82] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 83] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: use vial1 on paper        || Reward: 0, Score: 5
+[STEP 84] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 85] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 86] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 87] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 88] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: inventory                 || Reward: 0, Score: 5
+[STEP 89] | you are carrying:   two vials  charles says 'oh god, i'm so tired of t || Action: sprinkle vial paper       || Reward: 0, Score: 5
+[STEP 90] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 91] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 92] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: sprinkle vial on paper    || Reward: 0, Score: 5
+[STEP 93] | that's not a verb i recognise.                                         || Action: search doorway            || Reward: 0, Score: 5
+[STEP 94] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 5
+[STEP 95] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 96] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 97] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 98] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: sprinkle vial1 on paper   || Reward: 0, Score: 5
+[STEP 99] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 100] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 101] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 102] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 103] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 104] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: examine writing           || Reward: 0, Score: 5
+[STEP 105] | the writing reads: y'ai'ng'ngah h'ee-l'geb f'ai throdog.               || Action: look                      || Reward: 0, Score: 5
+[STEP 106] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: open vial                 || Reward: 0, Score: 5
+[STEP 107] | there doesn't seem any way to open the vial and how the green powder o || Action: look                      || Reward: 0, Score: 5
+[STEP 108] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 109] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+Run 4/10 finished. Score: 5
+
+--- EVALUATION SUMMARY (our method) ---
+Agent LLM Model: gpt-oss-20b
+Number of final evaluation runs: 10
+Individual Scores: [0, 5, 5, 5]
+Average Score: 3.75
+Standard Deviation: 2.50
+
+Starting game run 5/10...
+[DACS] enabled=True game=temple
+[DACS] num raw candidates = 4 archived=0
+[DACS] num filtered candidates = 4
+[DACS] selected/reordered candidate ids = [2, 1, 3, 0]
+[DACS] candidate score table:
+  id | relevance | diversity | risk | final_score | summary
+  2 | 0.475 | 1.0 | 0.191 | 1.041 | [Improved Guiding Prompt]   You are the player in the study of an ancient tower.
+  1 | 0.37 | 0.615 | 0.185 | 0.748 | [Improved Guiding Prompt] You are in the study of an ancient tower. Your invento
+  3 | 0.475 | 0.0 | 0.191 | 0.541 | [Improved Guiding Prompt]   You are the player in the study of an ancient tower.
+  0 | 0.084 | 0.934 | 0.033 | 0.528 | Explore systematically and examine objects to make progress.
+[DACS] fallback=False
+Parent node 1 at depth 1 with UCB score: 5.666043688926158
+
+Evolving prompt. Current prompt: '[Improved Guiding Prompt]
+You are in the study of an ancient tower. Your invento...'
+
+Current state extractor code: 'def extract_state(game_history):
+    state = "Unknown state."
+    if "yellow pap...'
+
+
+Evolution LLM returned invalid state extractor code, keeping current code
+Evolved guiding prompt and code: '**Improved Guiding Prompt**  
+You are in the study of an ancient tower. Your inventory contains a yellow paper with a coded message and four vials of green powder. The objective is to reveal the coded message by applying the powder to the paper.  
+
+Accepted verbs: `look, examine, get, inventory, north, south, down, use, apply, mix, pour, sprinkle, search, open, close, talk, go`.
+
+**Core actions to achieve the goal**
+
+1. **Confirm item names**  
+   - `examine yellow paper` (or `examine paper`). Write down the exact phrase the game uses for the paper.  
+   - `examine vial of green powder` (or `examine vial`). Note the full item name the game returns.
+
+2. **Combine items**  
+   Use the full names from step 1 with the following verbs in this order:
+
+   - `apply <powder> on <paper>`
+   - `mix <powder> with <paper>`
+   - `sprinkle <powder> on <paper>`
+
+   Replace `<powder>` and `<paper>` with the exact names obtained in step 1.
+
+3. **If combining fails**  
+   Search for a tool that can hold or spread the powder. Only search once per location:
+
+   - `search desk`  
+   - `search table`  
+   - `search floor`  
+   - `search wall`  
+
+   If a brush, small container, or switch appears, use it:
+
+   - `apply <brush> on <paper>`  
+   - `sprinkle <powder> on <brush>`  
+   - `pour <powder> on <paper>` (if the game accepts `pour`)
+
+4. **If no tool is found**  
+   Move to the adjacent room to look for hidden items:
+
+   - `south`
+
+5. **Interaction with NPC**  
+   If you meet Charles Bristow, consider:
+
+   - `talk to Charles Bristow`  
+   - `examine Charles`
+
+6. **Avoid repetition**  
+   Do not repeat a command that has already failed (e.g., do not keep issuing `look`, `search desk`, or `search table`). Skip to the next possible action immediately.
+
+**When stuck after exhausting all the above**  
+- List any rooms that have not yet been entered (e.g., the room to the'
+def extract_state(game_history):
+    state = "Unknown state."
+    if "yellow paper" in game_history and "vial" in game_history:
+        inventory_pass = "inventory" in game_history
+        if inventory_pass:
+            state = "In study, inventory: yellow paper, four vials of green powder; coded message unread, attempted to apply powder but no success."
+        else:
+            state = "In study, yellow paper and vials collected; coded message unread."
+    elif "yellow paper" in game_history:
+        state = "Yellow paper collected; vials not yet collected."
+    elif "vial" in game_history:
+        state = "Green powder vials collected; yellow paper not yet found."
+    return state
+[STEP 0] |  Familiar as your dream may be, the shapes and the colours that surrou || Action: look                      || Reward: 0, Score: 0
+[STEP 1] |  void you plunge through limitless abysses of inexplicably coloured tw || Action: look                      || Reward: 0, Score: 0
+[STEP 2] |  void you plunge through limitless abysses of inexplicably coloured tw || Action: north                     || Reward: 0, Score: 0
+[STEP 3] | in your current state of fear your mind and body refuse to cooperate.  || Action: down                      || Reward: 0, Score: 0
+[STEP 4] |  the winding staircase leads to a spacious chamber inside the tower.   || Action: examine yellow paper      || Reward: 0, Score: 0
+[STEP 5] | on the paper is a coded message and it is impossible to say even in wh || Action: south                     || Reward: 0, Score: 0
+[STEP 6] |  storage this is a minor storage chamber, connected to the study throu || Action: get vial                  || Reward: 0, Score: 0
+[STEP 7] | randomly you pick one of the vials from the shelf.                     || Action: examine vial              || Reward: 0, Score: 0
+[STEP 8] | the vials do not have any distinguishing features, apart from their la || Action: look                      || Reward: 0, Score: 0
+[STEP 9] |  storage this is a minor storage chamber, connected to the study throu || Action: apply vial on paper       || Reward: 0, Score: 0
+[STEP 10] | that's not a verb i recognise.                                         || Action: examine paper             || Reward: 0, Score: 0
+[STEP 11] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 0
+[STEP 12] |  storage this is a minor storage chamber, connected to the study throu || Action: look                      || Reward: 0, Score: 0
+[STEP 13] |  storage this is a minor storage chamber, connected to the study throu || Action: look                      || Reward: 0, Score: 0
+[STEP 14] |  storage this is a minor storage chamber, connected to the study throu || Action: look                      || Reward: 0, Score: 0
+[STEP 15] |  storage this is a minor storage chamber, connected to the study throu || Action: look                      || Reward: 0, Score: 0
+[STEP 16] |  storage this is a minor storage chamber, connected to the study throu || Action: north                     || Reward: 0, Score: 0
+[STEP 17] |  study  on the desk is a yellow paper.                                 || Action: look                      || Reward: 0, Score: 0
+[STEP 18] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 19] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 20] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 21] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 22] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: sprinkle vial on yellow paper || Reward: 0, Score: 0
+[STEP 23] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 0
+[STEP 24] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 25] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: use vial on paper         || Reward: 0, Score: 0
+[STEP 26] | that's not a verb i recognise.                                         || Action: mix vial paper            || Reward: 0, Score: 0
+[STEP 27] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 0
+[STEP 28] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 29] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 30] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 31] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 32] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 33] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 34] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 35] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 36] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: examine yellow            || Reward: 0, Score: 0
+[STEP 37] | on the paper is a coded message and it is impossible to say even in wh || Action: examine yellow            || Reward: 0, Score: 0
+[STEP 38] | on the paper is a coded message and it is impossible to say even in wh || Action: examine vial              || Reward: 0, Score: 0
+[STEP 39] | the vials do not have any distinguishing features, apart from their la || Action: examine paper             || Reward: 0, Score: 0
+[STEP 40] | on the paper is a coded message and it is impossible to say even in wh || Action: look                      || Reward: 0, Score: 0
+[STEP 41] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: examine yellow paper      || Reward: 0, Score: 0
+[STEP 42] | on the paper is a coded message and it is impossible to say even in wh || Action: look                      || Reward: 0, Score: 0
+[STEP 43] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 44] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 45] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 46] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 47] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: apply vial yellow         || Reward: 0, Score: 0
+[STEP 48] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 0
+[STEP 49] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 50] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 51] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 52] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 53] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 54] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 55] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 56] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 57] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 58] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 59] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 60] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 61] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: inventory                 || Reward: 0, Score: 0
+[STEP 62] | you are carrying:   a mysterious vial                                  || Action: search desk               || Reward: 0, Score: 0
+[STEP 63] | on the desk is a yellow paper.                                         || Action: look                      || Reward: 0, Score: 0
+[STEP 64] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: sprinkle vial paper       || Reward: 0, Score: 0
+[STEP 65] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 0
+[STEP 66] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: sprinkle mysterious yellow || Reward: 0, Score: 0
+[STEP 67] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 0
+[STEP 68] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 69] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: apply mysterious yellow   || Reward: 0, Score: 0
+[STEP 70] | that's not a verb i recognise.                                         || Action: use mysterious yellow     || Reward: 0, Score: 0
+[STEP 71] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 0
+[STEP 72] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: examine paper             || Reward: 0, Score: 0
+[STEP 73] | on the paper is a coded message and it is impossible to say even in wh || Action: examine paper             || Reward: 0, Score: 0
+[STEP 74] | on the paper is a coded message and it is impossible to say even in wh || Action: examine yellow paper      || Reward: 0, Score: 0
+[STEP 75] | on the paper is a coded message and it is impossible to say even in wh || Action: look                      || Reward: 0, Score: 0
+[STEP 76] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: mix mysterious yellow     || Reward: 0, Score: 0
+[STEP 77] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 0
+[STEP 78] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 79] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: apply mysterious on paper || Reward: 0, Score: 0
+[STEP 80] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 0
+[STEP 81] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 82] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: apply mysterious to paper || Reward: 0, Score: 0
+[STEP 83] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 0
+[STEP 84] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: apply mysterious vial to yellow paper || Reward: 0, Score: 0
+[STEP 85] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 0
+[STEP 86] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 87] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 88] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: examine vial              || Reward: 0, Score: 0
+[STEP 89] | the vials do not have any distinguishing features, apart from their la || Action: look                      || Reward: 0, Score: 0
+[STEP 90] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 91] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 92] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 93] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: inventory                 || Reward: 0, Score: 0
+[STEP 94] | you are carrying:   a mysterious vial                                  || Action: examine paper             || Reward: 0, Score: 0
+[STEP 95] | on the paper is a coded message and it is impossible to say even in wh || Action: look                      || Reward: 0, Score: 0
+[STEP 96] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 97] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 98] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: pour mysterious vial on paper || Reward: 0, Score: 0
+[STEP 99] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 0
+[STEP 100] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 101] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: sprinkle mysterious vial on paper || Reward: 0, Score: 0
+[STEP 102] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 0
+[STEP 103] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 104] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: use mysterious vial on paper || Reward: 0, Score: 0
+[STEP 105] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 0
+[STEP 106] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 107] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: search desk               || Reward: 0, Score: 0
+[STEP 108] | on the desk is a yellow paper.                                         || Action: search table              || Reward: 0, Score: 0
+[STEP 109] | there is nothing on the black stone table.                             || Action: open mysterious vial      || Reward: 0, Score: 0
+Run 5/10 finished. Score: 0
+
+--- EVALUATION SUMMARY (our method) ---
+Agent LLM Model: gpt-oss-20b
+Number of final evaluation runs: 10
+Individual Scores: [0, 5, 5, 5, 0]
+Average Score: 3.00
+Standard Deviation: 2.74
+
+Starting game run 6/10...
+[DACS] enabled=True game=temple
+[DACS] num raw candidates = 5 archived=0
+[DACS] num filtered candidates = 4
+[DACS] selected/reordered candidate ids = [2, 1, 4, 0]
+[DACS] candidate score table:
+  id | relevance | diversity | risk | final_score | summary
+  2 | 0.399 | 1.0 | 0.171 | 0.979 | [Improved Guiding Prompt]   You are the player in the study of an ancient tower.
+  1 | 0.394 | 0.615 | 0.177 | 0.778 | [Improved Guiding Prompt] You are in the study of an ancient tower. Your invento
+  4 | 0.401 | 0.544 | 0.155 | 0.565 | **Improved Guiding Prompt**   You are in the study of an ancient tower. Your inv
+  0 | 0.093 | 0.934 | 0.04 | 0.533 | Explore systematically and examine objects to make progress.
+[DACS] fallback=False
+Parent node 1 at depth 1 with UCB score: 5.585957980278969
+
+Evolving prompt. Current prompt: '[Improved Guiding Prompt]
+You are in the study of an ancient tower. Your invento...'
+
+Current state extractor code: 'def extract_state(game_history):
+    state = "Unknown state."
+    if "yellow pap...'
+
+
+Evolution LLM returned invalid state extractor code, keeping current code
+Evolved guiding prompt and code: '**[Improved Guiding Prompt]**  
+You are in the study of an ancient tower. Your inventory contains a yellow paper and four vials of green powder. The goal is to reveal the coded message on the paper by applying the powder to it. The game accepts the following verbs: look, examine, get, inventory, north, south, down, use, apply, mix, pour, sprinkle, search, open, close, talk, go.  
+
+**Action strategy**  
+1. **Confirm inventory** – `inventory`.  
+2. **Apply the powder** – try each of the following syntaxes until one is accepted:  
+   - `sprinkle vial on paper`  
+   - `sprinkle vial on yellow paper`  
+   - `apply vial on paper`  
+   - `apply vial to paper`  
+   - `use vial on paper`  
+   - `mix vial with paper`  
+   - `pour vial onto paper`  
+3. **If none of the above verbs are accepted** – you likely need a tool.  
+   - Search for a brush or container that can help:  
+     - `search desk`  
+     - `search table`  
+     - `search floor`  
+     - `search wall` (specify direction if prompted)  
+4. **Avoid repetitive actions** – do not repeat `look`, `search`, or `examine` on the same target unless you have found a new object or the game state indicates a change.  
+5. **Engage the NPC** – once you have the yellow paper in sight, try:  
+   - `talk Charles` or `talk to Charles`  
+   - `ask Charles`  
+   These may give you a hint about how to apply the powder.  
+6. **Explore new rooms** – if the study is exhausted:  
+   - `south` (enter the smaller room to the south)  
+   - `north` or `down` if the staircase allows.  
+   Make sure to search each new room’s surfaces and objects for hidden items.  
+
+**When stuck**  
+- If after a full cycle of searching the study you still cannot apply the powder, list all unvisited rooms (e.g., the smaller room to the south, any corridor, the rooftop) and try a systematic search in each:  
+  1. `look` at the room.  
+  2. `search` each visible object (desk, table, floor, wall).  
+  3. `examine` any new object found.  
+  4. `talk` or `ask` any NPC encountered.  
+- Keep a short log of actions tried to avoid repeating the same unproductive command.  
+
+**Success check**  
+The coded message will appear in the state as “the coded message is revealed” or similar. Once that is detected, the objective is complete.  
+
+---
+
+**[State Extractor Code]**  
+<code>
+def extract_state(game_history):
+    loc = None
+    if "study" in game_history:
+        loc = "study"
+    elif "roof" in game_history:
+        loc = "roof"
+    elif "small room" in game_history or "room to the south" in game_history:
+        loc = "'
+def extract_state(game_history):
+    state = "Unknown state."
+    if "yellow paper" in game_history and "vial" in game_history:
+        inventory_pass = "inventory" in game_history
+        if inventory_pass:
+            state = "In study, inventory: yellow paper, four vials of green powder; coded message unread, attempted to apply powder but no success."
+        else:
+            state = "In study, yellow paper and vials collected; coded message unread."
+    elif "yellow paper" in game_history:
+        state = "Yellow paper collected; vials not yet collected."
+    elif "vial" in game_history:
+        state = "Green powder vials collected; yellow paper not yet found."
+    return state
+[STEP 0] |  Familiar as your dream may be, the shapes and the colours that surrou || Action: look                      || Reward: 0, Score: 0
+[STEP 1] |  void you plunge through limitless abysses of inexplicably coloured tw || Action: look                      || Reward: 0, Score: 0
+[STEP 2] |  void you plunge through limitless abysses of inexplicably coloured tw || Action: look                      || Reward: 0, Score: 0
+[STEP 3] | in your current state of fear your mind and body refuse to cooperate.  || Action: look                      || Reward: 0, Score: 0
+[STEP 4] |  roof the city below you is ancient. dark domes and steep roofs form a || Action: down                      || Reward: 0, Score: 0
+[STEP 5] |  the winding staircase leads to a spacious chamber inside the tower.   || Action: sprinkle vial on paper    || Reward: 0, Score: 0
+[STEP 6] | that's not a verb i recognise.                                         || Action: sprinkle vial on yellow paper || Reward: 0, Score: 0
+[STEP 7] | that's not a verb i recognise.                                         || Action: use vial on paper         || Reward: 0, Score: 0
+[STEP 8] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 0
+[STEP 9] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: search desk               || Reward: 0, Score: 0
+[STEP 10] | on the desk is a yellow paper.                                         || Action: examine desk              || Reward: 0, Score: 0
+[STEP 11] | the desk is well used and the surface has many scratches and stains of || Action: search table              || Reward: 0, Score: 0
+[STEP 12] | there is nothing on the black stone table.                             || Action: search floor              || Reward: 0, Score: 0
+[STEP 13] | you find nothing of interest.                                          || Action: search bookshelf          || Reward: 0, Score: 0
+[STEP 14] | there is nothing on the bookshelves.                                   || Action: search wall               || Reward: 0, Score: 0
+[STEP 15] | which do you mean, the north wall, the south wall, the east wall, the  || Action: search north              || Reward: 0, Score: 0
+[STEP 16] | you find nothing of interest.                                          || Action: search south              || Reward: 0, Score: 0
+[STEP 17] | you find nothing of interest.                                          || Action: look                      || Reward: 0, Score: 0
+[STEP 18] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 19] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 20] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: south                     || Reward: 0, Score: 0
+[STEP 21] |  storage this is a minor storage chamber, connected to the study throu || Action: get vial                  || Reward: 0, Score: 0
+[STEP 22] | randomly you pick one of the vials from the shelf.                     || Action: look                      || Reward: 0, Score: 0
+[STEP 23] |  storage this is a minor storage chamber, connected to the study throu || Action: get vial                  || Reward: 0, Score: 0
+[STEP 24] | randomly you pick one of the vials from the shelf.                     || Action: look                      || Reward: 0, Score: 0
+[STEP 25] |  storage this is a minor storage chamber, connected to the study throu || Action: north                     || Reward: 0, Score: 0
+[STEP 26] |  study  on the desk is a yellow paper.                                 || Action: sprinkle powder on paper  || Reward: 0, Score: 0
+[STEP 27] | that's not a verb i recognise.                                         || Action: pour vial on paper        || Reward: 0, Score: 0
+[STEP 28] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 0
+[STEP 29] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: apply powder to paper     || Reward: 0, Score: 0
+[STEP 30] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 0
+[STEP 31] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 32] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 33] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 34] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: apply vial to paper       || Reward: 0, Score: 0
+[STEP 35] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 0
+[STEP 36] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: mix vial with paper       || Reward: 0, Score: 0
+[STEP 37] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 0
+[STEP 38] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: use vial on paper         || Reward: 0, Score: 0
+[STEP 39] | that's not a verb i recognise.                                         || Action: sprinkle vial onto paper  || Reward: 0, Score: 0
+[STEP 40] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 0
+[STEP 41] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 42] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 43] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: search table              || Reward: 0, Score: 0
+[STEP 44] | there is nothing on the black stone table.                             || Action: look                      || Reward: 0, Score: 0
+[STEP 45] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: inventory                 || Reward: 0, Score: 0
+[STEP 46] | you are carrying:   two vials                                          || Action: sprinkle vial on yellow paper || Reward: 0, Score: 0
+[STEP 47] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 0
+[STEP 48] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: sprinkle vial onto paper  || Reward: 0, Score: 0
+[STEP 49] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 0
+[STEP 50] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 51] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 52] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: search desk               || Reward: 0, Score: 0
+[STEP 53] | on the desk is a yellow paper.                                         || Action: search shelf              || Reward: 0, Score: 0
+[STEP 54] | there is nothing on the bookshelves.                                   || Action: examine shelf             || Reward: 0, Score: 0
+[STEP 55] | the bookshelves are  filled with bound volumes that are crumbling with || Action: look                      || Reward: 0, Score: 0
+[STEP 56] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 57] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: search floor              || Reward: 0, Score: 0
+[STEP 58] | you find nothing of interest.                                          || Action: look                      || Reward: 0, Score: 0
+[STEP 59] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 60] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: search wall               || Reward: 0, Score: 0
+[STEP 61] | which do you mean, the north wall, the south wall, the east wall, the  || Action: search north wall         || Reward: 0, Score: 0
+[STEP 62] | you find nothing of interest.                                          || Action: pour vial onto paper      || Reward: 0, Score: 0
+[STEP 63] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 0
+[STEP 64] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 65] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 66] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: south                     || Reward: 0, Score: 0
+[STEP 67] |  storage  on one of the shelves are two small vials, each neatly label || Action: look                      || Reward: 0, Score: 0
+[STEP 68] |  storage this is a minor storage chamber, connected to the study throu || Action: north                     || Reward: 0, Score: 0
+[STEP 69] |  study  on the desk is a yellow paper.                                 || Action: look                      || Reward: 0, Score: 0
+[STEP 70] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 71] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 72] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 73] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: examine book              || Reward: 0, Score: 0
+[STEP 74] | you browse through the library but can't find any books written in a l || Action: examine book              || Reward: 0, Score: 0
+[STEP 75] | you browse through the library but can't find any books written in a l || Action: search table              || Reward: 0, Score: 0
+[STEP 76] | there is nothing on the black stone table.                             || Action: open book                 || Reward: 0, Score: 0
+[STEP 77] | that's not something you can open.                                     || Action: examine desk              || Reward: 0, Score: 0
+[STEP 78] | the desk is well used and the surface has many scratches and stains of || Action: south                     || Reward: 0, Score: 0
+[STEP 79] |  storage  on one of the shelves are two small vials, each neatly label || Action: look                      || Reward: 0, Score: 0
+[STEP 80] |  storage this is a minor storage chamber, connected to the study throu || Action: north                     || Reward: 0, Score: 0
+[STEP 81] |  study  on the desk is a yellow paper.                                 || Action: sprinkle vial on paper    || Reward: 0, Score: 0
+[STEP 82] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 0
+[STEP 83] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 84] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: search desk               || Reward: 0, Score: 0
+[STEP 85] | on the desk is a yellow paper.                                         || Action: search desk               || Reward: 0, Score: 0
+[STEP 86] | on the desk is a yellow paper.                                         || Action: search shelf              || Reward: 0, Score: 0
+[STEP 87] | there is nothing on the bookshelves.                                   || Action: look                      || Reward: 0, Score: 0
+[STEP 88] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: search south wall         || Reward: 0, Score: 0
+[STEP 89] | you find nothing of interest.                                          || Action: examine staircase         || Reward: 0, Score: 0
+[STEP 90] | the steps are uncomfortably high, and seem to have been designed for s || Action: look                      || Reward: 0, Score: 0
+[STEP 91] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 92] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: search north wall         || Reward: 0, Score: 0
+[STEP 93] | you find nothing of interest.                                          || Action: apply vial to paper       || Reward: 0, Score: 0
+[STEP 94] | that's not a verb i recognise.                                         || Action: use vial on paper         || Reward: 0, Score: 0
+[STEP 95] | that's not a verb i recognise.                                         || Action: pour vial onto paper      || Reward: 0, Score: 0
+[STEP 96] | that's not a verb i recognise.                                         || Action: search floor              || Reward: 0, Score: 0
+[STEP 97] | you find nothing of interest.                                          || Action: south                     || Reward: 0, Score: 0
+[STEP 98] |  storage  on one of the shelves are two small vials, each neatly label || Action: look                      || Reward: 0, Score: 0
+[STEP 99] |  storage this is a minor storage chamber, connected to the study throu || Action: look                      || Reward: 0, Score: 0
+[STEP 100] |  storage this is a minor storage chamber, connected to the study throu || Action: north                     || Reward: 0, Score: 0
+[STEP 101] |  study  on the desk is a yellow paper.                                 || Action: look                      || Reward: 0, Score: 0
+[STEP 102] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: sprinkle powder on paper  || Reward: 0, Score: 0
+[STEP 103] | that's not a verb i recognise.                                         || Action: open drawer               || Reward: 0, Score: 0
+[STEP 104] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 0
+[STEP 105] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 106] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: search table              || Reward: 0, Score: 0
+[STEP 107] | there is nothing on the black stone table.                             || Action: examine table             || Reward: 0, Score: 0
+[STEP 108] | the base of the stone table is covered with carvings, each showing dif || Action: examine writing           || Reward: 5, Score: 5
+[STEP 109] | it seems to be a poem, or chant. the language is unfamiliar and compli || Action: talk man                  || Reward: 0, Score: 5
+Run 6/10 finished. Score: 5
+
+--- EVALUATION SUMMARY (our method) ---
+Agent LLM Model: gpt-oss-20b
+Number of final evaluation runs: 10
+Individual Scores: [0, 5, 5, 5, 0, 5]
+Average Score: 3.33
+Standard Deviation: 2.58
+
+Starting game run 7/10...
+[DACS] enabled=True game=temple
+[DACS] num raw candidates = 6 archived=0
+[DACS] num filtered candidates = 4
+[DACS] selected/reordered candidate ids = [2, 1, 5, 3]
+[DACS] candidate score table:
+  id | relevance | diversity | risk | final_score | summary
+  2 | 0.561 | 1.0 | 0.209 | 1.115 | [Improved Guiding Prompt]   You are the player in the study of an ancient tower.
+  1 | 0.531 | 0.615 | 0.221 | 0.885 | [Improved Guiding Prompt] You are in the study of an ancient tower. Your invento
+  5 | 0.421 | 0.497 | 0.192 | 0.735 | **[Improved Guiding Prompt]**   You are in the study of an ancient tower. Your i
+  3 | 0.561 | 0.0 | 0.209 | 0.615 | [Improved Guiding Prompt]   You are the player in the study of an ancient tower.
+[DACS] fallback=False
+Parent node 5 at depth 2 with UCB score: 5.856682367389345
+
+Evolving prompt. Current prompt: '**[Improved Guiding Prompt]**  
+You are in the study of an ancient tower. Your i...'
+
+Current state extractor code: 'def extract_state(game_history):
+    state = "Unknown state."
+    if "yellow pap...'
+
+
+Evolution LLM returned invalid state extractor code, keeping current code
+Evolved guiding prompt and code: '**New Guiding Prompt**
+
+You are in the study of an ancient tower. Your inventory contains a yellow paper and four vials of green powder. The goal is to reveal the coded message on the paper by applying the powder. The game recognizes the following verbs: look, examine, get, inventory, north, south, down, use, apply, mix, pour, sprinkle, search, open, close, talk, ask, read.
+
+**Step‑by‑Step Action Plan**
+
+1. **Confirm Inventory** – `inventory`.  
+   *Check that you still have the yellow paper and at least one vial.*
+
+2. **Look for a Tool to Apply Powder**  
+   *If you cannot apply the powder, you need a brush, container, or other implement.*  
+   - `search desk`  
+   - `search table`  
+   - `search floor`  
+   - `search bookshelf`  
+   - `search wall` (specify a direction if prompted)
+
+   *Do not repeat a search on the same surface unless new information appears.*
+
+3. **Attempt to Apply Powder** – try the following verbs in this order until one is accepted.  
+   1. `sprinkle vial on paper`  
+   2. `sprinkle vial on yellow paper`  
+   3. `sprinkle vial onto paper`  
+   4. `sprinkle vial onto yellow paper`  
+   5. `use vial on paper`  
+   6. `use vial on yellow paper`  
+   7. `apply vial to paper`  
+   8. `apply vial to yellow paper`  
+   9. `pour vial onto paper`  
+   10. `pour vial onto yellow paper`  
+   11. `pour powder on paper`  
+   12. `pour powder on yellow paper`  
+   13. `mix vial with paper`  
+   14. `mix vial with yellow paper`  
+   15. `mix powder with paper`  
+   16. `mix powder with yellow paper`
+
+4. **If No Verb Works** – you are still missing a tool.  
+   - Go to the storage room (`south`) to pick up a vial (`get vial`).  
+   - Return to the study (`north`) and repeat step 3.
+
+5. **If a Mysterious Writing or NPC Appears** – engage.  
+   - `examine writing` or `read writing`  
+   - `talk man` or `ask man` (the man appears when the writing is read)
+
+6. **Avoid Repetitive Actions** – do not issue `look`, `search`, or `examine` on the same object more than once unless new information is revealed. Keep a short log of actions that did not change the state.
+
+7. **When Stuck** – list all rooms you have not fully explored:  
+   - storage (visited, but re‑enter if needed)  
+   - roof (visited)  
+   - any corridor or hidden chamber that may exist.  
+   Systematically explore each unvisited room: `look`, `search` each visible surface, `examine` new objects, and `talk` or `ask` any NPC encountered.
+
+8. **Success Check** – the coded message will appear when the paper changes or the game outputs “coded message revealed” or similar. When this is detected, the objective is complete.
+
+---
+
+**State Extractor Code**
+
+```python
+def extract_state(game_history):
+    lh = game_history.lower()
+    loc = None
+    if "study" in lh:
+        loc = "study"
+    elif "storage" in lh:
+        loc = "storage"
+    elif "roof" in lh:
+        loc = "roof"
+
+    items = []
+    if "yellow paper" in lh:
+        items.append("yellow paper")
+    if "vial" in lh and "vials" in lh:
+        items.append("vials")
+    if "powder" in lh:
+        items.append("powder")
+
+    npc = None
+    if "man appears" in lh or "man on table" in lh:
+        npc = "man"
+
+    success = "coded message" in lh or "revealed" in lh
+
+    state = f"Location: {loc or 'unknown'}; Items: {', '.join(items) if items else 'none'}; NPC: {npc or 'none'}; Success: {success}"
+    return state
+```'
+def extract_state(game_history):
+    state = "Unknown state."
+    if "yellow paper" in game_history and "vial" in game_history:
+        inventory_pass = "inventory" in game_history
+        if inventory_pass:
+            state = "In study, inventory: yellow paper, four vials of green powder; coded message unread, attempted to apply powder but no success."
+        else:
+            state = "In study, yellow paper and vials collected; coded message unread."
+    elif "yellow paper" in game_history:
+        state = "Yellow paper collected; vials not yet collected."
+    elif "vial" in game_history:
+        state = "Green powder vials collected; yellow paper not yet found."
+    return state
+[STEP 0] |  Familiar as your dream may be, the shapes and the colours that surrou || Action: look                      || Reward: 0, Score: 0
+[STEP 1] |  void you plunge through limitless abysses of inexplicably coloured tw || Action: inventory                 || Reward: 0, Score: 0
+[STEP 2] | you are carrying nothing.  suddenly there is a new element in your dre || Action: inventory                 || Reward: 0, Score: 0
+[STEP 3] | in your current state of fear your mind and body refuse to cooperate.  || Action: down                      || Reward: 0, Score: 0
+[STEP 4] |  the winding staircase leads to a spacious chamber inside the tower.   || Action: search desk               || Reward: 0, Score: 0
+[STEP 5] | on the desk is a yellow paper.                                         || Action: search table              || Reward: 0, Score: 0
+[STEP 6] | there is nothing on the black stone table.                             || Action: search bookshelf          || Reward: 0, Score: 0
+[STEP 7] | there is nothing on the bookshelves.                                   || Action: search floor              || Reward: 0, Score: 0
+[STEP 8] | you find nothing of interest.                                          || Action: search north wall         || Reward: 0, Score: 0
+[STEP 9] | you find nothing of interest.                                          || Action: examine desk              || Reward: 0, Score: 0
+[STEP 10] | the desk is well used and the surface has many scratches and stains of || Action: look                      || Reward: 0, Score: 0
+[STEP 11] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: open desk                 || Reward: 0, Score: 0
+[STEP 12] | that's not something you can open.                                     || Action: look                      || Reward: 0, Score: 0
+[STEP 13] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 14] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: open vial                 || Reward: 0, Score: 0
+[STEP 15] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 0
+[STEP 16] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: sprinkle vial on paper    || Reward: 0, Score: 0
+[STEP 17] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 0
+[STEP 18] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: sprinkle vial onto paper  || Reward: 0, Score: 0
+[STEP 19] | that's not a verb i recognise.                                         || Action: use vial on paper         || Reward: 0, Score: 0
+[STEP 20] | that's not a verb i recognise.                                         || Action: sprinkle powder on paper  || Reward: 0, Score: 0
+[STEP 21] | that's not a verb i recognise.                                         || Action: sprinkle powder onto paper || Reward: 0, Score: 0
+[STEP 22] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 0
+[STEP 23] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: search south wall         || Reward: 0, Score: 0
+[STEP 24] | you find nothing of interest.                                          || Action: look                      || Reward: 0, Score: 0
+[STEP 25] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: examine book              || Reward: 0, Score: 0
+[STEP 26] | you browse through the library but can't find any books written in a l || Action: look                      || Reward: 0, Score: 0
+[STEP 27] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 28] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: apply vial to paper       || Reward: 0, Score: 0
+[STEP 29] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 0
+[STEP 30] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: sprinkle vial onto yellow paper || Reward: 0, Score: 0
+[STEP 31] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 0
+[STEP 32] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 33] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look desk                 || Reward: 0, Score: 0
+[STEP 34] | i only understood you as far as wanting to look.                       || Action: look                      || Reward: 0, Score: 0
+[STEP 35] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 36] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 37] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: search table              || Reward: 0, Score: 0
+[STEP 38] | there is nothing on the black stone table.                             || Action: examine table             || Reward: 0, Score: 0
+[STEP 39] | the base of the stone table is covered with carvings, each showing dif || Action: examine writing           || Reward: 5, Score: 5
+[STEP 40] | it seems to be a poem, or chant. the language is unfamiliar and compli || Action: talk man                  || Reward: 0, Score: 5
+[STEP 41] | that's not a verb i recognise.                                         || Action: examine man               || Reward: 0, Score: 5
+[STEP 42] | the unconscious man is young, tall, and white. you guess he could be o || Action: look                      || Reward: 0, Score: 5
+[STEP 43] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: search man                || Reward: 0, Score: 5
+[STEP 44] | you find nothing of interest.  the young man seems to be waking up.    || Action: look                      || Reward: 0, Score: 5
+[STEP 45] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 46] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 47] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: examine desk              || Reward: 0, Score: 5
+[STEP 48] | the desk is well used and the surface has many scratches and stains of || Action: look                      || Reward: 0, Score: 5
+[STEP 49] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: ask man                   || Reward: 0, Score: 5
+[STEP 50] | what do you want to ask charles bristow for?                           || Action: look                      || Reward: 0, Score: 5
+[STEP 51] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 52] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: ask man brush             || Reward: 0, Score: 5
+[STEP 53] | i didn't understand that sentence.                                     || Action: look                      || Reward: 0, Score: 5
+[STEP 54] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 55] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 56] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 57] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 58] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: search floor              || Reward: 0, Score: 5
+[STEP 59] | you find nothing of interest.                                          || Action: search bookshelf          || Reward: 0, Score: 5
+[STEP 60] | there is nothing on the bookshelves.                                   || Action: use vial                  || Reward: 0, Score: 5
+[STEP 61] | that's not a verb i recognise.                                         || Action: sprinkle vial on paper    || Reward: 0, Score: 5
+[STEP 62] | that's not a verb i recognise.                                         || Action: sprinkle vial on yellow paper || Reward: 0, Score: 5
+[STEP 63] | that's not a verb i recognise.                                         || Action: apply vial to paper       || Reward: 0, Score: 5
+[STEP 64] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 65] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: open desk                 || Reward: 0, Score: 5
+[STEP 66] | that's not something you can open.  charles looks nervously around.    || Action: search wall               || Reward: 0, Score: 5
+[STEP 67] | which do you mean, the north wall, the south wall, the east wall, the  || Action: search north wall         || Reward: 0, Score: 5
+[STEP 68] | you find nothing of interest.                                          || Action: search desk               || Reward: 0, Score: 5
+[STEP 69] | on the desk is a yellow paper.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 70] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 71] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 72] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 73] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 74] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 75] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 76] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: inventory                 || Reward: 0, Score: 5
+[STEP 77] | you are carrying nothing.  charles sighs deeply and says  'will i ever || Action: get paper                 || Reward: 0, Score: 5
+[STEP 78] | taken.                                                                 || Action: get yellow                || Reward: 0, Score: 5
+[STEP 79] | you already have that.                                                 || Action: look                      || Reward: 0, Score: 5
+[STEP 80] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 81] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: south                     || Reward: 0, Score: 5
+[STEP 82] |  storage this is a minor storage chamber, connected to the study throu || Action: get vial                  || Reward: 0, Score: 5
+[STEP 83] | randomly you pick one of the vials from the shelf.  charles picks up a || Action: get vial                  || Reward: 0, Score: 5
+[STEP 84] | randomly you pick one of the vials from the shelf.                     || Action: look                      || Reward: 0, Score: 5
+[STEP 85] |  storage this is a minor storage chamber, connected to the study throu || Action: look                      || Reward: 0, Score: 5
+[STEP 86] |  storage this is a minor storage chamber, connected to the study throu || Action: get vial                  || Reward: 0, Score: 5
+[STEP 87] | randomly you pick one of the vials from the shelf.                     || Action: take vial                 || Reward: 0, Score: 5
+[STEP 88] | (the mysterious vial) randomly you pick one of the vials from the shel || Action: look                      || Reward: 0, Score: 5
+[STEP 89] |  storage this is a minor storage chamber, connected to the study throu || Action: inventory                 || Reward: 0, Score: 5
+[STEP 90] | you are carrying:   four vials   a yellow paper                        || Action: look                      || Reward: 0, Score: 5
+[STEP 91] |  storage this is a minor storage chamber, connected to the study throu || Action: search shelf              || Reward: 0, Score: 5
+[STEP 92] | there is nothing on the shelves.                                       || Action: north                     || Reward: 0, Score: 5
+[STEP 93] |  study  charles comes with you.                                        || Action: search table              || Reward: 0, Score: 5
+[STEP 94] | there is nothing on the black stone table.                             || Action: open vial                 || Reward: 0, Score: 5
+[STEP 95] | there doesn't seem any way to open the vial and how the green powder o || Action: sprinkle vial on paper    || Reward: 0, Score: 5
+[STEP 96] | that's not a verb i recognise.                                         || Action: apply vial to paper       || Reward: 0, Score: 5
+[STEP 97] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 98] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 99] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: search desk               || Reward: 0, Score: 5
+[STEP 100] | there is nothing on the desk.  charles says 'oh god, i'm so tired of t || Action: use vial on paper         || Reward: 0, Score: 5
+[STEP 101] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 102] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: mix vial paper            || Reward: 0, Score: 5
+[STEP 103] | that's not a verb i recognise.                                         || Action: sprinkle powder on paper  || Reward: 0, Score: 5
+[STEP 104] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 105] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: use vial                  || Reward: 0, Score: 5
+[STEP 106] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 107] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 108] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 109] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+Run 7/10 finished. Score: 5
+
+--- EVALUATION SUMMARY (our method) ---
+Agent LLM Model: gpt-oss-20b
+Number of final evaluation runs: 10
+Individual Scores: [0, 5, 5, 5, 0, 5, 5]
+Average Score: 3.57
+Standard Deviation: 2.44
+
+Starting game run 8/10...
+[DACS] enabled=True game=temple
+[DACS] num raw candidates = 7 archived=0
+[DACS] num filtered candidates = 4
+[DACS] selected/reordered candidate ids = [1, 2, 6, 5]
+[DACS] candidate score table:
+  id | relevance | diversity | risk | final_score | summary
+  1 | 0.464 | 1.0 | 0.206 | 1.02 | [Improved Guiding Prompt] You are in the study of an ancient tower. Your invento
+  2 | 0.421 | 0.615 | 0.202 | 0.787 | [Improved Guiding Prompt]   You are the player in the study of an ancient tower.
+  6 | 0.421 | 0.55 | 0.181 | 0.769 | **New Guiding Prompt**  You are in the study of an ancient tower. Your inventory
+  5 | 0.397 | 0.381 | 0.185 | 0.658 | **[Improved Guiding Prompt]**   You are in the study of an ancient tower. Your i
+[DACS] fallback=False
+Parent node 6 at depth 3 with UCB score: 5.7142189230998826
+
+Evolving prompt. Current prompt: '**New Guiding Prompt**
+
+You are in the study of an ancient tower. Your inventory...'
+
+Current state extractor code: 'def extract_state(game_history):
+    state = "Unknown state."
+    if "yellow pap...'
+
+
+Error during prompt evolution LLM call: 'NoneType' object has no attribute 'strip'
+Evolved guiding prompt and code: '**New Guiding Prompt**
+
+You are in the study of an ancient tower. Your inventory contains a yellow paper and four vials of green powder. The goal is to reveal the coded message on the paper by applying the powder. The game recognizes the following verbs: look, examine, get, inventory, north, south, down, use, apply, mix, pour, sprinkle, search, open, close, talk, ask, read.
+
+**Step‑by‑Step Action Plan**
+
+1. **Confirm Inventory** – `inventory`.  
+   *Check that you still have the yellow paper and at least one vial.*
+
+2. **Look for a Tool to Apply Powder**  
+   *If you cannot apply the powder, you need a brush, container, or other implement.*  
+   - `search desk`  
+   - `search table`  
+   - `search floor`  
+   - `search bookshelf`  
+   - `search wall` (specify a direction if prompted)
+
+   *Do not repeat a search on the same surface unless new information appears.*
+
+3. **Attempt to Apply Powder** – try the following verbs in this order until one is accepted.  
+   1. `sprinkle vial on paper`  
+   2. `sprinkle vial on yellow paper`  
+   3. `sprinkle vial onto paper`  
+   4. `sprinkle vial onto yellow paper`  
+   5. `use vial on paper`  
+   6. `use vial on yellow paper`  
+   7. `apply vial to paper`  
+   8. `apply vial to yellow paper`  
+   9. `pour vial onto paper`  
+   10. `pour vial onto yellow paper`  
+   11. `pour powder on paper`  
+   12. `pour powder on yellow paper`  
+   13. `mix vial with paper`  
+   14. `mix vial with yellow paper`  
+   15. `mix powder with paper`  
+   16. `mix powder with yellow paper`
+
+4. **If No Verb Works** – you are still missing a tool.  
+   - Go to the storage room (`south`) to pick up a vial (`get vial`).  
+   - Return to the study (`north`) and repeat step 3.
+
+5. **If a Mysterious Writing or NPC Appears** – engage.  
+   - `examine writing` or `read writing`  
+   - `talk man` or `ask man` (the man appears when the writing is read)
+
+6. **Avoid Repetitive Actions** – do not issue `look`, `search`, or `examine` on the same object more than once unless new information is revealed. Keep a short log of actions that did not change the state.
+
+7. **When Stuck** – list all rooms you have not fully explored:  
+   - storage (visited, but re‑enter if needed)  
+   - roof (visited)  
+   - any corridor or hidden chamber that may exist.  
+   Systematically explore each unvisited room: `look`, `search` each visible surface, `examine` new objects, and `talk` or `ask` any NPC encountered.
+
+8. **Success Check** – the coded message will appear when the paper changes or the game outputs “coded message revealed” or similar. When this is detected, the objective is complete.
+
+---
+
+**State Extractor Code**
+
+```python
+def extract_state(game_history):
+    lh = game_history.lower()
+    loc = None
+    if "study" in lh:
+        loc = "study"
+    elif "storage" in lh:
+        loc = "storage"
+    elif "roof" in lh:
+        loc = "roof"
+
+    items = []
+    if "yellow paper" in lh:
+        items.append("yellow paper")
+    if "vial" in lh and "vials" in lh:
+        items.append("vials")
+    if "powder" in lh:
+        items.append("powder")
+
+    npc = None
+    if "man appears" in lh or "man on table" in lh:
+        npc = "man"
+
+    success = "coded message" in lh or "revealed" in lh
+
+    state = f"Location: {loc or 'unknown'}; Items: {', '.join(items) if items else 'none'}; NPC: {npc or 'none'}; Success: {success}"
+    return state
+```'
+def extract_state(game_history):
+    state = "Unknown state."
+    if "yellow paper" in game_history and "vial" in game_history:
+        inventory_pass = "inventory" in game_history
+        if inventory_pass:
+            state = "In study, inventory: yellow paper, four vials of green powder; coded message unread, attempted to apply powder but no success."
+        else:
+            state = "In study, yellow paper and vials collected; coded message unread."
+    elif "yellow paper" in game_history:
+        state = "Yellow paper collected; vials not yet collected."
+    elif "vial" in game_history:
+        state = "Green powder vials collected; yellow paper not yet found."
+    return state
+[STEP 0] |  Familiar as your dream may be, the shapes and the colours that surrou || Action: look                      || Reward: 0, Score: 0
+[STEP 1] |  void you plunge through limitless abysses of inexplicably coloured tw || Action: look                      || Reward: 0, Score: 0
+[STEP 2] |  void you plunge through limitless abysses of inexplicably coloured tw || Action: examine shape             || Reward: 0, Score: 0
+[STEP 3] | in your current state of fear your mind and body refuse to cooperate.  || Action: down                      || Reward: 0, Score: 0
+[STEP 4] |  the winding staircase leads to a spacious chamber inside the tower.   || Action: sprinkle vial on paper    || Reward: 0, Score: 0
+[STEP 5] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 0
+[STEP 6] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 7] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 8] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: sprinkle vial on yellow paper || Reward: 0, Score: 0
+[STEP 9] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 0
+[STEP 10] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 11] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 12] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 13] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: apply vial to paper       || Reward: 0, Score: 0
+[STEP 14] | that's not a verb i recognise.                                         || Action: sprinkle vial             || Reward: 0, Score: 0
+[STEP 15] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 0
+[STEP 16] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 17] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 18] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 19] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 20] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 21] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 22] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 23] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 24] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 25] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: sprinkle powder on paper  || Reward: 0, Score: 0
+[STEP 26] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 0
+[STEP 27] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 28] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 29] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 30] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 31] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 32] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 33] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 34] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 35] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 36] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 37] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 38] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 39] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 40] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: search desk               || Reward: 0, Score: 0
+[STEP 41] | on the desk is a yellow paper.                                         || Action: search table              || Reward: 0, Score: 0
+[STEP 42] | there is nothing on the black stone table.                             || Action: search bookshelf          || Reward: 0, Score: 0
+[STEP 43] | there is nothing on the bookshelves.                                   || Action: look                      || Reward: 0, Score: 0
+[STEP 44] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: inventory                 || Reward: 0, Score: 0
+[STEP 45] | you are carrying nothing.                                              || Action: inventory                 || Reward: 0, Score: 0
+[STEP 46] | you are carrying nothing.                                              || Action: search floor              || Reward: 0, Score: 0
+[STEP 47] | you find nothing of interest.                                          || Action: south                     || Reward: 0, Score: 0
+[STEP 48] |  storage this is a minor storage chamber, connected to the study throu || Action: get vial                  || Reward: 0, Score: 0
+[STEP 49] | randomly you pick one of the vials from the shelf.                     || Action: get vial                  || Reward: 0, Score: 0
+[STEP 50] | randomly you pick one of the vials from the shelf.                     || Action: north                     || Reward: 0, Score: 0
+[STEP 51] |  study  on the desk is a yellow paper.                                 || Action: look                      || Reward: 0, Score: 0
+[STEP 52] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: inventory                 || Reward: 0, Score: 0
+[STEP 53] | you are carrying:   two vials                                          || Action: look                      || Reward: 0, Score: 0
+[STEP 54] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 55] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: open vial                 || Reward: 0, Score: 0
+[STEP 56] | there doesn't seem any way to open the vial and how the green powder o || Action: look                      || Reward: 0, Score: 0
+[STEP 57] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: search wall               || Reward: 0, Score: 0
+[STEP 58] | which do you mean, the north wall, the south wall, the east wall, the  || Action: search north wall         || Reward: 0, Score: 0
+[STEP 59] | you find nothing of interest.                                          || Action: look                      || Reward: 0, Score: 0
+[STEP 60] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 61] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 62] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 63] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: open drawer               || Reward: 0, Score: 0
+[STEP 64] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 0
+[STEP 65] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 66] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 67] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 68] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: search book               || Reward: 0, Score: 0
+[STEP 69] | you find nothing of interest.                                          || Action: look                      || Reward: 0, Score: 0
+[STEP 70] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 71] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: sprinkle vial on paper    || Reward: 0, Score: 0
+[STEP 72] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 0
+[STEP 73] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: sprinkle vial onto paper  || Reward: 0, Score: 0
+[STEP 74] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 0
+[STEP 75] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 76] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: apply vial to paper       || Reward: 0, Score: 0
+[STEP 77] | that's not a verb i recognise.                                         || Action: pour vial on paper        || Reward: 0, Score: 0
+[STEP 78] | that's not a verb i recognise.                                         || Action: sprinkle vial paper       || Reward: 0, Score: 0
+[STEP 79] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 0
+[STEP 80] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 81] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: search table              || Reward: 0, Score: 0
+[STEP 82] | there is nothing on the black stone table.                             || Action: search bookshelf          || Reward: 0, Score: 0
+[STEP 83] | there is nothing on the bookshelves.                                   || Action: look                      || Reward: 0, Score: 0
+[STEP 84] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 85] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 86] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: search floor              || Reward: 0, Score: 0
+[STEP 87] | you find nothing of interest.                                          || Action: search desk               || Reward: 0, Score: 0
+[STEP 88] | on the desk is a yellow paper.                                         || Action: examine desk              || Reward: 0, Score: 0
+[STEP 89] | the desk is well used and the surface has many scratches and stains of || Action: look                      || Reward: 0, Score: 0
+[STEP 90] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: open vial                 || Reward: 0, Score: 0
+[STEP 91] | there doesn't seem any way to open the vial and how the green powder o || Action: look                      || Reward: 0, Score: 0
+[STEP 92] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 93] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 94] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 95] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: open book                 || Reward: 0, Score: 0
+[STEP 96] | that's not something you can open.                                     || Action: look                      || Reward: 0, Score: 0
+[STEP 97] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 98] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 99] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 100] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 101] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: search wall               || Reward: 0, Score: 0
+[STEP 102] | which do you mean, the north wall, the south wall, the east wall, the  || Action: look                      || Reward: 0, Score: 0
+[STEP 103] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: sprinkle vial onto paper  || Reward: 0, Score: 0
+[STEP 104] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 0
+[STEP 105] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 0
+[STEP 106] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: examine book              || Reward: 0, Score: 0
+[STEP 107] | you browse through the library but can't find any books written in a l || Action: search book               || Reward: 0, Score: 0
+[STEP 108] | you find nothing of interest.                                          || Action: search north wall         || Reward: 0, Score: 0
+[STEP 109] | you find nothing of interest.                                          || Action: south                     || Reward: 0, Score: 0
+Run 8/10 finished. Score: 0
+
+--- EVALUATION SUMMARY (our method) ---
+Agent LLM Model: gpt-oss-20b
+Number of final evaluation runs: 10
+Individual Scores: [0, 5, 5, 5, 0, 5, 5, 0]
+Average Score: 3.12
+Standard Deviation: 2.59
+
+Starting game run 9/10...
+[DACS] enabled=True game=temple
+[DACS] num raw candidates = 8 archived=0
+[DACS] num filtered candidates = 4
+[DACS] selected/reordered candidate ids = [1, 2, 6, 5]
+[DACS] candidate score table:
+  id | relevance | diversity | risk | final_score | summary
+  1 | 0.41 | 1.0 | 0.206 | 0.966 | [Improved Guiding Prompt] You are in the study of an ancient tower. Your invento
+  2 | 0.38 | 0.615 | 0.202 | 0.747 | [Improved Guiding Prompt]   You are the player in the study of an ancient tower.
+  6 | 0.33 | 0.55 | 0.193 | 0.67 | **New Guiding Prompt**  You are in the study of an ancient tower. Your inventory
+  5 | 0.33 | 0.381 | 0.185 | 0.591 | **[Improved Guiding Prompt]**   You are in the study of an ancient tower. Your i
+[DACS] fallback=False
+Parent node 2 at depth 2 with UCB score: 5.652586873708038
+
+Evolving prompt. Current prompt: '[Improved Guiding Prompt]  
+You are the player in the study of an ancient tower....'
+
+Current state extractor code: 'def extract_state(game_history):
+    paper = "yellow paper" in game_history
+    ...'
+
+
+Evolution LLM returned invalid state extractor code, keeping current code
+Evolved guiding prompt and code: 'You are the player in the study of an ancient tower. The goal is to reveal a coded message on a yellow paper by applying green powder vials. You currently have the yellow paper and four vials of green powder. Follow these exact actions:
+
+1. Confirm you are in the study.  
+   Command: `look`. The description should mention “study”.
+
+2. Examine the writing on the wall above the table.  
+   Command: `examine writing`. This is the only action that increases the score and unlocks the puzzle.
+
+3. Apply the powder to the'
+def extract_state(game_history):
+    paper = "yellow paper" in game_history
+    vials = "four vials" in game_history or "four vials of" in game_history
+    writing = "writing reads:" in game_history
+    score = "score has just gone up" in game_history
+    location = "study" if "study" in game_history else "unknown"
+    parts = []
+    parts.append("Paper found" if paper else "Paper not found")
+    parts.append("Vials found" if vials else "Vials not found")
+    parts.append("Writing examined" if writing else "Writing not examined")
+    parts.append("Score increased" if score else "Score unchanged")
+    parts.append(f"Location: {location}")
+    return "; ".join(parts)
+[STEP 0] |  Familiar as your dream may be, the shapes and the colours that surrou || Action: look                      || Reward: 0, Score: 0
+[STEP 1] |  void you plunge through limitless abysses of inexplicably coloured tw || Action: look                      || Reward: 0, Score: 0
+[STEP 2] |  void you plunge through limitless abysses of inexplicably coloured tw || Action: look                      || Reward: 0, Score: 0
+[STEP 3] | in your current state of fear your mind and body refuse to cooperate.  || Action: look                      || Reward: 0, Score: 0
+[STEP 4] |  roof the city below you is ancient. dark domes and steep roofs form a || Action: down                      || Reward: 0, Score: 0
+[STEP 5] |  the winding staircase leads to a spacious chamber inside the tower.   || Action: examine writing           || Reward: 5, Score: 5
+[STEP 6] | it seems to be a poem, or chant. the language is unfamiliar and compli || Action: look                      || Reward: 0, Score: 5
+[STEP 7] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: apply powder to paper     || Reward: 0, Score: 5
+[STEP 8] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 9] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 10] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 11] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 12] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: use powder paper          || Reward: 0, Score: 5
+[STEP 13] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 14] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 15] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 16] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: use powder on paper       || Reward: 0, Score: 5
+[STEP 17] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 18] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: inventory                 || Reward: 0, Score: 5
+[STEP 19] | you are carrying nothing.                                              || Action: examine table             || Reward: 0, Score: 5
+[STEP 20] | the base of the stone table is covered with carvings, each showing dif || Action: take powder               || Reward: 0, Score: 5
+[STEP 21] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 5
+[STEP 22] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: search table              || Reward: 0, Score: 5
+[STEP 23] | there is nothing on the black stone table.  charles is lost in thought || Action: search desk               || Reward: 0, Score: 5
+[STEP 24] | on the desk is a yellow paper.                                         || Action: examine desk              || Reward: 0, Score: 5
+[STEP 25] | the desk is well used and the surface has many scratches and stains of || Action: look                      || Reward: 0, Score: 5
+[STEP 26] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: examine writing           || Reward: 0, Score: 5
+[STEP 27] | the writing reads: y'ai'ng'ngah h'ee-l'geb f'ai throdog.               || Action: look                      || Reward: 0, Score: 5
+[STEP 28] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 29] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 30] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 31] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 32] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: examine paper             || Reward: 0, Score: 5
+[STEP 33] | on the paper is a coded message and it is impossible to say even in wh || Action: look                      || Reward: 0, Score: 5
+[STEP 34] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: examine wall              || Reward: 0, Score: 5
+[STEP 35] | which do you mean, the north wall, the south wall, the east wall, the  || Action: look                      || Reward: 0, Score: 5
+[STEP 36] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 37] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 38] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 39] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 40] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 41] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: examine bookshelf         || Reward: 0, Score: 5
+[STEP 42] | the bookshelves are  filled with bound volumes that are crumbling with || Action: look                      || Reward: 0, Score: 5
+[STEP 43] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 44] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 45] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 46] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 47] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 48] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 49] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 50] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 51] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 52] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 53] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 54] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 55] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 56] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 57] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: inventory                 || Reward: 0, Score: 5
+[STEP 58] | you are carrying nothing.                                              || Action: examine table             || Reward: 0, Score: 5
+[STEP 59] | the base of the stone table is covered with carvings, each showing dif || Action: look                      || Reward: 0, Score: 5
+[STEP 60] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: search bookshelf          || Reward: 0, Score: 5
+[STEP 61] | there is nothing on the bookshelves.                                   || Action: examine desk              || Reward: 0, Score: 5
+[STEP 62] | the desk is well used and the surface has many scratches and stains of || Action: search desk               || Reward: 0, Score: 5
+[STEP 63] | on the desk is a yellow paper.                                         || Action: examine north             || Reward: 0, Score: 5
+[STEP 64] | you see nothing special about the north wall.                          || Action: examine writing           || Reward: 0, Score: 5
+[STEP 65] | the writing reads: y'ai'ng'ngah h'ee-l'geb f'ai throdog.               || Action: search table              || Reward: 0, Score: 5
+[STEP 66] | there is nothing on the black stone table.                             || Action: look                      || Reward: 0, Score: 5
+[STEP 67] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: south                     || Reward: 0, Score: 5
+[STEP 68] |  storage this is a minor storage chamber, connected to the study throu || Action: get vials                 || Reward: 0, Score: 5
+[STEP 69] | randomly you pick one of the vials from the shelf.  charles picks up a || Action: get vials                 || Reward: 0, Score: 5
+[STEP 70] | randomly you pick one of the vials from the shelf.                     || Action: look                      || Reward: 0, Score: 5
+[STEP 71] |  storage this is a minor storage chamber, connected to the study throu || Action: get vials                 || Reward: 0, Score: 5
+[STEP 72] | randomly you pick one of the vials from the shelf.                     || Action: get vials                 || Reward: 0, Score: 5
+[STEP 73] | (the mysterious vial) randomly you pick one of the vials from the shel || Action: get vial                  || Reward: 0, Score: 5
+[STEP 74] | you already have that.                                                 || Action: apply powder              || Reward: 0, Score: 5
+[STEP 75] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 76] |  storage this is a minor storage chamber, connected to the study throu || Action: look                      || Reward: 0, Score: 5
+[STEP 77] |  storage this is a minor storage chamber, connected to the study throu || Action: look                      || Reward: 0, Score: 5
+[STEP 78] |  storage this is a minor storage chamber, connected to the study throu || Action: look                      || Reward: 0, Score: 5
+[STEP 79] |  storage this is a minor storage chamber, connected to the study throu || Action: north                     || Reward: 0, Score: 5
+[STEP 80] |  study  on the desk is a yellow paper.  charles follows you.           || Action: apply powder to paper     || Reward: 0, Score: 5
+[STEP 81] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 82] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 83] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: sprinkle paper            || Reward: 0, Score: 5
+[STEP 84] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 85] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: sprinkle powder           || Reward: 0, Score: 5
+[STEP 86] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 87] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 88] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 89] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 90] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 91] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 92] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 93] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 94] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: inventory                 || Reward: 0, Score: 5
+[STEP 95] | you are carrying:   four vials                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 96] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 97] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: use powder                || Reward: 0, Score: 5
+[STEP 98] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 99] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: sprinkle powder on paper  || Reward: 0, Score: 5
+[STEP 100] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 101] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: pour powder on paper      || Reward: 0, Score: 5
+[STEP 102] | that's not a verb i recognise.                                         || Action: apply powder              || Reward: 0, Score: 5
+[STEP 103] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 104] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: use powder                || Reward: 0, Score: 5
+[STEP 105] | that's not a verb i recognise.                                         || Action: apply powder to paper     || Reward: 0, Score: 5
+[STEP 106] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 107] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 108] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 109] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: use powder on paper       || Reward: 0, Score: 5
+Run 9/10 finished. Score: 5
+
+--- EVALUATION SUMMARY (our method) ---
+Agent LLM Model: gpt-oss-20b
+Number of final evaluation runs: 10
+Individual Scores: [0, 5, 5, 5, 0, 5, 5, 0, 5]
+Average Score: 3.33
+Standard Deviation: 2.50
+
+Starting game run 10/10...
+[DACS] enabled=True game=temple
+[DACS] num raw candidates = 9 archived=0
+[DACS] num filtered candidates = 4
+[DACS] selected/reordered candidate ids = [8, 1, 2, 6]
+[DACS] candidate score table:
+  id | relevance | diversity | risk | final_score | summary
+  8 | 0.473 | 1.0 | 0.154 | 1.065 | You are the player in the study of an ancient tower. The goal is to reveal a cod
+  1 | 0.299 | 0.823 | 0.189 | 0.779 | [Improved Guiding Prompt] You are in the study of an ancient tower. Your invento
+  2 | 0.372 | 0.615 | 0.193 | 0.744 | [Improved Guiding Prompt]   You are the player in the study of an ancient tower.
+  6 | 0.259 | 0.55 | 0.178 | 0.609 | **New Guiding Prompt**  You are in the study of an ancient tower. Your inventory
+[DACS] fallback=False
+Parent node 8 at depth 3 with UCB score: 5.758939549372166
+
+Evolving prompt. Current prompt: 'You are the player in the study of an ancient tower. The goal is to reveal a cod...'
+
+Current state extractor code: 'def extract_state(game_history):
+    paper = "yellow paper" in game_history
+    ...'
+
+
+Evolution LLM returned invalid state extractor code, keeping current code
+Evolved guiding prompt and code: '**Improved Guiding Prompt**
+
+1. Ensure you possess the four green powder vials:  
+   - Command: `inventory`  
+   - If the inventory does not list *four vials*, go to the storage room (`north`) and use `get vials` until you have all four.
+
+2. Apply the powder to the yellow paper to reveal the coded message:  
+   - Command: `use powder on paper`  
+   - This is the only action that will increase the score and complete the puzzle.
+
+3. If `use powder on paper` is not recognized, try the following once each:  
+   - `apply powder to paper`  
+   - `sprinkle powder on paper`  
+   - `pour powder on paper`  
+   (Only attempt one of these alternatives; do not repeat the same failed command.)
+
+4. Do **not** repeat actions that have yielded no new information, such as: `look`, `examine writing`, `search table`, `search desk`, or `search bookshelf`.  
+   These actions are not needed once the required items are in inventory and the writing has been examined.
+
+5. If any of the above commands fail, consider moving to adjacent rooms to look for hidden objects:  
+   - `south` to the small room  
+   - `north` back to storage (if you have not already collected all vials)  
+   - `down` to the lower chamber (if present).  
+   In each new room, systematically `look`, `examine` objects, `get` items, and `use` them as appropriate.
+
+6. Keep a mental checklist:  
+   - Yellow paper present?  
+   - Green powder vials in inventory?  
+   - Writing examined?  
+   - Coded message revealed?  
+
+   Once all three first items are true, the final step is to apply the powder to the paper.
+
+---
+
+**State Extractor Code**
+
+```python
+def extract_state(game_history):
+    paper_found = "on the desk is a yellow paper." in game_history
+    vials_found = "you are carrying:" in game_history and "vials" in game_history
+    writing_examined = "Writing examined" in game_history
+    score_increased = "Score increased" in game_history
+    if paper_found and vials_found and writing_examined:
+        if score_increased:
+            return "Yellow paper found; green powder vials in inventory; writing examined; coded message revealed."
+        else:
+            return "Yellow paper found; green powder vials in inventory; writing examined; ready to apply powder."
+    if paper_found and vials_found:
+        return "Yellow paper found; green powder vials in inventory; writing not examined."
+    if paper_found and writing_examined:
+        return "Yellow paper found; writing examined; vials not in inventory."
+    if vials_found and writing_examined:
+        return "Green powder vials in inventory; writing examined; paper not found."
+    if paper_found:
+        return "Yellow paper found; vials and writing status unknown."
+    if vials_found:
+        return "Green powder vials in inventory; paper and writing status unknown."
+    if writing_examined:
+        return "Writing examined; paper and vials status unknown."
+    return "No significant milestones achieved yet."
+```'
+def extract_state(game_history):
+    paper = "yellow paper" in game_history
+    vials = "four vials" in game_history or "four vials of" in game_history
+    writing = "writing reads:" in game_history
+    score = "score has just gone up" in game_history
+    location = "study" if "study" in game_history else "unknown"
+    parts = []
+    parts.append("Paper found" if paper else "Paper not found")
+    parts.append("Vials found" if vials else "Vials not found")
+    parts.append("Writing examined" if writing else "Writing not examined")
+    parts.append("Score increased" if score else "Score unchanged")
+    parts.append(f"Location: {location}")
+    return "; ".join(parts)
+[STEP 0] |  Familiar as your dream may be, the shapes and the colours that surrou || Action: look                      || Reward: 0, Score: 0
+[STEP 1] |  void you plunge through limitless abysses of inexplicably coloured tw || Action: look                      || Reward: 0, Score: 0
+[STEP 2] |  void you plunge through limitless abysses of inexplicably coloured tw || Action: north                     || Reward: 0, Score: 0
+[STEP 3] | in your current state of fear your mind and body refuse to cooperate.  || Action: down                      || Reward: 0, Score: 0
+[STEP 4] |  the winding staircase leads to a spacious chamber inside the tower.   || Action: look                      || Reward: 0, Score: 0
+[STEP 5] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: inventory                 || Reward: 0, Score: 0
+[STEP 6] | you are carrying nothing.                                              || Action: south                     || Reward: 0, Score: 0
+[STEP 7] |  storage this is a minor storage chamber, connected to the study throu || Action: get vials                 || Reward: 0, Score: 0
+[STEP 8] | randomly you pick one of the vials from the shelf.                     || Action: get vials                 || Reward: 0, Score: 0
+[STEP 9] | randomly you pick one of the vials from the shelf.                     || Action: look                      || Reward: 0, Score: 0
+[STEP 10] |  storage this is a minor storage chamber, connected to the study throu || Action: get vials                 || Reward: 0, Score: 0
+[STEP 11] | randomly you pick one of the vials from the shelf.                     || Action: look                      || Reward: 0, Score: 0
+[STEP 12] |  storage this is a minor storage chamber, connected to the study throu || Action: look                      || Reward: 0, Score: 0
+[STEP 13] |  storage this is a minor storage chamber, connected to the study throu || Action: get vial                  || Reward: 0, Score: 0
+[STEP 14] | (the mysterious vial) randomly you pick one of the vials from the shel || Action: look                      || Reward: 0, Score: 0
+[STEP 15] |  storage this is a minor storage chamber, connected to the study throu || Action: north                     || Reward: 0, Score: 0
+[STEP 16] |  study  on the desk is a yellow paper.                                 || Action: look                      || Reward: 0, Score: 0
+[STEP 17] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: examine writing           || Reward: 5, Score: 5
+[STEP 18] | it seems to be a poem, or chant. the language is unfamiliar and compli || Action: use powder on paper       || Reward: 0, Score: 5
+[STEP 19] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 20] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 21] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: sprinkle powder on paper  || Reward: 0, Score: 5
+[STEP 22] | that's not a verb i recognise.                                         || Action: apply powder to paper     || Reward: 0, Score: 5
+[STEP 23] | that's not a verb i recognise.                                         || Action: pour powder on paper      || Reward: 0, Score: 5
+[STEP 24] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 25] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 26] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 27] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 28] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 29] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: sprinkle powder           || Reward: 0, Score: 5
+[STEP 30] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 31] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: inventory                 || Reward: 0, Score: 5
+[STEP 32] | you are carrying:   four vials                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 33] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: use powder                || Reward: 0, Score: 5
+[STEP 34] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 35] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 36] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 37] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: use vial on paper         || Reward: 0, Score: 5
+[STEP 38] | that's not a verb i recognise.                                         || Action: apply vial to paper       || Reward: 0, Score: 5
+[STEP 39] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 40] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 41] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 42] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 43] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 44] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 45] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: sprinkle paper            || Reward: 0, Score: 5
+[STEP 46] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 47] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 48] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: use vial                  || Reward: 0, Score: 5
+[STEP 49] | that's not a verb i recognise.                                         || Action: sprinkle vial             || Reward: 0, Score: 5
+[STEP 50] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 51] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 52] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 53] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 54] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 55] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 56] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 57] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 58] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 59] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 60] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: sprinkle powder           || Reward: 0, Score: 5
+[STEP 61] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 62] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 63] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: examine writing           || Reward: 0, Score: 5
+[STEP 64] | the writing reads: y'ai'ng'ngah h'ee-l'geb f'ai throdog.  charles sigh || Action: apply powder to paper     || Reward: 0, Score: 5
+[STEP 65] | that's not a verb i recognise.                                         || Action: sprinkle powder on paper  || Reward: 0, Score: 5
+[STEP 66] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 67] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 68] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: use powder on paper       || Reward: 0, Score: 5
+[STEP 69] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 70] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 71] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 72] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 73] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: south                     || Reward: 0, Score: 5
+[STEP 74] |  storage  charles comes with you.                                      || Action: look                      || Reward: 0, Score: 5
+[STEP 75] |  storage this is a minor storage chamber, connected to the study throu || Action: look                      || Reward: 0, Score: 5
+[STEP 76] |  storage this is a minor storage chamber, connected to the study throu || Action: look                      || Reward: 0, Score: 5
+[STEP 77] |  storage this is a minor storage chamber, connected to the study throu || Action: north                     || Reward: 0, Score: 5
+[STEP 78] |  study  on the desk is a yellow paper.  charles follows you.           || Action: south                     || Reward: 0, Score: 5
+[STEP 79] |  storage  charles comes walking behind you.                            || Action: north                     || Reward: 0, Score: 5
+[STEP 80] |  study  on the desk is a yellow paper.  charles comes with you.        || Action: south                     || Reward: 0, Score: 5
+[STEP 81] |  storage  charles comes walking behind you.                            || Action: north                     || Reward: 0, Score: 5
+[STEP 82] |  study  on the desk is a yellow paper.  charles comes with you.        || Action: look                      || Reward: 0, Score: 5
+[STEP 83] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: south                     || Reward: 0, Score: 5
+[STEP 84] |  storage  charles comes walking behind you.                            || Action: look                      || Reward: 0, Score: 5
+[STEP 85] |  storage this is a minor storage chamber, connected to the study throu || Action: north                     || Reward: 0, Score: 5
+[STEP 86] |  study  on the desk is a yellow paper.  charles follows you.           || Action: south                     || Reward: 0, Score: 5
+[STEP 87] |  storage  charles follows you.                                         || Action: north                     || Reward: 0, Score: 5
+[STEP 88] |  study  on the desk is a yellow paper.  charles follows you.           || Action: south                     || Reward: 0, Score: 5
+[STEP 89] |  storage  charles comes walking behind you.                            || Action: look                      || Reward: 0, Score: 5
+[STEP 90] |  storage this is a minor storage chamber, connected to the study throu || Action: look                      || Reward: 0, Score: 5
+[STEP 91] |  storage this is a minor storage chamber, connected to the study throu || Action: north                     || Reward: 0, Score: 5
+[STEP 92] |  study  on the desk is a yellow paper.  charles comes walking behind y || Action: look                      || Reward: 0, Score: 5
+[STEP 93] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: south                     || Reward: 0, Score: 5
+[STEP 94] |  storage  charles follows you.                                         || Action: north                     || Reward: 0, Score: 5
+[STEP 95] |  study  on the desk is a yellow paper.  charles comes with you.        || Action: go south                  || Reward: 0, Score: 5
+[STEP 96] |  storage  charles follows you.                                         || Action: north                     || Reward: 0, Score: 5
+[STEP 97] |  study  on the desk is a yellow paper.  charles comes walking behind y || Action: look                      || Reward: 0, Score: 5
+[STEP 98] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: south                     || Reward: 0, Score: 5
+[STEP 99] |  storage  charles comes walking behind you.                            || Action: north                     || Reward: 0, Score: 5
+[STEP 100] |  study  on the desk is a yellow paper.  charles follows you.           || Action: south                     || Reward: 0, Score: 5
+[STEP 101] |  storage  charles follows you.                                         || Action: north                     || Reward: 0, Score: 5
+[STEP 102] |  study  on the desk is a yellow paper.  charles follows you.           || Action: look                      || Reward: 0, Score: 5
+[STEP 103] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: look                      || Reward: 0, Score: 5
+[STEP 104] |  study dust and spider webs cover all surfaces in this room in a soft  || Action: south                     || Reward: 0, Score: 5
+[STEP 105] |  storage  charles comes with you.                                      || Action: north                     || Reward: 0, Score: 5
+[STEP 106] |  study  on the desk is a yellow paper.  charles comes with you.        || Action: south                     || Reward: 0, Score: 5
+[STEP 107] |  storage  charles follows you.                                         || Action: north                     || Reward: 0, Score: 5
+[STEP 108] |  study  on the desk is a yellow paper.  charles follows you.           || Action: south                     || Reward: 0, Score: 5
+[STEP 109] |  storage  charles follows you.                                         || Action: north                     || Reward: 0, Score: 5
+Run 10/10 finished. Score: 5
+
+--- EVALUATION SUMMARY (our method) ---
+Agent LLM Model: gpt-oss-20b
+Number of final evaluation runs: 10
+Individual Scores: [0, 5, 5, 5, 0, 5, 5, 0, 5, 5]
+Average Score: 3.50
+Standard Deviation: 2.42
+Evaluation completed successfully!

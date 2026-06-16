@@ -1,0 +1,1180 @@
+
+--- STARTING EVALUATION ---
+Game: detective, Agent LLM Model: gpt-oss-20b
+Agent Type: our, Runs for statistics: 10
+Base Seed for evaluation session: 0
+Episode logs and summary will be in: output/detective/our/gpt-oss-20b/20260616-062030
+
+Starting game run 1/10...
+Using initial prompt and code: 'Explore systematically and examine objects to make progress.'
+
+def extract_state(game_history):
+    return "Game in progress."
+
+[STEP 0] |     [Type "help" for more information about this version]  Detective B || Action: read paper                || Reward: 0, Score: 10
+[STEP 1] |  confidential: detective was created by matt barringer. he has worked  || Action: north                     || Reward: 0, Score: 10
+[STEP 2] |   << outside >> you are outside in the cold. to the east is a dead end || Action: west                      || Reward: 10, Score: 20
+[STEP 3] |   << outside >> you are still on the streets. to the north is a restra || Action: east                      || Reward: 10, Score: 30
+[STEP 4] |   << mayor's house >> you are in the house, at the scene of the crime. || Action: look                      || Reward: 0, Score: 30
+[STEP 5] |   << mayor's house >> you are in the house, at the scene of the crime. || Action: examine body              || Reward: 0, Score: 30
+[STEP 6] |  you can't see any such thing.                                         || Action: look                      || Reward: 0, Score: 30
+[STEP 7] |   << mayor's house >> you are in the house, at the scene of the crime. || Action: examine living room       || Reward: 0, Score: 30
+[STEP 8] |  you can't see any such thing.                                         || Action: east                      || Reward: 0, Score: 30
+[STEP 9] |   << living room >> you are standing in the living room. you see a bat || Action: examine wood              || Reward: 0, Score: 30
+[STEP 10] |  you look at it closely and figure that the guys in the forensic's lab || Action: west                      || Reward: 0, Score: 30
+[STEP 11] |   << mayor's house >> you are in the house, at the scene of the crime. || Action: west                      || Reward: 0, Score: 30
+[STEP 12] |   << dining room >> you are in the dining room. you look around and se || Action: examine note              || Reward: 0, Score: 30
+[STEP 13] |  it is a note. with writing on it.                                     || Action: read note                 || Reward: 0, Score: 30
+[STEP 14] |  the note was written on a computer obviously this murder was planned  || Action: look                      || Reward: 0, Score: 30
+[STEP 15] |   << dining room >> you are in the dining room. you look around and se || Action: look                      || Reward: 0, Score: 30
+[STEP 16] |   << dining room >> you are in the dining room. you look around and se || Action: north                     || Reward: 0, Score: 30
+[STEP 17] |  you can't go north from here!  << dining room >> you are in the dinin || Action: look                      || Reward: 0, Score: 30
+[STEP 18] |   << dining room >> you are in the dining room. you look around and se || Action: west                      || Reward: 0, Score: 30
+[STEP 19] |  you can't go west from here!  << dining room >> you are in the dining || Action: east                      || Reward: 0, Score: 30
+[STEP 20] |   << mayor's house >> you are in the house, at the scene of the crime. || Action: north                     || Reward: 10, Score: 40
+[STEP 21] |   << upstairs hallway >> you are in the hallway of the large house of  || Action: look                      || Reward: 0, Score: 40
+[STEP 22] |   << upstairs hallway >> you are in the hallway of the large house of  || Action: north                     || Reward: 0, Score: 40
+[STEP 23] |   << hallway >> you are at the end of the hallway. to the north is a r || Action: north                     || Reward: 0, Score: 40
+[STEP 24] |   << closet >> you are in a closet. there is no reason to be in here.  || Action: south                     || Reward: 0, Score: 40
+[STEP 25] |   << hallway >> you are at the end of the hallway. to the north is a r || Action: north                     || Reward: 0, Score: 40
+[STEP 26] |   << closet >> you are in a closet. there is no reason to be in here.  || Action: south                     || Reward: 0, Score: 40
+[STEP 27] |   << hallway >> you are at the end of the hallway. to the north is a r || Action: west                      || Reward: 0, Score: 40
+[STEP 28] |   << hallway >> you are in the hallway. to the north is more hallway,  || Action: east                      || Reward: 0, Score: 40
+[STEP 29] |   << guest room >> you are in one of the many guest rooms. it is a nic || Action: west                      || Reward: 0, Score: 40
+[STEP 30] |   << hallway >> you are in the hallway. to the north is more hallway,  || Action: north                     || Reward: 0, Score: 40
+[STEP 31] |   << hallway >> you are still in the hallway. there is even more hallw || Action: west                      || Reward: 0, Score: 40
+[STEP 32] |   << closet >> you are in a closet. there is no reason to be in here.  || Action: look                      || Reward: 0, Score: 40
+[STEP 33] |   << closet >> you are in a closet. there is no reason to be in here.  || Action: west                      || Reward: 0, Score: 40
+[STEP 34] |   << hallway >> you are still in the hallway. there is even more hallw || Action: east                      || Reward: 0, Score: 40
+[STEP 35] |   << closet >> you are in a small closet. the room is bare. why not go || Action: east                      || Reward: 0, Score: 40
+[STEP 36] |   << hallway >> you are still in the hallway. there is even more hallw || Action: north                     || Reward: 0, Score: 40
+[STEP 37] |   << hallway >> you are still in the hallway. you can go north to wher || Action: west                      || Reward: 10, Score: 50
+[STEP 38] |   << bedroom >> you are in the bedroom. you noticed that there was a g || Action: east                      || Reward: 0, Score: 50
+[STEP 39] |   << hallway >> you are still in the hallway. you can go north to wher || Action: west                      || Reward: 0, Score: 50
+[STEP 40] |   << bedroom >> you are in the bedroom. you noticed that there was a g || Action: look                      || Reward: 0, Score: 50
+[STEP 41] |   << bedroom >> you are in the bedroom. you noticed that there was a g || Action: east                      || Reward: 0, Score: 50
+[STEP 42] |   << hallway >> you are still in the hallway. you can go north to wher || Action: east                      || Reward: 0, Score: 50
+[STEP 43] |   << guest room >> you are in a guest room. you see that there isn't m || Action: west                      || Reward: 0, Score: 50
+[STEP 44] |   << hallway >> you are still in the hallway. you can go north to wher || Action: east                      || Reward: 0, Score: 50
+[STEP 45] |   << guest room >> you are in a guest room. you see that there isn't m || Action: west                      || Reward: 0, Score: 50
+[STEP 46] |   << hallway >> you are still in the hallway. you can go north to wher || Action: south                     || Reward: 0, Score: 50
+[STEP 47] |  you can't go south from here!  << hallway >> you are still in the hal || Action: east                      || Reward: 0, Score: 50
+[STEP 48] |   << guest room >> you are in a guest room. you see that there isn't m || Action: examine tv                || Reward: 0, Score: 50
+[STEP 49] |  you can't see any such thing.                                         || Action: look                      || Reward: 0, Score: 50
+[STEP 50] |   << guest room >> you are in a guest room. you see that there isn't m || Action: look                      || Reward: 0, Score: 50
+[STEP 51] |   << guest room >> you are in a guest room. you see that there isn't m || Action: west                      || Reward: 0, Score: 50
+[STEP 52] |   << hallway >> you are still in the hallway. you can go north to wher || Action: east                      || Reward: 0, Score: 50
+[STEP 53] |   << guest room >> you are in a guest room. you see that there isn't m || Action: west                      || Reward: 0, Score: 50
+[STEP 54] |   << hallway >> you are still in the hallway. you can go north to wher || Action: look                      || Reward: 0, Score: 50
+[STEP 55] |   << hallway >> you are still in the hallway. you can go north to wher || Action: look                      || Reward: 0, Score: 50
+[STEP 56] |   << hallway >> you are still in the hallway. you can go north to wher || Action: north                     || Reward: 10, Score: 60
+[STEP 57] |   << outside >> you pass the guard. he nods at you. you are now outsid || Action: east                      || Reward: 0, Score: 60
+[STEP 58] |   << video store >> you are in a video store called brickbuster video. || Action: examine video             || Reward: 0, Score: 60
+[STEP 59] |  you can't see any such thing.                                         || Action: look                      || Reward: 0, Score: 60
+[STEP 60] |   << video store >> you are in a video store called brickbuster video. || Action: look                      || Reward: 0, Score: 60
+[STEP 61] |   << video store >> you are in a video store called brickbuster video. || Action: look                      || Reward: 0, Score: 60
+[STEP 62] |   << video store >> you are in a video store called brickbuster video. || Action: look                      || Reward: 0, Score: 60
+[STEP 63] |   << video store >> you are in a video store called brickbuster video. || Action: north                     || Reward: 0, Score: 60
+[STEP 64] |   << backroom >> you are in the backroom of brickbuster video. you see || Action: examine video             || Reward: 0, Score: 60
+[STEP 65] |  you can't see any such thing.                                         || Action: look                      || Reward: 0, Score: 60
+[STEP 66] |   << backroom >> you are in the backroom of brickbuster video. you see || Action: take video                || Reward: 0, Score: 60
+[STEP 67] |  you can't see any such thing.                                         || Action: look                      || Reward: 0, Score: 60
+[STEP 68] |   << backroom >> you are in the backroom of brickbuster video. you see || Action: look                      || Reward: 0, Score: 60
+[STEP 69] |   << backroom >> you are in the backroom of brickbuster video. you see || Action: south                     || Reward: 0, Score: 60
+[STEP 70] |   << video store >> you are in a video store called brickbuster video. || Action: east                      || Reward: 10, Score: 70
+[STEP 71] |   << video store >> you are still in the video store. you can go north || Action: look                      || Reward: 0, Score: 70
+[STEP 72] |   << video store >> you are still in the video store. you can go north || Action: east                      || Reward: 0, Score: 70
+[STEP 73] |   << outside >> you are outside. you can go north, south, east or west || Action: north                     || Reward: 10, Score: 80
+[STEP 74] |   << outside >> you are still outside. you hit a dead end, then notice || Action: east                      || Reward: 10, Score: 90
+[STEP 75] |   << music store >> you are in a music store. you ask the man behind t || Action: north                     || Reward: 10, Score: 100
+[STEP 76] |   << back of music store >> you are in the back of the music store. yo || Action: ask man about tapes       || Reward: 0, Score: 100
+[STEP 77] |  you can't see any such thing.                                         || Action: south                     || Reward: 0, Score: 100
+[STEP 78] |  you can't go south from here!  << back of music store >> you are in t || Action: look                      || Reward: 0, Score: 100
+[STEP 79] |   << back of music store >> you are in the back of the music store. yo || Action: look                      || Reward: 0, Score: 100
+[STEP 80] |   << back of music store >> you are in the back of the music store. yo || Action: examine man               || Reward: 0, Score: 100
+[STEP 81] |  you can't see any such thing.                                         || Action: west                      || Reward: 0, Score: 100
+[STEP 82] |   << music store >> you walk over to the guy. he jumps up with a wild  || Action: look                      || Reward: 0, Score: 100
+[STEP 83] |   << music store >> you walk over to the guy. he jumps up with a wild  || Action: inventory                 || Reward: 0, Score: 100
+[STEP 84] |  you are carrying nothing. the dazed man seems to be getting angrier!  || Action: take gun                  || Reward: 0, Score: 100
+[STEP 85] |  you can't see any such thing.                                         || Action: look                      || Reward: 0, Score: 100
+[STEP 86] |   << music store >> you walk over to the guy. he jumps up with a wild  || Action: look                      || Reward: 0, Score: 100
+[STEP 87] |   << music store >> you walk over to the guy. he jumps up with a wild  || Action: look                      || Reward: 0, Score: 100
+[OurAgent] New best score 100 at node 0.
+Run 1/10 finished. Score: 100
+
+--- EVALUATION SUMMARY (our method) ---
+Agent LLM Model: gpt-oss-20b
+Number of final evaluation runs: 10
+Individual Scores: [100]
+Average Score: 100.00
+Standard Deviation: 0.00
+
+Starting game run 2/10...
+[DACS] enabled=True game=detective
+[DACS] num raw candidates = 1 archived=0
+[DACS] num filtered candidates = 1
+[DACS] selected/reordered candidate ids = [0]
+[DACS] candidate score table:
+  id | relevance | diversity | risk | final_score | summary
+  0 | 0.085 | 1.0 | 0.042 | 0.755 | Explore systematically and examine objects to make progress.
+[DACS] fallback=False
+Parent node 0 at depth 0 with UCB score: 100.8325546111577
+
+Evolving prompt. Current prompt: 'Explore systematically and examine objects to make progress....'
+
+Current state extractor code: '
+def extract_state(game_history):
+    return "Game in progress."
+...'
+
+
+Updated state extractor code successfully.
+Evolved guiding prompt and code: '**Guiding Prompt**
+
+- **Core Progress Actions**  
+  1. *Read the sheet of paper* in the Chief’s office.  
+  2. *Read the note* found in the dining room.  
+  3. *Take the gun* from the dazed man in the music store before any confrontation.  
+  4. *Examine* any visible objects (wood, TV, etc.) when they are the only thing described.  
+  5. *Take* any item that is explicitly mentioned or could be useful (e.g., a video, a key).  
+  6. *Inventory* after taking an item to confirm possession.  
+
+- **Exploration Pattern**  
+  - After completing a core action, move to an adjacent unexplored room (north, south, east, or west) as indicated by the map description.  
+  - Use **“look”** only once per room to confirm the presence of objects before deciding to examine or take them.  
+  - Do not “look” repeatedly in the same room without a new object appearing.  
+
+- **Avoid Unproductive Behaviors**  
+  - Repeated “look” or “examine man” when no new item is present.  
+  - “Take video” or “take gun” when the item is not visible or already taken.  
+  - “Take gun” after a death sequence or when the NPC is already incapacitated.  
+
+- **Handling Hostile NPCs**  
+  - If an NPC has a weapon and appears hostile, immediately **take the weapon** or use it to defend yourself.  
+  - Do not “ask” or “examine” unless it can yield an item or useful information.  
+
+- **When Progress Stalls**  
+  1. Identify all rooms that have been entered but not fully examined (e.g., living room, bedroom, upstairs hallway).  
+  2. List possible interactions:  
+     - *Examine* any object described.  
+     - *Ask* any NPC present.  
+     - *Take* any item that may aid investigation.  
+  3. Systematically move to each of those rooms in turn, repeating the core progress actions.  
+  4. If a room contains a door or exit, consider it a potential new area to explore.  
+
+- **End‑Game Checklist**  
+  - Ensure the gun is in your inventory before confronting the dazed man.  
+  - Verify that all readable notes have been read.  
+  - Confirm that any suspicious objects (wood, TV, backroom video) have been examined or taken if relevant.  
+
+---
+
+**State Extractor Code**'
+def extract_state(game_history):
+    history = game_history.lower()
+    milestones = []
+    if "read paper" in history:
+        milestones.append("Read paper")
+    if "read note" in history:
+        milestones.append("Read note")
+    if "take gun" in history:
+        milestones.append("Took gun")
+    if "you have died" in history:
+        milestones.append("Died")
+    if milestones:
+        return ", ".join(milestones) + "."
+    else:
+        return "Unknown state."
+[STEP 0] |     [Type "help" for more information about this version]  Detective B || Action: read paper                || Reward: 0, Score: 10
+[STEP 1] |  confidential: detective was created by matt barringer. he has worked  || Action: north                     || Reward: 0, Score: 10
+[STEP 2] |   << outside >> you are outside in the cold. to the east is a dead end || Action: west                      || Reward: 10, Score: 20
+[STEP 3] |   << outside >> you are still on the streets. to the north is a restra || Action: north                     || Reward: 0, Score: 20
+Run 2/10 finished. Score: 20
+
+--- EVALUATION SUMMARY (our method) ---
+Agent LLM Model: gpt-oss-20b
+Number of final evaluation runs: 10
+Individual Scores: [100, 20]
+Average Score: 60.00
+Standard Deviation: 56.57
+
+Starting game run 3/10...
+[OurAgent] Exploiting best node 0 (score=100). No evolution.
+[STEP 0] |     [Type "help" for more information about this version]  Detective B || Action: read paper                || Reward: 0, Score: 10
+[STEP 1] |  confidential: detective was created by matt barringer. he has worked  || Action: north                     || Reward: 0, Score: 10
+[STEP 2] |   << outside >> you are outside in the cold. to the east is a dead end || Action: examine papers            || Reward: 0, Score: 10
+[STEP 3] |  you can't see any such thing.                                         || Action: west                      || Reward: 10, Score: 20
+[STEP 4] |   << outside >> you are still on the streets. to the north is a restra || Action: east                      || Reward: 10, Score: 30
+[STEP 5] |   << mayor's house >> you are in the house, at the scene of the crime. || Action: north                     || Reward: 10, Score: 40
+[STEP 6] |   << upstairs hallway >> you are in the hallway of the large house of  || Action: north                     || Reward: 0, Score: 40
+[STEP 7] |   << hallway >> you are at the end of the hallway. to the north is a r || Action: north                     || Reward: 0, Score: 40
+[STEP 8] |   << closet >> you are in a closet. there is no reason to be in here.  || Action: south                     || Reward: 0, Score: 40
+[STEP 9] |   << hallway >> you are at the end of the hallway. to the north is a r || Action: north                     || Reward: 0, Score: 40
+[STEP 10] |   << closet >> you are in a closet. there is no reason to be in here.  || Action: south                     || Reward: 0, Score: 40
+[STEP 11] |   << hallway >> you are at the end of the hallway. to the north is a r || Action: look                      || Reward: 0, Score: 40
+[STEP 12] |   << hallway >> you are at the end of the hallway. to the north is a r || Action: look                      || Reward: 0, Score: 40
+[STEP 13] |   << hallway >> you are at the end of the hallway. to the north is a r || Action: north                     || Reward: 0, Score: 40
+[STEP 14] |   << closet >> you are in a closet. there is no reason to be in here.  || Action: look                      || Reward: 0, Score: 40
+[STEP 15] |   << closet >> you are in a closet. there is no reason to be in here.  || Action: south                     || Reward: 0, Score: 40
+[STEP 16] |   << hallway >> you are at the end of the hallway. to the north is a r || Action: look                      || Reward: 0, Score: 40
+[STEP 17] |   << hallway >> you are at the end of the hallway. to the north is a r || Action: look                      || Reward: 0, Score: 40
+[STEP 18] |   << hallway >> you are at the end of the hallway. to the north is a r || Action: look                      || Reward: 0, Score: 40
+[STEP 19] |   << hallway >> you are at the end of the hallway. to the north is a r || Action: west                      || Reward: 0, Score: 40
+[STEP 20] |   << hallway >> you are in the hallway. to the north is more hallway,  || Action: east                      || Reward: 0, Score: 40
+[STEP 21] |   << guest room >> you are in one of the many guest rooms. it is a nic || Action: west                      || Reward: 0, Score: 40
+[STEP 22] |   << hallway >> you are in the hallway. to the north is more hallway,  || Action: east                      || Reward: 0, Score: 40
+[STEP 23] |   << guest room >> you are in one of the many guest rooms. it is a nic || Action: west                      || Reward: 0, Score: 40
+[STEP 24] |   << hallway >> you are in the hallway. to the north is more hallway,  || Action: open door                 || Reward: 0, Score: 40
+[STEP 25] |  you can't see any such thing.                                         || Action: look                      || Reward: 0, Score: 40
+[STEP 26] |   << hallway >> you are in the hallway. to the north is more hallway,  || Action: examine door              || Reward: 0, Score: 40
+[STEP 27] |  you can't see any such thing.                                         || Action: north                     || Reward: 0, Score: 40
+[STEP 28] |   << hallway >> you are still in the hallway. there is even more hallw || Action: look west                 || Reward: 0, Score: 40
+[STEP 29] |  i only understood you as far as wanting to look.                      || Action: look                      || Reward: 0, Score: 40
+[STEP 30] |   << hallway >> you are still in the hallway. there is even more hallw || Action: look                      || Reward: 0, Score: 40
+[STEP 31] |   << hallway >> you are still in the hallway. there is even more hallw || Action: east                      || Reward: 0, Score: 40
+[STEP 32] |   << closet >> you are in a small closet. the room is bare. why not go || Action: east                      || Reward: 0, Score: 40
+[STEP 33] |   << hallway >> you are still in the hallway. there is even more hallw || Action: look                      || Reward: 0, Score: 40
+[STEP 34] |   << hallway >> you are still in the hallway. there is even more hallw || Action: west                      || Reward: 0, Score: 40
+[STEP 35] |   << closet >> you are in a closet. there is no reason to be in here.  || Action: west                      || Reward: 0, Score: 40
+[STEP 36] |   << hallway >> you are still in the hallway. there is even more hallw || Action: west                      || Reward: 0, Score: 40
+[STEP 37] |   << closet >> you are in a closet. there is no reason to be in here.  || Action: west                      || Reward: 0, Score: 40
+[STEP 38] |   << hallway >> you are still in the hallway. there is even more hallw || Action: look                      || Reward: 0, Score: 40
+[STEP 39] |   << hallway >> you are still in the hallway. there is even more hallw || Action: look                      || Reward: 0, Score: 40
+[STEP 40] |   << hallway >> you are still in the hallway. there is even more hallw || Action: north                     || Reward: 0, Score: 40
+[STEP 41] |   << hallway >> you are still in the hallway. you can go north to wher || Action: search                    || Reward: 0, Score: 40
+[STEP 42] |  what do you want to search?                                           || Action: search hallway            || Reward: 0, Score: 40
+[STEP 43] |  you can't see any such thing.                                         || Action: look                      || Reward: 0, Score: 40
+[STEP 44] |   << hallway >> you are still in the hallway. you can go north to wher || Action: north                     || Reward: 10, Score: 50
+[STEP 45] |   << outside >> you pass the guard. he nods at you. you are now outsid || Action: east                      || Reward: 0, Score: 50
+[STEP 46] |   << video store >> you are in a video store called brickbuster video. || Action: east                      || Reward: 10, Score: 60
+[STEP 47] |   << video store >> you are still in the video store. you can go north || Action: look                      || Reward: 0, Score: 60
+[STEP 48] |   << video store >> you are still in the video store. you can go north || Action: east                      || Reward: 0, Score: 60
+[STEP 49] |   << outside >> you are outside. you can go north, south, east or west || Action: look                      || Reward: 0, Score: 60
+[STEP 50] |   << outside >> you are outside. you can go north, south, east or west || Action: west                      || Reward: 0, Score: 60
+[STEP 51] |   << video store >> you are still in the video store. you can go north || Action: north                     || Reward: 0, Score: 60
+[STEP 52] |   << closet >> you are in a closet. there is no use for being here. go || Action: south                     || Reward: 0, Score: 60
+[STEP 53] |   << video store >> you are still in the video store. you can go north || Action: look                      || Reward: 0, Score: 60
+[STEP 54] |   << video store >> you are still in the video store. you can go north || Action: north                     || Reward: 0, Score: 60
+[STEP 55] |   << closet >> you are in a closet. there is no use for being here. go || Action: south                     || Reward: 0, Score: 60
+[STEP 56] |   << video store >> you are still in the video store. you can go north || Action: look                      || Reward: 0, Score: 60
+[STEP 57] |   << video store >> you are still in the video store. you can go north || Action: look                      || Reward: 0, Score: 60
+[STEP 58] |   << video store >> you are still in the video store. you can go north || Action: look                      || Reward: 0, Score: 60
+[STEP 59] |   << video store >> you are still in the video store. you can go north || Action: north                     || Reward: 0, Score: 60
+[STEP 60] |   << closet >> you are in a closet. there is no use for being here. go || Action: south                     || Reward: 0, Score: 60
+[STEP 61] |   << video store >> you are still in the video store. you can go north || Action: look                      || Reward: 0, Score: 60
+[STEP 62] |   << video store >> you are still in the video store. you can go north || Action: look                      || Reward: 0, Score: 60
+[STEP 63] |   << video store >> you are still in the video store. you can go north || Action: look                      || Reward: 0, Score: 60
+[STEP 64] |   << video store >> you are still in the video store. you can go north || Action: look                      || Reward: 0, Score: 60
+[STEP 65] |   << video store >> you are still in the video store. you can go north || Action: look                      || Reward: 0, Score: 60
+[STEP 66] |   << video store >> you are still in the video store. you can go north || Action: look                      || Reward: 0, Score: 60
+[STEP 67] |   << video store >> you are still in the video store. you can go north || Action: look                      || Reward: 0, Score: 60
+[STEP 68] |   << video store >> you are still in the video store. you can go north || Action: look                      || Reward: 0, Score: 60
+[STEP 69] |   << video store >> you are still in the video store. you can go north || Action: look                      || Reward: 0, Score: 60
+[STEP 70] |   << video store >> you are still in the video store. you can go north || Action: east                      || Reward: 0, Score: 60
+[STEP 71] |   << outside >> you are outside. you can go north, south, east or west || Action: look                      || Reward: 0, Score: 60
+[STEP 72] |   << outside >> you are outside. you can go north, south, east or west || Action: look                      || Reward: 0, Score: 60
+[STEP 73] |   << outside >> you are outside. you can go north, south, east or west || Action: south                     || Reward: 0, Score: 60
+[STEP 74] |   << mcdonalds >> you are in a mcdonalds. you pay the guy behind the c || Action: get hamburger             || Reward: 10, Score: 70
+[STEP 75] |  taken.  [your score has just gone up by ten points.]                  || Action: north                     || Reward: 0, Score: 70
+[STEP 76] |   << outside >> you are outside. you can go north, south, east or west || Action: east                      || Reward: 0, Score: 70
+Run 3/10 finished. Score: 70
+
+--- EVALUATION SUMMARY (our method) ---
+Agent LLM Model: gpt-oss-20b
+Number of final evaluation runs: 10
+Individual Scores: [100, 20, 70]
+Average Score: 63.33
+Standard Deviation: 40.41
+
+Starting game run 4/10...
+[DACS] enabled=True game=detective
+[DACS] num raw candidates = 3 archived=0
+[DACS] num filtered candidates = 3
+[DACS] selected/reordered candidate ids = [1, 0, 2]
+[DACS] candidate score table:
+  id | relevance | diversity | risk | final_score | summary
+  1 | 0.377 | 1.0 | 0.123 | 0.83 | **Guiding Prompt**  - **Core Progress Actions**     1. *Read the sheet of paper*
+  0 | 0.071 | 0.933 | 0.006 | 0.733 | Explore systematically and examine objects to make progress.
+  2 | 0.071 | 0.0 | 0.006 | 0.206 | Explore systematically and examine objects to make progress.
+[DACS] fallback=False
+Parent node 0 at depth 0 with UCB score: 100.60514799530586
+
+Evolving prompt. Current prompt: 'Explore systematically and examine objects to make progress....'
+
+Current state extractor code: '
+def extract_state(game_history):
+    return "Game in progress."
+...'
+
+
+Evolution LLM returned invalid state extractor code, keeping current code
+Evolved guiding prompt and code: '**Guiding Prompt**
+
+1. Read the sheet of paper in the Chief’s office before moving.  
+2. Move north to the street, then west to the main street.  
+3. From the street, go east into the mayor’s house.  
+4. Inside the house, **examine the living room** (look for objects or hidden items).  
+5. Examine the dining room and read the paper note you find there.  
+6. Move north from the dining room into the upstairs hallway.  
+7. In the upstairs hallway, systematically explore each adjacent room (north, south, east, west).  
+8. Whenever you enter a new room, **look** for objects or NPCs and **read or examine** any papers or notes.  
+9. Avoid approaching hostile NPCs without a weapon; do not take or attack the man in the music store.  
+10. Do not waste turns on repeated “look” actions unless you cannot see new information.  
+11. If you reach a dead end or cannot move forward, backtrack to the nearest unexplored corridor or room.  
+12. Keep your inventory in mind; only pick up items that are clearly relevant (e.g., clues, weapons).  
+13. If you become stuck, list all rooms that have only been lightly searched (upstairs rooms, street side shops, etc.) and systematically visit them one by one.  
+
+**State Extractor**
+
+```python
+def extract_state(game_history):
+    state = []
+    if "read paper" in game_history:
+        state.append("Read chief's paper.")
+    if "read note" in game_history:
+        state.append("Read suspect note.")
+    if "you are in the living room" in game_history:
+        state.append("Explored living room.")
+    if "you are in the dining room" in game_history:
+        state.append("Explored dining room.")
+    if "you are in the upstairs hallway" in game_history:
+        state.append("Explored upstairs hallway.")
+    if "*** you have died ***" in game_history:
+        if "music store" in game_history:
+            state.append("Current location: music store.")
+        state.append("Status: Dead.")
+    else:
+        state.append("Status: Alive.")
+    return " ".join(state)
+```'
+
+def extract_state(game_history):
+    return "Game in progress."
+
+[STEP 0] |     [Type "help" for more information about this version]  Detective B || Action: north                     || Reward: 0, Score: 10
+[STEP 1] |   << outside >> you are outside in the cold. to the east is a dead end || Action: north                     || Reward: 0, Score: 10
+[STEP 2] |  you can't go north from here!  << outside >> you are outside in the c || Action: west                      || Reward: 10, Score: 20
+[STEP 3] |   << outside >> you are still on the streets. to the north is a restra || Action: west                      || Reward: 0, Score: 20
+[STEP 4] |  you can't go west from here!  << outside >> you are still on the stre || Action: look                      || Reward: 0, Score: 20
+[STEP 5] |   << outside >> you are still on the streets. to the north is a restra || Action: east                      || Reward: 10, Score: 30
+[STEP 6] |   << mayor's house >> you are in the house, at the scene of the crime. || Action: east                      || Reward: 0, Score: 30
+[STEP 7] |   << living room >> you are standing in the living room. you see a bat || Action: examine wood              || Reward: 0, Score: 30
+[STEP 8] |  you look at it closely and figure that the guys in the forensic's lab || Action: west                      || Reward: 0, Score: 30
+[STEP 9] |   << mayor's house >> you are in the house, at the scene of the crime. || Action: west                      || Reward: 0, Score: 30
+[STEP 10] |   << dining room >> you are in the dining room. you look around and se || Action: read note                 || Reward: 0, Score: 30
+[STEP 11] |  the note was written on a computer obviously this murder was planned  || Action: north                     || Reward: 0, Score: 30
+[STEP 12] |  you can't go north from here!  << dining room >> you are in the dinin || Action: look                      || Reward: 0, Score: 30
+[STEP 13] |   << dining room >> you are in the dining room. you look around and se || Action: look                      || Reward: 0, Score: 30
+[STEP 14] |   << dining room >> you are in the dining room. you look around and se || Action: look                      || Reward: 0, Score: 30
+[STEP 15] |   << dining room >> you are in the dining room. you look around and se || Action: east                      || Reward: 0, Score: 30
+[STEP 16] |   << mayor's house >> you are in the house, at the scene of the crime. || Action: east                      || Reward: 0, Score: 30
+[STEP 17] |   << living room >> you are standing in the living room. you see a bat || Action: look                      || Reward: 0, Score: 30
+[STEP 18] |   << living room >> you are standing in the living room. you see a bat || Action: look                      || Reward: 0, Score: 30
+[STEP 19] |   << living room >> you are standing in the living room. you see a bat || Action: look                      || Reward: 0, Score: 30
+[STEP 20] |   << living room >> you are standing in the living room. you see a bat || Action: look                      || Reward: 0, Score: 30
+[STEP 21] |   << living room >> you are standing in the living room. you see a bat || Action: look                      || Reward: 0, Score: 30
+[STEP 22] |   << living room >> you are standing in the living room. you see a bat || Action: north                     || Reward: 0, Score: 30
+[STEP 23] |  you can't go north from here!  << living room >> you are standing in  || Action: look                      || Reward: 0, Score: 30
+[STEP 24] |   << living room >> you are standing in the living room. you see a bat || Action: look                      || Reward: 0, Score: 30
+[STEP 25] |   << living room >> you are standing in the living room. you see a bat || Action: look                      || Reward: 0, Score: 30
+[STEP 26] |   << living room >> you are standing in the living room. you see a bat || Action: look                      || Reward: 0, Score: 30
+[STEP 27] |   << living room >> you are standing in the living room. you see a bat || Action: look                      || Reward: 0, Score: 30
+[STEP 28] |   << living room >> you are standing in the living room. you see a bat || Action: look                      || Reward: 0, Score: 30
+[STEP 29] |   << living room >> you are standing in the living room. you see a bat || Action: look                      || Reward: 0, Score: 30
+[STEP 30] |   << living room >> you are standing in the living room. you see a bat || Action: west                      || Reward: 0, Score: 30
+[STEP 31] |   << mayor's house >> you are in the house, at the scene of the crime. || Action: north                     || Reward: 10, Score: 40
+[STEP 32] |   << upstairs hallway >> you are in the hallway of the large house of  || Action: north                     || Reward: 0, Score: 40
+[STEP 33] |   << hallway >> you are at the end of the hallway. to the north is a r || Action: look                      || Reward: 0, Score: 40
+[STEP 34] |   << hallway >> you are at the end of the hallway. to the north is a r || Action: north                     || Reward: 0, Score: 40
+[STEP 35] |   << closet >> you are in a closet. there is no reason to be in here.  || Action: south                     || Reward: 0, Score: 40
+[STEP 36] |   << hallway >> you are at the end of the hallway. to the north is a r || Action: south                     || Reward: 0, Score: 40
+[STEP 37] |  you can't go south from here!  << hallway >> you are at the end of th || Action: west                      || Reward: 0, Score: 40
+[STEP 38] |   << hallway >> you are in the hallway. to the north is more hallway,  || Action: east                      || Reward: 0, Score: 40
+[STEP 39] |   << guest room >> you are in one of the many guest rooms. it is a nic || Action: look                      || Reward: 0, Score: 40
+[STEP 40] |   << guest room >> you are in one of the many guest rooms. it is a nic || Action: look                      || Reward: 0, Score: 40
+[STEP 41] |   << guest room >> you are in one of the many guest rooms. it is a nic || Action: west                      || Reward: 0, Score: 40
+[STEP 42] |   << hallway >> you are in the hallway. to the north is more hallway,  || Action: north                     || Reward: 0, Score: 40
+[STEP 43] |   << hallway >> you are still in the hallway. there is even more hallw || Action: west                      || Reward: 0, Score: 40
+[STEP 44] |   << closet >> you are in a closet. there is no reason to be in here.  || Action: west                      || Reward: 0, Score: 40
+[STEP 45] |   << hallway >> you are still in the hallway. there is even more hallw || Action: look                      || Reward: 0, Score: 40
+[STEP 46] |   << hallway >> you are still in the hallway. there is even more hallw || Action: east                      || Reward: 0, Score: 40
+[STEP 47] |   << closet >> you are in a small closet. the room is bare. why not go || Action: east                      || Reward: 0, Score: 40
+[STEP 48] |   << hallway >> you are still in the hallway. there is even more hallw || Action: north                     || Reward: 0, Score: 40
+[STEP 49] |   << hallway >> you are still in the hallway. you can go north to wher || Action: look                      || Reward: 0, Score: 40
+[STEP 50] |   << hallway >> you are still in the hallway. you can go north to wher || Action: north                     || Reward: 10, Score: 50
+[STEP 51] |   << outside >> you pass the guard. he nods at you. you are now outsid || Action: look                      || Reward: 0, Score: 50
+[STEP 52] |   << outside >> you pass the guard. he nods at you. you are now outsid || Action: look                      || Reward: 0, Score: 50
+[STEP 53] |   << outside >> you pass the guard. he nods at you. you are now outsid || Action: north                     || Reward: 0, Score: 50
+[STEP 54] |   << dead end >> you are at a dead end. you can go south or west. whic || Action: look                      || Reward: 0, Score: 50
+[STEP 55] |   << dead end >> you are at a dead end. you can go south or west. whic || Action: south                     || Reward: 0, Score: 50
+[STEP 56] |   << outside >> you pass the guard. he nods at you. you are now outsid || Action: north                     || Reward: 0, Score: 50
+[STEP 57] |   << dead end >> you are at a dead end. you can go south or west. whic || Action: look                      || Reward: 0, Score: 50
+[STEP 58] |   << dead end >> you are at a dead end. you can go south or west. whic || Action: south                     || Reward: 0, Score: 50
+[STEP 59] |   << outside >> you pass the guard. he nods at you. you are now outsid || Action: look                      || Reward: 0, Score: 50
+[STEP 60] |   << outside >> you pass the guard. he nods at you. you are now outsid || Action: look                      || Reward: 0, Score: 50
+[STEP 61] |   << outside >> you pass the guard. he nods at you. you are now outsid || Action: north                     || Reward: 0, Score: 50
+[STEP 62] |   << dead end >> you are at a dead end. you can go south or west. whic || Action: south                     || Reward: 0, Score: 50
+[STEP 63] |   << outside >> you pass the guard. he nods at you. you are now outsid || Action: look                      || Reward: 0, Score: 50
+[STEP 64] |   << outside >> you pass the guard. he nods at you. you are now outsid || Action: look                      || Reward: 0, Score: 50
+[STEP 65] |   << outside >> you pass the guard. he nods at you. you are now outsid || Action: north                     || Reward: 0, Score: 50
+[STEP 66] |   << dead end >> you are at a dead end. you can go south or west. whic || Action: south                     || Reward: 0, Score: 50
+[STEP 67] |   << outside >> you pass the guard. he nods at you. you are now outsid || Action: look                      || Reward: 0, Score: 50
+[STEP 68] |   << outside >> you pass the guard. he nods at you. you are now outsid || Action: look                      || Reward: 0, Score: 50
+[STEP 69] |   << outside >> you pass the guard. he nods at you. you are now outsid || Action: look                      || Reward: 0, Score: 50
+[STEP 70] |   << outside >> you pass the guard. he nods at you. you are now outsid || Action: look                      || Reward: 0, Score: 50
+[STEP 71] |   << outside >> you pass the guard. he nods at you. you are now outsid || Action: north                     || Reward: 0, Score: 50
+[STEP 72] |   << dead end >> you are at a dead end. you can go south or west. whic || Action: south                     || Reward: 0, Score: 50
+[STEP 73] |   << outside >> you pass the guard. he nods at you. you are now outsid || Action: north                     || Reward: 0, Score: 50
+[STEP 74] |   << dead end >> you are at a dead end. you can go south or west. whic || Action: south                     || Reward: 0, Score: 50
+[STEP 75] |   << outside >> you pass the guard. he nods at you. you are now outsid || Action: look                      || Reward: 0, Score: 50
+[STEP 76] |   << outside >> you pass the guard. he nods at you. you are now outsid || Action: look                      || Reward: 0, Score: 50
+[STEP 77] |   << outside >> you pass the guard. he nods at you. you are now outsid || Action: north                     || Reward: 0, Score: 50
+[STEP 78] |   << dead end >> you are at a dead end. you can go south or west. whic || Action: south                     || Reward: 0, Score: 50
+[STEP 79] |   << outside >> you pass the guard. he nods at you. you are now outsid || Action: look                      || Reward: 0, Score: 50
+[STEP 80] |   << outside >> you pass the guard. he nods at you. you are now outsid || Action: look                      || Reward: 0, Score: 50
+[STEP 81] |   << outside >> you pass the guard. he nods at you. you are now outsid || Action: look                      || Reward: 0, Score: 50
+[STEP 82] |   << outside >> you pass the guard. he nods at you. you are now outsid || Action: look                      || Reward: 0, Score: 50
+[STEP 83] |   << outside >> you pass the guard. he nods at you. you are now outsid || Action: look                      || Reward: 0, Score: 50
+[STEP 84] |   << outside >> you pass the guard. he nods at you. you are now outsid || Action: look                      || Reward: 0, Score: 50
+[STEP 85] |   << outside >> you pass the guard. he nods at you. you are now outsid || Action: look                      || Reward: 0, Score: 50
+[STEP 86] |   << outside >> you pass the guard. he nods at you. you are now outsid || Action: look                      || Reward: 0, Score: 50
+[STEP 87] |   << outside >> you pass the guard. he nods at you. you are now outsid || Action: look                      || Reward: 0, Score: 50
+[STEP 88] |   << outside >> you pass the guard. he nods at you. you are now outsid || Action: look                      || Reward: 0, Score: 50
+[STEP 89] |   << outside >> you pass the guard. he nods at you. you are now outsid || Action: look                      || Reward: 0, Score: 50
+[STEP 90] |   << outside >> you pass the guard. he nods at you. you are now outsid || Action: look                      || Reward: 0, Score: 50
+[STEP 91] |   << outside >> you pass the guard. he nods at you. you are now outsid || Action: look                      || Reward: 0, Score: 50
+[STEP 92] |   << outside >> you pass the guard. he nods at you. you are now outsid || Action: east                      || Reward: 0, Score: 50
+[STEP 93] |   << video store >> you are in a video store called brickbuster video. || Action: look                      || Reward: 0, Score: 50
+[STEP 94] |   << video store >> you are in a video store called brickbuster video. || Action: look                      || Reward: 0, Score: 50
+[STEP 95] |   << video store >> you are in a video store called brickbuster video. || Action: north                     || Reward: 0, Score: 50
+[STEP 96] |   << backroom >> you are in the backroom of brickbuster video. you see || Action: look                      || Reward: 0, Score: 50
+[STEP 97] |   << backroom >> you are in the backroom of brickbuster video. you see || Action: south                     || Reward: 0, Score: 50
+[STEP 98] |   << video store >> you are in a video store called brickbuster video. || Action: look                      || Reward: 0, Score: 50
+[STEP 99] |   << video store >> you are in a video store called brickbuster video. || Action: north                     || Reward: 0, Score: 50
+[STEP 100] |   << backroom >> you are in the backroom of brickbuster video. you see || Action: south                     || Reward: 0, Score: 50
+[STEP 101] |   << video store >> you are in a video store called brickbuster video. || Action: look                      || Reward: 0, Score: 50
+[STEP 102] |   << video store >> you are in a video store called brickbuster video. || Action: look                      || Reward: 0, Score: 50
+[STEP 103] |   << video store >> you are in a video store called brickbuster video. || Action: look                      || Reward: 0, Score: 50
+[STEP 104] |   << video store >> you are in a video store called brickbuster video. || Action: east                      || Reward: 10, Score: 60
+[STEP 105] |   << video store >> you are still in the video store. you can go north || Action: look                      || Reward: 0, Score: 60
+[STEP 106] |   << video store >> you are still in the video store. you can go north || Action: east                      || Reward: 0, Score: 60
+[STEP 107] |   << outside >> you are outside. you can go north, south, east or west || Action: look                      || Reward: 0, Score: 60
+[STEP 108] |   << outside >> you are outside. you can go north, south, east or west || Action: north                     || Reward: 10, Score: 70
+[STEP 109] |   << outside >> you are still outside. you hit a dead end, then notice || Action: east                      || Reward: 10, Score: 80
+Run 4/10 finished. Score: 80
+
+--- EVALUATION SUMMARY (our method) ---
+Agent LLM Model: gpt-oss-20b
+Number of final evaluation runs: 10
+Individual Scores: [100, 20, 70, 80]
+Average Score: 67.50
+Standard Deviation: 34.03
+
+Starting game run 5/10...
+[DACS] enabled=True game=detective
+[DACS] num raw candidates = 4 archived=0
+[DACS] num filtered candidates = 4
+[DACS] selected/reordered candidate ids = [3, 1, 0, 2]
+[DACS] candidate score table:
+  id | relevance | diversity | risk | final_score | summary
+  3 | 0.628 | 1.0 | 0.122 | 1.203 | **Guiding Prompt**  1. Read the sheet of paper in the Chief’s office before movi
+  1 | 0.469 | 0.679 | 0.123 | 0.762 | **Guiding Prompt**  - **Core Progress Actions**     1. *Read the sheet of paper*
+  0 | 0.062 | 0.911 | 0.006 | 0.713 | Explore systematically and examine objects to make progress.
+  2 | 0.062 | 0.0 | 0.006 | 0.198 | Explore systematically and examine objects to make progress.
+[DACS] fallback=False
+Parent node 0 at depth 0 with UCB score: 100.58870501125774
+
+Evolving prompt. Current prompt: 'Explore systematically and examine objects to make progress....'
+
+Current state extractor code: '
+def extract_state(game_history):
+    return "Game in progress."
+...'
+
+
+Updated state extractor code successfully.
+Evolved guiding prompt and code: '[Guiding Prompt]  
+You are a detective in a text adventure. Your mission is to gather evidence and solve the mayor’s murder while avoiding unnecessary actions that waste turns or lead to death. Follow these minimal, proven steps:
+
+1. **Read the paper** that the chief hands you.  
+2. **Go north** to the street.  
+3. **Go west** down the street to the mayor’s house.  
+4. **Read the note** on the dining‑room table; it contains a clue.  
+5. **Go north** to the upstairs hallway.  
+6. **Explore each room in the hallway**:  
+   - Turn **north** to the end of the hallway, then back **south** to the main floor.  
+   - Turn **east** into the guest rooms; they are empty but note their locations.  
+   - Turn **west** into the living room and **examine the wooden piece**; it may hide a clue.  
+7. **Avoid the music store confrontation**: do not approach the man or pick up a gun; the encounter ends in death.  
+8. **Return to the main house** to gather any remaining evidence and to exit.  
+
+**Avoid** the following pattern that caused loops and death:  
+`look` → `examine man` → `west` → `look` → `inventory` → `take gun` → `look` × 3.
+
+If you find yourself stuck or unable to progress, list all rooms you have *not* fully explored yet (e.g., living room, dining room, upstairs rooms). Systematically go to each, `look`, `examine`, and `take` any items. Only act on objects that directly mention evidence, weapons, or clues. Never waste turns on generic `look` or `inventory` unless you need to confirm the presence of a key item.
+
+When you reach a point where no new rooms or items appear, consider **exiting the house** or **returning to the street** to search for external clues (e.g., the video store or other locations).  
+
+---'
+def extract_state(game_history):
+    lower = game_history.lower()
+    parts = []
+    if "read paper" in lower:
+        parts.append("Read paper")
+    if "read note" in lower:
+        parts.append("Read note")
+    if "mayor's house" in lower or "mayor's house" in lower:
+        parts.append("Entered mayor's house")
+    if "upstairs hallway" in lower or "upstairs" in lower:
+        parts.append("Explored upstairs hallway")
+    if "living room" in lower:
+        parts.append("Explored living room")
+    if "dining room" in lower:
+        parts.append("Explored dining room")
+    if "music store" in lower:
+        parts.append("In music store")
+    if "*** you have died ***" in lower:
+        parts.append("Agent died")
+    if not parts:
+        return "Unknown state."
+    return "; ".join(parts) + "."
+[STEP 0] |     [Type "help" for more information about this version]  Detective B || Action: read paper                || Reward: 0, Score: 10
+[STEP 1] |  confidential: detective was created by matt barringer. he has worked  || Action: north                     || Reward: 0, Score: 10
+[STEP 2] |   << outside >> you are outside in the cold. to the east is a dead end || Action: west                      || Reward: 10, Score: 20
+[STEP 3] |   << outside >> you are still on the streets. to the north is a restra || Action: east                      || Reward: 10, Score: 30
+[STEP 4] |   << mayor's house >> you are in the house, at the scene of the crime. || Action: look                      || Reward: 0, Score: 30
+[STEP 5] |   << mayor's house >> you are in the house, at the scene of the crime. || Action: west                      || Reward: 0, Score: 30
+[STEP 6] |   << dining room >> you are in the dining room. you look around and se || Action: examine note              || Reward: 0, Score: 30
+[STEP 7] |  it is a note. with writing on it.                                     || Action: read note                 || Reward: 0, Score: 30
+[STEP 8] |  the note was written on a computer obviously this murder was planned  || Action: examine wood              || Reward: 0, Score: 30
+[STEP 9] |  you can't see any such thing.                                         || Action: north                     || Reward: 0, Score: 30
+[STEP 10] |  you can't go north from here!  << dining room >> you are in the dinin || Action: east                      || Reward: 0, Score: 30
+[STEP 11] |   << mayor's house >> you are in the house, at the scene of the crime. || Action: east                      || Reward: 0, Score: 30
+[STEP 12] |   << living room >> you are standing in the living room. you see a bat || Action: take wood                 || Reward: 10, Score: 40
+[STEP 13] |  taken.  [your score has just gone up by ten points.]                  || Action: examine wood              || Reward: 0, Score: 40
+[STEP 14] |  you look at it closely and figure that the guys in the forensic's lab || Action: north                     || Reward: 0, Score: 40
+[STEP 15] |  you can't go north from here!  << living room >> you are standing in  || Action: look                      || Reward: 0, Score: 40
+[STEP 16] |   << living room >> you are standing in the living room. you see a bat || Action: west                      || Reward: 0, Score: 40
+[STEP 17] |   << mayor's house >> you are in the house, at the scene of the crime. || Action: look                      || Reward: 0, Score: 40
+[STEP 18] |   << mayor's house >> you are in the house, at the scene of the crime. || Action: north                     || Reward: 10, Score: 50
+[STEP 19] |   << upstairs hallway >> you are in the hallway of the large house of  || Action: north                     || Reward: 0, Score: 50
+[STEP 20] |   << hallway >> you are at the end of the hallway. to the north is a r || Action: south                     || Reward: 0, Score: 50
+[STEP 21] |  you can't go south from here!  << hallway >> you are at the end of th || Action: look                      || Reward: 0, Score: 50
+[STEP 22] |   << hallway >> you are at the end of the hallway. to the north is a r || Action: north                     || Reward: 0, Score: 50
+[STEP 23] |   << closet >> you are in a closet. there is no reason to be in here.  || Action: south                     || Reward: 0, Score: 50
+[STEP 24] |   << hallway >> you are at the end of the hallway. to the north is a r || Action: look                      || Reward: 0, Score: 50
+[STEP 25] |   << hallway >> you are at the end of the hallway. to the north is a r || Action: west                      || Reward: 0, Score: 50
+[STEP 26] |   << hallway >> you are in the hallway. to the north is more hallway,  || Action: east                      || Reward: 0, Score: 50
+[STEP 27] |   << guest room >> you are in one of the many guest rooms. it is a nic || Action: west                      || Reward: 0, Score: 50
+[STEP 28] |   << hallway >> you are in the hallway. to the north is more hallway,  || Action: north                     || Reward: 0, Score: 50
+[STEP 29] |   << hallway >> you are still in the hallway. there is even more hallw || Action: north                     || Reward: 0, Score: 50
+[STEP 30] |   << hallway >> you are still in the hallway. you can go north to wher || Action: north                     || Reward: 10, Score: 60
+[STEP 31] |   << outside >> you pass the guard. he nods at you. you are now outsid || Action: look                      || Reward: 0, Score: 60
+[STEP 32] |   << outside >> you pass the guard. he nods at you. you are now outsid || Action: east                      || Reward: 0, Score: 60
+[STEP 33] |   << video store >> you are in a video store called brickbuster video. || Action: look                      || Reward: 0, Score: 60
+[STEP 34] |   << video store >> you are in a video store called brickbuster video. || Action: east                      || Reward: 10, Score: 70
+[STEP 35] |   << video store >> you are still in the video store. you can go north || Action: east                      || Reward: 0, Score: 70
+[STEP 36] |   << outside >> you are outside. you can go north, south, east or west || Action: north                     || Reward: 10, Score: 80
+[STEP 37] |   << outside >> you are still outside. you hit a dead end, then notice || Action: east                      || Reward: 10, Score: 90
+[STEP 38] |   << music store >> you are in a music store. you ask the man behind t || Action: north                     || Reward: 10, Score: 100
+[STEP 39] |   << back of music store >> you are in the back of the music store. yo || Action: north                     || Reward: 10, Score: 110
+[STEP 40] |   << alley >> you are in an alley. a drunken man stagers up to you and || Action: north                     || Reward: 10, Score: 120
+[STEP 41] |   << police station >> you are in the 3rd precinct police station. thi || Action: look                      || Reward: 0, Score: 120
+[STEP 42] |   << police station >> you are in the 3rd precinct police station. thi || Action: north                     || Reward: 10, Score: 130
+[STEP 43] |   << outside >> you are outside. it's bitter cold and you pull your ja || Action: north                     || Reward: 10, Score: 140
+[STEP 44] |   << holiday inn >> you are in the holiday inn registration room. you  || Action: north                     || Reward: 10, Score: 150
+[STEP 45] |   << holiday inn 15th floor >> you go up the elevator. when you step o || Action: east                      || Reward: 0, Score: 150
+[STEP 46] |   << dead end >> you hit a dead end. there is a fire extinguisher here || Action: west                      || Reward: 0, Score: 150
+[STEP 47] |   << holiday inn 15th floor >> you go up the elevator. when you step o || Action: look                      || Reward: 0, Score: 150
+[STEP 48] |   << holiday inn 15th floor >> you go up the elevator. when you step o || Action: east                      || Reward: 0, Score: 150
+[STEP 49] |   << dead end >> you hit a dead end. there is a fire extinguisher here || Action: west                      || Reward: 0, Score: 150
+[STEP 50] |   << holiday inn 15th floor >> you go up the elevator. when you step o || Action: look                      || Reward: 0, Score: 150
+[STEP 51] |   << holiday inn 15th floor >> you go up the elevator. when you step o || Action: east                      || Reward: 0, Score: 150
+[STEP 52] |   << dead end >> you hit a dead end. there is a fire extinguisher here || Action: west                      || Reward: 0, Score: 150
+[STEP 53] |   << holiday inn 15th floor >> you go up the elevator. when you step o || Action: look                      || Reward: 0, Score: 150
+[STEP 54] |   << holiday inn 15th floor >> you go up the elevator. when you step o || Action: look                      || Reward: 0, Score: 150
+[STEP 55] |   << holiday inn 15th floor >> you go up the elevator. when you step o || Action: look                      || Reward: 0, Score: 150
+[STEP 56] |   << holiday inn 15th floor >> you go up the elevator. when you step o || Action: look                      || Reward: 0, Score: 150
+[STEP 57] |   << holiday inn 15th floor >> you go up the elevator. when you step o || Action: look                      || Reward: 0, Score: 150
+[STEP 58] |   << holiday inn 15th floor >> you go up the elevator. when you step o || Action: examine door              || Reward: 0, Score: 150
+[STEP 59] |  you can't see any such thing.                                         || Action: look                      || Reward: 0, Score: 150
+[STEP 60] |   << holiday inn 15th floor >> you go up the elevator. when you step o || Action: east                      || Reward: 0, Score: 150
+[STEP 61] |   << dead end >> you hit a dead end. there is a fire extinguisher here || Action: look                      || Reward: 0, Score: 150
+[STEP 62] |   << dead end >> you hit a dead end. there is a fire extinguisher here || Action: west                      || Reward: 0, Score: 150
+[STEP 63] |   << holiday inn 15th floor >> you go up the elevator. when you step o || Action: examine wall              || Reward: 0, Score: 150
+[STEP 64] |  which do you mean, the north wall, the south wall, the east wall, the || Action: examine east wall         || Reward: 0, Score: 150
+[STEP 65] |  you see nothing special about the east wall.                          || Action: examine west wall         || Reward: 0, Score: 150
+[STEP 66] |  you see nothing special about the west wall.                          || Action: look                      || Reward: 0, Score: 150
+[STEP 67] |   << holiday inn 15th floor >> you go up the elevator. when you step o || Action: look                      || Reward: 0, Score: 150
+[STEP 68] |   << holiday inn 15th floor >> you go up the elevator. when you step o || Action: look                      || Reward: 0, Score: 150
+[STEP 69] |   << holiday inn 15th floor >> you go up the elevator. when you step o || Action: look                      || Reward: 0, Score: 150
+[STEP 70] |   << holiday inn 15th floor >> you go up the elevator. when you step o || Action: look                      || Reward: 0, Score: 150
+[STEP 71] |   << holiday inn 15th floor >> you go up the elevator. when you step o || Action: look                      || Reward: 0, Score: 150
+[STEP 72] |   << holiday inn 15th floor >> you go up the elevator. when you step o || Action: look                      || Reward: 0, Score: 150
+[STEP 73] |   << holiday inn 15th floor >> you go up the elevator. when you step o || Action: look                      || Reward: 0, Score: 150
+[STEP 74] |   << holiday inn 15th floor >> you go up the elevator. when you step o || Action: look                      || Reward: 0, Score: 150
+[STEP 75] |   << holiday inn 15th floor >> you go up the elevator. when you step o || Action: east                      || Reward: 0, Score: 150
+[STEP 76] |   << dead end >> you hit a dead end. there is a fire extinguisher here || Action: west                      || Reward: 0, Score: 150
+[STEP 77] |   << holiday inn 15th floor >> you go up the elevator. when you step o || Action: look                      || Reward: 0, Score: 150
+[STEP 78] |   << holiday inn 15th floor >> you go up the elevator. when you step o || Action: look                      || Reward: 0, Score: 150
+[STEP 79] |   << holiday inn 15th floor >> you go up the elevator. when you step o || Action: look                      || Reward: 0, Score: 150
+[STEP 80] |   << holiday inn 15th floor >> you go up the elevator. when you step o || Action: look                      || Reward: 0, Score: 150
+[STEP 81] |   << holiday inn 15th floor >> you go up the elevator. when you step o || Action: look                      || Reward: 0, Score: 150
+[STEP 82] |   << holiday inn 15th floor >> you go up the elevator. when you step o || Action: west                      || Reward: 10, Score: 160
+[STEP 83] |   << hallway >> you are in the hallway. you see many doors... 1... 2.. || Action: north                     || Reward: 10, Score: 170
+[STEP 84] |   << hallway >> you are still in the hallways. you can go west or east || Action: west                      || Reward: 10, Score: 180
+[STEP 85] |   << hallway >> you are in the hallway. you see numbers flash by as yo || Action: north                     || Reward: 10, Score: 190
+[STEP 86] |   << hallway >> you are in the hallway. you feel the heat from the sau || Action: north                     || Reward: 100, Score: 290
+[STEP 87] |   << room # 30 >> you enter room 30... after a harrowing gun battle yo || Action: up                        || Reward: 0, Score: 290
+[OurAgent] New best score 290 at node 4.
+[OurAgent] Victory detected. Freezing exploration. Threshold set to 290.
+Run 5/10 finished. Score: 290
+
+--- EVALUATION SUMMARY (our method) ---
+Agent LLM Model: gpt-oss-20b
+Number of final evaluation runs: 10
+Individual Scores: [100, 20, 70, 80, 290]
+Average Score: 112.00
+Standard Deviation: 103.78
+
+Starting game run 6/10...
+[OurAgent] Exploiting best node 4 (score=290). No evolution.
+[STEP 0] |     [Type "help" for more information about this version]  Detective B || Action: read paper                || Reward: 0, Score: 10
+[STEP 1] |  confidential: detective was created by matt barringer. he has worked  || Action: north                     || Reward: 0, Score: 10
+[STEP 2] |   << outside >> you are outside in the cold. to the east is a dead end || Action: west                      || Reward: 10, Score: 20
+[STEP 3] |   << outside >> you are still on the streets. to the north is a restra || Action: east                      || Reward: 10, Score: 30
+[STEP 4] |   << mayor's house >> you are in the house, at the scene of the crime. || Action: north                     || Reward: 10, Score: 40
+[STEP 5] |   << upstairs hallway >> you are in the hallway of the large house of  || Action: north                     || Reward: 0, Score: 40
+[STEP 6] |   << hallway >> you are at the end of the hallway. to the north is a r || Action: north                     || Reward: 0, Score: 40
+[STEP 7] |   << closet >> you are in a closet. there is no reason to be in here.  || Action: south                     || Reward: 0, Score: 40
+[STEP 8] |   << hallway >> you are at the end of the hallway. to the north is a r || Action: east                      || Reward: 0, Score: 40
+[STEP 9] |  you can't go east from here!  << hallway >> you are at the end of the || Action: north                     || Reward: 0, Score: 40
+[STEP 10] |   << closet >> you are in a closet. there is no reason to be in here.  || Action: look                      || Reward: 0, Score: 40
+[STEP 11] |   << closet >> you are in a closet. there is no reason to be in here.  || Action: look                      || Reward: 0, Score: 40
+[STEP 12] |   << closet >> you are in a closet. there is no reason to be in here.  || Action: look                      || Reward: 0, Score: 40
+[STEP 13] |   << closet >> you are in a closet. there is no reason to be in here.  || Action: south                     || Reward: 0, Score: 40
+[STEP 14] |   << hallway >> you are at the end of the hallway. to the north is a r || Action: west                      || Reward: 0, Score: 40
+[STEP 15] |   << hallway >> you are in the hallway. to the north is more hallway,  || Action: east                      || Reward: 0, Score: 40
+[STEP 16] |   << guest room >> you are in one of the many guest rooms. it is a nic || Action: west                      || Reward: 0, Score: 40
+[STEP 17] |   << hallway >> you are in the hallway. to the north is more hallway,  || Action: south                     || Reward: 0, Score: 40
+[STEP 18] |  you can't go south from here!  << hallway >> you are in the hallway.  || Action: look                      || Reward: 0, Score: 40
+[STEP 19] |   << hallway >> you are in the hallway. to the north is more hallway,  || Action: west                      || Reward: 0, Score: 40
+[STEP 20] |  you can't go west from here!  << hallway >> you are in the hallway. t || Action: look                      || Reward: 0, Score: 40
+[STEP 21] |   << hallway >> you are in the hallway. to the north is more hallway,  || Action: north                     || Reward: 0, Score: 40
+[STEP 22] |   << hallway >> you are still in the hallway. there is even more hallw || Action: look                      || Reward: 0, Score: 40
+[STEP 23] |   << hallway >> you are still in the hallway. there is even more hallw || Action: north                     || Reward: 0, Score: 40
+[STEP 24] |   << hallway >> you are still in the hallway. you can go north to wher || Action: north                     || Reward: 10, Score: 50
+[STEP 25] |   << outside >> you pass the guard. he nods at you. you are now outsid || Action: north                     || Reward: 0, Score: 50
+[STEP 26] |   << dead end >> you are at a dead end. you can go south or west. whic || Action: look                      || Reward: 0, Score: 50
+[STEP 27] |   << dead end >> you are at a dead end. you can go south or west. whic || Action: south                     || Reward: 0, Score: 50
+[STEP 28] |   << outside >> you pass the guard. he nods at you. you are now outsid || Action: east                      || Reward: 0, Score: 50
+[STEP 29] |   << video store >> you are in a video store called brickbuster video. || Action: look                      || Reward: 0, Score: 50
+[STEP 30] |   << video store >> you are in a video store called brickbuster video. || Action: east                      || Reward: 10, Score: 60
+[STEP 31] |   << video store >> you are still in the video store. you can go north || Action: north                     || Reward: 0, Score: 60
+[STEP 32] |   << closet >> you are in a closet. there is no use for being here. go || Action: south                     || Reward: 0, Score: 60
+[STEP 33] |   << video store >> you are still in the video store. you can go north || Action: look                      || Reward: 0, Score: 60
+[STEP 34] |   << video store >> you are still in the video store. you can go north || Action: east                      || Reward: 0, Score: 60
+[STEP 35] |   << outside >> you are outside. you can go north, south, east or west || Action: look                      || Reward: 0, Score: 60
+[STEP 36] |   << outside >> you are outside. you can go north, south, east or west || Action: look                      || Reward: 0, Score: 60
+[STEP 37] |   << outside >> you are outside. you can go north, south, east or west || Action: look                      || Reward: 0, Score: 60
+[STEP 38] |   << outside >> you are outside. you can go north, south, east or west || Action: north                     || Reward: 10, Score: 70
+[STEP 39] |   << outside >> you are still outside. you hit a dead end, then notice || Action: east                      || Reward: 10, Score: 80
+[STEP 40] |   << music store >> you are in a music store. you ask the man behind t || Action: north                     || Reward: 10, Score: 90
+[STEP 41] |   << back of music store >> you are in the back of the music store. yo || Action: north                     || Reward: 10, Score: 100
+[STEP 42] |   << alley >> you are in an alley. a drunken man stagers up to you and || Action: north                     || Reward: 10, Score: 110
+[STEP 43] |   << police station >> you are in the 3rd precinct police station. thi || Action: look                      || Reward: 0, Score: 110
+[STEP 44] |   << police station >> you are in the 3rd precinct police station. thi || Action: look                      || Reward: 0, Score: 110
+[STEP 45] |   << police station >> you are in the 3rd precinct police station. thi || Action: look                      || Reward: 0, Score: 110
+[STEP 46] |   << police station >> you are in the 3rd precinct police station. thi || Action: north                     || Reward: 10, Score: 120
+[STEP 47] |   << outside >> you are outside. it's bitter cold and you pull your ja || Action: north                     || Reward: 10, Score: 130
+[STEP 48] |   << holiday inn >> you are in the holiday inn registration room. you  || Action: north                     || Reward: 10, Score: 140
+[STEP 49] |   << holiday inn 15th floor >> you go up the elevator. when you step o || Action: west                      || Reward: 10, Score: 150
+[STEP 50] |   << hallway >> you are in the hallway. you see many doors... 1... 2.. || Action: north                     || Reward: 10, Score: 160
+[STEP 51] |   << hallway >> you are still in the hallways. you can go west or east || Action: look                      || Reward: 0, Score: 160
+[STEP 52] |   << hallway >> you are still in the hallways. you can go west or east || Action: east                      || Reward: 0, Score: 160
+[OurAgent] Missed win with frozen prompt. Unfreezing and resuming evolution.
+Run 6/10 finished. Score: 160
+
+--- EVALUATION SUMMARY (our method) ---
+Agent LLM Model: gpt-oss-20b
+Number of final evaluation runs: 10
+Individual Scores: [100, 20, 70, 80, 290, 160]
+Average Score: 120.00
+Standard Deviation: 94.87
+
+Starting game run 7/10...
+[DACS] enabled=True game=detective
+[DACS] num raw candidates = 6 archived=0
+[DACS] num filtered candidates = 4
+[DACS] selected/reordered candidate ids = [4, 3, 1, 0]
+[DACS] candidate score table:
+  id | relevance | diversity | risk | final_score | summary
+  4 | 0.462 | 1.0 | 0.12 | 1.078 | [Guiding Prompt]   You are a detective in a text adventure. Your mission is to g
+  3 | 0.521 | 0.667 | 0.122 | 0.824 | **Guiding Prompt**  1. Read the sheet of paper in the Chief’s office before movi
+  1 | 0.41 | 0.679 | 0.123 | 0.676 | **Guiding Prompt**  - **Core Progress Actions**     1. *Read the sheet of paper*
+  0 | 0.075 | 0.911 | 0.006 | 0.595 | Explore systematically and examine objects to make progress.
+[DACS] fallback=False
+Parent node 4 at depth 1 with UCB score: 290.7572073891299
+
+Evolving prompt. Current prompt: '[Guiding Prompt]  
+You are a detective in a text adventure. Your mission is to g...'
+
+Current state extractor code: 'def extract_state(game_history):
+    lower = game_history.lower()
+    parts = []...'
+
+
+Evolution LLM returned invalid state extractor code, keeping current code
+Evolved guiding prompt and code: '**Guiding Prompt**  
+You are a detective in a text adventure. Your task is to collect evidence, avoid unnecessary actions that waste turns or cause death, and finish the game.  
+Follow these **strictly necessary** actions (in the exact order they were required in the successful playthrough). Do NOT add any extra or speculative commands.  
+
+1. **Chief’s office**  
+   - `read paper` (this gives the initial instructions).  
+
+2. **Street**  
+   - `north` (to the street).  
+   - `west` (to the street).  
+   - `east` (to mayor’s house).  
+
+3. **Mayor’s house**  
+   - `west` (to dining room).  
+   - `examine note`  
+   - `read note`  
+   - `east` (to living room).  
+   - `examine wood`  
+   - `north` (to upstairs hallway).  
+
+4. **Upstairs hallway**  
+   - `north` (to end of hallway).  
+   - `south` (back to main floor).  
+   - `east` (to guest rooms).  
+   - `west` (to living room).  
+   - `north` (to police officer).  
+
+5. **Outside**  
+   - `east` (to video store).  
+   - `north` (to music store).  
+   - `north` (to back of music store).  
+   - `north` (to alley).  
+   - `north` (to police station).  
+   - `north` (back to street).  
+   - `north` (to holiday inn).  
+
+6. **Holiday Inn**  
+   - `north` (to 15th floor).  
+   - `east` repeatedly until you find **room #30**.  
+   - `up` (to exit).  
+
+7. **Info screen**  
+   - The game ends here; you have won.
+
+**Disallowed patterns**  
+- Avoid any sequence that repeats `look`, `inventory`, `examine man`, `take gun`, etc.  
+- Do not `look` unless you need to discover a new object or confirm a clue.  
+- Do not `take` or `examine` items that are not explicitly tied to evidence, clues, or weapons.  
+
+**If stuck**  
+- List the rooms you have not fully explored (e.g., living room, dining room, upstairs rooms, guest rooms).  
+- Systematically `go` to each, `look`, `examine`, and `take` only if the object mentions evidence, a clue, or a weapon.  
+- If no new rooms or items appear, consider exiting the house or exploring external locations (video store, music store, police station, holiday inn).  
+
+Keep the action list short; each command should move you toward a new location or evidence.  
+
+---
+
+```python
+def extract_state(game_history):
+    import re
+    milestones = []
+    if re.search(r'\bread paper\b', game_history, re.I):
+        milestones.append('Read paper')
+    if re.search(r'\bread note\b', game_history, re.I):
+        milestones.append('Read note')
+    if re.search(r'\bexamine wood\b', game_history, re.I):
+        milestones.append('Examine wood')
+    if re.search(r'\bupstairs hallway\b', game_history, re.I):
+        milestones.append('Explored upstairs hallway')
+    if re.search(r'\bguest room\b', game_history, re.I):
+        milestones.append('Explored guest rooms')
+    if re.search(r'\bmaster ring\b', game_history, re.I):
+        milestones.append('Got master ring')
+    if re.search(r'\broom #30\b', game_history, re.I):
+        milestones.append('Found room #30')
+    if re.search(r'\bup\b', game_history, re.I) and re.search(r'room #30', game_history, re.I):
+        milestones.append('Exited room #30')
+    if re.search(r'\byou have won\b', game_history, re.I):
+        milestones.append('Game finished')
+    if not milestones:
+        return 'Unknown state.'
+    return '; '.join(milestones)
+```'
+def extract_state(game_history):
+    lower = game_history.lower()
+    parts = []
+    if "read paper" in lower:
+        parts.append("Read paper")
+    if "read note" in lower:
+        parts.append("Read note")
+    if "mayor's house" in lower or "mayor's house" in lower:
+        parts.append("Entered mayor's house")
+    if "upstairs hallway" in lower or "upstairs" in lower:
+        parts.append("Explored upstairs hallway")
+    if "living room" in lower:
+        parts.append("Explored living room")
+    if "dining room" in lower:
+        parts.append("Explored dining room")
+    if "music store" in lower:
+        parts.append("In music store")
+    if "*** you have died ***" in lower:
+        parts.append("Agent died")
+    if not parts:
+        return "Unknown state."
+    return "; ".join(parts) + "."
+[STEP 0] |     [Type "help" for more information about this version]  Detective B || Action: north                     || Reward: 0, Score: 10
+[STEP 1] |   << outside >> you are outside in the cold. to the east is a dead end || Action: look                      || Reward: 0, Score: 10
+[STEP 2] |   << outside >> you are outside in the cold. to the east is a dead end || Action: west                      || Reward: 10, Score: 20
+[STEP 3] |   << outside >> you are still on the streets. to the north is a restra || Action: east                      || Reward: 10, Score: 30
+[STEP 4] |   << mayor's house >> you are in the house, at the scene of the crime. || Action: west                      || Reward: 0, Score: 30
+[STEP 5] |   << dining room >> you are in the dining room. you look around and se || Action: examine note              || Reward: 0, Score: 30
+[STEP 6] |  it is a note. with writing on it.                                     || Action: read note                 || Reward: 0, Score: 30
+[STEP 7] |  the note was written on a computer obviously this murder was planned  || Action: east                      || Reward: 0, Score: 30
+[STEP 8] |   << mayor's house >> you are in the house, at the scene of the crime. || Action: east                      || Reward: 0, Score: 30
+[STEP 9] |   << living room >> you are standing in the living room. you see a bat || Action: examine wood              || Reward: 0, Score: 30
+[STEP 10] |  you look at it closely and figure that the guys in the forensic's lab || Action: north                     || Reward: 0, Score: 30
+[STEP 11] |  you can't go north from here!  << living room >> you are standing in  || Action: look                      || Reward: 0, Score: 30
+[STEP 12] |   << living room >> you are standing in the living room. you see a bat || Action: look                      || Reward: 0, Score: 30
+[STEP 13] |   << living room >> you are standing in the living room. you see a bat || Action: look                      || Reward: 0, Score: 30
+[STEP 14] |   << living room >> you are standing in the living room. you see a bat || Action: look                      || Reward: 0, Score: 30
+[STEP 15] |   << living room >> you are standing in the living room. you see a bat || Action: west                      || Reward: 0, Score: 30
+[STEP 16] |   << mayor's house >> you are in the house, at the scene of the crime. || Action: look                      || Reward: 0, Score: 30
+[STEP 17] |   << mayor's house >> you are in the house, at the scene of the crime. || Action: east                      || Reward: 0, Score: 30
+[STEP 18] |   << living room >> you are standing in the living room. you see a bat || Action: look                      || Reward: 0, Score: 30
+[STEP 19] |   << living room >> you are standing in the living room. you see a bat || Action: west                      || Reward: 0, Score: 30
+[STEP 20] |   << mayor's house >> you are in the house, at the scene of the crime. || Action: look                      || Reward: 0, Score: 30
+[STEP 21] |   << mayor's house >> you are in the house, at the scene of the crime. || Action: east                      || Reward: 0, Score: 30
+[STEP 22] |   << living room >> you are standing in the living room. you see a bat || Action: look                      || Reward: 0, Score: 30
+[STEP 23] |   << living room >> you are standing in the living room. you see a bat || Action: look                      || Reward: 0, Score: 30
+[STEP 24] |   << living room >> you are standing in the living room. you see a bat || Action: look                      || Reward: 0, Score: 30
+[STEP 25] |   << living room >> you are standing in the living room. you see a bat || Action: look                      || Reward: 0, Score: 30
+[STEP 26] |   << living room >> you are standing in the living room. you see a bat || Action: look                      || Reward: 0, Score: 30
+[STEP 27] |   << living room >> you are standing in the living room. you see a bat || Action: look                      || Reward: 0, Score: 30
+[STEP 28] |   << living room >> you are standing in the living room. you see a bat || Action: look                      || Reward: 0, Score: 30
+[STEP 29] |   << living room >> you are standing in the living room. you see a bat || Action: examine wood              || Reward: 0, Score: 30
+[STEP 30] |  you look at it closely and figure that the guys in the forensic's lab || Action: look                      || Reward: 0, Score: 30
+[STEP 31] |   << living room >> you are standing in the living room. you see a bat || Action: look                      || Reward: 0, Score: 30
+[STEP 32] |   << living room >> you are standing in the living room. you see a bat || Action: look                      || Reward: 0, Score: 30
+[STEP 33] |   << living room >> you are standing in the living room. you see a bat || Action: look                      || Reward: 0, Score: 30
+[STEP 34] |   << living room >> you are standing in the living room. you see a bat || Action: west                      || Reward: 0, Score: 30
+[STEP 35] |   << mayor's house >> you are in the house, at the scene of the crime. || Action: look                      || Reward: 0, Score: 30
+[STEP 36] |   << mayor's house >> you are in the house, at the scene of the crime. || Action: east                      || Reward: 0, Score: 30
+[STEP 37] |   << living room >> you are standing in the living room. you see a bat || Action: west                      || Reward: 0, Score: 30
+[STEP 38] |   << mayor's house >> you are in the house, at the scene of the crime. || Action: east                      || Reward: 0, Score: 30
+[STEP 39] |   << living room >> you are standing in the living room. you see a bat || Action: look                      || Reward: 0, Score: 30
+[STEP 40] |   << living room >> you are standing in the living room. you see a bat || Action: examine wood              || Reward: 0, Score: 30
+[STEP 41] |  you look at it closely and figure that the guys in the forensic's lab || Action: look                      || Reward: 0, Score: 30
+[STEP 42] |   << living room >> you are standing in the living room. you see a bat || Action: look                      || Reward: 0, Score: 30
+[STEP 43] |   << living room >> you are standing in the living room. you see a bat || Action: examine wood              || Reward: 0, Score: 30
+[STEP 44] |  you look at it closely and figure that the guys in the forensic's lab || Action: north                     || Reward: 0, Score: 30
+[STEP 45] |  you can't go north from here!  << living room >> you are standing in  || Action: west                      || Reward: 0, Score: 30
+[STEP 46] |   << mayor's house >> you are in the house, at the scene of the crime. || Action: look                      || Reward: 0, Score: 30
+[STEP 47] |   << mayor's house >> you are in the house, at the scene of the crime. || Action: look                      || Reward: 0, Score: 30
+[STEP 48] |   << mayor's house >> you are in the house, at the scene of the crime. || Action: west                      || Reward: 0, Score: 30
+[STEP 49] |   << dining room >> you are in the dining room. you look around and se || Action: examine note              || Reward: 0, Score: 30
+[STEP 50] |  it is a note. with writing on it.                                     || Action: read note                 || Reward: 0, Score: 30
+[STEP 51] |  the note was written on a computer obviously this murder was planned  || Action: look                      || Reward: 0, Score: 30
+[STEP 52] |   << dining room >> you are in the dining room. you look around and se || Action: east                      || Reward: 0, Score: 30
+[STEP 53] |   << mayor's house >> you are in the house, at the scene of the crime. || Action: east                      || Reward: 0, Score: 30
+[STEP 54] |   << living room >> you are standing in the living room. you see a bat || Action: examine wood              || Reward: 0, Score: 30
+[STEP 55] |  you look at it closely and figure that the guys in the forensic's lab || Action: look                      || Reward: 0, Score: 30
+[STEP 56] |   << living room >> you are standing in the living room. you see a bat || Action: west                      || Reward: 0, Score: 30
+[STEP 57] |   << mayor's house >> you are in the house, at the scene of the crime. || Action: east                      || Reward: 0, Score: 30
+[STEP 58] |   << living room >> you are standing in the living room. you see a bat || Action: examine wood              || Reward: 0, Score: 30
+[STEP 59] |  you look at it closely and figure that the guys in the forensic's lab || Action: look                      || Reward: 0, Score: 30
+[STEP 60] |   << living room >> you are standing in the living room. you see a bat || Action: look                      || Reward: 0, Score: 30
+[STEP 61] |   << living room >> you are standing in the living room. you see a bat || Action: look                      || Reward: 0, Score: 30
+[STEP 62] |   << living room >> you are standing in the living room. you see a bat || Action: examine wood              || Reward: 0, Score: 30
+[STEP 63] |  you look at it closely and figure that the guys in the forensic's lab || Action: north                     || Reward: 0, Score: 30
+[STEP 64] |  you can't go north from here!  << living room >> you are standing in  || Action: look                      || Reward: 0, Score: 30
+[STEP 65] |   << living room >> you are standing in the living room. you see a bat || Action: look                      || Reward: 0, Score: 30
+[STEP 66] |   << living room >> you are standing in the living room. you see a bat || Action: look                      || Reward: 0, Score: 30
+[STEP 67] |   << living room >> you are standing in the living room. you see a bat || Action: look                      || Reward: 0, Score: 30
+[STEP 68] |   << living room >> you are standing in the living room. you see a bat || Action: look                      || Reward: 0, Score: 30
+[STEP 69] |   << living room >> you are standing in the living room. you see a bat || Action: look                      || Reward: 0, Score: 30
+[STEP 70] |   << living room >> you are standing in the living room. you see a bat || Action: examine wood              || Reward: 0, Score: 30
+[STEP 71] |  you look at it closely and figure that the guys in the forensic's lab || Action: look                      || Reward: 0, Score: 30
+[STEP 72] |   << living room >> you are standing in the living room. you see a bat || Action: look                      || Reward: 0, Score: 30
+[STEP 73] |   << living room >> you are standing in the living room. you see a bat || Action: look                      || Reward: 0, Score: 30
+[STEP 74] |   << living room >> you are standing in the living room. you see a bat || Action: look                      || Reward: 0, Score: 30
+[STEP 75] |   << living room >> you are standing in the living room. you see a bat || Action: look                      || Reward: 0, Score: 30
+[STEP 76] |   << living room >> you are standing in the living room. you see a bat || Action: look                      || Reward: 0, Score: 30
+[STEP 77] |   << living room >> you are standing in the living room. you see a bat || Action: look                      || Reward: 0, Score: 30
+[STEP 78] |   << living room >> you are standing in the living room. you see a bat || Action: look                      || Reward: 0, Score: 30
+[STEP 79] |   << living room >> you are standing in the living room. you see a bat || Action: look                      || Reward: 0, Score: 30
+[STEP 80] |   << living room >> you are standing in the living room. you see a bat || Action: look                      || Reward: 0, Score: 30
+[STEP 81] |   << living room >> you are standing in the living room. you see a bat || Action: look                      || Reward: 0, Score: 30
+[STEP 82] |   << living room >> you are standing in the living room. you see a bat || Action: look                      || Reward: 0, Score: 30
+[STEP 83] |   << living room >> you are standing in the living room. you see a bat || Action: look                      || Reward: 0, Score: 30
+[STEP 84] |   << living room >> you are standing in the living room. you see a bat || Action: look                      || Reward: 0, Score: 30
+[STEP 85] |   << living room >> you are standing in the living room. you see a bat || Action: look                      || Reward: 0, Score: 30
+[STEP 86] |   << living room >> you are standing in the living room. you see a bat || Action: look                      || Reward: 0, Score: 30
+[STEP 87] |   << living room >> you are standing in the living room. you see a bat || Action: look                      || Reward: 0, Score: 30
+[STEP 88] |   << living room >> you are standing in the living room. you see a bat || Action: look                      || Reward: 0, Score: 30
+[STEP 89] |   << living room >> you are standing in the living room. you see a bat || Action: look                      || Reward: 0, Score: 30
+[STEP 90] |   << living room >> you are standing in the living room. you see a bat || Action: take wood                 || Reward: 10, Score: 40
+[STEP 91] |  taken.  [your score has just gone up by ten points.]                  || Action: look                      || Reward: 0, Score: 40
+[STEP 92] |   << living room >> you are standing in the living room. you see a bat || Action: look                      || Reward: 0, Score: 40
+[STEP 93] |   << living room >> you are standing in the living room. you see a bat || Action: take wood                 || Reward: 0, Score: 40
+[STEP 94] |  you already have that.                                                || Action: look                      || Reward: 0, Score: 40
+[STEP 95] |   << living room >> you are standing in the living room. you see a bat || Action: look                      || Reward: 0, Score: 40
+[STEP 96] |   << living room >> you are standing in the living room. you see a bat || Action: examine wood              || Reward: 0, Score: 40
+[STEP 97] |  you look at it closely and figure that the guys in the forensic's lab || Action: look                      || Reward: 0, Score: 40
+[STEP 98] |   << living room >> you are standing in the living room. you see a bat || Action: north                     || Reward: 0, Score: 40
+[STEP 99] |  you can't go north from here!  << living room >> you are standing in  || Action: look                      || Reward: 0, Score: 40
+[STEP 100] |   << living room >> you are standing in the living room. you see a bat || Action: examine wood              || Reward: 0, Score: 40
+[STEP 101] |  you look at it closely and figure that the guys in the forensic's lab || Action: look                      || Reward: 0, Score: 40
+[STEP 102] |   << living room >> you are standing in the living room. you see a bat || Action: look                      || Reward: 0, Score: 40
+[STEP 103] |   << living room >> you are standing in the living room. you see a bat || Action: look                      || Reward: 0, Score: 40
+[STEP 104] |   << living room >> you are standing in the living room. you see a bat || Action: examine wood              || Reward: 0, Score: 40
+[STEP 105] |  you look at it closely and figure that the guys in the forensic's lab || Action: look                      || Reward: 0, Score: 40
+[STEP 106] |   << living room >> you are standing in the living room. you see a bat || Action: look                      || Reward: 0, Score: 40
+[STEP 107] |   << living room >> you are standing in the living room. you see a bat || Action: look                      || Reward: 0, Score: 40
+[STEP 108] |   << living room >> you are standing in the living room. you see a bat || Action: examine wood              || Reward: 0, Score: 40
+[STEP 109] |  you look at it closely and figure that the guys in the forensic's lab || Action: look                      || Reward: 0, Score: 40
+Run 7/10 finished. Score: 40
+
+--- EVALUATION SUMMARY (our method) ---
+Agent LLM Model: gpt-oss-20b
+Number of final evaluation runs: 10
+Individual Scores: [100, 20, 70, 80, 290, 160, 40]
+Average Score: 108.57
+Standard Deviation: 91.73
+
+Starting game run 8/10...
+[OurAgent] Exploiting best node 4 (score=290). No evolution.
+[STEP 0] |     [Type "help" for more information about this version]  Detective B || Action: read paper                || Reward: 0, Score: 10
+[STEP 1] |  confidential: detective was created by matt barringer. he has worked  || Action: north                     || Reward: 0, Score: 10
+[STEP 2] |   << outside >> you are outside in the cold. to the east is a dead end || Action: north                     || Reward: 0, Score: 10
+[STEP 3] |  you can't go north from here!  << outside >> you are outside in the c || Action: west                      || Reward: 10, Score: 20
+[STEP 4] |   << outside >> you are still on the streets. to the north is a restra || Action: east                      || Reward: 10, Score: 30
+[STEP 5] |   << mayor's house >> you are in the house, at the scene of the crime. || Action: west                      || Reward: 0, Score: 30
+[STEP 6] |   << dining room >> you are in the dining room. you look around and se || Action: read note                 || Reward: 0, Score: 30
+[STEP 7] |  the note was written on a computer obviously this murder was planned  || Action: north                     || Reward: 0, Score: 30
+[STEP 8] |  you can't go north from here!  << dining room >> you are in the dinin || Action: east                      || Reward: 0, Score: 30
+[STEP 9] |   << mayor's house >> you are in the house, at the scene of the crime. || Action: north                     || Reward: 10, Score: 40
+[STEP 10] |   << upstairs hallway >> you are in the hallway of the large house of  || Action: north                     || Reward: 0, Score: 40
+[STEP 11] |   << hallway >> you are at the end of the hallway. to the north is a r || Action: north                     || Reward: 0, Score: 40
+[STEP 12] |   << closet >> you are in a closet. there is no reason to be in here.  || Action: south                     || Reward: 0, Score: 40
+[STEP 13] |   << hallway >> you are at the end of the hallway. to the north is a r || Action: look                      || Reward: 0, Score: 40
+[STEP 14] |   << hallway >> you are at the end of the hallway. to the north is a r || Action: north                     || Reward: 0, Score: 40
+[STEP 15] |   << closet >> you are in a closet. there is no reason to be in here.  || Action: south                     || Reward: 0, Score: 40
+[STEP 16] |   << hallway >> you are at the end of the hallway. to the north is a r || Action: west                      || Reward: 0, Score: 40
+[STEP 17] |   << hallway >> you are in the hallway. to the north is more hallway,  || Action: east                      || Reward: 0, Score: 40
+[STEP 18] |   << guest room >> you are in one of the many guest rooms. it is a nic || Action: west                      || Reward: 0, Score: 40
+[STEP 19] |   << hallway >> you are in the hallway. to the north is more hallway,  || Action: south                     || Reward: 0, Score: 40
+[STEP 20] |  you can't go south from here!  << hallway >> you are in the hallway.  || Action: look                      || Reward: 0, Score: 40
+[STEP 21] |   << hallway >> you are in the hallway. to the north is more hallway,  || Action: down                      || Reward: 0, Score: 40
+[STEP 22] |  you can't go down from here!  << hallway >> you are in the hallway. t || Action: look                      || Reward: 0, Score: 40
+[STEP 23] |   << hallway >> you are in the hallway. to the north is more hallway,  || Action: look                      || Reward: 0, Score: 40
+[STEP 24] |   << hallway >> you are in the hallway. to the north is more hallway,  || Action: west                      || Reward: 0, Score: 40
+[STEP 25] |  you can't go west from here!  << hallway >> you are in the hallway. t || Action: look                      || Reward: 0, Score: 40
+[STEP 26] |   << hallway >> you are in the hallway. to the north is more hallway,  || Action: look                      || Reward: 0, Score: 40
+[STEP 27] |   << hallway >> you are in the hallway. to the north is more hallway,  || Action: look                      || Reward: 0, Score: 40
+[STEP 28] |   << hallway >> you are in the hallway. to the north is more hallway,  || Action: look                      || Reward: 0, Score: 40
+[STEP 29] |   << hallway >> you are in the hallway. to the north is more hallway,  || Action: look                      || Reward: 0, Score: 40
+[STEP 30] |   << hallway >> you are in the hallway. to the north is more hallway,  || Action: look                      || Reward: 0, Score: 40
+[STEP 31] |   << hallway >> you are in the hallway. to the north is more hallway,  || Action: east                      || Reward: 0, Score: 40
+[STEP 32] |   << guest room >> you are in one of the many guest rooms. it is a nic || Action: look                      || Reward: 0, Score: 40
+[STEP 33] |   << guest room >> you are in one of the many guest rooms. it is a nic || Action: west                      || Reward: 0, Score: 40
+[STEP 34] |   << hallway >> you are in the hallway. to the north is more hallway,  || Action: look                      || Reward: 0, Score: 40
+[STEP 35] |   << hallway >> you are in the hallway. to the north is more hallway,  || Action: north                     || Reward: 0, Score: 40
+[STEP 36] |   << hallway >> you are still in the hallway. there is even more hallw || Action: west                      || Reward: 0, Score: 40
+[STEP 37] |   << closet >> you are in a closet. there is no reason to be in here.  || Action: south                     || Reward: 0, Score: 40
+[STEP 38] |  you can't go south from here!  << closet >> you are in a closet. ther || Action: look                      || Reward: 0, Score: 40
+[STEP 39] |   << closet >> you are in a closet. there is no reason to be in here.  || Action: look                      || Reward: 0, Score: 40
+[STEP 40] |   << closet >> you are in a closet. there is no reason to be in here.  || Action: look                      || Reward: 0, Score: 40
+[STEP 41] |   << closet >> you are in a closet. there is no reason to be in here.  || Action: north                     || Reward: 0, Score: 40
+[STEP 42] |  you can't go north from here!  << closet >> you are in a closet. ther || Action: look                      || Reward: 0, Score: 40
+[STEP 43] |   << closet >> you are in a closet. there is no reason to be in here.  || Action: look                      || Reward: 0, Score: 40
+[STEP 44] |   << closet >> you are in a closet. there is no reason to be in here.  || Action: look                      || Reward: 0, Score: 40
+[STEP 45] |   << closet >> you are in a closet. there is no reason to be in here.  || Action: look                      || Reward: 0, Score: 40
+[STEP 46] |   << closet >> you are in a closet. there is no reason to be in here.  || Action: look                      || Reward: 0, Score: 40
+[STEP 47] |   << closet >> you are in a closet. there is no reason to be in here.  || Action: examine closet            || Reward: 0, Score: 40
+[STEP 48] |  you can't see any such thing.                                         || Action: look                      || Reward: 0, Score: 40
+[STEP 49] |   << closet >> you are in a closet. there is no reason to be in here.  || Action: east                      || Reward: 0, Score: 40
+[STEP 50] |  you can't go east from here!  << closet >> you are in a closet. there || Action: look                      || Reward: 0, Score: 40
+[STEP 51] |   << closet >> you are in a closet. there is no reason to be in here.  || Action: up                        || Reward: 0, Score: 40
+[STEP 52] |  you can't go up from here!  << closet >> you are in a closet. there i || Action: open closet               || Reward: 0, Score: 40
+[STEP 53] |  you can't see any such thing.                                         || Action: look                      || Reward: 0, Score: 40
+[STEP 54] |   << closet >> you are in a closet. there is no reason to be in here.  || Action: look                      || Reward: 0, Score: 40
+[STEP 55] |   << closet >> you are in a closet. there is no reason to be in here.  || Action: look                      || Reward: 0, Score: 40
+[STEP 56] |   << closet >> you are in a closet. there is no reason to be in here.  || Action: look                      || Reward: 0, Score: 40
+[STEP 57] |   << closet >> you are in a closet. there is no reason to be in here.  || Action: look                      || Reward: 0, Score: 40
+[STEP 58] |   << closet >> you are in a closet. there is no reason to be in here.  || Action: look                      || Reward: 0, Score: 40
+[STEP 59] |   << closet >> you are in a closet. there is no reason to be in here.  || Action: look                      || Reward: 0, Score: 40
+[STEP 60] |   << closet >> you are in a closet. there is no reason to be in here.  || Action: look                      || Reward: 0, Score: 40
+[STEP 61] |   << closet >> you are in a closet. there is no reason to be in here.  || Action: look                      || Reward: 0, Score: 40
+[STEP 62] |   << closet >> you are in a closet. there is no reason to be in here.  || Action: look                      || Reward: 0, Score: 40
+[STEP 63] |   << closet >> you are in a closet. there is no reason to be in here.  || Action: search closet             || Reward: 0, Score: 40
+[STEP 64] |  you can't see any such thing.                                         || Action: look                      || Reward: 0, Score: 40
+[STEP 65] |   << closet >> you are in a closet. there is no reason to be in here.  || Action: look                      || Reward: 0, Score: 40
+[STEP 66] |   << closet >> you are in a closet. there is no reason to be in here.  || Action: look                      || Reward: 0, Score: 40
+[STEP 67] |   << closet >> you are in a closet. there is no reason to be in here.  || Action: look                      || Reward: 0, Score: 40
+[STEP 68] |   << closet >> you are in a closet. there is no reason to be in here.  || Action: look                      || Reward: 0, Score: 40
+[STEP 69] |   << closet >> you are in a closet. there is no reason to be in here.  || Action: look                      || Reward: 0, Score: 40
+[STEP 70] |   << closet >> you are in a closet. there is no reason to be in here.  || Action: look                      || Reward: 0, Score: 40
+[STEP 71] |   << closet >> you are in a closet. there is no reason to be in here.  || Action: west                      || Reward: 0, Score: 40
+[STEP 72] |   << hallway >> you are still in the hallway. there is even more hallw || Action: north                     || Reward: 0, Score: 40
+[STEP 73] |   << hallway >> you are still in the hallway. you can go north to wher || Action: north                     || Reward: 10, Score: 50
+[STEP 74] |   << outside >> you pass the guard. he nods at you. you are now outsid || Action: east                      || Reward: 0, Score: 50
+[STEP 75] |   << video store >> you are in a video store called brickbuster video. || Action: look                      || Reward: 0, Score: 50
+[STEP 76] |   << video store >> you are in a video store called brickbuster video. || Action: look                      || Reward: 0, Score: 50
+[STEP 77] |   << video store >> you are in a video store called brickbuster video. || Action: look                      || Reward: 0, Score: 50
+[STEP 78] |   << video store >> you are in a video store called brickbuster video. || Action: east                      || Reward: 10, Score: 60
+[STEP 79] |   << video store >> you are still in the video store. you can go north || Action: north                     || Reward: 0, Score: 60
+[STEP 80] |   << closet >> you are in a closet. there is no use for being here. go || Action: south                     || Reward: 0, Score: 60
+[STEP 81] |   << video store >> you are still in the video store. you can go north || Action: north                     || Reward: 0, Score: 60
+[STEP 82] |   << closet >> you are in a closet. there is no use for being here. go || Action: south                     || Reward: 0, Score: 60
+[STEP 83] |   << video store >> you are still in the video store. you can go north || Action: west                      || Reward: 0, Score: 60
+[STEP 84] |  you can't go west from here!  << video store >> you are still in the  || Action: look                      || Reward: 0, Score: 60
+[STEP 85] |   << video store >> you are still in the video store. you can go north || Action: look                      || Reward: 0, Score: 60
+[STEP 86] |   << video store >> you are still in the video store. you can go north || Action: look                      || Reward: 0, Score: 60
+[STEP 87] |   << video store >> you are still in the video store. you can go north || Action: look                      || Reward: 0, Score: 60
+[STEP 88] |   << video store >> you are still in the video store. you can go north || Action: look                      || Reward: 0, Score: 60
+[STEP 89] |   << video store >> you are still in the video store. you can go north || Action: look                      || Reward: 0, Score: 60
+[STEP 90] |   << video store >> you are still in the video store. you can go north || Action: east                      || Reward: 0, Score: 60
+[STEP 91] |   << outside >> you are outside. you can go north, south, east or west || Action: north                     || Reward: 10, Score: 70
+[STEP 92] |   << outside >> you are still outside. you hit a dead end, then notice || Action: look                      || Reward: 0, Score: 70
+[STEP 93] |   << outside >> you are still outside. you hit a dead end, then notice || Action: east                      || Reward: 10, Score: 80
+[STEP 94] |   << music store >> you are in a music store. you ask the man behind t || Action: north                     || Reward: 10, Score: 90
+[STEP 95] |   << back of music store >> you are in the back of the music store. yo || Action: north                     || Reward: 10, Score: 100
+[STEP 96] |   << alley >> you are in an alley. a drunken man stagers up to you and || Action: north                     || Reward: 10, Score: 110
+[STEP 97] |   << police station >> you are in the 3rd precinct police station. thi || Action: look                      || Reward: 0, Score: 110
+[STEP 98] |   << police station >> you are in the 3rd precinct police station. thi || Action: north                     || Reward: 10, Score: 120
+[STEP 99] |   << outside >> you are outside. it's bitter cold and you pull your ja || Action: look                      || Reward: 0, Score: 120
+[STEP 100] |   << outside >> you are outside. it's bitter cold and you pull your ja || Action: north                     || Reward: 10, Score: 130
+[STEP 101] |   << holiday inn >> you are in the holiday inn registration room. you  || Action: north                     || Reward: 10, Score: 140
+[STEP 102] |   << holiday inn 15th floor >> you go up the elevator. when you step o || Action: west                      || Reward: 10, Score: 150
+[STEP 103] |   << hallway >> you are in the hallway. you see many doors... 1... 2.. || Action: north                     || Reward: 10, Score: 160
+[STEP 104] |   << hallway >> you are still in the hallways. you can go west or east || Action: west                      || Reward: 10, Score: 170
+[STEP 105] |   << hallway >> you are in the hallway. you see numbers flash by as yo || Action: north                     || Reward: 10, Score: 180
+[STEP 106] |   << hallway >> you are in the hallway. you feel the heat from the sau || Action: look                      || Reward: 0, Score: 180
+[STEP 107] |   << hallway >> you are in the hallway. you feel the heat from the sau || Action: look                      || Reward: 0, Score: 180
+[STEP 108] |   << hallway >> you are in the hallway. you feel the heat from the sau || Action: look                      || Reward: 0, Score: 180
+[STEP 109] |   << hallway >> you are in the hallway. you feel the heat from the sau || Action: north                     || Reward: 100, Score: 280
+[OurAgent] Victory detected. Freezing exploration. Threshold set to 280.
+Run 8/10 finished. Score: 280
+
+--- EVALUATION SUMMARY (our method) ---
+Agent LLM Model: gpt-oss-20b
+Number of final evaluation runs: 10
+Individual Scores: [100, 20, 70, 80, 290, 160, 40, 280]
+Average Score: 130.00
+Standard Deviation: 104.33
+
+Starting game run 9/10...
+[OurAgent] Exploiting best node 4 (score=290). No evolution.
+[STEP 0] |     [Type "help" for more information about this version]  Detective B || Action: north                     || Reward: 0, Score: 10
+[STEP 1] |   << outside >> you are outside in the cold. to the east is a dead end || Action: west                      || Reward: 10, Score: 20
+[STEP 2] |   << outside >> you are still on the streets. to the north is a restra || Action: read paper                || Reward: 0, Score: 20
+[STEP 3] |  what do you want to read in?                                          || Action: look                      || Reward: 0, Score: 20
+[STEP 4] |   << outside >> you are still on the streets. to the north is a restra || Action: look                      || Reward: 0, Score: 20
+[STEP 5] |   << outside >> you are still on the streets. to the north is a restra || Action: look                      || Reward: 0, Score: 20
+[STEP 6] |   << outside >> you are still on the streets. to the north is a restra || Action: read paper                || Reward: 0, Score: 20
+[STEP 7] |  what do you want to read in?                                          || Action: look                      || Reward: 0, Score: 20
+[STEP 8] |   << outside >> you are still on the streets. to the north is a restra || Action: look                      || Reward: 0, Score: 20
+[STEP 9] |   << outside >> you are still on the streets. to the north is a restra || Action: look                      || Reward: 0, Score: 20
+[STEP 10] |   << outside >> you are still on the streets. to the north is a restra || Action: look                      || Reward: 0, Score: 20
+[STEP 11] |   << outside >> you are still on the streets. to the north is a restra || Action: east                      || Reward: 10, Score: 30
+[STEP 12] |   << mayor's house >> you are in the house, at the scene of the crime. || Action: north                     || Reward: 10, Score: 40
+[STEP 13] |   << upstairs hallway >> you are in the hallway of the large house of  || Action: look                      || Reward: 0, Score: 40
+[STEP 14] |   << upstairs hallway >> you are in the hallway of the large house of  || Action: north                     || Reward: 0, Score: 40
+[STEP 15] |   << hallway >> you are at the end of the hallway. to the north is a r || Action: south                     || Reward: 0, Score: 40
+[STEP 16] |  you can't go south from here!  << hallway >> you are at the end of th || Action: north                     || Reward: 0, Score: 40
+[STEP 17] |   << closet >> you are in a closet. there is no reason to be in here.  || Action: south                     || Reward: 0, Score: 40
+[STEP 18] |   << hallway >> you are at the end of the hallway. to the north is a r || Action: west                      || Reward: 0, Score: 40
+[STEP 19] |   << hallway >> you are in the hallway. to the north is more hallway,  || Action: east                      || Reward: 0, Score: 40
+[STEP 20] |   << guest room >> you are in one of the many guest rooms. it is a nic || Action: west                      || Reward: 0, Score: 40
+[STEP 21] |   << hallway >> you are in the hallway. to the north is more hallway,  || Action: look                      || Reward: 0, Score: 40
+[STEP 22] |   << hallway >> you are in the hallway. to the north is more hallway,  || Action: west                      || Reward: 0, Score: 40
+[STEP 23] |  you can't go west from here!  << hallway >> you are in the hallway. t || Action: look                      || Reward: 0, Score: 40
+[STEP 24] |   << hallway >> you are in the hallway. to the north is more hallway,  || Action: look                      || Reward: 0, Score: 40
+[STEP 25] |   << hallway >> you are in the hallway. to the north is more hallway,  || Action: look                      || Reward: 0, Score: 40
+[STEP 26] |   << hallway >> you are in the hallway. to the north is more hallway,  || Action: look                      || Reward: 0, Score: 40
+[STEP 27] |   << hallway >> you are in the hallway. to the north is more hallway,  || Action: south                     || Reward: 0, Score: 40
+[STEP 28] |  you can't go south from here!  << hallway >> you are in the hallway.  || Action: north                     || Reward: 0, Score: 40
+[STEP 29] |   << hallway >> you are still in the hallway. there is even more hallw || Action: look                      || Reward: 0, Score: 40
+[STEP 30] |   << hallway >> you are still in the hallway. there is even more hallw || Action: look                      || Reward: 0, Score: 40
+[STEP 31] |   << hallway >> you are still in the hallway. there is even more hallw || Action: look                      || Reward: 0, Score: 40
+[STEP 32] |   << hallway >> you are still in the hallway. there is even more hallw || Action: look                      || Reward: 0, Score: 40
+[STEP 33] |   << hallway >> you are still in the hallway. there is even more hallw || Action: look                      || Reward: 0, Score: 40
+[STEP 34] |   << hallway >> you are still in the hallway. there is even more hallw || Action: look                      || Reward: 0, Score: 40
+[STEP 35] |   << hallway >> you are still in the hallway. there is even more hallw || Action: look                      || Reward: 0, Score: 40
+[STEP 36] |   << hallway >> you are still in the hallway. there is even more hallw || Action: look                      || Reward: 0, Score: 40
+[STEP 37] |   << hallway >> you are still in the hallway. there is even more hallw || Action: look                      || Reward: 0, Score: 40
+[STEP 38] |   << hallway >> you are still in the hallway. there is even more hallw || Action: north                     || Reward: 0, Score: 40
+[STEP 39] |   << hallway >> you are still in the hallway. you can go north to wher || Action: look                      || Reward: 0, Score: 40
+[STEP 40] |   << hallway >> you are still in the hallway. you can go north to wher || Action: north                     || Reward: 10, Score: 50
+[STEP 41] |   << outside >> you pass the guard. he nods at you. you are now outsid || Action: east                      || Reward: 0, Score: 50
+[STEP 42] |   << video store >> you are in a video store called brickbuster video. || Action: look                      || Reward: 0, Score: 50
+[STEP 43] |   << video store >> you are in a video store called brickbuster video. || Action: east                      || Reward: 10, Score: 60
+[STEP 44] |   << video store >> you are still in the video store. you can go north || Action: look                      || Reward: 0, Score: 60
+[STEP 45] |   << video store >> you are still in the video store. you can go north || Action: examine videos            || Reward: 0, Score: 60
+[STEP 46] |  you can't see any such thing.                                         || Action: look                      || Reward: 0, Score: 60
+[STEP 47] |   << video store >> you are still in the video store. you can go north || Action: look                      || Reward: 0, Score: 60
+[STEP 48] |   << video store >> you are still in the video store. you can go north || Action: east                      || Reward: 0, Score: 60
+[STEP 49] |   << outside >> you are outside. you can go north, south, east or west || Action: north                     || Reward: 10, Score: 70
+[STEP 50] |   << outside >> you are still outside. you hit a dead end, then notice || Action: east                      || Reward: 10, Score: 80
+[STEP 51] |   << music store >> you are in a music store. you ask the man behind t || Action: north                     || Reward: 10, Score: 90
+[STEP 52] |   << back of music store >> you are in the back of the music store. yo || Action: north                     || Reward: 10, Score: 100
+[STEP 53] |   << alley >> you are in an alley. a drunken man stagers up to you and || Action: north                     || Reward: 10, Score: 110
+[STEP 54] |   << police station >> you are in the 3rd precinct police station. thi || Action: ask guard about mayor     || Reward: 0, Score: 110
+[STEP 55] |  you can't see any such thing.                                         || Action: ask guard about murder    || Reward: 0, Score: 110
+[STEP 56] |  you can't see any such thing.                                         || Action: look                      || Reward: 0, Score: 110
+[STEP 57] |   << police station >> you are in the 3rd precinct police station. thi || Action: look                      || Reward: 0, Score: 110
+[STEP 58] |   << police station >> you are in the 3rd precinct police station. thi || Action: north                     || Reward: 10, Score: 120
+[STEP 59] |   << outside >> you are outside. it's bitter cold and you pull your ja || Action: north                     || Reward: 10, Score: 130
+[STEP 60] |   << holiday inn >> you are in the holiday inn registration room. you  || Action: north                     || Reward: 10, Score: 140
+[STEP 61] |   << holiday inn 15th floor >> you go up the elevator. when you step o || Action: west                      || Reward: 10, Score: 150
+[STEP 62] |   << hallway >> you are in the hallway. you see many doors... 1... 2.. || Action: east                      || Reward: 0, Score: 150
+[STEP 63] |  you can't go east from here!  << hallway >> you are in the hallway. y || Action: north                     || Reward: 10, Score: 160
+[STEP 64] |   << hallway >> you are still in the hallways. you can go west or east || Action: look                      || Reward: 0, Score: 160
+[STEP 65] |   << hallway >> you are still in the hallways. you can go west or east || Action: look                      || Reward: 0, Score: 160
+[STEP 66] |   << hallway >> you are still in the hallways. you can go west or east || Action: look                      || Reward: 0, Score: 160
+[STEP 67] |   << hallway >> you are still in the hallways. you can go west or east || Action: look                      || Reward: 0, Score: 160
+[STEP 68] |   << hallway >> you are still in the hallways. you can go west or east || Action: examine door              || Reward: 0, Score: 160
+[STEP 69] |  you can't see any such thing.                                         || Action: look                      || Reward: 0, Score: 160
+[STEP 70] |   << hallway >> you are still in the hallways. you can go west or east || Action: look                      || Reward: 0, Score: 160
+[STEP 71] |   << hallway >> you are still in the hallways. you can go west or east || Action: look                      || Reward: 0, Score: 160
+[STEP 72] |   << hallway >> you are still in the hallways. you can go west or east || Action: west                      || Reward: 10, Score: 170
+[STEP 73] |   << hallway >> you are in the hallway. you see numbers flash by as yo || Action: north                     || Reward: 10, Score: 180
+[STEP 74] |   << hallway >> you are in the hallway. you feel the heat from the sau || Action: north                     || Reward: 100, Score: 280
+[STEP 75] |   << room # 30 >> you enter room 30... after a harrowing gun battle yo || Action: up                        || Reward: 0, Score: 280
+[OurAgent] Victory detected. Freezing exploration. Threshold set to 280.
+Run 9/10 finished. Score: 280
+
+--- EVALUATION SUMMARY (our method) ---
+Agent LLM Model: gpt-oss-20b
+Number of final evaluation runs: 10
+Individual Scores: [100, 20, 70, 80, 290, 160, 40, 280, 280]
+Average Score: 146.67
+Standard Deviation: 109.66
+
+Starting game run 10/10...
+[OurAgent] Exploiting best node 4 (score=290). No evolution.
+[STEP 0] |     [Type "help" for more information about this version]  Detective B || Action: read paper                || Reward: 0, Score: 10
+[STEP 1] |  confidential: detective was created by matt barringer. he has worked  || Action: north                     || Reward: 0, Score: 10
+[STEP 2] |   << outside >> you are outside in the cold. to the east is a dead end || Action: north                     || Reward: 0, Score: 10
+[STEP 3] |  you can't go north from here!  << outside >> you are outside in the c || Action: west                      || Reward: 10, Score: 20
+[STEP 4] |   << outside >> you are still on the streets. to the north is a restra || Action: west                      || Reward: 0, Score: 20
+[STEP 5] |  you can't go west from here!  << outside >> you are still on the stre || Action: north                     || Reward: 0, Score: 20
+[OurAgent] Missed win with frozen prompt. Unfreezing and resuming evolution.
+Run 10/10 finished. Score: 20
+
+--- EVALUATION SUMMARY (our method) ---
+Agent LLM Model: gpt-oss-20b
+Number of final evaluation runs: 10
+Individual Scores: [100, 20, 70, 80, 290, 160, 40, 280, 280, 20]
+Average Score: 134.00
+Standard Deviation: 110.88
+Evaluation completed successfully!

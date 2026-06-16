@@ -1,0 +1,1953 @@
+
+--- STARTING EVALUATION ---
+Game: zork3, Agent LLM Model: gpt-oss-20b
+Agent Type: our, Runs for statistics: 10
+Base Seed for evaluation session: 0
+Episode logs and summary will be in: output/zork3/our/gpt-oss-20b/20260616-062030
+
+Starting game run 1/10...
+Using initial prompt and code: 'Explore systematically and examine objects to make progress.'
+
+def extract_state(game_history):
+    return "Game in progress."
+
+[STEP 0] |  ZORK III: The Dungeon Master Copyright 1982 by Infocom, Inc. All righ || Action: look                      || Reward: 0, Score: 0
+[STEP 1] | endless stair you are at the bottom of a seemingly endless stair, wind || Action: take lantern              || Reward: 0, Score: 0
+[STEP 2] | taken.                                                                 || Action: south                     || Reward: 0, Score: 0
+[STEP 3] | it is pitch black. you are likely to be eaten by a grue.               || Action: light lantern             || Reward: 0, Score: 0
+[STEP 4] | the lamp is now on.  junction you are at the junction of a north-south || Action: examine sword             || Reward: 0, Score: 0
+[STEP 5] | i see nothing special about the sword.                                 || Action: examine rock              || Reward: 0, Score: 0
+[STEP 6] | the great rock contains:   a sword                                     || Action: take sword                || Reward: 0, Score: 0
+[STEP 7] | the sword is deeply imbedded within the rock. you can't even begin to  || Action: look                      || Reward: 0, Score: 0
+[STEP 8] | junction you are at the junction of a north-south passage and an east- || Action: north                     || Reward: 0, Score: 0
+[STEP 9] | endless stair                                                          || Action: look                      || Reward: 0, Score: 0
+[STEP 10] | endless stair you are at the bottom of a seemingly endless stair, wind || Action: look                      || Reward: 0, Score: 0
+[STEP 11] | endless stair you are at the bottom of a seemingly endless stair, wind || Action: south                     || Reward: 0, Score: 0
+[STEP 12] | junction standing before you is a great rock. imbedded within it is an || Action: look                      || Reward: 0, Score: 0
+[STEP 13] | junction you are at the junction of a north-south passage and an east- || Action: search                    || Reward: 0, Score: 0
+[STEP 14] | what do you want to search?                                            || Action: west                      || Reward: 0, Score: 0
+[STEP 15] | barren area you are west of the junction, where the rock-bound passage || Action: look                      || Reward: 0, Score: 0
+[STEP 16] | barren area you are west of the junction, where the rock-bound passage || Action: examine wall              || Reward: 0, Score: 0
+[STEP 17] | i see nothing special about the stone wall.                            || Action: southwest                 || Reward: 0, Score: 0
+[STEP 18] | land of shadow you are in a shadowy land of low, rolling hills stretch || Action: north                     || Reward: 0, Score: 0
+[STEP 19] | barren area                                                            || Action: look                      || Reward: 0, Score: 0
+[STEP 20] | barren area you are west of the junction, where the rock-bound passage || Action: look                      || Reward: 0, Score: 0
+[STEP 21] | barren area you are west of the junction, where the rock-bound passage || Action: west                      || Reward: 0, Score: 0
+[STEP 22] | cliff this is a remarkable spot in the dungeon. perhaps two hundred fe || Action: look                      || Reward: 0, Score: 0
+[STEP 23] | cliff this is a remarkable spot in the dungeon. perhaps two hundred fe || Action: examine rope              || Reward: 0, Score: 0
+[STEP 24] | i see nothing special about the rope.                                  || Action: climb rope                || Reward: 1, Score: 1
+[STEP 25] | cliff ledge this is a rock-strewn ledge near the base of a tall cliff. || Action: examine chest             || Reward: 0, Score: 1
+[STEP 26] | the chest is closed.                                                   || Action: search                    || Reward: 0, Score: 1
+[STEP 27] | what do you want to search?                                            || Action: search chest              || Reward: 0, Score: 1
+[STEP 28] | you find nothing unusual.                                              || Action: look                      || Reward: 0, Score: 1
+[STEP 29] | cliff ledge this is a rock-strewn ledge near the base of a tall cliff. || Action: climb rope                || Reward: 0, Score: 1
+[STEP 30] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 1
+[STEP 31] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 1
+[STEP 32] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 1
+[STEP 33] | cliff base you are at the base of a steep cliff. directly above you is || Action: northeast                 || Reward: 0, Score: 1
+[STEP 34] | hairpin loop you are at a sharp turn on a narrow and steeply sloping p || Action: southeast                 || Reward: 0, Score: 1
+[STEP 35] | barren area                                                            || Action: look                      || Reward: 0, Score: 1
+[STEP 36] | barren area you are west of the junction, where the rock-bound passage || Action: look                      || Reward: 0, Score: 1
+[STEP 37] | barren area you are west of the junction, where the rock-bound passage || Action: examine vegetation        || Reward: 0, Score: 1
+[STEP 38] | i don't know the word "vegetation".                                    || Action: look                      || Reward: 0, Score: 1
+[STEP 39] | barren area you are west of the junction, where the rock-bound passage || Action: examine opening           || Reward: 0, Score: 1
+[STEP 40] | i don't know the word "opening".                                       || Action: southwest                 || Reward: 0, Score: 1
+[STEP 41] | land of shadow you can hear quiet footsteps nearby.                    || Action: north                     || Reward: 0, Score: 1
+[STEP 42] | barren area                                                            || Action: look                      || Reward: 0, Score: 1
+[STEP 43] | barren area you are west of the junction, where the rock-bound passage || Action: examine mist              || Reward: 0, Score: 1
+[STEP 44] | i see nothing special about the mist.                                  || Action: look                      || Reward: 0, Score: 1
+[STEP 45] | barren area you are west of the junction, where the rock-bound passage || Action: northwest                 || Reward: 0, Score: 1
+[STEP 46] | hairpin loop                                                           || Action: look                      || Reward: 0, Score: 1
+[STEP 47] | hairpin loop you are at a sharp turn on a narrow and steeply sloping p || Action: southeast                 || Reward: 0, Score: 1
+[STEP 48] | barren area                                                            || Action: look                      || Reward: 0, Score: 1
+[STEP 49] | barren area you are west of the junction, where the rock-bound passage || Action: look                      || Reward: 0, Score: 1
+[STEP 50] | barren area you are west of the junction, where the rock-bound passage || Action: south                     || Reward: 0, Score: 1
+[STEP 51] | a stone wall blocks your way.                                          || Action: examine wall              || Reward: 0, Score: 1
+[STEP 52] | i see nothing special about the stone wall.                            || Action: search wall               || Reward: 0, Score: 1
+[STEP 53] | you find nothing unusual.                                              || Action: look                      || Reward: 0, Score: 1
+[STEP 54] | barren area you are west of the junction, where the rock-bound passage || Action: west                      || Reward: 0, Score: 1
+[STEP 55] | cliff it seems as if somebody has been here recently, as there is some || Action: examine bread             || Reward: 0, Score: 1
+[STEP 56] | i see nothing special about the piece of waybread.                     || Action: look                      || Reward: 0, Score: 1
+[STEP 57] | cliff this is a remarkable spot in the dungeon. perhaps two hundred fe || Action: look                      || Reward: 0, Score: 1
+[STEP 58] | cliff this is a remarkable spot in the dungeon. perhaps two hundred fe || Action: look                      || Reward: 0, Score: 1
+[STEP 59] | cliff this is a remarkable spot in the dungeon. perhaps two hundred fe || Action: climb rope                || Reward: 0, Score: 1
+[STEP 60] | cliff ledge a large chest, closed and locked, is lying among the bould || Action: examine chest             || Reward: 0, Score: 1
+[STEP 61] | the chest is closed.                                                   || Action: look                      || Reward: 0, Score: 1
+[STEP 62] | cliff ledge this is a rock-strewn ledge near the base of a tall cliff. || Action: climb rope                || Reward: 0, Score: 1
+[STEP 63] | cliff base                                                             || Action: climb rope                || Reward: 0, Score: 1
+[STEP 64] | you can't see any rope here.                                           || Action: look                      || Reward: 0, Score: 1
+[STEP 65] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 1
+[STEP 66] | cliff base you are at the base of a steep cliff. directly above you is || Action: up                        || Reward: 0, Score: 1
+[STEP 67] | you can't get up the rock face.                                        || Action: northeast                 || Reward: 0, Score: 1
+[STEP 68] | hairpin loop                                                           || Action: southwest                 || Reward: 0, Score: 1
+[STEP 69] | cliff base                                                             || Action: northeast                 || Reward: 0, Score: 1
+[STEP 70] | hairpin loop                                                           || Action: look                      || Reward: 0, Score: 1
+[STEP 71] | hairpin loop you are at a sharp turn on a narrow and steeply sloping p || Action: southwest                 || Reward: 0, Score: 1
+[STEP 72] | cliff base                                                             || Action: look                      || Reward: 0, Score: 1
+[STEP 73] | cliff base you are at the base of a steep cliff. directly above you is || Action: northeast                 || Reward: 0, Score: 1
+[STEP 74] | hairpin loop                                                           || Action: look                      || Reward: 0, Score: 1
+[STEP 75] | hairpin loop you are at a sharp turn on a narrow and steeply sloping p || Action: look                      || Reward: 0, Score: 1
+[STEP 76] | hairpin loop you are at a sharp turn on a narrow and steeply sloping p || Action: look                      || Reward: 0, Score: 1
+[STEP 77] | hairpin loop you are at a sharp turn on a narrow and steeply sloping p || Action: climb                     || Reward: 0, Score: 1
+[STEP 78] | what do you want to climb up?                                          || Action: climb path                || Reward: 0, Score: 1
+[STEP 79] | barren area                                                            || Action: southwest                 || Reward: 0, Score: 1
+[STEP 80] | land of shadow you can hear quiet footsteps nearby.                    || Action: look                      || Reward: 0, Score: 1
+[STEP 81] | land of shadow you are in a shadowy land of low, rolling hills stretch || Action: north                     || Reward: 0, Score: 1
+[STEP 82] | barren area                                                            || Action: look                      || Reward: 0, Score: 1
+[STEP 83] | barren area you are west of the junction, where the rock-bound passage || Action: southwest                 || Reward: 1, Score: 2
+[STEP 84] | land of shadow through the shadows, a cloaked and hooded figure appear || Action: examine sword             || Reward: 0, Score: 2
+[STEP 85] | i see nothing special about the sword.                                 || Action: look                      || Reward: 0, Score: 2
+[STEP 86] | land of shadow you are in a shadowy land of low, rolling hills stretch || Action: look                      || Reward: 0, Score: 2
+[STEP 87] | land of shadow you are in a shadowy land of low, rolling hills stretch || Action: look                      || Reward: 0, Score: 2
+[STEP 88] | land of shadow you are in a shadowy land of low, rolling hills stretch || Action: examine figure            || Reward: 0, Score: 2
+[STEP 89] | there is nothing special to be seen. the hooded figure tries to sneak  || Action: look                      || Reward: 0, Score: 2
+[STEP 90] | land of shadow you are in a shadowy land of low, rolling hills stretch || Action: north                     || Reward: 0, Score: 2
+[STEP 91] | barren area                                                            || Action: southwest                 || Reward: 0, Score: 2
+[STEP 92] | land of shadow a cloaked and hooded person, carrying a sword not unlik || Action: southwest                 || Reward: 0, Score: 2
+[STEP 93] | land of shadow you are in a land of dark shadows and shallow hills, wh || Action: look                      || Reward: 0, Score: 2
+[STEP 94] | land of shadow you are in a land of dark shadows and shallow hills, wh || Action: west                      || Reward: 0, Score: 2
+[STEP 95] | flathead ocean you are at the shore of an amazing underground sea, the || Action: north                     || Reward: 0, Score: 2
+[STEP 96] | cliff base                                                             || Action: climb cliff               || Reward: 0, Score: 2
+[STEP 97] | you can't see any cliff here.                                          || Action: look                      || Reward: 0, Score: 2
+[STEP 98] | cliff base you are at the base of a steep cliff. directly above you is || Action: northeast                 || Reward: 0, Score: 2
+[STEP 99] | hairpin loop                                                           || Action: look                      || Reward: 0, Score: 2
+[STEP 100] | hairpin loop you are at a sharp turn on a narrow and steeply sloping p || Action: look                      || Reward: 0, Score: 2
+[STEP 101] | hairpin loop you are at a sharp turn on a narrow and steeply sloping p || Action: look                      || Reward: 0, Score: 2
+[STEP 102] | hairpin loop you are at a sharp turn on a narrow and steeply sloping p || Action: southwest                 || Reward: 0, Score: 2
+[STEP 103] | cliff base                                                             || Action: climb northeast           || Reward: 0, Score: 2
+[STEP 104] | you used the word "northeast" in a way that i don't understand.        || Action: climb                     || Reward: 0, Score: 2
+[STEP 105] | what do you want to climb up?                                          || Action: look                      || Reward: 0, Score: 2
+[STEP 106] | cliff base you are at the base of a steep cliff. directly above you is || Action: climb ledge               || Reward: 0, Score: 2
+[STEP 107] | you can't get up the rock face.                                        || Action: look                      || Reward: 0, Score: 2
+[STEP 108] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 2
+[STEP 109] | cliff base you are at the base of a steep cliff. directly above you is || Action: climb up                  || Reward: 0, Score: 2
+[OurAgent] New best score 2 at node 0.
+Run 1/10 finished. Score: 2
+
+--- EVALUATION SUMMARY (our method) ---
+Agent LLM Model: gpt-oss-20b
+Number of final evaluation runs: 10
+Individual Scores: [2]
+Average Score: 2.00
+Standard Deviation: 0.00
+
+Starting game run 2/10...
+[DACS] enabled=True game=zork3
+[DACS] num raw candidates = 1 archived=0
+[DACS] num filtered candidates = 1
+[DACS] selected/reordered candidate ids = [0]
+[DACS] candidate score table:
+  id | relevance | diversity | risk | final_score | summary
+  0 | 0.07 | 1.0 | 0.033 | 0.747 | Explore systematically and examine objects to make progress.
+[DACS] fallback=False
+Parent node 0 at depth 0 with UCB score: 2.832554611157698
+
+Evolving prompt. Current prompt: 'Explore systematically and examine objects to make progress....'
+
+Current state extractor code: '
+def extract_state(game_history):
+    return "Game in progress."
+...'
+
+
+Updated state extractor code successfully.
+Evolved guiding prompt and code: '**Guiding Prompt**
+
+1. **Start by securing light**  
+   *Take the lantern* → `take lantern`.  
+   *Light the lantern* → `light lantern`.  
+   This prevents the grue in dark areas.
+
+2. **Move into the dark trail**  
+   The only direction from the stair is south.  
+   With the lantern lit, move south → `south`.  
+   Keep the lantern in your inventory; you will need it for subsequent dark areas.
+
+3. **At the junction, examine the rock**  
+   The sword is embedded, but the rock may hide a mechanism or key.  
+   *Examine the rock* → `examine rock`.  
+   If nothing is revealed, search the surrounding area for a tool or key.
+
+4. **Use the rope to descend**  
+   When you see a rope hanging from a tree, climb it → `climb rope`.  
+   This transports you to the cliff ledge where a chest is located.
+
+5. **Handle the chest**  
+   *Examine the chest* → `examine chest`.  
+   If it is locked, search the environment (walls, vegetation, nearby objects) for a key.  
+   Once a key is found, *unlock* or *open* the chest.
+
+6. **Encountering an NPC**  
+   If a hooded figure blocks a passage, either negotiate or fight.  
+   *Fight* → `fight figure` or simply move past if the figure is defeated.
+
+7. **Avoid unproductive loops**  
+   Repeating `look` with no new information is wasteful.  
+   If a `look` yields nothing new, choose a different action:  
+   *move* (north, south, east, west), *examine* an object, or *search* an area.
+
+8. **When stuck**  
+   If you have tried all obvious actions in the current room without progress, list all unexplored directions from that room.  
+   Example: “From here, north is unexplored, west is unexplored.”  
+   Then decide to move in one of those directions.  
+   If the room contains objects, *examine* each one systematically.
+
+9. **Keep inventory handy**  
+   Always be aware of what you are carrying.  
+   Items like the lantern, rope, or any discovered key are essential for future actions.
+
+10. **Systematic exploration**  
+    After each new room, perform:  
+    * look at the room,  
+    * examine all visible objects,  
+    * search for hidden items,  
+    * attempt to move in each direction that hasn't been tried yet.
+
+**State Extractor**'
+def extract_state(game_history):
+    state = []
+    if "take lantern" in game_history:
+        state.append("Lantern acquired")
+    if "light lantern" in game_history:
+        state.append("Lantern lit")
+    if "climb rope" in game_history:
+        state.append("Used rope to descend")
+    if "chest" in game_history:
+        if "open chest" in game_history or "unlock chest" in game_history:
+            state.append("Chest opened")
+        else:
+            state.append("Chest found, locked")
+    if "fight figure" in game_history or "defeated" in game_history or "fought" in game_history:
+        state.append("Hooded figure defeated")
+    if not state:
+        return "No milestones achieved."
+    return "; ".join(state) + "."
+[STEP 0] |  ZORK III: The Dungeon Master Copyright 1982 by Infocom, Inc. All righ || Action: take lantern              || Reward: 0, Score: 0
+[STEP 1] | taken.                                                                 || Action: light lantern             || Reward: 0, Score: 0
+[STEP 2] | the lamp is now on.                                                    || Action: south                     || Reward: 0, Score: 0
+[STEP 3] | junction you are at the junction of a north-south passage and an east- || Action: examine rock              || Reward: 0, Score: 0
+[STEP 4] | the great rock contains:   a sword                                     || Action: take sword                || Reward: 0, Score: 0
+[STEP 5] | the sword is deeply imbedded within the rock. you can't even begin to  || Action: look                      || Reward: 0, Score: 0
+[STEP 6] | junction you are at the junction of a north-south passage and an east- || Action: west                      || Reward: 0, Score: 0
+[STEP 7] | barren area you are west of the junction, where the rock-bound passage || Action: examine vegetation        || Reward: 0, Score: 0
+[STEP 8] | i don't know the word "vegetation".                                    || Action: look                      || Reward: 0, Score: 0
+[STEP 9] | barren area you are west of the junction, where the rock-bound passage || Action: search vegetation         || Reward: 0, Score: 0
+[STEP 10] | i don't know the word "vegetation".                                    || Action: search                    || Reward: 0, Score: 0
+[STEP 11] | what do you want to search?                                            || Action: look                      || Reward: 0, Score: 0
+[STEP 12] | barren area you are west of the junction, where the rock-bound passage || Action: look                      || Reward: 0, Score: 0
+[STEP 13] | barren area you are west of the junction, where the rock-bound passage || Action: southwest                 || Reward: 0, Score: 0
+[STEP 14] | land of shadow you are in a shadowy land of low, rolling hills stretch || Action: north                     || Reward: 0, Score: 0
+[STEP 15] | barren area                                                            || Action: look                      || Reward: 0, Score: 0
+[STEP 16] | barren area you are west of the junction, where the rock-bound passage || Action: look                      || Reward: 0, Score: 0
+[STEP 17] | barren area you are west of the junction, where the rock-bound passage || Action: look                      || Reward: 0, Score: 0
+[STEP 18] | barren area you are west of the junction, where the rock-bound passage || Action: look                      || Reward: 0, Score: 0
+[STEP 19] | barren area you are west of the junction, where the rock-bound passage || Action: search wall               || Reward: 0, Score: 0
+[STEP 20] | you find nothing unusual.                                              || Action: look                      || Reward: 0, Score: 0
+[STEP 21] | barren area you are west of the junction, where the rock-bound passage || Action: look                      || Reward: 0, Score: 0
+[STEP 22] | barren area you are west of the junction, where the rock-bound passage || Action: look                      || Reward: 0, Score: 0
+[STEP 23] | barren area you are west of the junction, where the rock-bound passage || Action: look                      || Reward: 0, Score: 0
+[STEP 24] | barren area you are west of the junction, where the rock-bound passage || Action: look                      || Reward: 0, Score: 0
+[STEP 25] | barren area you are west of the junction, where the rock-bound passage || Action: look                      || Reward: 0, Score: 0
+[STEP 26] | barren area you are west of the junction, where the rock-bound passage || Action: look                      || Reward: 0, Score: 0
+[STEP 27] | barren area you are west of the junction, where the rock-bound passage || Action: examine bush              || Reward: 0, Score: 0
+[STEP 28] | i don't know the word "bush".                                          || Action: look west                 || Reward: 0, Score: 0
+[STEP 29] | barren area you are west of the junction, where the rock-bound passage || Action: west                      || Reward: 0, Score: 0
+[STEP 30] | cliff this is a remarkable spot in the dungeon. perhaps two hundred fe || Action: look                      || Reward: 0, Score: 0
+[STEP 31] | cliff this is a remarkable spot in the dungeon. perhaps two hundred fe || Action: climb rope                || Reward: 1, Score: 1
+[STEP 32] | cliff ledge this is a rock-strewn ledge near the base of a tall cliff. || Action: take rope                 || Reward: 0, Score: 1
+[STEP 33] | a short tug on the rope convinces you that it is securely fastened fro || Action: look                      || Reward: 0, Score: 1
+[STEP 34] | cliff ledge this is a rock-strewn ledge near the base of a tall cliff. || Action: look                      || Reward: 0, Score: 1
+[STEP 35] | cliff ledge this is a rock-strewn ledge near the base of a tall cliff. || Action: examine chest             || Reward: 0, Score: 1
+[STEP 36] | the chest is closed. at the edge of the cliff above you, a man appears || Action: tie chest                 || Reward: 0, Score: 1
+[STEP 37] | what do you want to tie the chest to?                                  || Action: tie chest rope            || Reward: 0, Score: 1
+[STEP 38] | that sentence isn't one i recognize.                                   || Action: look                      || Reward: 0, Score: 1
+[STEP 39] | cliff ledge this is a rock-strewn ledge near the base of a tall cliff. || Action: look                      || Reward: 0, Score: 1
+[STEP 40] | cliff ledge this is a rock-strewn ledge near the base of a tall cliff. || Action: look                      || Reward: 0, Score: 1
+[STEP 41] | cliff ledge this is a rock-strewn ledge near the base of a tall cliff. || Action: look                      || Reward: 0, Score: 1
+[STEP 42] | cliff ledge this is a rock-strewn ledge near the base of a tall cliff. || Action: look                      || Reward: 0, Score: 1
+[STEP 43] | cliff ledge this is a rock-strewn ledge near the base of a tall cliff. || Action: look                      || Reward: 0, Score: 1
+[STEP 44] | cliff ledge this is a rock-strewn ledge near the base of a tall cliff. || Action: look                      || Reward: 0, Score: 1
+[STEP 45] | cliff ledge this is a rock-strewn ledge near the base of a tall cliff. || Action: look                      || Reward: 0, Score: 1
+[STEP 46] | cliff ledge this is a rock-strewn ledge near the base of a tall cliff. || Action: look                      || Reward: 0, Score: 1
+[STEP 47] | cliff ledge this is a rock-strewn ledge near the base of a tall cliff. || Action: look                      || Reward: 0, Score: 1
+[STEP 48] | cliff ledge this is a rock-strewn ledge near the base of a tall cliff. || Action: look                      || Reward: 0, Score: 1
+[STEP 49] | cliff ledge this is a rock-strewn ledge near the base of a tall cliff. || Action: look                      || Reward: 0, Score: 1
+[STEP 50] | cliff ledge this is a rock-strewn ledge near the base of a tall cliff. || Action: search chest              || Reward: 0, Score: 1
+[STEP 51] | you find nothing unusual.                                              || Action: look                      || Reward: 0, Score: 1
+[STEP 52] | cliff ledge this is a rock-strewn ledge near the base of a tall cliff. || Action: look                      || Reward: 0, Score: 1
+[STEP 53] | cliff ledge this is a rock-strewn ledge near the base of a tall cliff. || Action: look                      || Reward: 0, Score: 1
+[STEP 54] | cliff ledge this is a rock-strewn ledge near the base of a tall cliff. || Action: look                      || Reward: 0, Score: 1
+[STEP 55] | cliff ledge this is a rock-strewn ledge near the base of a tall cliff. || Action: look                      || Reward: 0, Score: 1
+[STEP 56] | cliff ledge this is a rock-strewn ledge near the base of a tall cliff. || Action: look                      || Reward: 0, Score: 1
+[STEP 57] | cliff ledge this is a rock-strewn ledge near the base of a tall cliff. || Action: look                      || Reward: 0, Score: 1
+[STEP 58] | cliff ledge this is a rock-strewn ledge near the base of a tall cliff. || Action: look                      || Reward: 0, Score: 1
+[STEP 59] | cliff ledge this is a rock-strewn ledge near the base of a tall cliff. || Action: look                      || Reward: 0, Score: 1
+[STEP 60] | cliff ledge this is a rock-strewn ledge near the base of a tall cliff. || Action: search                    || Reward: 0, Score: 1
+[STEP 61] | what do you want to search?                                            || Action: search rope               || Reward: 0, Score: 1
+[STEP 62] | you find nothing unusual.                                              || Action: look                      || Reward: 0, Score: 1
+[STEP 63] | cliff ledge this is a rock-strewn ledge near the base of a tall cliff. || Action: climb rope                || Reward: 0, Score: 1
+[STEP 64] | cliff base you are at the base of a steep cliff. directly above you is || Action: climb rope                || Reward: 0, Score: 1
+[STEP 65] | you can't see any rope here.                                           || Action: look                      || Reward: 0, Score: 1
+[STEP 66] | cliff base you are at the base of a steep cliff. directly above you is || Action: up                        || Reward: 0, Score: 1
+[STEP 67] | you can't get up the rock face.                                        || Action: look                      || Reward: 0, Score: 1
+[STEP 68] | cliff base you are at the base of a steep cliff. directly above you is || Action: climb                     || Reward: 0, Score: 1
+[STEP 69] | what do you want to climb up?                                          || Action: climb northeast           || Reward: 0, Score: 1
+[STEP 70] | you used the word "northeast" in a way that i don't understand.        || Action: look                      || Reward: 0, Score: 1
+[STEP 71] | cliff base you are at the base of a steep cliff. directly above you is || Action: climb path                || Reward: 0, Score: 1
+[STEP 72] | you can't get up the rock face.                                        || Action: look                      || Reward: 0, Score: 1
+[STEP 73] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 1
+[STEP 74] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 1
+[STEP 75] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 1
+[STEP 76] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 1
+[STEP 77] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 1
+[STEP 78] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 1
+[STEP 79] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 1
+[STEP 80] | cliff base you are at the base of a steep cliff. directly above you is || Action: climb                     || Reward: 0, Score: 1
+[STEP 81] | what do you want to climb up?                                          || Action: look                      || Reward: 0, Score: 1
+[STEP 82] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 1
+[STEP 83] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 1
+[STEP 84] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 1
+[STEP 85] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 1
+[STEP 86] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 1
+[STEP 87] | cliff base you are at the base of a steep cliff. directly above you is || Action: northeast                 || Reward: 0, Score: 1
+[STEP 88] | hairpin loop you are at a sharp turn on a narrow and steeply sloping p || Action: southwest                 || Reward: 0, Score: 1
+[STEP 89] | cliff base                                                             || Action: look                      || Reward: 0, Score: 1
+[STEP 90] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 1
+[STEP 91] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 1
+[STEP 92] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 1
+[STEP 93] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 1
+[STEP 94] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 1
+[STEP 95] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 1
+[STEP 96] | cliff base you are at the base of a steep cliff. directly above you is || Action: climb cliff               || Reward: 0, Score: 1
+[STEP 97] | you can't see any cliff here.                                          || Action: examine chest             || Reward: 0, Score: 1
+[STEP 98] | you can't see any chest here.                                          || Action: climb rope                || Reward: 0, Score: 1
+[STEP 99] | you can't see any rope here.                                           || Action: look                      || Reward: 0, Score: 1
+[STEP 100] | cliff base you are at the base of a steep cliff. directly above you is || Action: examine ledge             || Reward: 0, Score: 1
+[STEP 101] | i see nothing special about the ledge.                                 || Action: search                    || Reward: 0, Score: 1
+[STEP 102] | what do you want to search?                                            || Action: look                      || Reward: 0, Score: 1
+[STEP 103] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 1
+[STEP 104] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 1
+[STEP 105] | cliff base you are at the base of a steep cliff. directly above you is || Action: search ledge              || Reward: 0, Score: 1
+[STEP 106] | you find nothing unusual.                                              || Action: look                      || Reward: 0, Score: 1
+[STEP 107] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 1
+[STEP 108] | cliff base you are at the base of a steep cliff. directly above you is || Action: climb ledge               || Reward: 0, Score: 1
+[STEP 109] | you can't get up the rock face.                                        || Action: search cliff              || Reward: 0, Score: 1
+Run 2/10 finished. Score: 1
+
+--- EVALUATION SUMMARY (our method) ---
+Agent LLM Model: gpt-oss-20b
+Number of final evaluation runs: 10
+Individual Scores: [2, 1]
+Average Score: 1.50
+Standard Deviation: 0.71
+
+Starting game run 3/10...
+[DACS] enabled=True game=zork3
+[DACS] num raw candidates = 2 archived=0
+[DACS] num filtered candidates = 2
+[DACS] selected/reordered candidate ids = [0, 1]
+[DACS] candidate score table:
+  id | relevance | diversity | risk | final_score | summary
+  0 | 0.123 | 1.0 | 0.041 | 0.795 | Explore systematically and examine objects to make progress.
+  1 | 0.275 | 0.946 | 0.139 | 0.751 | **Guiding Prompt**  1. **Start by securing light**      *Take the lantern* → `ta
+[DACS] fallback=False
+Parent node 0 at depth 0 with UCB score: 2.5887050112577374
+
+Evolving prompt. Current prompt: 'Explore systematically and examine objects to make progress....'
+
+Current state extractor code: '
+def extract_state(game_history):
+    return "Game in progress."
+...'
+
+
+Updated state extractor code successfully.
+Evolved guiding prompt and code: 'Explore and act in the following order to make progress:
+
+1. **Pick up the lantern** – “take lantern”  
+2. **Light the lantern** – “light lantern” (or “lamp is now on”)  
+3. **From the junction, examine the rope** – “examine rope”  
+4. **Climb the rope** – “climb rope” (this moves you to the cliff ledge)  
+5. **On the ledge, examine the locked chest** – “examine chest”  
+6. **If the chest remains locked, search the immediate area for a key** – “search wall”, “search cliff base”, etc.  
+7. **If a key is found, open the chest** – “open chest” (then “take key” if given)  
+8. **If no key is found, return to the junction** and systematically explore the remaining directions (north, east, west) and examine any new objects.  
+9. **Avoid repeating “look”, “search”, or “examine” in the same room with no new information**; instead, move to an unexplored location or interact with an unexamined object.  
+10. **When encountering an NPC or obstacle, engage or bypass it, then continue exploring** (e.g., fight the hooded figure and then move on).  
+
+When you can’t advance further, list all lightly‑searched rooms and directions still unexplored:
+
+- Junction: north, east, west  
+- Land of shadow: north, west, south  
+- Flathead ocean: north, west, east (if reachable)  
+
+Brainstorm possible next attempts (e.g., “search the cliff walls for hidden passages”) and then systematically explore and interact with rooms, objects, NPCs, and inventory items to uncover clues or rewards.
+
+---'
+def extract_state(game_history):
+    s = game_history.lower()
+    parts = []
+    if "take lantern" in s or "lantern" in s:
+        parts.append("Lantern taken")
+    if "light lantern" in s or "lamp is now on" in s:
+        parts.append("Lantern lit")
+    if "climb rope" in s:
+        parts.append("Rope climbed, at cliff ledge")
+    if "examine chest" in s or "chest" in s:
+        parts.append("Chest seen")
+    if "open chest" in s or "chest opened" in s:
+        parts.append("Chest opened")
+    if "defeat" in s or "fight" in s or "down on the ground" in s:
+        parts.append("Figure defeated")
+    if not parts:
+        return "Unknown state."
+    return ", ".join(parts)
+[STEP 0] |  ZORK III: The Dungeon Master Copyright 1982 by Infocom, Inc. All righ || Action: take lantern              || Reward: 0, Score: 0
+[STEP 1] | taken.                                                                 || Action: light lantern             || Reward: 0, Score: 0
+[STEP 2] | the lamp is now on.                                                    || Action: look                      || Reward: 0, Score: 0
+[STEP 3] | endless stair you are at the bottom of a seemingly endless stair, wind || Action: up                        || Reward: 0, Score: 0
+[STEP 4] | the stairs are endless.                                                || Action: look                      || Reward: 0, Score: 0
+[STEP 5] | endless stair you are at the bottom of a seemingly endless stair, wind || Action: south                     || Reward: 0, Score: 0
+[STEP 6] | junction you are at the junction of a north-south passage and an east- || Action: examine sword             || Reward: 0, Score: 0
+[STEP 7] | i see nothing special about the sword.                                 || Action: examine rope              || Reward: 0, Score: 0
+[STEP 8] | you can't see any rope here.                                           || Action: look                      || Reward: 0, Score: 0
+[STEP 9] | junction you are at the junction of a north-south passage and an east- || Action: west                      || Reward: 0, Score: 0
+[STEP 10] | barren area you are west of the junction, where the rock-bound passage || Action: northwest                 || Reward: 0, Score: 0
+[STEP 11] | hairpin loop you are at a sharp turn on a narrow and steeply sloping p || Action: southwest                 || Reward: 0, Score: 0
+[STEP 12] | cliff base you are at the base of a steep cliff. directly above you is || Action: climb rope                || Reward: 0, Score: 0
+[STEP 13] | you can't see any rope here.                                           || Action: look                      || Reward: 0, Score: 0
+[STEP 14] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 0
+[STEP 15] | cliff base you are at the base of a steep cliff. directly above you is || Action: climb                     || Reward: 0, Score: 0
+[STEP 16] | what do you want to climb up?                                          || Action: look                      || Reward: 0, Score: 0
+[STEP 17] | cliff base you are at the base of a steep cliff. directly above you is || Action: climb ledge               || Reward: 0, Score: 0
+[STEP 18] | you can't get up the rock face.                                        || Action: look                      || Reward: 0, Score: 0
+[STEP 19] | cliff base you are at the base of a steep cliff. directly above you is || Action: examine cliff             || Reward: 0, Score: 0
+[STEP 20] | you can't see any cliff here.                                          || Action: search cliff              || Reward: 0, Score: 0
+[STEP 21] | you can't see any cliff here.                                          || Action: search wall               || Reward: 0, Score: 0
+[STEP 22] | which wall do you mean, the northern wall, the western wall, the south || Action: look                      || Reward: 0, Score: 0
+[STEP 23] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 0
+[STEP 24] | cliff base you are at the base of a steep cliff. directly above you is || Action: search north wall         || Reward: 0, Score: 0
+[STEP 25] | you find nothing unusual.                                              || Action: search west wall          || Reward: 0, Score: 0
+[STEP 26] | you find nothing unusual.                                              || Action: search east wall          || Reward: 0, Score: 0
+[STEP 27] | you find nothing unusual.                                              || Action: look                      || Reward: 0, Score: 0
+[STEP 28] | cliff base you are at the base of a steep cliff. directly above you is || Action: search rock               || Reward: 0, Score: 0
+[STEP 29] | you can't see any rock here.                                           || Action: look                      || Reward: 0, Score: 0
+[STEP 30] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 0
+[STEP 31] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 0
+[STEP 32] | cliff base you are at the base of a steep cliff. directly above you is || Action: northeast                 || Reward: 0, Score: 0
+[STEP 33] | hairpin loop                                                           || Action: look                      || Reward: 0, Score: 0
+[STEP 34] | hairpin loop you are at a sharp turn on a narrow and steeply sloping p || Action: northeast                 || Reward: 0, Score: 0
+[STEP 35] | you can't go that way.                                                 || Action: look                      || Reward: 0, Score: 0
+[STEP 36] | hairpin loop you are at a sharp turn on a narrow and steeply sloping p || Action: look                      || Reward: 0, Score: 0
+[STEP 37] | hairpin loop you are at a sharp turn on a narrow and steeply sloping p || Action: climb                     || Reward: 0, Score: 0
+[STEP 38] | what do you want to climb up?                                          || Action: look                      || Reward: 0, Score: 0
+[STEP 39] | hairpin loop you are at a sharp turn on a narrow and steeply sloping p || Action: look                      || Reward: 0, Score: 0
+[STEP 40] | hairpin loop you are at a sharp turn on a narrow and steeply sloping p || Action: look                      || Reward: 0, Score: 0
+[STEP 41] | hairpin loop you are at a sharp turn on a narrow and steeply sloping p || Action: search south wall         || Reward: 0, Score: 0
+[STEP 42] | you find nothing unusual.                                              || Action: look                      || Reward: 0, Score: 0
+[STEP 43] | hairpin loop you are at a sharp turn on a narrow and steeply sloping p || Action: look                      || Reward: 0, Score: 0
+[STEP 44] | hairpin loop you are at a sharp turn on a narrow and steeply sloping p || Action: southwest                 || Reward: 0, Score: 0
+[STEP 45] | cliff base                                                             || Action: search ground             || Reward: 0, Score: 0
+[STEP 46] | you find nothing unusual.                                              || Action: look                      || Reward: 0, Score: 0
+[STEP 47] | cliff base you are at the base of a steep cliff. directly above you is || Action: climb rope                || Reward: 0, Score: 0
+[STEP 48] | you can't see any rope here.                                           || Action: climb rope                || Reward: 0, Score: 0
+[STEP 49] | you can't see any rope here.                                           || Action: climb                     || Reward: 0, Score: 0
+[STEP 50] | what do you want to climb up?                                          || Action: climb path                || Reward: 0, Score: 0
+[STEP 51] | you can't get up the rock face.                                        || Action: climb cliff               || Reward: 0, Score: 0
+[STEP 52] | you can't see any cliff here.                                          || Action: look                      || Reward: 0, Score: 0
+[STEP 53] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 0
+[STEP 54] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 0
+[STEP 55] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 0
+[STEP 56] | cliff base you are at the base of a steep cliff. directly above you is || Action: search cliff              || Reward: 0, Score: 0
+[STEP 57] | you can't see any cliff here.                                          || Action: look                      || Reward: 0, Score: 0
+[STEP 58] | cliff base you are at the base of a steep cliff. directly above you is || Action: climb northeast           || Reward: 0, Score: 0
+[STEP 59] | you used the word "northeast" in a way that i don't understand.        || Action: look                      || Reward: 0, Score: 0
+[STEP 60] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 0
+[STEP 61] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 0
+[STEP 62] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 0
+[STEP 63] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 0
+[STEP 64] | cliff base you are at the base of a steep cliff. directly above you is || Action: northeast                 || Reward: 0, Score: 0
+[STEP 65] | hairpin loop                                                           || Action: look                      || Reward: 0, Score: 0
+[STEP 66] | hairpin loop you are at a sharp turn on a narrow and steeply sloping p || Action: southwest                 || Reward: 0, Score: 0
+[STEP 67] | cliff base                                                             || Action: look                      || Reward: 0, Score: 0
+[STEP 68] | cliff base you are at the base of a steep cliff. directly above you is || Action: up                        || Reward: 0, Score: 0
+[STEP 69] | you can't get up the rock face.                                        || Action: look                      || Reward: 0, Score: 0
+[STEP 70] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 0
+[STEP 71] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 0
+[STEP 72] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 0
+[STEP 73] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 0
+[STEP 74] | cliff base you are at the base of a steep cliff. directly above you is || Action: examine rope              || Reward: 0, Score: 0
+[STEP 75] | you can't see any rope here.                                           || Action: look                      || Reward: 0, Score: 0
+[STEP 76] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 0
+[STEP 77] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 0
+[STEP 78] | cliff base you are at the base of a steep cliff. directly above you is || Action: northeast                 || Reward: 0, Score: 0
+[STEP 79] | hairpin loop                                                           || Action: look                      || Reward: 0, Score: 0
+[STEP 80] | hairpin loop you are at a sharp turn on a narrow and steeply sloping p || Action: climb rope                || Reward: 0, Score: 0
+[STEP 81] | you can't see any rope here.                                           || Action: look                      || Reward: 0, Score: 0
+[STEP 82] | hairpin loop you are at a sharp turn on a narrow and steeply sloping p || Action: look                      || Reward: 0, Score: 0
+[STEP 83] | hairpin loop you are at a sharp turn on a narrow and steeply sloping p || Action: down                      || Reward: 0, Score: 0
+[STEP 84] | cliff base                                                             || Action: look                      || Reward: 0, Score: 0
+[STEP 85] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 0
+[STEP 86] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 0
+[STEP 87] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 0
+[STEP 88] | cliff base you are at the base of a steep cliff. directly above you is || Action: climb rope                || Reward: 0, Score: 0
+[STEP 89] | you can't see any rope here.                                           || Action: search cliff              || Reward: 0, Score: 0
+[STEP 90] | you can't see any cliff here.                                          || Action: look                      || Reward: 0, Score: 0
+[STEP 91] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 0
+[STEP 92] | cliff base you are at the base of a steep cliff. directly above you is || Action: examine cliff             || Reward: 0, Score: 0
+[STEP 93] | you can't see any cliff here.                                          || Action: southwest                 || Reward: 0, Score: 0
+[STEP 94] | you can't go that way.                                                 || Action: look                      || Reward: 0, Score: 0
+[STEP 95] | cliff base you are at the base of a steep cliff. directly above you is || Action: northeast                 || Reward: 0, Score: 0
+[STEP 96] | hairpin loop                                                           || Action: look                      || Reward: 0, Score: 0
+[STEP 97] | hairpin loop you are at a sharp turn on a narrow and steeply sloping p || Action: look                      || Reward: 0, Score: 0
+[STEP 98] | hairpin loop you are at a sharp turn on a narrow and steeply sloping p || Action: look                      || Reward: 0, Score: 0
+[STEP 99] | hairpin loop you are at a sharp turn on a narrow and steeply sloping p || Action: look                      || Reward: 0, Score: 0
+[STEP 100] | hairpin loop you are at a sharp turn on a narrow and steeply sloping p || Action: look                      || Reward: 0, Score: 0
+[STEP 101] | hairpin loop you are at a sharp turn on a narrow and steeply sloping p || Action: look                      || Reward: 0, Score: 0
+[STEP 102] | hairpin loop you are at a sharp turn on a narrow and steeply sloping p || Action: look                      || Reward: 0, Score: 0
+[STEP 103] | hairpin loop you are at a sharp turn on a narrow and steeply sloping p || Action: look                      || Reward: 0, Score: 0
+[STEP 104] | hairpin loop you are at a sharp turn on a narrow and steeply sloping p || Action: look                      || Reward: 0, Score: 0
+[STEP 105] | hairpin loop you are at a sharp turn on a narrow and steeply sloping p || Action: down                      || Reward: 0, Score: 0
+[STEP 106] | cliff base                                                             || Action: climb                     || Reward: 0, Score: 0
+[STEP 107] | what do you want to climb up?                                          || Action: examine chest             || Reward: 0, Score: 0
+[STEP 108] | you can't see any chest here.                                          || Action: search ledge              || Reward: 0, Score: 0
+[STEP 109] | you find nothing unusual.                                              || Action: look                      || Reward: 0, Score: 0
+Run 3/10 finished. Score: 0
+
+--- EVALUATION SUMMARY (our method) ---
+Agent LLM Model: gpt-oss-20b
+Number of final evaluation runs: 10
+Individual Scores: [2, 1, 0]
+Average Score: 1.00
+Standard Deviation: 1.00
+
+Starting game run 4/10...
+[DACS] enabled=True game=zork3
+[DACS] num raw candidates = 3 archived=0
+[DACS] num filtered candidates = 3
+[DACS] selected/reordered candidate ids = [1, 0, 2]
+[DACS] candidate score table:
+  id | relevance | diversity | risk | final_score | summary
+  1 | 0.393 | 1.0 | 0.135 | 0.899 | **Guiding Prompt**  1. **Start by securing light**      *Take the lantern* → `ta
+  0 | 0.108 | 0.946 | 0.041 | 0.753 | Explore systematically and examine objects to make progress.
+  2 | 0.365 | 0.714 | 0.12 | 0.638 | Explore and act in the following order to make progress:  1. **Pick up the lante
+[DACS] fallback=False
+Parent node 0 at depth 0 with UCB score: 2.605147995305862
+
+Evolving prompt. Current prompt: 'Explore systematically and examine objects to make progress....'
+
+Current state extractor code: '
+def extract_state(game_history):
+    return "Game in progress."
+...'
+
+
+Updated state extractor code successfully.
+Evolved guiding prompt and code: 'Explore systematically, but only perform actions that have previously led to new information or progress.  Do not repeat the same “look” or “search” when nothing changes.  Keep a mental map of visited rooms and items you already hold.
+
+**Key actions that have advanced the game:**
+
+1. **Pick up and light the lantern** – required to see in darkness.  
+2. **Move to the junction south of the endless stair** – where the sword and rock are.  
+3. **Examine the rock** – reveals the embedded sword.  
+4. **Move north from the junction** – discovers a rope that leads to a new area.  
+5. **Climb the rope** – brings you to the cliff base where a locked chest appears.  
+6. **Examine the chest** – confirms it is locked.  
+7. **Search the chest** – if a key is inside, use it to open; otherwise keep searching the area.  
+8. **Defeat the hooded figure** – frees the northwest exit.  
+9. **Use items from inventory on objects** – e.g., light lantern, use rope, use key.  
+
+**Avoid the following patterns:**
+
+- Repeating “look” or “search” when the description hasn't changed.  
+- Searching a locked chest repeatedly without a key.  
+- Moving back and forth between the same rooms without new information.  
+
+**When you hit a wall of knowledge, do this:**
+
+- List all rooms you have been to that were only lightly inspected (e.g., “land of shadow” near the northwest exit, the “barren area” with the mist opening).  
+- Tentatively map possible exits that haven’t been explored yet (north, west, southwest, southeast).  
+- For each unvisited exit, guess a next action that might reveal an item or hidden passage (e.g., “examine wall” at the mist opening, “go west” from the land of shadow).  
+- Summarize the current state: “Lantern lit and in inventory; reached junction; sword embedded; rope climbed; chest locked; hooded figure defeated.”  
+
+**Guidelines for exploration:**
+
+1. **Always keep track of inventory** – note items like lantern, rope, sword, key.  
+2. **When encountering a new room,** record its description and any visible objects.  
+3. **If an exit is not obvious,** look for hidden mechanisms (e.g., “examine wall for cracks”, “search opening”).  
+4. **Use items on the environment** whenever they could be relevant (light lantern in dark, use rope to descend).  
+5. **If stuck,** try a different interaction: “use key on chest”, “attack hooded figure”, “examine sword again for clues”.  
+
+---'
+def extract_state(game_history):
+    if "old friend, the brass lantern" in game_history and "lit" in game_history:
+        lantern = "brass lantern in inventory, lit"
+    else:
+        lantern = "lantern not found or not lit"
+    if "junction" in game_history and "south of the endless stair" in game_history:
+        junction = "junction reached"
+    else:
+        junction = "junction not reached"
+    if "embedded within it is an elvish sword" in game_history:
+        sword = "elvish sword embedded in rock"
+    else:
+        sword = "sword not found"
+    if "rope" in game_history and "climbed rope" in game_history:
+        rope = "rope climbed, at cliff base"
+    else:
+        rope = "rope not climbed"
+    if "large chest, closed and locked" in game_history and "search chest" in game_history:
+        chest = "locked chest examined, no key found"
+    else:
+        chest = "chest status unknown"
+    if "hooded figure" in game_history and "defeated" in game_history:
+        figure = "hooded figure defeated"
+    else:
+        figure = "hooded figure alive"
+    return f"Lantern: {lantern}. Junction: {junction}. Sword: {sword}. Rope: {rope}. Chest: {chest}. Hooded figure: {figure}."
+[STEP 0] |  ZORK III: The Dungeon Master Copyright 1982 by Infocom, Inc. All righ || Action: get lantern               || Reward: 0, Score: 0
+[STEP 1] | taken.                                                                 || Action: south                     || Reward: 0, Score: 0
+[STEP 2] | it is pitch black. you are likely to be eaten by a grue.               || Action: look                      || Reward: 0, Score: 0
+[STEP 3] | it is pitch black. you are likely to be eaten by a grue.               || Action: look                      || Reward: 0, Score: 0
+[STEP 4] | it is pitch black. you are likely to be eaten by a grue.               || Action: light lantern             || Reward: 0, Score: 0
+[STEP 5] | the lamp is now on.  junction you are at the junction of a north-south || Action: examine rock              || Reward: 0, Score: 0
+[STEP 6] | the great rock contains:   a sword                                     || Action: take sword                || Reward: 0, Score: 0
+[STEP 7] | the sword is deeply imbedded within the rock. you can't even begin to  || Action: look                      || Reward: 0, Score: 0
+[STEP 8] | junction you are at the junction of a north-south passage and an east- || Action: look                      || Reward: 0, Score: 0
+[STEP 9] | junction you are at the junction of a north-south passage and an east- || Action: look                      || Reward: 0, Score: 0
+[STEP 10] | junction you are at the junction of a north-south passage and an east- || Action: north                     || Reward: 0, Score: 0
+[STEP 11] | endless stair                                                          || Action: look                      || Reward: 0, Score: 0
+[STEP 12] | endless stair you are at the bottom of a seemingly endless stair, wind || Action: look                      || Reward: 0, Score: 0
+[STEP 13] | endless stair you are at the bottom of a seemingly endless stair, wind || Action: up                        || Reward: 0, Score: 0
+[STEP 14] | the stairs are endless.                                                || Action: up                        || Reward: 0, Score: 0
+[STEP 15] | the stairs are endless.                                                || Action: look                      || Reward: 0, Score: 0
+[STEP 16] | endless stair you are at the bottom of a seemingly endless stair, wind || Action: look                      || Reward: 0, Score: 0
+[STEP 17] | endless stair you are at the bottom of a seemingly endless stair, wind || Action: look                      || Reward: 0, Score: 0
+[STEP 18] | endless stair you are at the bottom of a seemingly endless stair, wind || Action: north                     || Reward: 0, Score: 0
+[STEP 19] | the stairs are endless.                                                || Action: look                      || Reward: 0, Score: 0
+[STEP 20] | endless stair you are at the bottom of a seemingly endless stair, wind || Action: look                      || Reward: 0, Score: 0
+[STEP 21] | endless stair you are at the bottom of a seemingly endless stair, wind || Action: look                      || Reward: 0, Score: 0
+[STEP 22] | endless stair you are at the bottom of a seemingly endless stair, wind || Action: look                      || Reward: 0, Score: 0
+[STEP 23] | endless stair you are at the bottom of a seemingly endless stair, wind || Action: look                      || Reward: 0, Score: 0
+[STEP 24] | endless stair you are at the bottom of a seemingly endless stair, wind || Action: look                      || Reward: 0, Score: 0
+[STEP 25] | endless stair you are at the bottom of a seemingly endless stair, wind || Action: look                      || Reward: 0, Score: 0
+[STEP 26] | endless stair you are at the bottom of a seemingly endless stair, wind || Action: look                      || Reward: 0, Score: 0
+[STEP 27] | endless stair you are at the bottom of a seemingly endless stair, wind || Action: look                      || Reward: 0, Score: 0
+[STEP 28] | endless stair you are at the bottom of a seemingly endless stair, wind || Action: look                      || Reward: 0, Score: 0
+[STEP 29] | endless stair you are at the bottom of a seemingly endless stair, wind || Action: look                      || Reward: 0, Score: 0
+[STEP 30] | endless stair you are at the bottom of a seemingly endless stair, wind || Action: look                      || Reward: 0, Score: 0
+[STEP 31] | endless stair you are at the bottom of a seemingly endless stair, wind || Action: look                      || Reward: 0, Score: 0
+[STEP 32] | endless stair you are at the bottom of a seemingly endless stair, wind || Action: south                     || Reward: 0, Score: 0
+[STEP 33] | junction standing before you is a great rock. imbedded within it is an || Action: look                      || Reward: 0, Score: 0
+[STEP 34] | junction you are at the junction of a north-south passage and an east- || Action: look                      || Reward: 0, Score: 0
+[STEP 35] | junction you are at the junction of a north-south passage and an east- || Action: west                      || Reward: 0, Score: 0
+[STEP 36] | barren area you are west of the junction, where the rock-bound passage || Action: southwest                 || Reward: 0, Score: 0
+[STEP 37] | land of shadow you are in a shadowy land of low, rolling hills stretch || Action: north                     || Reward: 0, Score: 0
+[STEP 38] | barren area                                                            || Action: look                      || Reward: 0, Score: 0
+[STEP 39] | barren area you are west of the junction, where the rock-bound passage || Action: northwest                 || Reward: 0, Score: 0
+[STEP 40] | hairpin loop you are at a sharp turn on a narrow and steeply sloping p || Action: southwest                 || Reward: 0, Score: 0
+[STEP 41] | cliff base you are at the base of a steep cliff. directly above you is || Action: climb rope                || Reward: 0, Score: 0
+[STEP 42] | you can't see any rope here.                                           || Action: examine cliff             || Reward: 0, Score: 0
+[STEP 43] | you can't see any cliff here.                                          || Action: look                      || Reward: 0, Score: 0
+[STEP 44] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 0
+[STEP 45] | cliff base you are at the base of a steep cliff. directly above you is || Action: examine ledge             || Reward: 0, Score: 0
+[STEP 46] | i see nothing special about the ledge.                                 || Action: search ledge              || Reward: 0, Score: 0
+[STEP 47] | you find nothing unusual.                                              || Action: look                      || Reward: 0, Score: 0
+[STEP 48] | cliff base you are at the base of a steep cliff. directly above you is || Action: search ground             || Reward: 0, Score: 0
+[STEP 49] | you find nothing unusual.                                              || Action: look                      || Reward: 0, Score: 0
+[STEP 50] | cliff base you are at the base of a steep cliff. directly above you is || Action: look northeast            || Reward: 0, Score: 0
+[STEP 51] | you used the word "northeast" in a way that i don't understand.        || Action: examine path              || Reward: 0, Score: 0
+[STEP 52] | i see nothing special about the way.                                   || Action: look                      || Reward: 0, Score: 0
+[STEP 53] | cliff base you are at the base of a steep cliff. directly above you is || Action: search cliff              || Reward: 0, Score: 0
+[STEP 54] | you can't see any cliff here.                                          || Action: look                      || Reward: 0, Score: 0
+[STEP 55] | cliff base you are at the base of a steep cliff. directly above you is || Action: examine wall              || Reward: 0, Score: 0
+[STEP 56] | which wall do you mean, the northern wall, the western wall, the south || Action: look                      || Reward: 0, Score: 0
+[STEP 57] | cliff base you are at the base of a steep cliff. directly above you is || Action: climb rope                || Reward: 0, Score: 0
+[STEP 58] | you can't see any rope here.                                           || Action: look                      || Reward: 0, Score: 0
+[STEP 59] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 0
+[STEP 60] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 0
+[STEP 61] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 0
+[STEP 62] | cliff base you are at the base of a steep cliff. directly above you is || Action: search northwall          || Reward: 0, Score: 0
+[STEP 63] | you used the word "northwall" in a way that i don't understand.        || Action: examine north wall        || Reward: 0, Score: 0
+[STEP 64] | i see nothing special about the northern wall.                         || Action: look                      || Reward: 0, Score: 0
+[STEP 65] | cliff base you are at the base of a steep cliff. directly above you is || Action: climb path                || Reward: 0, Score: 0
+[STEP 66] | you can't get up the rock face.                                        || Action: look up                   || Reward: 0, Score: 0
+[STEP 67] | that sentence isn't one i recognize.                                   || Action: look                      || Reward: 0, Score: 0
+[STEP 68] | cliff base you are at the base of a steep cliff. directly above you is || Action: south                     || Reward: 0, Score: 0
+[STEP 69] | flathead ocean you are at the shore of an amazing underground sea, the || Action: north                     || Reward: 0, Score: 0
+[STEP 70] | cliff base                                                             || Action: look                      || Reward: 0, Score: 0
+[STEP 71] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 0
+[STEP 72] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 0
+[STEP 73] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 0
+[STEP 74] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 0
+[STEP 75] | cliff base you are at the base of a steep cliff. directly above you is || Action: north                     || Reward: 0, Score: 0
+[STEP 76] | you can't go that way.                                                 || Action: climb cliff               || Reward: 0, Score: 0
+[STEP 77] | you can't see any cliff here.                                          || Action: look                      || Reward: 0, Score: 0
+[STEP 78] | cliff base you are at the base of a steep cliff. directly above you is || Action: climb up                  || Reward: 0, Score: 0
+[STEP 79] | what do you want to climb up?                                          || Action: look                      || Reward: 0, Score: 0
+[STEP 80] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 0
+[STEP 81] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 0
+[STEP 82] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 0
+[STEP 83] | cliff base you are at the base of a steep cliff. directly above you is || Action: search north wall         || Reward: 0, Score: 0
+[STEP 84] | you find nothing unusual.                                              || Action: climb north wall          || Reward: 0, Score: 0
+[STEP 85] | you can't get up the rock face.                                        || Action: search cliff              || Reward: 0, Score: 0
+[STEP 86] | you can't see any cliff here.                                          || Action: examine ledge             || Reward: 0, Score: 0
+[STEP 87] | i see nothing special about the ledge.                                 || Action: look up                   || Reward: 0, Score: 0
+[STEP 88] | that sentence isn't one i recognize.                                   || Action: look                      || Reward: 0, Score: 0
+[STEP 89] | cliff base you are at the base of a steep cliff. directly above you is || Action: northeast                 || Reward: 0, Score: 0
+[STEP 90] | hairpin loop                                                           || Action: examine path              || Reward: 0, Score: 0
+[STEP 91] | i see nothing special about the way.                                   || Action: look                      || Reward: 0, Score: 0
+[STEP 92] | hairpin loop you are at a sharp turn on a narrow and steeply sloping p || Action: look                      || Reward: 0, Score: 0
+[STEP 93] | hairpin loop you are at a sharp turn on a narrow and steeply sloping p || Action: southeast                 || Reward: 0, Score: 0
+[STEP 94] | barren area                                                            || Action: east                      || Reward: 0, Score: 0
+[STEP 95] | junction standing before you is a great rock. imbedded within it is an || Action: examine rock              || Reward: 0, Score: 0
+[STEP 96] | the great rock contains:   a sword                                     || Action: look                      || Reward: 0, Score: 0
+[STEP 97] | junction you are at the junction of a north-south passage and an east- || Action: get sword                 || Reward: 0, Score: 0
+[STEP 98] | the sword is deeply imbedded within the rock. you can't even begin to  || Action: look                      || Reward: 0, Score: 0
+[STEP 99] | junction you are at the junction of a north-south passage and an east- || Action: look                      || Reward: 0, Score: 0
+[STEP 100] | junction you are at the junction of a north-south passage and an east- || Action: look                      || Reward: 0, Score: 0
+[STEP 101] | junction you are at the junction of a north-south passage and an east- || Action: north                     || Reward: 0, Score: 0
+[STEP 102] | endless stair                                                          || Action: look                      || Reward: 0, Score: 0
+[STEP 103] | endless stair you are at the bottom of a seemingly endless stair, wind || Action: south                     || Reward: 0, Score: 0
+[STEP 104] | junction standing before you is a great rock. imbedded within it is an || Action: examine stairway          || Reward: 0, Score: 0
+[STEP 105] | i don't know the word "stairway".                                      || Action: examine north             || Reward: 0, Score: 0
+[STEP 106] | i see nothing special about the direction.                             || Action: look                      || Reward: 0, Score: 0
+[STEP 107] | junction you are at the junction of a north-south passage and an east- || Action: look                      || Reward: 0, Score: 0
+[STEP 108] | junction you are at the junction of a north-south passage and an east- || Action: look                      || Reward: 0, Score: 0
+[STEP 109] | junction you are at the junction of a north-south passage and an east- || Action: look                      || Reward: 0, Score: 0
+Run 4/10 finished. Score: 0
+
+--- EVALUATION SUMMARY (our method) ---
+Agent LLM Model: gpt-oss-20b
+Number of final evaluation runs: 10
+Individual Scores: [2, 1, 0, 0]
+Average Score: 0.75
+Standard Deviation: 0.96
+
+Starting game run 5/10...
+[DACS] enabled=True game=zork3
+[DACS] num raw candidates = 4 archived=0
+[DACS] num filtered candidates = 4
+[DACS] selected/reordered candidate ids = [1, 0, 3, 2]
+[DACS] candidate score table:
+  id | relevance | diversity | risk | final_score | summary
+  1 | 0.353 | 1.0 | 0.153 | 0.846 | **Guiding Prompt**  1. **Start by securing light**      *Take the lantern* → `ta
+  0 | 0.114 | 0.946 | 0.037 | 0.761 | Explore systematically and examine objects to make progress.
+  3 | 0.323 | 0.682 | 0.144 | 0.563 | Explore systematically, but only perform actions that have previously led to new
+  2 | 0.297 | 0.714 | 0.134 | 0.56 | Explore and act in the following order to make progress:  1. **Pick up the lante
+[DACS] fallback=False
+Parent node 0 at depth 0 with UCB score: 2.5887050112577374
+
+Evolving prompt. Current prompt: 'Explore systematically and examine objects to make progress....'
+
+Current state extractor code: '
+def extract_state(game_history):
+    return "Game in progress."
+...'
+
+
+Evolution LLM returned invalid state extractor code, keeping current code
+Evolved guiding prompt and code: '**Guiding Prompt**
+
+1. **Confirm Inventory & Light**  
+   - Ensure you have the *brass lantern* in your inventory and it is lit (`light lantern`).  
+   - Keep the lantern lit while exploring dark areas to avoid grue encounters.
+
+2. **Retrieve the El'
+
+def extract_state(game_history):
+    return "Game in progress."
+
+[STEP 0] |  ZORK III: The Dungeon Master Copyright 1982 by Infocom, Inc. All righ || Action: get lantern               || Reward: 0, Score: 0
+[STEP 1] | taken.                                                                 || Action: light lantern             || Reward: 0, Score: 0
+[STEP 2] | the lamp is now on.                                                    || Action: up                        || Reward: 0, Score: 0
+[STEP 3] | the stairs are endless.                                                || Action: up                        || Reward: 0, Score: 0
+[STEP 4] | the stairs are endless.                                                || Action: look                      || Reward: 0, Score: 0
+[STEP 5] | endless stair you are at the bottom of a seemingly endless stair, wind || Action: south                     || Reward: 0, Score: 0
+[STEP 6] | junction you are at the junction of a north-south passage and an east- || Action: take sword                || Reward: 0, Score: 0
+[STEP 7] | the sword is deeply imbedded within the rock. you can't even begin to  || Action: look                      || Reward: 0, Score: 0
+[STEP 8] | junction you are at the junction of a north-south passage and an east- || Action: examine sword             || Reward: 0, Score: 0
+[STEP 9] | i see nothing special about the sword.                                 || Action: look                      || Reward: 0, Score: 0
+[STEP 10] | junction you are at the junction of a north-south passage and an east- || Action: look                      || Reward: 0, Score: 0
+[STEP 11] | junction you are at the junction of a north-south passage and an east- || Action: look                      || Reward: 0, Score: 0
+[STEP 12] | junction you are at the junction of a north-south passage and an east- || Action: look                      || Reward: 0, Score: 0
+[STEP 13] | junction you are at the junction of a north-south passage and an east- || Action: examine rock              || Reward: 0, Score: 0
+[STEP 14] | the great rock contains:   a sword                                     || Action: look                      || Reward: 0, Score: 0
+[STEP 15] | junction you are at the junction of a north-south passage and an east- || Action: search rock               || Reward: 0, Score: 0
+[STEP 16] | you find nothing unusual.                                              || Action: look                      || Reward: 0, Score: 0
+[STEP 17] | junction you are at the junction of a north-south passage and an east- || Action: look                      || Reward: 0, Score: 0
+[STEP 18] | junction you are at the junction of a north-south passage and an east- || Action: look                      || Reward: 0, Score: 0
+[STEP 19] | junction you are at the junction of a north-south passage and an east- || Action: look                      || Reward: 0, Score: 0
+[STEP 20] | junction you are at the junction of a north-south passage and an east- || Action: look                      || Reward: 0, Score: 0
+[STEP 21] | junction you are at the junction of a north-south passage and an east- || Action: look                      || Reward: 0, Score: 0
+[STEP 22] | junction you are at the junction of a north-south passage and an east- || Action: west                      || Reward: 0, Score: 0
+[STEP 23] | barren area you are west of the junction, where the rock-bound passage || Action: southwest                 || Reward: 0, Score: 0
+[STEP 24] | land of shadow you are in a shadowy land of low, rolling hills stretch || Action: north                     || Reward: 0, Score: 0
+[STEP 25] | barren area                                                            || Action: look                      || Reward: 0, Score: 0
+[STEP 26] | barren area you are west of the junction, where the rock-bound passage || Action: west                      || Reward: 0, Score: 0
+[STEP 27] | cliff this is a remarkable spot in the dungeon. perhaps two hundred fe || Action: climb rope                || Reward: 1, Score: 1
+[STEP 28] | cliff ledge this is a rock-strewn ledge near the base of a tall cliff. || Action: examine chest             || Reward: 0, Score: 1
+[STEP 29] | the chest is closed.                                                   || Action: search chest              || Reward: 0, Score: 1
+[STEP 30] | you find nothing unusual.                                              || Action: look                      || Reward: 0, Score: 1
+[STEP 31] | cliff ledge this is a rock-strewn ledge near the base of a tall cliff. || Action: look                      || Reward: 0, Score: 1
+[STEP 32] | cliff ledge this is a rock-strewn ledge near the base of a tall cliff. || Action: look                      || Reward: 0, Score: 1
+[STEP 33] | cliff ledge this is a rock-strewn ledge near the base of a tall cliff. || Action: look                      || Reward: 0, Score: 1
+[STEP 34] | cliff ledge this is a rock-strewn ledge near the base of a tall cliff. || Action: look                      || Reward: 0, Score: 1
+[STEP 35] | cliff ledge this is a rock-strewn ledge near the base of a tall cliff. || Action: tie chest                 || Reward: 0, Score: 1
+[STEP 36] | what do you want to tie the chest to?                                  || Action: look                      || Reward: 0, Score: 1
+[STEP 37] | cliff ledge this is a rock-strewn ledge near the base of a tall cliff. || Action: tie chest rope            || Reward: 0, Score: 1
+[STEP 38] | that sentence isn't one i recognize.                                   || Action: tie rope chest            || Reward: 0, Score: 1
+[STEP 39] | that sentence isn't one i recognize.                                   || Action: look                      || Reward: 0, Score: 1
+[STEP 40] | cliff ledge this is a rock-strewn ledge near the base of a tall cliff. || Action: look                      || Reward: 0, Score: 1
+[STEP 41] | cliff ledge this is a rock-strewn ledge near the base of a tall cliff. || Action: look                      || Reward: 0, Score: 1
+[STEP 42] | cliff ledge this is a rock-strewn ledge near the base of a tall cliff. || Action: look                      || Reward: 0, Score: 1
+[STEP 43] | cliff ledge this is a rock-strewn ledge near the base of a tall cliff. || Action: look                      || Reward: 0, Score: 1
+[STEP 44] | cliff ledge this is a rock-strewn ledge near the base of a tall cliff. || Action: look                      || Reward: 0, Score: 1
+[STEP 45] | cliff ledge this is a rock-strewn ledge near the base of a tall cliff. || Action: look                      || Reward: 0, Score: 1
+[STEP 46] | cliff ledge this is a rock-strewn ledge near the base of a tall cliff. || Action: look                      || Reward: 0, Score: 1
+[STEP 47] | cliff ledge this is a rock-strewn ledge near the base of a tall cliff. || Action: climb rope                || Reward: 0, Score: 1
+[STEP 48] | cliff base you are at the base of a steep cliff. directly above you is || Action: climb rope                || Reward: 0, Score: 1
+[STEP 49] | you can't see any rope here.                                           || Action: look                      || Reward: 0, Score: 1
+[STEP 50] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 1
+[STEP 51] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 1
+[STEP 52] | cliff base you are at the base of a steep cliff. directly above you is || Action: climb rope                || Reward: 0, Score: 1
+[STEP 53] | you can't see any rope here.                                           || Action: look                      || Reward: 0, Score: 1
+[STEP 54] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 1
+[STEP 55] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 1
+[STEP 56] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 1
+[STEP 57] | cliff base you are at the base of a steep cliff. directly above you is || Action: climb                     || Reward: 0, Score: 1
+[STEP 58] | what do you want to climb up?                                          || Action: climb up                  || Reward: 0, Score: 1
+[STEP 59] | what do you want to climb up?                                          || Action: climb rope                || Reward: 0, Score: 1
+[STEP 60] | you can't see any rope here.                                           || Action: look                      || Reward: 0, Score: 1
+[STEP 61] | cliff base you are at the base of a steep cliff. directly above you is || Action: up                        || Reward: 0, Score: 1
+[STEP 62] | you can't get up the rock face.                                        || Action: look                      || Reward: 0, Score: 1
+[STEP 63] | cliff base you are at the base of a steep cliff. directly above you is || Action: climb ledge               || Reward: 0, Score: 1
+[STEP 64] | you can't get up the rock face.                                        || Action: climb path                || Reward: 0, Score: 1
+[STEP 65] | you can't get up the rock face.                                        || Action: northeast                 || Reward: 0, Score: 1
+[STEP 66] | hairpin loop you are at a sharp turn on a narrow and steeply sloping p || Action: look                      || Reward: 0, Score: 1
+[STEP 67] | hairpin loop you are at a sharp turn on a narrow and steeply sloping p || Action: southeast                 || Reward: 0, Score: 1
+[STEP 68] | barren area                                                            || Action: southwest                 || Reward: 1, Score: 2
+[STEP 69] | land of shadow through the shadows, a cloaked and hooded figure appear || Action: examine figure            || Reward: 0, Score: 2
+[STEP 70] | there is nothing special to be seen.                                   || Action: attack figure             || Reward: 1, Score: 3
+[STEP 71] | (with the sword) a quick stroke catches the hooded figure off guard! b || Action: look                      || Reward: 0, Score: 3
+[STEP 72] | land of shadow you are in a shadowy land of low, rolling hills stretch || Action: examine figure            || Reward: 0, Score: 3
+[STEP 73] | there is nothing special to be seen. you are wounded by a lightning th || Action: inventory                 || Reward: 0, Score: 3
+[STEP 74] | you are carrying:   a sword   a lamp the hooded figure tries to sneak  || Action: inventory                 || Reward: 0, Score: 3
+[STEP 75] | you are carrying:   a sword   a lamp the hooded figure thrusts, but yo || Action: east                      || Reward: 0, Score: 3
+[STEP 76] | your way is blocked by the hooded figure. you dodge as the hooded figu || Action: attack figure             || Reward: 0, Score: 3
+[STEP 77] | (with the sword) a quick stroke, but the hooded figure is on guard. th || Action: look                      || Reward: 0, Score: 3
+[STEP 78] | land of shadow you are in a shadowy land of low, rolling hills stretch || Action: look                      || Reward: 0, Score: 3
+[STEP 79] | land of shadow you are in a shadowy land of low, rolling hills stretch || Action: look                      || Reward: 0, Score: 3
+[STEP 80] | land of shadow you are in a shadowy land of low, rolling hills stretch || Action: look                      || Reward: 0, Score: 3
+[STEP 81] | land of shadow you are in a shadowy land of low, rolling hills stretch || Action: look                      || Reward: 0, Score: 3
+[STEP 82] | land of shadow you are in a shadowy land of low, rolling hills stretch || Action: look                      || Reward: 0, Score: 3
+[STEP 83] | land of shadow you are in a shadowy land of low, rolling hills stretch || Action: look                      || Reward: 0, Score: 3
+[STEP 84] | land of shadow you are in a shadowy land of low, rolling hills stretch || Action: look                      || Reward: 0, Score: 3
+[STEP 85] | land of shadow you are in a shadowy land of low, rolling hills stretch || Action: look                      || Reward: 0, Score: 3
+[STEP 86] | land of shadow you are in a shadowy land of low, rolling hills stretch || Action: look                      || Reward: 0, Score: 3
+[STEP 87] | land of shadow you are in a shadowy land of low, rolling hills stretch || Action: look                      || Reward: 0, Score: 3
+[STEP 88] | land of shadow you are in a shadowy land of low, rolling hills stretch || Action: north                     || Reward: 0, Score: 3
+[STEP 89] | barren area                                                            || Action: southwest                 || Reward: 0, Score: 3
+[STEP 90] | land of shadow a cloaked and hooded person, carrying a sword not unlik || Action: look                      || Reward: 0, Score: 3
+[STEP 91] | land of shadow you are in a shadowy land of low, rolling hills stretch || Action: look                      || Reward: 0, Score: 3
+[STEP 92] | land of shadow you are in a shadowy land of low, rolling hills stretch || Action: look                      || Reward: 0, Score: 3
+[STEP 93] | land of shadow you are in a shadowy land of low, rolling hills stretch || Action: north                     || Reward: 0, Score: 3
+[STEP 94] | barren area                                                            || Action: southwest                 || Reward: 0, Score: 3
+[STEP 95] | land of shadow a cloaked and hooded person, carrying a sword not unlik || Action: north                     || Reward: 0, Score: 3
+[STEP 96] | barren area                                                            || Action: southwest                 || Reward: 0, Score: 3
+[STEP 97] | land of shadow a cloaked and hooded person, carrying a sword not unlik || Action: look                      || Reward: 0, Score: 3
+[STEP 98] | land of shadow you are in a shadowy land of low, rolling hills stretch || Action: light lamp                || Reward: 0, Score: 3
+[STEP 99] | it is already on.                                                      || Action: north                     || Reward: 0, Score: 3
+[STEP 100] | barren area                                                            || Action: look                      || Reward: 0, Score: 3
+[STEP 101] | barren area you are west of the junction, where the rock-bound passage || Action: southwest                 || Reward: 0, Score: 3
+[STEP 102] | land of shadow a cloaked and hooded person, carrying a sword not unlik || Action: north                     || Reward: 0, Score: 3
+[STEP 103] | barren area                                                            || Action: southwest                 || Reward: 0, Score: 3
+[STEP 104] | land of shadow a cloaked and hooded person, carrying a sword not unlik || Action: look                      || Reward: 0, Score: 3
+[STEP 105] | land of shadow you are in a shadowy land of low, rolling hills stretch || Action: look                      || Reward: 0, Score: 3
+[STEP 106] | land of shadow you are in a shadowy land of low, rolling hills stretch || Action: north                     || Reward: 0, Score: 3
+[STEP 107] | barren area                                                            || Action: southwest                 || Reward: 0, Score: 3
+[STEP 108] | land of shadow a cloaked and hooded person, carrying a sword not unlik || Action: north                     || Reward: 0, Score: 3
+[STEP 109] | barren area                                                            || Action: southwest                 || Reward: 0, Score: 3
+[OurAgent] New best score 3 at node 4.
+Run 5/10 finished. Score: 3
+
+--- EVALUATION SUMMARY (our method) ---
+Agent LLM Model: gpt-oss-20b
+Number of final evaluation runs: 10
+Individual Scores: [2, 1, 0, 0, 3]
+Average Score: 1.20
+Standard Deviation: 1.30
+
+Starting game run 6/10...
+[DACS] enabled=True game=zork3
+[DACS] num raw candidates = 5 archived=0
+[DACS] num filtered candidates = 4
+[DACS] selected/reordered candidate ids = [1, 4, 2, 3]
+[DACS] candidate score table:
+  id | relevance | diversity | risk | final_score | summary
+  1 | 0.375 | 1.0 | 0.14 | 0.843 | **Guiding Prompt**  1. **Start by securing light**      *Take the lantern* → `ta
+  4 | 0.107 | 0.896 | 0.029 | 0.735 | **Guiding Prompt**  1. **Confirm Inventory & Light**      - Ensure you have the 
+  2 | 0.388 | 0.714 | 0.126 | 0.657 | Explore and act in the following order to make progress:  1. **Pick up the lante
+  3 | 0.408 | 0.682 | 0.147 | 0.647 | Explore systematically, but only perform actions that have previously led to new
+[DACS] fallback=False
+Parent node 4 at depth 1 with UCB score: 4.0149089929436155
+
+Evolving prompt. Current prompt: '**Guiding Prompt**
+
+1. **Confirm Inventory & Light**  
+   - Ensure you have the ...'
+
+Current state extractor code: '
+def extract_state(game_history):
+    return "Game in progress."
+...'
+
+
+Updated state extractor code successfully.
+Evolved guiding prompt and code: '**Guiding Prompt**
+
+1. **Lantern**  
+   - If the lantern is on the ground: `get lantern`  
+   - If you have it but it is not lit: `light lantern`  
+   - Do not do anything else until the lantern is lit; this protects you from darkness.
+
+2. **Stairs to the Junction**  
+   - From the start, repeatedly `up` until the description mentions a “junction” of north‑south and east‑west passages.  
+   - Do not waste time with `look` or `examine` unless the text changes when you move.
+
+3. **Sword at the Junction**  
+   - `examine sword` (or `look`) to confirm it is embedded and cannot be taken.  
+   - If it is still embedded, skip it.  
+   - Move west to the wide trail: `west`.  
+   - If the west trail is empty, try `south` or `north` to find another exit.
+
+4. **Cliff & Rope**  
+   - When the description mentions a rope dangling over a cliff:  
+     - If you see the rope, `climb rope` immediately.  
+     - If the rope is not visible, `look` until it appears.  
+   - **Never** attempt `tie chest rope` or `tie rope chest`; the game will not recognize it and you will loop.  
+   - After climbing, you will be on the ledge.  
+   - To go down, `climb rope` again (or `climb` if the rope is still attached).  
+   - Do not stay on the ledge: always use the rope to move back to the base or to ascend again.
+
+5. **Land of Shadow**  
+   - If a hooded figure blocks the east exit, don’t waste time attacking it.  
+   - Instead, `north` through the crumbled wall to bypass the figure.  
+   - If you are wounded, use `inventory` to check for healing items and decide whether to keep fighting or retreat.
+
+6. **General Rules to Avoid Loops**  
+   - Avoid repeating `look`, `examine chest`, `search chest`, or `search ledge` more than twice in the same location.  
+   - If you get stuck, backtrack: use the opposite direction of the last move.  
+   - Keep a mental list of directions you have already tried from each room; if all four are exhausted, move to a new, lightly searched room.
+
+7. **When You Reach a Dead End**  
+   - List all unvisited directions from the current room.  
+   - Choose one at random or in the order: north, east, south, west.  
+   - Try a simple action that might reveal new objects: `search`, `look`, `examine`.  
+   - If nothing changes after two attempts, move to the next direction.
+
+8. **End of Known Path**  
+   - When you cannot find a new direction or object, summarize what you have achieved: lantern lit, junction visited, rope used, hooded figure bypassed.  
+   - Then systematically explore any remaining unsearched rooms or items in your inventory.
+
+---
+
+**State Extractor Code**'
+def extract_state(game_history):
+    lantern = "lantern" in game_history.lower()
+    lantern_lit = "lamp is now on" in game_history.lower() or "lamp is now lit" in game_history.lower() or "lamp is lit" in game_history.lower()
+    junction = "junction" in game_history.lower()
+    sword_taken = "take sword" in game_history.lower() and "the sword is deeply imbedded" not in game_history.lower()
+    rope_used = "climb rope" in game_history.lower()
+    chest_explored = "examine chest" in game_history.lower() or "search chest" in game_history.lower()
+    hooded_figure_bypassed = "north" in game_history.lower() and "crumbled wall" in game_history.lower()
+    wounded = "wounded" in game_history.lower() or "hit" in game_history.lower()
+    inventory_check = "inventory" in game_history.lower()
+    summary = []
+    if lantern:
+        summary.append("lantern acquired")
+    if lantern_lit:
+        summary.append("lantern lit")
+    if junction:
+        summary.append("junction visited")
+    if sword_taken:
+        summary.append("sword taken")
+    if rope_used:
+        summary.append("rope used")
+    if chest_explored:
+        summary.append("chest examined")
+    if hooded_figure_bypassed:
+        summary.append("hooded figure bypassed")
+    if wounded:
+        summary.append("wounded")
+    if inventory_check:
+        summary.append("inventory checked")
+    return "; ".join(summary) if summary else "No milestones found."
+[STEP 0] |  ZORK III: The Dungeon Master Copyright 1982 by Infocom, Inc. All righ || Action: get lantern               || Reward: 0, Score: 0
+[STEP 1] | taken.                                                                 || Action: light lantern             || Reward: 0, Score: 0
+[STEP 2] | the lamp is now on.                                                    || Action: up                        || Reward: 0, Score: 0
+[STEP 3] | the stairs are endless.                                                || Action: west                      || Reward: 0, Score: 0
+[STEP 4] | you can't go that way.                                                 || Action: look                      || Reward: 0, Score: 0
+[STEP 5] | endless stair you are at the bottom of a seemingly endless stair, wind || Action: up                        || Reward: 0, Score: 0
+[STEP 6] | the stairs are endless.                                                || Action: up                        || Reward: 0, Score: 0
+[STEP 7] | the stairs are endless.                                                || Action: look                      || Reward: 0, Score: 0
+[STEP 8] | endless stair you are at the bottom of a seemingly endless stair, wind || Action: look                      || Reward: 0, Score: 0
+[STEP 9] | endless stair you are at the bottom of a seemingly endless stair, wind || Action: south                     || Reward: 0, Score: 0
+[STEP 10] | junction you are at the junction of a north-south passage and an east- || Action: look                      || Reward: 0, Score: 0
+[STEP 11] | junction you are at the junction of a north-south passage and an east- || Action: look                      || Reward: 0, Score: 0
+[STEP 12] | junction you are at the junction of a north-south passage and an east- || Action: look                      || Reward: 0, Score: 0
+[STEP 13] | junction you are at the junction of a north-south passage and an east- || Action: look                      || Reward: 0, Score: 0
+[STEP 14] | junction you are at the junction of a north-south passage and an east- || Action: look                      || Reward: 0, Score: 0
+[STEP 15] | junction you are at the junction of a north-south passage and an east- || Action: north                     || Reward: 0, Score: 0
+[STEP 16] | endless stair                                                          || Action: up                        || Reward: 0, Score: 0
+[STEP 17] | the stairs are endless.                                                || Action: look                      || Reward: 0, Score: 0
+[STEP 18] | endless stair you are at the bottom of a seemingly endless stair, wind || Action: look                      || Reward: 0, Score: 0
+[STEP 19] | endless stair you are at the bottom of a seemingly endless stair, wind || Action: south                     || Reward: 0, Score: 0
+[STEP 20] | junction standing before you is a great rock. imbedded within it is an || Action: look                      || Reward: 0, Score: 0
+[STEP 21] | junction you are at the junction of a north-south passage and an east- || Action: examine sword             || Reward: 0, Score: 0
+[STEP 22] | i see nothing special about the sword.                                 || Action: south                     || Reward: 0, Score: 0
+[STEP 23] | creepy crawl you are in a dark and quite creepy crawlway with passages || Action: north                     || Reward: 0, Score: 0
+[STEP 24] | junction standing before you is a great rock. imbedded within it is an || Action: east                      || Reward: 0, Score: 0
+[STEP 25] | damp passage this is a particularly damp spot even by dungeon standard || Action: east                      || Reward: 0, Score: 0
+[STEP 26] | dead end you have come to the end of two adjoining passages to the wes || Action: look                      || Reward: 0, Score: 0
+[STEP 27] | dead end you have come to the end of two adjoining passages to the wes || Action: north                     || Reward: 0, Score: 0
+[STEP 28] | you can't go that way.                                                 || Action: look                      || Reward: 0, Score: 0
+[STEP 29] | dead end you have come to the end of two adjoining passages to the wes || Action: east                      || Reward: 0, Score: 0
+[STEP 30] | you can't go that way.                                                 || Action: west                      || Reward: 0, Score: 0
+[STEP 31] | damp passage                                                           || Action: northwest                 || Reward: 0, Score: 0
+[STEP 32] | you can't go that way.                                                 || Action: look                      || Reward: 0, Score: 0
+[STEP 33] | damp passage this is a particularly damp spot even by dungeon standard || Action: west                      || Reward: 0, Score: 0
+[STEP 34] | junction standing before you is a great rock. imbedded within it is an || Action: look                      || Reward: 0, Score: 0
+[STEP 35] | junction you are at the junction of a north-south passage and an east- || Action: look                      || Reward: 0, Score: 0
+[STEP 36] | junction you are at the junction of a north-south passage and an east- || Action: look                      || Reward: 0, Score: 0
+[STEP 37] | junction you are at the junction of a north-south passage and an east- || Action: west                      || Reward: 0, Score: 0
+[STEP 38] | barren area you are west of the junction, where the rock-bound passage || Action: west                      || Reward: 0, Score: 0
+[STEP 39] | cliff this is a remarkable spot in the dungeon. perhaps two hundred fe || Action: climb rope                || Reward: 1, Score: 1
+[STEP 40] | cliff ledge this is a rock-strewn ledge near the base of a tall cliff. || Action: climb rope                || Reward: 0, Score: 1
+[STEP 41] | cliff base you are at the base of a steep cliff. directly above you is || Action: northeast                 || Reward: 0, Score: 1
+[STEP 42] | hairpin loop you are at a sharp turn on a narrow and steeply sloping p || Action: southeast                 || Reward: 0, Score: 1
+[STEP 43] | barren area                                                            || Action: southwest                 || Reward: 0, Score: 1
+[STEP 44] | land of shadow you are in a shadowy land of low, rolling hills stretch || Action: north                     || Reward: 0, Score: 1
+[STEP 45] | barren area                                                            || Action: look                      || Reward: 0, Score: 1
+[STEP 46] | barren area you are west of the junction, where the rock-bound passage || Action: southwest                 || Reward: 1, Score: 2
+[STEP 47] | land of shadow through the shadows, a cloaked and hooded figure appear || Action: north                     || Reward: 0, Score: 2
+[STEP 48] | barren area                                                            || Action: look                      || Reward: 0, Score: 2
+[STEP 49] | barren area you are west of the junction, where the rock-bound passage || Action: west                      || Reward: 0, Score: 2
+[STEP 50] | cliff it seems as if somebody has been here recently, as there is some || Action: look                      || Reward: 0, Score: 2
+[STEP 51] | cliff this is a remarkable spot in the dungeon. perhaps two hundred fe || Action: climb rope                || Reward: 0, Score: 2
+[STEP 52] | cliff ledge a large chest, closed and locked, is lying among the bould || Action: examine chest             || Reward: 0, Score: 2
+[STEP 53] | the chest is closed.                                                   || Action: search chest              || Reward: 0, Score: 2
+[STEP 54] | you find nothing unusual.                                              || Action: look                      || Reward: 0, Score: 2
+[STEP 55] | cliff ledge this is a rock-strewn ledge near the base of a tall cliff. || Action: climb rope                || Reward: 0, Score: 2
+[STEP 56] | cliff base                                                             || Action: look                      || Reward: 0, Score: 2
+[STEP 57] | cliff base you are at the base of a steep cliff. directly above you is || Action: north                     || Reward: 0, Score: 2
+[STEP 58] | you can't go that way.                                                 || Action: look                      || Reward: 0, Score: 2
+[STEP 59] | cliff base you are at the base of a steep cliff. directly above you is || Action: northeast                 || Reward: 0, Score: 2
+[STEP 60] | hairpin loop                                                           || Action: look                      || Reward: 0, Score: 2
+[STEP 61] | hairpin loop you are at a sharp turn on a narrow and steeply sloping p || Action: north                     || Reward: 0, Score: 2
+[STEP 62] | you can't go that way.                                                 || Action: look                      || Reward: 0, Score: 2
+[STEP 63] | hairpin loop you are at a sharp turn on a narrow and steeply sloping p || Action: west                      || Reward: 0, Score: 2
+[STEP 64] | you can't go that way.                                                 || Action: southeast                 || Reward: 0, Score: 2
+[STEP 65] | barren area                                                            || Action: look                      || Reward: 0, Score: 2
+[STEP 66] | barren area you are west of the junction, where the rock-bound passage || Action: look                      || Reward: 0, Score: 2
+[STEP 67] | barren area you are west of the junction, where the rock-bound passage || Action: northwest                 || Reward: 0, Score: 2
+[STEP 68] | hairpin loop                                                           || Action: southwest                 || Reward: 0, Score: 2
+[STEP 69] | cliff base                                                             || Action: look                      || Reward: 0, Score: 2
+[STEP 70] | cliff base you are at the base of a steep cliff. directly above you is || Action: northeast                 || Reward: 0, Score: 2
+[STEP 71] | hairpin loop there is a great tremor from within the earth. the entire || Action: look                      || Reward: 0, Score: 2
+[STEP 72] | hairpin loop you are at a sharp turn on a narrow and steeply sloping p || Action: look                      || Reward: 0, Score: 2
+[STEP 73] | hairpin loop you are at a sharp turn on a narrow and steeply sloping p || Action: search                    || Reward: 0, Score: 2
+[STEP 74] | what do you want to search?                                            || Action: look                      || Reward: 0, Score: 2
+[STEP 75] | hairpin loop you are at a sharp turn on a narrow and steeply sloping p || Action: look                      || Reward: 0, Score: 2
+[STEP 76] | hairpin loop you are at a sharp turn on a narrow and steeply sloping p || Action: look                      || Reward: 0, Score: 2
+[STEP 77] | hairpin loop you are at a sharp turn on a narrow and steeply sloping p || Action: search rock               || Reward: 0, Score: 2
+[STEP 78] | you find nothing unusual.                                              || Action: look                      || Reward: 0, Score: 2
+[STEP 79] | hairpin loop you are at a sharp turn on a narrow and steeply sloping p || Action: east                      || Reward: 0, Score: 2
+[STEP 80] | you can't go that way.                                                 || Action: look                      || Reward: 0, Score: 2
+[STEP 81] | hairpin loop you are at a sharp turn on a narrow and steeply sloping p || Action: look                      || Reward: 0, Score: 2
+[STEP 82] | hairpin loop you are at a sharp turn on a narrow and steeply sloping p || Action: look                      || Reward: 0, Score: 2
+[STEP 83] | hairpin loop you are at a sharp turn on a narrow and steeply sloping p || Action: south                     || Reward: 0, Score: 2
+[STEP 84] | you can't go that way.                                                 || Action: look                      || Reward: 0, Score: 2
+[STEP 85] | hairpin loop you are at a sharp turn on a narrow and steeply sloping p || Action: look                      || Reward: 0, Score: 2
+[STEP 86] | hairpin loop you are at a sharp turn on a narrow and steeply sloping p || Action: search path               || Reward: 0, Score: 2
+[STEP 87] | you find nothing unusual.                                              || Action: look                      || Reward: 0, Score: 2
+[STEP 88] | hairpin loop you are at a sharp turn on a narrow and steeply sloping p || Action: look                      || Reward: 0, Score: 2
+[STEP 89] | hairpin loop you are at a sharp turn on a narrow and steeply sloping p || Action: look                      || Reward: 0, Score: 2
+[STEP 90] | hairpin loop you are at a sharp turn on a narrow and steeply sloping p || Action: look                      || Reward: 0, Score: 2
+[STEP 91] | hairpin loop you are at a sharp turn on a narrow and steeply sloping p || Action: climb                     || Reward: 0, Score: 2
+[STEP 92] | what do you want to climb up?                                          || Action: climb rope                || Reward: 0, Score: 2
+[STEP 93] | you can't see any rope here.                                           || Action: look                      || Reward: 0, Score: 2
+[STEP 94] | hairpin loop you are at a sharp turn on a narrow and steeply sloping p || Action: west                      || Reward: 0, Score: 2
+[STEP 95] | you can't go that way.                                                 || Action: north                     || Reward: 0, Score: 2
+[STEP 96] | you can't go that way.                                                 || Action: look                      || Reward: 0, Score: 2
+[STEP 97] | hairpin loop you are at a sharp turn on a narrow and steeply sloping p || Action: look                      || Reward: 0, Score: 2
+[STEP 98] | hairpin loop you are at a sharp turn on a narrow and steeply sloping p || Action: look                      || Reward: 0, Score: 2
+[STEP 99] | hairpin loop you are at a sharp turn on a narrow and steeply sloping p || Action: southwest                 || Reward: 0, Score: 2
+[STEP 100] | cliff base                                                             || Action: climb rope                || Reward: 0, Score: 2
+[STEP 101] | you can't see any rope here.                                           || Action: look                      || Reward: 0, Score: 2
+[STEP 102] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 2
+[STEP 103] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 2
+[STEP 104] | cliff base you are at the base of a steep cliff. directly above you is || Action: search                    || Reward: 0, Score: 2
+[STEP 105] | what do you want to search?                                            || Action: look                      || Reward: 0, Score: 2
+[STEP 106] | cliff base you are at the base of a steep cliff. directly above you is || Action: search ledge              || Reward: 0, Score: 2
+[STEP 107] | you find nothing unusual.                                              || Action: look                      || Reward: 0, Score: 2
+[STEP 108] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 2
+[STEP 109] | cliff base you are at the base of a steep cliff. directly above you is || Action: climb cliff               || Reward: 0, Score: 2
+Run 6/10 finished. Score: 2
+
+--- EVALUATION SUMMARY (our method) ---
+Agent LLM Model: gpt-oss-20b
+Number of final evaluation runs: 10
+Individual Scores: [2, 1, 0, 0, 3, 2]
+Average Score: 1.33
+Standard Deviation: 1.21
+
+Starting game run 7/10...
+[DACS] enabled=True game=zork3
+[DACS] num raw candidates = 6 archived=0
+[DACS] num filtered candidates = 4
+[DACS] selected/reordered candidate ids = [5, 3, 2, 1]
+[DACS] candidate score table:
+  id | relevance | diversity | risk | final_score | summary
+  5 | 0.423 | 1.0 | 0.146 | 0.954 | **Guiding Prompt**  1. **Lantern**      - If the lantern is on the ground: `get 
+  3 | 0.534 | 0.722 | 0.151 | 0.789 | Explore systematically, but only perform actions that have previously led to new
+  2 | 0.512 | 0.711 | 0.124 | 0.781 | Explore and act in the following order to make progress:  1. **Pick up the lante
+  1 | 0.468 | 0.682 | 0.141 | 0.777 | **Guiding Prompt**  1. **Start by securing light**      *Take the lantern* → `ta
+[DACS] fallback=False
+Parent node 5 at depth 2 with UCB score: 2.8566823673893444
+
+Evolving prompt. Current prompt: '**Guiding Prompt**
+
+1. **Lantern**  
+   - If the lantern is on the ground: `get ...'
+
+Current state extractor code: 'def extract_state(game_history):
+    lantern = "lantern" in game_history.lower()...'
+
+
+Evolution LLM returned invalid state extractor code, keeping current code
+Evolved guiding prompt and code: '**Guiding Prompt**
+
+**1. Core Progress Actions**  
+- **Acquire and light the lantern**  
+  1. `get lantern` (if it is on the ground).  
+  2. `light lantern` (once you have it).  
+- **Reach the junction**  
+  3. `up` repeatedly until the description contains “junction”.  
+- **Handle the sword at the junction**  
+  4. `examine sword` to confirm it is embedded (cannot be taken).  
+  5. `west` to the wide trail (only move west if the exit is not blocked).  
+- **Find and use the rope**  
+  6. In the wide trail, look for “rope” or “climb rope”.  
+  7. `climb rope` to descend from the cliff.  
+  8. Once on the cliff base, `climb rope` again to return to the ledge if needed.  
+- **Explore the land of shadow**  
+  9. When a hooded figure blocks the south exit, `north` through the crumbled wall.  
+ 10. If the sword appears in your hand, you have the elvish sword (no further action needed unless a combat requirement appears).  
+- **Chest interaction**  
+ 11. If a chest is present, `examine chest` then `search chest` for a key or clue.
+
+**2. Avoid Unproductive or Loop‑Inducing Actions**  
+- Do not `look` more than twice in the same room; after two looks, proceed to a new direction.  
+- Do not `examine`, `search`, or `climb` repeatedly when the same result occurs.  
+- If a direction is reported as “you can’t go that way”, do not try it again; choose an untried direction.  
+- Do not `climb` without a rope present; always check for the rope first.  
+- Do not `look` after every movement unless the description changes.  
+- Avoid repeating the same command sequence (e.g., `look`, `north`, `look`, `south`, …) – this indicates a loop.
+
+**3. When Stuck or No Clear Progress**  
+- List all directions that have not yet been tried in the current room.  
+- List any objects that have not been examined or interacted with.  
+- If no untried directions or objects exist, backtrack to the previous room and try a new exit.  
+- Keep a mental “visited exits” map for each room; once all four exits are attempted, move to a new, lightly searched room.  
+- If the agent repeatedly receives “you can’t go that way”, change strategy: search the room for hidden paths or items before moving again.
+
+---
+
+```python
+def extract_state(game_history):
+    milestones = set()
+    for line in game_history.splitlines():
+        if line.lower().startswith("extracted state:"):
+            items = [item.strip() for item in line[len("EXTRACTED STATE:"):].split(";")]
+            for item in items:
+                if item:
+                    milestones.add(item.lower())
+    summary = []
+    if "lantern acquired" in milestones:
+        summary.append("Lantern acquired")
+    if "lantern lit" in milestones or "lamp is now on" in milestones:
+        summary.append("Lantern lit")
+    if "junction visited" in milestones:
+        summary.append("Junction reached")
+    if "rope used" in milestones:
+        summary.append("Rope used")
+    if "sword examined" in milestones:
+        summary.append("Sword examined")
+    if "sword acquired" in milestones or "sword appears in your hand" in milestones:
+        summary.append("Sword acquired")
+    if "hooded figure bypassed" in milestones:
+        summary.append("Hooded figure bypassed")
+    if "chest examined" in milestones:
+        summary.append("Chest examined")
+    if "chest searched" in milestones:
+        summary.append("Chest searched")
+    return ", ".join(summary) if summary else "Unknown state."
+```'
+def extract_state(game_history):
+    lantern = "lantern" in game_history.lower()
+    lantern_lit = "lamp is now on" in game_history.lower() or "lamp is now lit" in game_history.lower() or "lamp is lit" in game_history.lower()
+    junction = "junction" in game_history.lower()
+    sword_taken = "take sword" in game_history.lower() and "the sword is deeply imbedded" not in game_history.lower()
+    rope_used = "climb rope" in game_history.lower()
+    chest_explored = "examine chest" in game_history.lower() or "search chest" in game_history.lower()
+    hooded_figure_bypassed = "north" in game_history.lower() and "crumbled wall" in game_history.lower()
+    wounded = "wounded" in game_history.lower() or "hit" in game_history.lower()
+    inventory_check = "inventory" in game_history.lower()
+    summary = []
+    if lantern:
+        summary.append("lantern acquired")
+    if lantern_lit:
+        summary.append("lantern lit")
+    if junction:
+        summary.append("junction visited")
+    if sword_taken:
+        summary.append("sword taken")
+    if rope_used:
+        summary.append("rope used")
+    if chest_explored:
+        summary.append("chest examined")
+    if hooded_figure_bypassed:
+        summary.append("hooded figure bypassed")
+    if wounded:
+        summary.append("wounded")
+    if inventory_check:
+        summary.append("inventory checked")
+    return "; ".join(summary) if summary else "No milestones found."
+[STEP 0] |  ZORK III: The Dungeon Master Copyright 1982 by Infocom, Inc. All righ || Action: get lantern               || Reward: 0, Score: 0
+[STEP 1] | taken.                                                                 || Action: light lantern             || Reward: 0, Score: 0
+[STEP 2] | the lamp is now on.                                                    || Action: south                     || Reward: 0, Score: 0
+[STEP 3] | junction you are at the junction of a north-south passage and an east- || Action: examine sword             || Reward: 0, Score: 0
+[STEP 4] | i see nothing special about the sword.                                 || Action: west                      || Reward: 0, Score: 0
+[STEP 5] | barren area you are west of the junction, where the rock-bound passage || Action: southwest                 || Reward: 0, Score: 0
+[STEP 6] | land of shadow you are in a shadowy land of low, rolling hills stretch || Action: north                     || Reward: 0, Score: 0
+[STEP 7] | barren area                                                            || Action: look                      || Reward: 0, Score: 0
+[STEP 8] | barren area you are west of the junction, where the rock-bound passage || Action: southwest                 || Reward: 0, Score: 0
+[STEP 9] | land of shadow                                                         || Action: look                      || Reward: 1, Score: 1
+[STEP 10] | land of shadow you are in a shadowy land of low, rolling hills stretch || Action: look                      || Reward: 0, Score: 1
+[STEP 11] | land of shadow you are in a shadowy land of low, rolling hills stretch || Action: look                      || Reward: 0, Score: 1
+[STEP 12] | land of shadow you are in a shadowy land of low, rolling hills stretch || Action: look                      || Reward: 0, Score: 1
+[STEP 13] | land of shadow you are in a shadowy land of low, rolling hills stretch || Action: north                     || Reward: 0, Score: 1
+[STEP 14] | barren area                                                            || Action: look                      || Reward: 0, Score: 1
+[STEP 15] | barren area you are west of the junction, where the rock-bound passage || Action: look                      || Reward: 0, Score: 1
+[STEP 16] | barren area you are west of the junction, where the rock-bound passage || Action: southwest                 || Reward: 0, Score: 1
+[STEP 17] | land of shadow a cloaked and hooded person, carrying a sword not unlik || Action: south                     || Reward: 0, Score: 1
+[STEP 18] | your way is blocked by the hooded figure. a brilliant feint puts you o || Action: north                     || Reward: 0, Score: 1
+[STEP 19] | barren area                                                            || Action: look                      || Reward: 0, Score: 1
+[STEP 20] | barren area you are west of the junction, where the rock-bound passage || Action: look                      || Reward: 0, Score: 1
+[STEP 21] | barren area you are west of the junction, where the rock-bound passage || Action: look                      || Reward: 0, Score: 1
+[STEP 22] | barren area you are west of the junction, where the rock-bound passage || Action: look                      || Reward: 0, Score: 1
+[STEP 23] | barren area you are west of the junction, where the rock-bound passage || Action: look                      || Reward: 0, Score: 1
+[STEP 24] | barren area you are west of the junction, where the rock-bound passage || Action: look                      || Reward: 0, Score: 1
+[STEP 25] | barren area you are west of the junction, where the rock-bound passage || Action: look                      || Reward: 0, Score: 1
+[STEP 26] | barren area you are west of the junction, where the rock-bound passage || Action: look                      || Reward: 0, Score: 1
+[STEP 27] | barren area you are west of the junction, where the rock-bound passage || Action: look                      || Reward: 0, Score: 1
+[STEP 28] | barren area you are west of the junction, where the rock-bound passage || Action: look                      || Reward: 0, Score: 1
+[STEP 29] | barren area you are west of the junction, where the rock-bound passage || Action: look                      || Reward: 0, Score: 1
+[STEP 30] | barren area you are west of the junction, where the rock-bound passage || Action: look                      || Reward: 0, Score: 1
+[STEP 31] | barren area you are west of the junction, where the rock-bound passage || Action: look                      || Reward: 0, Score: 1
+[STEP 32] | barren area you are west of the junction, where the rock-bound passage || Action: look                      || Reward: 0, Score: 1
+[STEP 33] | barren area you are west of the junction, where the rock-bound passage || Action: look                      || Reward: 0, Score: 1
+[STEP 34] | barren area you are west of the junction, where the rock-bound passage || Action: look                      || Reward: 0, Score: 1
+[STEP 35] | barren area you are west of the junction, where the rock-bound passage || Action: look                      || Reward: 0, Score: 1
+[STEP 36] | barren area you are west of the junction, where the rock-bound passage || Action: look                      || Reward: 0, Score: 1
+[STEP 37] | barren area you are west of the junction, where the rock-bound passage || Action: look                      || Reward: 0, Score: 1
+[STEP 38] | barren area you are west of the junction, where the rock-bound passage || Action: west                      || Reward: 0, Score: 1
+[STEP 39] | cliff this is a remarkable spot in the dungeon. perhaps two hundred fe || Action: climb rope                || Reward: 1, Score: 2
+[STEP 40] | cliff ledge this is a rock-strewn ledge near the base of a tall cliff. || Action: look                      || Reward: 0, Score: 2
+[STEP 41] | cliff ledge this is a rock-strewn ledge near the base of a tall cliff. || Action: climb rope                || Reward: 0, Score: 2
+[STEP 42] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 2
+[STEP 43] | cliff base you are at the base of a steep cliff. directly above you is || Action: climb rope                || Reward: 0, Score: 2
+[STEP 44] | you can't see any rope here.                                           || Action: look                      || Reward: 0, Score: 2
+[STEP 45] | cliff base you are at the base of a steep cliff. directly above you is || Action: northeast                 || Reward: 0, Score: 2
+[STEP 46] | hairpin loop you are at a sharp turn on a narrow and steeply sloping p || Action: look                      || Reward: 0, Score: 2
+[STEP 47] | hairpin loop you are at a sharp turn on a narrow and steeply sloping p || Action: look                      || Reward: 0, Score: 2
+[STEP 48] | hairpin loop you are at a sharp turn on a narrow and steeply sloping p || Action: southeast                 || Reward: 0, Score: 2
+[STEP 49] | barren area                                                            || Action: look                      || Reward: 0, Score: 2
+[STEP 50] | barren area you are west of the junction, where the rock-bound passage || Action: southwest                 || Reward: 0, Score: 2
+[STEP 51] | land of shadow a cloaked and hooded person, carrying a sword not unlik || Action: north                     || Reward: 0, Score: 2
+[STEP 52] | barren area                                                            || Action: look                      || Reward: 0, Score: 2
+[STEP 53] | barren area you are west of the junction, where the rock-bound passage || Action: look                      || Reward: 0, Score: 2
+[STEP 54] | barren area you are west of the junction, where the rock-bound passage || Action: look                      || Reward: 0, Score: 2
+[STEP 55] | barren area you are west of the junction, where the rock-bound passage || Action: northwest                 || Reward: 0, Score: 2
+[STEP 56] | hairpin loop                                                           || Action: examine boulder           || Reward: 0, Score: 2
+[STEP 57] | i see nothing special about the rubble.                                || Action: look                      || Reward: 0, Score: 2
+[STEP 58] | hairpin loop you are at a sharp turn on a narrow and steeply sloping p || Action: southeast                 || Reward: 0, Score: 2
+[STEP 59] | barren area                                                            || Action: look                      || Reward: 0, Score: 2
+[STEP 60] | barren area you are west of the junction, where the rock-bound passage || Action: look                      || Reward: 0, Score: 2
+[STEP 61] | barren area you are west of the junction, where the rock-bound passage || Action: look                      || Reward: 0, Score: 2
+[STEP 62] | barren area you are west of the junction, where the rock-bound passage || Action: look                      || Reward: 0, Score: 2
+[STEP 63] | barren area you are west of the junction, where the rock-bound passage || Action: west                      || Reward: 0, Score: 2
+[STEP 64] | cliff it seems as if somebody has been here recently, as there is some || Action: get bread                 || Reward: 0, Score: 2
+[STEP 65] | taken.                                                                 || Action: eat bread                 || Reward: 0, Score: 2
+[STEP 66] | thank you very much. it really hit the spot.                           || Action: examine chest             || Reward: 0, Score: 2
+[STEP 67] | you can't see any chest here.                                          || Action: look                      || Reward: 0, Score: 2
+[STEP 68] | cliff this is a remarkable spot in the dungeon. perhaps two hundred fe || Action: look                      || Reward: 0, Score: 2
+[STEP 69] | cliff this is a remarkable spot in the dungeon. perhaps two hundred fe || Action: look                      || Reward: 0, Score: 2
+[STEP 70] | cliff this is a remarkable spot in the dungeon. perhaps two hundred fe || Action: climb rope                || Reward: 0, Score: 2
+[STEP 71] | cliff ledge a large chest, closed and locked, is lying among the bould || Action: look                      || Reward: 0, Score: 2
+[STEP 72] | cliff ledge this is a rock-strewn ledge near the base of a tall cliff. || Action: examine chest             || Reward: 0, Score: 2
+[STEP 73] | the chest is closed. there is a great tremor from within the earth. th || Action: search chest              || Reward: 0, Score: 2
+[STEP 74] | you find nothing unusual.                                              || Action: look                      || Reward: 0, Score: 2
+[STEP 75] | cliff ledge this is a rock-strewn ledge near the base of a tall cliff. || Action: tie chest rope            || Reward: 0, Score: 2
+[STEP 76] | that sentence isn't one i recognize.                                   || Action: look                      || Reward: 0, Score: 2
+[STEP 77] | cliff ledge this is a rock-strewn ledge near the base of a tall cliff. || Action: look                      || Reward: 0, Score: 2
+[STEP 78] | cliff ledge this is a rock-strewn ledge near the base of a tall cliff. || Action: look                      || Reward: 0, Score: 2
+[STEP 79] | cliff ledge this is a rock-strewn ledge near the base of a tall cliff. || Action: look                      || Reward: 0, Score: 2
+[STEP 80] | cliff ledge this is a rock-strewn ledge near the base of a tall cliff. || Action: look                      || Reward: 0, Score: 2
+[STEP 81] | cliff ledge this is a rock-strewn ledge near the base of a tall cliff. || Action: tie rope chest            || Reward: 0, Score: 2
+[STEP 82] | that sentence isn't one i recognize.                                   || Action: look                      || Reward: 0, Score: 2
+[STEP 83] | cliff ledge this is a rock-strewn ledge near the base of a tall cliff. || Action: look                      || Reward: 0, Score: 2
+[STEP 84] | cliff ledge this is a rock-strewn ledge near the base of a tall cliff. || Action: look                      || Reward: 0, Score: 2
+[STEP 85] | cliff ledge this is a rock-strewn ledge near the base of a tall cliff. || Action: look                      || Reward: 0, Score: 2
+[STEP 86] | cliff ledge this is a rock-strewn ledge near the base of a tall cliff. || Action: get rope                  || Reward: 0, Score: 2
+[STEP 87] | the man scowls. "i may help you up, but not before i have that chest." || Action: look                      || Reward: 0, Score: 2
+[STEP 88] | cliff ledge this is a rock-strewn ledge near the base of a tall cliff. || Action: look                      || Reward: 0, Score: 2
+[STEP 89] | cliff ledge this is a rock-strewn ledge near the base of a tall cliff. || Action: look                      || Reward: 0, Score: 2
+[STEP 90] | cliff ledge this is a rock-strewn ledge near the base of a tall cliff. || Action: look                      || Reward: 0, Score: 2
+[STEP 91] | cliff ledge this is a rock-strewn ledge near the base of a tall cliff. || Action: get rope                  || Reward: 0, Score: 2
+[STEP 92] | a short tug on the rope convinces you that it is securely fastened fro || Action: look                      || Reward: 0, Score: 2
+[STEP 93] | cliff ledge this is a rock-strewn ledge near the base of a tall cliff. || Action: look                      || Reward: 0, Score: 2
+[STEP 94] | cliff ledge this is a rock-strewn ledge near the base of a tall cliff. || Action: look                      || Reward: 0, Score: 2
+[STEP 95] | cliff ledge this is a rock-strewn ledge near the base of a tall cliff. || Action: look                      || Reward: 0, Score: 2
+[STEP 96] | cliff ledge this is a rock-strewn ledge near the base of a tall cliff. || Action: look                      || Reward: 0, Score: 2
+[STEP 97] | cliff ledge this is a rock-strewn ledge near the base of a tall cliff. || Action: look                      || Reward: 0, Score: 2
+[STEP 98] | cliff ledge this is a rock-strewn ledge near the base of a tall cliff. || Action: look                      || Reward: 0, Score: 2
+[STEP 99] | cliff ledge this is a rock-strewn ledge near the base of a tall cliff. || Action: look                      || Reward: 0, Score: 2
+[STEP 100] | cliff ledge this is a rock-strewn ledge near the base of a tall cliff. || Action: look                      || Reward: 0, Score: 2
+[STEP 101] | cliff ledge this is a rock-strewn ledge near the base of a tall cliff. || Action: look                      || Reward: 0, Score: 2
+[STEP 102] | cliff ledge this is a rock-strewn ledge near the base of a tall cliff. || Action: look                      || Reward: 0, Score: 2
+[STEP 103] | cliff ledge this is a rock-strewn ledge near the base of a tall cliff. || Action: inventory                 || Reward: 0, Score: 2
+[STEP 104] | you are carrying:   a sword   a lamp                                   || Action: look                      || Reward: 0, Score: 2
+[STEP 105] | cliff ledge this is a rock-strewn ledge near the base of a tall cliff. || Action: get rope                  || Reward: 0, Score: 2
+[STEP 106] | a short tug on the rope convinces you that it is securely fastened fro || Action: look                      || Reward: 0, Score: 2
+[STEP 107] | cliff ledge this is a rock-strewn ledge near the base of a tall cliff. || Action: look                      || Reward: 0, Score: 2
+[STEP 108] | cliff ledge this is a rock-strewn ledge near the base of a tall cliff. || Action: look                      || Reward: 0, Score: 2
+[STEP 109] | cliff ledge this is a rock-strewn ledge near the base of a tall cliff. || Action: look                      || Reward: 0, Score: 2
+Run 7/10 finished. Score: 2
+
+--- EVALUATION SUMMARY (our method) ---
+Agent LLM Model: gpt-oss-20b
+Number of final evaluation runs: 10
+Individual Scores: [2, 1, 0, 0, 3, 2, 2]
+Average Score: 1.43
+Standard Deviation: 1.13
+
+Starting game run 8/10...
+[DACS] enabled=True game=zork3
+[DACS] num raw candidates = 7 archived=0
+[DACS] num filtered candidates = 4
+[DACS] selected/reordered candidate ids = [1, 6, 2, 4]
+[DACS] candidate score table:
+  id | relevance | diversity | risk | final_score | summary
+  1 | 0.462 | 1.0 | 0.117 | 0.947 | **Guiding Prompt**  1. **Start by securing light**      *Take the lantern* → `ta
+  6 | 0.344 | 0.713 | 0.12 | 0.75 | **Guiding Prompt**  **1. Core Progress Actions**   - **Acquire and light the lan
+  2 | 0.408 | 0.714 | 0.107 | 0.691 | Explore and act in the following order to make progress:  1. **Pick up the lante
+  4 | 0.034 | 0.896 | 0.009 | 0.676 | **Guiding Prompt**  1. **Confirm Inventory & Light**      - Ensure you have the 
+[DACS] fallback=False
+Parent node 4 at depth 1 with UCB score: 3.7891078808995005
+
+Evolving prompt. Current prompt: '**Guiding Prompt**
+
+1. **Confirm Inventory & Light**  
+   - Ensure you have the ...'
+
+Current state extractor code: '
+def extract_state(game_history):
+    return "Game in progress."
+...'
+
+
+Updated state extractor code successfully.
+Evolved guiding prompt and code: '**Guiding Prompt**
+
+1. **Progress Summary**  
+   - Lantern is in your inventory and lit.  
+   - Sword is embedded in a rock and cannot be taken.  
+   - A locked chest sits on the cliff ledge; it has been examined but nothing found.  
+   - A hooded figure blocks the east exit of the land of shadow; north is open.  
+
+2. **Immediate Actions to Move Forward**  
+   1. **Go north** from the land of shadow to bypass the hooded figure.  
+   2. Once you have moved north, **examine** the new area for doors, rooms, or items.  
+   3. If a key appears, **unlock** the locked chest.  
+   4. Search the chest for a pickaxe or other tool that could free the sword.  
+   5. Use the pickaxe to pry the sword from the rock.  
+
+3. **Avoid**  
+   - Repeatedly using **look** when nothing new appears.  
+   - Trying to tie the chest to the rope in any form other than “tie rope chest”.  
+   - Climbing or moving where no rope or path exists.  
+
+4. **Exploration Strategy When Stuck**  
+   - From your current location, try the four cardinal directions (**north**, **south**, **east**, **west**) and **up/down** if applicable.  
+   - On any new room, use **examine** or **search** on objects that have not yet been inspected.  
+   - Keep track of inventory items (lamp, sword, etc.) and use them when appropriate.  
+
+5. **Remember**  
+   - Verify each action by the game’s response before issuing the next command.  
+
+---'
+def extract_state(game_history):
+    lantern_lit = "lamp" in game_history or "lantern" in game_history
+    lantern_lit = lantern_lit and ("is on" in game_history or "illuminated" in game_history)
+    sword_embedded = "elvish sword" in game_history and ("not budge" in game_history or "deeply imbedded" in game_history)
+    chest_locked = "large chest" in game_history and ("closed" in game_history or "locked" in game_history)
+    hooded_figure = "hooded figure" in game_history or "cloaked" in game_history
+    north_open = "north" in game_history and ("open" in game_history or "crumbled" in game_history)
+    summary_parts = []
+    if lantern_lit:
+        summary_parts.append("Lantern acquired and lit")
+    if sword_embedded:
+        summary_parts.append("Sword embedded in rock, not taken")
+    if chest_locked:
+        summary_parts.append("Locked chest on cliff ledge discovered")
+    if hooded_figure:
+        summary_parts.append("Hooded figure blocks east exit")
+    if north_open:
+        summary_parts.append("North direction open")
+    return ". ".join(summary_parts) + "."
+[STEP 0] |  ZORK III: The Dungeon Master Copyright 1982 by Infocom, Inc. All righ || Action: take lantern              || Reward: 0, Score: 0
+[STEP 1] | taken.                                                                 || Action: look                      || Reward: 0, Score: 0
+[STEP 2] | endless stair you are at the bottom of a seemingly endless stair, wind || Action: north                     || Reward: 0, Score: 0
+[STEP 3] | the stairs are endless.                                                || Action: north                     || Reward: 0, Score: 0
+[STEP 4] | the stairs are endless.                                                || Action: up                        || Reward: 0, Score: 0
+[STEP 5] | the stairs are endless.                                                || Action: south                     || Reward: 0, Score: 0
+[STEP 6] | it is pitch black. you are likely to be eaten by a grue.               || Action: look                      || Reward: 0, Score: 0
+[STEP 7] | it is pitch black. you are likely to be eaten by a grue.               || Action: light lantern             || Reward: 0, Score: 0
+[STEP 8] | the lamp is now on.  junction you are at the junction of a north-south || Action: north                     || Reward: 0, Score: 0
+[STEP 9] | endless stair                                                          || Action: look                      || Reward: 0, Score: 0
+[STEP 10] | endless stair you are at the bottom of a seemingly endless stair, wind || Action: look                      || Reward: 0, Score: 0
+[STEP 11] | endless stair you are at the bottom of a seemingly endless stair, wind || Action: north                     || Reward: 0, Score: 0
+[STEP 12] | the stairs are endless.                                                || Action: look                      || Reward: 0, Score: 0
+[STEP 13] | endless stair you are at the bottom of a seemingly endless stair, wind || Action: look                      || Reward: 0, Score: 0
+[STEP 14] | endless stair you are at the bottom of a seemingly endless stair, wind || Action: north                     || Reward: 0, Score: 0
+[STEP 15] | the stairs are endless.                                                || Action: look                      || Reward: 0, Score: 0
+[STEP 16] | endless stair you are at the bottom of a seemingly endless stair, wind || Action: look                      || Reward: 0, Score: 0
+[STEP 17] | endless stair you are at the bottom of a seemingly endless stair, wind || Action: look                      || Reward: 0, Score: 0
+[STEP 18] | endless stair you are at the bottom of a seemingly endless stair, wind || Action: south                     || Reward: 0, Score: 0
+[STEP 19] | junction standing before you is a great rock. imbedded within it is an || Action: examine rock              || Reward: 0, Score: 0
+[STEP 20] | the great rock contains:   a sword                                     || Action: north                     || Reward: 0, Score: 0
+[STEP 21] | endless stair                                                          || Action: look                      || Reward: 0, Score: 0
+[STEP 22] | endless stair you are at the bottom of a seemingly endless stair, wind || Action: look                      || Reward: 0, Score: 0
+[STEP 23] | endless stair you are at the bottom of a seemingly endless stair, wind || Action: south                     || Reward: 0, Score: 0
+[STEP 24] | junction standing before you is a great rock. imbedded within it is an || Action: north                     || Reward: 0, Score: 0
+[STEP 25] | endless stair                                                          || Action: look                      || Reward: 0, Score: 0
+[STEP 26] | endless stair you are at the bottom of a seemingly endless stair, wind || Action: south                     || Reward: 0, Score: 0
+[STEP 27] | junction standing before you is a great rock. imbedded within it is an || Action: look                      || Reward: 0, Score: 0
+[STEP 28] | junction you are at the junction of a north-south passage and an east- || Action: north                     || Reward: 0, Score: 0
+[STEP 29] | endless stair                                                          || Action: look                      || Reward: 0, Score: 0
+[STEP 30] | endless stair you are at the bottom of a seemingly endless stair, wind || Action: south                     || Reward: 0, Score: 0
+[STEP 31] | junction standing before you is a great rock. imbedded within it is an || Action: north                     || Reward: 0, Score: 0
+[STEP 32] | endless stair                                                          || Action: look                      || Reward: 0, Score: 0
+[STEP 33] | endless stair you are at the bottom of a seemingly endless stair, wind || Action: south                     || Reward: 0, Score: 0
+[STEP 34] | junction standing before you is a great rock. imbedded within it is an || Action: west                      || Reward: 0, Score: 0
+[STEP 35] | barren area you are west of the junction, where the rock-bound passage || Action: southwest                 || Reward: 0, Score: 0
+[STEP 36] | land of shadow you are in a shadowy land of low, rolling hills stretch || Action: north                     || Reward: 0, Score: 0
+[STEP 37] | barren area                                                            || Action: look                      || Reward: 0, Score: 0
+[STEP 38] | barren area you are west of the junction, where the rock-bound passage || Action: southwest                 || Reward: 0, Score: 0
+[STEP 39] | land of shadow                                                         || Action: north                     || Reward: 0, Score: 0
+[STEP 40] | barren area                                                            || Action: look                      || Reward: 0, Score: 0
+[STEP 41] | barren area you are west of the junction, where the rock-bound passage || Action: examine wall              || Reward: 0, Score: 0
+[STEP 42] | i see nothing special about the stone wall.                            || Action: look                      || Reward: 0, Score: 0
+[STEP 43] | barren area you are west of the junction, where the rock-bound passage || Action: southwest                 || Reward: 1, Score: 1
+[STEP 44] | land of shadow through the shadows, a cloaked and hooded figure appear || Action: north                     || Reward: 0, Score: 1
+[STEP 45] | barren area                                                            || Action: look                      || Reward: 0, Score: 1
+[STEP 46] | barren area you are west of the junction, where the rock-bound passage || Action: southwest                 || Reward: 0, Score: 1
+[STEP 47] | land of shadow a cloaked and hooded person, carrying a sword not unlik || Action: north                     || Reward: 0, Score: 1
+[STEP 48] | barren area                                                            || Action: look                      || Reward: 0, Score: 1
+[STEP 49] | barren area you are west of the junction, where the rock-bound passage || Action: look                      || Reward: 0, Score: 1
+[STEP 50] | barren area you are west of the junction, where the rock-bound passage || Action: look                      || Reward: 0, Score: 1
+[STEP 51] | barren area you are west of the junction, where the rock-bound passage || Action: southwest                 || Reward: 0, Score: 1
+[STEP 52] | land of shadow a cloaked and hooded person, carrying a sword not unlik || Action: look                      || Reward: 0, Score: 1
+[STEP 53] | land of shadow you are in a shadowy land of low, rolling hills stretch || Action: north                     || Reward: 0, Score: 1
+[STEP 54] | barren area                                                            || Action: look                      || Reward: 0, Score: 1
+[STEP 55] | barren area you are west of the junction, where the rock-bound passage || Action: search wall               || Reward: 0, Score: 1
+[STEP 56] | you find nothing unusual.                                              || Action: look                      || Reward: 0, Score: 1
+[STEP 57] | barren area you are west of the junction, where the rock-bound passage || Action: look                      || Reward: 0, Score: 1
+[STEP 58] | barren area you are west of the junction, where the rock-bound passage || Action: examine mist              || Reward: 0, Score: 1
+[STEP 59] | i see nothing special about the mist.                                  || Action: look                      || Reward: 0, Score: 1
+[STEP 60] | barren area you are west of the junction, where the rock-bound passage || Action: southwest                 || Reward: 0, Score: 1
+[STEP 61] | land of shadow a cloaked and hooded person, carrying a sword not unlik || Action: north                     || Reward: 0, Score: 1
+[STEP 62] | barren area                                                            || Action: southwest                 || Reward: 0, Score: 1
+[STEP 63] | land of shadow a cloaked and hooded person, carrying a sword not unlik || Action: north                     || Reward: 0, Score: 1
+[STEP 64] | barren area                                                            || Action: look                      || Reward: 0, Score: 1
+[STEP 65] | barren area you are west of the junction, where the rock-bound passage || Action: look                      || Reward: 0, Score: 1
+[STEP 66] | barren area you are west of the junction, where the rock-bound passage || Action: north                     || Reward: 0, Score: 1
+[STEP 67] | you can't go that way.                                                 || Action: look                      || Reward: 0, Score: 1
+[STEP 68] | barren area you are west of the junction, where the rock-bound passage || Action: look                      || Reward: 0, Score: 1
+[STEP 69] | barren area you are west of the junction, where the rock-bound passage || Action: east                      || Reward: 0, Score: 1
+[STEP 70] | junction standing before you is a great rock.                          || Action: look                      || Reward: 0, Score: 1
+[STEP 71] | junction you are at the junction of a north-south passage and an east- || Action: north                     || Reward: 0, Score: 1
+[STEP 72] | endless stair                                                          || Action: down                      || Reward: 0, Score: 1
+[STEP 73] | you can't go that way.                                                 || Action: look                      || Reward: 0, Score: 1
+[STEP 74] | endless stair you are at the bottom of a seemingly endless stair, wind || Action: look                      || Reward: 0, Score: 1
+[STEP 75] | endless stair you are at the bottom of a seemingly endless stair, wind || Action: north                     || Reward: 0, Score: 1
+[STEP 76] | the stairs are endless.                                                || Action: look                      || Reward: 0, Score: 1
+[STEP 77] | endless stair you are at the bottom of a seemingly endless stair, wind || Action: look                      || Reward: 0, Score: 1
+[STEP 78] | endless stair you are at the bottom of a seemingly endless stair, wind || Action: south                     || Reward: 0, Score: 1
+[STEP 79] | junction standing before you is a great rock.                          || Action: look                      || Reward: 0, Score: 1
+[STEP 80] | junction you are at the junction of a north-south passage and an east- || Action: look                      || Reward: 0, Score: 1
+[STEP 81] | junction you are at the junction of a north-south passage and an east- || Action: west                      || Reward: 0, Score: 1
+[STEP 82] | barren area                                                            || Action: examine chest             || Reward: 0, Score: 1
+[STEP 83] | you can't see any chest here.                                          || Action: look                      || Reward: 0, Score: 1
+[STEP 84] | barren area you are west of the junction, where the rock-bound passage || Action: look                      || Reward: 0, Score: 1
+[STEP 85] | barren area you are west of the junction, where the rock-bound passage || Action: look                      || Reward: 0, Score: 1
+[STEP 86] | barren area you are west of the junction, where the rock-bound passage || Action: east                      || Reward: 0, Score: 1
+[STEP 87] | junction standing before you is a great rock.                          || Action: look                      || Reward: 0, Score: 1
+[STEP 88] | junction you are at the junction of a north-south passage and an east- || Action: look                      || Reward: 0, Score: 1
+[STEP 89] | junction you are at the junction of a north-south passage and an east- || Action: look                      || Reward: 0, Score: 1
+[STEP 90] | junction you are at the junction of a north-south passage and an east- || Action: west                      || Reward: 0, Score: 1
+[STEP 91] | barren area                                                            || Action: north                     || Reward: 0, Score: 1
+[STEP 92] | you can't go that way.                                                 || Action: look                      || Reward: 0, Score: 1
+[STEP 93] | barren area you are west of the junction, where the rock-bound passage || Action: southwest                 || Reward: 0, Score: 1
+[STEP 94] | land of shadow a cloaked and hooded person, carrying a sword not unlik || Action: north                     || Reward: 0, Score: 1
+[STEP 95] | barren area                                                            || Action: southwest                 || Reward: 0, Score: 1
+[STEP 96] | land of shadow a cloaked and hooded person, carrying a sword not unlik || Action: north                     || Reward: 0, Score: 1
+[STEP 97] | barren area                                                            || Action: look                      || Reward: 0, Score: 1
+[STEP 98] | barren area you are west of the junction, where the rock-bound passage || Action: look                      || Reward: 0, Score: 1
+[STEP 99] | barren area you are west of the junction, where the rock-bound passage || Action: look                      || Reward: 0, Score: 1
+[STEP 100] | barren area you are west of the junction, where the rock-bound passage || Action: look                      || Reward: 0, Score: 1
+[STEP 101] | barren area you are west of the junction, where the rock-bound passage || Action: look                      || Reward: 0, Score: 1
+[STEP 102] | barren area you are west of the junction, where the rock-bound passage || Action: look                      || Reward: 0, Score: 1
+[STEP 103] | barren area you are west of the junction, where the rock-bound passage || Action: southwest                 || Reward: 0, Score: 1
+[STEP 104] | land of shadow a cloaked and hooded person, carrying a sword not unlik || Action: north                     || Reward: 0, Score: 1
+[STEP 105] | barren area                                                            || Action: look                      || Reward: 0, Score: 1
+[STEP 106] | barren area you are west of the junction, where the rock-bound passage || Action: look                      || Reward: 0, Score: 1
+[STEP 107] | barren area you are west of the junction, where the rock-bound passage || Action: look                      || Reward: 0, Score: 1
+[STEP 108] | barren area you are west of the junction, where the rock-bound passage || Action: look                      || Reward: 0, Score: 1
+[STEP 109] | barren area you are west of the junction, where the rock-bound passage || Action: look                      || Reward: 0, Score: 1
+Run 8/10 finished. Score: 1
+
+--- EVALUATION SUMMARY (our method) ---
+Agent LLM Model: gpt-oss-20b
+Number of final evaluation runs: 10
+Individual Scores: [2, 1, 0, 0, 3, 2, 2, 1]
+Average Score: 1.38
+Standard Deviation: 1.06
+
+Starting game run 9/10...
+[DACS] enabled=True game=zork3
+[DACS] num raw candidates = 8 archived=0
+[DACS] num filtered candidates = 4
+[DACS] selected/reordered candidate ids = [7, 2, 1, 6]
+[DACS] candidate score table:
+  id | relevance | diversity | risk | final_score | summary
+  7 | 0.494 | 1.0 | 0.107 | 0.986 | **Guiding Prompt**  1. **Progress Summary**      - Lantern is in your inventory 
+  2 | 0.532 | 0.745 | 0.09 | 0.842 | Explore and act in the following order to make progress:  1. **Pick up the lante
+  1 | 0.483 | 0.702 | 0.104 | 0.828 | **Guiding Prompt**  1. **Start by securing light**      *Take the lantern* → `ta
+  6 | 0.416 | 0.688 | 0.102 | 0.822 | **Guiding Prompt**  **1. Core Progress Actions**   - **Acquire and light the lan
+[DACS] fallback=False
+Parent node 6 at depth 3 with UCB score: 2.7383177659396525
+
+Evolving prompt. Current prompt: '**Guiding Prompt**
+
+**1. Core Progress Actions**  
+- **Acquire and light the lan...'
+
+Current state extractor code: 'def extract_state(game_history):
+    lantern = "lantern" in game_history.lower()...'
+
+
+Updated state extractor code successfully.
+Evolved guiding prompt and code: '**Guiding Prompt**
+
+**Core Progress Actions**
+- **Lantern**:  
+  1. `get lantern` (if on the ground).  
+  2. `light lantern`.  
+- **Junction**:  
+  3. `south` to reach the junction.  
+  4. `examine sword` to confirm it is embedded.  
+  5. `west` to the wide trail.  
+- **Rope**:  
+  6. `southwest` to reach the cliff area.  
+  7. `climb rope` to descend to the cliff ledge.  
+  8. `get rope` (if present).  
+- **Chest**:  
+  9. `tie rope chest` (or `tie chest rope`) to attach the chest to the rope.  
+  10. Wait for the man at the cliff top to pull the chest up.  
+  11. If the chest is open, `examine chest` and `take` its contents.  
+- **Healing**:  
+  12. If you are wounded, `get bread` and `eat bread`.  
+
+**Avoid Unproductive Actions**
+- Do not `look` more than once for the same item in the same room.  
+- Do not `examine`, `search`, or `climb` repeatedly on an object that has already been processed.  
+- Do not attempt a direction that was previously reported as “you can’t go that way” again.  
+- Do not `get` an object that is not present.  
+- Avoid looping sequences such as `look → north → look → south`.  
+
+**When Stuck**
+- List the exits in the current room that have never been tried.  
+- List objects in the room that have not yet been examined or interacted with.  
+- If no untried exits or objects remain, backtrack to the previous room and try a new exit.  
+- Keep a mental map of rooms visited and actions taken.  
+- If stuck in a loop, change strategy: search for hidden paths, items, or NPCs before moving again.  
+
+**Notes**
+- The rope must be in your inventory before you can tie it to the chest.  
+- After tying the chest, the man will pull it up; do not attempt to climb the rope again until the chest is secured.  
+- Keep the lantern lit while exploring dark areas.  
+
+---'
+def extract_state(game_history):
+    milestones = []
+    if "lantern acquired" in game_history or "you are carrying:" in game_history and "lantern" in game_history:
+        milestones.append("Lantern acquired")
+    if "lamp is now on" in game_history or "lantern lit" in game_history:
+        milestones.append("Lantern lit")
+    if "junction visited" in game_history or "you are at the junction" in game_history:
+        milestones.append("Junction reached")
+    if "rope used" in game_history or "climb rope" in game_history:
+        milestones.append("Rope used")
+    if "rope acquired" in game_history or "you are carrying:" in game_history and "rope" in game_history:
+        milestones.append("Rope in inventory")
+    if "chest examined" in game_history or "the chest is closed" in game_history:
+        milestones.append("Chest examined")
+    if "tie rope chest" in game_history or "chest tied to rope" in game_history:
+        milestones.append("Chest tied")
+    if "chest opened" in game_history or "the chest is open" in game_history:
+        milestones.append("Chest opened")
+    if "wounded" in game_history or "you are wounded" in game_history:
+        milestones.append("Wounded")
+    if "bread" in game_history and ("get bread" in game_history or "you are carrying:" in game_history and "bread" in game_history):
+        milestones.append("Bread acquired")
+    if "eat bread" in game_history:
+        milestones.append("Bread eaten")
+    return ", ".join(milestones) if milestones else "Unknown state."
+[STEP 0] |  ZORK III: The Dungeon Master Copyright 1982 by Infocom, Inc. All righ || Action: get lantern               || Reward: 0, Score: 0
+[STEP 1] | taken.                                                                 || Action: light lantern             || Reward: 0, Score: 0
+[STEP 2] | the lamp is now on.                                                    || Action: south                     || Reward: 0, Score: 0
+[STEP 3] | junction you are at the junction of a north-south passage and an east- || Action: examine sword             || Reward: 0, Score: 0
+[STEP 4] | i see nothing special about the sword.                                 || Action: west                      || Reward: 0, Score: 0
+[STEP 5] | barren area you are west of the junction, where the rock-bound passage || Action: southwest                 || Reward: 0, Score: 0
+[STEP 6] | land of shadow you are in a shadowy land of low, rolling hills stretch || Action: look                      || Reward: 0, Score: 0
+[STEP 7] | land of shadow you are in a shadowy land of low, rolling hills stretch || Action: examine wall              || Reward: 1, Score: 1
+[STEP 8] | i see nothing special about the stone wall. through the shadows, a clo || Action: look                      || Reward: 0, Score: 1
+[STEP 9] | land of shadow you are in a shadowy land of low, rolling hills stretch || Action: look                      || Reward: 0, Score: 1
+[STEP 10] | land of shadow you are in a shadowy land of low, rolling hills stretch || Action: look                      || Reward: 0, Score: 1
+[STEP 11] | land of shadow you are in a shadowy land of low, rolling hills stretch || Action: look                      || Reward: 0, Score: 1
+[STEP 12] | land of shadow you are in a shadowy land of low, rolling hills stretch || Action: look                      || Reward: 0, Score: 1
+[STEP 13] | land of shadow you are in a shadowy land of low, rolling hills stretch || Action: look                      || Reward: 0, Score: 1
+[STEP 14] | land of shadow you are in a shadowy land of low, rolling hills stretch || Action: north                     || Reward: 0, Score: 1
+[STEP 15] | barren area                                                            || Action: look                      || Reward: 0, Score: 1
+[STEP 16] | barren area you are west of the junction, where the rock-bound passage || Action: look                      || Reward: 0, Score: 1
+[STEP 17] | barren area you are west of the junction, where the rock-bound passage || Action: look                      || Reward: 0, Score: 1
+[STEP 18] | barren area you are west of the junction, where the rock-bound passage || Action: look                      || Reward: 0, Score: 1
+[STEP 19] | barren area you are west of the junction, where the rock-bound passage || Action: look                      || Reward: 0, Score: 1
+[STEP 20] | barren area you are west of the junction, where the rock-bound passage || Action: look                      || Reward: 0, Score: 1
+[STEP 21] | barren area you are west of the junction, where the rock-bound passage || Action: look                      || Reward: 0, Score: 1
+[STEP 22] | barren area you are west of the junction, where the rock-bound passage || Action: look                      || Reward: 0, Score: 1
+[STEP 23] | barren area you are west of the junction, where the rock-bound passage || Action: look                      || Reward: 0, Score: 1
+[STEP 24] | barren area you are west of the junction, where the rock-bound passage || Action: search wall               || Reward: 0, Score: 1
+[STEP 25] | you find nothing unusual.                                              || Action: look                      || Reward: 0, Score: 1
+[STEP 26] | barren area you are west of the junction, where the rock-bound passage || Action: look                      || Reward: 0, Score: 1
+[STEP 27] | barren area you are west of the junction, where the rock-bound passage || Action: southwest                 || Reward: 0, Score: 1
+[STEP 28] | land of shadow a cloaked and hooded person, carrying a sword not unlik || Action: look                      || Reward: 0, Score: 1
+[STEP 29] | land of shadow you are in a shadowy land of low, rolling hills stretch || Action: look                      || Reward: 0, Score: 1
+[STEP 30] | land of shadow you are in a shadowy land of low, rolling hills stretch || Action: north                     || Reward: 0, Score: 1
+[STEP 31] | barren area                                                            || Action: look                      || Reward: 0, Score: 1
+[STEP 32] | barren area you are west of the junction, where the rock-bound passage || Action: northwest                 || Reward: 0, Score: 1
+[STEP 33] | hairpin loop you are at a sharp turn on a narrow and steeply sloping p || Action: southwest                 || Reward: 0, Score: 1
+[STEP 34] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 1
+[STEP 35] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 1
+[STEP 36] | cliff base you are at the base of a steep cliff. directly above you is || Action: search cliff              || Reward: 0, Score: 1
+[STEP 37] | you can't see any cliff here.                                          || Action: look                      || Reward: 0, Score: 1
+[STEP 38] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 1
+[STEP 39] | cliff base you are at the base of a steep cliff. directly above you is || Action: examine ledge             || Reward: 0, Score: 1
+[STEP 40] | i see nothing special about the ledge.                                 || Action: look                      || Reward: 0, Score: 1
+[STEP 41] | cliff base you are at the base of a steep cliff. directly above you is || Action: search ledge              || Reward: 0, Score: 1
+[STEP 42] | you find nothing unusual.                                              || Action: look                      || Reward: 0, Score: 1
+[STEP 43] | cliff base you are at the base of a steep cliff. directly above you is || Action: search ground             || Reward: 0, Score: 1
+[STEP 44] | you find nothing unusual.                                              || Action: look                      || Reward: 0, Score: 1
+[STEP 45] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 1
+[STEP 46] | cliff base you are at the base of a steep cliff. directly above you is || Action: northeast                 || Reward: 0, Score: 1
+[STEP 47] | hairpin loop                                                           || Action: look                      || Reward: 0, Score: 1
+[STEP 48] | hairpin loop you are at a sharp turn on a narrow and steeply sloping p || Action: southwest                 || Reward: 0, Score: 1
+[STEP 49] | cliff base                                                             || Action: look                      || Reward: 0, Score: 1
+[STEP 50] | cliff base you are at the base of a steep cliff. directly above you is || Action: climb                     || Reward: 0, Score: 1
+[STEP 51] | what do you want to climb up?                                          || Action: look                      || Reward: 0, Score: 1
+[STEP 52] | cliff base you are at the base of a steep cliff. directly above you is || Action: climb up                  || Reward: 0, Score: 1
+[STEP 53] | what do you want to climb up?                                          || Action: climb cliff               || Reward: 0, Score: 1
+[STEP 54] | you can't see any cliff here.                                          || Action: look                      || Reward: 0, Score: 1
+[STEP 55] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 1
+[STEP 56] | cliff base you are at the base of a steep cliff. directly above you is || Action: climb ledge               || Reward: 0, Score: 1
+[STEP 57] | you can't get up the rock face.                                        || Action: look                      || Reward: 0, Score: 1
+[STEP 58] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 1
+[STEP 59] | cliff base you are at the base of a steep cliff. directly above you is || Action: northeast                 || Reward: 0, Score: 1
+[STEP 60] | hairpin loop                                                           || Action: look                      || Reward: 0, Score: 1
+[STEP 61] | hairpin loop you are at a sharp turn on a narrow and steeply sloping p || Action: look                      || Reward: 0, Score: 1
+[STEP 62] | hairpin loop you are at a sharp turn on a narrow and steeply sloping p || Action: look                      || Reward: 0, Score: 1
+[STEP 63] | hairpin loop you are at a sharp turn on a narrow and steeply sloping p || Action: look                      || Reward: 0, Score: 1
+[STEP 64] | hairpin loop you are at a sharp turn on a narrow and steeply sloping p || Action: look                      || Reward: 0, Score: 1
+[STEP 65] | hairpin loop you are at a sharp turn on a narrow and steeply sloping p || Action: look                      || Reward: 0, Score: 1
+[STEP 66] | hairpin loop you are at a sharp turn on a narrow and steeply sloping p || Action: look                      || Reward: 0, Score: 1
+[STEP 67] | hairpin loop you are at a sharp turn on a narrow and steeply sloping p || Action: look                      || Reward: 0, Score: 1
+[STEP 68] | hairpin loop you are at a sharp turn on a narrow and steeply sloping p || Action: southwest                 || Reward: 0, Score: 1
+[STEP 69] | cliff base                                                             || Action: climb rope                || Reward: 0, Score: 1
+[STEP 70] | you can't see any rope here.                                           || Action: look                      || Reward: 0, Score: 1
+[STEP 71] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 1
+[STEP 72] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 1
+[STEP 73] | cliff base you are at the base of a steep cliff. directly above you is || Action: climb path                || Reward: 0, Score: 1
+[STEP 74] | you can't get up the rock face.                                        || Action: look                      || Reward: 0, Score: 1
+[STEP 75] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 1
+[STEP 76] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 1
+[STEP 77] | cliff base you are at the base of a steep cliff. directly above you is || Action: look up                   || Reward: 0, Score: 1
+[STEP 78] | that sentence isn't one i recognize.                                   || Action: look                      || Reward: 0, Score: 1
+[STEP 79] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 1
+[STEP 80] | cliff base you are at the base of a steep cliff. directly above you is || Action: examine path              || Reward: 0, Score: 1
+[STEP 81] | i see nothing special about the way.                                   || Action: look                      || Reward: 0, Score: 1
+[STEP 82] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 1
+[STEP 83] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 1
+[STEP 84] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 1
+[STEP 85] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 1
+[STEP 86] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 1
+[STEP 87] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 1
+[STEP 88] | cliff base you are at the base of a steep cliff. directly above you is || Action: examine ledge             || Reward: 0, Score: 1
+[STEP 89] | i see nothing special about the ledge.                                 || Action: look                      || Reward: 0, Score: 1
+[STEP 90] | cliff base you are at the base of a steep cliff. directly above you is || Action: south                     || Reward: 0, Score: 1
+[STEP 91] | flathead ocean you are at the shore of an amazing underground sea, the || Action: north                     || Reward: 0, Score: 1
+[STEP 92] | cliff base                                                             || Action: climb                     || Reward: 0, Score: 1
+[STEP 93] | what do you want to climb up?                                          || Action: look                      || Reward: 0, Score: 1
+[STEP 94] | cliff base you are at the base of a steep cliff. directly above you is || Action: climb cliff               || Reward: 0, Score: 1
+[STEP 95] | you can't see any cliff here.                                          || Action: look                      || Reward: 0, Score: 1
+[STEP 96] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 1
+[STEP 97] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 1
+[STEP 98] | cliff base you are at the base of a steep cliff. directly above you is || Action: climb up                  || Reward: 0, Score: 1
+[STEP 99] | what do you want to climb up?                                          || Action: look                      || Reward: 0, Score: 1
+[STEP 100] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 1
+[STEP 101] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 1
+[STEP 102] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 1
+[STEP 103] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 1
+[STEP 104] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 1
+[STEP 105] | cliff base you are at the base of a steep cliff. directly above you is || Action: climb path                || Reward: 0, Score: 1
+[STEP 106] | you can't get up the rock face.                                        || Action: look                      || Reward: 0, Score: 1
+[STEP 107] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 1
+[STEP 108] | cliff base you are at the base of a steep cliff. directly above you is || Action: climb ledge               || Reward: 0, Score: 1
+[STEP 109] | you can't get up the rock face.                                        || Action: look                      || Reward: 0, Score: 1
+Run 9/10 finished. Score: 1
+
+--- EVALUATION SUMMARY (our method) ---
+Agent LLM Model: gpt-oss-20b
+Number of final evaluation runs: 10
+Individual Scores: [2, 1, 0, 0, 3, 2, 2, 1, 1]
+Average Score: 1.33
+Standard Deviation: 1.00
+
+Starting game run 10/10...
+[DACS] enabled=True game=zork3
+[DACS] num raw candidates = 9 archived=0
+[DACS] num filtered candidates = 4
+[DACS] selected/reordered candidate ids = [1, 5, 7, 4]
+[DACS] candidate score table:
+  id | relevance | diversity | risk | final_score | summary
+  1 | 0.407 | 1.0 | 0.107 | 0.899 | **Guiding Prompt**  1. **Start by securing light**      *Take the lantern* → `ta
+  5 | 0.351 | 0.704 | 0.127 | 0.748 | **Guiding Prompt**  1. **Lantern**      - If the lantern is on the ground: `get 
+  7 | 0.379 | 0.689 | 0.103 | 0.719 | **Guiding Prompt**  1. **Progress Summary**      - Lantern is in your inventory 
+  4 | 0.069 | 0.896 | 0.008 | 0.712 | **Guiding Prompt**  1. **Confirm Inventory & Light**      - Ensure you have the 
+[DACS] fallback=False
+Parent node 4 at depth 1 with UCB score: 3.684646801763552
+
+Evolving prompt. Current prompt: '**Guiding Prompt**
+
+1. **Confirm Inventory & Light**  
+   - Ensure you have the ...'
+
+Current state extractor code: '
+def extract_state(game_history):
+    return "Game in progress."
+...'
+
+
+Evolution LLM returned invalid state extractor code, keeping current code
+Evolved guiding prompt and code: '**Guiding Prompt**
+
+1. **Start with the lantern**  
+   - `get lantern`  
+   - `light lantern`  
+   *The lantern must be in your inventory and lit before you proceed into dark areas.*
+
+2. **Ascend the endless stair**  
+   - `up` until you reach the junction with the rock and sword.  
+   *Do not waste time re‑looking; the description is enough.*
+
+3. **Investigate the rock**  
+   - `examine rock`  
+   - `search rock`  
+   - If the sword is still embedded, **do not** keep trying `take sword`; it is not retrievable at this point.  
+   *Skip the chest on the ledge – it yields nothing.*
+
+4. **Move to the west corridor**  
+   - `west`  
+   - `southwest` (to the opening in the wall)  
+   - `north` (to bypass the hooded figure)  
+   *The northern passage through the crumbled wall is the path forward.*
+
+5. **Handle the hooded figure**  
+   - If it blocks the east exit, **go north** instead of attacking.  
+   - Only use `attack figure` when the figure is no longer blocking your path; otherwise it wastes turns.
+
+6. **Avoid unproductive loops**  
+   - Repeated `look` or `inventory` actions that do not reveal new items or locations should be skipped.  
+   - Do not attempt to `take chest`, `search chest`, or `tie chest` again after the initial failures.
+
+7. **When progress stalls**  
+   - List all rooms that have been lightly searched (e.g., the junction, west corridor, south corridor).  
+   - For each, consider the following actions: `look`, `examine [object]`, `move [direction]`.  
+   - Systematically explore each direction and interact with any visible objects or NPCs before moving on.
+
+---
+
+**State Extractor**
+
+```python
+def extract_state(game_history):
+    milestones = []
+    if "brass lantern" in game_history and "pick" in game_history:
+        milestones.append("Lantern picked")
+    if "lamp is now on" in game_history or "light lantern" in game_history:
+        milestones.append("Lantern lit")
+    if "climb rope" in game_history and "cliff base" not in game_history:
+        milestones.append("Rope climbed")
+    if "north" in game_history and "crumbled" in game_history and "wall" in game_history:
+        milestones.append("North passage opened")
+    if "hooded figure" in game_history and ("defeated" in game_history or "flying to the ground" in game_history):
+        milestones.append("Hooded figure defeated")
+    if "you are carrying" in game_history and "sword" in game_history:
+        milestones.append("Sword obtained")
+    return "Milestones: " + ", ".join(milestones) + "." if milestones else "No major milestones achieved yet."
+```'
+
+def extract_state(game_history):
+    return "Game in progress."
+
+[STEP 0] |  ZORK III: The Dungeon Master Copyright 1982 by Infocom, Inc. All righ || Action: get lantern               || Reward: 0, Score: 0
+[STEP 1] | taken.                                                                 || Action: light lantern             || Reward: 0, Score: 0
+[STEP 2] | the lamp is now on.                                                    || Action: up                        || Reward: 0, Score: 0
+[STEP 3] | the stairs are endless.                                                || Action: up                        || Reward: 0, Score: 0
+[STEP 4] | the stairs are endless.                                                || Action: up                        || Reward: 0, Score: 0
+[STEP 5] | the stairs are endless.                                                || Action: look                      || Reward: 0, Score: 0
+[STEP 6] | endless stair you are at the bottom of a seemingly endless stair, wind || Action: look                      || Reward: 0, Score: 0
+[STEP 7] | endless stair you are at the bottom of a seemingly endless stair, wind || Action: look                      || Reward: 0, Score: 0
+[STEP 8] | endless stair you are at the bottom of a seemingly endless stair, wind || Action: up                        || Reward: 0, Score: 0
+[STEP 9] | the stairs are endless.                                                || Action: look                      || Reward: 0, Score: 0
+[STEP 10] | endless stair you are at the bottom of a seemingly endless stair, wind || Action: look                      || Reward: 0, Score: 0
+[STEP 11] | endless stair you are at the bottom of a seemingly endless stair, wind || Action: look                      || Reward: 0, Score: 0
+[STEP 12] | endless stair you are at the bottom of a seemingly endless stair, wind || Action: look                      || Reward: 0, Score: 0
+[STEP 13] | endless stair you are at the bottom of a seemingly endless stair, wind || Action: look                      || Reward: 0, Score: 0
+[STEP 14] | endless stair you are at the bottom of a seemingly endless stair, wind || Action: look                      || Reward: 0, Score: 0
+[STEP 15] | endless stair you are at the bottom of a seemingly endless stair, wind || Action: look                      || Reward: 0, Score: 0
+[STEP 16] | endless stair you are at the bottom of a seemingly endless stair, wind || Action: look                      || Reward: 0, Score: 0
+[STEP 17] | endless stair you are at the bottom of a seemingly endless stair, wind || Action: look                      || Reward: 0, Score: 0
+[STEP 18] | endless stair you are at the bottom of a seemingly endless stair, wind || Action: look                      || Reward: 0, Score: 0
+[STEP 19] | endless stair you are at the bottom of a seemingly endless stair, wind || Action: look                      || Reward: 0, Score: 0
+[STEP 20] | endless stair you are at the bottom of a seemingly endless stair, wind || Action: look                      || Reward: 0, Score: 0
+[STEP 21] | endless stair you are at the bottom of a seemingly endless stair, wind || Action: look                      || Reward: 0, Score: 0
+[STEP 22] | endless stair you are at the bottom of a seemingly endless stair, wind || Action: up                        || Reward: 0, Score: 0
+[STEP 23] | the stairs are endless.                                                || Action: climb rope                || Reward: 0, Score: 0
+[STEP 24] | you can't see any rope here.                                           || Action: look                      || Reward: 0, Score: 0
+[STEP 25] | endless stair you are at the bottom of a seemingly endless stair, wind || Action: look                      || Reward: 0, Score: 0
+[STEP 26] | endless stair you are at the bottom of a seemingly endless stair, wind || Action: look                      || Reward: 0, Score: 0
+[STEP 27] | endless stair you are at the bottom of a seemingly endless stair, wind || Action: look                      || Reward: 0, Score: 0
+[STEP 28] | endless stair you are at the bottom of a seemingly endless stair, wind || Action: south                     || Reward: 0, Score: 0
+[STEP 29] | junction you are at the junction of a north-south passage and an east- || Action: examine rock              || Reward: 0, Score: 0
+[STEP 30] | the great rock contains:   a sword                                     || Action: search rock               || Reward: 0, Score: 0
+[STEP 31] | you find nothing unusual.                                              || Action: west                      || Reward: 0, Score: 0
+[STEP 32] | barren area you are west of the junction, where the rock-bound passage || Action: southwest                 || Reward: 0, Score: 0
+[STEP 33] | land of shadow you are in a shadowy land of low, rolling hills stretch || Action: examine wall              || Reward: 0, Score: 0
+[STEP 34] | i see nothing special about the stone wall.                            || Action: north                     || Reward: 0, Score: 0
+[STEP 35] | barren area                                                            || Action: look                      || Reward: 0, Score: 0
+[STEP 36] | barren area you are west of the junction, where the rock-bound passage || Action: look                      || Reward: 0, Score: 0
+[STEP 37] | barren area you are west of the junction, where the rock-bound passage || Action: west                      || Reward: 0, Score: 0
+[STEP 38] | cliff this is a remarkable spot in the dungeon. perhaps two hundred fe || Action: climb rope                || Reward: 1, Score: 1
+[STEP 39] | cliff ledge this is a rock-strewn ledge near the base of a tall cliff. || Action: get rope                  || Reward: 0, Score: 1
+[STEP 40] | a short tug on the rope convinces you that it is securely fastened fro || Action: climb rope                || Reward: 0, Score: 1
+[STEP 41] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 1
+[STEP 42] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 1
+[STEP 43] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 1
+[STEP 44] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 1
+[STEP 45] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 1
+[STEP 46] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 1
+[STEP 47] | cliff base you are at the base of a steep cliff. directly above you is || Action: climb rope                || Reward: 0, Score: 1
+[STEP 48] | you can't see any rope here.                                           || Action: look                      || Reward: 0, Score: 1
+[STEP 49] | cliff base you are at the base of a steep cliff. directly above you is || Action:                           || Reward: 0, Score: 1
+[STEP 50] | i beg your pardon?                                                     || Action: look                      || Reward: 0, Score: 1
+[STEP 51] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 1
+[STEP 52] | cliff base you are at the base of a steep cliff. directly above you is || Action: up                        || Reward: 0, Score: 1
+[STEP 53] | you can't get up the rock face.                                        || Action: look                      || Reward: 0, Score: 1
+[STEP 54] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 1
+[STEP 55] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 1
+[STEP 56] | cliff base you are at the base of a steep cliff. directly above you is || Action: northeast                 || Reward: 0, Score: 1
+[STEP 57] | hairpin loop you are at a sharp turn on a narrow and steeply sloping p || Action: southwest                 || Reward: 0, Score: 1
+[STEP 58] | cliff base                                                             || Action: look                      || Reward: 0, Score: 1
+[STEP 59] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 1
+[STEP 60] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 1
+[STEP 61] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 1
+[STEP 62] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 1
+[STEP 63] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 1
+[STEP 64] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 1
+[STEP 65] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 1
+[STEP 66] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 1
+[STEP 67] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 1
+[STEP 68] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 1
+[STEP 69] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 1
+[STEP 70] | cliff base you are at the base of a steep cliff. directly above you is || Action: look                      || Reward: 0, Score: 1
+[STEP 71] | cliff base you are at the base of a steep cliff. directly above you is || Action: get lantern               || Reward: 0, Score: 1
+[STEP 72] | you already have it.                                                   || Action: light lantern             || Reward: 0, Score: 1
+[STEP 73] | it is already on.                                                      || Action: look                      || Reward: 0, Score: 1
+[STEP 74] | cliff base you are at the base of a steep cliff. directly above you is || Action: northeast                 || Reward: 0, Score: 1
+[STEP 75] | hairpin loop                                                           || Action: look                      || Reward: 0, Score: 1
+[STEP 76] | hairpin loop you are at a sharp turn on a narrow and steeply sloping p || Action: southeast                 || Reward: 0, Score: 1
+[STEP 77] | barren area                                                            || Action: southwest                 || Reward: 1, Score: 2
+[STEP 78] | land of shadow through the shadows, a cloaked and hooded figure appear || Action: north                     || Reward: 0, Score: 2
+[STEP 79] | barren area                                                            || Action: look                      || Reward: 0, Score: 2
+[STEP 80] | barren area you are west of the junction, where the rock-bound passage || Action: southwest                 || Reward: 0, Score: 2
+[STEP 81] | land of shadow a cloaked and hooded person, carrying a sword not unlik || Action: north                     || Reward: 0, Score: 2
+[STEP 82] | barren area                                                            || Action: look                      || Reward: 0, Score: 2
+[STEP 83] | barren area you are west of the junction, where the rock-bound passage || Action: look                      || Reward: 0, Score: 2
+[STEP 84] | barren area you are west of the junction, where the rock-bound passage || Action: look                      || Reward: 0, Score: 2
+[STEP 85] | barren area you are west of the junction, where the rock-bound passage || Action: southwest                 || Reward: 0, Score: 2
+[STEP 86] | land of shadow a cloaked and hooded person, carrying a sword not unlik || Action: north                     || Reward: 0, Score: 2
+[STEP 87] | barren area                                                            || Action: look                      || Reward: 0, Score: 2
+[STEP 88] | barren area you are west of the junction, where the rock-bound passage || Action: examine mist              || Reward: 0, Score: 2
+[STEP 89] | i see nothing special about the mist.                                  || Action: look                      || Reward: 0, Score: 2
+[STEP 90] | barren area you are west of the junction, where the rock-bound passage || Action: look                      || Reward: 0, Score: 2
+[STEP 91] | barren area you are west of the junction, where the rock-bound passage || Action: look                      || Reward: 0, Score: 2
+[STEP 92] | barren area you are west of the junction, where the rock-bound passage || Action: look                      || Reward: 0, Score: 2
+[STEP 93] | barren area you are west of the junction, where the rock-bound passage || Action: northwest                 || Reward: 0, Score: 2
+[STEP 94] | hairpin loop                                                           || Action: look                      || Reward: 0, Score: 2
+[STEP 95] | hairpin loop you are at a sharp turn on a narrow and steeply sloping p || Action: look                      || Reward: 0, Score: 2
+[STEP 96] | hairpin loop you are at a sharp turn on a narrow and steeply sloping p || Action: look                      || Reward: 0, Score: 2
+[STEP 97] | hairpin loop you are at a sharp turn on a narrow and steeply sloping p || Action: examine boulders          || Reward: 0, Score: 2
+[STEP 98] | i see nothing special about the rubble.                                || Action: search rubble             || Reward: 0, Score: 2
+[STEP 99] | you find nothing unusual.                                              || Action: look                      || Reward: 0, Score: 2
+[STEP 100] | hairpin loop you are at a sharp turn on a narrow and steeply sloping p || Action: southeast                 || Reward: 0, Score: 2
+[STEP 101] | barren area                                                            || Action: look                      || Reward: 0, Score: 2
+[STEP 102] | barren area you are west of the junction, where the rock-bound passage || Action: look                      || Reward: 0, Score: 2
+[STEP 103] | barren area you are west of the junction, where the rock-bound passage || Action: look                      || Reward: 0, Score: 2
+[STEP 104] | barren area you are west of the junction, where the rock-bound passage || Action: look                      || Reward: 0, Score: 2
+[STEP 105] | barren area you are west of the junction, where the rock-bound passage || Action: look                      || Reward: 0, Score: 2
+[STEP 106] | barren area you are west of the junction, where the rock-bound passage || Action: look                      || Reward: 0, Score: 2
+[STEP 107] | barren area you are west of the junction, where the rock-bound passage || Action: look                      || Reward: 0, Score: 2
+[STEP 108] | barren area you are west of the junction, where the rock-bound passage || Action: look                      || Reward: 0, Score: 2
+[STEP 109] | barren area you are west of the junction, where the rock-bound passage || Action: look                      || Reward: 0, Score: 2
+Run 10/10 finished. Score: 2
+
+--- EVALUATION SUMMARY (our method) ---
+Agent LLM Model: gpt-oss-20b
+Number of final evaluation runs: 10
+Individual Scores: [2, 1, 0, 0, 3, 2, 2, 1, 1, 2]
+Average Score: 1.40
+Standard Deviation: 0.97
+Evaluation completed successfully!

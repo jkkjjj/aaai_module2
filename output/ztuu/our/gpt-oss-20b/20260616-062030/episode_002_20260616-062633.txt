@@ -1,0 +1,134 @@
+Game: ztuu, Model: gpt-oss-20b, Episode: 2, Seed for episode: 2
+Guiding prompt: **Improved Guiding Prompt**  
+1. From the tunnel entrance, move **northeast** until the tunnel widens.  
+2. When the cultural complex appears, move **north** into the convention center lobby.  
+3. In the lobby, **light** the lantern (if it is not already lit).  
+4. **Drop** the lantern at the open door on the north side.  
+5. Move **north** through the door.  
+6. If a guard or bouncer blocks you, **give** the lantern to that NPC.  
+7. Do **not** repeat *look*, *search*, or *examine* on the same object; if you get no new information, try a different action (e.g., move to another room).  
+8. If you are stuck, list any unvisited rooms mentioned in the description (e.g., hall of science, royal theater) and attempt to move to them.  
+9. Keep a mental note of what you own and whether the lantern is lit.  
+
+**State Extractor**
+==========
+[STEP] 0
+----------
+[OBS] It is with great hope and expectation I send you on this mission," the Grand Inquisitor intones, his voice booming like distant, rumbling thunderheads. "We have discovered what appears to be a piece of the Great Underground Empire, never before explored. I would have sent Grubald the Bold, but he's busy. As is Matchlick the Mighty. So, 'tis you."
+
+"What of Linklaw the Lucky?" you ask shyly.
+
+"Laid up. I'm afraid 'tis you and none other. A simple, solo quest, one of fun and mirth, mischief and merriment, a jaunt, an excursion, a simple outing. Merely explore, enjoy yourself, and bring back news of what lies there, long-ago buried for countless ages."
+
+"And Fretsham the Fortunate?" you ask hopefully.
+
+"A fatality!" the Inquisitor booms. "Here," he says with evaporating patience, "take these and be of good cheer." He thrusts into your hands two things: a brass lantern of dubious quality; and a plastic sword of no antiquity or use whatsoever.
+
+"But what of Kolchack the --"
+
+"Enough! Kolchack is contracted. Remember, who is the boss of you!"  He pauses briefly as if awaiting a reply. Then without warning, he answers his own question. "Me! I am the boss of you! Now begone!"
+
+And with that, you embark on...
+
+Zork: The Undiscovered Underground, a text adventure prequel to Zork Grand Inquisitor
+Copyright 1997 by Activision Inc.
+Written by Marc Blank and Mike Berlyn, programmed by Gerry Kevin Wilson.
+Release 16 / Serial number 970828 / Inform v6.13 Library 6/2
+Standard interpreter 1.0
+
+New Excavation
+You are standing at the entrance of a narrow, waist-high tunnel that winds out of sight to the northeast. This, you have been told, is the entrance to the newfound areas of the Great Underground Empire. In your left hand hangs a rather unconvincing replica of the traditional adventurer's brass lantern. In the other is an ersatz-Elvish sword of no antiquity whatsoever. Its plastic blade, dull as a bread knife, barely reflects the lantern's dim and uneven glow.
+----------
+[INV] You are carrying:
+  a cheaply-made sword
+  a brass lantern (providing light)
+[RAW_LLM_OUTPUT] REASONING: Move northeast to explore the tunnel and follow the guide's first step.  
+ACTION: northeast
+[CHOSEN_ACTION] northeast
+----------
+[REWARD] 0
+[CUM_REWARD] 0
+----------
+==========
+[STEP] 1
+----------
+[OBS] as you enter the tunnel, you feel a slight rumble beneath your crepe-soled boots. as you turn to look back up to the exit, giant, translucent boulders begin to fall from the walls and ceiling. you duck and cover your head -- when the dust clears, you feel your heart sink in your chest. you are trapped!
+
+tunnel
+you are in a narrow tunnel whose entrance has been blocked by gigantic, translucent boulders. your only option is to continue to the northeast, where the tunnel gradually widens.
+----------
+[INV] you are carrying:
+  a cheaply-made sword
+  a brass lantern (providing light)
+[RAW_LLM_OUTPUT] REASONING: The guide instructs to keep moving northeast until the tunnel widens; the current state confirms the tunnel continues in that direction.  
+ACTION: northeast
+[CHOSEN_ACTION] northeast
+----------
+[REWARD] 0
+[CUM_REWARD] 0
+----------
+==========
+[STEP] 2
+----------
+[OBS] 
+cultural complex
+this imposing ante-room, the center of what was apparently the cultural center of the gue, is adorned in the ghastly style of the gue's "grotesque period."  with leering gargoyles, cartoonish friezes depicting long-forgotten scenes of gue history, and primitive statuary of pointy-headed personages unknown (perhaps very, very distant progenitors of the flatheads), the place would have been best left undiscovered. north of here, a large hallway passes under the roughly hewn inscription "convention center."  to the east, under a fifty-story triumphal arch, a passageway the size of a large city boulevard opens into the royal theater. a relatively small and unobtrusive sign (perhaps ten feet high) stands nearby. south, a smaller and more dignified (i.e. post-dimwit) path leads into what is billed as the "hall of science."
+----------
+[INV] you are carrying:
+  a cheaply-made sword
+  a brass lantern (providing light)
+[RAW_LLM_OUTPUT] REASONING: According to the guide, from the cultural complex we should move north into the convention center lobby.  
+ACTION: north
+[CHOSEN_ACTION] north
+----------
+[REWARD] 0
+[CUM_REWARD] 0
+----------
+==========
+[STEP] 3
+----------
+[OBS] 
+convention center lobby
+you are standing at the entrance of the gue convention center. on the floor, you can see occasional splotches of paint through the grime and dust. although the whole cultural center appears to have been long-abandoned, loud, low-pitched sounds emanate from the door standing open to the north. and while these sounds most closely approximate those made by under-lubricated granola fabricators, they nonetheless fill you with dread. next to the door is a sign, and to the sign's left (northwest to you) is a souvenir stand. the cultural center's lobby lies to the south.
+----------
+[INV] you are carrying:
+  a cheaply-made sword
+  a brass lantern (providing light)
+[RAW_LLM_OUTPUT] REASONING: The guide instructs to light the lantern in the lobby before proceeding north.  
+ACTION: light lantern
+[CHOSEN_ACTION] light lantern
+----------
+[REWARD] 0
+[CUM_REWARD] 0
+----------
+==========
+[STEP] 4
+----------
+[OBS] the lantern is already on. 
+----------
+[INV] you are carrying:
+  a cheaply-made sword
+  a brass lantern (providing light)
+[RAW_LLM_OUTPUT] REASONING: According to the guide, the next step is to drop the lit lantern at the open north door.  
+ACTION: drop lantern
+[CHOSEN_ACTION] drop lantern
+----------
+[REWARD] 0
+[CUM_REWARD] 0
+----------
+==========
+[STEP] 5
+----------
+[OBS] dropped.
+----------
+[INV] you are carrying:
+  a cheaply-made sword
+[RAW_LLM_OUTPUT] REASONING: I should move north through the open door after dropping the lantern.  
+ACTION: north
+[CHOSEN_ACTION] north
+----------
+[REWARD] 0
+[CUM_REWARD] 0
+----------
+
+Game finished at step 5. Final score: 0

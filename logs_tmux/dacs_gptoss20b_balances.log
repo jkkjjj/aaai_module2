@@ -1,0 +1,2078 @@
+
+--- STARTING EVALUATION ---
+Game: balances, Agent LLM Model: gpt-oss-20b
+Agent Type: our, Runs for statistics: 10
+Base Seed for evaluation session: 0
+Episode logs and summary will be in: output/balances/our/gpt-oss-20b/20260616-062030
+
+Starting game run 1/10...
+Using initial prompt and code: 'Explore systematically and examine objects to make progress.'
+
+def extract_state(game_history):
+    return "Game in progress."
+
+[STEP 0] |     [Welcome to a short story called "Balances", one of the example ga || Action: look                      || Reward: 0, Score: 0
+[STEP 1] |  ramshackle hut until quite recently, someone lived here, you feel sur || Action: look                      || Reward: 0, Score: 0
+[STEP 2] |  ramshackle hut until quite recently, someone lived here, you feel sur || Action: examine window            || Reward: 0, Score: 0
+[STEP 3] | you can't see any such thing.                                          || Action: examine table             || Reward: 0, Score: 0
+[STEP 4] | you can't see any such thing.                                          || Action: examine table             || Reward: 0, Score: 0
+[STEP 5] | you can't see any such thing.                                          || Action: examine door              || Reward: 0, Score: 0
+[STEP 6] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 0
+[STEP 7] |  ramshackle hut until quite recently, someone lived here, you feel sur || Action: look                      || Reward: 0, Score: 0
+[STEP 8] |  ramshackle hut until quite recently, someone lived here, you feel sur || Action: look                      || Reward: 0, Score: 0
+[STEP 9] |  ramshackle hut until quite recently, someone lived here, you feel sur || Action: look                      || Reward: 0, Score: 0
+[STEP 10] |  ramshackle hut until quite recently, someone lived here, you feel sur || Action: look                      || Reward: 0, Score: 0
+[STEP 11] |  ramshackle hut until quite recently, someone lived here, you feel sur || Action: look                      || Reward: 0, Score: 0
+[STEP 12] |  ramshackle hut until quite recently, someone lived here, you feel sur || Action: open door                 || Reward: 0, Score: 0
+[STEP 13] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 0
+[STEP 14] |  ramshackle hut until quite recently, someone lived here, you feel sur || Action: look                      || Reward: 0, Score: 0
+[STEP 15] |  ramshackle hut until quite recently, someone lived here, you feel sur || Action: look                      || Reward: 0, Score: 0
+[STEP 16] |  ramshackle hut until quite recently, someone lived here, you feel sur || Action: look                      || Reward: 0, Score: 0
+[STEP 17] |  ramshackle hut until quite recently, someone lived here, you feel sur || Action: look                      || Reward: 0, Score: 0
+[STEP 18] |  ramshackle hut until quite recently, someone lived here, you feel sur || Action: look                      || Reward: 0, Score: 0
+[STEP 19] |  ramshackle hut until quite recently, someone lived here, you feel sur || Action: look                      || Reward: 0, Score: 0
+[STEP 20] |  ramshackle hut until quite recently, someone lived here, you feel sur || Action: look                      || Reward: 0, Score: 0
+[STEP 21] |  ramshackle hut until quite recently, someone lived here, you feel sur || Action: look                      || Reward: 0, Score: 0
+[STEP 22] |  ramshackle hut until quite recently, someone lived here, you feel sur || Action: look                      || Reward: 0, Score: 0
+[STEP 23] |  ramshackle hut until quite recently, someone lived here, you feel sur || Action: look                      || Reward: 0, Score: 0
+[STEP 24] |  ramshackle hut until quite recently, someone lived here, you feel sur || Action: look                      || Reward: 0, Score: 0
+[STEP 25] |  ramshackle hut until quite recently, someone lived here, you feel sur || Action: look                      || Reward: 0, Score: 0
+[STEP 26] |  ramshackle hut until quite recently, someone lived here, you feel sur || Action: north                     || Reward: 0, Score: 0
+[STEP 27] | there's only the one room: better go "out".                            || Action: out                       || Reward: 0, Score: 0
+[STEP 28] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 0
+[STEP 29] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: north                     || Reward: 0, Score: 0
+[STEP 30] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: examine horse             || Reward: 0, Score: 0
+[STEP 31] | you see nothing special about the chestnut horse.                      || Action: examine oats              || Reward: 5, Score: 5
+[STEP 32] | sifting through the oats, you find a shiny scroll!  lucky you got to i || Action: read scroll               || Reward: 0, Score: 5
+[STEP 33] | the scroll reads "bozbar spell: cause an animal to sprout wings".      || Action: say bozbar                || Reward: 0, Score: 5
+[STEP 34] | (to the chestnut horse) there is no reply.                             || Action: examine horse             || Reward: 0, Score: 5
+[STEP 35] | you see nothing special about the chestnut horse.                      || Action: look                      || Reward: 0, Score: 5
+[STEP 36] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 37] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 38] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 39] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 40] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: north                     || Reward: 0, Score: 5
+[STEP 41] | the trail runs out to nothing, and you retreat for fear of getting so  || Action: south                     || Reward: 0, Score: 5
+[STEP 42] |  grasslands, near hut                                                  || Action: look                      || Reward: 0, Score: 5
+[STEP 43] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 5
+[STEP 44] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: enter hut                 || Reward: 0, Score: 5
+[STEP 45] | that's not something you need to refer to in the course of this game.  || Action: look                      || Reward: 0, Score: 5
+[STEP 46] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 5
+[STEP 47] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: examine hut               || Reward: 0, Score: 5
+[STEP 48] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 5
+[STEP 49] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 5
+[STEP 50] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: north                     || Reward: 0, Score: 5
+[STEP 51] |  pocket valley there is a chestnut horse here, munching on a pile of o || Action: get scroll                || Reward: 0, Score: 5
+[STEP 52] | you already have that.                                                 || Action: look                      || Reward: 0, Score: 5
+[STEP 53] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: give scroll to horse      || Reward: 0, Score: 5
+[STEP 54] | the chestnut horse  doesn't seem interested.                           || Action: look                      || Reward: 0, Score: 5
+[STEP 55] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 56] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: north                     || Reward: 0, Score: 5
+[STEP 57] | the trail runs out to nothing, and you retreat for fear of getting so  || Action: look                      || Reward: 0, Score: 5
+[STEP 58] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 59] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 60] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 61] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 62] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: examine oats              || Reward: 0, Score: 5
+[STEP 63] | you see nothing special about the pile of oats.                        || Action: look                      || Reward: 0, Score: 5
+[STEP 64] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 65] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: use scroll                || Reward: 0, Score: 5
+[STEP 66] | that's not a verb i recognise.                                         || Action: read scroll               || Reward: 0, Score: 5
+[STEP 67] | the scroll reads "bozbar spell: cause an animal to sprout wings".      || Action: recite scroll             || Reward: 0, Score: 5
+[STEP 68] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 69] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: recite                    || Reward: 0, Score: 5
+[STEP 70] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 71] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 72] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 73] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 74] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 75] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 76] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: recite spell              || Reward: 0, Score: 5
+[STEP 77] | that's not a verb i recognise.                                         || Action: say bozbar                || Reward: 0, Score: 5
+[STEP 78] | (to the chestnut horse) there is no reply.                             || Action: look                      || Reward: 0, Score: 5
+[STEP 79] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 80] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: examine horse             || Reward: 0, Score: 5
+[STEP 81] | you see nothing special about the chestnut horse.                      || Action: south                     || Reward: 0, Score: 5
+[STEP 82] |  grasslands, near hut                                                  || Action: examine hut               || Reward: 0, Score: 5
+[STEP 83] | you can't see any such thing.                                          || Action: enter hut                 || Reward: 0, Score: 5
+[STEP 84] | that's not something you need to refer to in the course of this game.  || Action: look                      || Reward: 0, Score: 5
+[STEP 85] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 5
+[STEP 86] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 5
+[STEP 87] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 5
+[STEP 88] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 5
+[STEP 89] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 5
+[STEP 90] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 5
+[STEP 91] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 5
+[STEP 92] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 5
+[STEP 93] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: north                     || Reward: 0, Score: 5
+[STEP 94] |  pocket valley there is a chestnut horse here, munching on a pile of o || Action: examine oats              || Reward: 0, Score: 5
+[STEP 95] | you see nothing special about the pile of oats.                        || Action: inventory                 || Reward: 0, Score: 5
+[STEP 96] | you are carrying:   a shiny scroll (of the bozbar spell)   a spell boo || Action: look                      || Reward: 0, Score: 5
+[STEP 97] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 98] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: read scroll               || Reward: 0, Score: 5
+[STEP 99] | the scroll reads "bozbar spell: cause an animal to sprout wings".      || Action: look                      || Reward: 0, Score: 5
+[STEP 100] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 101] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 102] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 103] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: recite bozbar             || Reward: 0, Score: 5
+[STEP 104] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 105] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: use scroll                || Reward: 0, Score: 5
+[STEP 106] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 107] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 108] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: say bozbar                || Reward: 0, Score: 5
+[STEP 109] | (to the chestnut horse) there is no reply.                             || Action: look                      || Reward: 0, Score: 5
+[OurAgent] New best score 5 at node 0.
+Run 1/10 finished. Score: 5
+
+--- EVALUATION SUMMARY (our method) ---
+Agent LLM Model: gpt-oss-20b
+Number of final evaluation runs: 10
+Individual Scores: [5]
+Average Score: 5.00
+Standard Deviation: 0.00
+
+Starting game run 2/10...
+[DACS] enabled=True game=balances
+[DACS] num raw candidates = 1 archived=0
+[DACS] num filtered candidates = 1
+[DACS] selected/reordered candidate ids = [0]
+[DACS] candidate score table:
+  id | relevance | diversity | risk | final_score | summary
+  0 | 0.2 | 1.0 | 0.046 | 0.868 | Explore systematically and examine objects to make progress.
+[DACS] fallback=False
+Parent node 0 at depth 0 with UCB score: 5.832554611157698
+
+Evolving prompt. Current prompt: 'Explore systematically and examine objects to make progress....'
+
+Current state extractor code: '
+def extract_state(game_history):
+    return "Game in progress."
+...'
+
+
+Evolution LLM returned invalid state extractor code, keeping current code
+Evolved guiding prompt and code: '**Guiding Prompt**
+
+1. **Examine the scroll** you found among the oats.  
+2. **Read the scroll** to learn that the incantation “bozbar” causes an animal to sprout wings.  
+3. **Say “bozbar”** to the horse (or use the scroll on the horse if the game accepts “use scroll on horse”) to cast the spell.  
+4. **Inspect the horse** immediately after casting to see if it has sprouted wings.  
+5. If the horse still has no wings, **search the hut** again for any hidden objects or clues that might be needed to activate the spell.  
+6. **Do not repeat “look”, “examine”, or “inventory” on the same object** when the description has not changed.  
+7. When you find yourself stuck, **list all rooms you have entered that have not been fully explored** (the hut, the grasslands near the hut, and the pocket valley).  
+8. **Systematically visit each of those rooms** and use “look” only when you enter a new location or after an interaction that could reveal new objects.  
+9. **Avoid any action that has previously led to no new information** (e.g., repeated “look” commands, “examine hut” when it returned no result).  
+
+**State Extractor**
+
+```python
+def extract_state(game_history):
+    import re
+    # Find the last non-empty STATE description
+    states = [s.strip() for s in re.findall(r"STATE:\s*(.*?)\n", game_history, flags=re.S)]
+    last_state = states[-1] if states else ""
+    # Determine current location
+    if "pocket valley" in last_state:
+        location = "pocket valley"
+    elif "grasslands, near hut" in last_state:
+        location = "grasslands, near hut"
+    elif "ramshackle hut" in last_state:
+        location = "ramshackle hut"
+    else:
+        location = "unknown"
+    # Check for key milestones
+    scroll_found = "shiny scroll" in game_history
+    scroll_read = "the scroll reads" in game_history
+    scroll_in_inventory = "you are carrying:" in game_history and "shiny scroll" in game_history
+    horse_present = "chestnut horse" in game_history
+    horse_wings = False
+    if "sprout wings" in game_history or "wing" in game_history:
+        horse_wings = True
+    # Compile summary
+    parts = [f"Location: {location}"]
+    if scroll_found:
+        parts.append("Scroll found")
+    if scroll_read:
+        parts.append("Scroll read")
+    if scroll_in_inventory:
+        parts.append("Scroll in inventory")
+    if horse_present:'
+
+def extract_state(game_history):
+    return "Game in progress."
+
+[STEP 0] |     [Welcome to a short story called "Balances", one of the example ga || Action: examine oats              || Reward: 0, Score: 0
+[STEP 1] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 0
+[STEP 2] |  ramshackle hut until quite recently, someone lived here, you feel sur || Action: search hut                || Reward: 0, Score: 0
+[STEP 3] | you can't see any such thing.                                          || Action: examine hut               || Reward: 0, Score: 0
+[STEP 4] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 0
+[STEP 5] |  ramshackle hut until quite recently, someone lived here, you feel sur || Action: look                      || Reward: 0, Score: 0
+[STEP 6] |  ramshackle hut until quite recently, someone lived here, you feel sur || Action: north                     || Reward: 0, Score: 0
+[STEP 7] | there's only the one room: better go "out".                            || Action: out                       || Reward: 0, Score: 0
+[STEP 8] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: search                    || Reward: 0, Score: 0
+[STEP 9] | (yourself) you find nothing of interest.                               || Action: look                      || Reward: 0, Score: 0
+[STEP 10] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: search oats               || Reward: 0, Score: 0
+[STEP 11] | you can't see any such thing.                                          || Action: north                     || Reward: 0, Score: 0
+[STEP 12] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: examine oats              || Reward: 5, Score: 5
+[STEP 13] | sifting through the oats, you find a shiny scroll!  lucky you got to i || Action: say bozbar                || Reward: 0, Score: 5
+[STEP 14] | (to the chestnut horse) there is no reply.                             || Action: examine horse             || Reward: 0, Score: 5
+[STEP 15] | you see nothing special about the chestnut horse.                      || Action: look                      || Reward: 0, Score: 5
+[STEP 16] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: use scroll horse          || Reward: 0, Score: 5
+[STEP 17] | that's not a verb i recognise.                                         || Action: use scroll on horse       || Reward: 0, Score: 5
+[STEP 18] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 19] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 20] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: apply scroll horse        || Reward: 0, Score: 5
+[STEP 21] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 22] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 23] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 24] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 25] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 26] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 27] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: say bozbar horse          || Reward: 0, Score: 5
+[STEP 28] | (to the chestnut horse) there is no reply.                             || Action: look                      || Reward: 0, Score: 5
+[STEP 29] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 30] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 31] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: cast bozbar               || Reward: 0, Score: 5
+[STEP 32] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 5
+[STEP 33] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 34] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: cast bozbar horse         || Reward: 0, Score: 5
+[STEP 35] | you can't see any such thing.                                          || Action: read scroll               || Reward: 0, Score: 5
+[STEP 36] | the scroll reads "bozbar spell: cause an animal to sprout wings".      || Action: look                      || Reward: 0, Score: 5
+[STEP 37] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 38] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: inventory                 || Reward: 0, Score: 5
+[STEP 39] | you are carrying:   a shiny scroll (of the bozbar spell)   a spell boo || Action: look                      || Reward: 0, Score: 5
+[STEP 40] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 41] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 42] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 43] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 44] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 45] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 46] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 47] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 48] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 49] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 50] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: examine horse             || Reward: 0, Score: 5
+[STEP 51] | you see nothing special about the chestnut horse.                      || Action: north                     || Reward: 0, Score: 5
+[STEP 52] | the trail runs out to nothing, and you retreat for fear of getting so  || Action: look                      || Reward: 0, Score: 5
+[STEP 53] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: use scroll horse          || Reward: 0, Score: 5
+[STEP 54] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 55] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 56] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 57] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 58] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: say bozbar                || Reward: 0, Score: 5
+[STEP 59] | (to the chestnut horse) there is no reply.                             || Action: look                      || Reward: 0, Score: 5
+[STEP 60] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: south                     || Reward: 0, Score: 5
+[STEP 61] |  grasslands, near hut                                                  || Action: examine hut               || Reward: 0, Score: 5
+[STEP 62] | you can't see any such thing.                                          || Action: enter hut                 || Reward: 0, Score: 5
+[STEP 63] | that's not something you need to refer to in the course of this game.  || Action: look                      || Reward: 0, Score: 5
+[STEP 64] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 5
+[STEP 65] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 5
+[STEP 66] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 5
+[STEP 67] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 5
+[STEP 68] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 5
+[STEP 69] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 5
+[STEP 70] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 5
+[STEP 71] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: search hut                || Reward: 0, Score: 5
+[STEP 72] | that's not something you need to refer to in the course of this game.  || Action: look                      || Reward: 0, Score: 5
+[STEP 73] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 5
+[STEP 74] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 5
+[STEP 75] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: north                     || Reward: 0, Score: 5
+[STEP 76] |  pocket valley there is a chestnut horse here, munching on a pile of o || Action: read scroll               || Reward: 0, Score: 5
+[STEP 77] | the scroll reads "bozbar spell: cause an animal to sprout wings".      || Action: look                      || Reward: 0, Score: 5
+[STEP 78] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 79] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 80] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 81] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: use scroll                || Reward: 0, Score: 5
+[STEP 82] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 83] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 84] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: use scroll horse          || Reward: 0, Score: 5
+[STEP 85] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 86] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 87] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 88] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 89] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: say bozbar                || Reward: 0, Score: 5
+[STEP 90] | (to the chestnut horse) there is no reply.                             || Action: say bozbar horse          || Reward: 0, Score: 5
+[STEP 91] | (to the chestnut horse) there is no reply.                             || Action: look                      || Reward: 0, Score: 5
+[STEP 92] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 93] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 94] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 95] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 96] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 97] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 98] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 99] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 100] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: use scroll on horse       || Reward: 0, Score: 5
+[STEP 101] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 102] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 103] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 104] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 105] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 106] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 107] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 108] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: read scroll               || Reward: 0, Score: 5
+[STEP 109] | the scroll reads "bozbar spell: cause an animal to sprout wings".      || Action: look                      || Reward: 0, Score: 5
+Run 2/10 finished. Score: 5
+
+--- EVALUATION SUMMARY (our method) ---
+Agent LLM Model: gpt-oss-20b
+Number of final evaluation runs: 10
+Individual Scores: [5, 5]
+Average Score: 5.00
+Standard Deviation: 0.00
+
+Starting game run 3/10...
+[DACS] enabled=True game=balances
+[DACS] num raw candidates = 2 archived=0
+[DACS] num filtered candidates = 2
+[DACS] selected/reordered candidate ids = [1, 0]
+[DACS] candidate score table:
+  id | relevance | diversity | risk | final_score | summary
+  1 | 0.356 | 1.0 | 0.207 | 0.911 | **Guiding Prompt**  1. **Examine the scroll** you found among the oats.   2. **R
+  0 | 0.152 | 0.925 | 0.048 | 0.781 | Explore systematically and examine objects to make progress.
+[DACS] fallback=False
+Parent node 1 at depth 1 with UCB score: 5.666043688926158
+
+Evolving prompt. Current prompt: '**Guiding Prompt**
+
+1. **Examine the scroll** you found among the oats.  
+2. **R...'
+
+Current state extractor code: '
+def extract_state(game_history):
+    return "Game in progress."
+...'
+
+
+Updated state extractor code successfully.
+Evolved guiding prompt and code: '**Guiding Prompt**
+
+1. **Locate the scroll**  
+   * In the pocket valley, the scroll is hidden among the oats.  
+   * Command: `examine oats` → `search oats` → `take scroll`.
+
+2. **Read the scroll**  
+   * Command: `read scroll`.  
+   * The incantation is “bozbar”: *“cause an animal to sprout wings”*.
+
+3. **Apply the spell to the horse**  
+   * The horse is in the pocket valley eating oats.  
+   * Try:  
+     - `say bozbar horse`  
+     - `cast bozbar horse`  
+     - `use scroll on horse`  
+     - `apply scroll horse`  
+   * If none work, the spell may require a different verb; try the above in this order.
+
+4. **Confirm the result**  
+   * After applying the spell, `examine horse` or `look at horse` to see if wings appear.
+
+5. **If the horse has not sprouted wings**  
+   * Search the hut again for hidden clues or items that might trigger the spell.  
+   * Command: `search hut` → `look` → `examine hut`.
+
+6. **Avoid useless repetition**  
+   * Do not `look` or `examine` the same object when its description has not changed.  
+   * Do not use verbs that were previously rejected (e.g., `use scroll horse` if the parser says “not a verb”).  
+   * Do not repeat `inventory` or `look` when no new information is gained.
+
+7. **When no progress is made**  
+   * List the rooms still lightly explored:  
+     - Hut (outside and inside)  
+     - Grasslands, near hut  
+     - Pocket valley  
+   * Systematically enter each room, use `look` once upon entry, then interact with any objects, NPCs, or inventory items that seem relevant.
+
+---'
+def extract_state(game_history):
+    import re
+    # Current location
+    last_state = ""
+    for part in re.findall(r"STATE:\s*(.*?)\n", game_history, flags=re.S):
+        if part.strip():
+            last_state = part.strip()
+    location = "unknown"
+    if "pocket valley" in last_state.lower():
+        location = "pocket valley"
+    elif "grasslands" in last_state.lower():
+        location = "grasslands"
+    elif "hut" in last_state.lower():
+        location = "hut"
+    # Scroll status
+    scroll_found = "shiny scroll" in game_history.lower()
+    scroll_read = "the scroll reads" in game_history.lower()
+    scroll_in_inventory = "you are carrying" in game_history.lower() and "shiny scroll" in game_history.lower()
+    # Horse status
+    horse_present = "chestnut horse" in game_history.lower()
+    horse_wings = False
+    if "sprout wings" in game_history.lower() or "wing" in game_history.lower():
+        horse_wings = True
+    # Build summary
+    parts = [f"Location: {location}"]
+    if scroll_found:
+        parts.append("Scroll found")
+    if scroll_read:
+        parts.append("Scroll read")
+    if scroll_in_inventory:
+        parts.append("Scroll in inventory")
+    if horse_present:
+        parts.append("Horse present")
+    if horse_wings:
+        parts.append("Horse wings sprouted")
+    else:
+        parts.append("Horse wings not sprouted")
+    return "; ".join(parts)
+[STEP 0] |     [Welcome to a short story called "Balances", one of the example ga || Action: examine hut               || Reward: 0, Score: 0
+[STEP 1] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 0
+[STEP 2] |  ramshackle hut until quite recently, someone lived here, you feel sur || Action: search hut                || Reward: 0, Score: 0
+[STEP 3] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 0
+[STEP 4] |  ramshackle hut until quite recently, someone lived here, you feel sur || Action: north                     || Reward: 0, Score: 0
+[STEP 5] | there's only the one room: better go "out".                            || Action: out                       || Reward: 0, Score: 0
+[STEP 6] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: north                     || Reward: 0, Score: 0
+[STEP 7] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: examine oats              || Reward: 5, Score: 5
+[STEP 8] | sifting through the oats, you find a shiny scroll!  lucky you got to i || Action: say bozbar horse          || Reward: 0, Score: 5
+[STEP 9] | (to the chestnut horse) there is no reply.                             || Action: cast bozbar horse         || Reward: 0, Score: 5
+[STEP 10] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 5
+[STEP 11] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: take scroll               || Reward: 0, Score: 5
+[STEP 12] | you already have that.                                                 || Action: look                      || Reward: 0, Score: 5
+[STEP 13] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: use scroll horse          || Reward: 0, Score: 5
+[STEP 14] | that's not a verb i recognise.                                         || Action: apply scroll horse        || Reward: 0, Score: 5
+[STEP 15] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 16] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 17] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 18] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: give scroll horse         || Reward: 0, Score: 5
+[STEP 19] | you can only do that to something animate.                             || Action: look                      || Reward: 0, Score: 5
+[STEP 20] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 21] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 22] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 23] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 24] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: say bozbar                || Reward: 0, Score: 5
+[STEP 25] | (to the chestnut horse) there is no reply.                             || Action: say bozbar                || Reward: 0, Score: 5
+[STEP 26] | (to the chestnut horse) there is no reply.                             || Action: look                      || Reward: 0, Score: 5
+[STEP 27] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 28] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 29] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 30] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: read scroll               || Reward: 0, Score: 5
+[STEP 31] | the scroll reads "bozbar spell: cause an animal to sprout wings".      || Action: read scroll               || Reward: 0, Score: 5
+[STEP 32] | the scroll reads "bozbar spell: cause an animal to sprout wings".      || Action: examine horse             || Reward: 0, Score: 5
+[STEP 33] | you see nothing special about the chestnut horse.                      || Action: look                      || Reward: 0, Score: 5
+[STEP 34] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 35] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 36] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 37] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: north                     || Reward: 0, Score: 5
+[STEP 38] | the trail runs out to nothing, and you retreat for fear of getting so  || Action: look                      || Reward: 0, Score: 5
+[STEP 39] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 40] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 41] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 42] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 43] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 44] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: cast bozbar horse         || Reward: 0, Score: 5
+[STEP 45] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 5
+[STEP 46] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 47] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 48] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 49] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: use scroll                || Reward: 0, Score: 5
+[STEP 50] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 51] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: apply scroll              || Reward: 0, Score: 5
+[STEP 52] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 53] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: say bozbar horse          || Reward: 0, Score: 5
+[STEP 54] | (to the chestnut horse) there is no reply.                             || Action: look                      || Reward: 0, Score: 5
+[STEP 55] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 56] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: say bozbar                || Reward: 0, Score: 5
+[STEP 57] | (to the chestnut horse) there is no reply.                             || Action: look                      || Reward: 0, Score: 5
+[STEP 58] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 59] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 60] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 61] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 62] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: examine horse             || Reward: 0, Score: 5
+[STEP 63] | you see nothing special about the chestnut horse.                      || Action: examine horse             || Reward: 0, Score: 5
+[STEP 64] | you see nothing special about the chestnut horse.                      || Action: apply scroll horse        || Reward: 0, Score: 5
+[STEP 65] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 66] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 67] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 68] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 69] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 70] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action:                           || Reward: 0, Score: 5
+[STEP 71] | i beg your pardon?                                                     || Action: look                      || Reward: 0, Score: 5
+[STEP 72] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: touch horse               || Reward: 0, Score: 5
+[STEP 73] | keep your hands to yourself!                                           || Action: look                      || Reward: 0, Score: 5
+[STEP 74] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 75] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 76] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 77] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: cast bozbar horse         || Reward: 0, Score: 5
+[STEP 78] | you can't see any such thing.                                          || Action: give scroll horse         || Reward: 0, Score: 5
+[STEP 79] | you can only do that to something animate.                             || Action: look                      || Reward: 0, Score: 5
+[STEP 80] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 81] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 82] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 83] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 84] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 85] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 86] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: say bozbar horse          || Reward: 0, Score: 5
+[STEP 87] | (to the chestnut horse) there is no reply.                             || Action: say bozbar                || Reward: 0, Score: 5
+[STEP 88] | (to the chestnut horse) there is no reply.                             || Action: look                      || Reward: 0, Score: 5
+[STEP 89] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 90] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 91] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 92] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 93] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 94] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 95] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: apply scroll horse        || Reward: 0, Score: 5
+[STEP 96] | that's not a verb i recognise.                                         || Action: use scroll horse          || Reward: 0, Score: 5
+[STEP 97] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 98] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 99] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: examine horse             || Reward: 0, Score: 5
+[STEP 100] | you see nothing special about the chestnut horse.                      || Action: look                      || Reward: 0, Score: 5
+[STEP 101] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 102] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 103] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 104] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 105] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 106] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 107] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 108] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: cast bozbar horse         || Reward: 0, Score: 5
+[STEP 109] | you can't see any such thing.                                          || Action: north                     || Reward: 0, Score: 5
+Run 3/10 finished. Score: 5
+
+--- EVALUATION SUMMARY (our method) ---
+Agent LLM Model: gpt-oss-20b
+Number of final evaluation runs: 10
+Individual Scores: [5, 5, 5]
+Average Score: 5.00
+Standard Deviation: 0.00
+
+Starting game run 4/10...
+[DACS] enabled=True game=balances
+[DACS] num raw candidates = 3 archived=0
+[DACS] num filtered candidates = 3
+[DACS] selected/reordered candidate ids = [0, 2, 1]
+[DACS] candidate score table:
+  id | relevance | diversity | risk | final_score | summary
+  0 | 0.152 | 1.0 | 0.045 | 0.82 | Explore systematically and examine objects to make progress.
+  2 | 0.252 | 0.938 | 0.189 | 0.789 | **Guiding Prompt**  1. **Locate the scroll**      * In the pocket valley, the sc
+  1 | 0.239 | 0.494 | 0.199 | 0.547 | **Guiding Prompt**  1. **Examine the scroll** you found among the oats.   2. **R
+[DACS] fallback=False
+Parent node 0 at depth 0 with UCB score: 5.741151903683756
+
+Evolving prompt. Current prompt: 'Explore systematically and examine objects to make progress....'
+
+Current state extractor code: '
+def extract_state(game_history):
+    return "Game in progress."
+...'
+
+
+Updated state extractor code successfully.
+Evolved guiding prompt and code: 'You are the agent.  
+Your recent progress in the game is:  
+1. You discovered a shiny scroll.  
+2. You read the scroll, gaining +5 points.  
+3. You now carry the scroll, a spell book, a silver coin, and a magic burin.  
+4. You are currently in the pocket valley, where a chestnut horse is eating oats.  
+
+**Do NOT** repeat the following unproductive actions:  
+- `look` (unless a new object has appeared)  
+- `recite`, `say`, `use`, or `use scroll` (the spell has no effect on the horse)  
+- `examine horse` or `examine oats` after no change has occurred  
+
+**Next steps to make progress**  
+1. Leave the pocket valley: `south` → `grasslands, near hut`.  
+2. From the grasslands, find the path to the hut:  
+   - Try `north` to reach the hut, or `enter hut` if the verb works.  
+3. Inside the hut, systematically inspect every object:  
+   - `examine` each item, `open` doors or chests, `take` or `use` items you found.  
+4. If the hut offers a new object (e.g., a key, a door, a hidden compartment), try to interact with it.  
+5. If the hut has no new objects, return to the pocket valley and consider using the scroll on a different object (e.g., a wooden stick, a stone, a door).  
+6. Keep a record of locations you have fully explored:  
+   - **Hut** – still unvisited  
+   - **Grasslands, near hut** – lightly explored  
+   - **Pocket valley** – explored, horse present  
+
+**When you feel stuck**:  
+- List all lightly searched rooms (hut, grasslands).  
+- Brainstorm possible actions for each (e.g., `enter hut`, `open door`, `take key`).  
+- Try those actions one by one, ensuring you only use a verb once in a given context before trying a new one.  
+
+Remember: the goal is to find a new interactive object or location that changes the game state. Focus on moving to new rooms and exploring them thoroughly before looping over the same actions.'
+def extract_state(game_history):
+    found_scroll = "shiny scroll" in game_history
+    read_scroll = "the scroll reads" in game_history
+    inventory = "you are carrying" in game_history
+    location = "pocket valley" if "pocket valley" in game_history else "unknown"
+    horse = "chestnut horse" in game_history
+    summary_parts = []
+    if found_scroll:
+        summary_parts.append("found scroll")
+    if read_scroll:
+        summary_parts.append("read scroll")
+    if inventory:
+        summary_parts.append("carrying items")
+    summary_parts.append(f"location: {location}")
+    if horse:
+        summary_parts.append("horse present")
+    return ", ".join(summary_parts)
+[STEP 0] |     [Welcome to a short story called "Balances", one of the example ga || Action: look                      || Reward: 0, Score: 0
+[STEP 1] |  ramshackle hut until quite recently, someone lived here, you feel sur || Action: examine door              || Reward: 0, Score: 0
+[STEP 2] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 0
+[STEP 3] |  ramshackle hut until quite recently, someone lived here, you feel sur || Action: examine table             || Reward: 0, Score: 0
+[STEP 4] | you can't see any such thing.                                          || Action: examine window            || Reward: 0, Score: 0
+[STEP 5] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 0
+[STEP 6] |  ramshackle hut until quite recently, someone lived here, you feel sur || Action: look                      || Reward: 0, Score: 0
+[STEP 7] |  ramshackle hut until quite recently, someone lived here, you feel sur || Action: south                     || Reward: 0, Score: 0
+[STEP 8] | there's only the one room: better go "out".                            || Action: look                      || Reward: 0, Score: 0
+[STEP 9] |  ramshackle hut until quite recently, someone lived here, you feel sur || Action: out                       || Reward: 0, Score: 0
+[STEP 10] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: north                     || Reward: 0, Score: 0
+[STEP 11] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: north                     || Reward: 0, Score: 0
+[STEP 12] | the trail runs out to nothing, and you retreat for fear of getting so  || Action: south                     || Reward: 0, Score: 0
+[STEP 13] |  grasslands, near hut                                                  || Action: look                      || Reward: 0, Score: 0
+[STEP 14] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 0
+[STEP 15] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 0
+[STEP 16] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 0
+[STEP 17] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: north                     || Reward: 0, Score: 0
+[STEP 18] |  pocket valley there is a chestnut horse here, munching on a pile of o || Action: look                      || Reward: 0, Score: 0
+[STEP 19] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: south                     || Reward: 0, Score: 0
+[STEP 20] |  grasslands, near hut                                                  || Action: west                      || Reward: 0, Score: 0
+[STEP 21] | you wander around for a while but end up back at the hut.              || Action: look                      || Reward: 0, Score: 0
+[STEP 22] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 0
+[STEP 23] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: enter hut                 || Reward: 0, Score: 0
+[STEP 24] | that's not something you need to refer to in the course of this game.  || Action: look                      || Reward: 0, Score: 0
+[STEP 25] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 0
+[STEP 26] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 0
+[STEP 27] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 0
+[STEP 28] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 0
+[STEP 29] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 0
+[STEP 30] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 0
+[STEP 31] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 0
+[STEP 32] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 0
+[STEP 33] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 0
+[STEP 34] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: open door                 || Reward: 0, Score: 0
+[STEP 35] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 0
+[STEP 36] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 0
+[STEP 37] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 0
+[STEP 38] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 0
+[STEP 39] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: examine hut               || Reward: 0, Score: 0
+[STEP 40] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 0
+[STEP 41] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 0
+[STEP 42] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 0
+[STEP 43] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: north                     || Reward: 0, Score: 0
+[STEP 44] |  pocket valley there is a chestnut horse here, munching on a pile of o || Action: east                      || Reward: 0, Score: 0
+[STEP 45] | you wander around the pleasant valley, but are afraid to lose sight of || Action: look                      || Reward: 0, Score: 0
+[STEP 46] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: south                     || Reward: 0, Score: 0
+[STEP 47] |  grasslands, near hut                                                  || Action: look                      || Reward: 0, Score: 0
+[STEP 48] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 0
+[STEP 49] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 0
+[STEP 50] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 0
+[STEP 51] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 0
+[STEP 52] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 0
+[STEP 53] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 0
+[STEP 54] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 0
+[STEP 55] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 0
+[STEP 56] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: enter hut                 || Reward: 0, Score: 0
+[STEP 57] | that's not something you need to refer to in the course of this game.  || Action: north                     || Reward: 0, Score: 0
+[STEP 58] |  pocket valley there is a chestnut horse here, munching on a pile of o || Action: north                     || Reward: 0, Score: 0
+[STEP 59] | the trail runs out to nothing, and you retreat for fear of getting so  || Action: look                      || Reward: 0, Score: 0
+[STEP 60] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: south                     || Reward: 0, Score: 0
+[STEP 61] |  grasslands, near hut                                                  || Action: look                      || Reward: 0, Score: 0
+[STEP 62] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 0
+[STEP 63] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 0
+[STEP 64] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 0
+[STEP 65] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 0
+[STEP 66] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 0
+[STEP 67] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 0
+[STEP 68] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 0
+[STEP 69] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 0
+[STEP 70] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 0
+[STEP 71] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 0
+[STEP 72] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: examine hut               || Reward: 0, Score: 0
+[STEP 73] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 0
+[STEP 74] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: west                      || Reward: 0, Score: 0
+[STEP 75] | you wander around for a while but end up back at the hut.              || Action: look                      || Reward: 0, Score: 0
+[STEP 76] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 0
+[STEP 77] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: north                     || Reward: 0, Score: 0
+[STEP 78] |  pocket valley there is a chestnut horse here, munching on a pile of o || Action: south                     || Reward: 0, Score: 0
+[STEP 79] |  grasslands, near hut                                                  || Action: look                      || Reward: 0, Score: 0
+[STEP 80] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: enter hut                 || Reward: 0, Score: 0
+[STEP 81] | that's not something you need to refer to in the course of this game.  || Action: look                      || Reward: 0, Score: 0
+[STEP 82] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 0
+[STEP 83] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: enter                     || Reward: 0, Score: 0
+[STEP 84] |  ramshackle hut                                                        || Action: look                      || Reward: 0, Score: 0
+[STEP 85] |  ramshackle hut until quite recently, someone lived here, you feel sur || Action: look                      || Reward: 0, Score: 0
+[STEP 86] |  ramshackle hut until quite recently, someone lived here, you feel sur || Action: examine door              || Reward: 0, Score: 0
+[STEP 87] | you can't see any such thing.                                          || Action: examine table             || Reward: 0, Score: 0
+[STEP 88] | you can't see any such thing.                                          || Action: examine chair             || Reward: 0, Score: 0
+[STEP 89] | you can't see any such thing.                                          || Action: north                     || Reward: 0, Score: 0
+[STEP 90] | there's only the one room: better go "out".                            || Action: out                       || Reward: 0, Score: 0
+[STEP 91] |  grasslands, near hut                                                  || Action: north                     || Reward: 0, Score: 0
+[STEP 92] |  pocket valley there is a chestnut horse here, munching on a pile of o || Action: north                     || Reward: 0, Score: 0
+[STEP 93] | the trail runs out to nothing, and you retreat for fear of getting so  || Action: look                      || Reward: 0, Score: 0
+[STEP 94] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 0
+[STEP 95] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 0
+[STEP 96] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 0
+[STEP 97] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: south                     || Reward: 0, Score: 0
+[STEP 98] |  grasslands, near hut                                                  || Action: examine path              || Reward: 0, Score: 0
+[STEP 99] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 0
+[STEP 100] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 0
+[STEP 101] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 0
+[STEP 102] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: search                    || Reward: 0, Score: 0
+[STEP 103] | (yourself) you find nothing of interest.                               || Action: look                      || Reward: 0, Score: 0
+[STEP 104] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: examine hut               || Reward: 0, Score: 0
+[STEP 105] | you can't see any such thing.                                          || Action: examine window            || Reward: 0, Score: 0
+[STEP 106] | you can't see any such thing.                                          || Action: open door                 || Reward: 0, Score: 0
+[STEP 107] | you can't see any such thing.                                          || Action: search hut                || Reward: 0, Score: 0
+[STEP 108] | that's not something you need to refer to in the course of this game.  || Action: east                      || Reward: 0, Score: 0
+[STEP 109] |  ramshackle hut                                                        || Action: examine bed               || Reward: 0, Score: 0
+Run 4/10 finished. Score: 0
+
+--- EVALUATION SUMMARY (our method) ---
+Agent LLM Model: gpt-oss-20b
+Number of final evaluation runs: 10
+Individual Scores: [5, 5, 5, 0]
+Average Score: 3.75
+Standard Deviation: 2.50
+
+Starting game run 5/10...
+[DACS] enabled=True game=balances
+[DACS] num raw candidates = 4 archived=0
+[DACS] num filtered candidates = 4
+[DACS] selected/reordered candidate ids = [0, 1, 3, 2]
+[DACS] candidate score table:
+  id | relevance | diversity | risk | final_score | summary
+  0 | 0.219 | 1.0 | 0.039 | 0.892 | Explore systematically and examine objects to make progress.
+  1 | 0.295 | 0.925 | 0.149 | 0.853 | **Guiding Prompt**  1. **Examine the scroll** you found among the oats.   2. **R
+  3 | 0.403 | 0.743 | 0.179 | 0.649 | You are the agent.   Your recent progress in the game is:   1. You discovered a 
+  2 | 0.252 | 0.494 | 0.139 | 0.601 | **Guiding Prompt**  1. **Locate the scroll**      * In the pocket valley, the sc
+[DACS] fallback=False
+Parent node 2 at depth 2 with UCB score: 5.753542414409904
+
+Evolving prompt. Current prompt: '**Guiding Prompt**
+
+1. **Locate the scroll**  
+   * In the pocket valley, the sc...'
+
+Current state extractor code: 'def extract_state(game_history):
+    import re
+    # Current location
+    last_s...'
+
+
+Error during prompt evolution LLM call: 'NoneType' object has no attribute 'strip'
+Evolved guiding prompt and code: '**Guiding Prompt**
+
+1. **Locate the scroll**  
+   * In the pocket valley, the scroll is hidden among the oats.  
+   * Command: `examine oats` → `search oats` → `take scroll`.
+
+2. **Read the scroll**  
+   * Command: `read scroll`.  
+   * The incantation is “bozbar”: *“cause an animal to sprout wings”*.
+
+3. **Apply the spell to the horse**  
+   * The horse is in the pocket valley eating oats.  
+   * Try:  
+     - `say bozbar horse`  
+     - `cast bozbar horse`  
+     - `use scroll on horse`  
+     - `apply scroll horse`  
+   * If none work, the spell may require a different verb; try the above in this order.
+
+4. **Confirm the result**  
+   * After applying the spell, `examine horse` or `look at horse` to see if wings appear.
+
+5. **If the horse has not sprouted wings**  
+   * Search the hut again for hidden clues or items that might trigger the spell.  
+   * Command: `search hut` → `look` → `examine hut`.
+
+6. **Avoid useless repetition**  
+   * Do not `look` or `examine` the same object when its description has not changed.  
+   * Do not use verbs that were previously rejected (e.g., `use scroll horse` if the parser says “not a verb”).  
+   * Do not repeat `inventory` or `look` when no new information is gained.
+
+7. **When no progress is made**  
+   * List the rooms still lightly explored:  
+     - Hut (outside and inside)  
+     - Grasslands, near hut  
+     - Pocket valley  
+   * Systematically enter each room, use `look` once upon entry, then interact with any objects, NPCs, or inventory items that seem relevant.
+
+---'
+def extract_state(game_history):
+    import re
+    # Current location
+    last_state = ""
+    for part in re.findall(r"STATE:\s*(.*?)\n", game_history, flags=re.S):
+        if part.strip():
+            last_state = part.strip()
+    location = "unknown"
+    if "pocket valley" in last_state.lower():
+        location = "pocket valley"
+    elif "grasslands" in last_state.lower():
+        location = "grasslands"
+    elif "hut" in last_state.lower():
+        location = "hut"
+    # Scroll status
+    scroll_found = "shiny scroll" in game_history.lower()
+    scroll_read = "the scroll reads" in game_history.lower()
+    scroll_in_inventory = "you are carrying" in game_history.lower() and "shiny scroll" in game_history.lower()
+    # Horse status
+    horse_present = "chestnut horse" in game_history.lower()
+    horse_wings = False
+    if "sprout wings" in game_history.lower() or "wing" in game_history.lower():
+        horse_wings = True
+    # Build summary
+    parts = [f"Location: {location}"]
+    if scroll_found:
+        parts.append("Scroll found")
+    if scroll_read:
+        parts.append("Scroll read")
+    if scroll_in_inventory:
+        parts.append("Scroll in inventory")
+    if horse_present:
+        parts.append("Horse present")
+    if horse_wings:
+        parts.append("Horse wings sprouted")
+    else:
+        parts.append("Horse wings not sprouted")
+    return "; ".join(parts)
+[STEP 0] |     [Welcome to a short story called "Balances", one of the example ga || Action: look                      || Reward: 0, Score: 0
+[STEP 1] |  ramshackle hut until quite recently, someone lived here, you feel sur || Action: look                      || Reward: 0, Score: 0
+[STEP 2] |  ramshackle hut until quite recently, someone lived here, you feel sur || Action: look                      || Reward: 0, Score: 0
+[STEP 3] |  ramshackle hut until quite recently, someone lived here, you feel sur || Action: look                      || Reward: 0, Score: 0
+[STEP 4] |  ramshackle hut until quite recently, someone lived here, you feel sur || Action: look                      || Reward: 0, Score: 0
+[STEP 5] |  ramshackle hut until quite recently, someone lived here, you feel sur || Action: look                      || Reward: 0, Score: 0
+[STEP 6] |  ramshackle hut until quite recently, someone lived here, you feel sur || Action: look                      || Reward: 0, Score: 0
+[STEP 7] |  ramshackle hut until quite recently, someone lived here, you feel sur || Action: look                      || Reward: 0, Score: 0
+[STEP 8] |  ramshackle hut until quite recently, someone lived here, you feel sur || Action: outside                   || Reward: 0, Score: 0
+[STEP 9] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: north                     || Reward: 0, Score: 0
+[STEP 10] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: examine oats              || Reward: 5, Score: 5
+[STEP 11] | sifting through the oats, you find a shiny scroll!  lucky you got to i || Action: use scroll horse          || Reward: 0, Score: 5
+[STEP 12] | that's not a verb i recognise.                                         || Action: say bozbar horse          || Reward: 0, Score: 5
+[STEP 13] | (to the chestnut horse) there is no reply.                             || Action: look                      || Reward: 0, Score: 5
+[STEP 14] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: cast bozbar horse         || Reward: 0, Score: 5
+[STEP 15] | you can't see any such thing.                                          || Action: examine horse             || Reward: 0, Score: 5
+[STEP 16] | you see nothing special about the chestnut horse.                      || Action: apply scroll horse        || Reward: 0, Score: 5
+[STEP 17] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 18] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: take scroll               || Reward: 0, Score: 5
+[STEP 19] | you already have that.                                                 || Action: look                      || Reward: 0, Score: 5
+[STEP 20] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: say bozbar                || Reward: 0, Score: 5
+[STEP 21] | (to the chestnut horse) there is no reply.                             || Action: look                      || Reward: 0, Score: 5
+[STEP 22] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: give scroll horse         || Reward: 0, Score: 5
+[STEP 23] | you can only do that to something animate.                             || Action: look                      || Reward: 0, Score: 5
+[STEP 24] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 25] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 26] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 27] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 28] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 29] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 30] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 31] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 32] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 33] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: read scroll               || Reward: 0, Score: 5
+[STEP 34] | the scroll reads "bozbar spell: cause an animal to sprout wings".      || Action: look                      || Reward: 0, Score: 5
+[STEP 35] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 36] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 37] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 38] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 39] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 40] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 41] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 42] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 43] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: cast bozbar               || Reward: 0, Score: 5
+[STEP 44] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 5
+[STEP 45] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: examine horse             || Reward: 0, Score: 5
+[STEP 46] | you see nothing special about the chestnut horse.                      || Action: look                      || Reward: 0, Score: 5
+[STEP 47] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 48] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: use scroll horse          || Reward: 0, Score: 5
+[STEP 49] | that's not a verb i recognise.                                         || Action: apply scroll horse        || Reward: 0, Score: 5
+[STEP 50] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 51] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 52] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: cast bozbar horse         || Reward: 0, Score: 5
+[STEP 53] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 5
+[STEP 54] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: inventory                 || Reward: 0, Score: 5
+[STEP 55] | you are carrying:   a shiny scroll (of the bozbar spell)   a spell boo || Action:                           || Reward: 0, Score: 5
+[STEP 56] | i beg your pardon?                                                     || Action: give scroll horse         || Reward: 0, Score: 5
+[STEP 57] | you can only do that to something animate.                             || Action: give scroll to horse      || Reward: 0, Score: 5
+[STEP 58] | the chestnut horse  doesn't seem interested.                           || Action: look                      || Reward: 0, Score: 5
+[STEP 59] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 60] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: say bozbar horse          || Reward: 0, Score: 5
+[STEP 61] | (to the chestnut horse) there is no reply.                             || Action: say bozbar                || Reward: 0, Score: 5
+[STEP 62] | (to the chestnut horse) there is no reply.                             || Action: north                     || Reward: 0, Score: 5
+[STEP 63] | the trail runs out to nothing, and you retreat for fear of getting so  || Action: look                      || Reward: 0, Score: 5
+[STEP 64] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: south                     || Reward: 0, Score: 5
+[STEP 65] |  grasslands, near hut                                                  || Action: look                      || Reward: 0, Score: 5
+[STEP 66] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: enter hut                 || Reward: 0, Score: 5
+[STEP 67] | that's not something you need to refer to in the course of this game.  || Action: look                      || Reward: 0, Score: 5
+[STEP 68] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 5
+[STEP 69] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: examine hut               || Reward: 0, Score: 5
+[STEP 70] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 5
+[STEP 71] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 5
+[STEP 72] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: north                     || Reward: 0, Score: 5
+[STEP 73] |  pocket valley there is a chestnut horse here, munching on a pile of o || Action: look                      || Reward: 0, Score: 5
+[STEP 74] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 75] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 76] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: examine horse             || Reward: 0, Score: 5
+[STEP 77] | you see nothing special about the chestnut horse.                      || Action: look                      || Reward: 0, Score: 5
+[STEP 78] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 79] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 80] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 81] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: use scroll horse          || Reward: 0, Score: 5
+[STEP 82] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 83] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: cast bozbar horse         || Reward: 0, Score: 5
+[STEP 84] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 5
+[STEP 85] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 86] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 87] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 88] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 89] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 90] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: apply scroll horse        || Reward: 0, Score: 5
+[STEP 91] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 92] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 93] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: say bozbar                || Reward: 0, Score: 5
+[STEP 94] | (to the chestnut horse) there is no reply.                             || Action: look                      || Reward: 0, Score: 5
+[STEP 95] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 96] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 97] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 98] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 99] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 100] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 101] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 102] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 103] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 104] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 105] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 106] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 107] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 108] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 109] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+Run 5/10 finished. Score: 5
+
+--- EVALUATION SUMMARY (our method) ---
+Agent LLM Model: gpt-oss-20b
+Number of final evaluation runs: 10
+Individual Scores: [5, 5, 5, 0, 5]
+Average Score: 4.00
+Standard Deviation: 2.24
+
+Starting game run 6/10...
+[DACS] enabled=True game=balances
+[DACS] num raw candidates = 5 archived=0
+[DACS] num filtered candidates = 4
+[DACS] selected/reordered candidate ids = [2, 0, 1, 3]
+[DACS] candidate score table:
+  id | relevance | diversity | risk | final_score | summary
+  2 | 0.28 | 1.0 | 0.163 | 0.866 | **Guiding Prompt**  1. **Locate the scroll**      * In the pocket valley, the sc
+  0 | 0.186 | 0.938 | 0.041 | 0.827 | Explore systematically and examine objects to make progress.
+  1 | 0.278 | 0.494 | 0.17 | 0.606 | **Guiding Prompt**  1. **Examine the scroll** you found among the oats.   2. **R
+  3 | 0.226 | 0.728 | 0.175 | 0.468 | You are the agent.   Your recent progress in the game is:   1. You discovered a 
+[DACS] fallback=False
+Parent node 0 at depth 0 with UCB score: 5.73244747534871
+
+Evolving prompt. Current prompt: 'Explore systematically and examine objects to make progress....'
+
+Current state extractor code: '
+def extract_state(game_history):
+    return "Game in progress."
+...'
+
+
+Evolution LLM returned invalid state extractor code, keeping current code
+Evolved guiding prompt and code: '**Guiding Prompt**
+
+You are playing the text adventure “Balances”.  The following steps are the only actions that have ever produced a score increase or advanced the game.  Follow them exactly; do not try other actions unless you have *not* yet tried the ones below.
+
+1. **Make sure you have the scroll**  
+   *If you have not already, read the scroll (type `read scroll`).*  
+   The scroll contains the spell “bozbar”.
+
+2. **Cast the spell on the horse**  
+   *While standing next to the chestnut horse, type `say bozbar`.*  
+   If that is not accepted, try `recite bozbar` or `cast bozbar horse`.  
+   Do **not** use any other verbs (e.g. `use`, `give`, `drop`) unless the spell has failed.
+
+3. **Check the horse**  
+   *Immediately after attempting the spell, type `examine horse`* and read the description.  
+   If the horse still has no wings, the spell did not work.
+
+4. **If no effect, try the spell again**  
+   Repeat step 2 once more, then step 3 again.  
+   Do **not** keep repeating `look` or `examine` on the same objects.
+
+5. **If the spell still fails**  
+   a. Use `inventory` to double‑check you still have the scroll.  
+   b. Go back to the hut (`enter hut` then `look` inside).  
+   c. Search the hut again for any other hidden items (e.g. a key or a second scroll).  
+   d. If the hut is empty, go back to the grasslands and try `north` to re‑enter the pocket valley.  
+   e. Otherwise, try to `examine` any other objects you see (e.g. the oats, the path).
+
+6. **Avoid the following wasteful actions**  
+   * Repeated `look` or `examine` on the same object.  
+   * `open door`, `examine window`, `open door`, `search hut`, `examine bed`.  
+   * Any action that does not change the game state or yields no new information.
+
+7. **If you are ever stuck**  
+   *List all rooms you have visited that have not been fully explored:*  
+   - Hut (inside, empty)  
+   - Grasslands near hut (no new objects)  
+   - Pocket valley (horse & oats)  
+   *Then choose the least‑explored room and systematically try each object or direction in it.*
+
+**State Extractor Code**
+
+```python
+def extract_state(game_history):
+    state = []
+    # Current location
+    if "you are in the hut" in game_history or "enter hut" in game_history:
+        state.append("Location: hut")
+    elif "pocket valley" in game_history:
+        state.append("Location: pocket valley")
+    elif "grasslands, near hut" in game_history:
+        state.append("Location: grasslands near hut")
+    # Inventory items
+    items = []
+    if "a shiny scroll (of the bozbar spell)" in game_history:
+        items.append("shiny scroll")
+    if "a spell book" in game_history:
+        items.append("spell book")
+    if "a silver coin" in game_history:
+        items.append("silver coin")
+    if "a magic burin" in game_history:
+        items.append("magic burin")
+    state.append("Inventory: " + ", ".join(items) if items else "Inventory: empty")
+    # Milestones
+    if "shiny scroll" in game_history:
+        state.append("Found scroll")
+    if "the scroll reads" in game_history:
+        state.append("Read scroll")
+    if ("say bozbar" in game_history or "recite bozbar" in game_history or
+        "cast bozbar" in game_history):
+        state.append("Attempted bozbar spell")
+    if "you see nothing special about the chestnut horse" in game_history:
+        state.append("Horse unchanged after spell")
+    # Return a concise summary
+    return "; ".join(state)
+```'
+
+def extract_state(game_history):
+    return "Game in progress."
+
+[STEP 0] |     [Welcome to a short story called "Balances", one of the example ga || Action: look                      || Reward: 0, Score: 0
+[STEP 1] |  ramshackle hut until quite recently, someone lived here, you feel sur || Action: look                      || Reward: 0, Score: 0
+[STEP 2] |  ramshackle hut until quite recently, someone lived here, you feel sur || Action: look                      || Reward: 0, Score: 0
+[STEP 3] |  ramshackle hut until quite recently, someone lived here, you feel sur || Action: look                      || Reward: 0, Score: 0
+[STEP 4] |  ramshackle hut until quite recently, someone lived here, you feel sur || Action: look                      || Reward: 0, Score: 0
+[STEP 5] |  ramshackle hut until quite recently, someone lived here, you feel sur || Action: look                      || Reward: 0, Score: 0
+[STEP 6] |  ramshackle hut until quite recently, someone lived here, you feel sur || Action: look                      || Reward: 0, Score: 0
+[STEP 7] |  ramshackle hut until quite recently, someone lived here, you feel sur || Action: look                      || Reward: 0, Score: 0
+[STEP 8] |  ramshackle hut until quite recently, someone lived here, you feel sur || Action: look                      || Reward: 0, Score: 0
+[STEP 9] |  ramshackle hut until quite recently, someone lived here, you feel sur || Action: look                      || Reward: 0, Score: 0
+[STEP 10] |  ramshackle hut until quite recently, someone lived here, you feel sur || Action: look                      || Reward: 0, Score: 0
+[STEP 11] |  ramshackle hut until quite recently, someone lived here, you feel sur || Action: search hut                || Reward: 0, Score: 0
+[STEP 12] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 0
+[STEP 13] |  ramshackle hut until quite recently, someone lived here, you feel sur || Action: look                      || Reward: 0, Score: 0
+[STEP 14] |  ramshackle hut until quite recently, someone lived here, you feel sur || Action: look                      || Reward: 0, Score: 0
+[STEP 15] |  ramshackle hut until quite recently, someone lived here, you feel sur || Action: look                      || Reward: 0, Score: 0
+[STEP 16] |  ramshackle hut until quite recently, someone lived here, you feel sur || Action: look                      || Reward: 0, Score: 0
+[STEP 17] |  ramshackle hut until quite recently, someone lived here, you feel sur || Action: look                      || Reward: 0, Score: 0
+[STEP 18] |  ramshackle hut until quite recently, someone lived here, you feel sur || Action: look                      || Reward: 0, Score: 0
+[STEP 19] |  ramshackle hut until quite recently, someone lived here, you feel sur || Action: look                      || Reward: 0, Score: 0
+[STEP 20] |  ramshackle hut until quite recently, someone lived here, you feel sur || Action: north                     || Reward: 0, Score: 0
+[STEP 21] | there's only the one room: better go "out".                            || Action: out                       || Reward: 0, Score: 0
+[STEP 22] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 0
+[STEP 23] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 0
+[STEP 24] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: north                     || Reward: 0, Score: 0
+[STEP 25] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 0
+[STEP 26] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 0
+[STEP 27] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 0
+[STEP 28] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 0
+[STEP 29] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 0
+[STEP 30] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 0
+[STEP 31] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 0
+[STEP 32] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: examine oats              || Reward: 5, Score: 5
+[STEP 33] | sifting through the oats, you find a shiny scroll!  lucky you got to i || Action: read scroll               || Reward: 0, Score: 5
+[STEP 34] | the scroll reads "bozbar spell: cause an animal to sprout wings".      || Action: say bozbar                || Reward: 0, Score: 5
+[STEP 35] | (to the chestnut horse) there is no reply.                             || Action: look                      || Reward: 0, Score: 5
+[STEP 36] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: recite bozbar             || Reward: 0, Score: 5
+[STEP 37] | that's not a verb i recognise.                                         || Action: cast bozbar horse         || Reward: 0, Score: 5
+[STEP 38] | you can't see any such thing.                                          || Action: examine horse             || Reward: 0, Score: 5
+[STEP 39] | you see nothing special about the chestnut horse.                      || Action: look                      || Reward: 0, Score: 5
+[STEP 40] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 41] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: say bozbar                || Reward: 0, Score: 5
+[STEP 42] | (to the chestnut horse) there is no reply.                             || Action: look                      || Reward: 0, Score: 5
+[STEP 43] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: inventory                 || Reward: 0, Score: 5
+[STEP 44] | you are carrying:   a shiny scroll (of the bozbar spell)   a spell boo || Action: enter hut                 || Reward: 0, Score: 5
+[STEP 45] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 5
+[STEP 46] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 47] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 48] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 49] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: south                     || Reward: 0, Score: 5
+[STEP 50] |  grasslands, near hut                                                  || Action: north                     || Reward: 0, Score: 5
+[STEP 51] |  pocket valley there is a chestnut horse here, munching on a pile of o || Action: look                      || Reward: 0, Score: 5
+[STEP 52] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 53] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 54] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 55] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 56] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 57] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 58] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 59] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 60] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 61] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 62] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 63] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: examine oats              || Reward: 0, Score: 5
+[STEP 64] | you see nothing special about the pile of oats.                        || Action: look                      || Reward: 0, Score: 5
+[STEP 65] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: read scroll               || Reward: 0, Score: 5
+[STEP 66] | the scroll reads "bozbar spell: cause an animal to sprout wings".      || Action: look                      || Reward: 0, Score: 5
+[STEP 67] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 68] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: say bozbar                || Reward: 0, Score: 5
+[STEP 69] | (to the chestnut horse) there is no reply.                             || Action: look                      || Reward: 0, Score: 5
+[STEP 70] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: examine horse             || Reward: 0, Score: 5
+[STEP 71] | you see nothing special about the chestnut horse.                      || Action: examine horse             || Reward: 0, Score: 5
+[STEP 72] | you see nothing special about the chestnut horse.                      || Action: look                      || Reward: 0, Score: 5
+[STEP 73] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: examine trail             || Reward: 0, Score: 5
+[STEP 74] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 5
+[STEP 75] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: inventory                 || Reward: 0, Score: 5
+[STEP 76] | you are carrying:   a shiny scroll (of the bozbar spell)   a spell boo || Action: look                      || Reward: 0, Score: 5
+[STEP 77] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 78] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 79] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: enter hut                 || Reward: 0, Score: 5
+[STEP 80] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 5
+[STEP 81] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 82] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: say bozbar                || Reward: 0, Score: 5
+[STEP 83] | (to the chestnut horse) there is no reply.                             || Action: north                     || Reward: 0, Score: 5
+[STEP 84] | the trail runs out to nothing, and you retreat for fear of getting so  || Action: look                      || Reward: 0, Score: 5
+[STEP 85] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 86] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 87] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 88] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 89] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 90] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 91] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 92] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 93] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 94] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 95] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 96] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: examine oats              || Reward: 0, Score: 5
+[STEP 97] | you see nothing special about the pile of oats.                        || Action: enter hut                 || Reward: 0, Score: 5
+[STEP 98] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 5
+[STEP 99] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 100] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: read scroll               || Reward: 0, Score: 5
+[STEP 101] | the scroll reads "bozbar spell: cause an animal to sprout wings".      || Action: say bozbar                || Reward: 0, Score: 5
+[STEP 102] | (to the chestnut horse) there is no reply.                             || Action: look                      || Reward: 0, Score: 5
+[STEP 103] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: examine horse             || Reward: 0, Score: 5
+[STEP 104] | you see nothing special about the chestnut horse.                      || Action: say bozbar                || Reward: 0, Score: 5
+[STEP 105] | (to the chestnut horse) there is no reply.                             || Action: search hut                || Reward: 0, Score: 5
+[STEP 106] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 5
+[STEP 107] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 108] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 109] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+Run 6/10 finished. Score: 5
+
+--- EVALUATION SUMMARY (our method) ---
+Agent LLM Model: gpt-oss-20b
+Number of final evaluation runs: 10
+Individual Scores: [5, 5, 5, 0, 5, 5]
+Average Score: 4.17
+Standard Deviation: 2.04
+
+Starting game run 7/10...
+[DACS] enabled=True game=balances
+[DACS] num raw candidates = 6 archived=0
+[DACS] num filtered candidates = 4
+[DACS] selected/reordered candidate ids = [2, 0, 5, 1]
+[DACS] candidate score table:
+  id | relevance | diversity | risk | final_score | summary
+  2 | 0.403 | 1.0 | 0.178 | 0.978 | **Guiding Prompt**  1. **Locate the scroll**      * In the pocket valley, the sc
+  0 | 0.102 | 0.938 | 0.038 | 0.745 | Explore systematically and examine objects to make progress.
+  5 | 0.357 | 0.695 | 0.228 | 0.745 | **Guiding Prompt**  You are playing the text adventure “Balances”.  The followin
+  1 | 0.406 | 0.494 | 0.191 | 0.719 | **Guiding Prompt**  1. **Examine the scroll** you found among the oats.   2. **R
+[DACS] fallback=False
+Parent node 5 at depth 1 with UCB score: 6.070852959236681
+
+Evolving prompt. Current prompt: '**Guiding Prompt**
+
+You are playing the text adventure “Balances”.  The followin...'
+
+Current state extractor code: '
+def extract_state(game_history):
+    return "Game in progress."
+...'
+
+
+Evolution LLM returned invalid state extractor code, keeping current code
+Evolved guiding prompt and code: '**Guiding Prompt**
+
+You are playing the interactive fiction game **“Balances.”**  
+Your goal is to increase the score and progress toward the end of the adventure.  
+Only perform actions that have proven to change the game state or award points.  
+Avoid any action that simply repeats information or has no effect.
+
+**Step‑by‑step actions that have produced score or progression**
+
+1. **Find the scroll**  
+   *The scroll containing the spell “bozbar” is hidden inside the pile of oats.*  
+   In the pocket valley, type:  
+   ```
+   examine oats
+   ```
+   If the game reports “you find a shiny scroll,” you have found the scroll.  
+   Do NOT examine the oats again unless you are looking for something new.
+
+2. **Read the scroll**  
+   *Reading the scroll gives you the spell text and increases the score by 5.*  
+   In the same room, type:  
+   ```
+   read scroll
+   ```
+   The game will display the spell “bozbar spell: cause an animal to sprout wings.”
+
+3. **Cast the spell on the horse**  
+   *The spell must be spoken to the horse. Only the following verbs work:*  
+   ```
+   say bozbar
+   ```
+   or
+   ```
+   cast bozbar horse
+   ```
+   After one attempt, examine the horse:  
+   ```
+   examine horse
+   ```
+   If the horse still shows no wings, the spell has failed.
+
+4. **Repeat the spell once**  
+   *If the first attempt fails, try casting the spell one more time before exploring further.*  
+   Use the same verb as in step 3, then examine the horse again.
+
+**If the spell still fails**
+
+- Confirm you still possess the scroll:  
+  ```
+  inventory
+  ```
+- Return to the hut to search for hidden items that might help:  
+  *From any location, type:*  
+  ```
+  enter hut
+  ```
+  *Then look inside:*  
+  ```
+  look
+  ```
+  If the hut is empty, go back to the grasslands and re‑enter the pocket valley.
+
+**Avoid the following wasteful patterns**
+
+- Repeated `look` or `examine` on the same object.  
+- `search` or `examine hut` when the hut has already been inspected.  
+- Any action that does not change the visible state or gain points (e.g., `open door`, `search hut` after it is known to be empty).
+
+**When stuck**
+
+List all rooms that have not been fully explored:
+
+- Hut (inside) – currently empty.  
+- Grasslands near hut – nothing new.  
+- Pocket valley – horse, oats, trail.
+
+Choose the least‑explored room and systematically try each object or direction in it.  
+Document what you find; if you discover a new item or clue, use it immediately.
+
+---
+
+**State Extractor**
+
+```python
+def extract_state(game_history):
+    # Current location
+    if "you are in the hut" in game_history or "enter hut" in game_history:
+        location = "hut"
+    elif "grasslands, near hut" in game_history:
+        location = "grasslands"
+    elif "pocket valley" in game_history:
+        location = "pocket valley"
+    else:
+        location = "unknown"
+
+    # Inventory items
+    inventory = []
+    if "shiny scroll" in game_history:
+        inventory.append("shiny scroll")
+    if "spell book" in game_history:
+        inventory.append("spell book")
+    if "silver coin" in game_history:
+        inventory.append("silver coin")
+    if "magic burin" in game_history:
+        inventory.append("magic burin")
+    inventory_str = ", ".join(inventory) if inventory else "empty"
+
+    # Milestones
+    milestones = []
+    if "you find a shiny scroll" in game_history or "you see a shiny scroll" in game_history:
+        milestones.append("Found scroll")
+    if "the scroll reads" in game_history:
+        milestones.append("Read scroll")
+    if ("say bozbar" in game_history or "cast bozbar" in game_history):
+        milestones.append("Attempted spell")
+    if ("you see nothing special about the chestnut horse" in game_history and
+        ("say bozbar" in game_history or "cast bozbar" in game_history)):
+        milestones.append("Horse unchanged")
+    if "you are carrying:" in game_history and "shiny scroll" in game_history:
+        milestones.append("Scroll in inventory")
+
+    # Build summary
+    summary_parts = [f"Location: {location}", f"Inventory: {inventory_str}"]
+    if milestones:
+        summary_parts.append("; ".join(milestones))
+    return "; ".join(summary_parts)
+```'
+
+def extract_state(game_history):
+    return "Game in progress."
+
+[STEP 0] |     [Welcome to a short story called "Balances", one of the example ga || Action: north                     || Reward: 0, Score: 0
+[STEP 1] | there's only the one room: better go "out".                            || Action: north                     || Reward: 0, Score: 0
+[STEP 2] | there's only the one room: better go "out".                            || Action: out                       || Reward: 0, Score: 0
+[STEP 3] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: north                     || Reward: 0, Score: 0
+[STEP 4] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: examine oats              || Reward: 5, Score: 5
+[STEP 5] | sifting through the oats, you find a shiny scroll!  lucky you got to i || Action: read scroll               || Reward: 0, Score: 5
+[STEP 6] | the scroll reads "bozbar spell: cause an animal to sprout wings".      || Action: say bozbar                || Reward: 0, Score: 5
+[STEP 7] | (to the chestnut horse) there is no reply.                             || Action: say bozbar                || Reward: 0, Score: 5
+[STEP 8] | (to the chestnut horse) there is no reply.                             || Action: inventory                 || Reward: 0, Score: 5
+[STEP 9] | you are carrying:   a shiny scroll (of the bozbar spell)   a spell boo || Action: look                      || Reward: 0, Score: 5
+[STEP 10] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 11] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: cast bozbar horse         || Reward: 0, Score: 5
+[STEP 12] | you can't see any such thing.                                          || Action: examine horse             || Reward: 0, Score: 5
+[STEP 13] | you see nothing special about the chestnut horse.                      || Action: look                      || Reward: 0, Score: 5
+[STEP 14] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 15] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 16] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 17] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 18] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: examine trail             || Reward: 0, Score: 5
+[STEP 19] | you can't see any such thing.                                          || Action: south                     || Reward: 0, Score: 5
+[STEP 20] |  grasslands, near hut                                                  || Action: look                      || Reward: 0, Score: 5
+[STEP 21] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: enter hut                 || Reward: 0, Score: 5
+[STEP 22] | that's not something you need to refer to in the course of this game.  || Action: look                      || Reward: 0, Score: 5
+[STEP 23] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 5
+[STEP 24] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 5
+[STEP 25] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 5
+[STEP 26] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 5
+[STEP 27] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 5
+[STEP 28] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 5
+[STEP 29] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 5
+[STEP 30] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 5
+[STEP 31] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 5
+[STEP 32] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 5
+[STEP 33] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: examine hut               || Reward: 0, Score: 5
+[STEP 34] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 5
+[STEP 35] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 5
+[STEP 36] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: examine oats              || Reward: 0, Score: 5
+[STEP 37] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 5
+[STEP 38] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 5
+[STEP 39] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 5
+[STEP 40] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: north                     || Reward: 0, Score: 5
+[STEP 41] |  pocket valley there is a chestnut horse here, munching on a pile of o || Action: look                      || Reward: 0, Score: 5
+[STEP 42] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 43] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 44] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 45] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 46] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: examine oats              || Reward: 0, Score: 5
+[STEP 47] | you see nothing special about the pile of oats.                        || Action: look                      || Reward: 0, Score: 5
+[STEP 48] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 49] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 50] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: examine horse             || Reward: 0, Score: 5
+[STEP 51] | you see nothing special about the chestnut horse.                      || Action: examine horse             || Reward: 0, Score: 5
+[STEP 52] | you see nothing special about the chestnut horse.                      || Action: search oats               || Reward: 0, Score: 5
+[STEP 53] | you find nothing of interest.                                          || Action: look                      || Reward: 0, Score: 5
+[STEP 54] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: north                     || Reward: 0, Score: 5
+[STEP 55] | the trail runs out to nothing, and you retreat for fear of getting so  || Action: look                      || Reward: 0, Score: 5
+[STEP 56] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: enter hut                 || Reward: 0, Score: 5
+[STEP 57] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 5
+[STEP 58] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 59] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 60] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: pick oats                 || Reward: 0, Score: 5
+[STEP 61] | i didn't understand that sentence.                                     || Action: look                      || Reward: 0, Score: 5
+[STEP 62] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 63] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 64] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 65] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 66] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 67] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 68] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 69] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 70] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: search horse              || Reward: 0, Score: 5
+[STEP 71] | you find nothing of interest.                                          || Action: look                      || Reward: 0, Score: 5
+[STEP 72] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 73] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 74] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: examine trail             || Reward: 0, Score: 5
+[STEP 75] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 5
+[STEP 76] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 77] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: examine oats              || Reward: 0, Score: 5
+[STEP 78] | you see nothing special about the pile of oats.                        || Action: look                      || Reward: 0, Score: 5
+[STEP 79] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 80] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 81] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 82] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 83] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 84] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: take oats                 || Reward: 0, Score: 5
+[STEP 85] | that's hardly portable.                                                || Action: look                      || Reward: 0, Score: 5
+[STEP 86] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: search oats               || Reward: 0, Score: 5
+[STEP 87] | you find nothing of interest.                                          || Action: look                      || Reward: 0, Score: 5
+[STEP 88] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 89] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 90] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 91] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 92] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: pick oats                 || Reward: 0, Score: 5
+[STEP 93] | i didn't understand that sentence.                                     || Action: look                      || Reward: 0, Score: 5
+[STEP 94] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 95] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 96] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 97] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 98] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 99] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: examine horse             || Reward: 0, Score: 5
+[STEP 100] | you see nothing special about the chestnut horse.                      || Action: look                      || Reward: 0, Score: 5
+[STEP 101] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 102] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 103] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: search horse              || Reward: 0, Score: 5
+[STEP 104] | you find nothing of interest.                                          || Action: look                      || Reward: 0, Score: 5
+[STEP 105] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 106] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: enter hut                 || Reward: 0, Score: 5
+[STEP 107] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 5
+[STEP 108] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: examine oats              || Reward: 0, Score: 5
+[STEP 109] | you see nothing special about the pile of oats.                        || Action: look                      || Reward: 0, Score: 5
+Run 7/10 finished. Score: 5
+
+--- EVALUATION SUMMARY (our method) ---
+Agent LLM Model: gpt-oss-20b
+Number of final evaluation runs: 10
+Individual Scores: [5, 5, 5, 0, 5, 5, 5]
+Average Score: 4.29
+Standard Deviation: 1.89
+
+Starting game run 8/10...
+[DACS] enabled=True game=balances
+[DACS] num raw candidates = 7 archived=0
+[DACS] num filtered candidates = 4
+[DACS] selected/reordered candidate ids = [1, 0, 6, 2]
+[DACS] candidate score table:
+  id | relevance | diversity | risk | final_score | summary
+  1 | 0.38 | 1.0 | 0.171 | 0.96 | **Guiding Prompt**  1. **Examine the scroll** you found among the oats.   2. **R
+  0 | 0.157 | 0.925 | 0.039 | 0.792 | Explore systematically and examine objects to make progress.
+  6 | 0.377 | 0.657 | 0.204 | 0.763 | **Guiding Prompt**  You are playing the interactive fiction game **“Balances.”**
+  2 | 0.35 | 0.494 | 0.164 | 0.683 | **Guiding Prompt**  1. **Locate the scroll**      * In the pocket valley, the sc
+[DACS] fallback=False
+Parent node 6 at depth 2 with UCB score: 5.892773653874854
+
+Evolving prompt. Current prompt: '**Guiding Prompt**
+
+You are playing the interactive fiction game **“Balances.”**...'
+
+Current state extractor code: '
+def extract_state(game_history):
+    return "Game in progress."
+...'
+
+
+Updated state extractor code successfully.
+Evolved guiding prompt and code: '**Guiding Prompt**
+
+- The only actions that have produced a score or advanced the game are:
+  1. `examine oats` in the pocket valley – finds the shiny scroll and gives +5 points.
+  2. `read scroll` after finding it – confirms the spell text.
+  3. `say bozbar` or `cast bozbar horse` – attempts to give the horse wings.
+  4. `examine horse` – checks whether the spell has worked (no change in this game).
+
+- Do **not** repeat `look`, `examine` or `search` on an object that has already been inspected unless you have new information to look for. These actions give no score and only waste turns.
+
+- If the spell has no effect (the horse remains unchanged), the game does not require any further action for a win. However, if you wish to fully explore, consider:
+  1. Entering the hut (`enter hut`) and looking inside – there are no hidden items, so this will not help.
+  2. Moving to the grasslands or the trail and inspecting any new objects (none exist).
+  3. Systematically exploring each room in order: hut → grasslands → pocket valley, and in each room, examine every visible object once.
+
+- When the agent is stuck or repeating a loop, list the rooms that have not been fully inspected:
+  - Hut (inside) – empty.
+  - Grasslands – nothing new.
+  - Pocket valley – horse, oats, trail.
+  Then choose the least‑explored room and try a new interaction (e.g., use an inventory item on an object) before repeating the same command.
+
+- If you have already found the scroll, read it, and attempted the spell, the game is effectively finished; no further score‑gaining actions exist.
+
+**State Extractor**'
+def extract_state(game_history):
+    location = "unknown"
+    if "pocket valley" in game_history:
+        location = "pocket valley"
+    elif "grasslands" in game_history:
+        location = "grasslands"
+    elif "hut" in game_history:
+        location = "hut"
+    inventory = []
+    if "shiny scroll" in game_history or "scroll" in game_history:
+        inventory.append("shiny scroll")
+    if "spell book" in game_history:
+        inventory.append("spell book")
+    if "silver coin" in game_history:
+        inventory.append("silver coin")
+    if "magic burin" in game_history:
+        inventory.append("magic burin")
+    milestones = []
+    if "you find a shiny scroll" in game_history or "you find a shiny scroll!" in game_history:
+        milestones.append("Found scroll")
+    if "the scroll reads" in game_history:
+        milestones.append("Read scroll")
+    if ("say bozbar" in game_history or "cast bozbar" in game_history) and ("you see nothing special" in game_history or "there is no reply" in game_history):
+        milestones.append("Attempted spell (failed)")
+    if "you see nothing special" in game_history and "horse" in game_history:
+        milestones.append("Horse unchanged")
+    summary_parts = [f"Location: {location}", f"Inventory: {', '.join(inventory) if inventory else 'empty'}"]
+    if milestones:
+        summary_parts.append("; ".join(milestones))
+    return "; ".join(summary_parts)
+[STEP 0] |     [Welcome to a short story called "Balances", one of the example ga || Action: north                     || Reward: 0, Score: 0
+[STEP 1] | there's only the one room: better go "out".                            || Action: examine oats              || Reward: 0, Score: 0
+[STEP 2] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 0
+[STEP 3] |  ramshackle hut until quite recently, someone lived here, you feel sur || Action: look                      || Reward: 0, Score: 0
+[STEP 4] |  ramshackle hut until quite recently, someone lived here, you feel sur || Action: out                       || Reward: 0, Score: 0
+[STEP 5] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: north                     || Reward: 0, Score: 0
+[STEP 6] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: read scroll               || Reward: 0, Score: 0
+[STEP 7] | (in the chestnut horse) you discover nothing of interest in the chestn || Action: examine oats              || Reward: 5, Score: 5
+[STEP 8] | sifting through the oats, you find a shiny scroll!  lucky you got to i || Action: read scroll               || Reward: 0, Score: 5
+[STEP 9] | the scroll reads "bozbar spell: cause an animal to sprout wings".      || Action: say bozbar                || Reward: 0, Score: 5
+[STEP 10] | (to the chestnut horse) there is no reply.                             || Action: look                      || Reward: 0, Score: 5
+[STEP 11] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 12] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: examine horse             || Reward: 0, Score: 5
+[STEP 13] | you see nothing special about the chestnut horse.                      || Action: look                      || Reward: 0, Score: 5
+[STEP 14] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: north                     || Reward: 0, Score: 5
+[STEP 15] | the trail runs out to nothing, and you retreat for fear of getting so  || Action: south                     || Reward: 0, Score: 5
+[STEP 16] |  grasslands, near hut                                                  || Action: south                     || Reward: 0, Score: 5
+[STEP 17] | you wander around for a while but end up back at the hut.              || Action: look                      || Reward: 0, Score: 5
+[STEP 18] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 5
+[STEP 19] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 5
+[STEP 20] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: enter hut                 || Reward: 0, Score: 5
+[STEP 21] | that's not something you need to refer to in the course of this game.  || Action: south                     || Reward: 0, Score: 5
+[STEP 22] | you wander around for a while but end up back at the hut.              || Action: look                      || Reward: 0, Score: 5
+[STEP 23] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 5
+[STEP 24] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: inventory                 || Reward: 0, Score: 5
+[STEP 25] | you are carrying:   a shiny scroll (of the bozbar spell)   a spell boo || Action: look                      || Reward: 0, Score: 5
+[STEP 26] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: inventory                 || Reward: 0, Score: 5
+[STEP 27] | you are carrying:   a shiny scroll (of the bozbar spell)   a spell boo || Action: look                      || Reward: 0, Score: 5
+[STEP 28] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 5
+[STEP 29] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 5
+[STEP 30] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 5
+[STEP 31] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 5
+[STEP 32] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 5
+[STEP 33] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 5
+[STEP 34] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 5
+[STEP 35] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 5
+[STEP 36] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 5
+[STEP 37] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 5
+[STEP 38] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 5
+[STEP 39] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 5
+[STEP 40] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 5
+[STEP 41] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 5
+[STEP 42] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: north                     || Reward: 0, Score: 5
+[STEP 43] |  pocket valley there is a chestnut horse here, munching on a pile of o || Action: examine oats              || Reward: 0, Score: 5
+[STEP 44] | you see nothing special about the pile of oats.                        || Action: examine horse             || Reward: 0, Score: 5
+[STEP 45] | you see nothing special about the chestnut horse.                      || Action: look                      || Reward: 0, Score: 5
+[STEP 46] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: north                     || Reward: 0, Score: 5
+[STEP 47] | the trail runs out to nothing, and you retreat for fear of getting so  || Action: look                      || Reward: 0, Score: 5
+[STEP 48] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 49] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 50] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 51] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 52] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: north                     || Reward: 0, Score: 5
+[STEP 53] | the trail runs out to nothing, and you retreat for fear of getting so  || Action: look                      || Reward: 0, Score: 5
+[STEP 54] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: north                     || Reward: 0, Score: 5
+[STEP 55] | the trail runs out to nothing, and you retreat for fear of getting so  || Action: south                     || Reward: 0, Score: 5
+[STEP 56] |  grasslands, near hut                                                  || Action: enter hut                 || Reward: 0, Score: 5
+[STEP 57] | that's not something you need to refer to in the course of this game.  || Action: examine hut               || Reward: 0, Score: 5
+[STEP 58] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 5
+[STEP 59] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 5
+[STEP 60] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: inventory                 || Reward: 0, Score: 5
+[STEP 61] | you are carrying:   a shiny scroll (of the bozbar spell)   a spell boo || Action: inventory                 || Reward: 0, Score: 5
+[STEP 62] | you are carrying:   a shiny scroll (of the bozbar spell)   a spell boo || Action: look                      || Reward: 0, Score: 5
+[STEP 63] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 5
+[STEP 64] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 5
+[STEP 65] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 5
+[STEP 66] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 5
+[STEP 67] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 5
+[STEP 68] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 5
+[STEP 69] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 5
+[STEP 70] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 5
+[STEP 71] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 5
+[STEP 72] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 5
+[STEP 73] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: examine hut               || Reward: 0, Score: 5
+[STEP 74] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 5
+[STEP 75] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 5
+[STEP 76] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 5
+[STEP 77] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: north                     || Reward: 0, Score: 5
+[STEP 78] |  pocket valley there is a chestnut horse here, munching on a pile of o || Action: examine oats              || Reward: 0, Score: 5
+[STEP 79] | you see nothing special about the pile of oats.                        || Action: look                      || Reward: 0, Score: 5
+[STEP 80] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 81] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: north                     || Reward: 0, Score: 5
+[STEP 82] | the trail runs out to nothing, and you retreat for fear of getting so  || Action: look                      || Reward: 0, Score: 5
+[STEP 83] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 84] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: north                     || Reward: 0, Score: 5
+[STEP 85] | the trail runs out to nothing, and you retreat for fear of getting so  || Action: look                      || Reward: 0, Score: 5
+[STEP 86] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: examine horse             || Reward: 0, Score: 5
+[STEP 87] | you see nothing special about the chestnut horse.                      || Action: look                      || Reward: 0, Score: 5
+[STEP 88] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 89] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 90] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: north                     || Reward: 0, Score: 5
+[STEP 91] | the trail runs out to nothing, and you retreat for fear of getting so  || Action: look                      || Reward: 0, Score: 5
+[STEP 92] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: north                     || Reward: 0, Score: 5
+[STEP 93] | the trail runs out to nothing, and you retreat for fear of getting so  || Action: look                      || Reward: 0, Score: 5
+[STEP 94] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: north                     || Reward: 0, Score: 5
+[STEP 95] | the trail runs out to nothing, and you retreat for fear of getting so  || Action: look                      || Reward: 0, Score: 5
+[STEP 96] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 97] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 98] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 99] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 100] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 101] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: north                     || Reward: 0, Score: 5
+[STEP 102] | the trail runs out to nothing, and you retreat for fear of getting so  || Action: south                     || Reward: 0, Score: 5
+[STEP 103] |  grasslands, near hut                                                  || Action: look                      || Reward: 0, Score: 5
+[STEP 104] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 5
+[STEP 105] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 5
+[STEP 106] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: enter hut                 || Reward: 0, Score: 5
+[STEP 107] | that's not something you need to refer to in the course of this game.  || Action: look                      || Reward: 0, Score: 5
+[STEP 108] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: examine hut               || Reward: 0, Score: 5
+[STEP 109] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 5
+Run 8/10 finished. Score: 5
+
+--- EVALUATION SUMMARY (our method) ---
+Agent LLM Model: gpt-oss-20b
+Number of final evaluation runs: 10
+Individual Scores: [5, 5, 5, 0, 5, 5, 5, 5]
+Average Score: 4.38
+Standard Deviation: 1.77
+
+Starting game run 9/10...
+[DACS] enabled=True game=balances
+[DACS] num raw candidates = 8 archived=0
+[DACS] num filtered candidates = 4
+[DACS] selected/reordered candidate ids = [7, 0, 1, 5]
+[DACS] candidate score table:
+  id | relevance | diversity | risk | final_score | summary
+  7 | 0.398 | 1.0 | 0.176 | 0.974 | **Guiding Prompt**  - The only actions that have produced a score or advanced th
+  0 | 0.192 | 0.932 | 0.041 | 0.829 | Explore systematically and examine objects to make progress.
+  1 | 0.308 | 0.689 | 0.176 | 0.73 | **Guiding Prompt**  1. **Examine the scroll** you found among the oats.   2. **R
+  5 | 0.38 | 0.569 | 0.207 | 0.719 | **Guiding Prompt**  You are playing the text adventure “Balances”.  The followin
+[DACS] fallback=False
+Parent node 1 at depth 1 with UCB score: 5.8157335921350475
+
+Evolving prompt. Current prompt: '**Guiding Prompt**
+
+1. **Examine the scroll** you found among the oats.  
+2. **R...'
+
+Current state extractor code: '
+def extract_state(game_history):
+    return "Game in progress."
+...'
+
+
+Evolution LLM returned invalid state extractor code, keeping current code
+Evolved guiding prompt and code: '**Guiding Prompt**
+
+1. **Find the scroll**  
+   In the pocket valley the scroll is hidden in the pile of oats.  
+   - Command: `examine oats` (or `search oats` if you prefer).  
+2. **Collect the scroll**  
+   After the game reports you have found a shiny scroll, it is automatically added to your inventory.  
+3. **Read the scroll**  
+   - Command: `read scroll`.  
+   The text will show “bozbar spell: cause an animal to sprout wings”.  
+4. **Stand next to the chestnut horse**  
+   Make sure you are in the pocket valley with the horse present.  
+5. **Cast the spell on the horse**  
+   The game recognises the spell with the verb `use scroll on horse`.  If that is not recognised, try `apply scroll horse`.  
+6. **Verify the horse has wings**  
+   Immediately after casting, `examine horse` will show wings if the spell succeeded.  
+7. **Avoid useless repetition**  
+   Do not issue `look`, `examine`, or `inventory` on the same object if the description has not changed.  
+8. **If the horse still has no wings, search the hut**  
+   Return to the hut (`enter hut`), then `search hut` or `look` to see if there are any hidden items or instructions that might alter how the spell works.  
+9. **Goal achieved**  
+   The puzzle is solved once the horse displays wings.  
+
+**State Extractor**
+
+```python
+def extract_state(game_history):
+    import re
+    # Get the last STATE block
+    states = re.findall(r"STATE:\s*(.*?)\n", game_history, flags=re.S)
+    last_state = states[-1] if states else ""
+    # Current location
+    if "pocket valley" in last_state:
+        location = "pocket valley"
+    elif "grasslands, near hut" in last_state:
+        location = "grasslands, near hut"
+    else:
+        location = "unknown"
+    # Milestones
+    scroll_found = "shiny scroll" in game_history
+    scroll_read = "the scroll reads" in game_history
+    horse_present = "chestnut horse" in game_history
+    horse_wings = "wing" in game_history or "sprout wings" in game_history
+    # Build summary
+    parts = [f"Location: {location}"]
+    if scroll_found:
+        parts.append("Scroll found")
+    if scroll_read:
+        parts.append("Scroll read")
+    if horse_present:
+        parts.append("Horse present")
+    if horse_wings:
+        parts.append("Horse wings")
+    return "; ".join(parts)
+```'
+
+def extract_state(game_history):
+    return "Game in progress."
+
+[STEP 0] |     [Welcome to a short story called "Balances", one of the example ga || Action: look                      || Reward: 0, Score: 0
+[STEP 1] |  ramshackle hut until quite recently, someone lived here, you feel sur || Action: go outside                || Reward: 0, Score: 0
+[STEP 2] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 0
+[STEP 3] |  ramshackle hut until quite recently, someone lived here, you feel sur || Action: look                      || Reward: 0, Score: 0
+[STEP 4] |  ramshackle hut until quite recently, someone lived here, you feel sur || Action: look                      || Reward: 0, Score: 0
+[STEP 5] |  ramshackle hut until quite recently, someone lived here, you feel sur || Action: north                     || Reward: 0, Score: 0
+[STEP 6] | there's only the one room: better go "out".                            || Action: go outside                || Reward: 0, Score: 0
+[STEP 7] | you can't see any such thing.                                          || Action: out                       || Reward: 0, Score: 0
+[STEP 8] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: north                     || Reward: 0, Score: 0
+[STEP 9] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: examine oats              || Reward: 5, Score: 5
+[STEP 10] | sifting through the oats, you find a shiny scroll!  lucky you got to i || Action: read scroll               || Reward: 0, Score: 5
+[STEP 11] | the scroll reads "bozbar spell: cause an animal to sprout wings".      || Action: use scroll on horse       || Reward: 0, Score: 5
+[STEP 12] | that's not a verb i recognise.                                         || Action: apply scroll horse        || Reward: 0, Score: 5
+[STEP 13] | that's not a verb i recognise.                                         || Action: cast scroll horse         || Reward: 0, Score: 5
+[STEP 14] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 5
+[STEP 15] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: use scroll horse          || Reward: 0, Score: 5
+[STEP 16] | that's not a verb i recognise.                                         || Action: apply scroll to horse     || Reward: 0, Score: 5
+[STEP 17] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 18] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: cast scroll on horse      || Reward: 0, Score: 5
+[STEP 19] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 5
+[STEP 20] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 21] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 22] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: use scroll on horse       || Reward: 0, Score: 5
+[STEP 23] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 24] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 25] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 26] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 27] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 28] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 29] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 30] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 31] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 32] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 33] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 34] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 35] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 36] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: inventory                 || Reward: 0, Score: 5
+[STEP 37] | you are carrying:   a shiny scroll (of the bozbar spell)   a spell boo || Action: look                      || Reward: 0, Score: 5
+[STEP 38] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 39] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 40] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 41] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 42] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: use bozbar on horse       || Reward: 0, Score: 5
+[STEP 43] | that's not a verb i recognise.                                         || Action: cast bozbar on horse      || Reward: 0, Score: 5
+[STEP 44] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 5
+[STEP 45] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 46] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: read scroll               || Reward: 0, Score: 5
+[STEP 47] | the scroll reads "bozbar spell: cause an animal to sprout wings".      || Action: apply scroll horse        || Reward: 0, Score: 5
+[STEP 48] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 49] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 50] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 51] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 52] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: use scroll                || Reward: 0, Score: 5
+[STEP 53] | that's not a verb i recognise.                                         || Action: use scroll horse          || Reward: 0, Score: 5
+[STEP 54] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 55] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 56] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 57] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: use bozbar horse          || Reward: 0, Score: 5
+[STEP 58] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 59] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 60] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 61] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 62] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 63] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 64] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 65] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 66] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 67] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 68] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: examine oats              || Reward: 0, Score: 5
+[STEP 69] | you see nothing special about the pile of oats.                        || Action: search oats               || Reward: 0, Score: 5
+[STEP 70] | you find nothing of interest.                                          || Action: look                      || Reward: 0, Score: 5
+[STEP 71] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 72] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 73] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 74] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: take oats                 || Reward: 0, Score: 5
+[STEP 75] | that's hardly portable.                                                || Action:                           || Reward: 0, Score: 5
+[STEP 76] | i beg your pardon?                                                     || Action: shake oats                || Reward: 0, Score: 5
+[STEP 77] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 78] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 79] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 80] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: pick oats                 || Reward: 0, Score: 5
+[STEP 81] | i didn't understand that sentence.                                     || Action: look                      || Reward: 0, Score: 5
+[STEP 82] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 83] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 84] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: examine horse             || Reward: 0, Score: 5
+[STEP 85] | you see nothing special about the chestnut horse.                      || Action: search horse              || Reward: 0, Score: 5
+[STEP 86] | you find nothing of interest.                                          || Action: look                      || Reward: 0, Score: 5
+[STEP 87] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 88] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: enter hut                 || Reward: 0, Score: 5
+[STEP 89] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 5
+[STEP 90] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: north                     || Reward: 0, Score: 5
+[STEP 91] | the trail runs out to nothing, and you retreat for fear of getting so  || Action: look                      || Reward: 0, Score: 5
+[STEP 92] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 93] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: south                     || Reward: 0, Score: 5
+[STEP 94] |  grasslands, near hut                                                  || Action: enter hut                 || Reward: 0, Score: 5
+[STEP 95] | that's not something you need to refer to in the course of this game.  || Action: search hut                || Reward: 0, Score: 5
+[STEP 96] | that's not something you need to refer to in the course of this game.  || Action: look                      || Reward: 0, Score: 5
+[STEP 97] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: examine hut               || Reward: 0, Score: 5
+[STEP 98] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 5
+[STEP 99] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: south                     || Reward: 0, Score: 5
+[STEP 100] | you wander around for a while but end up back at the hut.              || Action: south                     || Reward: 0, Score: 5
+[STEP 101] | you wander around for a while but end up back at the hut.              || Action: look                      || Reward: 0, Score: 5
+[STEP 102] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 5
+[STEP 103] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 5
+[STEP 104] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 5
+[STEP 105] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 5
+[STEP 106] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 5
+[STEP 107] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 5
+[STEP 108] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 5
+[STEP 109] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: look                      || Reward: 0, Score: 5
+Run 9/10 finished. Score: 5
+
+--- EVALUATION SUMMARY (our method) ---
+Agent LLM Model: gpt-oss-20b
+Number of final evaluation runs: 10
+Individual Scores: [5, 5, 5, 0, 5, 5, 5, 5, 5]
+Average Score: 4.44
+Standard Deviation: 1.67
+
+Starting game run 10/10...
+[DACS] enabled=True game=balances
+[DACS] num raw candidates = 9 archived=0
+[DACS] num filtered candidates = 4
+[DACS] selected/reordered candidate ids = [8, 7, 0, 1]
+[DACS] candidate score table:
+  id | relevance | diversity | risk | final_score | summary
+  8 | 0.449 | 1.0 | 0.206 | 1.005 | **Guiding Prompt**  1. **Find the scroll**      In the pocket valley the scroll 
+  7 | 0.393 | 0.745 | 0.191 | 0.831 | **Guiding Prompt**  - The only actions that have produced a score or advanced th
+  0 | 0.164 | 0.929 | 0.04 | 0.8 | Explore systematically and examine objects to make progress.
+  1 | 0.389 | 0.566 | 0.185 | 0.742 | **Guiding Prompt**  1. **Examine the scroll** you found among the oats.   2. **R
+[DACS] fallback=False
+Parent node 8 at depth 2 with UCB score: 5.948674436715208
+
+Evolving prompt. Current prompt: '**Guiding Prompt**
+
+1. **Find the scroll**  
+   In the pocket valley the scroll ...'
+
+Current state extractor code: '
+def extract_state(game_history):
+    return "Game in progress."
+...'
+
+
+Evolution LLM returned invalid state extractor code, keeping current code
+Evolved guiding prompt and code: '**Guiding Prompt**
+
+1. **Leave the hut**  
+   From inside the hut, type `out` or `go outside`.  
+   *Goal:* Reach the grasslands.
+
+2. **Move to the pocket valley**  
+   In the grasslands, type `north`.  
+   *Goal:* Arrive at the pocket valley where the horse and scroll are.
+
+3. **Find the scroll**  
+   In the pocket valley, type `examine oats`.  
+   *Goal:* Discover the shiny scroll hidden in the oats.
+
+4. **Read the scroll**  
+   After the scroll is in your inventory, type `read scroll`.  
+   *Goal:* Learn that the spell is “bozbar spell: cause an animal to sprout wings”.
+
+5. **Cast the spell on the horse**  
+   Type `use scroll horse` (or, if that is not accepted, try `apply scroll to horse`).  
+   *Goal:* Apply the spell to the chestnut horse so it sprouts wings.
+
+6. **Verify the result**  
+   Immediately after casting, type `examine horse`.  
+   *Goal:* The description should now include wings. If it does, the puzzle is solved.
+
+7. **Avoid unnecessary repetition**  
+   Do not keep issuing `look`, `examine`, or `inventory` on the same objects unless you suspect a change.  
+   Do not repeatedly `search` objects that have already been examined and returned no new items.
+
+8. **If you get stuck**  
+   • Check that you are still in the pocket valley.  
+   • If the horse still has no wings, examine the hut for hidden clues:  
+     - `enter hut` → `search hut` → `examine hut`.  
+   • If nothing is found, consider that the spell may require a different verb; try `cast scroll on horse` or `use scroll horse` again, but only once each before moving on.
+
+9. **When no further progress is possible**  
+   • List all rooms that have been lightly visited: the hut, the grasslands, the pocket valley.  
+   • For each, brainstorm one new action that has not yet been tried (e.g., `search hut`, `examine horse`, `take oats`).  
+   • Systematically try each new action, keeping track of any changes in the world.
+
+---
+
+**State Extractor**
+
+```python
+def extract_state(game_history):
+    import re
+    # Current location
+    loc = "unknown"
+    if "pocket valley" in game_history:
+        loc = "pocket valley"
+    elif "grasslands, near hut" in game_history:
+        loc = "grasslands, near hut"
+    elif "ramshackle hut" in game_history:
+        loc = "ramshackle hut"
+
+    # Milestones
+    scroll_found = "shiny scroll" in game_history
+    scroll_read = "the scroll reads" in game_history
+    horse_present = "chestnut horse" in game_history
+    horse_wings = ("wing" in game_history or "sprout wings" in game_history) and "horse" in game_history
+
+    parts = [f"Location: {loc}"]
+    if scroll_found:
+        parts.append("Scroll found")
+    if scroll_read:
+        parts.append("Scroll read")
+    if horse_present:
+        parts.append("Horse present")
+    if horse_wings:
+        parts.append("Horse wings")
+    else:
+        if horse_present:
+            parts.append("Horse wings: no")
+    return "; ".join(parts)
+```'
+
+def extract_state(game_history):
+    return "Game in progress."
+
+[STEP 0] |     [Welcome to a short story called "Balances", one of the example ga || Action: out                       || Reward: 0, Score: 0
+[STEP 1] |  grasslands, near hut the grasslands sway over low hills in all direct || Action: north                     || Reward: 0, Score: 0
+[STEP 2] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: examine oats              || Reward: 5, Score: 5
+[STEP 3] | sifting through the oats, you find a shiny scroll!  lucky you got to i || Action: read scroll               || Reward: 0, Score: 5
+[STEP 4] | the scroll reads "bozbar spell: cause an animal to sprout wings".      || Action: use scroll horse          || Reward: 0, Score: 5
+[STEP 5] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 6] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: cast scroll on horse      || Reward: 0, Score: 5
+[STEP 7] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 5
+[STEP 8] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: apply scroll horse        || Reward: 0, Score: 5
+[STEP 9] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 10] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: use scroll on horse       || Reward: 0, Score: 5
+[STEP 11] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 12] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: apply scroll to horse     || Reward: 0, Score: 5
+[STEP 13] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 14] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: take scroll               || Reward: 0, Score: 5
+[STEP 15] | you already have that.                                                 || Action: look                      || Reward: 0, Score: 5
+[STEP 16] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 17] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 18] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 19] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 20] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 21] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 22] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 23] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 24] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 25] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 26] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 27] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 28] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 29] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 30] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 31] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 32] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 33] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 34] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 35] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: examine oats              || Reward: 0, Score: 5
+[STEP 36] | you see nothing special about the pile of oats.                        || Action: look                      || Reward: 0, Score: 5
+[STEP 37] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: search oats               || Reward: 0, Score: 5
+[STEP 38] | you find nothing of interest.                                          || Action: look                      || Reward: 0, Score: 5
+[STEP 39] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 40] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: pick oats                 || Reward: 0, Score: 5
+[STEP 41] | i didn't understand that sentence.                                     || Action: take oats                 || Reward: 0, Score: 5
+[STEP 42] | that's hardly portable.                                                || Action: take oat                  || Reward: 0, Score: 5
+[STEP 43] | you can't see any such thing.                                          || Action: search horse              || Reward: 0, Score: 5
+[STEP 44] | you find nothing of interest.                                          || Action: look                      || Reward: 0, Score: 5
+[STEP 45] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: examine horse             || Reward: 0, Score: 5
+[STEP 46] | you see nothing special about the chestnut horse.                      || Action: look                      || Reward: 0, Score: 5
+[STEP 47] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 48] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 49] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 50] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 51] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 52] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 53] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 54] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 55] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 56] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 57] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: search                    || Reward: 0, Score: 5
+[STEP 58] | (the chestnut horse) you find nothing of interest.                     || Action: look                      || Reward: 0, Score: 5
+[STEP 59] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 60] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: examine trail             || Reward: 0, Score: 5
+[STEP 61] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 5
+[STEP 62] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: search valley             || Reward: 0, Score: 5
+[STEP 63] | that's not something you need to refer to in the course of this game.  || Action: look                      || Reward: 0, Score: 5
+[STEP 64] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 65] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 66] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 67] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: examine oats              || Reward: 0, Score: 5
+[STEP 68] | you see nothing special about the pile of oats.                        || Action: search oats               || Reward: 0, Score: 5
+[STEP 69] | you find nothing of interest.                                          || Action: look                      || Reward: 0, Score: 5
+[STEP 70] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 71] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: pick oats                 || Reward: 0, Score: 5
+[STEP 72] | i didn't understand that sentence.                                     || Action: look                      || Reward: 0, Score: 5
+[STEP 73] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 74] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: take oats                 || Reward: 0, Score: 5
+[STEP 75] | that's hardly portable.                                                || Action: look                      || Reward: 0, Score: 5
+[STEP 76] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 77] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: examine horse             || Reward: 0, Score: 5
+[STEP 78] | you see nothing special about the chestnut horse.                      || Action: search horse              || Reward: 0, Score: 5
+[STEP 79] | you find nothing of interest.                                          || Action: look                      || Reward: 0, Score: 5
+[STEP 80] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 81] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 82] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 83] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 84] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 85] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 86] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 87] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 88] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 89] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 90] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 91] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 92] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 93] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 94] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 95] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 96] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 97] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 98] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 99] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: examine oats              || Reward: 0, Score: 5
+[STEP 100] | you see nothing special about the pile of oats.                        || Action: look                      || Reward: 0, Score: 5
+[STEP 101] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: search oats               || Reward: 0, Score: 5
+[STEP 102] | you find nothing of interest.                                          || Action: look                      || Reward: 0, Score: 5
+[STEP 103] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 104] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 105] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: look                      || Reward: 0, Score: 5
+[STEP 106] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: take oats                 || Reward: 0, Score: 5
+[STEP 107] | that's hardly portable.                                                || Action: look                      || Reward: 0, Score: 5
+[STEP 108] |  pocket valley a pleasant pocket valley in the grassy hills, through w || Action: pick oats                 || Reward: 0, Score: 5
+[STEP 109] | i didn't understand that sentence.                                     || Action: examine horse             || Reward: 0, Score: 5
+Run 10/10 finished. Score: 5
+
+--- EVALUATION SUMMARY (our method) ---
+Agent LLM Model: gpt-oss-20b
+Number of final evaluation runs: 10
+Individual Scores: [5, 5, 5, 0, 5, 5, 5, 5, 5, 5]
+Average Score: 4.50
+Standard Deviation: 1.58
+Evaluation completed successfully!

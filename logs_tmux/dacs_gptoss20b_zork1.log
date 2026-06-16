@@ -1,0 +1,1851 @@
+
+--- STARTING EVALUATION ---
+Game: zork1, Agent LLM Model: gpt-oss-20b
+Agent Type: our, Runs for statistics: 10
+Base Seed for evaluation session: 0
+Episode logs and summary will be in: output/zork1/our/gpt-oss-20b/20260616-062030
+
+Starting game run 1/10...
+Using initial prompt and code: 'Explore systematically and examine objects to make progress.'
+
+def extract_state(game_history):
+    return "Game in progress."
+
+[STEP 0] | Copyright (c) 1981, 1982, 1983 Infocom, Inc. All rights reserved. ZORK || Action: examine mailbox           || Reward: 0, Score: 0
+[STEP 1] | the small mailbox is closed.                                           || Action: open mailbox              || Reward: 0, Score: 0
+[STEP 2] | opening the small mailbox reveals a leaflet.                           || Action: read leaflet              || Reward: 0, Score: 0
+[STEP 3] | (taken) "welcome to zork!  zork is a game of adventure, danger, and lo || Action: read leaflet              || Reward: 0, Score: 0
+[STEP 4] | "welcome to zork!  zork is a game of adventure, danger, and low cunnin || Action: north                     || Reward: 0, Score: 0
+[STEP 5] | north of house you are facing the north side of a white house. there i || Action: north                     || Reward: 0, Score: 0
+[STEP 6] | forest path this is a path winding through a dimly lit forest. the pat || Action: examine tree              || Reward: 0, Score: 0
+[STEP 7] | there's nothing special about the tree.                                || Action: north                     || Reward: 0, Score: 0
+[STEP 8] | clearing you are in a clearing, with a forest surrounding you on all s || Action: examine leaves            || Reward: 0, Score: 0
+[STEP 9] | there's nothing special about the pile of leaves.                      || Action: look                      || Reward: 0, Score: 0
+[STEP 10] | clearing you are in a clearing, with a forest surrounding you on all s || Action: look                      || Reward: 0, Score: 0
+[STEP 11] | clearing you are in a clearing, with a forest surrounding you on all s || Action: search                    || Reward: 0, Score: 0
+[STEP 12] | what do you want to search?                                            || Action: look                      || Reward: 0, Score: 0
+[STEP 13] | clearing you are in a clearing, with a forest surrounding you on all s || Action: search leaves             || Reward: 0, Score: 0
+[STEP 14] | you find nothing unusual.                                              || Action: look                      || Reward: 0, Score: 0
+[STEP 15] | clearing you are in a clearing, with a forest surrounding you on all s || Action: look                      || Reward: 0, Score: 0
+[STEP 16] | clearing you are in a clearing, with a forest surrounding you on all s || Action: look                      || Reward: 0, Score: 0
+[STEP 17] | clearing you are in a clearing, with a forest surrounding you on all s || Action: search clearing           || Reward: 0, Score: 0
+[STEP 18] | i don't know the word "clearing".                                      || Action: look                      || Reward: 0, Score: 0
+[STEP 19] | clearing you are in a clearing, with a forest surrounding you on all s || Action: search pile               || Reward: 0, Score: 0
+[STEP 20] | you find nothing unusual.                                              || Action: south                     || Reward: 0, Score: 0
+[STEP 21] | forest path                                                            || Action: examine path              || Reward: 0, Score: 0
+[STEP 22] | there's nothing special about the way.                                 || Action: look                      || Reward: 0, Score: 0
+[STEP 23] | forest path this is a path winding through a dimly lit forest. the pat || Action: climb tree                || Reward: 0, Score: 0
+[STEP 24] | up a tree you are about 10 feet above the ground nestled among some la || Action: take egg                  || Reward: 5, Score: 5
+[STEP 25] | taken.                                                                 || Action: look                      || Reward: 0, Score: 5
+[STEP 26] | up a tree you are about 10 feet above the ground nestled among some la || Action: down                      || Reward: 0, Score: 5
+[STEP 27] | forest path you hear in the distance the chirping of a song bird.      || Action: look                      || Reward: 0, Score: 5
+[STEP 28] | forest path this is a path winding through a dimly lit forest. the pat || Action: look                      || Reward: 0, Score: 5
+[STEP 29] | forest path this is a path winding through a dimly lit forest. the pat || Action: look                      || Reward: 0, Score: 5
+[STEP 30] | forest path this is a path winding through a dimly lit forest. the pat || Action: south                     || Reward: 0, Score: 5
+[STEP 31] | north of house                                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 32] | north of house you are facing the north side of a white house. there i || Action: search                    || Reward: 0, Score: 5
+[STEP 33] | what do you want to search?                                            || Action: search yard               || Reward: 0, Score: 5
+[STEP 34] | i don't know the word "yard".                                          || Action: look                      || Reward: 0, Score: 5
+[STEP 35] | north of house you are facing the north side of a white house. there i || Action: search path               || Reward: 0, Score: 5
+[STEP 36] | you find nothing unusual.                                              || Action: examine house             || Reward: 0, Score: 5
+[STEP 37] | the house is a beautiful colonial house which is painted white. it is  || Action: search house              || Reward: 0, Score: 5
+[STEP 38] | you find nothing unusual.                                              || Action: examine door              || Reward: 0, Score: 5
+[STEP 39] | you can't see any door here!                                           || Action: look                      || Reward: 0, Score: 5
+[STEP 40] | north of house you are facing the north side of a white house. there i || Action: north                     || Reward: 0, Score: 5
+[STEP 41] | forest path                                                            || Action: look                      || Reward: 0, Score: 5
+[STEP 42] | forest path this is a path winding through a dimly lit forest. the pat || Action: look                      || Reward: 0, Score: 5
+[STEP 43] | forest path this is a path winding through a dimly lit forest. the pat || Action: examine tree              || Reward: 0, Score: 5
+[STEP 44] | there's nothing special about the tree.                                || Action: look                      || Reward: 0, Score: 5
+[STEP 45] | forest path this is a path winding through a dimly lit forest. the pat || Action: look                      || Reward: 0, Score: 5
+[STEP 46] | forest path this is a path winding through a dimly lit forest. the pat || Action: north                     || Reward: 0, Score: 5
+[STEP 47] | clearing on the ground is a pile of leaves.                            || Action: search leaves             || Reward: 0, Score: 5
+[STEP 48] | you find nothing unusual.                                              || Action: look                      || Reward: 0, Score: 5
+[STEP 49] | clearing you are in a clearing, with a forest surrounding you on all s || Action: look                      || Reward: 0, Score: 5
+[STEP 50] | clearing you are in a clearing, with a forest surrounding you on all s || Action: examine clearing          || Reward: 0, Score: 5
+[STEP 51] | i don't know the word "clearing".                                      || Action: look                      || Reward: 0, Score: 5
+[STEP 52] | clearing you are in a clearing, with a forest surrounding you on all s || Action: north                     || Reward: 0, Score: 5
+[STEP 53] | the forest becomes impenetrable to the north.                          || Action: look                      || Reward: 0, Score: 5
+[STEP 54] | clearing you are in a clearing, with a forest surrounding you on all s || Action: look                      || Reward: 0, Score: 5
+[STEP 55] | clearing you are in a clearing, with a forest surrounding you on all s || Action: south                     || Reward: 0, Score: 5
+[STEP 56] | forest path                                                            || Action: look                      || Reward: 0, Score: 5
+[STEP 57] | forest path this is a path winding through a dimly lit forest. the pat || Action: look                      || Reward: 0, Score: 5
+[STEP 58] | forest path this is a path winding through a dimly lit forest. the pat || Action: search ground             || Reward: 0, Score: 5
+[STEP 59] | you find nothing unusual.                                              || Action: look                      || Reward: 0, Score: 5
+[STEP 60] | forest path this is a path winding through a dimly lit forest. the pat || Action: look                      || Reward: 0, Score: 5
+[STEP 61] | forest path this is a path winding through a dimly lit forest. the pat || Action: look                      || Reward: 0, Score: 5
+[STEP 62] | forest path this is a path winding through a dimly lit forest. the pat || Action: examine path              || Reward: 0, Score: 5
+[STEP 63] | there's nothing special about the way.                                 || Action: look                      || Reward: 0, Score: 5
+[STEP 64] | forest path this is a path winding through a dimly lit forest. the pat || Action: look                      || Reward: 0, Score: 5
+[STEP 65] | forest path this is a path winding through a dimly lit forest. the pat || Action: look                      || Reward: 0, Score: 5
+[STEP 66] | forest path this is a path winding through a dimly lit forest. the pat || Action: look                      || Reward: 0, Score: 5
+[STEP 67] | forest path this is a path winding through a dimly lit forest. the pat || Action: east                      || Reward: 0, Score: 5
+[STEP 68] | forest this is a dimly lit forest, with large trees all around.        || Action: look                      || Reward: 0, Score: 5
+[STEP 69] | forest this is a dimly lit forest, with large trees all around.        || Action: climb tree                || Reward: 0, Score: 5
+[STEP 70] | there is no tree here suitable for climbing.                           || Action: look                      || Reward: 0, Score: 5
+[STEP 71] | forest this is a dimly lit forest, with large trees all around.        || Action: north                     || Reward: 0, Score: 5
+[STEP 72] | the forest becomes impenetrable to the north.                          || Action: look                      || Reward: 0, Score: 5
+[STEP 73] | forest this is a dimly lit forest, with large trees all around.        || Action: look                      || Reward: 0, Score: 5
+[STEP 74] | forest this is a dimly lit forest, with large trees all around. you he || Action: west                      || Reward: 0, Score: 5
+[STEP 75] | forest path                                                            || Action: examine tree              || Reward: 0, Score: 5
+[STEP 76] | there's nothing special about the tree.                                || Action: look                      || Reward: 0, Score: 5
+[STEP 77] | forest path this is a path winding through a dimly lit forest. the pat || Action: look                      || Reward: 0, Score: 5
+[STEP 78] | forest path this is a path winding through a dimly lit forest. the pat || Action: look                      || Reward: 0, Score: 5
+[STEP 79] | forest path this is a path winding through a dimly lit forest. the pat || Action: look                      || Reward: 0, Score: 5
+[STEP 80] | forest path this is a path winding through a dimly lit forest. the pat || Action: south                     || Reward: 0, Score: 5
+[STEP 81] | north of house                                                         || Action: south                     || Reward: 0, Score: 5
+[STEP 82] | the windows are all boarded.                                           || Action: look                      || Reward: 0, Score: 5
+[STEP 83] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 84] | north of house you are facing the north side of a white house. there i || Action: north                     || Reward: 0, Score: 5
+[STEP 85] | forest path                                                            || Action: look                      || Reward: 0, Score: 5
+[STEP 86] | forest path this is a path winding through a dimly lit forest. the pat || Action: look                      || Reward: 0, Score: 5
+[STEP 87] | forest path this is a path winding through a dimly lit forest. the pat || Action: look                      || Reward: 0, Score: 5
+[STEP 88] | forest path this is a path winding through a dimly lit forest. the pat || Action: look                      || Reward: 0, Score: 5
+[STEP 89] | forest path this is a path winding through a dimly lit forest. the pat || Action: look                      || Reward: 0, Score: 5
+[STEP 90] | forest path this is a path winding through a dimly lit forest. the pat || Action: look                      || Reward: 0, Score: 5
+[STEP 91] | forest path this is a path winding through a dimly lit forest. the pat || Action: search ground             || Reward: 0, Score: 5
+[STEP 92] | you find nothing unusual.                                              || Action: look                      || Reward: 0, Score: 5
+[STEP 93] | forest path this is a path winding through a dimly lit forest. the pat || Action: look                      || Reward: 0, Score: 5
+[STEP 94] | forest path this is a path winding through a dimly lit forest. the pat || Action: east                      || Reward: 0, Score: 5
+[STEP 95] | forest you hear in the distance the chirping of a song bird.           || Action: listen                    || Reward: 0, Score: 5
+[STEP 96] | what do you want to listen to?                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 97] | forest this is a dimly lit forest, with large trees all around.        || Action: look                      || Reward: 0, Score: 5
+[STEP 98] | forest this is a dimly lit forest, with large trees all around.        || Action: look                      || Reward: 0, Score: 5
+[STEP 99] | forest this is a dimly lit forest, with large trees all around.        || Action: look                      || Reward: 0, Score: 5
+[STEP 100] | forest this is a dimly lit forest, with large trees all around.        || Action: look                      || Reward: 0, Score: 5
+[STEP 101] | forest this is a dimly lit forest, with large trees all around.        || Action: climb tree                || Reward: 0, Score: 5
+[STEP 102] | there is no tree here suitable for climbing.                           || Action: west                      || Reward: 0, Score: 5
+[STEP 103] | forest path                                                            || Action: north                     || Reward: 0, Score: 5
+[STEP 104] | clearing on the ground is a pile of leaves.                            || Action: search ground             || Reward: 0, Score: 5
+[STEP 105] | you find nothing unusual.                                              || Action: examine leaves            || Reward: 0, Score: 5
+[STEP 106] | there's nothing special about the pile of leaves.                      || Action: look                      || Reward: 0, Score: 5
+[STEP 107] | clearing you are in a clearing, with a forest surrounding you on all s || Action: south                     || Reward: 0, Score: 5
+[STEP 108] | forest path                                                            || Action: look                      || Reward: 0, Score: 5
+[STEP 109] | forest path this is a path winding through a dimly lit forest. the pat || Action: examine tree              || Reward: 0, Score: 5
+[OurAgent] New best score 5 at node 0.
+Run 1/10 finished. Score: 5
+
+--- EVALUATION SUMMARY (our method) ---
+Agent LLM Model: gpt-oss-20b
+Number of final evaluation runs: 10
+Individual Scores: [5]
+Average Score: 5.00
+Standard Deviation: 0.00
+
+Starting game run 2/10...
+[DACS] enabled=True game=zork1
+[DACS] num raw candidates = 1 archived=0
+[DACS] num filtered candidates = 1
+[DACS] selected/reordered candidate ids = [0]
+[DACS] candidate score table:
+  id | relevance | diversity | risk | final_score | summary
+  0 | 0.095 | 1.0 | 0.036 | 0.77 | Explore systematically and examine objects to make progress.
+[DACS] fallback=False
+Parent node 0 at depth 0 with UCB score: 5.832554611157698
+
+Evolving prompt. Current prompt: 'Explore systematically and examine objects to make progress....'
+
+Current state extractor code: '
+def extract_state(game_history):
+    return "Game in progress."
+...'
+
+
+Updated state extractor code successfully.
+Evolved guiding prompt and code: '**Guiding Prompt**  
+You are playing Zork. Your goal is to make efficient progress by executing only actions that move the story forward or reveal new information. Follow these rules:
+
+1. **Essential Actions**  
+   - **Open containers** that might hold clues or items (e.g., mailbox).  
+   - **Read documents** that provide narrative or instructions (e.g., leaflet).  
+   - **Pick up items** that are clearly useful (e.g., egg, key).  
+   - **Move to new rooms** that have doors, keys, or unexplored features.  
+   - **Interact with objects or NPCs** that give explicit hints or directions.  
+
+2. **Avoid Unproductive Repetition**  
+   - Don’t “look” or “search” more than once in the same room unless a new object has appeared.  
+   - Skip “climb tree” unless a new branch or hidden item is mentioned.  
+   - Don’t repeat “west/north/east/south” moves that return to a previously visited area without new content.  
+
+3. **When Stuck**  
+   - If you’re cycling through the same actions with no new information, list all adjacent locations you haven’t fully explored (e.g., the yard, the house interior, any side paths).  
+   - For each such location, note any objects or NPCs that could contain a key or clue.  
+   - Treat these possibilities as *educated guesses* and plan a systematic exploration: one room at a time, interacting with every object before moving on.  
+
+4. **Use Inventory Wisely**  
+   - Keep track of items you have (egg, keys, etc.).  
+   - Use them in relevant situations (e.g., attempt to open the house with a key if you find one).  
+
+5. **Progress Checklist**  
+   - **Mailbox**: Opened → Leaflet found → Leaflet read.  
+   - **Egg**: Collected from the tree.  
+   - **House**: Search for a key or hidden entrance.  
+
+Follow this plan strictly; avoid speculative actions that don’t advance the game.  
+
+**State Extractor**'
+def extract_state(game_history):
+    milestones = []
+    if "open mailbox" in game_history:
+        milestones.append("opened mailbox")
+    if "read leaflet" in game_history:
+        milestones.append("read leaflet")
+    if "take egg" in game_history or "egg" in game_history and "taken" in game_history:
+        milestones.append("collected egg")
+    if milestones:
+        return "Milestones: " + ", ".join(milestones) + "."
+    else:
+        return "No milestones achieved yet."
+[STEP 0] | Copyright (c) 1981, 1982, 1983 Infocom, Inc. All rights reserved. ZORK || Action: open mailbox              || Reward: 0, Score: 0
+[STEP 1] | opening the small mailbox reveals a leaflet.                           || Action: read leaflet              || Reward: 0, Score: 0
+[STEP 2] | (taken) "welcome to zork!  zork is a game of adventure, danger, and lo || Action: east                      || Reward: 0, Score: 0
+[STEP 3] | the door is boarded and you can't remove the boards.                   || Action: look                      || Reward: 0, Score: 0
+[STEP 4] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 5] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 6] | west of house you are standing in an open field west of a white house, || Action: search                    || Reward: 0, Score: 0
+[STEP 7] | what do you want to search?                                            || Action: look                      || Reward: 0, Score: 0
+[STEP 8] | west of house you are standing in an open field west of a white house, || Action: search field              || Reward: 0, Score: 0
+[STEP 9] | i don't know the word "field".                                         || Action: look                      || Reward: 0, Score: 0
+[STEP 10] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 11] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 12] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 13] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 14] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 15] | west of house you are standing in an open field west of a white house, || Action: search ground             || Reward: 0, Score: 0
+[STEP 16] | you find nothing unusual.                                              || Action: look                      || Reward: 0, Score: 0
+[STEP 17] | west of house you are standing in an open field west of a white house, || Action: take key                  || Reward: 0, Score: 0
+[STEP 18] | you can't see any key here!                                            || Action: take key                  || Reward: 0, Score: 0
+[STEP 19] | you can't see any key here!                                            || Action: look                      || Reward: 0, Score: 0
+[STEP 20] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 21] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 22] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 23] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 24] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 25] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 26] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 27] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 28] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 29] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 30] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 31] | west of house you are standing in an open field west of a white house, || Action: open mailbox              || Reward: 0, Score: 0
+[STEP 32] | it is already open.                                                    || Action: look                      || Reward: 0, Score: 0
+[STEP 33] | west of house you are standing in an open field west of a white house, || Action: look mailbox              || Reward: 0, Score: 0
+[STEP 34] | that sentence isn't one i recognize.                                   || Action: look mailbox              || Reward: 0, Score: 0
+[STEP 35] | that sentence isn't one i recognize.                                   || Action: look                      || Reward: 0, Score: 0
+[STEP 36] | west of house you are standing in an open field west of a white house, || Action: look inside mailbox       || Reward: 0, Score: 0
+[STEP 37] | the small mailbox is empty.                                            || Action: look                      || Reward: 0, Score: 0
+[STEP 38] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 39] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 40] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 41] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 42] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 43] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 44] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 45] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 46] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 47] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 48] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 49] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 50] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 51] | west of house you are standing in an open field west of a white house, || Action: climb tree                || Reward: 0, Score: 0
+[STEP 52] | you can't see any tree here!                                           || Action: search                    || Reward: 0, Score: 0
+[STEP 53] | what do you want to search?                                            || Action: look                      || Reward: 0, Score: 0
+[STEP 54] | west of house you are standing in an open field west of a white house, || Action: search field              || Reward: 0, Score: 0
+[STEP 55] | i don't know the word "field".                                         || Action: look                      || Reward: 0, Score: 0
+[STEP 56] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 57] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 58] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 59] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 60] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 61] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 62] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 63] | west of house you are standing in an open field west of a white house, || Action: north                     || Reward: 0, Score: 0
+[STEP 64] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 0
+[STEP 65] | north of house you are facing the north side of a white house. there i || Action: north                     || Reward: 0, Score: 0
+[STEP 66] | forest path this is a path winding through a dimly lit forest. the pat || Action: climb tree                || Reward: 0, Score: 0
+[STEP 67] | up a tree you are about 10 feet above the ground nestled among some la || Action: take egg                  || Reward: 5, Score: 5
+[STEP 68] | taken.                                                                 || Action: down                      || Reward: 0, Score: 5
+[STEP 69] | forest path                                                            || Action: south                     || Reward: 0, Score: 5
+[STEP 70] | north of house                                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 71] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 72] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 73] | north of house you are facing the north side of a white house. there i || Action: west                      || Reward: 0, Score: 5
+[STEP 74] | west of house there is a small mailbox here.                           || Action: look                      || Reward: 0, Score: 5
+[STEP 75] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 76] | west of house you are standing in an open field west of a white house, || Action: look in mailbox           || Reward: 0, Score: 5
+[STEP 77] | the small mailbox is empty.                                            || Action: look                      || Reward: 0, Score: 5
+[STEP 78] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 79] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 80] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 81] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 82] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 83] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 84] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 85] | west of house you are standing in an open field west of a white house, || Action: search                    || Reward: 0, Score: 5
+[STEP 86] | what do you want to search?                                            || Action: look                      || Reward: 0, Score: 5
+[STEP 87] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 88] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 89] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 90] | west of house you are standing in an open field west of a white house, || Action: search field              || Reward: 0, Score: 5
+[STEP 91] | i don't know the word "field".                                         || Action: search                    || Reward: 0, Score: 5
+[STEP 92] | what do you want to search?                                            || Action: look                      || Reward: 0, Score: 5
+[STEP 93] | west of house you are standing in an open field west of a white house, || Action: search ground             || Reward: 0, Score: 5
+[STEP 94] | you find nothing unusual.                                              || Action: look                      || Reward: 0, Score: 5
+[STEP 95] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 96] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 97] | west of house you are standing in an open field west of a white house, || Action: north                     || Reward: 0, Score: 5
+[STEP 98] | north of house                                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 99] | north of house you are facing the north side of a white house. there i || Action: north                     || Reward: 0, Score: 5
+[STEP 100] | forest path                                                            || Action: look                      || Reward: 0, Score: 5
+[STEP 101] | forest path this is a path winding through a dimly lit forest. the pat || Action: look                      || Reward: 0, Score: 5
+[STEP 102] | forest path this is a path winding through a dimly lit forest. the pat || Action: look                      || Reward: 0, Score: 5
+[STEP 103] | forest path this is a path winding through a dimly lit forest. the pat || Action: climb tree                || Reward: 0, Score: 5
+[STEP 104] | up a tree beside you on the branch is a small bird's nest. you hear in || Action: take egg                  || Reward: 0, Score: 5
+[STEP 105] | you already have that!                                                 || Action: search path               || Reward: 0, Score: 5
+[STEP 106] | you find nothing unusual. you hear in the distance the chirping of a s || Action: look                      || Reward: 0, Score: 5
+[STEP 107] | up a tree you are about 10 feet above the ground nestled among some la || Action: down                      || Reward: 0, Score: 5
+[STEP 108] | forest path                                                            || Action: south                     || Reward: 0, Score: 5
+[STEP 109] | north of house                                                         || Action: look                      || Reward: 0, Score: 5
+Run 2/10 finished. Score: 5
+
+--- EVALUATION SUMMARY (our method) ---
+Agent LLM Model: gpt-oss-20b
+Number of final evaluation runs: 10
+Individual Scores: [5, 5]
+Average Score: 5.00
+Standard Deviation: 0.00
+
+Starting game run 3/10...
+[DACS] enabled=True game=zork1
+[DACS] num raw candidates = 2 archived=0
+[DACS] num filtered candidates = 2
+[DACS] selected/reordered candidate ids = [1, 0]
+[DACS] candidate score table:
+  id | relevance | diversity | risk | final_score | summary
+  1 | 0.338 | 1.0 | 0.118 | 0.955 | **Guiding Prompt**   You are playing Zork. Your goal is to make efficient progre
+  0 | 0.054 | 0.948 | 0.009 | 0.721 | Explore systematically and examine objects to make progress.
+[DACS] fallback=False
+Parent node 1 at depth 1 with UCB score: 5.666043688926158
+
+Evolving prompt. Current prompt: '**Guiding Prompt**  
+You are playing Zork. Your goal is to make efficient progre...'
+
+Current state extractor code: 'def extract_state(game_history):
+    milestones = []
+    if "open mailbox" in ga...'
+
+
+Error during prompt evolution LLM call: 'NoneType' object has no attribute 'strip'
+Evolved guiding prompt and code: '**Guiding Prompt**  
+You are playing Zork. Your goal is to make efficient progress by executing only actions that move the story forward or reveal new information. Follow these rules:
+
+1. **Essential Actions**  
+   - **Open containers** that might hold clues or items (e.g., mailbox).  
+   - **Read documents** that provide narrative or instructions (e.g., leaflet).  
+   - **Pick up items** that are clearly useful (e.g., egg, key).  
+   - **Move to new rooms** that have doors, keys, or unexplored features.  
+   - **Interact with objects or NPCs** that give explicit hints or directions.  
+
+2. **Avoid Unproductive Repetition**  
+   - Don’t “look” or “search” more than once in the same room unless a new object has appeared.  
+   - Skip “climb tree” unless a new branch or hidden item is mentioned.  
+   - Don’t repeat “west/north/east/south” moves that return to a previously visited area without new content.  
+
+3. **When Stuck**  
+   - If you’re cycling through the same actions with no new information, list all adjacent locations you haven’t fully explored (e.g., the yard, the house interior, any side paths).  
+   - For each such location, note any objects or NPCs that could contain a key or clue.  
+   - Treat these possibilities as *educated guesses* and plan a systematic exploration: one room at a time, interacting with every object before moving on.  
+
+4. **Use Inventory Wisely**  
+   - Keep track of items you have (egg, keys, etc.).  
+   - Use them in relevant situations (e.g., attempt to open the house with a key if you find one).  
+
+5. **Progress Checklist**  
+   - **Mailbox**: Opened → Leaflet found → Leaflet read.  
+   - **Egg**: Collected from the tree.  
+   - **House**: Search for a key or hidden entrance.  
+
+Follow this plan strictly; avoid speculative actions that don’t advance the game.  
+
+**State Extractor**'
+def extract_state(game_history):
+    milestones = []
+    if "open mailbox" in game_history:
+        milestones.append("opened mailbox")
+    if "read leaflet" in game_history:
+        milestones.append("read leaflet")
+    if "take egg" in game_history or "egg" in game_history and "taken" in game_history:
+        milestones.append("collected egg")
+    if milestones:
+        return "Milestones: " + ", ".join(milestones) + "."
+    else:
+        return "No milestones achieved yet."
+[STEP 0] | Copyright (c) 1981, 1982, 1983 Infocom, Inc. All rights reserved. ZORK || Action: open mailbox              || Reward: 0, Score: 0
+[STEP 1] | opening the small mailbox reveals a leaflet.                           || Action: read leaflet              || Reward: 0, Score: 0
+[STEP 2] | (taken) "welcome to zork!  zork is a game of adventure, danger, and lo || Action: east                      || Reward: 0, Score: 0
+[STEP 3] | the door is boarded and you can't remove the boards.                   || Action: look                      || Reward: 0, Score: 0
+[STEP 4] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 5] | west of house you are standing in an open field west of a white house, || Action: examine house             || Reward: 0, Score: 0
+[STEP 6] | the house is a beautiful colonial house which is painted white. it is  || Action: search                    || Reward: 0, Score: 0
+[STEP 7] | what do you want to search?                                            || Action: climb tree                || Reward: 0, Score: 0
+[STEP 8] | you can't see any tree here!                                           || Action: north                     || Reward: 0, Score: 0
+[STEP 9] | north of house you are facing the north side of a white house. there i || Action: north                     || Reward: 0, Score: 0
+[STEP 10] | forest path this is a path winding through a dimly lit forest. the pat || Action: climb tree                || Reward: 0, Score: 0
+[STEP 11] | up a tree you are about 10 feet above the ground nestled among some la || Action: take egg                  || Reward: 5, Score: 5
+[STEP 12] | taken.                                                                 || Action: down                      || Reward: 0, Score: 5
+[STEP 13] | forest path                                                            || Action: look                      || Reward: 0, Score: 5
+[STEP 14] | forest path this is a path winding through a dimly lit forest. the pat || Action: examine tree              || Reward: 0, Score: 5
+[STEP 15] | there's nothing special about the tree.                                || Action: look                      || Reward: 0, Score: 5
+[STEP 16] | forest path this is a path winding through a dimly lit forest. the pat || Action: north                     || Reward: 0, Score: 5
+[STEP 17] | clearing you are in a clearing, with a forest surrounding you on all s || Action: examine leaves            || Reward: 0, Score: 5
+[STEP 18] | there's nothing special about the pile of leaves.                      || Action: look                      || Reward: 0, Score: 5
+[STEP 19] | clearing you are in a clearing, with a forest surrounding you on all s || Action: south                     || Reward: 0, Score: 5
+[STEP 20] | forest path you hear in the distance the chirping of a song bird.      || Action: look                      || Reward: 0, Score: 5
+[STEP 21] | forest path this is a path winding through a dimly lit forest. the pat || Action: look                      || Reward: 0, Score: 5
+[STEP 22] | forest path this is a path winding through a dimly lit forest. the pat || Action: look                      || Reward: 0, Score: 5
+[STEP 23] | forest path this is a path winding through a dimly lit forest. the pat || Action: look                      || Reward: 0, Score: 5
+[STEP 24] | forest path this is a path winding through a dimly lit forest. the pat || Action: look                      || Reward: 0, Score: 5
+[STEP 25] | forest path this is a path winding through a dimly lit forest. the pat || Action: look                      || Reward: 0, Score: 5
+[STEP 26] | forest path this is a path winding through a dimly lit forest. the pat || Action: look                      || Reward: 0, Score: 5
+[STEP 27] | forest path this is a path winding through a dimly lit forest. the pat || Action: north                     || Reward: 0, Score: 5
+[STEP 28] | clearing on the ground is a pile of leaves.                            || Action: look                      || Reward: 0, Score: 5
+[STEP 29] | clearing you are in a clearing, with a forest surrounding you on all s || Action: examine path              || Reward: 0, Score: 5
+[STEP 30] | there's nothing special about the way.                                 || Action: look                      || Reward: 0, Score: 5
+[STEP 31] | clearing you are in a clearing, with a forest surrounding you on all s || Action: search                    || Reward: 0, Score: 5
+[STEP 32] | what do you want to search?                                            || Action: search house              || Reward: 0, Score: 5
+[STEP 33] | you're not at the house.                                               || Action: look                      || Reward: 0, Score: 5
+[STEP 34] | clearing you are in a clearing, with a forest surrounding you on all s || Action: look                      || Reward: 0, Score: 5
+[STEP 35] | clearing you are in a clearing, with a forest surrounding you on all s || Action: look                      || Reward: 0, Score: 5
+[STEP 36] | clearing you are in a clearing, with a forest surrounding you on all s || Action: north                     || Reward: 0, Score: 5
+[STEP 37] | the forest becomes impenetrable to the north.                          || Action: look                      || Reward: 0, Score: 5
+[STEP 38] | clearing you are in a clearing, with a forest surrounding you on all s || Action: look                      || Reward: 0, Score: 5
+[STEP 39] | clearing you are in a clearing, with a forest surrounding you on all s || Action: south                     || Reward: 0, Score: 5
+[STEP 40] | forest path                                                            || Action: look                      || Reward: 0, Score: 5
+[STEP 41] | forest path this is a path winding through a dimly lit forest. the pat || Action: south                     || Reward: 0, Score: 5
+[STEP 42] | north of house                                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 43] | north of house you are facing the north side of a white house. there i || Action: south                     || Reward: 0, Score: 5
+[STEP 44] | the windows are all boarded.                                           || Action: look                      || Reward: 0, Score: 5
+[STEP 45] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 46] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 47] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 48] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 49] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 50] | north of house you are facing the north side of a white house. there i || Action: examine house             || Reward: 0, Score: 5
+[STEP 51] | the house is a beautiful colonial house which is painted white. it is  || Action: look                      || Reward: 0, Score: 5
+[STEP 52] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 53] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 54] | north of house you are facing the north side of a white house. there i || Action: east                      || Reward: 0, Score: 5
+[STEP 55] | behind house you are behind the white house. a path leads into the for || Action: look window               || Reward: 0, Score: 5
+[STEP 56] | that sentence isn't one i recognize.                                   || Action: open window               || Reward: 0, Score: 5
+[STEP 57] | with great effort, you open the window far enough to allow entry.      || Action: enter window              || Reward: 10, Score: 15
+[STEP 58] | kitchen you are in the kitchen of the white house. a table seems to ha || Action: look                      || Reward: 0, Score: 15
+[STEP 59] | kitchen you are in the kitchen of the white house. a table seems to ha || Action: examine sack              || Reward: 0, Score: 15
+[STEP 60] | the brown sack is closed.                                              || Action: open sack                 || Reward: 0, Score: 15
+[STEP 61] | opening the brown sack reveals a lunch, and a clove of garlic.         || Action: look                      || Reward: 0, Score: 15
+[STEP 62] | kitchen you are in the kitchen of the white house. a table seems to ha || Action: look                      || Reward: 0, Score: 15
+[STEP 63] | kitchen you are in the kitchen of the white house. a table seems to ha || Action: look                      || Reward: 0, Score: 15
+[STEP 64] | kitchen you are in the kitchen of the white house. a table seems to ha || Action: look                      || Reward: 0, Score: 15
+[STEP 65] | kitchen you are in the kitchen of the white house. a table seems to ha || Action: look                      || Reward: 0, Score: 15
+[STEP 66] | kitchen you are in the kitchen of the white house. a table seems to ha || Action: examine table             || Reward: 0, Score: 15
+[STEP 67] | a bottle is sitting on the table. the glass bottle contains:   a quant || Action: examine table             || Reward: 0, Score: 15
+[STEP 68] | a bottle is sitting on the table. the glass bottle contains:   a quant || Action: search table              || Reward: 0, Score: 15
+[STEP 69] | you find nothing unusual.                                              || Action: look                      || Reward: 0, Score: 15
+[STEP 70] | kitchen you are in the kitchen of the white house. a table seems to ha || Action: look                      || Reward: 0, Score: 15
+[STEP 71] | kitchen you are in the kitchen of the white house. a table seems to ha || Action: look                      || Reward: 0, Score: 15
+[STEP 72] | kitchen you are in the kitchen of the white house. a table seems to ha || Action: west                      || Reward: 0, Score: 15
+[STEP 73] | living room you are in the living room. there is a doorway to the east || Action: examine trophycase        || Reward: 0, Score: 15
+[STEP 74] | the trophy case is empty.                                              || Action: look                      || Reward: 0, Score: 15
+[STEP 75] | living room you are in the living room. there is a doorway to the east || Action: look                      || Reward: 0, Score: 15
+[STEP 76] | living room you are in the living room. there is a doorway to the east || Action: east                      || Reward: 0, Score: 15
+[STEP 77] | kitchen a bottle is sitting on the table. the glass bottle contains:   || Action: west                      || Reward: 0, Score: 15
+[STEP 78] | living room above the trophy case hangs an elvish sword of great antiq || Action: get lantern               || Reward: 0, Score: 15
+[STEP 79] | taken.                                                                 || Action: look                      || Reward: 0, Score: 15
+[STEP 80] | living room you are in the living room. there is a doorway to the east || Action: look                      || Reward: 0, Score: 15
+[STEP 81] | living room you are in the living room. there is a doorway to the east || Action: east                      || Reward: 0, Score: 15
+[STEP 82] | kitchen a bottle is sitting on the table. the glass bottle contains:   || Action: up                        || Reward: 0, Score: 15
+[STEP 83] | you have moved into a dark place. it is pitch black. you are likely to || Action: light lantern             || Reward: 0, Score: 15
+[STEP 84] | the brass lantern is now on.  attic this is the attic. the only exit i || Action: look                      || Reward: 0, Score: 15
+[STEP 85] | attic this is the attic. the only exit is a stairway leading down. a l || Action: examine table             || Reward: 0, Score: 15
+[STEP 86] | on a table is a nasty-looking knife.                                   || Action: get knife                 || Reward: 0, Score: 15
+[STEP 87] | taken.                                                                 || Action: look                      || Reward: 0, Score: 15
+[STEP 88] | attic this is the attic. the only exit is a stairway leading down. a l || Action: examine rope              || Reward: 0, Score: 15
+[STEP 89] | there's nothing special about the rope.                                || Action: down                      || Reward: 0, Score: 15
+[STEP 90] | kitchen a bottle is sitting on the table. the glass bottle contains:   || Action: look                      || Reward: 0, Score: 15
+[STEP 91] | kitchen you are in the kitchen of the white house. a table seems to ha || Action: look                      || Reward: 0, Score: 15
+[STEP 92] | kitchen you are in the kitchen of the white house. a table seems to ha || Action: look                      || Reward: 0, Score: 15
+[STEP 93] | kitchen you are in the kitchen of the white house. a table seems to ha || Action: open sack                 || Reward: 0, Score: 15
+[STEP 94] | it is already open.                                                    || Action: look                      || Reward: 0, Score: 15
+[STEP 95] | kitchen you are in the kitchen of the white house. a table seems to ha || Action: look                      || Reward: 0, Score: 15
+[STEP 96] | kitchen you are in the kitchen of the white house. a table seems to ha || Action: search table              || Reward: 0, Score: 15
+[STEP 97] | you find nothing unusual.                                              || Action: look                      || Reward: 0, Score: 15
+[STEP 98] | kitchen you are in the kitchen of the white house. a table seems to ha || Action: examine chimney           || Reward: 0, Score: 15
+[STEP 99] | the chimney leads downward, and looks climbable.                       || Action: down                      || Reward: 0, Score: 15
+[STEP 100] | only santa claus climbs down chimneys.                                 || Action: look                      || Reward: 0, Score: 15
+[STEP 101] | kitchen you are in the kitchen of the white house. a table seems to ha || Action: look                      || Reward: 0, Score: 15
+[STEP 102] | kitchen you are in the kitchen of the white house. a table seems to ha || Action: look                      || Reward: 0, Score: 15
+[STEP 103] | kitchen you are in the kitchen of the white house. a table seems to ha || Action: look                      || Reward: 0, Score: 15
+[STEP 104] | kitchen you are in the kitchen of the white house. a table seems to ha || Action: west                      || Reward: 0, Score: 15
+[STEP 105] | living room above the trophy case hangs an elvish sword of great antiq || Action: west                      || Reward: 0, Score: 15
+[STEP 106] | the door is nailed shut.                                               || Action: look                      || Reward: 0, Score: 15
+[STEP 107] | living room you are in the living room. there is a doorway to the east || Action: examine door              || Reward: 0, Score: 15
+[STEP 108] | the engravings translate to "this space intentionally left blank."     || Action: look                      || Reward: 0, Score: 15
+[STEP 109] | living room you are in the living room. there is a doorway to the east || Action: examine trophycase        || Reward: 0, Score: 15
+[OurAgent] New best score 15 at node 2.
+Run 3/10 finished. Score: 15
+
+--- EVALUATION SUMMARY (our method) ---
+Agent LLM Model: gpt-oss-20b
+Number of final evaluation runs: 10
+Individual Scores: [5, 5, 15]
+Average Score: 8.33
+Standard Deviation: 5.77
+
+Starting game run 4/10...
+[DACS] enabled=True game=zork1
+[DACS] num raw candidates = 3 archived=0
+[DACS] num filtered candidates = 3
+[DACS] selected/reordered candidate ids = [2, 0, 1]
+[DACS] candidate score table:
+  id | relevance | diversity | risk | final_score | summary
+  2 | 0.296 | 1.0 | 0.1 | 0.926 | **Guiding Prompt**   You are playing Zork. Your goal is to make efficient progre
+  0 | 0.097 | 0.948 | 0.029 | 0.617 | Explore systematically and examine objects to make progress.
+  1 | 0.296 | 0.0 | 0.1 | 0.292 | **Guiding Prompt**   You are playing Zork. Your goal is to make efficient progre
+[DACS] fallback=False
+Parent node 2 at depth 2 with UCB score: 15.670814127339652
+
+Evolving prompt. Current prompt: '**Guiding Prompt**  
+You are playing Zork. Your goal is to make efficient progre...'
+
+Current state extractor code: 'def extract_state(game_history):
+    milestones = []
+    if "open mailbox" in ga...'
+
+
+Updated state extractor code successfully.
+Evolved guiding prompt and code: '**Guiding Prompt**  
+You are playing Zork. Follow these precise steps to keep the game moving forward.  
+Only actions that are known to produce new information or unlock a new area should be taken.  
+Avoid any action that has previously caused a loop or wasted time.
+
+1. **Open the mailbox**  
+   - Command: `open mailbox`  
+   - This reveals the leaflet.  
+
+2. **Read the leaflet**  
+   - Command: `read leaflet`  
+   - The leaflet gives you a short introduction and confirms that the house is boarded.  
+
+3. **Open the small window**  
+   - Command: `open window` (or `look window` if the window is already ajar).  
+   - The window is the only legal entrance to the house.  
+
+4. **Enter the house**  
+   - Command: `enter window`  
+   - You will be in the kitchen.  
+
+5. **Collect useful items inside**  
+   - `get knife` – the knife is on a table in the attic, but it can be found by `search table` in the kitchen after moving to the attic.  
+   - `get lantern` – the lantern is on the trophy case in the living room.  
+   - `take egg` – the egg was already collected from the tree, but confirm it is in your inventory.  
+
+6. **Explore the house systematically**  
+   - From the kitchen, use `west` to go to the living room.  
+   - In the living room, `examine trophycase` (empty) and `examine door` (nailed shut).  
+   - `east` from the living room leads back to the kitchen.  
+   - `up` from the kitchen leads to the attic; examine the table for the knife and rope.  
+   - `down` from the attic returns to the kitchen.  
+
+7. **Avoid repeating any of the following**  
+   - `look`, `search`, `climb tree`, `west`, `north`, `south`, `east` when the same location has already been fully examined.  
+   - Any action that simply re‑states the same observation without revealing new items or locations.  
+
+8. **If you find yourself unable to progress**  
+   - List every adjacent location that has not yet been fully visited (e.g., “north of house”, “forest path”, “clearing”, “attic”).  
+   - For each location, note any objects or NPCs that could contain a key or clue.  
+   - Treat these as **educated guesses** and plan a systematic exploration: go to one location, interact with every object there, then move to the next.  
+
+**State Extractor**'
+def extract_state(game_history):
+    milestones = []
+    if "open mailbox" in game_history and "leaflet" in game_history:
+        milestones.append("Mailbox opened")
+    if "read leaflet" in game_history or ("leaflet" in game_history and "read" in game_history):
+        milestones.append("Leaflet read")
+    if ("take egg" in game_history or "egg" in game_history and "taken" in game_history) and "climb tree" in game_history:
+        milestones.append("Egg collected")
+    if "open window" in game_history or "look window" in game_history:
+        milestones.append("Window opened")
+    if "enter window" in game_history:
+        milestones.append("Entered house")
+    if ("get knife" in game_history or "take knife" in game_history) and ("attic" in game_history or "table" in game_history):
+        milestones.append("Knife taken")
+    if ("get lantern" in game_history or "take lantern" in game_history) and "trophycase" in game_history:
+        milestones.append("Lantern taken")
+    if "attic" in game_history:
+        milestones.append("Attic visited")
+    if "rope" in game_history and ("examine rope" in game_history or "look rope" in game_history):
+        milestones.append("Rope examined")
+    if not milestones:
+        return "Unknown state."
+    return "; ".join(milestones) + "."
+[STEP 0] | Copyright (c) 1981, 1982, 1983 Infocom, Inc. All rights reserved. ZORK || Action: open mailbox              || Reward: 0, Score: 0
+[STEP 1] | opening the small mailbox reveals a leaflet.                           || Action: read leaflet              || Reward: 0, Score: 0
+[STEP 2] | (taken) "welcome to zork!  zork is a game of adventure, danger, and lo || Action: open window               || Reward: 0, Score: 0
+[STEP 3] | you can't see any window here!                                         || Action: look                      || Reward: 0, Score: 0
+[STEP 4] | west of house you are standing in an open field west of a white house, || Action: east                      || Reward: 0, Score: 0
+[STEP 5] | the door is boarded and you can't remove the boards.                   || Action: look                      || Reward: 0, Score: 0
+[STEP 6] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 7] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 8] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 9] | west of house you are standing in an open field west of a white house, || Action: look house                || Reward: 0, Score: 0
+[STEP 10] | that sentence isn't one i recognize.                                   || Action: examine house             || Reward: 0, Score: 0
+[STEP 11] | the house is a beautiful colonial house which is painted white. it is  || Action: enter window              || Reward: 0, Score: 0
+[STEP 12] | you can't see any window here!                                         || Action: look                      || Reward: 0, Score: 0
+[STEP 13] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 14] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 15] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 16] | west of house you are standing in an open field west of a white house, || Action: look window               || Reward: 0, Score: 0
+[STEP 17] | that sentence isn't one i recognize.                                   || Action: look                      || Reward: 0, Score: 0
+[STEP 18] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 19] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 20] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 21] | west of house you are standing in an open field west of a white house, || Action: examine window            || Reward: 0, Score: 0
+[STEP 22] | you can't see any window here!                                         || Action: look                      || Reward: 0, Score: 0
+[STEP 23] | west of house you are standing in an open field west of a white house, || Action: enter house               || Reward: 0, Score: 0
+[STEP 24] | i can't see how to get in from here.                                   || Action: look                      || Reward: 0, Score: 0
+[STEP 25] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 26] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 27] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 28] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 29] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 30] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 31] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 32] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 33] | west of house you are standing in an open field west of a white house, || Action: open mailbox              || Reward: 0, Score: 0
+[STEP 34] | it is already open.                                                    || Action: read leaflet              || Reward: 0, Score: 0
+[STEP 35] | "welcome to zork!  zork is a game of adventure, danger, and low cunnin || Action: open mailbox              || Reward: 0, Score: 0
+[STEP 36] | it is already open.                                                    || Action: look                      || Reward: 0, Score: 0
+[STEP 37] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 38] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 39] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 40] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 41] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 42] | west of house you are standing in an open field west of a white house, || Action: enter window              || Reward: 0, Score: 0
+[STEP 43] | you can't see any window here!                                         || Action: look                      || Reward: 0, Score: 0
+[STEP 44] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 45] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 46] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 47] | west of house you are standing in an open field west of a white house, || Action: open window               || Reward: 0, Score: 0
+[STEP 48] | you can't see any window here!                                         || Action: look                      || Reward: 0, Score: 0
+[STEP 49] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 50] | west of house you are standing in an open field west of a white house, || Action: east                      || Reward: 0, Score: 0
+[STEP 51] | the door is boarded and you can't remove the boards.                   || Action: look                      || Reward: 0, Score: 0
+[STEP 52] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 53] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 54] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 55] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 56] | west of house you are standing in an open field west of a white house, || Action: look house                || Reward: 0, Score: 0
+[STEP 57] | that sentence isn't one i recognize.                                   || Action: look                      || Reward: 0, Score: 0
+[STEP 58] | west of house you are standing in an open field west of a white house, || Action: examine house             || Reward: 0, Score: 0
+[STEP 59] | the house is a beautiful colonial house which is painted white. it is  || Action: look                      || Reward: 0, Score: 0
+[STEP 60] | west of house you are standing in an open field west of a white house, || Action: look window               || Reward: 0, Score: 0
+[STEP 61] | that sentence isn't one i recognize.                                   || Action: look                      || Reward: 0, Score: 0
+[STEP 62] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 63] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 64] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 65] | west of house you are standing in an open field west of a white house, || Action: examine window            || Reward: 0, Score: 0
+[STEP 66] | you can't see any window here!                                         || Action: look                      || Reward: 0, Score: 0
+[STEP 67] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 68] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 69] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 70] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 71] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 72] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 73] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 74] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 75] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 76] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 77] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 78] | west of house you are standing in an open field west of a white house, || Action: open window               || Reward: 0, Score: 0
+[STEP 79] | you can't see any window here!                                         || Action: look                      || Reward: 0, Score: 0
+[STEP 80] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 81] | west of house you are standing in an open field west of a white house, || Action: north                     || Reward: 0, Score: 0
+[STEP 82] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 0
+[STEP 83] | north of house you are facing the north side of a white house. there i || Action: south                     || Reward: 0, Score: 0
+[STEP 84] | the windows are all boarded.                                           || Action: look                      || Reward: 0, Score: 0
+[STEP 85] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 0
+[STEP 86] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 0
+[STEP 87] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 0
+[STEP 88] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 0
+[STEP 89] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 0
+[STEP 90] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 0
+[STEP 91] | north of house you are facing the north side of a white house. there i || Action: west                      || Reward: 0, Score: 0
+[STEP 92] | west of house there is a small mailbox here.                           || Action: look                      || Reward: 0, Score: 0
+[STEP 93] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 94] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 95] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 96] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 97] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 98] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 99] | west of house you are standing in an open field west of a white house, || Action: east                      || Reward: 0, Score: 0
+[STEP 100] | the door is boarded and you can't remove the boards.                   || Action: look                      || Reward: 0, Score: 0
+[STEP 101] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 102] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 103] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 104] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 105] | west of house you are standing in an open field west of a white house, || Action: open mailbox              || Reward: 0, Score: 0
+[STEP 106] | it is already open.                                                    || Action: read leaflet              || Reward: 0, Score: 0
+[STEP 107] | "welcome to zork!  zork is a game of adventure, danger, and low cunnin || Action: open mailbox              || Reward: 0, Score: 0
+[STEP 108] | it is already open.                                                    || Action: look                      || Reward: 0, Score: 0
+[STEP 109] | west of house you are standing in an open field west of a white house, || Action: examine window            || Reward: 0, Score: 0
+Run 4/10 finished. Score: 0
+
+--- EVALUATION SUMMARY (our method) ---
+Agent LLM Model: gpt-oss-20b
+Number of final evaluation runs: 10
+Individual Scores: [5, 5, 15, 0]
+Average Score: 6.25
+Standard Deviation: 6.29
+
+Starting game run 5/10...
+[DACS] enabled=True game=zork1
+[DACS] num raw candidates = 4 archived=0
+[DACS] num filtered candidates = 4
+[DACS] selected/reordered candidate ids = [2, 0, 3, 1]
+[DACS] candidate score table:
+  id | relevance | diversity | risk | final_score | summary
+  2 | 0.27 | 1.0 | 0.102 | 0.899 | **Guiding Prompt**   You are playing Zork. Your goal is to make efficient progre
+  0 | 0.066 | 0.948 | 0.042 | 0.577 | Explore systematically and examine objects to make progress.
+  3 | 0.38 | 0.609 | 0.178 | 0.56 | **Guiding Prompt**   You are playing Zork. Follow these precise steps to keep th
+  1 | 0.27 | 0.0 | 0.102 | 0.266 | **Guiding Prompt**   You are playing Zork. Your goal is to make efficient progre
+[DACS] fallback=False
+Parent node 2 at depth 2 with UCB score: 15.532834951140927
+
+Evolving prompt. Current prompt: '**Guiding Prompt**  
+You are playing Zork. Your goal is to make efficient progre...'
+
+Current state extractor code: 'def extract_state(game_history):
+    milestones = []
+    if "open mailbox" in ga...'
+
+
+Updated state extractor code successfully.
+Evolved guiding prompt and code: '**Guiding Prompt**  
+You are playing the classic text adventure Zork. Your objective is to maximize the score by only taking actions that reveal new information, acquire useful items, or advance the story. Follow these rules:
+
+1. **Core Progress Actions**  
+   * `open mailbox` – reveals a leaflet.  
+   * `read leaflet` – displays instructions.  
+   * `climb tree` – yields the valuable egg.  
+   * `take egg` – add the egg to your inventory.  
+   * `open window` – opens the hidden entrance to the house.  
+   * `enter window` – places you inside the house.  
+   * `get lantern` – needed to light dark areas.  
+   * `get knife` – useful for future puzzles.  
+
+   Execute each of these commands only when the target object is present and the action has not already been performed.
+
+2. **Avoid Redundant Actions**  
+   * Do not repeat `look` or `search` in the same room unless a new object has appeared.  
+   * Skip `climb tree` after the egg has been taken.  
+   * Do not move `north/south/east/west` into a room that has already been fully explored and yielded no new items.
+
+3. **When No New Information Is Available**  
+   * List every adjacent location that has not yet been fully explored (e.g., north of house, forest path, clearing, attic).  
+   * For each, note any objects that could contain a key or clue.  
+   * Pick one of those locations and systematically `look`, `examine`, `take` any items, then move on.  
+   * Avoid cycling repeatedly in the same room.
+
+4. **Inventory Management**  
+   * Keep a mental note of items you have.  
+   * Use the lantern when a room becomes dark.  
+   * The knife can be used if a puzzle requires cutting or defense.
+
+5. **Endgame Strategy**  
+   * Once all core items are collected, focus on unlocking doors or finding the exit.  
+   * If a door is described as “nailed shut”, first `examine door` or `search door`.  
+   * If the door remains closed, look for items that might unlock it (e.g., a hidden key).  
+
+---'
+def extract_state(game_history):
+    milestones = []
+    if "open mailbox" in game_history:
+        milestones.append("opened mailbox")
+    if "read leaflet" in game_history:
+        milestones.append("read leaflet")
+    if "take egg" in game_history:
+        milestones.append("collected egg")
+    if "open window" in game_history:
+        milestones.append("opened window")
+    if "enter window" in game_history:
+        milestones.append("entered house")
+    if "get lantern" in game_history or "take lantern" in game_history:
+        milestones.append("got lantern")
+    if "get knife" in game_history or "take knife" in game_history:
+        milestones.append("got knife")
+    return ", ".join(milestones) if milestones else "No milestones achieved."
+[STEP 0] | Copyright (c) 1981, 1982, 1983 Infocom, Inc. All rights reserved. ZORK || Action: open mailbox              || Reward: 0, Score: 0
+[STEP 1] | opening the small mailbox reveals a leaflet.                           || Action: read leaflet              || Reward: 0, Score: 0
+[STEP 2] | (taken) "welcome to zork!  zork is a game of adventure, danger, and lo || Action: look                      || Reward: 0, Score: 0
+[STEP 3] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 4] | west of house you are standing in an open field west of a white house, || Action: north                     || Reward: 0, Score: 0
+[STEP 5] | north of house you are facing the north side of a white house. there i || Action: north                     || Reward: 0, Score: 0
+[STEP 6] | forest path this is a path winding through a dimly lit forest. the pat || Action: climb tree                || Reward: 0, Score: 0
+[STEP 7] | up a tree you are about 10 feet above the ground nestled among some la || Action: take egg                  || Reward: 5, Score: 5
+[STEP 8] | taken.                                                                 || Action: down                      || Reward: 0, Score: 5
+[STEP 9] | forest path                                                            || Action: look                      || Reward: 0, Score: 5
+[STEP 10] | forest path this is a path winding through a dimly lit forest. the pat || Action: west                      || Reward: 0, Score: 5
+[STEP 11] | forest this is a forest, with trees in all directions. to the east, th || Action: look                      || Reward: 0, Score: 5
+[STEP 12] | forest this is a forest, with trees in all directions. to the east, th || Action: east                      || Reward: 0, Score: 5
+[STEP 13] | forest path you hear in the distance the chirping of a song bird.      || Action: east                      || Reward: 0, Score: 5
+[STEP 14] | forest this is a dimly lit forest, with large trees all around. you he || Action: look                      || Reward: 0, Score: 5
+[STEP 15] | forest this is a dimly lit forest, with large trees all around.        || Action: look                      || Reward: 0, Score: 5
+[STEP 16] | forest this is a dimly lit forest, with large trees all around. you he || Action: look                      || Reward: 0, Score: 5
+[STEP 17] | forest this is a dimly lit forest, with large trees all around.        || Action: look                      || Reward: 0, Score: 5
+[STEP 18] | forest this is a dimly lit forest, with large trees all around.        || Action: look                      || Reward: 0, Score: 5
+[STEP 19] | forest this is a dimly lit forest, with large trees all around.        || Action: west                      || Reward: 0, Score: 5
+[STEP 20] | forest path                                                            || Action: look                      || Reward: 0, Score: 5
+[STEP 21] | forest path this is a path winding through a dimly lit forest. the pat || Action: look                      || Reward: 0, Score: 5
+[STEP 22] | forest path this is a path winding through a dimly lit forest. the pat || Action: look                      || Reward: 0, Score: 5
+[STEP 23] | forest path this is a path winding through a dimly lit forest. the pat || Action: south                     || Reward: 0, Score: 5
+[STEP 24] | north of house                                                         || Action: west                      || Reward: 0, Score: 5
+[STEP 25] | west of house there is a small mailbox here.                           || Action: look                      || Reward: 0, Score: 5
+[STEP 26] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 27] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 28] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 29] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 30] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 31] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 32] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 33] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 34] | west of house you are standing in an open field west of a white house, || Action: open window               || Reward: 0, Score: 5
+[STEP 35] | you can't see any window here!                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 36] | west of house you are standing in an open field west of a white house, || Action: east                      || Reward: 0, Score: 5
+[STEP 37] | the door is boarded and you can't remove the boards.                   || Action: look                      || Reward: 0, Score: 5
+[STEP 38] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 39] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 40] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 41] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 42] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 43] | west of house you are standing in an open field west of a white house, || Action: examine mailbox           || Reward: 0, Score: 5
+[STEP 44] | the small mailbox is empty.                                            || Action: look                      || Reward: 0, Score: 5
+[STEP 45] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 46] | west of house you are standing in an open field west of a white house, || Action: north                     || Reward: 0, Score: 5
+[STEP 47] | north of house                                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 48] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 49] | north of house you are facing the north side of a white house. there i || Action: north                     || Reward: 0, Score: 5
+[STEP 50] | forest path                                                            || Action: look                      || Reward: 0, Score: 5
+[STEP 51] | forest path this is a path winding through a dimly lit forest. the pat || Action: examine tree              || Reward: 0, Score: 5
+[STEP 52] | there's nothing special about the tree.                                || Action: look                      || Reward: 0, Score: 5
+[STEP 53] | forest path this is a path winding through a dimly lit forest. the pat || Action: look                      || Reward: 0, Score: 5
+[STEP 54] | forest path this is a path winding through a dimly lit forest. the pat || Action: look                      || Reward: 0, Score: 5
+[STEP 55] | forest path this is a path winding through a dimly lit forest. the pat || Action: search tree               || Reward: 0, Score: 5
+[STEP 56] | you find nothing unusual.                                              || Action: search                    || Reward: 0, Score: 5
+[STEP 57] | what do you want to search?                                            || Action: look                      || Reward: 0, Score: 5
+[STEP 58] | forest path this is a path winding through a dimly lit forest. the pat || Action: search path               || Reward: 0, Score: 5
+[STEP 59] | you find nothing unusual.                                              || Action: look                      || Reward: 0, Score: 5
+[STEP 60] | forest path this is a path winding through a dimly lit forest. the pat || Action: south                     || Reward: 0, Score: 5
+[STEP 61] | north of house                                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 62] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 63] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 64] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 65] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 66] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 67] | north of house you are facing the north side of a white house. there i || Action: enter window              || Reward: 0, Score: 5
+[STEP 68] | you hit your head against the boarded window as you attempt this feat. || Action: look                      || Reward: 0, Score: 5
+[STEP 69] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 70] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 71] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 72] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 73] | north of house you are facing the north side of a white house. there i || Action: south                     || Reward: 0, Score: 5
+[STEP 74] | the windows are all boarded.                                           || Action: open window               || Reward: 0, Score: 5
+[STEP 75] | the windows are boarded and can't be opened.                           || Action: look                      || Reward: 0, Score: 5
+[STEP 76] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 77] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 78] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 79] | north of house you are facing the north side of a white house. there i || Action: search window             || Reward: 0, Score: 5
+[STEP 80] | you find nothing unusual.                                              || Action: look                      || Reward: 0, Score: 5
+[STEP 81] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 82] | north of house you are facing the north side of a white house. there i || Action: cut window                || Reward: 0, Score: 5
+[STEP 83] | what do you want to cut the window with?                               || Action: look                      || Reward: 0, Score: 5
+[STEP 84] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 85] | north of house you are facing the north side of a white house. there i || Action: cut window knife          || Reward: 0, Score: 5
+[STEP 86] | that sentence isn't one i recognize.                                   || Action: look                      || Reward: 0, Score: 5
+[STEP 87] | north of house you are facing the north side of a white house. there i || Action: south                     || Reward: 0, Score: 5
+[STEP 88] | the windows are all boarded.                                           || Action: look                      || Reward: 0, Score: 5
+[STEP 89] | north of house you are facing the north side of a white house. there i || Action: north                     || Reward: 0, Score: 5
+[STEP 90] | forest path                                                            || Action: look                      || Reward: 0, Score: 5
+[STEP 91] | forest path this is a path winding through a dimly lit forest. the pat || Action: north                     || Reward: 0, Score: 5
+[STEP 92] | clearing you are in a clearing, with a forest surrounding you on all s || Action: search pile               || Reward: 0, Score: 5
+[STEP 93] | you find nothing unusual.                                              || Action: look                      || Reward: 0, Score: 5
+[STEP 94] | clearing you are in a clearing, with a forest surrounding you on all s || Action: look                      || Reward: 0, Score: 5
+[STEP 95] | clearing you are in a clearing, with a forest surrounding you on all s || Action: south                     || Reward: 0, Score: 5
+[STEP 96] | forest path                                                            || Action: search path               || Reward: 0, Score: 5
+[STEP 97] | you find nothing unusual.                                              || Action: search tree               || Reward: 0, Score: 5
+[STEP 98] | you find nothing unusual.                                              || Action: look                      || Reward: 0, Score: 5
+[STEP 99] | forest path this is a path winding through a dimly lit forest. the pat || Action: look                      || Reward: 0, Score: 5
+[STEP 100] | forest path this is a path winding through a dimly lit forest. the pat || Action: look tree                 || Reward: 0, Score: 5
+[STEP 101] | that sentence isn't one i recognize.                                   || Action: look                      || Reward: 0, Score: 5
+[STEP 102] | forest path this is a path winding through a dimly lit forest. the pat || Action: climb tree                || Reward: 0, Score: 5
+[STEP 103] | up a tree beside you on the branch is a small bird's nest. you hear in || Action: take egg                  || Reward: 0, Score: 5
+[STEP 104] | you already have that!                                                 || Action: look                      || Reward: 0, Score: 5
+[STEP 105] | up a tree you are about 10 feet above the ground nestled among some la || Action: look                      || Reward: 0, Score: 5
+[STEP 106] | up a tree you are about 10 feet above the ground nestled among some la || Action: down                      || Reward: 0, Score: 5
+[STEP 107] | forest path                                                            || Action: look                      || Reward: 0, Score: 5
+[STEP 108] | forest path this is a path winding through a dimly lit forest. the pat || Action: look                      || Reward: 0, Score: 5
+[STEP 109] | forest path this is a path winding through a dimly lit forest. the pat || Action: look                      || Reward: 0, Score: 5
+Run 5/10 finished. Score: 5
+
+--- EVALUATION SUMMARY (our method) ---
+Agent LLM Model: gpt-oss-20b
+Number of final evaluation runs: 10
+Individual Scores: [5, 5, 15, 0, 5]
+Average Score: 6.00
+Standard Deviation: 5.48
+
+Starting game run 6/10...
+[DACS] enabled=True game=zork1
+[DACS] num raw candidates = 5 archived=0
+[DACS] num filtered candidates = 4
+[DACS] selected/reordered candidate ids = [2, 4, 0, 3]
+[DACS] candidate score table:
+  id | relevance | diversity | risk | final_score | summary
+  2 | 0.296 | 1.0 | 0.119 | 0.913 | **Guiding Prompt**   You are playing Zork. Your goal is to make efficient progre
+  4 | 0.333 | 0.643 | 0.165 | 0.606 | **Guiding Prompt**   You are playing the classic text adventure Zork. Your objec
+  0 | 0.027 | 0.948 | 0.012 | 0.559 | Explore systematically and examine objects to make progress.
+  3 | 0.355 | 0.609 | 0.191 | 0.526 | **Guiding Prompt**   You are playing Zork. Follow these precise steps to keep th
+[DACS] fallback=False
+Parent node 2 at depth 2 with UCB score: 15.468766384223175
+
+Evolving prompt. Current prompt: '**Guiding Prompt**  
+You are playing Zork. Your goal is to make efficient progre...'
+
+Current state extractor code: 'def extract_state(game_history):
+    milestones = []
+    if "open mailbox" in ga...'
+
+
+Updated state extractor code successfully.
+Evolved guiding prompt and code: '**Guiding Prompt**  
+You are playing Zork. Your objective is to finish the game by unlocking the house and entering it. Use only actions that progress the story or reveal new information. The following actions have proven essential and should be taken in the order they naturally arise:
+
+1. **Open the small mailbox** in the field.  
+2. **Read the leaflet** that appears inside.  
+3. **Climb the tree** in the field and **take the egg**.  
+4. **Move toward the house**.  
+5. **Open the window** that is ajar, then **enter the house**.  
+6. In the **kitchen**, **examine the table** and **look at the rug** for hidden items.  
+7. **Go to the attic** via the stairway.  
+8. In the **attic**, **examine the table** and **search the rug**—the key to the house is hidden here.  
+9. **Pick up the key** when you find it.  
+10. **Use the key** at the boarded front door to **open the house**.  
+
+Avoid the following patterns:
+
+- Repeating “look”, “examine”, or “search” on the same object when nothing new appears.  
+- Climbing a tree after the egg has been taken.  
+- Attempting to go “down” from the chimney (no exit).  
+- Repeating “south” or “north” moves that simply backtrack without new content.  
+
+If you cannot find the key after thoroughly searching the attic (table, rug, floor, and any objects), list all lightly explored rooms you have not fully visited (attic, kitchen, living room, hallway, cellar). Choose one and systematically examine every object, use inventory items, and attempt to open doors or hidden passages.  
+
+When a new item or location is discovered, update the state summary below.
+
+**State Extractor**'
+def extract_state(game_history):
+    h = game_history.lower()
+    milestones = []
+    if "opened mailbox" in h or "open mailbox" in h:
+        milestones.append("opened mailbox")
+    if ("read leaflet" in h or ("you read" in h and "leaflet" in h)) and "leaflet" in h:
+        milestones.append("read leaflet")
+    if ("take egg" in h or ("you take" in h and "egg" in h)) and "egg" in h:
+        milestones.append("collected egg")
+    if ("found a key" in h or "you find a key" in h or "you get a key" in h) and "house" in h:
+        milestones.append("found key to house")
+    if ("opened house" in h or "open house" in h or "you open the house" in h or "the house opens" in h):
+        milestones.append("opened house")
+    if ("get knife" in h or "take knife" in h) and "knife" in h:
+        milestones.append("got knife")
+    if ("get rope" in h or "take rope" in h) and "rope" in h:
+        milestones.append("got rope")
+    return ". ".join(milestones) + "." if milestones else "Unknown state."
+[STEP 0] | Copyright (c) 1981, 1982, 1983 Infocom, Inc. All rights reserved. ZORK || Action: open mailbox              || Reward: 0, Score: 0
+[STEP 1] | opening the small mailbox reveals a leaflet.                           || Action: read leaflet              || Reward: 0, Score: 0
+[STEP 2] | (taken) "welcome to zork!  zork is a game of adventure, danger, and lo || Action: climb tree                || Reward: 0, Score: 0
+[STEP 3] | you can't see any tree here!                                           || Action: east                      || Reward: 0, Score: 0
+[STEP 4] | the door is boarded and you can't remove the boards.                   || Action: west                      || Reward: 0, Score: 0
+[STEP 5] | forest this is a forest, with trees in all directions. to the east, th || Action: climb tree                || Reward: 0, Score: 0
+[STEP 6] | there is no tree here suitable for climbing.                           || Action: look                      || Reward: 0, Score: 0
+[STEP 7] | forest this is a forest, with trees in all directions. to the east, th || Action: east                      || Reward: 0, Score: 0
+[STEP 8] | forest path this is a path winding through a dimly lit forest. the pat || Action: climb tree                || Reward: 0, Score: 0
+[STEP 9] | up a tree you are about 10 feet above the ground nestled among some la || Action: take egg                  || Reward: 5, Score: 5
+[STEP 10] | taken.                                                                 || Action: look                      || Reward: 0, Score: 5
+[STEP 11] | up a tree you are about 10 feet above the ground nestled among some la || Action: take egg                  || Reward: 0, Score: 5
+[STEP 12] | you already have that! you hear in the distance the chirping of a song || Action: west                      || Reward: 0, Score: 5
+[STEP 13] | you can't go that way. you hear in the distance the chirping of a song || Action: east                      || Reward: 0, Score: 5
+[STEP 14] | you can't go that way.                                                 || Action: look                      || Reward: 0, Score: 5
+[STEP 15] | up a tree you are about 10 feet above the ground nestled among some la || Action: down                      || Reward: 0, Score: 5
+[STEP 16] | forest path                                                            || Action: north                     || Reward: 0, Score: 5
+[STEP 17] | clearing you are in a clearing, with a forest surrounding you on all s || Action: south                     || Reward: 0, Score: 5
+[STEP 18] | forest path                                                            || Action: north                     || Reward: 0, Score: 5
+[STEP 19] | clearing on the ground is a pile of leaves.                            || Action: look                      || Reward: 0, Score: 5
+[STEP 20] | clearing you are in a clearing, with a forest surrounding you on all s || Action: south                     || Reward: 0, Score: 5
+[STEP 21] | forest path                                                            || Action: south                     || Reward: 0, Score: 5
+[STEP 22] | north of house you are facing the north side of a white house. there i || Action: south                     || Reward: 0, Score: 5
+[STEP 23] | the windows are all boarded.                                           || Action: look                      || Reward: 0, Score: 5
+[STEP 24] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 25] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 26] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 27] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 28] | north of house you are facing the north side of a white house. there i || Action: west                      || Reward: 0, Score: 5
+[STEP 29] | west of house there is a small mailbox here.                           || Action: look                      || Reward: 0, Score: 5
+[STEP 30] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 31] | west of house you are standing in an open field west of a white house, || Action: open window               || Reward: 0, Score: 5
+[STEP 32] | you can't see any window here!                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 33] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 34] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 35] | west of house you are standing in an open field west of a white house, || Action: east                      || Reward: 0, Score: 5
+[STEP 36] | the door is boarded and you can't remove the boards.                   || Action: look                      || Reward: 0, Score: 5
+[STEP 37] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 38] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 39] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 40] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 41] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 42] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 43] | west of house you are standing in an open field west of a white house, || Action: open mailbox              || Reward: 0, Score: 5
+[STEP 44] | it is already open.                                                    || Action: read leaflet              || Reward: 0, Score: 5
+[STEP 45] | "welcome to zork!  zork is a game of adventure, danger, and low cunnin || Action: look                      || Reward: 0, Score: 5
+[STEP 46] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 47] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 48] | west of house you are standing in an open field west of a white house, || Action: climb tree                || Reward: 0, Score: 5
+[STEP 49] | you can't see any tree here!                                           || Action: look                      || Reward: 0, Score: 5
+[STEP 50] | west of house you are standing in an open field west of a white house, || Action: east                      || Reward: 0, Score: 5
+[STEP 51] | the door is boarded and you can't remove the boards.                   || Action: look                      || Reward: 0, Score: 5
+[STEP 52] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 53] | west of house you are standing in an open field west of a white house, || Action: east                      || Reward: 0, Score: 5
+[STEP 54] | the door is boarded and you can't remove the boards.                   || Action: look                      || Reward: 0, Score: 5
+[STEP 55] | west of house you are standing in an open field west of a white house, || Action: north                     || Reward: 0, Score: 5
+[STEP 56] | north of house                                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 57] | north of house you are facing the north side of a white house. there i || Action: north                     || Reward: 0, Score: 5
+[STEP 58] | forest path                                                            || Action: look                      || Reward: 0, Score: 5
+[STEP 59] | forest path this is a path winding through a dimly lit forest. the pat || Action: climb tree                || Reward: 0, Score: 5
+[STEP 60] | up a tree beside you on the branch is a small bird's nest. you hear in || Action: take egg                  || Reward: 0, Score: 5
+[STEP 61] | you already have that!                                                 || Action: look                      || Reward: 0, Score: 5
+[STEP 62] | up a tree you are about 10 feet above the ground nestled among some la || Action: down                      || Reward: 0, Score: 5
+[STEP 63] | forest path you hear in the distance the chirping of a song bird.      || Action: down                      || Reward: 0, Score: 5
+[STEP 64] | you can't go that way.                                                 || Action: south                     || Reward: 0, Score: 5
+[STEP 65] | north of house                                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 66] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 67] | north of house you are facing the north side of a white house. there i || Action: south                     || Reward: 0, Score: 5
+[STEP 68] | the windows are all boarded.                                           || Action: look                      || Reward: 0, Score: 5
+[STEP 69] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 70] | north of house you are facing the north side of a white house. there i || Action: west                      || Reward: 0, Score: 5
+[STEP 71] | west of house there is a small mailbox here.                           || Action: look                      || Reward: 0, Score: 5
+[STEP 72] | west of house you are standing in an open field west of a white house, || Action: open window               || Reward: 0, Score: 5
+[STEP 73] | you can't see any window here!                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 74] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 75] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 76] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 77] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 78] | west of house you are standing in an open field west of a white house, || Action: enter window              || Reward: 0, Score: 5
+[STEP 79] | you can't see any window here!                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 80] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 81] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 82] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 83] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 84] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 85] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 86] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 87] | west of house you are standing in an open field west of a white house, || Action: east                      || Reward: 0, Score: 5
+[STEP 88] | the door is boarded and you can't remove the boards.                   || Action: look                      || Reward: 0, Score: 5
+[STEP 89] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 90] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 91] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 92] | west of house you are standing in an open field west of a white house, || Action: open mailbox              || Reward: 0, Score: 5
+[STEP 93] | it is already open.                                                    || Action: read leaflet              || Reward: 0, Score: 5
+[STEP 94] | "welcome to zork!  zork is a game of adventure, danger, and low cunnin || Action: look                      || Reward: 0, Score: 5
+[STEP 95] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 96] | west of house you are standing in an open field west of a white house, || Action: climb tree                || Reward: 0, Score: 5
+[STEP 97] | you can't see any tree here!                                           || Action: look                      || Reward: 0, Score: 5
+[STEP 98] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 99] | west of house you are standing in an open field west of a white house, || Action: north                     || Reward: 0, Score: 5
+[STEP 100] | north of house                                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 101] | north of house you are facing the north side of a white house. there i || Action: south                     || Reward: 0, Score: 5
+[STEP 102] | the windows are all boarded.                                           || Action: look                      || Reward: 0, Score: 5
+[STEP 103] | north of house you are facing the north side of a white house. there i || Action: west                      || Reward: 0, Score: 5
+[STEP 104] | west of house there is a small mailbox here.                           || Action: look                      || Reward: 0, Score: 5
+[STEP 105] | west of house you are standing in an open field west of a white house, || Action: north                     || Reward: 0, Score: 5
+[STEP 106] | north of house                                                         || Action: north                     || Reward: 0, Score: 5
+[STEP 107] | forest path                                                            || Action: west                      || Reward: 0, Score: 5
+[STEP 108] | forest                                                                 || Action: look                      || Reward: 0, Score: 5
+[STEP 109] | forest this is a forest, with trees in all directions. to the east, th || Action: climb tree                || Reward: 0, Score: 5
+Run 6/10 finished. Score: 5
+
+--- EVALUATION SUMMARY (our method) ---
+Agent LLM Model: gpt-oss-20b
+Number of final evaluation runs: 10
+Individual Scores: [5, 5, 15, 0, 5, 5]
+Average Score: 5.83
+Standard Deviation: 4.92
+
+Starting game run 7/10...
+[DACS] enabled=True game=zork1
+[DACS] num raw candidates = 6 archived=0
+[DACS] num filtered candidates = 4
+[DACS] selected/reordered candidate ids = [2, 5, 4, 3]
+[DACS] candidate score table:
+  id | relevance | diversity | risk | final_score | summary
+  2 | 0.306 | 1.0 | 0.131 | 0.915 | **Guiding Prompt**   You are playing Zork. Your goal is to make efficient progre
+  5 | 0.456 | 0.668 | 0.186 | 0.727 | **Guiding Prompt**   You are playing Zork. Your objective is to finish the game 
+  4 | 0.344 | 0.643 | 0.17 | 0.613 | **Guiding Prompt**   You are playing the classic text adventure Zork. Your objec
+  3 | 0.419 | 0.607 | 0.199 | 0.583 | **Guiding Prompt**   You are playing Zork. Follow these precise steps to keep th
+[DACS] fallback=False
+Parent node 2 at depth 2 with UCB score: 15.428341183694672
+
+Evolving prompt. Current prompt: '**Guiding Prompt**  
+You are playing Zork. Your goal is to make efficient progre...'
+
+Current state extractor code: 'def extract_state(game_history):
+    milestones = []
+    if "open mailbox" in ga...'
+
+
+Evolution LLM returned invalid state extractor code, keeping current code
+Evolved guiding prompt and code: '**Guiding Prompt**  
+1. **Core Progress Actions**  
+   - **Open the mailbox** and **read the leaflet** – gives essential instructions.  
+   - **Climb the tree** and **take the egg** – important inventory item.  
+   - **Open the small window** that is slightly ajar and **enter through it** – provides entry to the house.  
+   - **Get the brass lantern** from the trophy case and **light it** – needed for dark areas.  
+   - **Get'
+def extract_state(game_history):
+    milestones = []
+    if "open mailbox" in game_history:
+        milestones.append("opened mailbox")
+    if "read leaflet" in game_history:
+        milestones.append("read leaflet")
+    if "take egg" in game_history or "egg" in game_history and "taken" in game_history:
+        milestones.append("collected egg")
+    if milestones:
+        return "Milestones: " + ", ".join(milestones) + "."
+    else:
+        return "No milestones achieved yet."
+[STEP 0] | Copyright (c) 1981, 1982, 1983 Infocom, Inc. All rights reserved. ZORK || Action: open mailbox              || Reward: 0, Score: 0
+[STEP 1] | opening the small mailbox reveals a leaflet.                           || Action: read leaflet              || Reward: 0, Score: 0
+[STEP 2] | (taken) "welcome to zork!  zork is a game of adventure, danger, and lo || Action: climb tree                || Reward: 0, Score: 0
+[STEP 3] | you can't see any tree here!                                           || Action: north                     || Reward: 0, Score: 0
+[STEP 4] | north of house you are facing the north side of a white house. there i || Action: north                     || Reward: 0, Score: 0
+[STEP 5] | forest path this is a path winding through a dimly lit forest. the pat || Action: climb tree                || Reward: 0, Score: 0
+[STEP 6] | up a tree you are about 10 feet above the ground nestled among some la || Action: take egg                  || Reward: 5, Score: 5
+[STEP 7] | taken.                                                                 || Action: down                      || Reward: 0, Score: 5
+[STEP 8] | forest path                                                            || Action: south                     || Reward: 0, Score: 5
+[STEP 9] | north of house                                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 10] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 11] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 12] | north of house you are facing the north side of a white house. there i || Action: west                      || Reward: 0, Score: 5
+[STEP 13] | west of house there is a small mailbox here.                           || Action: look                      || Reward: 0, Score: 5
+[STEP 14] | west of house you are standing in an open field west of a white house, || Action: open window               || Reward: 0, Score: 5
+[STEP 15] | you can't see any window here!                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 16] | west of house you are standing in an open field west of a white house, || Action: examine house             || Reward: 0, Score: 5
+[STEP 17] | the house is a beautiful colonial house which is painted white. it is  || Action: look window               || Reward: 0, Score: 5
+[STEP 18] | that sentence isn't one i recognize.                                   || Action: look                      || Reward: 0, Score: 5
+[STEP 19] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 20] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 21] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 22] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 23] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 24] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 25] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 26] | west of house you are standing in an open field west of a white house, || Action: look door                 || Reward: 0, Score: 5
+[STEP 27] | that sentence isn't one i recognize.                                   || Action: look                      || Reward: 0, Score: 5
+[STEP 28] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 29] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 30] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 31] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 32] | west of house you are standing in an open field west of a white house, || Action: look east                 || Reward: 0, Score: 5
+[STEP 33] | you used the word "east" in a way that i don't understand.             || Action: look                      || Reward: 0, Score: 5
+[STEP 34] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 35] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 36] | west of house you are standing in an open field west of a white house, || Action: east                      || Reward: 0, Score: 5
+[STEP 37] | the door is boarded and you can't remove the boards.                   || Action: look                      || Reward: 0, Score: 5
+[STEP 38] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 39] | west of house you are standing in an open field west of a white house, || Action: look south                || Reward: 0, Score: 5
+[STEP 40] | you used the word "south" in a way that i don't understand.            || Action: look                      || Reward: 0, Score: 5
+[STEP 41] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 42] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 43] | west of house you are standing in an open field west of a white house, || Action: look north                || Reward: 0, Score: 5
+[STEP 44] | you used the word "north" in a way that i don't understand.            || Action: look                      || Reward: 0, Score: 5
+[STEP 45] | west of house you are standing in an open field west of a white house, || Action: examine window            || Reward: 0, Score: 5
+[STEP 46] | you can't see any window here!                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 47] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 48] | west of house you are standing in an open field west of a white house, || Action: examine house             || Reward: 0, Score: 5
+[STEP 49] | the house is a beautiful colonial house which is painted white. it is  || Action: look                      || Reward: 0, Score: 5
+[STEP 50] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 51] | west of house you are standing in an open field west of a white house, || Action: search house              || Reward: 0, Score: 5
+[STEP 52] | you find nothing unusual.                                              || Action: look                      || Reward: 0, Score: 5
+[STEP 53] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 54] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 55] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 56] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 57] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 58] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 59] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 60] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 61] | west of house you are standing in an open field west of a white house, || Action: open window               || Reward: 0, Score: 5
+[STEP 62] | you can't see any window here!                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 63] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 64] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 65] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 66] | west of house you are standing in an open field west of a white house, || Action: look east                 || Reward: 0, Score: 5
+[STEP 67] | you used the word "east" in a way that i don't understand.             || Action: look                      || Reward: 0, Score: 5
+[STEP 68] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 69] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 70] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 71] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 72] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 73] | west of house you are standing in an open field west of a white house, || Action: open mailbox              || Reward: 0, Score: 5
+[STEP 74] | it is already open.                                                    || Action: read leaflet              || Reward: 0, Score: 5
+[STEP 75] | "welcome to zork!  zork is a game of adventure, danger, and low cunnin || Action: look                      || Reward: 0, Score: 5
+[STEP 76] | west of house you are standing in an open field west of a white house, || Action: climb tree                || Reward: 0, Score: 5
+[STEP 77] | you can't see any tree here!                                           || Action: north                     || Reward: 0, Score: 5
+[STEP 78] | north of house                                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 79] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 80] | north of house you are facing the north side of a white house. there i || Action: north                     || Reward: 0, Score: 5
+[STEP 81] | forest path                                                            || Action: north                     || Reward: 0, Score: 5
+[STEP 82] | clearing you are in a clearing, with a forest surrounding you on all s || Action: look                      || Reward: 0, Score: 5
+[STEP 83] | clearing you are in a clearing, with a forest surrounding you on all s || Action: north                     || Reward: 0, Score: 5
+[STEP 84] | the forest becomes impenetrable to the north.                          || Action: look                      || Reward: 0, Score: 5
+[STEP 85] | clearing you are in a clearing, with a forest surrounding you on all s || Action: look                      || Reward: 0, Score: 5
+[STEP 86] | clearing you are in a clearing, with a forest surrounding you on all s || Action: south                     || Reward: 0, Score: 5
+[STEP 87] | forest path                                                            || Action: look                      || Reward: 0, Score: 5
+[STEP 88] | forest path this is a path winding through a dimly lit forest. the pat || Action: climb tree                || Reward: 0, Score: 5
+[STEP 89] | up a tree beside you on the branch is a small bird's nest. you hear in || Action: take egg                  || Reward: 0, Score: 5
+[STEP 90] | you already have that! you hear in the distance the chirping of a song || Action: look                      || Reward: 0, Score: 5
+[STEP 91] | up a tree you are about 10 feet above the ground nestled among some la || Action: take egg                  || Reward: 0, Score: 5
+[STEP 92] | you already have that! you hear in the distance the chirping of a song || Action: down                      || Reward: 0, Score: 5
+[STEP 93] | forest path                                                            || Action: south                     || Reward: 0, Score: 5
+[STEP 94] | north of house                                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 95] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 96] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 97] | north of house you are facing the north side of a white house. there i || Action: south                     || Reward: 0, Score: 5
+[STEP 98] | the windows are all boarded.                                           || Action: look                      || Reward: 0, Score: 5
+[STEP 99] | north of house you are facing the north side of a white house. there i || Action: south                     || Reward: 0, Score: 5
+[STEP 100] | the windows are all boarded.                                           || Action: look                      || Reward: 0, Score: 5
+[STEP 101] | north of house you are facing the north side of a white house. there i || Action: examine house             || Reward: 0, Score: 5
+[STEP 102] | the house is a beautiful colonial house which is painted white. it is  || Action: look                      || Reward: 0, Score: 5
+[STEP 103] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 104] | north of house you are facing the north side of a white house. there i || Action: south                     || Reward: 0, Score: 5
+[STEP 105] | the windows are all boarded.                                           || Action: south                     || Reward: 0, Score: 5
+[STEP 106] | the windows are all boarded.                                           || Action: south                     || Reward: 0, Score: 5
+[STEP 107] | the windows are all boarded.                                           || Action: look                      || Reward: 0, Score: 5
+[STEP 108] | north of house you are facing the north side of a white house. there i || Action: south                     || Reward: 0, Score: 5
+[STEP 109] | the windows are all boarded.                                           || Action: look                      || Reward: 0, Score: 5
+Run 7/10 finished. Score: 5
+
+--- EVALUATION SUMMARY (our method) ---
+Agent LLM Model: gpt-oss-20b
+Number of final evaluation runs: 10
+Individual Scores: [5, 5, 15, 0, 5, 5, 5]
+Average Score: 5.71
+Standard Deviation: 4.50
+
+Starting game run 8/10...
+[DACS] enabled=True game=zork1
+[DACS] num raw candidates = 7 archived=0
+[DACS] num filtered candidates = 4
+[DACS] selected/reordered candidate ids = [6, 2, 5, 4]
+[DACS] candidate score table:
+  id | relevance | diversity | risk | final_score | summary
+  6 | 0.633 | 1.0 | 0.186 | 1.069 | **Guiding Prompt**   1. **Core Progress Actions**      - **Open the mailbox** an
+  2 | 0.295 | 0.817 | 0.126 | 0.815 | **Guiding Prompt**   You are playing Zork. Your goal is to make efficient progre
+  5 | 0.442 | 0.668 | 0.193 | 0.708 | **Guiding Prompt**   You are playing Zork. Your objective is to finish the game 
+  4 | 0.358 | 0.643 | 0.175 | 0.623 | **Guiding Prompt**   You are playing the classic text adventure Zork. Your objec
+[DACS] fallback=False
+Parent node 2 at depth 2 with UCB score: 15.399260515717009
+
+Evolving prompt. Current prompt: '**Guiding Prompt**  
+You are playing Zork. Your goal is to make efficient progre...'
+
+Current state extractor code: 'def extract_state(game_history):
+    milestones = []
+    if "open mailbox" in ga...'
+
+
+Updated state extractor code successfully.
+Evolved guiding prompt and code: '**Guiding Prompt**  
+You are playing Zork. Your objective is to accomplish the following milestones in the most efficient way possible. Execute only the actions that are known to advance the game or reveal new information. Do not perform actions that have repeatedly produced no new content or that are known to cause loops.  
+
+**Step‑by‑Step Milestones**  
+1. **Open the mailbox** – The mailbox contains the game’s introductory leaflet.  
+   - Command: `open mailbox`  
+2. **Read the leaflet** – The leaflet contains the game’s lore and hint that the egg is in a nearby tree.  
+   - Command: `read leaflet`  
+3. **Climb the tree** – The tree holds the valuable egg.  
+   - Command: `climb tree` (only if the tree is present; if “you can't see any tree here!” is seen, skip to step 4)  
+4. **Take the egg** – The egg is a key item for later.  
+   - Command: `take egg`  
+5. **Open the small window** – The window is the only entrance to the house.  
+   - Command: `open window` (only after verifying “a small window which is slightly ajar” is present)  
+6. **Enter through the window** – This moves the agent inside the house.  
+   - Command: `enter window`  
+7. **Get the lantern** – The lantern illuminates dark areas.  
+   - Command: `get lantern`  
+8. **Get the knife** – The knife may be needed for future tasks.  
+   - Command: `get knife`  
+
+**Disallowed / Unproductive Actions**  
+- Repeated `look`, `search`, or `examine` in the same room when the state says “nothing special” or “you find nothing unusual.”  
+- `climb tree` or `take egg` when the tree is not present.  
+- Moving back and forth between already visited rooms without new objects.  
+- `examine house` or `search house` when the agent is not at the house.  
+- Any action that yields “you are not at the house” or “that sentence isn't one I recognize.”  
+
+**When Stuck or Reaching a Knowledge Limit**  
+1. List all rooms that have only had a single `look` or `examine` and have not yielded a new object or clue.  
+2. For each such room, note any objects, doors, or windows that appear in the state description.  
+3. Propose a systematic plan:  
+   - Move to the next lightly explored room.  
+   - Perform a single `look` followed by an `examine` on every described object.  
+   - If a door or window is present, try opening or entering it.  
+4. Record any new items discovered and add them to the inventory list.  
+
+Follow this plan exactly; do not deviate to speculative actions that have previously led to loops or no new information.
+
+**State Extractor**'
+def extract_state(game_history):
+    milestones = []
+    if "opening the small mailbox reveals a leaflet" in game_history:
+        milestones.append("opened mailbox")
+    if "read leaflet" in game_history or "read leaflet" in game_history.lower():
+        milestones.append("read leaflet")
+    if "climb tree" in game_history and "egg" in game_history:
+        milestones.append("collected egg")
+    if "open window" in game_history:
+        milestones.append("opened window")
+    if "enter window" in game_history:
+        milestones.append("entered house")
+    if "get lantern" in game_history or "taken" in game_history and "lantern" in game_history:
+        milestones.append("obtained lantern")
+    if "get knife" in game_history or "taken" in game_history and "knife" in game_history:
+        milestones.append("obtained knife")
+    return ", ".join(milestones) if milestones else "No milestones detected."
+[STEP 0] | Copyright (c) 1981, 1982, 1983 Infocom, Inc. All rights reserved. ZORK || Action: open mailbox              || Reward: 0, Score: 0
+[STEP 1] | opening the small mailbox reveals a leaflet.                           || Action: open mailbox              || Reward: 0, Score: 0
+[STEP 2] | it is already open.                                                    || Action: read leaflet              || Reward: 0, Score: 0
+[STEP 3] | (taken) "welcome to zork!  zork is a game of adventure, danger, and lo || Action: climb tree                || Reward: 0, Score: 0
+[STEP 4] | you can't see any tree here!                                           || Action: east                      || Reward: 0, Score: 0
+[STEP 5] | the door is boarded and you can't remove the boards.                   || Action: look                      || Reward: 0, Score: 0
+[STEP 6] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 7] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 8] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 9] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 10] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 11] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 12] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 13] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 14] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 15] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 16] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 17] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 18] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 19] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 20] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 21] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 22] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 23] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 24] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 25] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 0
+[STEP 26] | west of house you are standing in an open field west of a white house, || Action: north                     || Reward: 0, Score: 0
+[STEP 27] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 0
+[STEP 28] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 0
+[STEP 29] | north of house you are facing the north side of a white house. there i || Action: south                     || Reward: 0, Score: 0
+[STEP 30] | the windows are all boarded.                                           || Action: look                      || Reward: 0, Score: 0
+[STEP 31] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 0
+[STEP 32] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 0
+[STEP 33] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 0
+[STEP 34] | north of house you are facing the north side of a white house. there i || Action: north                     || Reward: 0, Score: 0
+[STEP 35] | forest path this is a path winding through a dimly lit forest. the pat || Action: climb tree                || Reward: 0, Score: 0
+[STEP 36] | up a tree you are about 10 feet above the ground nestled among some la || Action: take egg                  || Reward: 5, Score: 5
+[STEP 37] | taken.                                                                 || Action: look                      || Reward: 0, Score: 5
+[STEP 38] | up a tree you are about 10 feet above the ground nestled among some la || Action: down                      || Reward: 0, Score: 5
+[STEP 39] | forest path                                                            || Action: look                      || Reward: 0, Score: 5
+[STEP 40] | forest path this is a path winding through a dimly lit forest. the pat || Action: south                     || Reward: 0, Score: 5
+[STEP 41] | north of house                                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 42] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 43] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 44] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 45] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 46] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 47] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 48] | north of house you are facing the north side of a white house. there i || Action: west                      || Reward: 0, Score: 5
+[STEP 49] | west of house there is a small mailbox here.                           || Action: look                      || Reward: 0, Score: 5
+[STEP 50] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 51] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 52] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 53] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 54] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 55] | west of house you are standing in an open field west of a white house, || Action: east                      || Reward: 0, Score: 5
+[STEP 56] | the door is boarded and you can't remove the boards.                   || Action: look                      || Reward: 0, Score: 5
+[STEP 57] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 58] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 59] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 60] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 61] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 62] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 63] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 64] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 65] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 66] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 67] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 68] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 69] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 70] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 71] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 72] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 73] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 74] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 75] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 76] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 77] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 78] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 79] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 80] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 81] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 82] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 83] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 84] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 85] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 86] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 87] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 88] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 89] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 90] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 91] | west of house you are standing in an open field west of a white house, || Action: east                      || Reward: 0, Score: 5
+[STEP 92] | the door is boarded and you can't remove the boards.                   || Action: look                      || Reward: 0, Score: 5
+[STEP 93] | west of house you are standing in an open field west of a white house, || Action: open window               || Reward: 0, Score: 5
+[STEP 94] | you can't see any window here!                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 95] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 96] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 97] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 98] | west of house you are standing in an open field west of a white house, || Action: north                     || Reward: 0, Score: 5
+[STEP 99] | north of house                                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 100] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 101] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 102] | north of house you are facing the north side of a white house. there i || Action: east                      || Reward: 0, Score: 5
+[STEP 103] | behind house you are behind the white house. a path leads into the for || Action: enter window              || Reward: 0, Score: 5
+[STEP 104] | the kitchen window is closed.                                          || Action: look                      || Reward: 0, Score: 5
+[STEP 105] | behind house you are behind the white house. a path leads into the for || Action: open window               || Reward: 0, Score: 5
+[STEP 106] | with great effort, you open the window far enough to allow entry.      || Action: enter window              || Reward: 10, Score: 15
+[STEP 107] | kitchen you are in the kitchen of the white house. a table seems to ha || Action: examine sack              || Reward: 0, Score: 15
+[STEP 108] | the brown sack is closed.                                              || Action: open sack                 || Reward: 0, Score: 15
+[STEP 109] | opening the brown sack reveals a lunch, and a clove of garlic.         || Action: look                      || Reward: 0, Score: 15
+Run 8/10 finished. Score: 15
+
+--- EVALUATION SUMMARY (our method) ---
+Agent LLM Model: gpt-oss-20b
+Number of final evaluation runs: 10
+Individual Scores: [5, 5, 15, 0, 5, 5, 5, 15]
+Average Score: 6.88
+Standard Deviation: 5.30
+
+Starting game run 9/10...
+[DACS] enabled=True game=zork1
+[DACS] num raw candidates = 8 archived=0
+[DACS] num filtered candidates = 4
+[DACS] selected/reordered candidate ids = [7, 6, 2, 5]
+[DACS] candidate score table:
+  id | relevance | diversity | risk | final_score | summary
+  7 | 0.341 | 1.0 | 0.141 | 0.942 | **Guiding Prompt**   You are playing Zork. Your objective is to accomplish the f
+  6 | 0.472 | 0.803 | 0.144 | 0.84 | **Guiding Prompt**   1. **Core Progress Actions**      - **Open the mailbox** an
+  2 | 0.237 | 0.696 | 0.107 | 0.71 | **Guiding Prompt**   You are playing Zork. Your goal is to make efficient progre
+  5 | 0.418 | 0.664 | 0.17 | 0.697 | **Guiding Prompt**   You are playing Zork. Your objective is to finish the game 
+[DACS] fallback=False
+Parent node 7 at depth 3 with UCB score: 15.738317765939652
+
+Evolving prompt. Current prompt: '**Guiding Prompt**  
+You are playing Zork. Your objective is to accomplish the f...'
+
+Current state extractor code: 'def extract_state(game_history):
+    milestones = []
+    if "opening the small m...'
+
+
+Updated state extractor code successfully.
+Evolved guiding prompt and code: '**Guiding Prompt**  
+You are playing Zork. Your goal is to collect the egg, enter the house, and obtain the lantern and knife as quickly as possible. Follow only the actions that are guaranteed to advance the game or reveal new items. Avoid actions that have produced no new information, caused loops, or wasted time.  
+
+**Required Actions (in order)**  
+1. `open mailbox` – The mailbox contains the introductory leaflet.  
+2. `read leaflet` – The leaflet contains the hint that the egg is in a tree.  
+3. `north` – Move toward the tree described in the leaflet.  
+4. `climb tree` – The tree holds the egg.  
+5. `take egg` – Pick up the egg.  
+6. `south` – Return to the house.  
+7. `open window` – The small window is the only entrance to the house.  
+8. `enter window` – Move inside the house.  
+9. `look` – Examine the kitchen.  
+10. `examine sack` – The brown sack may contain useful items.  
+11. `open sack` – Open the sack.  
+12. `take lantern` – Pick up the lantern.  
+13. `take knife` – Pick up the knife.  
+
+**Disallowed / Unproductive Actions**  
+- Repeating `look`, `search`, or `examine` in the same location when the description says “nothing special” or “you find nothing unusual.”  
+- `climb tree` or `take egg` when the tree is not present.  
+- Moving back and forth between already visited rooms without discovering a new object or clue.  
+- `open window` when the state indicates “you can't see any window here!”  
+- `enter window` when not at the small window.  
+- `take lantern` or `take knife` when they are not in the current room.  
+
+**When Stuck or Knowledge Exhausted**  
+1. Identify all rooms that have been visited only once with a `look` and have produced no new items.  
+2. For each such room, list the objects, doors, or windows mentioned in the description.  
+3. Choose the next lightly‑searched room and perform a single `look` followed by an `examine` on every object in that room.  
+4. If a door or window is present, try opening or entering it.  
+5. Record any new items found and add them to the inventory list.  
+6. Repeat the cycle until all required items are collected or a new path appears.  
+
+**State Extractor**'
+def extract_state(game_history):
+    state = []
+    if "opening the small mailbox reveals a leaflet" in game_history:
+        state.append("Mailbox opened")
+    if "the leaflet is inside the opened mailbox" in game_history or "welcome to zork" in game_history:
+        state.append("Leaflet read")
+    if "large egg" in game_history:
+        state.append("Egg collected")
+    if "small window slightly ajar" in game_history or "open window" in game_history:
+        state.append("Window opened")
+    if "you are in the kitchen" in game_history or "kitchen" in game_history:
+        state.append("House entered")
+    if "lantern" in game_history and ("in the kitchen" in game_history or "in a sack" in game_history):
+        state.append("Lantern obtained")
+    if "knife" in game_history and ("in the kitchen" in game_history or "in a sack" in game_history):
+        state.append("Knife obtained")
+    return ", ".join(state) if state else "No milestones"
+[STEP 0] | Copyright (c) 1981, 1982, 1983 Infocom, Inc. All rights reserved. ZORK || Action: open mailbox              || Reward: 0, Score: 0
+[STEP 1] | opening the small mailbox reveals a leaflet.                           || Action: read leaflet              || Reward: 0, Score: 0
+[STEP 2] | (taken) "welcome to zork!  zork is a game of adventure, danger, and lo || Action: north                     || Reward: 0, Score: 0
+[STEP 3] | north of house you are facing the north side of a white house. there i || Action: climb tree                || Reward: 0, Score: 0
+[STEP 4] | you can't see any tree here!                                           || Action: north                     || Reward: 0, Score: 0
+[STEP 5] | forest path this is a path winding through a dimly lit forest. the pat || Action: climb tree                || Reward: 0, Score: 0
+[STEP 6] | up a tree you are about 10 feet above the ground nestled among some la || Action: take egg                  || Reward: 5, Score: 5
+[STEP 7] | taken.                                                                 || Action: climb down                || Reward: 0, Score: 5
+[STEP 8] | (down the tree) forest path                                            || Action: south                     || Reward: 0, Score: 5
+[STEP 9] | north of house                                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 10] | north of house you are facing the north side of a white house. there i || Action: open window               || Reward: 0, Score: 5
+[STEP 11] | the windows are boarded and can't be opened.                           || Action: look                      || Reward: 0, Score: 5
+[STEP 12] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 13] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 14] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 15] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 16] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 17] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 18] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 19] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 20] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 21] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 22] | north of house you are facing the north side of a white house. there i || Action: break window              || Reward: 0, Score: 5
+[STEP 23] | what do you want to break the window with?                             || Action: look                      || Reward: 0, Score: 5
+[STEP 24] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 25] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 26] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 27] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 28] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 29] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 30] | north of house you are facing the north side of a white house. there i || Action: break window with egg     || Reward: 0, Score: 5
+[STEP 31] | trying to destroy the boarded window with a jewel-encrusted egg is fut || Action: look                      || Reward: 0, Score: 5
+[STEP 32] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 33] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 34] | north of house you are facing the north side of a white house. there i || Action: south                     || Reward: 0, Score: 5
+[STEP 35] | the windows are all boarded.                                           || Action: look                      || Reward: 0, Score: 5
+[STEP 36] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 37] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 38] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 39] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 40] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 41] | north of house you are facing the north side of a white house. there i || Action: open window               || Reward: 0, Score: 5
+[STEP 42] | the windows are boarded and can't be opened.                           || Action: look                      || Reward: 0, Score: 5
+[STEP 43] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 44] | north of house you are facing the north side of a white house. there i || Action: north                     || Reward: 0, Score: 5
+[STEP 45] | forest path                                                            || Action: look                      || Reward: 0, Score: 5
+[STEP 46] | forest path this is a path winding through a dimly lit forest. the pat || Action: look                      || Reward: 0, Score: 5
+[STEP 47] | forest path this is a path winding through a dimly lit forest. the pat || Action: examine tree              || Reward: 0, Score: 5
+[STEP 48] | there's nothing special about the tree. you hear in the distance the c || Action: search                    || Reward: 0, Score: 5
+[STEP 49] | what do you want to search?                                            || Action: look                      || Reward: 0, Score: 5
+[STEP 50] | forest path this is a path winding through a dimly lit forest. the pat || Action: search ground             || Reward: 0, Score: 5
+[STEP 51] | you find nothing unusual.                                              || Action: look                      || Reward: 0, Score: 5
+[STEP 52] | forest path this is a path winding through a dimly lit forest. the pat || Action: look                      || Reward: 0, Score: 5
+[STEP 53] | forest path this is a path winding through a dimly lit forest. the pat || Action: look                      || Reward: 0, Score: 5
+[STEP 54] | forest path this is a path winding through a dimly lit forest. the pat || Action: look                      || Reward: 0, Score: 5
+[STEP 55] | forest path this is a path winding through a dimly lit forest. the pat || Action: look                      || Reward: 0, Score: 5
+[STEP 56] | forest path this is a path winding through a dimly lit forest. the pat || Action: look                      || Reward: 0, Score: 5
+[STEP 57] | forest path this is a path winding through a dimly lit forest. the pat || Action: look                      || Reward: 0, Score: 5
+[STEP 58] | forest path this is a path winding through a dimly lit forest. the pat || Action: look                      || Reward: 0, Score: 5
+[STEP 59] | forest path this is a path winding through a dimly lit forest. the pat || Action: look                      || Reward: 0, Score: 5
+[STEP 60] | forest path this is a path winding through a dimly lit forest. the pat || Action: look                      || Reward: 0, Score: 5
+[STEP 61] | forest path this is a path winding through a dimly lit forest. the pat || Action: look                      || Reward: 0, Score: 5
+[STEP 62] | forest path this is a path winding through a dimly lit forest. the pat || Action: look                      || Reward: 0, Score: 5
+[STEP 63] | forest path this is a path winding through a dimly lit forest. the pat || Action: look                      || Reward: 0, Score: 5
+[STEP 64] | forest path this is a path winding through a dimly lit forest. the pat || Action: south                     || Reward: 0, Score: 5
+[STEP 65] | north of house                                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 66] | north of house you are facing the north side of a white house. there i || Action: south                     || Reward: 0, Score: 5
+[STEP 67] | the windows are all boarded.                                           || Action: look                      || Reward: 0, Score: 5
+[STEP 68] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 69] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 70] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 71] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 72] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 73] | north of house you are facing the north side of a white house. there i || Action: open window               || Reward: 0, Score: 5
+[STEP 74] | the windows are boarded and can't be opened.                           || Action: look                      || Reward: 0, Score: 5
+[STEP 75] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 76] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 77] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 78] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 79] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 80] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 81] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 82] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 83] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 84] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 85] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 86] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 87] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 88] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 89] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 90] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 91] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 92] | north of house you are facing the north side of a white house. there i || Action: west                      || Reward: 0, Score: 5
+[STEP 93] | west of house there is a small mailbox here.                           || Action: look                      || Reward: 0, Score: 5
+[STEP 94] | west of house you are standing in an open field west of a white house, || Action: east                      || Reward: 0, Score: 5
+[STEP 95] | the door is boarded and you can't remove the boards.                   || Action: look                      || Reward: 0, Score: 5
+[STEP 96] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 97] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 98] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 99] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 100] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 101] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 102] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 103] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 104] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 105] | west of house you are standing in an open field west of a white house, || Action: examine mailbox           || Reward: 0, Score: 5
+[STEP 106] | the small mailbox is empty.                                            || Action: look                      || Reward: 0, Score: 5
+[STEP 107] | west of house you are standing in an open field west of a white house, || Action: look                      || Reward: 0, Score: 5
+[STEP 108] | west of house you are standing in an open field west of a white house, || Action: south                     || Reward: 0, Score: 5
+[STEP 109] | south of house you are facing the south side of a white house. there i || Action: open window               || Reward: 0, Score: 5
+Run 9/10 finished. Score: 5
+
+--- EVALUATION SUMMARY (our method) ---
+Agent LLM Model: gpt-oss-20b
+Number of final evaluation runs: 10
+Individual Scores: [5, 5, 15, 0, 5, 5, 5, 15, 5]
+Average Score: 6.67
+Standard Deviation: 5.00
+
+Starting game run 10/10...
+[DACS] enabled=True game=zork1
+[DACS] num raw candidates = 9 archived=0
+[DACS] num filtered candidates = 4
+[DACS] selected/reordered candidate ids = [6, 2, 7, 5]
+[DACS] candidate score table:
+  id | relevance | diversity | risk | final_score | summary
+  6 | 0.43 | 1.0 | 0.119 | 0.914 | **Guiding Prompt**   1. **Core Progress Actions**      - **Open the mailbox** an
+  2 | 0.233 | 0.817 | 0.114 | 0.761 | **Guiding Prompt**   You are playing Zork. Your goal is to make efficient progre
+  7 | 0.232 | 0.696 | 0.144 | 0.679 | **Guiding Prompt**   You are playing Zork. Your objective is to accomplish the f
+  5 | 0.369 | 0.664 | 0.155 | 0.659 | **Guiding Prompt**   You are playing Zork. Your objective is to finish the game 
+[DACS] fallback=False
+Parent node 7 at depth 3 with UCB score: 15.536651301871721
+
+Evolving prompt. Current prompt: '**Guiding Prompt**  
+You are playing Zork. Your objective is to accomplish the f...'
+
+Current state extractor code: 'def extract_state(game_history):
+    milestones = []
+    if "opening the small m...'
+
+
+Updated state extractor code successfully.
+Evolved guiding prompt and code: '**Guiding Prompt**  
+You are a text‑adventure agent in the classic game Zork. Your goal is to finish the game in the fewest actions.  
+Only act when the game state shows a new object, a new location, or a new opportunity to move.  
+Disregard any action that has never advanced the state, or that has repeatedly produced the same “nothing new” output.  
+When you can no longer advance because the history shows you have tried all obvious actions, list the rooms that have been visited only once and are still potentially unexplored, then plan a systematic search of each room, examining every visible object, opening doors or windows, and picking up any items that appear.
+
+**Strictly Required Actions (in order)**  
+
+1. **Open the mailbox** – `open mailbox`  
+2. **Read the leaflet** – `read leaflet`  
+3. **Climb the tree** – `climb tree` (only after confirming “there is a large tree” in the description)  
+4. **Take the egg** – `take egg`  
+5. **Return to the house** – move `south` from the forest path until you are “west of house” or “north of house” as needed.  
+6. **Find the small window** – The correct window is on the *behind* side of the house.  
+   - From the house, move `south` to the back (state “behind house”), then look for “small window” in the description.  
+7. **Open that window** – `open window` (only after confirming the window is present)  
+8. **Enter through the window** – `enter window`  
+9. **Find the kitchen** – after entering, you will be in the kitchen.  
+10. **Examine the brown sack** – `examine sack`  
+11. **Open the sack** – `open sack`  
+12. **Pick up the lantern and knife** – `get lantern`, `get knife` (if they are listed among the sack’s contents).  
+
+**Disallowed / Unproductive Actions**  
+
+- Repeated `look` or `examine` in the same room when the description says “nothing special” or “you find nothing unusual.”  
+- `climb tree` or `take egg` when the tree is not present.  
+- Moving back and forth between already visited rooms without encountering a new object or clue.  
+- `open window` or `enter window` in any room that does not mention a small window.  
+- `enter house` or `enter kitchen` commands that are not preceded by a successful `open window`.  
+- Any command that produces “you are not at the house” or “that sentence isn't one I recognize.”  
+
+**When Stuck or Knowledge Exhausted**  
+
+1. List all rooms that have been visited only once and have not yielded any new objects or clues.  
+2. For each such room, note any objects, doors, or windows mentioned in the state description.  
+3. Propose a systematic plan:  
+   - Move to the next lightly explored room.  
+   - Perform a single `look`, then `examine` each object that is described.  
+   - If a door or window is present, try `open` or `enter`.  
+4. Record any new items discovered and add them to the inventory list.  
+
+Follow this plan exactly; do not deviate to speculative actions that have previously led to loops or no new information.  
+
+**State Extractor**'
+def extract_state(game_history):
+    milestones = []
+    if "open mailbox" in game_history and "you open the small mailbox" in game_history:
+        milestones.append("Mailbox opened")
+    if "read leaflet" in game_history and "welcome to zork" in game_history:
+        milestones.append("Leaflet read")
+    if "climb tree" in game_history and "you are about 10 feet above the ground" in game_history:
+        milestones.append("Tree climbed")
+    if "take egg" in game_history and "taken" in game_history.splitlines()[-1]:
+        milestones.append("Egg taken")
+    if "open window" in game_history and "you open the small window" in game_history:
+        milestones.append("Window opened")
+    if "enter window" in game_history and "you are in the kitchen" in game_history:
+        milestones.append("Entered house")
+    if "open sack" in game_history and "opening the brown sack reveals a lunch" in game_history:
+        milestones.append("Sack opened")
+    if "get lantern" in game_history and "lantern" in game_history:
+        milestones.append("Lantern obtained")
+    if "get knife" in game_history and "knife" in game_history:
+        milestones.append("Knife obtained")
+    return ", ".join(milestones) if milestones else "No milestones achieved"
+[STEP 0] | Copyright (c) 1981, 1982, 1983 Infocom, Inc. All rights reserved. ZORK || Action: open mailbox              || Reward: 0, Score: 0
+[STEP 1] | opening the small mailbox reveals a leaflet.                           || Action: read leaflet              || Reward: 0, Score: 0
+[STEP 2] | (taken) "welcome to zork!  zork is a game of adventure, danger, and lo || Action: look                      || Reward: 0, Score: 0
+[STEP 3] | west of house you are standing in an open field west of a white house, || Action: north                     || Reward: 0, Score: 0
+[STEP 4] | north of house you are facing the north side of a white house. there i || Action: north                     || Reward: 0, Score: 0
+[STEP 5] | forest path this is a path winding through a dimly lit forest. the pat || Action: climb tree                || Reward: 0, Score: 0
+[STEP 6] | up a tree you are about 10 feet above the ground nestled among some la || Action: take egg                  || Reward: 5, Score: 5
+[STEP 7] | taken.                                                                 || Action: down                      || Reward: 0, Score: 5
+[STEP 8] | forest path                                                            || Action: south                     || Reward: 0, Score: 5
+[STEP 9] | north of house                                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 10] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 11] | north of house you are facing the north side of a white house. there i || Action: south                     || Reward: 0, Score: 5
+[STEP 12] | the windows are all boarded.                                           || Action: look                      || Reward: 0, Score: 5
+[STEP 13] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 14] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 15] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 16] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 17] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 18] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 19] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 20] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 21] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 22] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 23] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 24] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 25] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 26] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 27] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 28] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 29] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 30] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 31] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 32] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 33] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 34] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 35] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 36] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 37] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 38] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 39] | north of house you are facing the north side of a white house. there i || Action: south                     || Reward: 0, Score: 5
+[STEP 40] | the windows are all boarded.                                           || Action: look                      || Reward: 0, Score: 5
+[STEP 41] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 42] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 43] | north of house you are facing the north side of a white house. there i || Action: south                     || Reward: 0, Score: 5
+[STEP 44] | the windows are all boarded.                                           || Action: look                      || Reward: 0, Score: 5
+[STEP 45] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 46] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 47] | north of house you are facing the north side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 48] | north of house you are facing the north side of a white house. there i || Action: west                      || Reward: 0, Score: 5
+[STEP 49] | west of house there is a small mailbox here.                           || Action: open mailbox              || Reward: 0, Score: 5
+[STEP 50] | it is already open.                                                    || Action: south                     || Reward: 0, Score: 5
+[STEP 51] | south of house you are facing the south side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 52] | south of house you are facing the south side of a white house. there i || Action: look                      || Reward: 0, Score: 5
+[STEP 53] | south of house you are facing the south side of a white house. there i || Action: south                     || Reward: 0, Score: 5
+[STEP 54] | forest this is a dimly lit forest, with large trees all around.        || Action: climb tree                || Reward: 0, Score: 5
+[STEP 55] | there is no tree here suitable for climbing.                           || Action: look                      || Reward: 0, Score: 5
+[STEP 56] | forest this is a dimly lit forest, with large trees all around.        || Action: look                      || Reward: 0, Score: 5
+[STEP 57] | forest this is a dimly lit forest, with large trees all around. you he || Action: look                      || Reward: 0, Score: 5
+[STEP 58] | forest this is a dimly lit forest, with large trees all around. you he || Action: look                      || Reward: 0, Score: 5
+[STEP 59] | forest this is a dimly lit forest, with large trees all around.        || Action: look                      || Reward: 0, Score: 5
+[STEP 60] | forest this is a dimly lit forest, with large trees all around. you he || Action: look                      || Reward: 0, Score: 5
+[STEP 61] | forest this is a dimly lit forest, with large trees all around.        || Action: look                      || Reward: 0, Score: 5
+[STEP 62] | forest this is a dimly lit forest, with large trees all around.        || Action: look                      || Reward: 0, Score: 5
+[STEP 63] | forest this is a dimly lit forest, with large trees all around.        || Action: look                      || Reward: 0, Score: 5
+[STEP 64] | forest this is a dimly lit forest, with large trees all around.        || Action: look                      || Reward: 0, Score: 5
+[STEP 65] | forest this is a dimly lit forest, with large trees all around.        || Action: look                      || Reward: 0, Score: 5
+[STEP 66] | forest this is a dimly lit forest, with large trees all around. you he || Action: north                     || Reward: 0, Score: 5
+[STEP 67] | clearing you are in a small clearing in a well marked forest path that || Action: look                      || Reward: 0, Score: 5
+[STEP 68] | clearing you are in a small clearing in a well marked forest path that || Action: look                      || Reward: 0, Score: 5
+[STEP 69] | clearing you are in a small clearing in a well marked forest path that || Action: north                     || Reward: 0, Score: 5
+[STEP 70] | forest this is a dimly lit forest, with large trees all around.        || Action: look                      || Reward: 0, Score: 5
+[STEP 71] | forest this is a dimly lit forest, with large trees all around.        || Action: look                      || Reward: 0, Score: 5
+[STEP 72] | forest this is a dimly lit forest, with large trees all around. you he || Action: look                      || Reward: 0, Score: 5
+[STEP 73] | forest this is a dimly lit forest, with large trees all around.        || Action: look                      || Reward: 0, Score: 5
+[STEP 74] | forest this is a dimly lit forest, with large trees all around.        || Action: look                      || Reward: 0, Score: 5
+[STEP 75] | forest this is a dimly lit forest, with large trees all around.        || Action: look                      || Reward: 0, Score: 5
+[STEP 76] | forest this is a dimly lit forest, with large trees all around. you he || Action: look                      || Reward: 0, Score: 5
+[STEP 77] | forest this is a dimly lit forest, with large trees all around.        || Action: look                      || Reward: 0, Score: 5
+[STEP 78] | forest this is a dimly lit forest, with large trees all around.        || Action: look                      || Reward: 0, Score: 5
+[STEP 79] | forest this is a dimly lit forest, with large trees all around.        || Action: look                      || Reward: 0, Score: 5
+[STEP 80] | forest this is a dimly lit forest, with large trees all around.        || Action: look                      || Reward: 0, Score: 5
+[STEP 81] | forest this is a dimly lit forest, with large trees all around.        || Action: look                      || Reward: 0, Score: 5
+[STEP 82] | forest this is a dimly lit forest, with large trees all around.        || Action: look                      || Reward: 0, Score: 5
+[STEP 83] | forest this is a dimly lit forest, with large trees all around.        || Action: look                      || Reward: 0, Score: 5
+[STEP 84] | forest this is a dimly lit forest, with large trees all around.        || Action: north                     || Reward: 0, Score: 5
+[STEP 85] | the forest becomes impenetrable to the north.                          || Action: look                      || Reward: 0, Score: 5
+[STEP 86] | forest this is a dimly lit forest, with large trees all around.        || Action: climb tree                || Reward: 0, Score: 5
+[STEP 87] | there is no tree here suitable for climbing.                           || Action: look                      || Reward: 0, Score: 5
+[STEP 88] | forest this is a dimly lit forest, with large trees all around.        || Action: look                      || Reward: 0, Score: 5
+[STEP 89] | forest this is a dimly lit forest, with large trees all around. you he || Action: look                      || Reward: 0, Score: 5
+[STEP 90] | forest this is a dimly lit forest, with large trees all around.        || Action: south                     || Reward: 0, Score: 5
+[STEP 91] | clearing                                                               || Action: look                      || Reward: 0, Score: 5
+[STEP 92] | clearing you are in a small clearing in a well marked forest path that || Action: look                      || Reward: 0, Score: 5
+[STEP 93] | clearing you are in a small clearing in a well marked forest path that || Action: look                      || Reward: 0, Score: 5
+[STEP 94] | clearing you are in a small clearing in a well marked forest path that || Action: look                      || Reward: 0, Score: 5
+[STEP 95] | clearing you are in a small clearing in a well marked forest path that || Action: look                      || Reward: 0, Score: 5
+[STEP 96] | clearing you are in a small clearing in a well marked forest path that || Action: look                      || Reward: 0, Score: 5
+[STEP 97] | clearing you are in a small clearing in a well marked forest path that || Action: open mailbox              || Reward: 0, Score: 5
+[STEP 98] | you can't see any mailbox here!                                        || Action: look                      || Reward: 0, Score: 5
+[STEP 99] | clearing you are in a small clearing in a well marked forest path that || Action: east                      || Reward: 0, Score: 5
+[STEP 100] | canyon view you are at the top of the great canyon on its west wall. f || Action: south                     || Reward: 0, Score: 5
+[STEP 101] | storm-tossed trees block your way.                                     || Action:                           || Reward: 0, Score: 5
+[STEP 102] | i beg your pardon?                                                     || Action: look                      || Reward: 0, Score: 5
+[STEP 103] | canyon view you are at the top of the great canyon on its west wall. f || Action: northwest                 || Reward: 0, Score: 5
+[STEP 104] | clearing                                                               || Action: west                      || Reward: 0, Score: 5
+[STEP 105] | behind house you are behind the white house. a path leads into the for || Action: open window               || Reward: 0, Score: 5
+[STEP 106] | with great effort, you open the window far enough to allow entry.      || Action: enter window              || Reward: 10, Score: 15
+[STEP 107] | kitchen you are in the kitchen of the white house. a table seems to ha || Action: examine sack              || Reward: 0, Score: 15
+[STEP 108] | the brown sack is closed.                                              || Action: open sack                 || Reward: 0, Score: 15
+[STEP 109] | opening the brown sack reveals a lunch, and a clove of garlic.         || Action: look                      || Reward: 0, Score: 15
+Run 10/10 finished. Score: 15
+
+--- EVALUATION SUMMARY (our method) ---
+Agent LLM Model: gpt-oss-20b
+Number of final evaluation runs: 10
+Individual Scores: [5, 5, 15, 0, 5, 5, 5, 15, 5, 15]
+Average Score: 7.50
+Standard Deviation: 5.40
+Evaluation completed successfully!

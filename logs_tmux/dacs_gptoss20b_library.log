@@ -1,0 +1,1958 @@
+
+--- STARTING EVALUATION ---
+Game: library, Agent LLM Model: gpt-oss-20b
+Agent Type: our, Runs for statistics: 10
+Base Seed for evaluation session: 0
+Episode logs and summary will be in: output/library/our/gpt-oss-20b/20260616-062030
+
+Starting game run 1/10...
+Using initial prompt and code: 'Explore systematically and examine objects to make progress.'
+
+def extract_state(game_history):
+    return "Game in progress."
+
+[STEP 0] |                                                             ALL QUIET  || Action: west                      || Reward: 0, Score: 0
+[STEP 1] |  you push the glass doors open. their hydraulics hiss faintly.  ground || Action: ask librarian about Nelson || Reward: 0, Score: 0
+[STEP 2] | "ah, that valuable book. we keep it locked away, in the rare books roo || Action: ask librarian about key   || Reward: 0, Score: 0
+[STEP 3] | "the key may be obtained at the circulation desk."                     || Action: east                      || Reward: 0, Score: 0
+[STEP 4] |  lobby this is the entrance to the library. the circulation desk domin || Action: ask attendant about key   || Reward: 0, Score: 0
+[STEP 5] | "you need to give me your id card in order to get the key to the rare  || Action: examine card catalog      || Reward: 0, Score: 0
+[STEP 6] | almost no light penetrates this corner of the room. the card catalog i || Action: look                      || Reward: 0, Score: 0
+[STEP 7] |  lobby this is the entrance to the library. the circulation desk domin || Action: open catalog              || Reward: 0, Score: 0
+[STEP 8] | that's not something you can open.                                     || Action: look in catalog           || Reward: 0, Score: 0
+[STEP 9] | you find nothing of interest.                                          || Action: look                      || Reward: 0, Score: 0
+[STEP 10] |  lobby this is the entrance to the library. the circulation desk domin || Action: examine desk              || Reward: 0, Score: 0
+[STEP 11] | the signs of careful scavenging of whatever materials came to hand are || Action: examine desk              || Reward: 0, Score: 0
+[STEP 12] | the signs of careful scavenging of whatever materials came to hand are || Action: look in desk              || Reward: 0, Score: 0
+[STEP 13] | you find nothing of interest.                                          || Action: open desk                 || Reward: 0, Score: 0
+[STEP 14] | that's not something you can open.                                     || Action: look                      || Reward: 0, Score: 0
+[STEP 15] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 0
+[STEP 16] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 0
+[STEP 17] |  lobby this is the entrance to the library. the circulation desk domin || Action: search desk               || Reward: 0, Score: 0
+[STEP 18] | you find nothing of interest.                                          || Action: look                      || Reward: 0, Score: 0
+[STEP 19] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 0
+[STEP 20] |  lobby this is the entrance to the library. the circulation desk domin || Action: open drawer               || Reward: 0, Score: 0
+[STEP 21] | you pull on one of the brass handles, and the attached drawer comes ou || Action: take card                 || Reward: 0, Score: 0
+[STEP 22] | (the card catalog) that's hardly portable.                             || Action: give card to attendant    || Reward: 5, Score: 5
+[STEP 23] | (the id card to the circulation desk attendant) the circulation attend || Action: look                      || Reward: 0, Score: 5
+[STEP 24] |  lobby this is the entrance to the library. the circulation desk domin || Action: north                     || Reward: 0, Score: 5
+[STEP 25] | perhaps you should examine the sign first.                             || Action: examine sign              || Reward: 0, Score: 5
+[STEP 26] | the sign on the northern door says "private" in large friendly letters || Action: open door                 || Reward: 0, Score: 5
+[STEP 27] | that's not something you can open.                                     || Action: look                      || Reward: 0, Score: 5
+[STEP 28] |  lobby this is the entrance to the library. the circulation desk domin || Action: unlock door               || Reward: 0, Score: 5
+[STEP 29] | (with the key) that doesn't seem to be something you can unlock.       || Action: look                      || Reward: 0, Score: 5
+[STEP 30] |  lobby this is the entrance to the library. the circulation desk domin || Action: unlock door with key      || Reward: 0, Score: 5
+[STEP 31] | that doesn't seem to be something you can unlock.                      || Action: unlock private            || Reward: 0, Score: 5
+[STEP 32] | (with the key) that doesn't seem to be something you can unlock.       || Action: look                      || Reward: 0, Score: 5
+[STEP 33] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 34] |  lobby this is the entrance to the library. the circulation desk domin || Action: unlock north              || Reward: 0, Score: 5
+[STEP 35] | (with the key) that doesn't seem to be something you can unlock.       || Action: look                      || Reward: 0, Score: 5
+[STEP 36] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 37] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 38] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 39] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 40] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 41] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 42] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 43] |  lobby this is the entrance to the library. the circulation desk domin || Action: examine door              || Reward: 0, Score: 5
+[STEP 44] | the sign on the northern door says "private" in large friendly letters || Action: north                     || Reward: 0, Score: 5
+[STEP 45] | you take another look at the sign, think of rottweilers, and decide to || Action: look                      || Reward: 0, Score: 5
+[STEP 46] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 47] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 48] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 49] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 50] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 51] |  lobby this is the entrance to the library. the circulation desk domin || Action: west                      || Reward: 0, Score: 5
+[STEP 52] |  you push the glass doors open. their hydraulics hiss faintly.  ground || Action: ask librarian about rarebooks || Reward: 0, Score: 5
+[STEP 53] | the reference librarian looks at you sternly and asks that you please  || Action: look                      || Reward: 0, Score: 5
+[STEP 54] |  ground floor stacks this cavernous room is lit with flickering floure || Action: look                      || Reward: 0, Score: 5
+[STEP 55] |  ground floor stacks this cavernous room is lit with flickering floure || Action: north                     || Reward: 0, Score: 5
+[STEP 56] |  ground floor stairwell grungy stairs lead upwards, to the second leve || Action: up                        || Reward: 0, Score: 5
+[STEP 57] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: south                     || Reward: 0, Score: 5
+[STEP 58] |  second floor stacks you are in a maze of twisty shelves, all alike.   || Action: look                      || Reward: 0, Score: 5
+[STEP 59] |  second floor stacks this cavernous room is filled with shelves as far || Action: look                      || Reward: 0, Score: 5
+[STEP 60] |  second floor stacks this cavernous room is filled with shelves as far || Action: north                     || Reward: 0, Score: 5
+[STEP 61] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 5
+[STEP 62] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: south                     || Reward: 0, Score: 5
+[STEP 63] |  second floor stacks this cavernous room is filled with shelves as far || Action: look                      || Reward: 0, Score: 5
+[STEP 64] |  second floor stacks this cavernous room is filled with shelves as far || Action: north                     || Reward: 0, Score: 5
+[STEP 65] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 5
+[STEP 66] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 5
+[STEP 67] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 5
+[STEP 68] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 5
+[STEP 69] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: down                      || Reward: 0, Score: 5
+[STEP 70] |  ground floor stairwell grungy stairs lead upwards, to the second leve || Action: look                      || Reward: 0, Score: 5
+[STEP 71] |  ground floor stairwell grungy stairs lead upwards, to the second leve || Action: look                      || Reward: 0, Score: 5
+[STEP 72] |  ground floor stairwell grungy stairs lead upwards, to the second leve || Action: south                     || Reward: 0, Score: 5
+[STEP 73] |  ground floor stacks this cavernous room is lit with flickering floure || Action: east                      || Reward: 0, Score: 5
+[STEP 74] |  lobby this is the entrance to the library. the circulation desk domin || Action: ask attendant about key   || Reward: 0, Score: 5
+[STEP 75] | "you need to give me your id card in order to get the key to the rare  || Action: take card                 || Reward: 0, Score: 5
+[STEP 76] | which do you mean, the card catalog or the id card?                    || Action: give card to attendant    || Reward: 0, Score: 5
+[STEP 77] | which do you mean, the card catalog or the id card?                    || Action: give card to attendant    || Reward: 0, Score: 5
+[STEP 78] | which do you mean, the card catalog or the id card?                    || Action: give id to attendant      || Reward: 0, Score: 5
+[STEP 79] | (first taking the id card) that seems to belong to the circulation des || Action: look                      || Reward: 0, Score: 5
+[STEP 80] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 81] |  lobby this is the entrance to the library. the circulation desk domin || Action: ask attendant about key   || Reward: 0, Score: 5
+[STEP 82] | "you need to give me your id card in order to get the key to the rare  || Action: look                      || Reward: 0, Score: 5
+[STEP 83] |  lobby this is the entrance to the library. the circulation desk domin || Action: ask attendant for key     || Reward: 0, Score: 5
+[STEP 84] | the circulation desk attendant has better things to do.                || Action: look                      || Reward: 0, Score: 5
+[STEP 85] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 86] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 87] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 88] |  lobby this is the entrance to the library. the circulation desk domin || Action: ask attendant for key     || Reward: 0, Score: 5
+[STEP 89] | the circulation desk attendant has better things to do.                || Action: examine card catalog      || Reward: 0, Score: 5
+[STEP 90] | almost no light penetrates this corner of the room. the card catalog i || Action: open card catalog         || Reward: 0, Score: 5
+[STEP 91] | that's not something you can open.                                     || Action: look in card catalog      || Reward: 0, Score: 5
+[STEP 92] | you find nothing of interest.                                          || Action: look                      || Reward: 0, Score: 5
+[STEP 93] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 94] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 95] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 96] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 97] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 98] |  lobby this is the entrance to the library. the circulation desk domin || Action: examine desk              || Reward: 0, Score: 5
+[STEP 99] | the signs of careful scavenging of whatever materials came to hand are || Action: look                      || Reward: 0, Score: 5
+[STEP 100] |  lobby this is the entrance to the library. the circulation desk domin || Action: north                     || Reward: 0, Score: 5
+[STEP 101] | you take another look at the sign, think of rottweilers, and decide to || Action: enter private             || Reward: 0, Score: 5
+[STEP 102] | that's not something you can enter.                                    || Action: look                      || Reward: 0, Score: 5
+[STEP 103] |  lobby this is the entrance to the library. the circulation desk domin || Action: look private              || Reward: 0, Score: 5
+[STEP 104] | i only understood you as far as wanting to look.                       || Action: look                      || Reward: 0, Score: 5
+[STEP 105] |  lobby this is the entrance to the library. the circulation desk domin || Action: west                      || Reward: 0, Score: 5
+[STEP 106] |  you push the glass doors open. their hydraulics hiss faintly.  ground || Action: ask librarian about key   || Reward: 0, Score: 5
+[STEP 107] | "the key may be obtained at the circulation desk."                     || Action: look                      || Reward: 0, Score: 5
+[STEP 108] |  ground floor stacks this cavernous room is lit with flickering floure || Action: examine desk              || Reward: 0, Score: 5
+[STEP 109] | the squat, brown desk is covered with papers, printouts, games, and so || Action: look in desk              || Reward: 0, Score: 5
+[OurAgent] New best score 5 at node 0.
+Run 1/10 finished. Score: 5
+
+--- EVALUATION SUMMARY (our method) ---
+Agent LLM Model: gpt-oss-20b
+Number of final evaluation runs: 10
+Individual Scores: [5]
+Average Score: 5.00
+Standard Deviation: 0.00
+
+Starting game run 2/10...
+[DACS] enabled=True game=library
+[DACS] num raw candidates = 1 archived=0
+[DACS] num filtered candidates = 1
+[DACS] selected/reordered candidate ids = [0]
+[DACS] candidate score table:
+  id | relevance | diversity | risk | final_score | summary
+  0 | 0.053 | 1.0 | 0.031 | 0.732 | Explore systematically and examine objects to make progress.
+[DACS] fallback=False
+Parent node 0 at depth 0 with UCB score: 5.832554611157698
+
+Evolving prompt. Current prompt: 'Explore systematically and examine objects to make progress....'
+
+Current state extractor code: '
+def extract_state(game_history):
+    return "Game in progress."
+...'
+
+
+Updated state extractor code successfully.
+Evolved guiding prompt and code: '**Guiding Prompt**
+
+1. **Acquire the ID card**  
+   * Go to the circulation desk (west from the lobby).  
+   * Examine the desk’s drawers.  
+   * Open the drawer that contains the ID card and take it.
+
+2. **Obtain the key**  
+   * Return to the circulation desk.  
+   * Give the ID card to the attendant.  
+   * Ask the attendant for the key to the rare books room.  
+   * Confirm you have the key (“key to the rare books room”).
+
+3. **Unlock the rare books room**  
+   * Locate the north door marked “private.”  
+   * Use the key to unlock the private door (command: `unlock private` or `unlock north` with key).  
+   * Enter the door (command: `north` or `enter private`).
+
+4. **Find the book**  
+   * Search the rare books room for the Graham Nelson book.  
+   * Once found, you have completed the objective.
+
+**Avoid the following actions**  
+* Repeated `look`, `examine`, `search`, or `open` commands on objects that cannot be interacted with.  
+* Unnecessary movement such as `north` from the lobby or `enter private` when the private door is locked.  
+* Any action that does not directly lead to obtaining the ID card, key, or unlocking the private door.
+
+**If stuck after completing the above steps**  
+* Scan other lightly explored areas: the stairs (north from the stacks), the computer room (east from the stacks), and the duplicating services (northwest from the lobby).  
+* Systematically inspect each room’s objects and NPCs for clues or items that could help unlock the rare books room or locate the book.  
+
+---'
+def extract_state(game_history):
+    state = []
+    if "ID card" in game_history:
+        state.append("ID card obtained")
+    if "key to the rare books room" in game_history:
+        state.append("key obtained")
+    if "private door" in game_history and ("unlocked" in game_history or "opened" in game_history):
+        state.append("private door unlocked")
+    if "entered private" in game_history or ("north" in game_history and "private" in game_history):
+        state.append("entered rare books room")
+    if "Graham Nelson" in game_history and "rare books" in game_history:
+        state.append("Graham Nelson book found")
+    if not state:
+        return "Game in progress."
+    return "; ".join(state) + "."
+[STEP 0] |                                                             ALL QUIET  || Action: look                      || Reward: 0, Score: 0
+[STEP 1] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 0
+[STEP 2] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 0
+[STEP 3] |  lobby this is the entrance to the library. the circulation desk domin || Action: east                      || Reward: 0, Score: 0
+[STEP 4] | you're leaving without the book?  you can't afford to do that, you'll  || Action: look                      || Reward: 0, Score: 0
+[STEP 5] |  lobby this is the entrance to the library. the circulation desk domin || Action: unlock private            || Reward: 0, Score: 0
+[STEP 6] | (with the id card) that doesn't seem to be something you can unlock.   || Action: give card to attendant    || Reward: 5, Score: 5
+[STEP 7] | (the id card to the circulation desk attendant) the circulation attend || Action: unlock private            || Reward: 0, Score: 5
+[STEP 8] | (with the key) that doesn't seem to be something you can unlock.       || Action: look                      || Reward: 0, Score: 5
+[STEP 9] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 10] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 11] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 12] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 13] |  lobby this is the entrance to the library. the circulation desk domin || Action: unlock north with key     || Reward: 0, Score: 5
+[STEP 14] | that doesn't seem to be something you can unlock.                      || Action: inventory                 || Reward: 0, Score: 5
+[STEP 15] | you are carrying:   a key                                              || Action: look                      || Reward: 0, Score: 5
+[STEP 16] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 17] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 18] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 19] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 20] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 21] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 22] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 23] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 24] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 25] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 26] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 27] |  lobby this is the entrance to the library. the circulation desk domin || Action: east                      || Reward: 0, Score: 5
+[STEP 28] | whoops!  you really need to return that key to the circulation desk!   || Action: give key to attendant     || Reward: 0, Score: 5
+[STEP 29] | the circulation attendant puts the key away, then he returns your id c || Action: look                      || Reward: 0, Score: 5
+[STEP 30] |  lobby this is the entrance to the library. the circulation desk domin || Action: ask attendant about key   || Reward: 0, Score: 5
+[STEP 31] | "you need to give me your id card in order to get the key to the rare  || Action: give card to attendant    || Reward: 0, Score: 5
+[STEP 32] | (the id card to the circulation desk attendant) the circulation attend || Action: enter private             || Reward: 0, Score: 5
+[STEP 33] | that's not something you can enter.                                    || Action: look                      || Reward: 0, Score: 5
+[STEP 34] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 35] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 36] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 37] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 38] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 39] |  lobby this is the entrance to the library. the circulation desk domin || Action: open private              || Reward: 0, Score: 5
+[STEP 40] | that's not something you can open.                                     || Action: look                      || Reward: 0, Score: 5
+[STEP 41] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 42] |  lobby this is the entrance to the library. the circulation desk domin || Action: east                      || Reward: 0, Score: 5
+[STEP 43] | whoops!  you really need to return that key to the circulation desk!   || Action: give key to attendant     || Reward: 0, Score: 5
+[STEP 44] | the circulation attendant puts the key away, then he returns your id c || Action: look                      || Reward: 0, Score: 5
+[STEP 45] |  lobby this is the entrance to the library. the circulation desk domin || Action: east                      || Reward: 0, Score: 5
+[STEP 46] | you're leaving without the book?  you can't afford to do that, you'll  || Action: east                      || Reward: 0, Score: 5
+[STEP 47] | you're leaving without the book?  you can't afford to do that, you'll  || Action: take book                 || Reward: 0, Score: 5
+[STEP 48] | you can't see any such thing.                                          || Action: unlock private            || Reward: 0, Score: 5
+[STEP 49] | (with the id card) that doesn't seem to be something you can unlock.   || Action: look                      || Reward: 0, Score: 5
+[STEP 50] |  lobby this is the entrance to the library. the circulation desk domin || Action: give card to attendant    || Reward: 0, Score: 5
+[STEP 51] | (the id card to the circulation desk attendant) the circulation attend || Action: look                      || Reward: 0, Score: 5
+[STEP 52] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 53] |  lobby this is the entrance to the library. the circulation desk domin || Action: give card to attendant    || Reward: 0, Score: 5
+[STEP 54] | which do you mean, the card catalog or the id card?                    || Action: give idcard to attendant  || Reward: 0, Score: 5
+[STEP 55] | you can't see any such thing.                                          || Action: unlock north door         || Reward: 0, Score: 5
+[STEP 56] | i didn't understand that sentence.                                     || Action: look                      || Reward: 0, Score: 5
+[STEP 57] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 58] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 59] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 60] |  lobby this is the entrance to the library. the circulation desk domin || Action: give card to attendant    || Reward: 0, Score: 5
+[STEP 61] | which do you mean, the card catalog or the id card?                    || Action: give idcard to attendant  || Reward: 0, Score: 5
+[STEP 62] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 5
+[STEP 63] |  lobby this is the entrance to the library. the circulation desk domin || Action: give idcard to attendant  || Reward: 0, Score: 5
+[STEP 64] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 5
+[STEP 65] |  lobby this is the entrance to the library. the circulation desk domin || Action: give card to attendant    || Reward: 0, Score: 5
+[STEP 66] | which do you mean, the card catalog or the id card?                    || Action: look                      || Reward: 0, Score: 5
+[STEP 67] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 68] |  lobby this is the entrance to the library. the circulation desk domin || Action: inventory                 || Reward: 0, Score: 5
+[STEP 69] | you are carrying:   a key                                              || Action: unlock north              || Reward: 0, Score: 5
+[STEP 70] | (with the key) that doesn't seem to be something you can unlock.       || Action: look                      || Reward: 0, Score: 5
+[STEP 71] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 72] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 73] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 74] |  lobby this is the entrance to the library. the circulation desk domin || Action: unlock private with key   || Reward: 0, Score: 5
+[STEP 75] | that doesn't seem to be something you can unlock.                      || Action: look                      || Reward: 0, Score: 5
+[STEP 76] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 77] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 78] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 79] |  lobby this is the entrance to the library. the circulation desk domin || Action: unlock                    || Reward: 0, Score: 5
+[STEP 80] | what do you want to unlock?                                            || Action: unlock private            || Reward: 0, Score: 5
+[STEP 81] | (with the key) that doesn't seem to be something you can unlock.       || Action: unlock private door with key || Reward: 0, Score: 5
+[STEP 82] | that doesn't seem to be something you can unlock.                      || Action: look                      || Reward: 0, Score: 5
+[STEP 83] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 84] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 85] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 86] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 87] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 88] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 89] |  lobby this is the entrance to the library. the circulation desk domin || Action: east                      || Reward: 0, Score: 5
+[STEP 90] | whoops!  you really need to return that key to the circulation desk!   || Action: give key to attendant     || Reward: 0, Score: 5
+[STEP 91] | the circulation attendant puts the key away, then he returns your id c || Action: east                      || Reward: 0, Score: 5
+[STEP 92] | you're leaving without the book?  you can't afford to do that, you'll  || Action: look                      || Reward: 0, Score: 5
+[STEP 93] |  lobby this is the entrance to the library. the circulation desk domin || Action: give idcard to attendant  || Reward: 0, Score: 5
+[STEP 94] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 5
+[STEP 95] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 96] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 97] |  lobby this is the entrance to the library. the circulation desk domin || Action: inventory                 || Reward: 0, Score: 5
+[STEP 98] | you are carrying:   an id card                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 99] |  lobby this is the entrance to the library. the circulation desk domin || Action: ask attendant for key     || Reward: 0, Score: 5
+[STEP 100] | the circulation desk attendant has better things to do.                || Action: west                      || Reward: 0, Score: 5
+[STEP 101] |  you push the glass doors open. their hydraulics hiss faintly.  ground || Action: look                      || Reward: 0, Score: 5
+[STEP 102] |  ground floor stacks this cavernous room is lit with flickering floure || Action: look                      || Reward: 0, Score: 5
+[STEP 103] |  ground floor stacks this cavernous room is lit with flickering floure || Action: ask librarian key         || Reward: 0, Score: 5
+[STEP 104] | i didn't understand that sentence.                                     || Action: examine librarian         || Reward: 0, Score: 5
+[STEP 105] | she is an extremely proper young woman. she has her hands folded neatl || Action: look                      || Reward: 0, Score: 5
+[STEP 106] |  ground floor stacks this cavernous room is lit with flickering floure || Action: ask librarian about key   || Reward: 0, Score: 5
+[STEP 107] | "the key may be obtained at the circulation desk."                     || Action: east                      || Reward: 0, Score: 5
+[STEP 108] |  lobby this is the entrance to the library. the circulation desk domin || Action: north                     || Reward: 0, Score: 5
+[STEP 109] | perhaps you should examine the sign first.                             || Action: give card to attendant    || Reward: 0, Score: 5
+Run 2/10 finished. Score: 5
+
+--- EVALUATION SUMMARY (our method) ---
+Agent LLM Model: gpt-oss-20b
+Number of final evaluation runs: 10
+Individual Scores: [5, 5]
+Average Score: 5.00
+Standard Deviation: 0.00
+
+Starting game run 3/10...
+[DACS] enabled=True game=library
+[DACS] num raw candidates = 2 archived=0
+[DACS] num filtered candidates = 2
+[DACS] selected/reordered candidate ids = [1, 0]
+[DACS] candidate score table:
+  id | relevance | diversity | risk | final_score | summary
+  1 | 0.42 | 1.0 | 0.148 | 1.016 | **Guiding Prompt**  1. **Acquire the ID card**      * Go to the circulation desk
+  0 | 0.042 | 0.913 | 0.009 | 0.691 | Explore systematically and examine objects to make progress.
+[DACS] fallback=False
+Parent node 1 at depth 1 with UCB score: 5.666043688926158
+
+Evolving prompt. Current prompt: '**Guiding Prompt**
+
+1. **Acquire the ID card**  
+   * Go to the circulation desk...'
+
+Current state extractor code: 'def extract_state(game_history):
+    state = []
+    if "ID card" in game_history...'
+
+
+Updated state extractor code successfully.
+Evolved guiding prompt and code: '**Guiding Prompt**
+
+1. **Obtain the ID card**  
+   * Go to the circulation desk in the lobby.  
+   * Examine the desk’s drawers.  
+   * Open the drawer that contains the ID card.  
+   * Take the ID card.  
+
+2. **Get the key to the rare books room**  
+   * Return to the circulation desk.  
+   * Give the ID card to the attendant.  
+   * Tell the attendant you need the key to the rare books room.  
+   * Take the key that the attendant hands you.  
+
+3. **Unlock the private door and enter the rare books room**  
+   * Move north from the lobby to the door marked “Private.”  
+   * Use the key to unlock the private door (command: `unlock private with key`).  
+   * Enter the door (command: `north`).  
+
+4. **Find the Graham Nelson book**  
+   * Search the rare books room for the Graham Nelson book.  
+   * Take the book when you find it.  
+
+5. **Return the key**  
+   * Exit the rare books room back to the lobby (command: `south`).  
+   * Give the key back to the circulation desk attendant (command: `give key to attendant`).  
+
+6. **Leave the library**  
+   * Exit the lobby to the east (command: `east`).  
+
+**Avoid the following actions**  
+* Repeating `look`, `examine`, `search`, or `open` on objects that cannot be interacted with.  
+* Moving north from the lobby without having the key.  
+* Attempting to `unlock` or `open` the private door without the key.  
+* Giving the key to any object other than the circulation desk attendant.  
+
+**If you become stuck**  
+* List all rooms that have not been fully explored:  
+  - Book stacks (west of lobby)  
+  - Duplicating services (north‑west of lobby)  
+  - Stairs (north of the ground floor stacks)  
+  - Computer room (east of the ground floor stacks)  
+* For each room, consider:  
+  - Are there any objects that could hold a key or another useful item?  
+  - Are there NPCs that might have useful information?  
+  - Is the door to the room locked and do you have the required key?  
+* Systematically explore each room with the command `north`, `south`, `east`, or `west` as appropriate, and interact with any visible objects or NPCs using `examine`, `look`, `take`, `give`, `ask`, or `use` commands.  
+
+---'
+def extract_state(game_history):
+    state = []
+    if "ID card obtained" in game_history:
+        state.append("ID card: obtained")
+    if "key obtained" in game_history or ("you are carrying:" in game_history and "a key" in game_history):
+        state.append("key: in inventory")
+    if "unlock private" in game_history and "worked" in game_history:
+        state.append("private door: unlocked")
+    if "Graham Nelson book found" in game_history:
+        state.append("Graham Nelson book: found")
+    if "the circulation attendant puts the key away" in game_history:
+        state.append("key: returned")
+    if "east" in game_history and "you are leaving" in game_history:
+        state.append("exited: yes")
+    if not state:
+        return "Unknown state."
+    return "; ".join(state)
+[STEP 0] |                                                             ALL QUIET  || Action: examine desk              || Reward: 0, Score: 0
+[STEP 1] | the signs of careful scavenging of whatever materials came to hand are || Action: examine drawer            || Reward: 0, Score: 0
+[STEP 2] | the card catalog drawer is closed. with all that dust, maybe it wouldn || Action: open drawer               || Reward: 0, Score: 0
+[STEP 3] | you pull on one of the brass handles, and the attached drawer comes ou || Action: take card                 || Reward: 0, Score: 0
+[STEP 4] | (the card catalog) that's hardly portable.                             || Action: give card to attendant    || Reward: 5, Score: 5
+[STEP 5] | (the id card to the circulation desk attendant) the circulation attend || Action: unlock private with key   || Reward: 0, Score: 5
+[STEP 6] | that doesn't seem to be something you can unlock.                      || Action: look                      || Reward: 0, Score: 5
+[STEP 7] |  lobby this is the entrance to the library. the circulation desk domin || Action: unlock private door with key || Reward: 0, Score: 5
+[STEP 8] | that doesn't seem to be something you can unlock.                      || Action: look                      || Reward: 0, Score: 5
+[STEP 9] |  lobby this is the entrance to the library. the circulation desk domin || Action: inventory                 || Reward: 0, Score: 5
+[STEP 10] | you are carrying:   a key                                              || Action: look                      || Reward: 0, Score: 5
+[STEP 11] |  lobby this is the entrance to the library. the circulation desk domin || Action: unlock private door       || Reward: 0, Score: 5
+[STEP 12] | (with the key) that doesn't seem to be something you can unlock.       || Action: look                      || Reward: 0, Score: 5
+[STEP 13] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 14] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 15] |  lobby this is the entrance to the library. the circulation desk domin || Action: unlock door with key      || Reward: 0, Score: 5
+[STEP 16] | that doesn't seem to be something you can unlock.                      || Action: look                      || Reward: 0, Score: 5
+[STEP 17] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 18] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 19] |  lobby this is the entrance to the library. the circulation desk domin || Action: north                     || Reward: 0, Score: 5
+[STEP 20] | perhaps you should examine the sign first.                             || Action: examine private           || Reward: 0, Score: 5
+[STEP 21] | the sign on the northern door says "private" in large friendly letters || Action: look                      || Reward: 0, Score: 5
+[STEP 22] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 23] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 24] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 25] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 26] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 27] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 28] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 29] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 30] |  lobby this is the entrance to the library. the circulation desk domin || Action: open private              || Reward: 0, Score: 5
+[STEP 31] | that's not something you can open.                                     || Action: look                      || Reward: 0, Score: 5
+[STEP 32] |  lobby this is the entrance to the library. the circulation desk domin || Action: examine key               || Reward: 0, Score: 5
+[STEP 33] | this key is on a flourescent yellow keychain, which is, in turn, attac || Action: look                      || Reward: 0, Score: 5
+[STEP 34] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 35] |  lobby this is the entrance to the library. the circulation desk domin || Action: use key                   || Reward: 0, Score: 5
+[STEP 36] | that's not a verb i recognise.                                         || Action: look                      || Reward: 0, Score: 5
+[STEP 37] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 38] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 39] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 40] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 41] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 42] |  lobby this is the entrance to the library. the circulation desk domin || Action: unlock                    || Reward: 0, Score: 5
+[STEP 43] | what do you want to unlock?                                            || Action: unlock private with key   || Reward: 0, Score: 5
+[STEP 44] | that doesn't seem to be something you can unlock.                      || Action: give key to attendant     || Reward: 0, Score: 5
+[STEP 45] | the circulation attendant puts the key away, then he returns your id c || Action: give card to attendant    || Reward: 0, Score: 5
+[STEP 46] | (the id card to the circulation desk attendant) the circulation attend || Action: look                      || Reward: 0, Score: 5
+[STEP 47] |  lobby this is the entrance to the library. the circulation desk domin || Action: unlock private with keychain || Reward: 0, Score: 5
+[STEP 48] | that doesn't seem to be something you can unlock.                      || Action: look                      || Reward: 0, Score: 5
+[STEP 49] |  lobby this is the entrance to the library. the circulation desk domin || Action: north                     || Reward: 0, Score: 5
+[STEP 50] | you take another look at the sign, think of rottweilers, and decide to || Action: look                      || Reward: 0, Score: 5
+[STEP 51] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 52] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 53] |  lobby this is the entrance to the library. the circulation desk domin || Action: unlock door with key      || Reward: 0, Score: 5
+[STEP 54] | that doesn't seem to be something you can unlock.                      || Action: inventory                 || Reward: 0, Score: 5
+[STEP 55] | you are carrying:   a key                                              || Action: look                      || Reward: 0, Score: 5
+[STEP 56] |  lobby this is the entrance to the library. the circulation desk domin || Action: take card                 || Reward: 0, Score: 5
+[STEP 57] | which do you mean, the card catalog or the id card?                    || Action: take card                 || Reward: 0, Score: 5
+[STEP 58] | which do you mean, the card catalog or the id card?                    || Action: look                      || Reward: 0, Score: 5
+[STEP 59] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 60] |  lobby this is the entrance to the library. the circulation desk domin || Action: take id                   || Reward: 0, Score: 5
+[STEP 61] | that seems to belong to the circulation desk attendant.                || Action: look                      || Reward: 0, Score: 5
+[STEP 62] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 63] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 64] |  lobby this is the entrance to the library. the circulation desk domin || Action: examine desk              || Reward: 0, Score: 5
+[STEP 65] | the signs of careful scavenging of whatever materials came to hand are || Action: take id                   || Reward: 0, Score: 5
+[STEP 66] | that seems to belong to the circulation desk attendant.                || Action: give card to attendant    || Reward: 0, Score: 5
+[STEP 67] | which do you mean, the card catalog or the id card?                    || Action: look                      || Reward: 0, Score: 5
+[STEP 68] |  lobby this is the entrance to the library. the circulation desk domin || Action: examine attendant         || Reward: 0, Score: 5
+[STEP 69] | he's leafing through a dog-eared copy of tom clancy's "without remorse || Action: look                      || Reward: 0, Score: 5
+[STEP 70] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 71] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 72] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 73] |  lobby this is the entrance to the library. the circulation desk domin || Action: unlock private door with key || Reward: 0, Score: 5
+[STEP 74] | that doesn't seem to be something you can unlock.                      || Action: look                      || Reward: 0, Score: 5
+[STEP 75] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 76] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 77] |  lobby this is the entrance to the library. the circulation desk domin || Action: unlock private with key   || Reward: 0, Score: 5
+[STEP 78] | that doesn't seem to be something you can unlock.                      || Action: look                      || Reward: 0, Score: 5
+[STEP 79] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 80] |  lobby this is the entrance to the library. the circulation desk domin || Action: unlock north with key     || Reward: 0, Score: 5
+[STEP 81] | that doesn't seem to be something you can unlock.                      || Action: look                      || Reward: 0, Score: 5
+[STEP 82] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 83] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 84] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 85] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 86] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 87] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 88] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 89] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 90] |  lobby this is the entrance to the library. the circulation desk domin || Action: ask attendant card        || Reward: 0, Score: 5
+[STEP 91] | i didn't understand that sentence.                                     || Action:                           || Reward: 0, Score: 5
+[STEP 92] | i beg your pardon?                                                     || Action: look                      || Reward: 0, Score: 5
+[STEP 93] |  lobby this is the entrance to the library. the circulation desk domin || Action: open drawer               || Reward: 0, Score: 5
+[STEP 94] | you pull on one of the brass handles, and the attached drawer comes ou || Action: take card                 || Reward: 0, Score: 5
+[STEP 95] | which do you mean, the card catalog or the id card?                    || Action: look                      || Reward: 0, Score: 5
+[STEP 96] |  lobby this is the entrance to the library. the circulation desk domin || Action: examine drawer            || Reward: 0, Score: 5
+[STEP 97] | the card catalog drawer is open.                                       || Action: look                      || Reward: 0, Score: 5
+[STEP 98] |  lobby this is the entrance to the library. the circulation desk domin || Action: give card to attendant    || Reward: 0, Score: 5
+[STEP 99] | which do you mean, the card catalog or the id card?                    || Action: give id to attendant      || Reward: 0, Score: 5
+[STEP 100] | (first taking the id card) that seems to belong to the circulation des || Action: look                      || Reward: 0, Score: 5
+[STEP 101] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 102] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 103] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 104] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 105] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 106] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+[STEP 107] |  lobby this is the entrance to the library. the circulation desk domin || Action: take id                   || Reward: 0, Score: 5
+[STEP 108] | that seems to belong to the circulation desk attendant.                || Action: look                      || Reward: 0, Score: 5
+[STEP 109] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 5
+Run 3/10 finished. Score: 5
+
+--- EVALUATION SUMMARY (our method) ---
+Agent LLM Model: gpt-oss-20b
+Number of final evaluation runs: 10
+Individual Scores: [5, 5, 5]
+Average Score: 5.00
+Standard Deviation: 0.00
+
+Starting game run 4/10...
+[DACS] enabled=True game=library
+[DACS] num raw candidates = 3 archived=0
+[DACS] num filtered candidates = 3
+[DACS] selected/reordered candidate ids = [1, 2, 0]
+[DACS] candidate score table:
+  id | relevance | diversity | risk | final_score | summary
+  1 | 0.428 | 1.0 | 0.189 | 0.996 | **Guiding Prompt**  1. **Acquire the ID card**      * Go to the circulation desk
+  2 | 0.402 | 0.527 | 0.215 | 0.715 | **Guiding Prompt**  1. **Obtain the ID card**      * Go to the circulation desk 
+  0 | 0.069 | 0.913 | 0.032 | 0.703 | Explore systematically and examine objects to make progress.
+[DACS] fallback=False
+Parent node 0 at depth 0 with UCB score: 5.741151903683756
+
+Evolving prompt. Current prompt: 'Explore systematically and examine objects to make progress....'
+
+Current state extractor code: '
+def extract_state(game_history):
+    return "Game in progress."
+...'
+
+
+Updated state extractor code successfully.
+Evolved guiding prompt and code: '1. Confirm you have the key to the rare books room. If you haven’t given the ID card to the circulation desk, do so and request the key.  
+2. Once you possess the key, go to the second floor stacks (north from the stairwell, then south to the stacks).  
+3. In the second floor stacks, there is a heavy wooden door marked “Rare Books Room.” Unlock it with the key: `unlock door with key` or `unlock heavy wooden door`.  
+4. If the key does not unlock the heavy door, try unlocking the north door marked “private” with the key.  
+5. Avoid repeating simple actions such as `look`, `examine`, or `search` on the same object more than once, as they rarely yield new information.  
+6. If you find yourself stuck, list rooms that have not been fully explored: the computer room, duplicating services, the private area, etc., and try one of them with any remaining interactions.  
+7. Use `inventory` to confirm you still have the key.  
+8. Continue exploring until you retrieve the book.'
+def extract_state(game_history):
+    key = "gives you the key to the rare books room" in game_history
+    id_card = "you take card" in game_history
+    location = "unknown"
+    if "second floor stacks" in game_history:
+        location = "second floor stacks"
+    elif "ground floor stacks" in game_history:
+        location = "ground floor stacks"
+    elif "lobby" in game_history:
+        location = "lobby"
+    heavy_door = "heavy wooden door" in game_history
+    unlocked = "door is unlocked" in game_history or "door opens" in game_history
+    parts = []
+    if key:
+        parts.append("has key")
+    if id_card:
+        parts.append("has id card")
+    parts.append(f"location: {location}")
+    if heavy_door:
+        parts.append("found heavy door")
+    if unlocked:
+        parts.append("door unlocked")
+    return ", ".join(parts) + "."
+[STEP 0] |                                                             ALL QUIET  || Action: give card to attendant    || Reward: 5, Score: 5
+[STEP 1] | (the id card to the circulation desk attendant) the circulation attend || Action: west                      || Reward: 0, Score: 5
+[STEP 2] |  you push the glass doors open. their hydraulics hiss faintly.  ground || Action: north                     || Reward: 0, Score: 5
+[STEP 3] |  ground floor stairwell grungy stairs lead upwards, to the second leve || Action: up                        || Reward: 0, Score: 5
+[STEP 4] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: south                     || Reward: 0, Score: 5
+[STEP 5] |  second floor stacks you are in a maze of twisty shelves, all alike.   || Action: unlock door with key      || Reward: 0, Score: 5
+[STEP 6] | you unlock the rare books door.                                        || Action: enter                     || Reward: 0, Score: 5
+[STEP 7] | you can't, since the rare books door is in the way.                    || Action: look                      || Reward: 0, Score: 5
+[STEP 8] |  second floor stacks this cavernous room is filled with shelves as far || Action: look                      || Reward: 0, Score: 5
+[STEP 9] |  second floor stacks this cavernous room is filled with shelves as far || Action: open door                 || Reward: 0, Score: 5
+[STEP 10] | you open the rare books door.                                          || Action: enter                     || Reward: 0, Score: 5
+[STEP 11] |  rare books room the shelves are nearly bare, although there is a comp || Action: get biography             || Reward: 5, Score: 10
+[STEP 12] | taken.  [your score has just gone up by five points.]                  || Action: look                      || Reward: 0, Score: 10
+[STEP 13] |  rare books room the shelves are nearly bare, although there is a comp || Action: north                     || Reward: 0, Score: 10
+[STEP 14] |  second floor stacks this cavernous room is filled with shelves as far || Action: north                     || Reward: 0, Score: 10
+[STEP 15] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: south                     || Reward: 0, Score: 10
+[STEP 16] |  second floor stacks this cavernous room is filled with shelves as far || Action: look                      || Reward: 0, Score: 10
+[STEP 17] |  second floor stacks this cavernous room is filled with shelves as far || Action: north                     || Reward: 0, Score: 10
+[STEP 18] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 10
+[STEP 19] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 10
+[STEP 20] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: south                     || Reward: 0, Score: 10
+[STEP 21] |  second floor stacks this cavernous room is filled with shelves as far || Action: look                      || Reward: 0, Score: 10
+[STEP 22] |  second floor stacks this cavernous room is filled with shelves as far || Action: north                     || Reward: 0, Score: 10
+[STEP 23] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: south                     || Reward: 0, Score: 10
+[STEP 24] |  second floor stacks this cavernous room is filled with shelves as far || Action: north                     || Reward: 0, Score: 10
+[STEP 25] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 10
+[STEP 26] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: south                     || Reward: 0, Score: 10
+[STEP 27] |  second floor stacks this cavernous room is filled with shelves as far || Action: look                      || Reward: 0, Score: 10
+[STEP 28] |  second floor stacks this cavernous room is filled with shelves as far || Action: north                     || Reward: 0, Score: 10
+[STEP 29] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: south                     || Reward: 0, Score: 10
+[STEP 30] |  second floor stacks this cavernous room is filled with shelves as far || Action: north                     || Reward: 0, Score: 10
+[STEP 31] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 10
+[STEP 32] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 10
+[STEP 33] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: south                     || Reward: 0, Score: 10
+[STEP 34] |  second floor stacks this cavernous room is filled with shelves as far || Action: look                      || Reward: 0, Score: 10
+[STEP 35] |  second floor stacks this cavernous room is filled with shelves as far || Action: north                     || Reward: 0, Score: 10
+[STEP 36] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: south                     || Reward: 0, Score: 10
+[STEP 37] |  second floor stacks this cavernous room is filled with shelves as far || Action: look                      || Reward: 0, Score: 10
+[STEP 38] |  second floor stacks this cavernous room is filled with shelves as far || Action: north                     || Reward: 0, Score: 10
+[STEP 39] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 10
+[STEP 40] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 10
+[STEP 41] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 10
+[STEP 42] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 10
+[STEP 43] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: south                     || Reward: 0, Score: 10
+[STEP 44] |  second floor stacks this cavernous room is filled with shelves as far || Action: look                      || Reward: 0, Score: 10
+[STEP 45] |  second floor stacks this cavernous room is filled with shelves as far || Action: look                      || Reward: 0, Score: 10
+[STEP 46] |  second floor stacks this cavernous room is filled with shelves as far || Action: look                      || Reward: 0, Score: 10
+[STEP 47] |  second floor stacks this cavernous room is filled with shelves as far || Action: look                      || Reward: 0, Score: 10
+[STEP 48] |  second floor stacks this cavernous room is filled with shelves as far || Action: north                     || Reward: 0, Score: 10
+[STEP 49] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 10
+[STEP 50] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 10
+[STEP 51] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: south                     || Reward: 0, Score: 10
+[STEP 52] |  second floor stacks this cavernous room is filled with shelves as far || Action: north                     || Reward: 0, Score: 10
+[STEP 53] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 10
+[STEP 54] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: south                     || Reward: 0, Score: 10
+[STEP 55] |  second floor stacks this cavernous room is filled with shelves as far || Action: look                      || Reward: 0, Score: 10
+[STEP 56] |  second floor stacks this cavernous room is filled with shelves as far || Action: north                     || Reward: 0, Score: 10
+[STEP 57] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 10
+[STEP 58] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 10
+[STEP 59] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 10
+[STEP 60] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: enter door                || Reward: 0, Score: 10
+[STEP 61] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 10
+[STEP 62] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 10
+[STEP 63] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 10
+[STEP 64] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: open door                 || Reward: 0, Score: 10
+[STEP 65] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 10
+[STEP 66] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: unlock door with key      || Reward: 0, Score: 10
+[STEP 67] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 10
+[STEP 68] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: unlock south door with key || Reward: 0, Score: 10
+[STEP 69] | i didn't understand that sentence.                                     || Action: look                      || Reward: 0, Score: 10
+[STEP 70] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 10
+[STEP 71] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 10
+[STEP 72] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 10
+[STEP 73] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 10
+[STEP 74] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 10
+[STEP 75] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 10
+[STEP 76] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 10
+[STEP 77] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 10
+[STEP 78] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 10
+[STEP 79] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 10
+[STEP 80] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 10
+[STEP 81] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 10
+[STEP 82] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 10
+[STEP 83] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 10
+[STEP 84] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 10
+[STEP 85] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 10
+[STEP 86] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 10
+[STEP 87] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 10
+[STEP 88] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: south                     || Reward: 0, Score: 10
+[STEP 89] |  second floor stacks this cavernous room is filled with shelves as far || Action: west                      || Reward: 0, Score: 10
+[STEP 90] | you wander out into the vast dusty maze of the bare shelves for a few  || Action: look                      || Reward: 0, Score: 10
+[STEP 91] |  second floor stacks this cavernous room is filled with shelves as far || Action: look                      || Reward: 0, Score: 10
+[STEP 92] |  second floor stacks this cavernous room is filled with shelves as far || Action: west                      || Reward: 0, Score: 10
+[STEP 93] | you wander out into the vast dusty maze of the bare shelves for a few  || Action: examine west              || Reward: 0, Score: 10
+[STEP 94] | you see nothing special about the west wall.                           || Action: look                      || Reward: 0, Score: 10
+[STEP 95] |  second floor stacks this cavernous room is filled with shelves as far || Action: look                      || Reward: 0, Score: 10
+[STEP 96] |  second floor stacks this cavernous room is filled with shelves as far || Action: east                      || Reward: 0, Score: 10
+[STEP 97] |  computer lab this entire room hums with the combined output of severa || Action: west                      || Reward: 0, Score: 10
+[STEP 98] |  second floor stacks this cavernous room is filled with shelves as far || Action: open west                 || Reward: 0, Score: 10
+[STEP 99] | that's not something you can open.                                     || Action: unlock door with key      || Reward: 0, Score: 10
+[STEP 100] | it's unlocked at the moment.                                           || Action: look                      || Reward: 0, Score: 10
+[STEP 101] |  second floor stacks this cavernous room is filled with shelves as far || Action: look                      || Reward: 0, Score: 10
+[STEP 102] |  second floor stacks this cavernous room is filled with shelves as far || Action: look                      || Reward: 0, Score: 10
+[STEP 103] |  second floor stacks this cavernous room is filled with shelves as far || Action: west                      || Reward: 0, Score: 10
+[STEP 104] | you wander out into the vast dusty maze of the bare shelves for a few  || Action: look                      || Reward: 0, Score: 10
+[STEP 105] |  second floor stacks this cavernous room is filled with shelves as far || Action: north                     || Reward: 0, Score: 10
+[STEP 106] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 10
+[STEP 107] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: south                     || Reward: 0, Score: 10
+[STEP 108] |  second floor stacks this cavernous room is filled with shelves as far || Action: look                      || Reward: 0, Score: 10
+[STEP 109] |  second floor stacks this cavernous room is filled with shelves as far || Action: look                      || Reward: 0, Score: 10
+[OurAgent] New best score 10 at node 3.
+Run 4/10 finished. Score: 10
+
+--- EVALUATION SUMMARY (our method) ---
+Agent LLM Model: gpt-oss-20b
+Number of final evaluation runs: 10
+Individual Scores: [5, 5, 5, 10]
+Average Score: 6.25
+Standard Deviation: 2.50
+
+Starting game run 5/10...
+[DACS] enabled=True game=library
+[DACS] num raw candidates = 4 archived=0
+[DACS] num filtered candidates = 4
+[DACS] selected/reordered candidate ids = [3, 2, 1, 0]
+[DACS] candidate score table:
+  id | relevance | diversity | risk | final_score | summary
+  3 | 0.546 | 1.0 | 0.122 | 1.161 | 1. Confirm you have the key to the rare books room. If you haven’t given the ID 
+  2 | 0.55 | 0.662 | 0.167 | 0.865 | **Guiding Prompt**  1. **Obtain the ID card**      * Go to the circulation desk 
+  1 | 0.509 | 0.527 | 0.139 | 0.776 | **Guiding Prompt**  1. **Acquire the ID card**      * Go to the circulation desk
+  0 | 0.04 | 0.913 | 0.007 | 0.591 | Explore systematically and examine objects to make progress.
+[DACS] fallback=False
+Parent node 3 at depth 1 with UCB score: 10.94192801801238
+
+Evolving prompt. Current prompt: '1. Confirm you have the key to the rare books room. If you haven’t given the ID ...'
+
+Current state extractor code: 'def extract_state(game_history):
+    key = "gives you the key to the rare books ...'
+
+
+Updated state extractor code successfully.
+Evolved guiding prompt and code: '**Guiding Prompt**
+
+You are a text‑adventure agent in a library. Your goal is to obtain the biography of Graham Nelson. Follow these strictly necessary steps:
+
+1. **Obtain the key**  
+   - If you have not already, give the card catalog to the circulation desk attendant.  
+   - The attendant will exchange it for a key to the Rare Books Room.  
+   - Confirm the key is in your inventory with `inventory`.
+
+2. **Navigate to the Rare Books Room**  
+   - From the ground‑floor stacks, go **north** to the stairwell.  
+   - Go **up** the stairs to the second‑floor.  
+   - From the second‑floor stairwell, go **south** to the second‑floor stacks.
+
+3. **Unlock the Rare Books Room**  
+   - In the second‑floor stacks, unlock the heavy wooden door with the key: `unlock door with key`.
+
+4. **Open and enter the door**  
+   - If the door is still shut, `open door`.  
+   - Once open, `enter` the Rare Books Room.
+
+5. **Collect the book**  
+   - In the Rare Books Room, `get biography` (the biography of Graham Nelson).  
+   - The action will increase your score.
+
+6. **Exit the library**  
+   - After obtaining the book, `north` (or `south` from the stairwell) to exit the Rare Books Room and leave the library.
+
+**Avoid the following unproductive patterns**  
+- Repeated `look`, `examine`, or `search` on the same object.  
+- Unnecessary movements such as `west`, `east`, or `north` when you are already in the correct room.  
+- Trying to `open` or `unlock` a door that is already open or unlocked.  
+- Any action that does not directly lead to obtaining the key or the biography.
+
+**If you become stuck** (e.g., you can no longer progress toward the Rare Books Room) list the light‑searched rooms:
+- `computer room`  
+- `duplicating services`  
+- `private area`  
+- `stairwell`  
+
+Brainstorm possible next attempts (e.g., look for hidden passages, interact with other NPCs, check inventory for overlooked items) and systematically explore each room, interact with objects, and query the inventory for clues.
+
+---'
+def extract_state(game_history):
+    has_key = "you have not the key" not in game_history and "you are in the circulation desk" not in game_history and "key to the rare books room" in game_history
+    door_unlocked = "you unlock the rare books door" in game_history or "the door is unlocked" in game_history
+    door_open = "you open the rare books door" in game_history or "the door is open" in game_history
+    in_rare_room = "you are in the rare books room" in game_history or "rare books room" in game_history and "you are" not in game_history
+    biography_taken = "you get biography" in game_history or "you take the biography" in game_history
+    summary = []
+    if has_key:
+        summary.append("Has key")
+    if door_unlocked:
+        summary.append("Rare Books Room door unlocked")
+    if door_open:
+        summary.append("Rare Books Room door open")
+    if in_rare_room:
+        summary.append("In Rare Books Room")
+    if biography_taken:
+        summary.append("Biography taken")
+    return ", ".join(summary) if summary else "Unknown state."
+[STEP 0] |                                                             ALL QUIET  || Action: give card to attendant    || Reward: 5, Score: 5
+[STEP 1] | (the id card to the circulation desk attendant) the circulation attend || Action: west                      || Reward: 0, Score: 5
+[STEP 2] |  you push the glass doors open. their hydraulics hiss faintly.  ground || Action: north                     || Reward: 0, Score: 5
+[STEP 3] |  ground floor stairwell grungy stairs lead upwards, to the second leve || Action: up                        || Reward: 0, Score: 5
+[STEP 4] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: south                     || Reward: 0, Score: 5
+[STEP 5] |  second floor stacks you are in a maze of twisty shelves, all alike.   || Action: unlock door with key      || Reward: 0, Score: 5
+[STEP 6] | you unlock the rare books door.                                        || Action: open door                 || Reward: 0, Score: 5
+[STEP 7] | you open the rare books door.                                          || Action: enter                     || Reward: 0, Score: 5
+[STEP 8] |  rare books room the shelves are nearly bare, although there is a comp || Action: get biography             || Reward: 5, Score: 10
+[STEP 9] | taken.  [your score has just gone up by five points.]                  || Action: look                      || Reward: 0, Score: 10
+[STEP 10] |  rare books room the shelves are nearly bare, although there is a comp || Action: north                     || Reward: 0, Score: 10
+[STEP 11] |  second floor stacks this cavernous room is filled with shelves as far || Action: enter                     || Reward: 0, Score: 10
+[STEP 12] |  rare books room the shelves are nearly bare, although there is a comp || Action: north                     || Reward: 0, Score: 10
+[STEP 13] |  second floor stacks this cavernous room is filled with shelves as far || Action: look                      || Reward: 0, Score: 10
+[STEP 14] |  second floor stacks this cavernous room is filled with shelves as far || Action: look                      || Reward: 0, Score: 10
+[STEP 15] |  second floor stacks this cavernous room is filled with shelves as far || Action: north                     || Reward: 0, Score: 10
+[STEP 16] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 10
+[STEP 17] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 10
+[STEP 18] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 10
+[STEP 19] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 10
+[STEP 20] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 10
+[STEP 21] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: north                     || Reward: 0, Score: 10
+[STEP 22] | you can't go that way.                                                 || Action: south                     || Reward: 0, Score: 10
+[STEP 23] |  second floor stacks this cavernous room is filled with shelves as far || Action: look                      || Reward: 0, Score: 10
+[STEP 24] |  second floor stacks this cavernous room is filled with shelves as far || Action: enter                     || Reward: 0, Score: 10
+[STEP 25] |  rare books room the shelves are nearly bare, although there is a comp || Action: get biography             || Reward: 0, Score: 10
+[STEP 26] | you already have that.                                                 || Action: north                     || Reward: 0, Score: 10
+[STEP 27] |  second floor stacks this cavernous room is filled with shelves as far || Action: north                     || Reward: 0, Score: 10
+[STEP 28] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 10
+[STEP 29] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 10
+[STEP 30] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 10
+[STEP 31] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 10
+[STEP 32] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 10
+[STEP 33] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: down                      || Reward: 0, Score: 10
+[STEP 34] |  ground floor stairwell grungy stairs lead upwards, to the second leve || Action: south                     || Reward: 0, Score: 10
+[STEP 35] |  ground floor stacks this cavernous room is lit with flickering floure || Action: east                      || Reward: 0, Score: 10
+[STEP 36] |  lobby this is the entrance to the library. the circulation desk domin || Action: east                      || Reward: 0, Score: 10
+[STEP 37] | whoops!  you really need to return that key to the circulation desk!   || Action: give key to attendant     || Reward: 0, Score: 10
+[STEP 38] | "did you remember to close the door?"                                  || Action: close door                || Reward: 0, Score: 10
+[STEP 39] | that's not something you can close.                                    || Action: look                      || Reward: 0, Score: 10
+[STEP 40] |  lobby this is the entrance to the library. the circulation desk domin || Action: give key to attendant     || Reward: 0, Score: 10
+[STEP 41] | "did you remember to close the door?"                                  || Action: look                      || Reward: 0, Score: 10
+[STEP 42] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 43] |  lobby this is the entrance to the library. the circulation desk domin || Action: inventory                 || Reward: 0, Score: 10
+[STEP 44] | you are carrying:   a biography of graham nelson   a key               || Action: look                      || Reward: 0, Score: 10
+[STEP 45] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 46] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 47] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 48] |  lobby this is the entrance to the library. the circulation desk domin || Action: give key to attendant     || Reward: 0, Score: 10
+[STEP 49] | "did you remember to close the door?"                                  || Action: look                      || Reward: 0, Score: 10
+[STEP 50] |  lobby this is the entrance to the library. the circulation desk domin || Action: give key to attendant     || Reward: 0, Score: 10
+[STEP 51] | "did you remember to close the door?"                                  || Action: say yes                   || Reward: 0, Score: 10
+[STEP 52] | (to the circulation desk attendant) he shrugs, and continues reading.  || Action: look                      || Reward: 0, Score: 10
+[STEP 53] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 54] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 55] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 56] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 57] |  lobby this is the entrance to the library. the circulation desk domin || Action: close private             || Reward: 0, Score: 10
+[STEP 58] | that's not something you can close.                                    || Action: look                      || Reward: 0, Score: 10
+[STEP 59] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 60] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 61] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 62] |  lobby this is the entrance to the library. the circulation desk domin || Action: give key to attendant     || Reward: 0, Score: 10
+[STEP 63] | "did you remember to close the door?"                                  || Action: look                      || Reward: 0, Score: 10
+[STEP 64] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 65] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 66] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 67] |  lobby this is the entrance to the library. the circulation desk domin || Action: east                      || Reward: 0, Score: 10
+[STEP 68] | whoops!  you really need to return that key to the circulation desk!   || Action: give key to attendant     || Reward: 0, Score: 10
+[STEP 69] | "did you remember to close the door?"                                  || Action: look                      || Reward: 0, Score: 10
+[STEP 70] |  lobby this is the entrance to the library. the circulation desk domin || Action: give key to attendant     || Reward: 0, Score: 10
+[STEP 71] | "did you remember to close the door?"                                  || Action: say yes                   || Reward: 0, Score: 10
+[STEP 72] | (to the circulation desk attendant) he shrugs, and continues reading.  || Action: give key to attendant     || Reward: 0, Score: 10
+[STEP 73] | "did you remember to close the door?"                                  || Action: say yes                   || Reward: 0, Score: 10
+[STEP 74] | (to the circulation desk attendant) he shrugs, and continues reading.  || Action: give key to attendant     || Reward: 0, Score: 10
+[STEP 75] | "did you remember to close the door?"                                  || Action: yes                       || Reward: 0, Score: 10
+[STEP 76] | that was a rhetorical question.                                        || Action: west                      || Reward: 0, Score: 10
+[STEP 77] |  you push the glass doors open. their hydraulics hiss faintly.  ground || Action: north                     || Reward: 0, Score: 10
+[STEP 78] |  ground floor stairwell grungy stairs lead upwards, to the second leve || Action: up                        || Reward: 0, Score: 10
+[STEP 79] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: south                     || Reward: 0, Score: 10
+[STEP 80] |  second floor stacks this cavernous room is filled with shelves as far || Action: south                     || Reward: 0, Score: 10
+[STEP 81] |  rare books room the shelves are nearly bare, although there is a comp || Action: get biography             || Reward: 0, Score: 10
+[STEP 82] | you already have that.                                                 || Action: north                     || Reward: 0, Score: 10
+[STEP 83] |  second floor stacks this cavernous room is filled with shelves as far || Action: south                     || Reward: 0, Score: 10
+[STEP 84] |  rare books room the shelves are nearly bare, although there is a comp || Action: get biography             || Reward: 0, Score: 10
+[STEP 85] | you already have that.                                                 || Action: north                     || Reward: 0, Score: 10
+[STEP 86] |  second floor stacks this cavernous room is filled with shelves as far || Action: look                      || Reward: 0, Score: 10
+[STEP 87] |  second floor stacks this cavernous room is filled with shelves as far || Action: north                     || Reward: 0, Score: 10
+[STEP 88] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: south                     || Reward: 0, Score: 10
+[STEP 89] |  second floor stacks this cavernous room is filled with shelves as far || Action: north                     || Reward: 0, Score: 10
+[STEP 90] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: south                     || Reward: 0, Score: 10
+[STEP 91] |  second floor stacks this cavernous room is filled with shelves as far || Action: south                     || Reward: 0, Score: 10
+[STEP 92] |  rare books room the shelves are nearly bare, although there is a comp || Action: get biography             || Reward: 0, Score: 10
+[STEP 93] | you already have that.                                                 || Action: look                      || Reward: 0, Score: 10
+[STEP 94] |  rare books room the shelves are nearly bare, although there is a comp || Action: north                     || Reward: 0, Score: 10
+[STEP 95] |  second floor stacks this cavernous room is filled with shelves as far || Action: north                     || Reward: 0, Score: 10
+[STEP 96] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 10
+[STEP 97] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 10
+[STEP 98] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 10
+[STEP 99] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 10
+[STEP 100] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 10
+[STEP 101] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 10
+[STEP 102] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 10
+[STEP 103] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: south                     || Reward: 0, Score: 10
+[STEP 104] |  second floor stacks this cavernous room is filled with shelves as far || Action: look                      || Reward: 0, Score: 10
+[STEP 105] |  second floor stacks this cavernous room is filled with shelves as far || Action: look                      || Reward: 0, Score: 10
+[STEP 106] |  second floor stacks this cavernous room is filled with shelves as far || Action: south                     || Reward: 0, Score: 10
+[STEP 107] |  rare books room the shelves are nearly bare, although there is a comp || Action: north                     || Reward: 0, Score: 10
+[STEP 108] |  second floor stacks this cavernous room is filled with shelves as far || Action: look                      || Reward: 0, Score: 10
+[STEP 109] |  second floor stacks this cavernous room is filled with shelves as far || Action: north                     || Reward: 0, Score: 10
+Run 5/10 finished. Score: 10
+
+--- EVALUATION SUMMARY (our method) ---
+Agent LLM Model: gpt-oss-20b
+Number of final evaluation runs: 10
+Individual Scores: [5, 5, 5, 10, 10]
+Average Score: 7.00
+Standard Deviation: 2.74
+
+Starting game run 6/10...
+[DACS] enabled=True game=library
+[DACS] num raw candidates = 5 archived=0
+[DACS] num filtered candidates = 4
+[DACS] selected/reordered candidate ids = [4, 3, 2, 1]
+[DACS] candidate score table:
+  id | relevance | diversity | risk | final_score | summary
+  4 | 0.501 | 1.0 | 0.146 | 1.099 | **Guiding Prompt**  You are a text‑adventure agent in a library. Your goal is to
+  3 | 0.454 | 0.702 | 0.105 | 0.932 | 1. Confirm you have the key to the rare books room. If you haven’t given the ID 
+  2 | 0.533 | 0.626 | 0.171 | 0.826 | **Guiding Prompt**  1. **Obtain the ID card**      * Go to the circulation desk 
+  1 | 0.46 | 0.527 | 0.134 | 0.73 | **Guiding Prompt**  1. **Acquire the ID card**      * Go to the circulation desk
+[DACS] fallback=False
+Parent node 4 at depth 2 with UCB score: 10.811927194354892
+
+Evolving prompt. Current prompt: '**Guiding Prompt**
+
+You are a text‑adventure agent in a library. Your goal is to...'
+
+Current state extractor code: 'def extract_state(game_history):
+    has_key = "you have not the key" not in gam...'
+
+
+Updated state extractor code successfully.
+Evolved guiding prompt and code: '**Guiding Prompt**
+
+You are a text‑adventure agent in a library.  
+Your objective: obtain the biography of Graham Nelson, return the key that was borrowed, and leave the library.
+
+Follow these strictly necessary actions. Do **not** perform any actions that do not directly advance this objective.
+
+1. **Give the card catalog to the circulation desk attendant**  
+   - Command: `give card catalog to attendant`  
+   - Result: you receive a key to the Rare Books Room.
+
+2. **Navigate to the Rare Books Room**  
+   - From the lobby, go **west** into the ground‑floor stacks.  
+   - Go **north** to the stairwell.  
+   - Go **up** the stairs to the second‑floor stairwell.  
+   - Go **south** to the second‑floor stacks.  
+   - Go **south** to the Rare Books Room.
+
+3. **Unlock, open, and enter the Rare Books Room**  
+   - `unlock door with key`  
+   - `open door`  
+   - `enter`
+
+4. **Take the biography**  
+   - `get biography`
+
+5. **Return the key to the circulation desk**  
+   - From the Rare Books Room, go **north** back to the second‑floor stacks.  
+   - Go **north** to the stairwell, then **down** to the ground‑floor stairwell.  
+   - Go **south** to the lobby.  
+   - `give key to attendant`
+
+6. **Exit the library**  
+   - `east` from the lobby to leave the library.
+
+**Avoid the following patterns**
+
+- Repeated `look`, `examine`, or `search` on the same object.  
+- Unnecessary directional moves (e.g., `west`, `east`, or extra `north`/`south` steps when already in the correct room).  
+- Trying to `open` or `unlock` a door that is already open or unlocked.  
+- Any action that does not directly lead to obtaining, using, or returning the key or the biography.
+
+**If you become stuck** (e.g., you can no longer progress toward the Rare Books Room or return the key), list all rooms that have been lightly searched:
+
+- `computer room`  
+- `duplicating services`  
+- `private area`  
+- `stairwell`  
+
+Brainstorm possible next attempts (e.g., examine unseen objects, talk to NPCs, check inventory for overlooked items) and systematically explore each listed room, interact with objects, NPCs, and query inventory for clues.
+
+---'
+def extract_state(game_history):
+    key_present = False
+    biography_present = False
+    key_returned = None
+    lines = game_history.lower().splitlines()
+    for i, line in enumerate(lines):
+        if line.startswith("you are carrying:"):
+            j = i + 1
+            while j < len(lines) and lines[j].strip():
+                item = lines[j].strip()
+                if "key" in item:
+                    key_present = True
+                if "biography" in item:
+                    biography_present = True
+                j += 1
+    if "you really need to return that key" in game_history.lower():
+        key_returned = False
+    parts = []
+    parts.append("Has key" if key_present else "No key")
+    parts.append("Has biography" if biography_present else "No biography")
+    if key_returned is False:
+        parts.append("Key not returned")
+    return ", ".join(parts)
+[STEP 0] |                                                             ALL QUIET  || Action: give card catalog to attendant || Reward: 0, Score: 0
+[STEP 1] | (first taking the card catalog) that's hardly portable.                || Action: give card catalog to attendant || Reward: 0, Score: 0
+[STEP 2] | (first taking the card catalog) that's hardly portable.                || Action: look                      || Reward: 0, Score: 0
+[STEP 3] |  lobby this is the entrance to the library. the circulation desk domin || Action: give card catalog to attendant || Reward: 0, Score: 0
+[STEP 4] | (first taking the card catalog) that's hardly portable.                || Action: give card to attendant    || Reward: 5, Score: 5
+[STEP 5] | (the id card to the circulation desk attendant) the circulation attend || Action: west                      || Reward: 0, Score: 5
+[STEP 6] |  you push the glass doors open. their hydraulics hiss faintly.  ground || Action: north                     || Reward: 0, Score: 5
+[STEP 7] |  ground floor stairwell grungy stairs lead upwards, to the second leve || Action: north                     || Reward: 0, Score: 5
+[STEP 8] | you can't go that way.                                                 || Action: look                      || Reward: 0, Score: 5
+[STEP 9] |  ground floor stairwell grungy stairs lead upwards, to the second leve || Action: look                      || Reward: 0, Score: 5
+[STEP 10] |  ground floor stairwell grungy stairs lead upwards, to the second leve || Action: up                        || Reward: 0, Score: 5
+[STEP 11] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: south                     || Reward: 0, Score: 5
+[STEP 12] |  second floor stacks you are in a maze of twisty shelves, all alike.   || Action: unlock door with key      || Reward: 0, Score: 5
+[STEP 13] | you unlock the rare books door.                                        || Action: open door                 || Reward: 0, Score: 5
+[STEP 14] | you open the rare books door.                                          || Action: get biography             || Reward: 0, Score: 5
+[STEP 15] | you can't see any such thing.                                          || Action: look                      || Reward: 0, Score: 5
+[STEP 16] |  second floor stacks this cavernous room is filled with shelves as far || Action: enter                     || Reward: 0, Score: 5
+[STEP 17] |  rare books room the shelves are nearly bare, although there is a comp || Action: get biography             || Reward: 5, Score: 10
+[STEP 18] | taken.  [your score has just gone up by five points.]                  || Action: north                     || Reward: 0, Score: 10
+[STEP 19] |  second floor stacks this cavernous room is filled with shelves as far || Action: north                     || Reward: 0, Score: 10
+[STEP 20] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: south                     || Reward: 0, Score: 10
+[STEP 21] |  second floor stacks this cavernous room is filled with shelves as far || Action: north                     || Reward: 0, Score: 10
+[STEP 22] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: down                      || Reward: 0, Score: 10
+[STEP 23] |  ground floor stairwell grungy stairs lead upwards, to the second leve || Action: south                     || Reward: 0, Score: 10
+[STEP 24] |  ground floor stacks this cavernous room is lit with flickering floure || Action: north                     || Reward: 0, Score: 10
+[STEP 25] |  ground floor stairwell grungy stairs lead upwards, to the second leve || Action: south                     || Reward: 0, Score: 10
+[STEP 26] |  ground floor stacks this cavernous room is lit with flickering floure || Action: east                      || Reward: 0, Score: 10
+[STEP 27] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 28] |  lobby this is the entrance to the library. the circulation desk domin || Action: give card to attendant    || Reward: 0, Score: 10
+[STEP 29] | which do you mean, the card catalog or the id card?                    || Action: give card to attendant    || Reward: 0, Score: 10
+[STEP 30] | which do you mean, the card catalog or the id card?                    || Action: give card catalog to attendant || Reward: 0, Score: 10
+[STEP 31] | (first taking the card catalog) that's hardly portable.                || Action: give card catalog to attendant || Reward: 0, Score: 10
+[STEP 32] | (first taking the card catalog) that's hardly portable.                || Action: look                      || Reward: 0, Score: 10
+[STEP 33] |  lobby this is the entrance to the library. the circulation desk domin || Action: give key to attendant     || Reward: 0, Score: 10
+[STEP 34] | "did you remember to close the door?"                                  || Action: look                      || Reward: 0, Score: 10
+[STEP 35] |  lobby this is the entrance to the library. the circulation desk domin || Action: give card catalog to attendant || Reward: 0, Score: 10
+[STEP 36] | (first taking the card catalog) that's hardly portable.                || Action: give card to attendant    || Reward: 0, Score: 10
+[STEP 37] | which do you mean, the card catalog or the id card?                    || Action: give card to attendant    || Reward: 0, Score: 10
+[STEP 38] | which do you mean, the card catalog or the id card?                    || Action: give card to attendant    || Reward: 0, Score: 10
+[STEP 39] | which do you mean, the card catalog or the id card?                    || Action: give card to attendant    || Reward: 0, Score: 10
+[STEP 40] | which do you mean, the card catalog or the id card?                    || Action: give card to attendant    || Reward: 0, Score: 10
+[STEP 41] | which do you mean, the card catalog or the id card?                    || Action: look                      || Reward: 0, Score: 10
+[STEP 42] |  lobby this is the entrance to the library. the circulation desk domin || Action: give card to attendant    || Reward: 0, Score: 10
+[STEP 43] | which do you mean, the card catalog or the id card?                    || Action: give card to attendant    || Reward: 0, Score: 10
+[STEP 44] | which do you mean, the card catalog or the id card?                    || Action: give card to attendant    || Reward: 0, Score: 10
+[STEP 45] | which do you mean, the card catalog or the id card?                    || Action: get card                  || Reward: 0, Score: 10
+[STEP 46] | which do you mean, the card catalog or the id card?                    || Action: give card to attendant    || Reward: 0, Score: 10
+[STEP 47] | which do you mean, the card catalog or the id card?                    || Action: look                      || Reward: 0, Score: 10
+[STEP 48] |  lobby this is the entrance to the library. the circulation desk domin || Action: give card to attendant    || Reward: 0, Score: 10
+[STEP 49] | which do you mean, the card catalog or the id card?                    || Action: give card to attendant    || Reward: 0, Score: 10
+[STEP 50] | which do you mean, the card catalog or the id card?                    || Action: look                      || Reward: 0, Score: 10
+[STEP 51] |  lobby this is the entrance to the library. the circulation desk domin || Action: give card to attendant    || Reward: 0, Score: 10
+[STEP 52] | which do you mean, the card catalog or the id card?                    || Action: give card to attendant    || Reward: 0, Score: 10
+[STEP 53] | which do you mean, the card catalog or the id card?                    || Action: give card to attendant    || Reward: 0, Score: 10
+[STEP 54] | which do you mean, the card catalog or the id card?                    || Action: look                      || Reward: 0, Score: 10
+[STEP 55] |  lobby this is the entrance to the library. the circulation desk domin || Action: get card                  || Reward: 0, Score: 10
+[STEP 56] | which do you mean, the card catalog or the id card?                    || Action: look                      || Reward: 0, Score: 10
+[STEP 57] |  lobby this is the entrance to the library. the circulation desk domin || Action: get card                  || Reward: 0, Score: 10
+[STEP 58] | which do you mean, the card catalog or the id card?                    || Action: get card                  || Reward: 0, Score: 10
+[STEP 59] | which do you mean, the card catalog or the id card?                    || Action: look                      || Reward: 0, Score: 10
+[STEP 60] |  lobby this is the entrance to the library. the circulation desk domin || Action: get card                  || Reward: 0, Score: 10
+[STEP 61] | which do you mean, the card catalog or the id card?                    || Action: look                      || Reward: 0, Score: 10
+[STEP 62] |  lobby this is the entrance to the library. the circulation desk domin || Action: give card catalog to attendant || Reward: 0, Score: 10
+[STEP 63] | (first taking the card catalog) that's hardly portable.                || Action: look                      || Reward: 0, Score: 10
+[STEP 64] |  lobby this is the entrance to the library. the circulation desk domin || Action: look in card catalog      || Reward: 0, Score: 10
+[STEP 65] | you find nothing of interest.                                          || Action: look                      || Reward: 0, Score: 10
+[STEP 66] |  lobby this is the entrance to the library. the circulation desk domin || Action: give card catalog to attendant || Reward: 0, Score: 10
+[STEP 67] | (first taking the card catalog) that's hardly portable.                || Action: look                      || Reward: 0, Score: 10
+[STEP 68] |  lobby this is the entrance to the library. the circulation desk domin || Action: give card catalog to attendant || Reward: 0, Score: 10
+[STEP 69] | (first taking the card catalog) that's hardly portable.                || Action: give card catalog to attendant || Reward: 0, Score: 10
+[STEP 70] | (first taking the card catalog) that's hardly portable.                || Action: look                      || Reward: 0, Score: 10
+[STEP 71] |  lobby this is the entrance to the library. the circulation desk domin || Action: take card catalog         || Reward: 0, Score: 10
+[STEP 72] | that's hardly portable.                                                || Action: give card catalog to attendant || Reward: 0, Score: 10
+[STEP 73] | (first taking the card catalog) that's hardly portable.                || Action: give card catalog to attendant || Reward: 0, Score: 10
+[STEP 74] | (first taking the card catalog) that's hardly portable.                || Action: look                      || Reward: 0, Score: 10
+[STEP 75] |  lobby this is the entrance to the library. the circulation desk domin || Action: give card catalog to attendant || Reward: 0, Score: 10
+[STEP 76] | (first taking the card catalog) that's hardly portable.                || Action: give card catalog to attendant || Reward: 0, Score: 10
+[STEP 77] | (first taking the card catalog) that's hardly portable.                || Action: look                      || Reward: 0, Score: 10
+[STEP 78] |  lobby this is the entrance to the library. the circulation desk domin || Action: give card catalog to attendant || Reward: 0, Score: 10
+[STEP 79] | (first taking the card catalog) that's hardly portable.                || Action: look                      || Reward: 0, Score: 10
+[STEP 80] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 81] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 82] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 83] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 84] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 85] |  lobby this is the entrance to the library. the circulation desk domin || Action: give card to attendant    || Reward: 0, Score: 10
+[STEP 86] | which do you mean, the card catalog or the id card?                    || Action: look                      || Reward: 0, Score: 10
+[STEP 87] |  lobby this is the entrance to the library. the circulation desk domin || Action: open card catalog         || Reward: 0, Score: 10
+[STEP 88] | that's not something you can open.                                     || Action: look                      || Reward: 0, Score: 10
+[STEP 89] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 90] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 91] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 92] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 93] |  lobby this is the entrance to the library. the circulation desk domin || Action: give card to attendant    || Reward: 0, Score: 10
+[STEP 94] | which do you mean, the card catalog or the id card?                    || Action: give card to attendant    || Reward: 0, Score: 10
+[STEP 95] | which do you mean, the card catalog or the id card?                    || Action: give card to attendant    || Reward: 0, Score: 10
+[STEP 96] | which do you mean, the card catalog or the id card?                    || Action: look                      || Reward: 0, Score: 10
+[STEP 97] |  lobby this is the entrance to the library. the circulation desk domin || Action: take card                 || Reward: 0, Score: 10
+[STEP 98] | which do you mean, the card catalog or the id card?                    || Action: look                      || Reward: 0, Score: 10
+[STEP 99] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 100] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 101] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 102] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 103] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 104] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 105] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 106] |  lobby this is the entrance to the library. the circulation desk domin || Action: look card catalog         || Reward: 0, Score: 10
+[STEP 107] | i only understood you as far as wanting to look.                       || Action: look                      || Reward: 0, Score: 10
+[STEP 108] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 109] |  lobby this is the entrance to the library. the circulation desk domin || Action: give card catalog to attendant || Reward: 0, Score: 10
+Run 6/10 finished. Score: 10
+
+--- EVALUATION SUMMARY (our method) ---
+Agent LLM Model: gpt-oss-20b
+Number of final evaluation runs: 10
+Individual Scores: [5, 5, 5, 10, 10, 10]
+Average Score: 7.50
+Standard Deviation: 2.74
+
+Starting game run 7/10...
+[DACS] enabled=True game=library
+[DACS] num raw candidates = 6 archived=0
+[DACS] num filtered candidates = 4
+[DACS] selected/reordered candidate ids = [4, 3, 1, 5]
+[DACS] candidate score table:
+  id | relevance | diversity | risk | final_score | summary
+  4 | 0.572 | 1.0 | 0.144 | 1.171 | **Guiding Prompt**  You are a text‑adventure agent in a library. Your goal is to
+  3 | 0.536 | 0.702 | 0.112 | 1.009 | 1. Confirm you have the key to the rare books room. If you haven’t given the ID 
+  1 | 0.514 | 0.598 | 0.119 | 0.829 | **Guiding Prompt**  1. **Acquire the ID card**      * Go to the circulation desk
+  5 | 0.513 | 0.415 | 0.142 | 0.822 | **Guiding Prompt**  You are a text‑adventure agent in a library.   Your objectiv
+[DACS] fallback=False
+Parent node 3 at depth 1 with UCB score: 10.757207389129938
+
+Evolving prompt. Current prompt: '1. Confirm you have the key to the rare books room. If you haven’t given the ID ...'
+
+Current state extractor code: 'def extract_state(game_history):
+    key = "gives you the key to the rare books ...'
+
+
+Updated state extractor code successfully.
+Evolved guiding prompt and code: '**Guiding Prompt**
+
+1. Give the card catalog to the circulation desk attendant.  
+   - Command: `give card catalog to attendant`  
+   - Result: you receive the key for the Rare Books Room.
+
+2. Move to the second‑floor stacks where the Rare Books Room is located.  
+   1. From the lobby, go west into the ground‑floor stacks: `west`.  
+   2. From the ground‑floor stacks, go north to the stairwell: `north`.  
+   3. From the stairwell, go up: `up`.  
+   4. From the second‑floor stairwell, go south into the second‑floor stacks: `south`.
+
+3. Unlock the heavy wooden door to the Rare Books Room with the key.  
+   - Command: `unlock door with key` (or `unlock heavy wooden door`).
+
+4. Open the unlocked door.  
+   - Command: `open door`.
+
+5. Enter the Rare Books Room.  
+   - Command: `enter` (or `north` if that is the direction specified in the room description).
+
+6. Take the biography of Graham Nelson.  
+   - Command: `get biography` (or `take biography`).
+
+7. (Optional) Return to the lobby or exit the library.  
+   - Commands: `north` (from Rare Books Room to stairwell), then `up`, then `west` back to lobby, then `east` to exit.
+
+**Disallowed / Unproductive Actions**
+
+- Repeating `look`, `examine`, or `search` on the same object or location without new information.  
+- Repeatedly moving in circles (e.g., `north` → `south`, `west` → `east`, etc.) without progress.  
+- Attempting to `unlock` doors that are already unlocked or doors that are not present.  
+- Any action that does not bring you closer to obtaining the key, unlocking the Rare Books Room, or retrieving the biography.
+
+**If You Get Stuck**
+
+1. List unexplored rooms or directions you have not yet visited:  
+   - `Computer Room` (east of the second‑floor stacks).  
+   - `Duplicating Services` (northwest of the lobby).  
+   - `Private` (north of the lobby).  
+2. Try a systematic exploration strategy:  
+   - In each new room or area, first `look` to read the description.  
+   - If the description mentions an object or NPC, `examine` or `talk to` it.  
+   - Use `inventory` if you think you may have missed an item.  
+3. If you find a new door or passage, follow it and repeat the process.  
+4. Keep a mental note of which directions have already been tried to avoid loops.
+
+---'
+def extract_state(game_history):
+    state = []
+    if "give card" in game_history.lower() or "give card catalog" in game_history.lower():
+        state.append("key obtained")
+    if "unlock door" in game_history.lower():
+        state.append("door unlocked")
+    if "open door" in game_history.lower():
+        state.append("door open")
+    if "rare books room" in game_history.lower() and ("enter" in game_history.lower() or "north" in game_history.lower()):
+        state.append("entered Rare Books Room")
+    if "get biography" in game_history.lower() or "take biography" in game_history.lower():
+        state.append("biography taken")
+    return ", ".join(state) + "." if state else "Unknown state."
+[STEP 0] |                                                             ALL QUIET  || Action: get card catalog          || Reward: 0, Score: 0
+[STEP 1] | that's hardly portable.                                                || Action: give card catalog to attendant || Reward: 0, Score: 0
+[STEP 2] | (first taking the card catalog) that's hardly portable.                || Action: look                      || Reward: 0, Score: 0
+[STEP 3] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 0
+[STEP 4] |  lobby this is the entrance to the library. the circulation desk domin || Action: west                      || Reward: 0, Score: 0
+[STEP 5] |  you push the glass doors open. their hydraulics hiss faintly.  ground || Action: north                     || Reward: 0, Score: 0
+[STEP 6] |  ground floor stairwell grungy stairs lead upwards, to the second leve || Action: up                        || Reward: 0, Score: 0
+[STEP 7] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: south                     || Reward: 0, Score: 0
+[STEP 8] |  second floor stacks you are in a maze of twisty shelves, all alike.   || Action: unlock door with key      || Reward: 0, Score: 0
+[STEP 9] | you can't see any such thing.                                          || Action: open door                 || Reward: 0, Score: 0
+[STEP 10] | it seems to be locked.                                                 || Action: look                      || Reward: 0, Score: 0
+[STEP 11] |  second floor stacks this cavernous room is filled with shelves as far || Action: look                      || Reward: 0, Score: 0
+[STEP 12] |  second floor stacks this cavernous room is filled with shelves as far || Action: inventory                 || Reward: 0, Score: 0
+[STEP 13] | you are carrying:   an id card                                         || Action: look                      || Reward: 0, Score: 0
+[STEP 14] |  second floor stacks this cavernous room is filled with shelves as far || Action: look                      || Reward: 0, Score: 0
+[STEP 15] |  second floor stacks this cavernous room is filled with shelves as far || Action: north                     || Reward: 0, Score: 0
+[STEP 16] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 0
+[STEP 17] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 0
+[STEP 18] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 0
+[STEP 19] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 0
+[STEP 20] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 0
+[STEP 21] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: north                     || Reward: 0, Score: 0
+[STEP 22] | you can't go that way.                                                 || Action: look                      || Reward: 0, Score: 0
+[STEP 23] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: south                     || Reward: 0, Score: 0
+[STEP 24] |  second floor stacks this cavernous room is filled with shelves as far || Action: look                      || Reward: 0, Score: 0
+[STEP 25] |  second floor stacks this cavernous room is filled with shelves as far || Action: north                     || Reward: 0, Score: 0
+[STEP 26] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: north                     || Reward: 0, Score: 0
+[STEP 27] | you can't go that way.                                                 || Action: look                      || Reward: 0, Score: 0
+[STEP 28] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 0
+[STEP 29] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 0
+[STEP 30] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 0
+[STEP 31] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: south                     || Reward: 0, Score: 0
+[STEP 32] |  second floor stacks this cavernous room is filled with shelves as far || Action: look                      || Reward: 0, Score: 0
+[STEP 33] |  second floor stacks this cavernous room is filled with shelves as far || Action: north                     || Reward: 0, Score: 0
+[STEP 34] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 0
+[STEP 35] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 0
+[STEP 36] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: down                      || Reward: 0, Score: 0
+[STEP 37] |  ground floor stairwell grungy stairs lead upwards, to the second leve || Action: south                     || Reward: 0, Score: 0
+[STEP 38] |  ground floor stacks this cavernous room is lit with flickering floure || Action: look                      || Reward: 0, Score: 0
+[STEP 39] |  ground floor stacks this cavernous room is lit with flickering floure || Action: east                      || Reward: 0, Score: 0
+[STEP 40] |  lobby this is the entrance to the library. the circulation desk domin || Action: take catalog              || Reward: 0, Score: 0
+[STEP 41] | that's hardly portable.                                                || Action: give catalog to attendant || Reward: 0, Score: 0
+[STEP 42] | (first taking the card catalog) that's hardly portable.                || Action: give catalog to attendant || Reward: 0, Score: 0
+[STEP 43] | (first taking the card catalog) that's hardly portable.                || Action: give card to attendant    || Reward: 5, Score: 5
+[STEP 44] | (the id card to the circulation desk attendant) the circulation attend || Action: west                      || Reward: 0, Score: 5
+[STEP 45] |  you push the glass doors open. their hydraulics hiss faintly.  ground || Action: north                     || Reward: 0, Score: 5
+[STEP 46] |  ground floor stairwell grungy stairs lead upwards, to the second leve || Action: north                     || Reward: 0, Score: 5
+[STEP 47] | you can't go that way.                                                 || Action: look                      || Reward: 0, Score: 5
+[STEP 48] |  ground floor stairwell grungy stairs lead upwards, to the second leve || Action: north                     || Reward: 0, Score: 5
+[STEP 49] | you can't go that way.                                                 || Action: up                        || Reward: 0, Score: 5
+[STEP 50] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: south                     || Reward: 0, Score: 5
+[STEP 51] |  second floor stacks this cavernous room is filled with shelves as far || Action: unlock door with key      || Reward: 0, Score: 5
+[STEP 52] | you unlock the rare books door.                                        || Action: open door                 || Reward: 0, Score: 5
+[STEP 53] | you open the rare books door.                                          || Action: look                      || Reward: 0, Score: 5
+[STEP 54] |  second floor stacks this cavernous room is filled with shelves as far || Action: look                      || Reward: 0, Score: 5
+[STEP 55] |  second floor stacks this cavernous room is filled with shelves as far || Action: enter                     || Reward: 0, Score: 5
+[STEP 56] |  rare books room the shelves are nearly bare, although there is a comp || Action: get biography             || Reward: 5, Score: 10
+[STEP 57] | taken.  [your score has just gone up by five points.]                  || Action: look                      || Reward: 0, Score: 10
+[STEP 58] |  rare books room the shelves are nearly bare, although there is a comp || Action: north                     || Reward: 0, Score: 10
+[STEP 59] |  second floor stacks this cavernous room is filled with shelves as far || Action: north                     || Reward: 0, Score: 10
+[STEP 60] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 10
+[STEP 61] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: south                     || Reward: 0, Score: 10
+[STEP 62] |  second floor stacks this cavernous room is filled with shelves as far || Action: north                     || Reward: 0, Score: 10
+[STEP 63] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 10
+[STEP 64] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 10
+[STEP 65] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 10
+[STEP 66] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 10
+[STEP 67] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 10
+[STEP 68] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 10
+[STEP 69] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 10
+[STEP 70] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 10
+[STEP 71] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 10
+[STEP 72] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 10
+[STEP 73] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 10
+[STEP 74] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action:                           || Reward: 0, Score: 10
+[STEP 75] | i beg your pardon?                                                     || Action: down                      || Reward: 0, Score: 10
+[STEP 76] |  ground floor stairwell grungy stairs lead upwards, to the second leve || Action: south                     || Reward: 0, Score: 10
+[STEP 77] |  ground floor stacks this cavernous room is lit with flickering floure || Action: east                      || Reward: 0, Score: 10
+[STEP 78] |  lobby this is the entrance to the library. the circulation desk domin || Action: east                      || Reward: 0, Score: 10
+[STEP 79] | whoops!  you really need to return that key to the circulation desk!   || Action: give key to attendant     || Reward: 0, Score: 10
+[STEP 80] | "did you remember to close the door?"                                  || Action: close door                || Reward: 0, Score: 10
+[STEP 81] | that's not something you can close.                                    || Action: east                      || Reward: 0, Score: 10
+[STEP 82] | whoops!  you really need to return that key to the circulation desk!   || Action: give key to attendant     || Reward: 0, Score: 10
+[STEP 83] | "did you remember to close the door?"                                  || Action: give key to attendant     || Reward: 0, Score: 10
+[STEP 84] | "did you remember to close the door?"                                  || Action: give key to attendant     || Reward: 0, Score: 10
+[STEP 85] | "did you remember to close the door?"                                  || Action: give key to attendant     || Reward: 0, Score: 10
+[STEP 86] | "did you remember to close the door?"                                  || Action: give key to attendant     || Reward: 0, Score: 10
+[STEP 87] | "did you remember to close the door?"                                  || Action: look                      || Reward: 0, Score: 10
+[STEP 88] |  lobby this is the entrance to the library. the circulation desk domin || Action: give key to attendant     || Reward: 0, Score: 10
+[STEP 89] | "did you remember to close the door?"                                  || Action: look                      || Reward: 0, Score: 10
+[STEP 90] |  lobby this is the entrance to the library. the circulation desk domin || Action: give key to attendant     || Reward: 0, Score: 10
+[STEP 91] | "did you remember to close the door?"                                  || Action: give key to attendant     || Reward: 0, Score: 10
+[STEP 92] | "did you remember to close the door?"                                  || Action: look                      || Reward: 0, Score: 10
+[STEP 93] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 94] |  lobby this is the entrance to the library. the circulation desk domin || Action: give key to attendant     || Reward: 0, Score: 10
+[STEP 95] | "did you remember to close the door?"                                  || Action: give key to attendant     || Reward: 0, Score: 10
+[STEP 96] | "did you remember to close the door?"                                  || Action: look                      || Reward: 0, Score: 10
+[STEP 97] |  lobby this is the entrance to the library. the circulation desk domin || Action: give key to attendant     || Reward: 0, Score: 10
+[STEP 98] | "did you remember to close the door?"                                  || Action: give key to attendant     || Reward: 0, Score: 10
+[STEP 99] | "did you remember to close the door?"                                  || Action: give key to attendant     || Reward: 0, Score: 10
+[STEP 100] | "did you remember to close the door?"                                  || Action: give key to attendant     || Reward: 0, Score: 10
+[STEP 101] | "did you remember to close the door?"                                  || Action: look                      || Reward: 0, Score: 10
+[STEP 102] |  lobby this is the entrance to the library. the circulation desk domin || Action: give key to attendant     || Reward: 0, Score: 10
+[STEP 103] | "did you remember to close the door?"                                  || Action: give key to attendant     || Reward: 0, Score: 10
+[STEP 104] | "did you remember to close the door?"  a voice over the pa system anno || Action: look                      || Reward: 0, Score: 10
+[STEP 105] |  lobby this is the entrance to the library. the circulation desk domin || Action: east                      || Reward: 0, Score: 10
+[STEP 106] | whoops!  you really need to return that key to the circulation desk!   || Action: give key to attendant     || Reward: 0, Score: 10
+[STEP 107] | "did you remember to close the door?"                                  || Action: give key to attendant     || Reward: 0, Score: 10
+[STEP 108] | "did you remember to close the door?"                                  || Action: look                      || Reward: 0, Score: 10
+[STEP 109] |  lobby this is the entrance to the library. the circulation desk domin || Action: give key to attendant     || Reward: 0, Score: 10
+Run 7/10 finished. Score: 10
+
+--- EVALUATION SUMMARY (our method) ---
+Agent LLM Model: gpt-oss-20b
+Number of final evaluation runs: 10
+Individual Scores: [5, 5, 5, 10, 10, 10, 10]
+Average Score: 7.86
+Standard Deviation: 2.67
+
+Starting game run 8/10...
+[DACS] enabled=True game=library
+[DACS] num raw candidates = 7 archived=0
+[DACS] num filtered candidates = 4
+[DACS] selected/reordered candidate ids = [6, 4, 3, 2]
+[DACS] candidate score table:
+  id | relevance | diversity | risk | final_score | summary
+  6 | 0.566 | 1.0 | 0.162 | 1.153 | **Guiding Prompt**  1. Give the card catalog to the circulation desk attendant. 
+  4 | 0.529 | 0.641 | 0.162 | 0.936 | **Guiding Prompt**  You are a text‑adventure agent in a library. Your goal is to
+  3 | 0.406 | 0.661 | 0.126 | 0.849 | 1. Confirm you have the key to the rare books room. If you haven’t given the ID 
+  2 | 0.543 | 0.617 | 0.163 | 0.838 | **Guiding Prompt**  1. **Obtain the ID card**      * Go to the circulation desk 
+[DACS] fallback=False
+Parent node 6 at depth 2 with UCB score: 10.892773653874853
+
+Evolving prompt. Current prompt: '**Guiding Prompt**
+
+1. Give the card catalog to the circulation desk attendant. ...'
+
+Current state extractor code: 'def extract_state(game_history):
+    state = []
+    if "give card" in game_histo...'
+
+
+Updated state extractor code successfully.
+Evolved guiding prompt and code: '**Guiding Prompt**
+
+You are a student who must retrieve the biography of Graham Nelson from the Rare Books Room and leave the library. Follow these exact steps; do not deviate.
+
+1. **Collect the card catalog**  
+   - Command: `get card catalog`  
+   - Result: You now have the card catalog.
+
+2. **Give the card catalog to the circulation desk attendant**  
+   - Command: `give card catalog to attendant`  
+   - Result: You receive the key for the Rare Books Room.
+
+3. **Navigate to the Rare Books Room**  
+   - From the lobby, go west into the ground‑floor stacks: `west`.  
+   - From the ground‑floor stacks, go north to the stairwell: `north`.  
+   - From the stairwell, go up: `up`.  
+   - From the second‑floor stairwell, go south into the second‑floor stacks: `south`.  
+   - Unlock the heavy wooden door with the key: `unlock door with key`.  
+   - Open the unlocked door: `open door`.  
+   - Enter the Rare Books Room: `enter`.
+
+4. **Take the biography of Graham Nelson**  
+   - Command: `get biography`.  
+   - Result: The biography is now in your inventory.
+
+5. **Return the key to the circulation desk attendant**  
+   - Move back to the lobby if you’re not already there:  
+     - From the Rare Books Room, go north to the stairwell: `north`.  
+     - From the stairwell, go down: `down`.  
+     - From the ground‑floor stairs, go south to the stacks: `south`.  
+     - From the stacks, go east to the lobby: `east`.  
+   - Give the key: `give key to attendant`.  
+   - Result: The key is returned; the library accepts the return.
+
+6. **Exit the library**  
+   - From the lobby, go east to the exit: `east`.  
+   - Result: You have left the library.
+
+**Disallowed / Unproductive Actions**
+
+- Repeating `look`, `examine`, or `search` on the same object or location without new information.  
+- Moving in circles (e.g., `north → south`, `east → west`) without progress.  
+- Attempting to `unlock` a door that is already unlocked or to `close` a door that cannot be closed.  
+- Re‑giving the key to the attendant multiple times; only one return is necessary.  
+- Any action that does not bring you closer to retrieving the biography, returning the key, or exiting the library.
+
+**If You Get Stuck**
+
+1. List all rooms you have not yet explored or only lightly examined:  
+   - Computer Room (east of the second‑floor stacks).  
+   - Duplicating Services (northwest of the lobby).  
+   - Private (north of the lobby).  
+
+2. For each such room, try the following systematic approach:  
+   - `look` to read the description.  
+   - If an object or NPC appears, `examine` it or `talk to` it.  
+   - If the description mentions an item, `take` or `give` it as appropriate.  
+   - Keep track of directions already tried to avoid loops.  
+
+3. If you find a new door or passage, follow the same pattern: `look`, `examine`, `unlock` if required, then `open` or `enter`.  
+
+4. Never repeat the same action that has already been confirmed unsuccessful (e.g., `give key to attendant` after the key has been returned).  
+
+**Remember**: The only milestones that matter are obtaining the key, unlocking and opening the Rare Books Room door, taking the biography, returning the key, and leaving the library. Stick to those steps and avoid any unnecessary repetition.
+
+---'
+def extract_state(game_history):
+    key_obtained = "the circulation attendant gives you the key" in game_history.lower()
+    door_unlocked = "unlock door with key" in game_history.lower()
+    door_open = "you open the rare books door" in game_history.lower()
+    biography_taken = "you take biography" in game_history.lower()
+    key_returned = "give key to attendant" in game_history.lower()
+    exited = "you go east" in game_history.lower() or "you exit" in game_history.lower()
+    parts = []
+    if key_obtained:
+        parts.append("key obtained")
+    if door_unlocked:
+        parts.append("door unlocked")
+    if door_open:
+        parts.append("door opened")
+    if biography_taken:
+        parts.append("biography taken")
+    if key_returned:
+        parts.append("key returned")
+    if exited:
+        parts.append("exited library")
+    if parts:
+        return ", ".join(parts) + "."
+    return "Unknown state."
+[STEP 0] |                                                             ALL QUIET  || Action: get card catalog          || Reward: 0, Score: 0
+[STEP 1] | that's hardly portable.                                                || Action: look                      || Reward: 0, Score: 0
+[STEP 2] |  lobby this is the entrance to the library. the circulation desk domin || Action: get card catalog          || Reward: 0, Score: 0
+[STEP 3] | that's hardly portable.                                                || Action: give card catalog to attendant || Reward: 0, Score: 0
+[STEP 4] | (first taking the card catalog) that's hardly portable.                || Action: look                      || Reward: 0, Score: 0
+[STEP 5] |  lobby this is the entrance to the library. the circulation desk domin || Action: give card catalog to attendant || Reward: 0, Score: 0
+[STEP 6] | (first taking the card catalog) that's hardly portable.                || Action: look                      || Reward: 0, Score: 0
+[STEP 7] |  lobby this is the entrance to the library. the circulation desk domin || Action: give card catalog to attendant || Reward: 0, Score: 0
+[STEP 8] | (first taking the card catalog) that's hardly portable.                || Action: give card catalog to attendant || Reward: 0, Score: 0
+[STEP 9] | (first taking the card catalog) that's hardly portable.                || Action: give card to attendant    || Reward: 5, Score: 5
+[STEP 10] | (the id card to the circulation desk attendant) the circulation attend || Action: west                      || Reward: 0, Score: 5
+[STEP 11] |  you push the glass doors open. their hydraulics hiss faintly.  ground || Action: north                     || Reward: 0, Score: 5
+[STEP 12] |  ground floor stairwell grungy stairs lead upwards, to the second leve || Action: up                        || Reward: 0, Score: 5
+[STEP 13] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: south                     || Reward: 0, Score: 5
+[STEP 14] |  second floor stacks you are in a maze of twisty shelves, all alike.   || Action: unlock door with key      || Reward: 0, Score: 5
+[STEP 15] | you unlock the rare books door.                                        || Action: open door                 || Reward: 0, Score: 5
+[STEP 16] | you open the rare books door.                                          || Action: enter                     || Reward: 0, Score: 5
+[STEP 17] |  rare books room the shelves are nearly bare, although there is a comp || Action: get biography             || Reward: 5, Score: 10
+[STEP 18] | taken.  [your score has just gone up by five points.]                  || Action: north                     || Reward: 0, Score: 10
+[STEP 19] |  second floor stacks this cavernous room is filled with shelves as far || Action: north                     || Reward: 0, Score: 10
+[STEP 20] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: down                      || Reward: 0, Score: 10
+[STEP 21] |  ground floor stairwell grungy stairs lead upwards, to the second leve || Action: south                     || Reward: 0, Score: 10
+[STEP 22] |  ground floor stacks this cavernous room is lit with flickering floure || Action: east                      || Reward: 0, Score: 10
+[STEP 23] |  lobby this is the entrance to the library. the circulation desk domin || Action: give key to attendant     || Reward: 0, Score: 10
+[STEP 24] | "did you remember to close the door?"                                  || Action: east                      || Reward: 0, Score: 10
+[STEP 25] | whoops!  you really need to return that key to the circulation desk!   || Action: give key to attendant     || Reward: 0, Score: 10
+[STEP 26] | "did you remember to close the door?"                                  || Action: look                      || Reward: 0, Score: 10
+[STEP 27] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 28] |  lobby this is the entrance to the library. the circulation desk domin || Action: give key to attendant     || Reward: 0, Score: 10
+[STEP 29] | "did you remember to close the door?"                                  || Action: look                      || Reward: 0, Score: 10
+[STEP 30] |  lobby this is the entrance to the library. the circulation desk domin || Action: give key to attendant     || Reward: 0, Score: 10
+[STEP 31] | "did you remember to close the door?"                                  || Action: close door                || Reward: 0, Score: 10
+[STEP 32] | that's not something you can close.                                    || Action: look                      || Reward: 0, Score: 10
+[STEP 33] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 34] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 35] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 36] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 37] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 38] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 39] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 40] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 41] |  lobby this is the entrance to the library. the circulation desk domin || Action: give key to attendant     || Reward: 0, Score: 10
+[STEP 42] | "did you remember to close the door?"                                  || Action: look                      || Reward: 0, Score: 10
+[STEP 43] |  lobby this is the entrance to the library. the circulation desk domin || Action: give key to attendant     || Reward: 0, Score: 10
+[STEP 44] | "did you remember to close the door?"                                  || Action: look                      || Reward: 0, Score: 10
+[STEP 45] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 46] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 47] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 48] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 49] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 50] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 51] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 52] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 53] |  lobby this is the entrance to the library. the circulation desk domin || Action: east                      || Reward: 0, Score: 10
+[STEP 54] | whoops!  you really need to return that key to the circulation desk!   || Action: give key to attendant     || Reward: 0, Score: 10
+[STEP 55] | "did you remember to close the door?"                                  || Action: look                      || Reward: 0, Score: 10
+[STEP 56] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 57] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 58] |  lobby this is the entrance to the library. the circulation desk domin || Action: give key to attendant     || Reward: 0, Score: 10
+[STEP 59] | "did you remember to close the door?"                                  || Action: look                      || Reward: 0, Score: 10
+[STEP 60] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 61] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 62] |  lobby this is the entrance to the library. the circulation desk domin || Action: give key to attendant     || Reward: 0, Score: 10
+[STEP 63] | "did you remember to close the door?"                                  || Action: look                      || Reward: 0, Score: 10
+[STEP 64] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 65] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 66] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 67] |  lobby this is the entrance to the library. the circulation desk domin || Action: give key to attendant     || Reward: 0, Score: 10
+[STEP 68] | "did you remember to close the door?"                                  || Action: look                      || Reward: 0, Score: 10
+[STEP 69] |  lobby this is the entrance to the library. the circulation desk domin || Action: give key to attendant     || Reward: 0, Score: 10
+[STEP 70] | "did you remember to close the door?"                                  || Action: look                      || Reward: 0, Score: 10
+[STEP 71] |  lobby this is the entrance to the library. the circulation desk domin || Action: give key to attendant     || Reward: 0, Score: 10
+[STEP 72] | "did you remember to close the door?"                                  || Action: give key to attendant     || Reward: 0, Score: 10
+[STEP 73] | "did you remember to close the door?"                                  || Action: look                      || Reward: 0, Score: 10
+[STEP 74] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 75] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 76] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 77] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 78] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 79] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 80] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 81] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 82] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 83] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 84] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 85] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 86] |  lobby this is the entrance to the library. the circulation desk domin || Action: get card catalog          || Reward: 0, Score: 10
+[STEP 87] | that's hardly portable.                                                || Action: give card to attendant    || Reward: 0, Score: 10
+[STEP 88] | which do you mean, the card catalog or the id card?                    || Action: look                      || Reward: 0, Score: 10
+[STEP 89] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 90] |  lobby this is the entrance to the library. the circulation desk domin || Action: get card catalog          || Reward: 0, Score: 10
+[STEP 91] | that's hardly portable.                                                || Action: look                      || Reward: 0, Score: 10
+[STEP 92] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 93] |  lobby this is the entrance to the library. the circulation desk domin || Action: east                      || Reward: 0, Score: 10
+[STEP 94] | whoops!  you really need to return that key to the circulation desk!   || Action: give key to attendant     || Reward: 0, Score: 10
+[STEP 95] | "did you remember to close the door?"                                  || Action: give key to attendant     || Reward: 0, Score: 10
+[STEP 96] | "did you remember to close the door?"                                  || Action: look                      || Reward: 0, Score: 10
+[STEP 97] |  lobby this is the entrance to the library. the circulation desk domin || Action: give card catalog to attendant || Reward: 0, Score: 10
+[STEP 98] | (first taking the card catalog) that's hardly portable.                || Action: look                      || Reward: 0, Score: 10
+[STEP 99] |  lobby this is the entrance to the library. the circulation desk domin || Action: east                      || Reward: 0, Score: 10
+[STEP 100] | whoops!  you really need to return that key to the circulation desk!   || Action: give key to attendant     || Reward: 0, Score: 10
+[STEP 101] | "did you remember to close the door?"                                  || Action: look                      || Reward: 0, Score: 10
+[STEP 102] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 103] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 104] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 105] |  lobby this is the entrance to the library. the circulation desk domin || Action: east                      || Reward: 0, Score: 10
+[STEP 106] | whoops!  you really need to return that key to the circulation desk!   || Action: give key to attendant     || Reward: 0, Score: 10
+[STEP 107] | "did you remember to close the door?"                                  || Action: give key to attendant     || Reward: 0, Score: 10
+[STEP 108] | "did you remember to close the door?"                                  || Action: look                      || Reward: 0, Score: 10
+[STEP 109] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+Run 8/10 finished. Score: 10
+
+--- EVALUATION SUMMARY (our method) ---
+Agent LLM Model: gpt-oss-20b
+Number of final evaluation runs: 10
+Individual Scores: [5, 5, 5, 10, 10, 10, 10, 10]
+Average Score: 8.12
+Standard Deviation: 2.59
+
+Starting game run 9/10...
+[DACS] enabled=True game=library
+[DACS] num raw candidates = 8 archived=0
+[DACS] num filtered candidates = 4
+[DACS] selected/reordered candidate ids = [7, 5, 3, 2]
+[DACS] candidate score table:
+  id | relevance | diversity | risk | final_score | summary
+  7 | 0.336 | 1.0 | 0.162 | 0.923 | **Guiding Prompt**  You are a student who must retrieve the biography of Graham 
+  5 | 0.328 | 0.624 | 0.156 | 0.731 | **Guiding Prompt**  You are a text‑adventure agent in a library.   Your objectiv
+  3 | 0.244 | 0.697 | 0.132 | 0.7 | 1. Confirm you have the key to the rare books room. If you haven’t given the ID 
+  2 | 0.358 | 0.608 | 0.157 | 0.651 | **Guiding Prompt**  1. **Obtain the ID card**      * Go to the circulation desk 
+[DACS] fallback=False
+Parent node 7 at depth 3 with UCB score: 10.738317765939652
+
+Evolving prompt. Current prompt: '**Guiding Prompt**
+
+You are a student who must retrieve the biography of Graham ...'
+
+Current state extractor code: 'def extract_state(game_history):
+    key_obtained = "the circulation attendant g...'
+
+
+Updated state extractor code successfully.
+Evolved guiding prompt and code: '**Improved Guiding Prompt**
+
+You are a student inside the Inform library. Your only goal is to retrieve the biography of Graham Nelson, return the key to the circulation desk, and leave the library. Follow these strictly necessary steps. Do **not** repeat any action that has already succeeded, and avoid any actions that do not move you toward the goal.
+
+1. **Get the card catalog**  
+   `get card catalog`
+
+2. **Hand the card catalog to the attendant to receive the key**  
+   `give card catalog to attendant`
+
+3. **Navigate to the Rare Books Room**  
+   * From the lobby, go west into the ground‑floor stacks: `west`  
+   * From the ground‑floor stacks, go north to the stairwell: `north`  
+   * From the stairwell, go up: `up`  
+   * From the second‑floor stairwell, go south into the second‑floor stacks: `south`  
+   * Unlock the heavy wooden door with the key: `unlock door with key`  
+   * Open the unlocked door: `open door`  
+   * Enter the Rare Books Room: `enter`
+
+4. **Take the biography of Graham Nelson**  
+   `get biography`
+
+5. **Return the key to the circulation desk**  
+   * From the Rare Books Room, go north to the stairwell: `north`  
+   * From the stairwell, go down: `down`  
+   * From the ground‑floor stairwell, go south to the stacks: `south`  
+   * From the stacks, go east to the lobby: `east`  
+   * Give the key to the attendant: `give key to attendant`
+
+6. **Exit the library**  
+   `east`
+
+**Disallowed / Unproductive Actions**
+
+- Repeating `look` or `examine` on the same object or location after you have already inspected it.  
+- Moving in opposite directions that cancel each other out (`north` → `south`, `east` → `west`) when no new rooms are encountered.  
+- Attempting `unlock` on a door that is already unlocked, or `close` on a door that cannot be closed.  
+- Giving the key to the attendant more than once.  
+- Any action that does not bring you closer to the milestones listed above.
+
+**If You Get Stuck**
+
+1. List any rooms or areas you have not yet explored or only lightly examined (e.g., Computer Room, Duplicating Services, Private).  
+2. For each such room, try the systematic approach:  
+   * `look` to read the description.  
+   * If an object or NPC appears, `examine` it or `talk to` it.  
+   * If the description mentions an item, `take` or `give` it as appropriate.  
+   * Keep track of directions you have already tried to avoid loops.  
+3. If you discover a new door or passage, follow the same pattern: `look`, `examine`, `unlock` if required, then `open` or `enter`.  
+4. Never repeat the same action that has already been confirmed unsuccessful (e.g., `give key to attendant` after the key has been returned).  
+
+**Remember**: The only milestones that matter are obtaining the card catalog, receiving the key, unlocking and opening the Rare Books Room door, taking the biography, returning the key, and leaving the library. Stick to those steps and avoid unnecessary repetition.
+
+---'
+def extract_state(game_history):
+    card_catalog = "card catalog" in game_history.lower()
+    key_obtained = "key obtained" in game_history.lower()
+    door_unlocked = "door unlocked" in game_history.lower() or "unlocked" in game_history.lower()
+    biography_taken = "biography" in game_history.lower() and ("taken" in game_history.lower() or "get biography" in game_history.lower())
+    key_returned = "key returned" in game_history.lower()
+    exited = "have left the library" in game_history.lower() or "you have left" in game_history.lower()
+    milestones = []
+    if card_catalog: milestones.append("card catalog obtained")
+    if key_obtained: milestones.append("key obtained")
+    if door_unlocked: milestones.append("rare books room door unlocked")
+    if biography_taken: milestones.append("biography obtained")
+    if key_returned: milestones.append("key returned")
+    if exited: milestones.append("exited library")
+    if not milestones:
+        return "No milestones achieved."
+    return " | ".join(milestones)
+[STEP 0] |                                                             ALL QUIET  || Action: get card catalog          || Reward: 0, Score: 0
+[STEP 1] | that's hardly portable.                                                || Action: give card catalog to attendant || Reward: 0, Score: 0
+[STEP 2] | (first taking the card catalog) that's hardly portable.                || Action: give card catalog to attendant || Reward: 0, Score: 0
+[STEP 3] | (first taking the card catalog) that's hardly portable.                || Action: give card catalog to attendant || Reward: 0, Score: 0
+[STEP 4] | (first taking the card catalog) that's hardly portable.                || Action: look                      || Reward: 0, Score: 0
+[STEP 5] |  lobby this is the entrance to the library. the circulation desk domin || Action: give card catalog to attendant || Reward: 0, Score: 0
+[STEP 6] | (first taking the card catalog) that's hardly portable.                || Action: look                      || Reward: 0, Score: 0
+[STEP 7] |  lobby this is the entrance to the library. the circulation desk domin || Action: get card catalog          || Reward: 0, Score: 0
+[STEP 8] | that's hardly portable.                                                || Action: look                      || Reward: 0, Score: 0
+[STEP 9] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 0
+[STEP 10] |  lobby this is the entrance to the library. the circulation desk domin || Action: get card catalog          || Reward: 0, Score: 0
+[STEP 11] | that's hardly portable.                                                || Action: look                      || Reward: 0, Score: 0
+[STEP 12] |  lobby this is the entrance to the library. the circulation desk domin || Action: give card catalog to attendant || Reward: 0, Score: 0
+[STEP 13] | (first taking the card catalog) that's hardly portable.                || Action: look                      || Reward: 0, Score: 0
+[STEP 14] |  lobby this is the entrance to the library. the circulation desk domin || Action: give card catalog to attendant || Reward: 0, Score: 0
+[STEP 15] | (first taking the card catalog) that's hardly portable.                || Action: look                      || Reward: 0, Score: 0
+[STEP 16] |  lobby this is the entrance to the library. the circulation desk domin || Action: give card catalog to attendant || Reward: 0, Score: 0
+[STEP 17] | (first taking the card catalog) that's hardly portable.                || Action: give card catalog to attendant || Reward: 0, Score: 0
+[STEP 18] | (first taking the card catalog) that's hardly portable.                || Action: look                      || Reward: 0, Score: 0
+[STEP 19] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 0
+[STEP 20] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 0
+[STEP 21] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 0
+[STEP 22] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 0
+[STEP 23] |  lobby this is the entrance to the library. the circulation desk domin || Action: give card to attendant    || Reward: 5, Score: 5
+[STEP 24] | (the id card to the circulation desk attendant) the circulation attend || Action: west                      || Reward: 0, Score: 5
+[STEP 25] |  you push the glass doors open. their hydraulics hiss faintly.  ground || Action: north                     || Reward: 0, Score: 5
+[STEP 26] |  ground floor stairwell grungy stairs lead upwards, to the second leve || Action: up                        || Reward: 0, Score: 5
+[STEP 27] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: south                     || Reward: 0, Score: 5
+[STEP 28] |  second floor stacks you are in a maze of twisty shelves, all alike.   || Action: unlock door with key      || Reward: 0, Score: 5
+[STEP 29] | you unlock the rare books door.                                        || Action: open door                 || Reward: 0, Score: 5
+[STEP 30] | you open the rare books door.                                          || Action: get biography             || Reward: 0, Score: 5
+[STEP 31] | you can't see any such thing.                                          || Action: north                     || Reward: 0, Score: 5
+[STEP 32] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 5
+[STEP 33] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: enter                     || Reward: 0, Score: 5
+[STEP 34] | you can't go that way.                                                 || Action: look                      || Reward: 0, Score: 5
+[STEP 35] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 5
+[STEP 36] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: south                     || Reward: 0, Score: 5
+[STEP 37] |  second floor stacks this cavernous room is filled with shelves as far || Action: look                      || Reward: 0, Score: 5
+[STEP 38] |  second floor stacks this cavernous room is filled with shelves as far || Action: enter                     || Reward: 0, Score: 5
+[STEP 39] |  rare books room the shelves are nearly bare, although there is a comp || Action: get biography             || Reward: 5, Score: 10
+[STEP 40] | taken.  [your score has just gone up by five points.]                  || Action: north                     || Reward: 0, Score: 10
+[STEP 41] |  second floor stacks this cavernous room is filled with shelves as far || Action: north                     || Reward: 0, Score: 10
+[STEP 42] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: south                     || Reward: 0, Score: 10
+[STEP 43] |  second floor stacks this cavernous room is filled with shelves as far || Action: north                     || Reward: 0, Score: 10
+[STEP 44] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: look                      || Reward: 0, Score: 10
+[STEP 45] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: down                      || Reward: 0, Score: 10
+[STEP 46] |  ground floor stairwell grungy stairs lead upwards, to the second leve || Action: south                     || Reward: 0, Score: 10
+[STEP 47] |  ground floor stacks this cavernous room is lit with flickering floure || Action: east                      || Reward: 0, Score: 10
+[STEP 48] |  lobby this is the entrance to the library. the circulation desk domin || Action: give key to attendant     || Reward: 0, Score: 10
+[STEP 49] | "did you remember to close the door?"                                  || Action: west                      || Reward: 0, Score: 10
+[STEP 50] |  you push the glass doors open. their hydraulics hiss faintly.  ground || Action: look                      || Reward: 0, Score: 10
+[STEP 51] |  ground floor stacks this cavernous room is lit with flickering floure || Action: look                      || Reward: 0, Score: 10
+[STEP 52] |  ground floor stacks this cavernous room is lit with flickering floure || Action: north                     || Reward: 0, Score: 10
+[STEP 53] |  ground floor stairwell grungy stairs lead upwards, to the second leve || Action: north                     || Reward: 0, Score: 10
+[STEP 54] | you can't go that way.                                                 || Action: look                      || Reward: 0, Score: 10
+[STEP 55] |  ground floor stairwell grungy stairs lead upwards, to the second leve || Action: look                      || Reward: 0, Score: 10
+[STEP 56] |  ground floor stairwell grungy stairs lead upwards, to the second leve || Action: look                      || Reward: 0, Score: 10
+[STEP 57] |  ground floor stairwell grungy stairs lead upwards, to the second leve || Action: look                      || Reward: 0, Score: 10
+[STEP 58] |  ground floor stairwell grungy stairs lead upwards, to the second leve || Action: look                      || Reward: 0, Score: 10
+[STEP 59] |  ground floor stairwell grungy stairs lead upwards, to the second leve || Action: look                      || Reward: 0, Score: 10
+[STEP 60] |  ground floor stairwell grungy stairs lead upwards, to the second leve || Action: north                     || Reward: 0, Score: 10
+[STEP 61] | you can't go that way.                                                 || Action: look                      || Reward: 0, Score: 10
+[STEP 62] |  ground floor stairwell grungy stairs lead upwards, to the second leve || Action: look                      || Reward: 0, Score: 10
+[STEP 63] |  ground floor stairwell grungy stairs lead upwards, to the second leve || Action: look                      || Reward: 0, Score: 10
+[STEP 64] |  ground floor stairwell grungy stairs lead upwards, to the second leve || Action: look                      || Reward: 0, Score: 10
+[STEP 65] |  ground floor stairwell grungy stairs lead upwards, to the second leve || Action: look                      || Reward: 0, Score: 10
+[STEP 66] |  ground floor stairwell grungy stairs lead upwards, to the second leve || Action: look                      || Reward: 0, Score: 10
+[STEP 67] |  ground floor stairwell grungy stairs lead upwards, to the second leve || Action: look                      || Reward: 0, Score: 10
+[STEP 68] |  ground floor stairwell grungy stairs lead upwards, to the second leve || Action: look                      || Reward: 0, Score: 10
+[STEP 69] |  ground floor stairwell grungy stairs lead upwards, to the second leve || Action: look                      || Reward: 0, Score: 10
+[STEP 70] |  ground floor stairwell grungy stairs lead upwards, to the second leve || Action: look                      || Reward: 0, Score: 10
+[STEP 71] |  ground floor stairwell grungy stairs lead upwards, to the second leve || Action: look                      || Reward: 0, Score: 10
+[STEP 72] |  ground floor stairwell grungy stairs lead upwards, to the second leve || Action: look                      || Reward: 0, Score: 10
+[STEP 73] |  ground floor stairwell grungy stairs lead upwards, to the second leve || Action: look                      || Reward: 0, Score: 10
+[STEP 74] |  ground floor stairwell grungy stairs lead upwards, to the second leve || Action: look                      || Reward: 0, Score: 10
+[STEP 75] |  ground floor stairwell grungy stairs lead upwards, to the second leve || Action: look                      || Reward: 0, Score: 10
+[STEP 76] |  ground floor stairwell grungy stairs lead upwards, to the second leve || Action: look                      || Reward: 0, Score: 10
+[STEP 77] |  ground floor stairwell grungy stairs lead upwards, to the second leve || Action: look                      || Reward: 0, Score: 10
+[STEP 78] |  ground floor stairwell grungy stairs lead upwards, to the second leve || Action: south                     || Reward: 0, Score: 10
+[STEP 79] |  ground floor stacks this cavernous room is lit with flickering floure || Action: east                      || Reward: 0, Score: 10
+[STEP 80] |  lobby this is the entrance to the library. the circulation desk domin || Action: give key to attendant     || Reward: 0, Score: 10
+[STEP 81] | "did you remember to close the door?"                                  || Action: look                      || Reward: 0, Score: 10
+[STEP 82] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 83] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 84] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 85] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 86] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 87] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 88] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 89] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 90] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 91] |  lobby this is the entrance to the library. the circulation desk domin || Action: west                      || Reward: 0, Score: 10
+[STEP 92] |  you push the glass doors open. their hydraulics hiss faintly.  ground || Action: look                      || Reward: 0, Score: 10
+[STEP 93] |  ground floor stacks this cavernous room is lit with flickering floure || Action: look                      || Reward: 0, Score: 10
+[STEP 94] |  ground floor stacks this cavernous room is lit with flickering floure || Action: look                      || Reward: 0, Score: 10
+[STEP 95] |  ground floor stacks this cavernous room is lit with flickering floure || Action: look                      || Reward: 0, Score: 10
+[STEP 96] |  ground floor stacks this cavernous room is lit with flickering floure || Action: look                      || Reward: 0, Score: 10
+[STEP 97] |  ground floor stacks this cavernous room is lit with flickering floure || Action: look                      || Reward: 0, Score: 10
+[STEP 98] |  ground floor stacks this cavernous room is lit with flickering floure || Action: east                      || Reward: 0, Score: 10
+[STEP 99] |  lobby this is the entrance to the library. the circulation desk domin || Action: east                      || Reward: 0, Score: 10
+[STEP 100] | whoops!  you really need to return that key to the circulation desk!   || Action: give key to attendant     || Reward: 0, Score: 10
+[STEP 101] | "did you remember to close the door?"                                  || Action: look                      || Reward: 0, Score: 10
+[STEP 102] |  lobby this is the entrance to the library. the circulation desk domin || Action: give key to attendant     || Reward: 0, Score: 10
+[STEP 103] | "did you remember to close the door?"                                  || Action: look                      || Reward: 0, Score: 10
+[STEP 104] |  lobby this is the entrance to the library. the circulation desk domin || Action: give key to attendant     || Reward: 0, Score: 10
+[STEP 105] | "did you remember to close the door?"                                  || Action: close door                || Reward: 0, Score: 10
+[STEP 106] | that's not something you can close.                                    || Action: west                      || Reward: 0, Score: 10
+[STEP 107] |  you push the glass doors open. their hydraulics hiss faintly.  ground || Action: look                      || Reward: 0, Score: 10
+[STEP 108] |  ground floor stacks this cavernous room is lit with flickering floure || Action: east                      || Reward: 0, Score: 10
+[STEP 109] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+Run 9/10 finished. Score: 10
+
+--- EVALUATION SUMMARY (our method) ---
+Agent LLM Model: gpt-oss-20b
+Number of final evaluation runs: 10
+Individual Scores: [5, 5, 5, 10, 10, 10, 10, 10, 10]
+Average Score: 8.33
+Standard Deviation: 2.50
+
+Starting game run 10/10...
+[DACS] enabled=True game=library
+[DACS] num raw candidates = 9 archived=0
+[DACS] num filtered candidates = 4
+[DACS] selected/reordered candidate ids = [6, 3, 4, 8]
+[DACS] candidate score table:
+  id | relevance | diversity | risk | final_score | summary
+  6 | 0.433 | 1.0 | 0.184 | 1.004 | **Guiding Prompt**  1. Give the card catalog to the circulation desk attendant. 
+  3 | 0.363 | 0.661 | 0.133 | 0.801 | 1. Confirm you have the key to the rare books room. If you haven’t given the ID 
+  4 | 0.386 | 0.641 | 0.174 | 0.784 | **Guiding Prompt**  You are a text‑adventure agent in a library. Your goal is to
+  8 | 0.412 | 0.523 | 0.163 | 0.759 | **Improved Guiding Prompt**  You are a student inside the Inform library. Your o
+[DACS] fallback=False
+Parent node 3 at depth 1 with UCB score: 10.684646801763552
+
+Evolving prompt. Current prompt: '1. Confirm you have the key to the rare books room. If you haven’t given the ID ...'
+
+Current state extractor code: 'def extract_state(game_history):
+    key = "gives you the key to the rare books ...'
+
+
+Updated state extractor code successfully.
+Evolved guiding prompt and code: '**Guiding Prompt**
+
+Your goal is to finish the library quest by retrieving the biography of Graham Nelson. Follow only the actions that directly lead to progress; avoid any that have caused loops or wasted turns.
+
+1. **Get the key**  
+   - If you have not yet given the card catalog to the circulation attendant, do so now: `give card to attendant`.  
+   - (If you already have the key, skip this step.)
+
+2. **Move to the second‑floor stacks**  
+   - From the lobby: `west` (to the stacks) → `north` (stairwell) → `up` (to second‑floor stairwell) → `south` (into the second‑floor stacks).  
+   - Do *not* repeat `look` on the same object or try `east` repeatedly; this is a known loop.
+
+3. **Unlock the Rare Books Room**  
+   - In the second‑floor stacks, the heavy wooden door to the Rare Books Room is usually north (or west).  
+   - Unlock it with the key: `unlock door with key` (or `unlock heavy wooden door`).  
+   - If the system reports the door cannot be unlocked, try `open door` or `open north door`.  
+
+4. **Enter the Rare Books Room**  
+   - Once the door is open, enter: `enter` or `north` (or `enter door`).  
+
+5. **Retrieve the biography**  
+   - Inside the Rare Books Room, take the biography of Graham Nelson: `get biography` (or `take biography`).  
+
+6. **Finish**  
+   - After taking the book, you may `north` back to the second‑floor stairs, then `south` to the stacks, and finally `west` to the lobby to exit the library.  
+
+**What to do if stuck**
+
+- If you cannot progress past a point, list the rooms you have not fully explored:  
+  - Computer lab (east of the stacks)  
+  - Private area (north of the lobby)  
+  - Duplicating services (northwest of the lobby)  
+- Systematically move to each unexplored room, examine any NPCs or objects, and use the key if a locked door appears.  
+- Do not attempt to walk through walls or use `enter door` when the door is not present.  
+
+**Avoid**
+
+- Repeating `look`, `examine`, or `search` on the same object more than once.  
+- Repeatedly trying `east` or `give key to attendant`.  
+- Any action that results in a repeated state with no new information.  
+
+---'
+def extract_state(game_history):
+    key = "gives you the key" in game_history or "you have the key" in game_history
+    door = "rare books door is unlocked" in game_history or "you open the rare books door" in game_history
+    book = "you take the biography" in game_history or "taken" in game_history
+    parts = []
+    if key:
+        parts.append("has key")
+    if door:
+        parts.append("door unlocked")
+    if book:
+        parts.append("book taken")
+    return ", ".join(parts) if parts else "unknown"
+[STEP 0] |                                                             ALL QUIET  || Action: give card to attendant    || Reward: 5, Score: 5
+[STEP 1] | (the id card to the circulation desk attendant) the circulation attend || Action: west                      || Reward: 0, Score: 5
+[STEP 2] |  you push the glass doors open. their hydraulics hiss faintly.  ground || Action: north                     || Reward: 0, Score: 5
+[STEP 3] |  ground floor stairwell grungy stairs lead upwards, to the second leve || Action: up                        || Reward: 0, Score: 5
+[STEP 4] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: south                     || Reward: 0, Score: 5
+[STEP 5] |  second floor stacks you are in a maze of twisty shelves, all alike.   || Action: unlock door with key      || Reward: 0, Score: 5
+[STEP 6] | you unlock the rare books door.                                        || Action: north                     || Reward: 0, Score: 5
+[STEP 7] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: south                     || Reward: 0, Score: 5
+[STEP 8] |  second floor stacks this cavernous room is filled with shelves as far || Action: look                      || Reward: 0, Score: 5
+[STEP 9] |  second floor stacks this cavernous room is filled with shelves as far || Action: open door                 || Reward: 0, Score: 5
+[STEP 10] | you open the rare books door.                                          || Action: north                     || Reward: 0, Score: 5
+[STEP 11] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: south                     || Reward: 0, Score: 5
+[STEP 12] |  second floor stacks this cavernous room is filled with shelves as far || Action: north                     || Reward: 0, Score: 5
+[STEP 13] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: south                     || Reward: 0, Score: 5
+[STEP 14] |  second floor stacks this cavernous room is filled with shelves as far || Action: north                     || Reward: 0, Score: 5
+[STEP 15] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: south                     || Reward: 0, Score: 5
+[STEP 16] |  second floor stacks this cavernous room is filled with shelves as far || Action: look                      || Reward: 0, Score: 5
+[STEP 17] |  second floor stacks this cavernous room is filled with shelves as far || Action: west                      || Reward: 0, Score: 5
+[STEP 18] | you wander out into the vast dusty maze of the bare shelves for a few  || Action: west                      || Reward: 0, Score: 5
+[STEP 19] | you wander out into the vast dusty maze of the bare shelves for a few  || Action: look                      || Reward: 0, Score: 5
+[STEP 20] |  second floor stacks this cavernous room is filled with shelves as far || Action: look                      || Reward: 0, Score: 5
+[STEP 21] |  second floor stacks this cavernous room is filled with shelves as far || Action: look                      || Reward: 0, Score: 5
+[STEP 22] |  second floor stacks this cavernous room is filled with shelves as far || Action: west                      || Reward: 0, Score: 5
+[STEP 23] | you wander out into the vast dusty maze of the bare shelves for a few  || Action: look                      || Reward: 0, Score: 5
+[STEP 24] |  second floor stacks this cavernous room is filled with shelves as far || Action: west                      || Reward: 0, Score: 5
+[STEP 25] | you wander out into the vast dusty maze of the bare shelves for a few  || Action: look                      || Reward: 0, Score: 5
+[STEP 26] |  second floor stacks this cavernous room is filled with shelves as far || Action: look                      || Reward: 0, Score: 5
+[STEP 27] |  second floor stacks this cavernous room is filled with shelves as far || Action: look                      || Reward: 0, Score: 5
+[STEP 28] |  second floor stacks this cavernous room is filled with shelves as far || Action: look                      || Reward: 0, Score: 5
+[STEP 29] |  second floor stacks this cavernous room is filled with shelves as far || Action: look                      || Reward: 0, Score: 5
+[STEP 30] |  second floor stacks this cavernous room is filled with shelves as far || Action: look                      || Reward: 0, Score: 5
+[STEP 31] |  second floor stacks this cavernous room is filled with shelves as far || Action: look                      || Reward: 0, Score: 5
+[STEP 32] |  second floor stacks this cavernous room is filled with shelves as far || Action: look                      || Reward: 0, Score: 5
+[STEP 33] |  second floor stacks this cavernous room is filled with shelves as far || Action: look                      || Reward: 0, Score: 5
+[STEP 34] |  second floor stacks this cavernous room is filled with shelves as far || Action: look                      || Reward: 0, Score: 5
+[STEP 35] |  second floor stacks this cavernous room is filled with shelves as far || Action: look                      || Reward: 0, Score: 5
+[STEP 36] |  second floor stacks this cavernous room is filled with shelves as far || Action: look                      || Reward: 0, Score: 5
+[STEP 37] |  second floor stacks this cavernous room is filled with shelves as far || Action: look                      || Reward: 0, Score: 5
+[STEP 38] |  second floor stacks this cavernous room is filled with shelves as far || Action: enter                     || Reward: 0, Score: 5
+[STEP 39] |  rare books room the shelves are nearly bare, although there is a comp || Action: get biography             || Reward: 5, Score: 10
+[STEP 40] | taken.  [your score has just gone up by five points.]                  || Action: north                     || Reward: 0, Score: 10
+[STEP 41] |  second floor stacks this cavernous room is filled with shelves as far || Action: west                      || Reward: 0, Score: 10
+[STEP 42] | you wander out into the vast dusty maze of the bare shelves for a few  || Action: look                      || Reward: 0, Score: 10
+[STEP 43] |  second floor stacks this cavernous room is filled with shelves as far || Action: look                      || Reward: 0, Score: 10
+[STEP 44] |  second floor stacks this cavernous room is filled with shelves as far || Action: look                      || Reward: 0, Score: 10
+[STEP 45] |  second floor stacks this cavernous room is filled with shelves as far || Action: look                      || Reward: 0, Score: 10
+[STEP 46] |  second floor stacks this cavernous room is filled with shelves as far || Action: north                     || Reward: 0, Score: 10
+[STEP 47] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: south                     || Reward: 0, Score: 10
+[STEP 48] |  second floor stacks this cavernous room is filled with shelves as far || Action: look                      || Reward: 0, Score: 10
+[STEP 49] |  second floor stacks this cavernous room is filled with shelves as far || Action: look                      || Reward: 0, Score: 10
+[STEP 50] |  second floor stacks this cavernous room is filled with shelves as far || Action: enter                     || Reward: 0, Score: 10
+[STEP 51] |  rare books room the shelves are nearly bare, although there is a comp || Action: look                      || Reward: 0, Score: 10
+[STEP 52] |  rare books room the shelves are nearly bare, although there is a comp || Action: get biography             || Reward: 0, Score: 10
+[STEP 53] | you already have that.                                                 || Action: north                     || Reward: 0, Score: 10
+[STEP 54] |  second floor stacks this cavernous room is filled with shelves as far || Action: look                      || Reward: 0, Score: 10
+[STEP 55] |  second floor stacks this cavernous room is filled with shelves as far || Action: look                      || Reward: 0, Score: 10
+[STEP 56] |  second floor stacks this cavernous room is filled with shelves as far || Action: north                     || Reward: 0, Score: 10
+[STEP 57] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: south                     || Reward: 0, Score: 10
+[STEP 58] |  second floor stacks this cavernous room is filled with shelves as far || Action: look                      || Reward: 0, Score: 10
+[STEP 59] |  second floor stacks this cavernous room is filled with shelves as far || Action: north                     || Reward: 0, Score: 10
+[STEP 60] |  second floor stairwell grungy stairs lead downwards. the lights are d || Action: down                      || Reward: 0, Score: 10
+[STEP 61] |  ground floor stairwell grungy stairs lead upwards, to the second leve || Action: south                     || Reward: 0, Score: 10
+[STEP 62] |  ground floor stacks this cavernous room is lit with flickering floure || Action: east                      || Reward: 0, Score: 10
+[STEP 63] |  lobby this is the entrance to the library. the circulation desk domin || Action: east                      || Reward: 0, Score: 10
+[STEP 64] | whoops!  you really need to return that key to the circulation desk!   || Action: give key to attendant     || Reward: 0, Score: 10
+[STEP 65] | "did you remember to close the door?"                                  || Action: look                      || Reward: 0, Score: 10
+[STEP 66] |  lobby this is the entrance to the library. the circulation desk domin || Action: close door                || Reward: 0, Score: 10
+[STEP 67] | that's not something you can close.                                    || Action: close exit                || Reward: 0, Score: 10
+[STEP 68] | you can't see any such thing.                                          || Action: east                      || Reward: 0, Score: 10
+[STEP 69] | whoops!  you really need to return that key to the circulation desk!   || Action: look                      || Reward: 0, Score: 10
+[STEP 70] |  lobby this is the entrance to the library. the circulation desk domin || Action: give key to attendant     || Reward: 0, Score: 10
+[STEP 71] | "did you remember to close the door?"                                  || Action: look                      || Reward: 0, Score: 10
+[STEP 72] |  lobby this is the entrance to the library. the circulation desk domin || Action: give key to attendant     || Reward: 0, Score: 10
+[STEP 73] | "did you remember to close the door?"                                  || Action: close gates               || Reward: 0, Score: 10
+[STEP 74] | that's not something you can close.                                    || Action: give key to attendant     || Reward: 0, Score: 10
+[STEP 75] | "did you remember to close the door?"                                  || Action: look                      || Reward: 0, Score: 10
+[STEP 76] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 77] |  lobby this is the entrance to the library. the circulation desk domin || Action: give key to attendant     || Reward: 0, Score: 10
+[STEP 78] | "did you remember to close the door?"                                  || Action: look                      || Reward: 0, Score: 10
+[STEP 79] |  lobby this is the entrance to the library. the circulation desk domin || Action: give key to attendant     || Reward: 0, Score: 10
+[STEP 80] | "did you remember to close the door?"                                  || Action: look                      || Reward: 0, Score: 10
+[STEP 81] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 82] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 83] |  lobby this is the entrance to the library. the circulation desk domin || Action: give key to attendant     || Reward: 0, Score: 10
+[STEP 84] | "did you remember to close the door?"                                  || Action: look                      || Reward: 0, Score: 10
+[STEP 85] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 86] |  lobby this is the entrance to the library. the circulation desk domin || Action: give key to attendant     || Reward: 0, Score: 10
+[STEP 87] | "did you remember to close the door?"                                  || Action: look                      || Reward: 0, Score: 10
+[STEP 88] |  lobby this is the entrance to the library. the circulation desk domin || Action: give key to attendant     || Reward: 0, Score: 10
+[STEP 89] | "did you remember to close the door?"                                  || Action: look                      || Reward: 0, Score: 10
+[STEP 90] |  lobby this is the entrance to the library. the circulation desk domin || Action: inventory                 || Reward: 0, Score: 10
+[STEP 91] | you are carrying:   a biography of graham nelson   a key               || Action: close north               || Reward: 0, Score: 10
+[STEP 92] | that's not something you can close.                                    || Action: look                      || Reward: 0, Score: 10
+[STEP 93] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 94] |  lobby this is the entrance to the library. the circulation desk domin || Action: give key to attendant     || Reward: 0, Score: 10
+[STEP 95] | "did you remember to close the door?"                                  || Action: look                      || Reward: 0, Score: 10
+[STEP 96] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 97] |  lobby this is the entrance to the library. the circulation desk domin || Action: give key to attendant     || Reward: 0, Score: 10
+[STEP 98] | "did you remember to close the door?"                                  || Action: look                      || Reward: 0, Score: 10
+[STEP 99] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 100] |  lobby this is the entrance to the library. the circulation desk domin || Action: give key to attendant     || Reward: 0, Score: 10
+[STEP 101] | "did you remember to close the door?"                                  || Action: look                      || Reward: 0, Score: 10
+[STEP 102] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 103] |  lobby this is the entrance to the library. the circulation desk domin || Action: give key to attendant     || Reward: 0, Score: 10
+[STEP 104] | "did you remember to close the door?"                                  || Action: look                      || Reward: 0, Score: 10
+[STEP 105] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 106] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 107] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 108] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+[STEP 109] |  lobby this is the entrance to the library. the circulation desk domin || Action: look                      || Reward: 0, Score: 10
+Run 10/10 finished. Score: 10
+
+--- EVALUATION SUMMARY (our method) ---
+Agent LLM Model: gpt-oss-20b
+Number of final evaluation runs: 10
+Individual Scores: [5, 5, 5, 10, 10, 10, 10, 10, 10, 10]
+Average Score: 8.50
+Standard Deviation: 2.42
+Evaluation completed successfully!

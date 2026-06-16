@@ -1,0 +1,144 @@
+Game: detective, Model: gpt-oss-20b, Episode: 1, Seed for episode: 1
+Guiding prompt: **Guiding Prompt**
+
+- **Core Progress Actions**  
+  1. *Read the sheet of paper* in the Chief’s office.  
+  2. *Read the note* found in the dining room.  
+  3. *Take the gun* from the dazed man in the music store before any confrontation.  
+  4. *Examine* any visible objects (wood, TV, etc.) when they are the only thing described.  
+  5. *Take* any item that is explicitly mentioned or could be useful (e.g., a video, a key).  
+  6. *Inventory* after taking an item to confirm possession.  
+
+- **Exploration Pattern**  
+  - After completing a core action, move to an adjacent unexplored room (north, south, east, or west) as indicated by the map description.  
+  - Use **“look”** only once per room to confirm the presence of objects before deciding to examine or take them.  
+  - Do not “look” repeatedly in the same room without a new object appearing.  
+
+- **Avoid Unproductive Behaviors**  
+  - Repeated “look” or “examine man” when no new item is present.  
+  - “Take video” or “take gun” when the item is not visible or already taken.  
+  - “Take gun” after a death sequence or when the NPC is already incapacitated.  
+
+- **Handling Hostile NPCs**  
+  - If an NPC has a weapon and appears hostile, immediately **take the weapon** or use it to defend yourself.  
+  - Do not “ask” or “examine” unless it can yield an item or useful information.  
+
+- **When Progress Stalls**  
+  1. Identify all rooms that have been entered but not fully examined (e.g., living room, bedroom, upstairs hallway).  
+  2. List possible interactions:  
+     - *Examine* any object described.  
+     - *Ask* any NPC present.  
+     - *Take* any item that may aid investigation.  
+  3. Systematically move to each of those rooms in turn, repeating the core progress actions.  
+  4. If a room contains a door or exit, consider it a potential new area to explore.  
+
+- **End‑Game Checklist**  
+  - Ensure the gun is in your inventory before confronting the dazed man.  
+  - Verify that all readable notes have been read.  
+  - Confirm that any suspicious objects (wood, TV, backroom video) have been examined or taken if relevant.  
+
+---
+
+**State Extractor Code**
+==========
+[STEP] 0
+----------
+[OBS] 
+
+
+
+[Type "help" for more information about this version]
+
+Detective
+By Matt Barringer.
+Ported by Stuart Moore.
+Stuart_Moore@my-deja.com
+Release 1 / Serial number 000715 / Inform v6.21 Library 6/10 SD
+
+<< Chief's office >>
+You are standing in the Chief's office. He is telling you "The Mayor was murdered yeaterday night at 12:03 am. I want you to solve it before we get any bad publicity or the FBI has to come in. "Yessir!" You reply. He hands you a sheet of paper. Once you have read it, go north or west.
+
+You can see a piece of white paper here.
+
+[Your score has just gone up by ten points.]
+
+----------
+[INV] 
+You are carrying nothing.
+
+[RAW_LLM_OUTPUT] REASONING: The Chief gave a sheet of paper that must be read to advance.  
+ACTION: read paper
+[CHOSEN_ACTION] read paper
+----------
+[REWARD] 0
+[CUM_REWARD] 10
+----------
+==========
+[STEP] 1
+----------
+[OBS] 
+confidential:
+detective was created by matt barringer.
+he has worked hard on this so you better enjoy it.
+i did have fun making it though. but i'd really appreciate it if you were kind enough to send a postcard or... dare i even say it?... money... to:
+matt barringer
+325 olive ave
+piedmont
+ca 94611
+just tell me if you like it or not.
+if you want to talk to me over a bbs call the ghostbuster central bbs at (510)208-5657.
+there is an exile games file area. have fun. i will give hints out over the bbs to any of my games.
+
+----------
+[INV] 
+you are carrying nothing.
+
+[RAW_LLM_OUTPUT] REASONING: After reading the paper, the Chief told me to go north or west. Choosing north will lead to the next area to investigate.  
+ACTION: north
+[CHOSEN_ACTION] north
+----------
+[REWARD] 0
+[CUM_REWARD] 10
+----------
+==========
+[STEP] 2
+----------
+[OBS] 
+
+<< outside >>
+you are outside in the cold. to the east is a dead end. to the west is the rest of the street. papers are blowing around. it's amazingly cold for this time of year.
+
+----------
+[INV] 
+you are carrying nothing.
+
+[RAW_LLM_OUTPUT] REASONING: The outside area only offers a westward exit to continue the investigation.  
+ACTION: west
+[CHOSEN_ACTION] west
+----------
+[REWARD] 10
+[CUM_REWARD] 20
+----------
+==========
+[STEP] 3
+----------
+[OBS] 
+
+<< outside >>
+you are still on the streets. to the north is a restraunt where the mayor ate often. to the east is the mayor's home.
+
+[your score has just gone up by ten points.]
+
+----------
+[INV] 
+you are carrying nothing.
+
+[RAW_LLM_OUTPUT] REASONING: The next unexplored area is the restaurant to the north, which likely contains clues about the mayor's murder.  
+ACTION: north
+[CHOSEN_ACTION] north
+----------
+[REWARD] 0
+[CUM_REWARD] 20
+----------
+
+Game finished at step 3. Final score: 20
