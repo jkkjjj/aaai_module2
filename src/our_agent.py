@@ -59,6 +59,7 @@ def extract_state(game_history):
         self._recent_states = []
         self._recent_actions = []
         self._recent_scores = []
+        self._dacs_candidate_bonus = {}
     
     def add_to_memory(self, state, response):
         memory_entry = {"state": state, "response": response}
@@ -96,6 +97,12 @@ def extract_state(game_history):
 
         c = self.args.exploration_constant
         return node["score"] + c * (self.args.depth_constant ** node["depth"]) * math.sqrt(math.log(total_nodes) / (1 + num_children))
+
+    def _calculate_routed_ucb(self, node_idx: int) -> float:
+        bonus_weight = float(getattr(self.args, "dacs_ucb_bonus_weight", 0.75) or 0.0)
+        if not getattr(self.args, "enable_dacs", False) or bonus_weight <= 0:
+            return self.calculate_ucb(node_idx)
+        return self.calculate_ucb(node_idx) + bonus_weight * self._dacs_candidate_bonus.get(node_idx, 0.0)
     
     def start_episode(self):
         """
@@ -138,9 +145,13 @@ def extract_state(game_history):
                 # we transparently fall back to the full candidate list.
                 if getattr(self.args, 'enable_dacs', False):
                     candidate_indices = self._dacs_filter_candidates(candidate_indices)
-                parent_idx = max(candidate_indices, key=lambda i: self.calculate_ucb(i))
+                parent_idx = max(candidate_indices, key=lambda i: self._calculate_routed_ucb(i))
                 parent_node = self.nodes[parent_idx]
-                print(f"Parent node {parent_idx} at depth {parent_node['depth']} with UCB score: {self.calculate_ucb(parent_idx)}")
+                print(
+                    f"Parent node {parent_idx} at depth {parent_node['depth']} "
+                    f"with UCB score: {self.calculate_ucb(parent_idx)} "
+                    f"and routed score: {self._calculate_routed_ucb(parent_idx)}"
+                )
                 neg_block = self._format_negative_block_for_evolve() if self.enable_cross_mem else ""
                 self.guiding_prompt, self.code = self._evolve(parent_node["prompt"], parent_node["code"], parent_node["game_history"], neg_block=neg_block)
                 print(f"Evolved guiding prompt and code: '{self.guiding_prompt}'")
@@ -340,6 +351,10 @@ ACTION: examine book
                 history_str += f"AGENT'S FULL RESPONSE: {entry['full_response']}\n"
             if 'action' in entry and entry['action']:
                 history_str += f"ACTION TAKEN: {entry['action']}\n"
+            if entry.get('reward') is not None:
+                history_str += f"REWARD: {entry['reward']}\n"
+            if entry.get('score') is not None:
+                history_str += f"SCORE: {entry['score']}\n"
             history_str += "------------\n"
         
         return history_str
@@ -615,6 +630,7 @@ def extract_state(game_history):
             alpha = float(getattr(self.args, "dacs_alpha_relevance", 1.0) or 1.0)
             beta = float(getattr(self.args, "dacs_beta_diversity", 0.5) or 0.5)
             gamma = float(getattr(self.args, "dacs_gamma_risk", 0.7) or 0.7)
+            novelty_weight = float(getattr(self.args, "dacs_novelty_weight", 0.35) or 0.35)
             debug = bool(getattr(self.args, "dacs_debug", False))
 
             result = dacs_mod.select_candidates(
@@ -630,6 +646,7 @@ def extract_state(game_history):
                 alpha_relevance=alpha,
                 beta_diversity=beta,
                 gamma_risk=gamma,
+                novelty_weight=novelty_weight,
                 debug=debug,
                 game_name=getattr(self.args, "game_name", None),
             )
@@ -639,6 +656,25 @@ def extract_state(game_history):
 
             sel = result.get("selected_indices", []) or []
             filtered = [candidate_indices[i] for i in sel if 0 <= i < len(candidate_indices)]
+            self._dacs_candidate_bonus = {}
+            for row in result.get("scores", []) or []:
+                try:
+                    native_i = int(row.get("id"))
+                    node_i = candidate_indices[native_i]
+                    self._dacs_candidate_bonus[node_i] = float(row.get("final_score", 0.0))
+                except Exception:
+                    continue
+            if debug:
+                print("[DACS] final routed UCB table:")
+                print("  node | ucb | dacs_bonus | routed_ucb | selected_pool")
+                selected_pool = set(filtered)
+                for node_i in candidate_indices:
+                    print(
+                        f"  {node_i} | {round(self.calculate_ucb(node_i), 3)} | "
+                        f"{round(self._dacs_candidate_bonus.get(node_i, 0.0), 3)} | "
+                        f"{round(self._calculate_routed_ucb(node_i), 3)} | "
+                        f"{node_i in selected_pool}"
+                    )
             return filtered if filtered else candidate_indices
         except Exception as e:
             if getattr(self.args, "dacs_debug", False):

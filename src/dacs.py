@@ -61,6 +61,10 @@ def _jaccard(a: List[str], b: List[str]) -> float:
     return inter / union if union > 0 else 0.0
 
 
+def _bounded(value: float, lo: float = 0.0, hi: float = 1.0) -> float:
+    return max(lo, min(hi, value))
+
+
 def _to_text(x: Any) -> str:
     if x is None:
         return ""
@@ -175,12 +179,69 @@ def extract_proxy_states(
     """
     proxy = {
         "progress_tokens": [],
+        "positive_progress_tokens": [],
+        "neutral_progress_tokens": [],
         "invalid_tokens": [],
         "loop_tokens": [],
         "success_tokens": [],
         "failure_tokens": [],
+        "failure_pattern_tokens": [],
+        "inventory_tokens": [],
+        "location_tokens": [],
+        "object_tokens": [],
     }
     text = transcript if isinstance(transcript, str) else _to_text(transcript)
+
+    steps = _parse_transcript_steps(text)
+    if steps:
+        positive_chunks: List[str] = []
+        neutral_chunks: List[str] = []
+        failure_chunks: List[str] = []
+        inventory_chunks: List[str] = []
+        observation_heads: List[str] = []
+        object_chunks: List[str] = []
+        seen_obs = set()
+        seen_inv = set()
+        last_obs = ""
+        last_inv = ""
+
+        for step in steps:
+            obs = step.get("obs", "")
+            inv = step.get("inv", "")
+            action = step.get("action", "")
+            reward = _safe_float(step.get("reward"))
+            obs_key = _normalize_space(obs)[:260]
+            inv_key = _normalize_space(inv)[:260]
+            obs_changed = bool(obs_key and obs_key != last_obs)
+            inv_changed = bool(inv_key and inv_key != last_inv)
+            new_obs = bool(obs_key and obs_key not in seen_obs)
+            new_inv = bool(inv_key and inv_key not in seen_inv)
+
+            if obs_key:
+                seen_obs.add(obs_key)
+                last_obs = obs_key
+                observation_heads.append(_first_observation_line(obs))
+                object_chunks.extend(_extract_visible_object_phrases(obs))
+            if inv_key:
+                seen_inv.add(inv_key)
+                last_inv = inv_key
+
+            action_text = f"{action} {obs} {inv}"
+            if reward > 0:
+                positive_chunks.append(action_text)
+            elif new_obs or new_inv or obs_changed or inv_changed:
+                neutral_chunks.append(action_text)
+            if inv_changed or new_inv:
+                inventory_chunks.append(f"{action} {inv}")
+            if _looks_invalid(obs) or (action and not obs_changed and not inv_changed and reward <= 0):
+                failure_chunks.append(action_text)
+
+        proxy["positive_progress_tokens"] = _tokenize(" ".join(positive_chunks[-40:]))
+        proxy["neutral_progress_tokens"] = _tokenize(" ".join(neutral_chunks[-60:]))
+        proxy["failure_pattern_tokens"] = _tokenize(" ".join(failure_chunks[-60:]))
+        proxy["inventory_tokens"] = _tokenize(" ".join(inventory_chunks[-30:]))
+        proxy["location_tokens"] = _tokenize(" ".join(observation_heads[-80:]))
+        proxy["object_tokens"] = _tokenize(" ".join(object_chunks[-100:]))
 
     progress_cues = re.findall(
         r"(?:reward|score|inventory|opened|unlocked|found|received|new\s+\w+|"
@@ -189,7 +250,19 @@ def extract_proxy_states(
         text or "",
         flags=re.IGNORECASE,
     )
-    proxy["progress_tokens"] = _tokenize(" ".join(progress_cues[-50:]))
+    proxy["progress_tokens"] = _tokenize(
+        " ".join(progress_cues[-50:])
+        + " "
+        + " ".join(proxy["positive_progress_tokens"])
+        + " "
+        + " ".join(proxy["neutral_progress_tokens"])
+        + " "
+        + " ".join(proxy["inventory_tokens"])
+        + " "
+        + " ".join(proxy["location_tokens"])
+        + " "
+        + " ".join(proxy["object_tokens"])
+    )
 
     invalid_cues = re.findall(
         r"(?:i don't|cannot|can't|nothing happens|that's not|you can't|"
@@ -197,10 +270,12 @@ def extract_proxy_states(
         text or "",
         flags=re.IGNORECASE,
     )
-    proxy["invalid_tokens"] = _tokenize(" ".join(invalid_cues[-50:]))
+    proxy["invalid_tokens"] = _tokenize(
+        " ".join(invalid_cues[-50:]) + " " + " ".join(proxy["failure_pattern_tokens"])
+    )
 
     actions = re.findall(
-        r"(?:ACTION TAKEN|ACTION|CHOSEN_ACTION):\s*([^\n]+)",
+        r"(?:ACTION TAKEN|ACTION|CHOSEN_ACTION|\[CHOSEN_ACTION\]):\s*([^\n]+)",
         text or "",
         flags=re.IGNORECASE,
     )
@@ -229,15 +304,114 @@ def extract_proxy_states(
     return proxy
 
 
+def _safe_float(value: Any) -> float:
+    try:
+        return float(value)
+    except Exception:
+        return 0.0
+
+
+def _normalize_space(text: str) -> str:
+    return re.sub(r"\s+", " ", (text or "").strip().lower())
+
+
+def _first_observation_line(text: str) -> str:
+    for line in (text or "").splitlines():
+        line = line.strip()
+        if line:
+            return line[:160]
+    return ""
+
+
+def _looks_invalid(text: str) -> bool:
+    lowered = (text or "").lower()
+    invalid_markers = [
+        "i don't",
+        "i didnt",
+        "i didn't",
+        "cannot",
+        "can't",
+        "you can't",
+        "nothing happens",
+        "that's not",
+        "not a verb",
+        "not understood",
+        "don't understand",
+        "find nothing",
+        "no reply",
+        "already",
+        "can't see",
+        "can only do that",
+    ]
+    return any(marker in lowered for marker in invalid_markers)
+
+
+def _extract_visible_object_phrases(text: str) -> List[str]:
+    phrases = []
+    for match in re.finditer(
+        r"(?:you can (?:also )?see|there is|there are|contains?|holding|carrying)\s+([^\.\n]{1,120})",
+        text or "",
+        flags=re.IGNORECASE,
+    ):
+        phrases.append(match.group(1))
+    return phrases
+
+
+def _parse_transcript_steps(text: str) -> List[Dict[str, str]]:
+    if not text:
+        return []
+    if "Step " in text:
+        raw_chunks = re.split(r"\n(?=Step\s+\d+:)", text)
+    else:
+        raw_chunks = re.split(r"\n=+\n", text)
+    chunks = [c for c in raw_chunks if c.strip()]
+    steps: List[Dict[str, str]] = []
+    for chunk in chunks:
+        if "[OBS]" not in chunk and "Step " not in chunk:
+            continue
+        step = {
+            "obs": _extract_bracket_field(chunk, "OBS") or _extract_legacy_field(chunk, "STATE"),
+            "inv": _extract_bracket_field(chunk, "INV"),
+            "action": (
+                _extract_bracket_field(chunk, "CHOSEN_ACTION")
+                or _extract_legacy_field(chunk, "ACTION TAKEN")
+            ),
+            "reward": _extract_bracket_field(chunk, "REWARD")
+            or _extract_legacy_field(chunk, "REWARD"),
+            "score": _extract_bracket_field(chunk, "CUM_REWARD")
+            or _extract_legacy_field(chunk, "SCORE"),
+        }
+        if step["obs"] or step["action"]:
+            steps.append(step)
+    return steps
+
+
+def _extract_bracket_field(chunk: str, label: str) -> str:
+    pattern = rf"\[{re.escape(label)}\]\s*(.*?)(?=\n\[[A-Z_]+\]|\n----------|\Z)"
+    match = re.search(pattern, chunk, flags=re.DOTALL)
+    return match.group(1).strip() if match else ""
+
+
+def _extract_legacy_field(chunk: str, label: str) -> str:
+    pattern = rf"{re.escape(label)}:\s*(.*?)(?=\n[A-Z][A-Z ]{{2,}}:|\n------------|\Z)"
+    match = re.search(pattern, chunk, flags=re.DOTALL | re.IGNORECASE)
+    return match.group(1).strip() if match else ""
+
+
 def relevance_score(profile_tokens: List[str], proxy: Dict[str, List[str]]) -> float:
     score = 0.0
-    score += 1.5 * _jaccard(profile_tokens, proxy.get("progress_tokens", []))
+    score += 1.4 * _jaccard(profile_tokens, proxy.get("progress_tokens", []))
+    score += 1.2 * _jaccard(profile_tokens, proxy.get("positive_progress_tokens", []))
+    score += 1.0 * _jaccard(profile_tokens, proxy.get("neutral_progress_tokens", []))
     score += 1.2 * _jaccard(profile_tokens, proxy.get("success_tokens", []))
-    score += 1.0 * _jaccard(profile_tokens, proxy.get("invalid_tokens", []))
-    score += 0.8 * _jaccard(profile_tokens, proxy.get("loop_tokens", []))
+    score += 0.7 * _jaccard(profile_tokens, proxy.get("invalid_tokens", []))
+    score += 0.6 * _jaccard(profile_tokens, proxy.get("loop_tokens", []))
+    score += 0.8 * _jaccard(profile_tokens, proxy.get("inventory_tokens", []))
+    score += 0.8 * _jaccard(profile_tokens, proxy.get("location_tokens", []))
+    score += 0.6 * _jaccard(profile_tokens, proxy.get("object_tokens", []))
     if not profile_tokens:
         score *= 0.1
-    return score
+    return _bounded(score, 0.0, 2.0)
 
 
 def diversity_score(
@@ -258,10 +432,17 @@ def risk_score(profile: Dict[str, Any], proxy: Dict[str, List[str]]) -> float:
         risk += 0.3
     risk += 0.8 * _jaccard(tokens, proxy.get("failure_tokens", []))
     risk += 0.6 * _jaccard(tokens, proxy.get("loop_tokens", []))
+    risk += 0.8 * _jaccard(tokens, proxy.get("failure_pattern_tokens", []))
     prompt = profile.get("prompt") or ""
     if isinstance(prompt, str) and len(prompt.strip()) < 20:
         risk += 0.2
-    return risk
+    prompt_tokens = Counter(_tokenize(prompt))
+    repeated_stall_terms = sum(
+        prompt_tokens[t] for t in ("look", "wait", "inventory") if prompt_tokens[t] > 2
+    )
+    if repeated_stall_terms:
+        risk += min(0.25, 0.05 * repeated_stall_terms)
+    return _bounded(risk, 0.0, 2.0)
 
 
 def _short_summary(profile: Dict[str, Any], n: int = 120) -> str:
@@ -284,6 +465,7 @@ def select_candidates(
     alpha_relevance: float = 1.0,
     beta_diversity: float = 0.5,
     gamma_risk: float = 0.7,
+    novelty_weight: float = 0.35,
     debug: bool = False,
     game_name: Optional[str] = None,
     logger=print,
@@ -344,9 +526,24 @@ def select_candidates(
         if max_score > 0:
             scores_prior = [s / max_score for s in scores_prior]
 
-        # initial pruning by combined relevance / risk / prior
+        visit_counts: List[int] = []
+        for p in profiles:
+            raw = p.get("raw")
+            try:
+                visit_counts.append(len(raw.get("children_idxs", [])) if isinstance(raw, dict) else 0)
+            except Exception:
+                visit_counts.append(0)
+
+        novelty = [
+            novelty_weight
+            * (0.5 + 0.5 * rel[i])
+            * (1.0 / (1.0 + visit_counts[i]))
+            for i in range(len(pool))
+        ]
+
+        # initial pruning by combined relevance / risk / prior / novelty
         base = [
-            (rel[i] - 0.6 * risk[i] + 0.3 * scores_prior[i], i)
+            (rel[i] - 0.55 * risk[i] + 0.25 * scores_prior[i] + novelty[i], i)
             for i in range(len(pool))
         ]
         base.sort(key=lambda x: x[0], reverse=True)
@@ -369,6 +566,7 @@ def select_candidates(
                     + beta_diversity * div
                     - gamma_risk * risk[i]
                     + 0.2 * scores_prior[i]
+                    + novelty[i]
                 )
                 if gain > best_gain:
                     best_gain = gain
@@ -382,6 +580,9 @@ def select_candidates(
                     "relevance": round(rel[best_i], 3),
                     "diversity": round(best_div, 3),
                     "risk": round(risk[best_i], 3),
+                    "novelty": round(novelty[best_i], 3),
+                    "prior": round(scores_prior[best_i], 3),
+                    "visits": visit_counts[best_i],
                     "final_score": round(best_gain, 3),
                     "summary": _short_summary(profiles[best_i]),
                 }
@@ -401,6 +602,32 @@ def select_candidates(
             native_selected = list(range(min(select_k, n_native)))
         reordered = [candidate_configs[i] for i in native_selected]
 
+        all_scores = []
+        selected_set = set(native_selected)
+        for i in range(n_native):
+            div = diversity_score(token_lists[i], [token_lists[j] for j in native_selected if j != i])
+            final = (
+                alpha_relevance * rel[i]
+                + beta_diversity * div
+                - gamma_risk * risk[i]
+                + 0.2 * scores_prior[i]
+                + novelty[i]
+            )
+            all_scores.append(
+                {
+                    "id": i,
+                    "relevance": round(rel[i], 3),
+                    "diversity": round(div, 3),
+                    "risk": round(risk[i], 3),
+                    "novelty": round(novelty[i], 3),
+                    "prior": round(scores_prior[i], 3),
+                    "visits": visit_counts[i],
+                    "final_score": round(final, 3),
+                    "selected": i in selected_set,
+                    "summary": _short_summary(profiles[i]),
+                }
+            )
+
         if debug:
             try:
                 logger(f"[DACS] enabled=True game={game_name}")
@@ -410,12 +637,23 @@ def select_candidates(
                 )
                 logger(f"[DACS] num filtered candidates = {len(native_selected)}")
                 logger(f"[DACS] selected/reordered candidate ids = {native_selected}")
+                proxy_counts = {
+                    key: len(value)
+                    for key, value in proxy.items()
+                    if key.endswith("_tokens") or key in ("progress_tokens", "invalid_tokens")
+                }
+                logger(f"[DACS] proxy token counts = {proxy_counts}")
                 logger("[DACS] candidate score table:")
-                logger("  id | relevance | diversity | risk | final_score | summary")
-                for row in scored_table:
+                logger(
+                    "  id | relevance | diversity | risk | novelty | prior | visits | "
+                    "final_score | selected | summary"
+                )
+                for row in all_scores:
                     logger(
                         f"  {row['id']} | {row['relevance']} | {row['diversity']} | "
-                        f"{row['risk']} | {row['final_score']} | {row['summary'][:80]}"
+                        f"{row['risk']} | {row['novelty']} | {row['prior']} | "
+                        f"{row['visits']} | {row['final_score']} | {row['selected']} | "
+                        f"{row['summary'][:80]}"
                     )
                 logger("[DACS] fallback=False")
             except Exception:
@@ -424,7 +662,8 @@ def select_candidates(
         return {
             "selected_indices": native_selected,
             "reordered_configs": reordered,
-            "scores": scored_table,
+            "scores": all_scores,
+            "selected_scores": scored_table,
             "fallback": False,
             "reason": "",
         }

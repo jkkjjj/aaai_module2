@@ -85,6 +85,10 @@ def parse_args():
                     help='Weight on diversity term in DACS gain.')
     parser.add_argument('--dacs_gamma_risk', type=float, default=0.7,
                     help='Weight on failure-risk penalty in DACS gain.')
+    parser.add_argument('--dacs_ucb_bonus_weight', type=float, default=0.75,
+                    help='Lightweight bonus weight for feeding DACS final scores into UCB parent routing.')
+    parser.add_argument('--dacs_novelty_weight', type=float, default=0.35,
+                    help='Weight for low-visit, relevant, diverse candidate novelty in DACS selection.')
     parser.add_argument('--dacs_debug', action='store_true', default=False,
                     help='Print DACS scoring tables and fallback reasons.')
 
