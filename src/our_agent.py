@@ -494,7 +494,15 @@ ACTION: examine book
                 continue
             if failures <= 0:
                 return c
-        return "look" if avoid != "look" and last_action != "look" else "inventory"
+        final_candidates = ["look", "south", "east", "north", "west", "inventory"]
+        for candidate in final_candidates:
+            key = self._action_key(candidate)
+            if key == avoid or key == last_action:
+                continue
+            if key == "inventory" and recent_actions.count("inventory") >= 2:
+                continue
+            return candidate
+        return "look"
 
     def _is_zero_score_plateau(self, steps: int = 12) -> bool:
         if len(self._recent_scores) < steps:
@@ -757,7 +765,10 @@ def extract_state(game_history):
                 max_tokens=3000,
                 temperature=self.args.evol_temperature,
             )
-            full_response = response.choices[0].message.content.strip()
+            content = ""
+            if response and getattr(response, "choices", None) and response.choices and response.choices[0].message:
+                content = response.choices[0].message.content or ""
+            full_response = content.strip()
             
             ret_prompt, ret_code = cur_prompt, cur_code
             new_prompt, new_code = self._parse_evolution_response(full_response)
