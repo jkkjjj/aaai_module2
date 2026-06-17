@@ -143,6 +143,19 @@ def extract_state(game_history):
         # Condition 3: large drop from best in last run
         elif self.force_best_after_drop and self.last_episode_score is not None and self.best_score - self.last_episode_score >= self.drop_threshold:
             should_exploit_best = True
+        # Condition 4: stabilize a freshly discovered strong configuration and
+        # recover quickly after a meaningful regression, without game-specific thresholds.
+        if (
+            self.best_node_idx is not None
+            and self.last_episode_score is not None
+            and self.best_score > 0
+        ):
+            if self.last_episode_score >= self.best_score:
+                should_exploit_best = True
+            else:
+                meaningful_drop = max(2.0, 0.25 * abs(float(self.best_score)))
+                if float(self.best_score) - float(self.last_episode_score) >= meaningful_drop:
+                    should_exploit_best = True
         
         # If we just unfroze because the frozen prompt failed to win, we must evolve next
         if self.just_unfroze_due_to_missed_win:
