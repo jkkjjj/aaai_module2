@@ -339,11 +339,11 @@ ACTION: examine book
         repeated_same = sum(1 for a in recent_same_state_actions if self._action_key(a) == action_key)
         stagnant = self._is_stagnating()
 
-        if failures > 0:
+        if failures > 0 and (stagnant or repeated_same > 0):
             return self._choose_escape_action(effective_state, reason="failed_action", avoid=action_key)
-        if attempts > 1 and (stagnant or action_key.startswith(("look", "inventory", "wait"))):
+        if attempts > 2 and (stagnant or action_key.startswith(("look", "inventory", "wait"))):
             return self._choose_escape_action(effective_state, reason="repeated_attempt", avoid=action_key)
-        if action_key.startswith("look") and (look_count >= 2 or stagnant):
+        if action_key.startswith("look") and (look_count >= 4 or (stagnant and look_count >= 2)):
             return self._choose_escape_action(effective_state, reason="look_loop", avoid=action_key)
         if repeated_same >= 2 and stagnant:
             return self._choose_escape_action(effective_state, reason="same_action_loop", avoid=action_key)
@@ -413,13 +413,14 @@ ACTION: examine book
             tried.add(avoid)
 
         candidates = []
-        candidates.extend(self._mentioned_directions(state))
-        candidates.extend([d for d in self._direction_words() if d not in candidates])
+        primary_dirs = self._mentioned_directions(state)
+        if not primary_dirs:
+            primary_dirs = ["north", "south", "east", "west", "up", "down"]
+        candidates.extend(primary_dirs)
+        candidates.extend([d for d in ["north", "south", "east", "west", "up", "down"] if d not in candidates])
         for obj in self._visible_object_candidates(state):
             candidates.append(f"examine {obj}")
             candidates.append(f"search {obj}")
-            candidates.append(f"open {obj}")
-            candidates.append(f"take {obj}")
         candidates.extend(["look", "inventory"])
 
         for candidate in candidates:
@@ -487,7 +488,7 @@ ACTION: examine book
         return False
 
     def _direction_words(self):
-        return ["north", "south", "east", "west", "up", "down", "in", "out", "northeast", "northwest", "southeast", "southwest"]
+        return ["north", "south", "east", "west", "up", "down"]
 
     def _mentioned_directions(self, state: str):
         text = (state or "").lower()
@@ -499,8 +500,6 @@ ACTION: examine book
             "west": ["west", "western"],
             "up": ["up", "above", "stair", "stairs", "staircase"],
             "down": ["down", "below"],
-            "in": ["inside", "entrance", "enter"],
-            "out": ["out", "outside", "exit"],
         }
         for direction, words in aliases.items():
             if any(re.search(rf"\b{re.escape(w)}\b", text) for w in words):
@@ -515,11 +514,11 @@ ACTION: examine book
             text,
         ):
             candidates.extend(self._nounish_tokens(match.group(1)))
-        for line in text.splitlines()[:6]:
-            candidates.extend(self._nounish_tokens(line))
         blocked = set(self._direction_words()) | {
             "you", "are", "the", "and", "with", "your", "this", "that", "here",
             "there", "room", "game", "score", "nothing", "interest", "way",
+            "ornately", "carved", "golden", "large", "small", "medium", "new",
+            "looking", "pretty", "tough", "simple", "single",
         }
         out = []
         for c in candidates:
