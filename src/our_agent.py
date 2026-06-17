@@ -68,6 +68,7 @@ def extract_state(game_history):
         self._inventory_items = []
         self._inventory_changed_recently = False
         self._last_taken_object = ""
+        self._state_success_actions = {}
     
     def add_to_memory(self, state, response):
         memory_entry = {"state": state, "response": response}
@@ -130,6 +131,7 @@ def extract_state(game_history):
         self._inventory_items = []
         self._inventory_changed_recently = False
         self._last_taken_object = ""
+        self._state_success_actions = {}
 
         should_exploit_best = False
         # Condition 1: explicit win-freeze threshold reached in prior runs
@@ -381,6 +383,12 @@ ACTION: examine book
             self._state_action_failures[(prev_state_key, action_key)] = (
                 self._state_action_failures.get((prev_state_key, action_key), 0) + 1
             )
+        elif current_state and not self._looks_like_invalid_feedback(current_state) and not self._looks_like_transient_feedback(current_state):
+            current_effective_key = self._state_key(current_state)
+            if current_effective_key != prev_state_key or self._last_reward > 0:
+                actions = self._state_success_actions.setdefault(prev_state_key, [])
+                if action_key and action_key not in actions:
+                    actions.append(action_key)
         self._recorded_outcomes = len(self._recent_actions)
 
     def _normalize_command(self, action_text: str) -> str:
@@ -405,6 +413,8 @@ ACTION: examine book
             return " ".join(parts[:2])
         if parts[0] in ("enter", "climb") and len(parts) > 2:
             return " ".join(parts[:2])
+        if parts[0] in ("examine", "search", "take", "get", "use", "open", "push") and len(parts) > 2 and parts[1] in ("at", "the", "a", "an"):
+            return " ".join([parts[0], parts[2]])
         if parts[0] == "look" and len(parts) > 1 and parts[1] not in ("in", "inside", "under", "behind"):
             return "examine " + " ".join(parts[1:3])
         return " ".join(parts[:5])
@@ -451,10 +461,30 @@ ACTION: examine book
                 self._inventory_changed_recently = False
             return c
 
-        fallback = "look" if avoid != "look" else "inventory"
+        fallback = self._recovery_escape_action(state_key, tried, avoid)
         if getattr(self.args, "debug_info", False) or getattr(self.args, "dacs_debug", False):
             print(f"[OurAgent] Action escape fallback ({reason}): {fallback}")
         return fallback
+
+    def _recovery_escape_action(self, state_key: str, tried, avoid: str = "") -> str:
+        candidates = []
+        candidates.extend(self._state_success_actions.get(state_key, []))
+        candidates.extend(["north", "south", "east", "west", "up", "down"])
+        candidates.extend(["look", "inventory"])
+        last_action = self._action_key(self._recent_actions[-1]) if self._recent_actions else ""
+        for candidate in candidates:
+            c = self._canonicalize_command(candidate)
+            key = self._action_key(c)
+            if not c or key == avoid or key == last_action:
+                continue
+            failures = self._state_action_failures.get((state_key, key), 0)
+            if key in self._state_success_actions.get(state_key, []):
+                return c
+            if key in tried and failures > 0:
+                continue
+            if failures <= 0:
+                return c
+        return "look" if avoid != "look" and last_action != "look" else "inventory"
 
     def _effective_state_for_action(self, current_state: str) -> str:
         if current_state and not self._looks_like_invalid_feedback(current_state) and not self._looks_like_transient_feedback(current_state):
