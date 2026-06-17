@@ -432,9 +432,11 @@ ACTION: examine book
         candidates = []
         primary_dirs = self._mentioned_directions(state)
         if not primary_dirs:
-            primary_dirs = ["north", "south", "east", "west", "up", "down"]
+            primary_dirs = ["north", "south", "east", "west"]
         candidates.extend(primary_dirs)
-        candidates.extend([d for d in ["north", "south", "east", "west", "up", "down"] if d not in candidates])
+        candidates.extend([d for d in ["north", "south", "east", "west"] if d not in candidates])
+        if any(d in primary_dirs for d in ("up", "down")):
+            candidates.extend([d for d in ["up", "down"] if d not in candidates])
         for obj in self._visible_object_candidates(state):
             candidates.append(f"examine {obj}")
             candidates.append(f"search {obj}")
@@ -569,6 +571,17 @@ ACTION: examine book
     def _mentioned_directions(self, state: str):
         text = (state or "").lower()
         dirs = []
+        direction_re = r"(north|south|east|west|up|down)"
+        explicit_patterns = [
+            rf"\b(?:exit|exits|door|doors|path|paths|passage|passages|way|ways)\b[^.\n]{{0,60}}\b(?:to|towards|toward|leads?|goes?|runs?)\b[^.\n]{{0,20}}\b{direction_re}\b",
+            rf"\b(?:to|towards|toward)\s+the\s+{direction_re}\b[^.\n]{{0,50}}\b(?:is|are|lies?|stands?|door|path|passage|way|exit)\b",
+            rf"\b{direction_re}\b[^.\n]{{0,35}}\b(?:exit|door|path|passage|way)\b",
+        ]
+        for pattern in explicit_patterns:
+            for match in re.finditer(pattern, text):
+                direction = next((g for g in match.groups() if g in self._direction_words()), None)
+                if direction and direction not in dirs:
+                    dirs.append(direction)
         aliases = {
             "north": ["north", "northern"],
             "south": ["south", "southern"],
