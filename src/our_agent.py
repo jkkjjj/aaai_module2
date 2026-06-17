@@ -461,21 +461,31 @@ ACTION: examine book
                 self._inventory_changed_recently = False
             return c
 
-        fallback = self._recovery_escape_action(state_key, tried, avoid)
+        fallback = self._recovery_escape_action(state, state_key, tried, avoid)
         if getattr(self.args, "debug_info", False) or getattr(self.args, "dacs_debug", False):
             print(f"[OurAgent] Action escape fallback ({reason}): {fallback}")
         return fallback
 
-    def _recovery_escape_action(self, state_key: str, tried, avoid: str = "") -> str:
+    def _recovery_escape_action(self, state: str, state_key: str, tried, avoid: str = "") -> str:
         candidates = []
         candidates.extend(self._state_success_actions.get(state_key, []))
-        candidates.extend(["north", "south", "east", "west", "up", "down"])
+        mentioned = self._mentioned_directions(state)
+        candidates.extend([d for d in mentioned if d not in candidates])
+        candidates.extend([d for d in ["north", "south", "east", "west"] if d not in candidates])
+        if any(d in mentioned for d in ("up", "down")):
+            candidates.extend([d for d in ["up", "down"] if d not in candidates])
         candidates.extend(["look", "inventory"])
         last_action = self._action_key(self._recent_actions[-1]) if self._recent_actions else ""
+        recent_actions = [self._action_key(a) for a in self._recent_actions[-12:]]
+        plateau = self._is_zero_score_plateau(12)
         for candidate in candidates:
             c = self._canonicalize_command(candidate)
             key = self._action_key(c)
             if not c or key == avoid or key == last_action:
+                continue
+            if plateau and key in recent_actions:
+                continue
+            if key == "inventory" and recent_actions.count("inventory") >= 2:
                 continue
             failures = self._state_action_failures.get((state_key, key), 0)
             if key in self._state_success_actions.get(state_key, []):
@@ -485,6 +495,12 @@ ACTION: examine book
             if failures <= 0:
                 return c
         return "look" if avoid != "look" and last_action != "look" else "inventory"
+
+    def _is_zero_score_plateau(self, steps: int = 12) -> bool:
+        if len(self._recent_scores) < steps:
+            return False
+        tail = self._recent_scores[-steps:]
+        return len(set(tail)) <= 1
 
     def _effective_state_for_action(self, current_state: str) -> str:
         if current_state and not self._looks_like_invalid_feedback(current_state) and not self._looks_like_transient_feedback(current_state):
