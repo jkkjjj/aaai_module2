@@ -89,6 +89,8 @@ def parse_args():
                     help='Lightweight bonus weight for feeding DACS final scores into UCB parent routing.')
     parser.add_argument('--dacs_novelty_weight', type=float, default=0.35,
                     help='Weight for low-visit, relevant, diverse candidate novelty in DACS selection.')
+    parser.add_argument('--dacs_actor_temperature_cap', type=float, default=0.15,
+                    help='When DACS is enabled, cap actor LLM temperature for more stable exploitation.')
     parser.add_argument('--dacs_debug', action='store_true', default=False,
                     help='Print DACS scoring tables and fallback reasons.')
 

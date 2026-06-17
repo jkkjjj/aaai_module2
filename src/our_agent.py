@@ -298,7 +298,7 @@ ACTION: examine book
             sys_prompt=sys_prompt,
             prompt=user_prompt,
             max_tokens=400,
-            temperature=self.args.llm_temperature,
+            temperature=self._actor_temperature(),
         )
 
         if res_obj and hasattr(res_obj, 'choices') and res_obj.choices and res_obj.choices[0].message:
@@ -320,6 +320,14 @@ ACTION: examine book
         # score will be added on step via update_game_history_reward
         
         return action_text.strip(), full_response
+
+    def _actor_temperature(self) -> float:
+        temperature = float(getattr(self.args, "llm_temperature", 0.4))
+        if getattr(self.args, "enable_dacs", False):
+            cap = getattr(self.args, "dacs_actor_temperature_cap", None)
+            if cap is not None:
+                temperature = min(temperature, float(cap))
+        return temperature
 
     def _parse_llm_response(self, full_response: str):
         """
