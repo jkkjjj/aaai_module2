@@ -1,4 +1,5 @@
 import math
+import re
 from .openai_helpers import chat_completion_with_retries
 from .cross_episode_memory import CrossEpisodeMemory
 from . import dacs as dacs_mod
@@ -60,6 +61,10 @@ def extract_state(game_history):
         self._recent_actions = []
         self._recent_scores = []
         self._dacs_candidate_bonus = {}
+        self._state_action_failures = {}
+        self._state_action_attempts = {}
+        self._recorded_outcomes = 0
+        self._last_reward = 0
     
     def add_to_memory(self, state, response):
         memory_entry = {"state": state, "response": response}
@@ -115,6 +120,10 @@ def extract_state(game_history):
         self._recent_states = []
         self._recent_actions = []
         self._recent_scores = []
+        self._state_action_failures = {}
+        self._state_action_attempts = {}
+        self._recorded_outcomes = 0
+        self._last_reward = 0
 
         should_exploit_best = False
         # Condition 1: explicit win-freeze threshold reached in prior runs
@@ -260,6 +269,7 @@ ACTION: examine book
 
     # Generates the next action from the LLM based on its memory and the current state node.
     def generate_action(self, state_node):
+        self._record_previous_action_outcome(state_node.state)
         sys_prompt, user_prompt, extracted_state = self.get_prompts(state_node)
         
         res_obj = chat_completion_with_retries(
@@ -277,6 +287,8 @@ ACTION: examine book
             print(f"Warning: LLM API call might have failed or returned empty. Defaulting action.")
             full_response = ""
             action_text = "look" # Default action
+
+        action_text = self._stabilize_action(action_text, state_node.state)
             
         self.add_to_memory(state_node.state, full_response)
         self._add_to_game_history(state_node.state, action_text, full_response, extracted_state)
@@ -306,6 +318,219 @@ ACTION: examine book
             print(f"Error parsing LLM response: {e}. Response was: '{full_response}'")
 
         return action_text
+
+    def _stabilize_action(self, action_text: str, current_state: str) -> str:
+        action = self._normalize_command(action_text)
+        action = self._canonicalize_command(action)
+        effective_state = self._effective_state_for_action(current_state)
+        state_key = self._state_key(effective_state)
+        action_key = self._action_key(action)
+
+        if not action:
+            return self._choose_escape_action(effective_state, reason="empty_action")
+
+        attempts = self._state_action_attempts.get((state_key, action_key), 0)
+        failures = self._state_action_failures.get((state_key, action_key), 0)
+        recent_same_state_actions = [
+            a for s, a in zip(self._recent_states[-12:], self._recent_actions[-12:])
+            if self._state_key(self._effective_state_for_action(s)) == state_key
+        ]
+        look_count = sum(1 for a in recent_same_state_actions if self._action_key(a).startswith("look"))
+        repeated_same = sum(1 for a in recent_same_state_actions if self._action_key(a) == action_key)
+        stagnant = self._is_stagnating()
+
+        if failures > 0:
+            return self._choose_escape_action(effective_state, reason="failed_action", avoid=action_key)
+        if attempts > 1 and (stagnant or action_key.startswith(("look", "inventory", "wait"))):
+            return self._choose_escape_action(effective_state, reason="repeated_attempt", avoid=action_key)
+        if action_key.startswith("look") and (look_count >= 2 or stagnant):
+            return self._choose_escape_action(effective_state, reason="look_loop", avoid=action_key)
+        if repeated_same >= 2 and stagnant:
+            return self._choose_escape_action(effective_state, reason="same_action_loop", avoid=action_key)
+
+        self._state_action_attempts[(state_key, action_key)] = attempts + 1
+        return action
+
+    def _record_previous_action_outcome(self, current_state: str):
+        if self._recorded_outcomes >= len(self._recent_actions):
+            return
+        if not self._recent_actions or not self._recent_states:
+            return
+        prev_state = self._recent_states[-1]
+        prev_action = self._recent_actions[-1]
+        prev_state_key = self._state_key(self._effective_state_for_action(prev_state))
+        action_key = self._action_key(prev_action)
+        current_key = self._state_key(current_state)
+        prev_key = self._state_key(prev_state)
+        failed = (
+            self._last_reward <= 0
+            and (
+                self._looks_like_invalid_feedback(current_state)
+                or current_key == prev_key
+                or action_key.startswith(("look", "inventory", "wait"))
+            )
+        )
+        if failed:
+            self._state_action_failures[(prev_state_key, action_key)] = (
+                self._state_action_failures.get((prev_state_key, action_key), 0) + 1
+            )
+        self._recorded_outcomes = len(self._recent_actions)
+
+    def _normalize_command(self, action_text: str) -> str:
+        if not action_text:
+            return ""
+        action = str(action_text).strip()
+        action = action.splitlines()[0].strip()
+        action = re.sub(r"^(action|command)\s*:\s*", "", action, flags=re.IGNORECASE).strip()
+        action = re.split(r"\s*(?:;|\bthen\b|\band then\b|,)\s*", action, maxsplit=1, flags=re.IGNORECASE)[0]
+        action = re.sub(r"\s+", " ", action).strip(" .\"'`")
+        return action.lower()
+
+    def _canonicalize_command(self, action: str) -> str:
+        if not action:
+            return ""
+        parts = action.split()
+        if not parts:
+            return ""
+        if parts[0] == "go" and len(parts) >= 2:
+            if parts[1] in self._direction_words():
+                return parts[1]
+            return " ".join(parts[:2])
+        if parts[0] in ("enter", "climb") and len(parts) > 2:
+            return " ".join(parts[:2])
+        if parts[0] == "look" and len(parts) > 1 and parts[1] not in ("in", "inside", "under", "behind"):
+            return "examine " + " ".join(parts[1:3])
+        return " ".join(parts[:5])
+
+    def _choose_escape_action(self, state: str, reason: str = "", avoid: str = "") -> str:
+        state_key = self._state_key(state)
+        tried = {
+            self._action_key(a)
+            for s, a in zip(self._recent_states, self._recent_actions)
+            if self._state_key(self._effective_state_for_action(s)) == state_key
+        }
+        if avoid:
+            tried.add(avoid)
+
+        candidates = []
+        candidates.extend(self._mentioned_directions(state))
+        candidates.extend([d for d in self._direction_words() if d not in candidates])
+        for obj in self._visible_object_candidates(state):
+            candidates.append(f"examine {obj}")
+            candidates.append(f"search {obj}")
+            candidates.append(f"open {obj}")
+            candidates.append(f"take {obj}")
+        candidates.extend(["look", "inventory"])
+
+        for candidate in candidates:
+            c = self._canonicalize_command(candidate)
+            key = self._action_key(c)
+            if not c or key in tried:
+                continue
+            if self._state_action_failures.get((state_key, key), 0) > 0:
+                continue
+            self._state_action_attempts[(state_key, key)] = (
+                self._state_action_attempts.get((state_key, key), 0) + 1
+            )
+            if getattr(self.args, "debug_info", False) or getattr(self.args, "dacs_debug", False):
+                print(f"[OurAgent] Action escape ({reason}): {c}")
+            return c
+
+        fallback = "look" if avoid != "look" else "inventory"
+        if getattr(self.args, "debug_info", False) or getattr(self.args, "dacs_debug", False):
+            print(f"[OurAgent] Action escape fallback ({reason}): {fallback}")
+        return fallback
+
+    def _effective_state_for_action(self, current_state: str) -> str:
+        if current_state and not self._looks_like_invalid_feedback(current_state):
+            return current_state
+        for prev in reversed(self._recent_states):
+            if prev and not self._looks_like_invalid_feedback(prev):
+                return prev
+        return current_state or ""
+
+    def _state_key(self, state: str) -> str:
+        text = re.sub(r"\s+", " ", (state or "").lower()).strip()
+        return text[:360]
+
+    def _action_key(self, action: str) -> str:
+        return re.sub(r"\s+", " ", (action or "").lower()).strip()
+
+    def _looks_like_invalid_feedback(self, state: str) -> bool:
+        text = (state or "").lower()
+        markers = [
+            "you can't",
+            "can't see",
+            "can't go",
+            "cannot",
+            "nothing happens",
+            "not a verb",
+            "don't understand",
+            "i beg your pardon",
+            "what do you want to",
+            "find nothing of interest",
+            "no reply",
+            "that's not something",
+            "you find nothing of interest",
+            "not available",
+            "doesn't seem interested",
+        ]
+        return any(m in text for m in markers)
+
+    def _is_stagnating(self) -> bool:
+        if len(self._recent_scores) >= 6 and len(set(self._recent_scores[-6:])) <= 1:
+            return True
+        if len(self._recent_states) >= 5:
+            keys = [self._state_key(self._effective_state_for_action(s)) for s in self._recent_states[-5:]]
+            if len(set(keys)) <= 2:
+                return True
+        return False
+
+    def _direction_words(self):
+        return ["north", "south", "east", "west", "up", "down", "in", "out", "northeast", "northwest", "southeast", "southwest"]
+
+    def _mentioned_directions(self, state: str):
+        text = (state or "").lower()
+        dirs = []
+        aliases = {
+            "north": ["north", "northern"],
+            "south": ["south", "southern"],
+            "east": ["east", "eastern"],
+            "west": ["west", "western"],
+            "up": ["up", "above", "stair", "stairs", "staircase"],
+            "down": ["down", "below"],
+            "in": ["inside", "entrance", "enter"],
+            "out": ["out", "outside", "exit"],
+        }
+        for direction, words in aliases.items():
+            if any(re.search(rf"\b{re.escape(w)}\b", text) for w in words):
+                dirs.append(direction)
+        return dirs
+
+    def _visible_object_candidates(self, state: str):
+        text = (state or "").lower()
+        candidates = []
+        for match in re.finditer(
+            r"(?:you can (?:also )?see|there is|there are|contains?|with|holding|carrying)\s+([^.\n]{1,100})",
+            text,
+        ):
+            candidates.extend(self._nounish_tokens(match.group(1)))
+        for line in text.splitlines()[:6]:
+            candidates.extend(self._nounish_tokens(line))
+        blocked = set(self._direction_words()) | {
+            "you", "are", "the", "and", "with", "your", "this", "that", "here",
+            "there", "room", "game", "score", "nothing", "interest", "way",
+        }
+        out = []
+        for c in candidates:
+            if c not in blocked and c not in out and len(c) > 2:
+                out.append(c)
+            if len(out) >= 6:
+                break
+        return out
+
+    def _nounish_tokens(self, text: str):
+        return re.findall(r"[a-z][a-z0-9_-]{2,}", text or "")
     
     def _add_to_game_history(self, state, action, full_response, extracted_state, reward=None, score=None):
         self.game_history.append({
@@ -322,6 +547,7 @@ ACTION: examine book
         if self.game_history and len(self.game_history) > 0:
             self.game_history[-1]["reward"] = reward
             self.game_history[-1]["score"] = score
+            self._last_reward = reward or 0
             if self.enable_cross_mem:
                 # For positives: if delta_score>0, persist (state->action)
                 if len(self._recent_scores) == 0:
