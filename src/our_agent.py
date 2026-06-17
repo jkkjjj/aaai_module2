@@ -65,6 +65,9 @@ def extract_state(game_history):
         self._state_action_attempts = {}
         self._recorded_outcomes = 0
         self._last_reward = 0
+        self._inventory_items = []
+        self._inventory_changed_recently = False
+        self._last_taken_object = ""
     
     def add_to_memory(self, state, response):
         memory_entry = {"state": state, "response": response}
@@ -124,6 +127,9 @@ def extract_state(game_history):
         self._state_action_attempts = {}
         self._recorded_outcomes = 0
         self._last_reward = 0
+        self._inventory_items = []
+        self._inventory_changed_recently = False
+        self._last_taken_object = ""
 
         should_exploit_best = False
         # Condition 1: explicit win-freeze threshold reached in prior runs
@@ -358,6 +364,7 @@ ACTION: examine book
             return
         prev_state = self._recent_states[-1]
         prev_action = self._recent_actions[-1]
+        self._update_inventory_signals(current_state, prev_action)
         prev_state_key = self._state_key(self._effective_state_for_action(prev_state))
         action_key = self._action_key(prev_action)
         current_key = self._state_key(current_state)
@@ -421,6 +428,11 @@ ACTION: examine book
         for obj in self._visible_object_candidates(state):
             candidates.append(f"examine {obj}")
             candidates.append(f"search {obj}")
+            candidates.append(f"take {obj}")
+        if self._inventory_changed_recently or self._is_stagnating():
+            for obj in self._current_inventory_candidates():
+                candidates.append(f"examine {obj}")
+                candidates.append(f"use {obj}")
         candidates.extend(["look", "inventory"])
 
         for candidate in candidates:
@@ -435,6 +447,8 @@ ACTION: examine book
             )
             if getattr(self.args, "debug_info", False) or getattr(self.args, "dacs_debug", False):
                 print(f"[OurAgent] Action escape ({reason}): {c}")
+            if self._inventory_changed_recently and any(c.endswith(f" {obj}") for obj in self._current_inventory_candidates()):
+                self._inventory_changed_recently = False
             return c
 
         fallback = "look" if avoid != "look" else "inventory"
@@ -443,10 +457,10 @@ ACTION: examine book
         return fallback
 
     def _effective_state_for_action(self, current_state: str) -> str:
-        if current_state and not self._looks_like_invalid_feedback(current_state):
+        if current_state and not self._looks_like_invalid_feedback(current_state) and not self._looks_like_transient_feedback(current_state):
             return current_state
         for prev in reversed(self._recent_states):
-            if prev and not self._looks_like_invalid_feedback(prev):
+            if prev and not self._looks_like_invalid_feedback(prev) and not self._looks_like_transient_feedback(prev):
                 return prev
         return current_state or ""
 
@@ -477,6 +491,14 @@ ACTION: examine book
             "doesn't seem interested",
         ]
         return any(m in text for m in markers)
+
+    def _looks_like_transient_feedback(self, state: str) -> bool:
+        text = re.sub(r"\s+", " ", (state or "").lower()).strip()
+        if not text:
+            return False
+        if text in {"taken.", "taken", "dropped.", "dropped", "done.", "done", "ok.", "ok"}:
+            return True
+        return text.startswith("you are carrying")
 
     def _is_stagnating(self) -> bool:
         if len(self._recent_scores) >= 6 and len(set(self._recent_scores[-6:])) <= 1:
@@ -510,16 +532,11 @@ ACTION: examine book
         text = (state or "").lower()
         candidates = []
         for match in re.finditer(
-            r"(?:you can (?:also )?see|there is|there are|contains?|with|holding|carrying)\s+([^.\n]{1,100})",
+            r"(?:you can (?:also )?see|there is|there are|contains?)\s+([^.\n]{1,120})",
             text,
         ):
-            candidates.extend(self._nounish_tokens(match.group(1)))
-        blocked = set(self._direction_words()) | {
-            "you", "are", "the", "and", "with", "your", "this", "that", "here",
-            "there", "room", "game", "score", "nothing", "interest", "way",
-            "ornately", "carved", "golden", "large", "small", "medium", "new",
-            "looking", "pretty", "tough", "simple", "single",
-        }
+            candidates.extend(self._object_heads_from_phrase(match.group(1)))
+        blocked = self._object_stopwords()
         out = []
         for c in candidates:
             if c not in blocked and c not in out and len(c) > 2:
@@ -528,8 +545,63 @@ ACTION: examine book
                 break
         return out
 
-    def _nounish_tokens(self, text: str):
-        return re.findall(r"[a-z][a-z0-9_-]{2,}", text or "")
+    def _object_heads_from_phrase(self, text: str):
+        cleaned = re.sub(r"\([^)]*\)", " ", text or "")
+        cleaned = re.sub(r"\b(?:here|nearby|around|visible|lying|standing|sitting)\b", " ", cleaned)
+        pieces = re.split(r"\s*(?:,|;|\band\b|\bor\b)\s*", cleaned)
+        out = []
+        for piece in pieces:
+            tokens = re.findall(r"[a-z][a-z0-9_-]{2,}", piece.lower())
+            meaningful = [t for t in tokens if t not in self._object_stopwords()]
+            if not meaningful:
+                continue
+            head = meaningful[-1]
+            if head not in out:
+                out.append(head)
+        return out
+
+    def _object_stopwords(self):
+        return set(self._direction_words()) | {
+            "you", "are", "the", "and", "with", "your", "this", "that", "here",
+            "there", "room", "game", "score", "nothing", "interest", "way",
+            "some", "any", "one", "two", "three", "four", "five", "many",
+            "ornately", "carved", "golden", "large", "small", "medium", "new",
+            "looking", "pretty", "tough", "simple", "single", "long", "wooden",
+            "old", "stone", "metal", "brass", "neat", "half", "finished",
+            "perhaps", "mostly", "empty", "front", "back", "side", "kind",
+            "direction", "description", "building", "office", "entrance",
+        }
+
+    def _current_inventory_candidates(self):
+        out = []
+        if self._last_taken_object:
+            out.append(self._last_taken_object)
+        for item in self._inventory_items:
+            if item not in out:
+                out.append(item)
+        return out[:4]
+
+    def _update_inventory_signals(self, state: str, action: str):
+        text = re.sub(r"\s+", " ", (state or "").lower()).strip()
+        action = self._action_key(action)
+        if text.startswith("you are carrying"):
+            items_part = text.split("you are carrying", 1)[1]
+            if "nothing" in items_part:
+                self._inventory_items = []
+            else:
+                parsed = self._object_heads_from_phrase(items_part.replace(":", " "))
+                if parsed:
+                    self._inventory_items = parsed[:6]
+            return
+        if text in {"taken.", "taken"} and action:
+            parts = action.split()
+            if parts and parts[0] in {"take", "get", "pick"} and len(parts) >= 2:
+                obj = parts[-1]
+                if obj not in self._object_stopwords():
+                    self._last_taken_object = obj
+                    if obj not in self._inventory_items:
+                        self._inventory_items.insert(0, obj)
+                    self._inventory_changed_recently = True
     
     def _add_to_game_history(self, state, action, full_response, extracted_state, reward=None, score=None):
         self.game_history.append({
