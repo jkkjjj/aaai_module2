@@ -709,7 +709,7 @@ Here is the history of that game session:
 PART 1: Generate a new improved guiding prompt. Consider:
 1. Identify useful actions that led to increases in score, or needed for progressing the game, ignoring useless actions. Give step-by-step instructions to perform these actions. ONLY give instructions that were strictly necessary for progressing the game or give rewards. Do not suggest possible future actions as they may not be correct.
 2. Discourage actions that led to negative outcomes, getting stuck, or unproductive for too long.
-3. When reaching the limit based on current game knowledge, list all possible rooms to search next, especially those that have been only lightly searched, and brainstorm possible next attempts, making clear that these are only guesses. Finally, suggest systematically exploring and interacting with rooms, objects, NPCs, inventory etc for clues.
+3. When reaching the limit based on current game knowledge, list lightly searched rooms and generic exploration categories. Do NOT promote unseen objects, unseen keys/codes, unseen NPCs, or unobserved mechanics into the main plan. A future action may be specific only if its object appeared in the environment text, inventory text, or a prior successful action; otherwise describe it as a low-priority generic guess.
 
 PART 2: Generate a state extractor Python code in a <code>...</code> block that analyzes the game history log and summarizes what milestones the agent has completed so far, i.e. significant progression towards completing the game. This should be a Python function that:
 1. Take the game history as input (a string with the log of the game states and agent's actions)
@@ -747,7 +747,7 @@ def extract_state(game_history):
             new_prompt, new_code = self._parse_evolution_response(full_response)
             
             if new_prompt and len(new_prompt) > 10:
-                ret_prompt = new_prompt
+                ret_prompt = self._repair_evolved_prompt(new_prompt)
             else:
                 print("Evolution LLM returned empty/short response, keeping current prompt")
             if new_code and self._validate_state_extractor(new_code) and len(new_code) > 10:
@@ -783,6 +783,22 @@ def extract_state(game_history):
         new_prompt = response.strip()
         
         return new_prompt, state_extractor_code
+
+    def _repair_evolved_prompt(self, prompt: str) -> str:
+        guard = (
+            "Evidence-first control: prioritize actions that previously increased score, "
+            "reached a new observation/location, interacted with a visible object, or used an "
+            "inventory item that was actually observed. Treat commands involving unseen objects, "
+            "unseen locks, unseen keys/codes, unseen NPCs, or inferred mechanics as low-priority "
+            "guesses only after systematic navigation, visible-object checks, and inventory checks. "
+            "Do not repeat a zero-reward action after invalid feedback unless new state text appears."
+        )
+        text = re.sub(r"\s+", " ", (prompt or "")).strip()
+        if not text:
+            return guard
+        if "Evidence-first control:" in text:
+            return text
+        return f"{guard}\n\n{text}"
     
     def _validate_state_extractor(self, state_extractor_code):
         
