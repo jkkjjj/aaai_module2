@@ -774,7 +774,10 @@ def extract_state(game_history):
             new_prompt, new_code = self._parse_evolution_response(full_response)
             
             if new_prompt and len(new_prompt) > 10:
-                ret_prompt = self._repair_evolved_prompt(new_prompt)
+                if self._is_speculative_evolved_prompt(new_prompt, cur_history_str):
+                    print("Evolution LLM returned over-speculative prompt, keeping current prompt")
+                else:
+                    ret_prompt = self._repair_evolved_prompt(new_prompt)
             else:
                 print("Evolution LLM returned empty/short response, keeping current prompt")
             if new_code and self._validate_state_extractor(new_code) and len(new_code) > 10:
@@ -826,6 +829,23 @@ def extract_state(game_history):
         if "Evidence-first control:" in text:
             return text
         return f"{guard}\n\n{text}"
+
+    def _is_speculative_evolved_prompt(self, prompt: str, history: str) -> bool:
+        prompt_text = (prompt or "").lower()
+        history_text = (history or "").lower()
+        if not prompt_text:
+            return True
+        speculative_terms = [
+            "key", "keys", "code", "codes", "password", "unlock", "locked",
+            "hidden", "secret", "npc", "character", "person", "switch",
+            "lever", "drawer", "note",
+        ]
+        unseen_terms = [t for t in speculative_terms if t in prompt_text and t not in history_text]
+        if len(unseen_terms) >= 2:
+            return True
+        if ("exact steps" in prompt_text or "follow these exact" in prompt_text) and unseen_terms:
+            return True
+        return False
     
     def _validate_state_extractor(self, state_extractor_code):
         
